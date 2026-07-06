@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "354971842040785b8393e42552e9362805f84e113e19556cb0ad8d6f96c538ea"
+hash = "52eca74962377a13bc64f73b9648f8205f1fb602f4f833fc143d04c64b828ff1"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "5d3ccee955ee6b5abf61ca9ad26889f33a3acc9eac41968aa1872e78e09bcd82"
+hash = "fc825562c21aa36f10716a93aa7328cae8ff8a3dd9fff9c788ecf2f5ebcc6c7c"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/tcdcommons.pw.toml"
-hash = "7678dcde37b7e2a3c29f9d9f3f71fa749fc7d57bcf9f10433f851702e364b30a"
+hash = "5131b59301cd6383ba6a523927b7f1f80cd4b12e39b072430a6364d708b454e6"
 metafile = true
 
 [[files]]
