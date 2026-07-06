@@ -2,3 +2,6 @@ node_modules/
 
 # GitHub Pages build output (assembled in CI, deployed via GitHub Actions)
 _site/
+
+# Mod jar cache for the compatibility checker
+scripts/.cache/

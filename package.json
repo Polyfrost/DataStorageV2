@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Data storage & packwiz bundle generation for OneClient",
   "scripts": {
-    "check": "node scripts/check.js"
+    "check": "node scripts/check.js",
+    "check:compat": "node scripts/compat-check.js",
+    "test": "node --test scripts/lib/*.test.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "bun": "forbidden, use pnpm instead"
   },
   "dependencies": {
-    "@iarna/toml": "^2.2.5"
+    "@iarna/toml": "^2.2.5",
+    "fflate": "^0.8.3"
   }
 }

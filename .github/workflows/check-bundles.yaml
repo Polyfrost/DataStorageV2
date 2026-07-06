@@ -30,3 +30,37 @@ jobs:
 
       - name: Check bundles
         run: pnpm check
+
+  CheckCompat:
+    name: Check mod compatibility (fabric.mod.json)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: "pnpm"
+
+      - name: Install node dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Jars are keyed by immutable Modrinth version id, so cache them between runs.
+      - name: Cache mod jars
+        uses: actions/cache@v4
+        with:
+          path: scripts/.cache/jars
+          key: mod-jars-${{ hashFiles('data/oneclient/bundles/.mrpacks/**/*.pw.toml') }}
+          restore-keys: |
+            mod-jars-
+
+      - name: Unit test version matcher
+        run: pnpm test
+
+      - name: Check compatibility
+        run: pnpm check:compat
