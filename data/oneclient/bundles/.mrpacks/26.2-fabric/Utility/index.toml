@@ -11,11 +11,6 @@ hash = "77683b77b9080fb1f7388c11a5c2abbf2c4b20e7c3f4e99f1328039fe33fe336"
 metafile = true
 
 [[files]]
-file = "mods/better-narrator-error.pw.toml"
-hash = "103524c2dc102a8fd61cd3407e8e1b267ec23ae5626a52824882c8fa1c84792d"
-metafile = true
-
-[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "354971842040785b8393e42552e9362805f84e113e19556cb0ad8d6f96c538ea"
 metafile = true
@@ -91,11 +86,6 @@ hash = "1c1a67de8e4c0fe39c37fdbb7381e9410f78863d44c4d454806a0fd220ce24c4"
 metafile = true
 
 [[files]]
-file = "mods/modernconfig.pw.toml"
-hash = "2f0d05f156bd6a7c83ded6aa4d731a52f1cfbcda96db8f90f4d89d9ed463267f"
-metafile = true
-
-[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "1084135bb448be04774f178f4be327e241fceef600a3040141d745e6f6dbb2ba"
 metafile = true
@@ -108,11 +98,6 @@ metafile = true
 [[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "f0ce936d0dfd74eb7091d682ad8fcf1ab0a1c29ba6c72c6dd6c9419df3a3c96c"
-metafile = true
-
-[[files]]
-file = "mods/quickjoin.pw.toml"
-hash = "b3b7789e9eb22477293a7b5bb9de903d92ce75382de653e13d13c13cf9c52bbf"
 metafile = true
 
 [[files]]
