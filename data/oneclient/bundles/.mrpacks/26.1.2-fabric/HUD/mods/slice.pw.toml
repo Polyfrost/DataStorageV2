@@ -1,0 +1,16 @@
+id = "dbuOrodS"
+enabled = true
+hidden = false
+name = "Slice - Radial hotbar"
+filename = "Slice-fabric&quilt-26.1.2-1.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dbuOrodS/versions/xO8G4ABL/Slice-fabric%26quilt-26.1.2-1.0.2.jar"
+hash-format = "sha512"
+hash = "22dac6f706c2a6a40c73dc3d3fa384444c845858e6fd31c969f99c441a3c34457de250bc12c836d46d603a444c173d73462ddef3d1cff2bef60e56a825390ddd"
+
+[update]
+[update.modrinth]
+mod-id = "dbuOrodS"
+version = "xO8G4ABL"

@@ -1,0 +1,16 @@
+id = "8yqXwFLl"
+enabled = true
+hidden = false
+name = "SkyBlock Profile Viewer"
+filename = "SkyBlockPv-1.8.6-26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8yqXwFLl/versions/W3jM7PJd/SkyBlockPv-1.8.6-26.1.jar"
+hash-format = "sha512"
+hash = "88877e6cdc0fcc663ba5e564c4ac2d09fdaf097033130d04c9c3243533816a847fc7aed9050bdaca878be9c28990867191988bbab70abb1210989f10885b63ff"
+
+[update]
+[update.modrinth]
+mod-id = "8yqXwFLl"
+version = "W3jM7PJd"
