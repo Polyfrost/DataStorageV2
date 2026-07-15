@@ -37,6 +37,7 @@
             "entries": [
                 {
                     "minor_version": 1,
+                    "patch_version": 2,
                     "name": "Tiny Takeover",
                     "loader": "fabric",
                     "tags": ["PvP", "SkyBlock", "Survival"]
@@ -49,6 +50,13 @@
                     "tags": ["PvP", "SkyBlock", "Survival"]
                 }
             ]
+        }
+    ],
+    "migrations": [
+        {
+            "id": "2026-07-15-26.1-to-26.1.2-fabric",
+            "from": { "mc_version": "26.1", "loader": "fabric" },
+            "to": { "mc_version": "26.1.2" }
         }
     ]
 }

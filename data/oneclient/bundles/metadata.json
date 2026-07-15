@@ -68,30 +68,6 @@
                 }
             ]
         },
-        "26.1": {
-            "fabric": [
-                {
-                    "path": "/oneclient/bundles/generated/hud-26.1-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
-                    "path": "/oneclient/bundles/generated/performance-26.1-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
-                    "path": "/oneclient/bundles/generated/qol-26.1-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
-                    "path": "/oneclient/bundles/generated/skyblock-26.1-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
-                    "path": "/oneclient/bundles/generated/utility-26.1-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                }
-            ]
-        },
         "26.1.2": {
             "fabric": [
                 {
