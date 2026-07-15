@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "7ed11d4719fe4da3fa3bd44f36795ba672f47a6c6a7303792f8783fd8b97acb7"
+hash = "0d21281df3e1aaa325c17c041b359d926a918be370f490c2f7258550cf6a32c2"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourcify.pw.toml"
-hash = "c474e9920a87e87cab5bcfaf13f5134574be83d4c2fef8505f70a9b673a9065c"
+hash = "159297dd4b2175f82093ed75497e5e38c02a46e5914a9ec705f75d686c076360"
 metafile = true
 
 [[files]]
