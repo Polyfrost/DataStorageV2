@@ -96,6 +96,11 @@ hash = "a5c28eabad474e2e932df9e0ccad75769d528cb0e37da266c05bf1d1bae5f44e"
 metafile = true
 
 [[files]]
+file = "mods/effecttimerplus.pw.toml"
+hash = "c5e0b3445b6b4503d03a64e79a66507b68ddaf731e4839e64e42263103c1aa47"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "8dfa34c4b14b784909884b5f8e9f4d625a235b5ce4ab357e1e0d0a1f86520e48"
 metafile = true
@@ -136,6 +141,11 @@ hash = "565bf0e4bcb4cf8c6a97286f014fc611140ad89a18ba48dcb2834cadcbc78560"
 metafile = true
 
 [[files]]
+file = "mods/improperui.pw.toml"
+hash = "1265af291c131b170d06f789228bfc35e4b37a224cb6262b33a9abebddc1def7"
+metafile = true
+
+[[files]]
 file = "mods/mixintrace.pw.toml"
 hash = "3105ed19c096d5622d9f7c88316068ffe2daf73b16f2b61762f3a5208d117af7"
 metafile = true
@@ -173,6 +183,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
 hash = "4ff1e551d7d0f0c0cf6068fa215a1afd63c66f688288e7c8fb59babd58e60065"
+metafile = true
+
+[[files]]
+file = "mods/no-ones-view-model.pw.toml"
+hash = "708efb1d7d5ae25685780c7d2a4f03d459ec26f89ac3f3e272b8616e800fe729"
 metafile = true
 
 [[files]]
@@ -266,6 +281,11 @@ hash = "a88c960ea9475bf14964bd26e4ce869b2848232dbc3107c9ee3e6c4d339da889"
 metafile = true
 
 [[files]]
+file = "mods/shaketweaks.pw.toml"
+hash = "cd21d37661e7f4d127dcf0a6f71c4702c908dce7489a3963b1fd321cd97218c7"
+metafile = true
+
+[[files]]
 file = "mods/smooth-scrolling-refurbished.pw.toml"
 hash = "04c6d913c61f07b00db7b2f401356aa7c2f1eeeee8c664cf13b88a66499ed9bc"
 metafile = true
@@ -283,6 +303,11 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-perfected.pw.toml"
 hash = "9eb6cebb2c98baf0a781cd0e9189bef146e9c8e08feee344fc74bcf1ab1e4a94"
+metafile = true
+
+[[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "deaff227b45fb6c0dc7b9e3ce88484098750c3f43b49d18394eafc8f925e3356"
 metafile = true
 
 [[files]]

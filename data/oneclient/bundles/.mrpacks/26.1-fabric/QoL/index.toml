@@ -110,6 +110,11 @@ hash = "853688f3eb156b8fd9e4d1e103f37dba16b873a06b3a8b0577385f07e44e2899"
 metafile = true
 
 [[files]]
+file = "mods/effecttimerplus.pw.toml"
+hash = "69079091a467efabeeb2d6844b1b67a04b37093a3a87d6abfc890c05aaadd883"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "2c1f799705c52e19d3ccdcf2c929438190a299bfb3af3b46e7edc2d048257875"
 metafile = true
@@ -187,6 +192,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
 hash = "df8b141827adbc331a623dc4d1a59861f6ad29239a7901e6f80ced0b87acd8ee"
+metafile = true
+
+[[files]]
+file = "mods/no-ones-view-model.pw.toml"
+hash = "5b7c9cb52bb1164be69d3840ab2b0a8e5044fec7dfcf23f762354baf0ca4e3d6"
 metafile = true
 
 [[files]]
@@ -290,6 +300,11 @@ hash = "b46ad82a8b6826c9350b70fc9ce8966886a3d63d092bec2275b4b53ac096c7e9"
 metafile = true
 
 [[files]]
+file = "mods/shaketweaks.pw.toml"
+hash = "e077af4843818078aa9ef9d5c088e0878833c626fed13328ad274ec98de8eed1"
+metafile = true
+
+[[files]]
 file = "mods/simple-nick-hider.pw.toml"
 hash = "af31ef42af87a1df0d9203e1f43554240adfc37d7ca3a3899c77f57bdc3b5f64"
 metafile = true
@@ -317,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "a7d3895720a4de5d686724a1ba05c057dde0c07e7f337006e23e287dcd502534"
+metafile = true
+
+[[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "c514673c733cd9fa3e2ce00ad26aee10a2d8feb98e044989324354da43062022"
 metafile = true
 
 [[files]]

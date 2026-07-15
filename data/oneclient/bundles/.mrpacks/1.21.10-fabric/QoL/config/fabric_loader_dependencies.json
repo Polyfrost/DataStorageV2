@@ -5,6 +5,11 @@
             "-depends": {
                 "minecraft": "IGNORED"
             }
+        },
+        "viewmodel": {
+            "-depends": {
+                "minecraft": "IGNORED"
+            }
         }
     }
 }

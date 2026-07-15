@@ -11,10 +11,6 @@
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/pvp-1.21.1-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
                     "path": "/oneclient/bundles/generated/qol-1.21.1-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
@@ -32,10 +28,6 @@
                 },
                 {
                     "path": "/oneclient/bundles/generated/performance-1.21.10-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
-                    "path": "/oneclient/bundles/generated/pvp-1.21.10-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
@@ -63,10 +55,6 @@
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/pvp-1.21.11-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
                     "path": "/oneclient/bundles/generated/qol-1.21.11-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
@@ -88,10 +76,6 @@
                 },
                 {
                     "path": "/oneclient/bundles/generated/performance-26.1-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
-                    "path": "/oneclient/bundles/generated/pvp-26.1-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
@@ -119,10 +103,6 @@
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/pvp-26.1.2-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
                     "path": "/oneclient/bundles/generated/qol-26.1.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
@@ -144,10 +124,6 @@
                 },
                 {
                     "path": "/oneclient/bundles/generated/performance-26.2-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
-                    "path": "/oneclient/bundles/generated/pvp-26.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
