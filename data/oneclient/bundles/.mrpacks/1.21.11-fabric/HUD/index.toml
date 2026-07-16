@@ -1,23 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/appleskin.pw.toml"
-hash = "447d246397d63f66f9f22bf233f999cbaf3dcfb82af3209cfece9bee206dff23"
-metafile = true
-
-[[files]]
 file = "mods/better-mount-hud.pw.toml"
 hash = "8efbb45ea6e576a6c8f2d08c5e0e33e7e372a09da33f7dfced25d11e14f92a6f"
-metafile = true
-
-[[files]]
-file = "mods/chat-impressive-animation.pw.toml"
-hash = "d4eb14a9e31ae3c6dbb228ddaa825b30264e5e4cd8defa8fb33d203533fc21af"
-metafile = true
-
-[[files]]
-file = "mods/chatshot.pw.toml"
-hash = "63ac603b9f5829d81494af25095e433c8dd9f53626f0edb7234d462d3d1e02db"
 metafile = true
 
 [[files]]
@@ -26,13 +11,13 @@ hash = "bbf28818ac59c19583f03d516a86b508e7da7a591c28d071c4e53effd4865bf6"
 metafile = true
 
 [[files]]
-file = "mods/compacting.pw.toml"
-hash = "c651c1bb726fe2e38f8c03f97dbdbcf458032402ae28318ceaf1adb861938019"
+file = "mods/detail-armor-bar-reconstructed.pw.toml"
+hash = "a1757da4d7705e7f613c984481a12a3f1f4088183a507c7f362492d3d82da045"
 metafile = true
 
 [[files]]
-file = "mods/detail-armor-bar-reconstructed.pw.toml"
-hash = "a1757da4d7705e7f613c984481a12a3f1f4088183a507c7f362492d3d82da045"
+file = "mods/evergreenhud.pw.toml"
+hash = "08a2e3dc1d9ffa6576a94639875adc0529db611c61547464eeabbd3ae235fbbc"
 metafile = true
 
 [[files]]
@@ -61,6 +46,11 @@ hash = "6dd3298aa00240b6f0c55c1b1fa943a3dccb3c2bf06cfd210962d00ab7393523"
 metafile = true
 
 [[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "1cdcd569a916dce1cc70c326515300cfa2ee84fb50624c34c50f73e505129953"
+metafile = true
+
+[[files]]
 file = "mods/slice.pw.toml"
 hash = "8b4b1738c4f769b62b20d45924846a06682d9cdbcb9b1290a6d279a6e75697b2"
 metafile = true
@@ -73,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/ukus-armor-hud.pw.toml"
 hash = "234c106c9adcee0e7ed1ed7500b39fbffc8c7d790384222a0e9f89eea33c9561"
+metafile = true
+
+[[files]]
+file = "mods/vanillahud.pw.toml"
+hash = "f1704b6b6478b65582330cdc327a49bb9bc1252aa5f8be2d6fd290ed75e6dd6d"
 metafile = true
 
 [[files]]

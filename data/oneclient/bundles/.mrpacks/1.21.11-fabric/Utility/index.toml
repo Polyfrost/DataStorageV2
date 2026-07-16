@@ -76,6 +76,11 @@ hash = "f257a9011255f3ae03f9bd9483e8152ebf7dbae220ab3c6f26cd0b7ee1279bd2"
 metafile = true
 
 [[files]]
+file = "mods/hitbox.pw.toml"
+hash = "d760e6052063adeecb3272687877864ef33c276ea9e9d14084aeebe6471435b2"
+metafile = true
+
+[[files]]
 file = "mods/hypixelautogg.pw.toml"
 hash = "d3b089f13d6018ddf3af0be6ddf238279a64270e94bf46deeafe44fd0db13792"
 metafile = true
@@ -121,6 +126,11 @@ hash = "ca47c5c95f23e06702a8663f106bf6019626508cc9d89f01e09d07541d63060c"
 metafile = true
 
 [[files]]
+file = "mods/polysprint.pw.toml"
+hash = "56fbb21ae4cb9a183dba3802c695c5057cd79bb7318f107142fc8526d5867d92"
+metafile = true
+
+[[files]]
 file = "mods/resourcify.pw.toml"
 hash = "294dd2d44253b164ca9a669a46e17c77dd66d85330383b15e536d61a4ffbc599"
 metafile = true
@@ -151,8 +161,8 @@ hash = "3a115dead8c57ccc09040034407723f5b2e8bc4d84008ad46f08f2d29887f627"
 metafile = true
 
 [[files]]
-file = "mods/sound-controller.pw.toml"
-hash = "d068f9268e33feff7a4e790c7f503ab67d5d27a21d1e9eb37f10ec71db489204"
+file = "mods/soundtweaks.pw.toml"
+hash = "713e2e4d7abe3bd092d9753f932478c3fa30f59680282eabc27c4a951767fe88"
 metafile = true
 
 [[files]]
@@ -168,11 +178,6 @@ metafile = true
 [[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "6d03e340dc5f18c91cbc155b9ae83cef9afe7c6450ddb85a7bffc19d2e476a61"
-metafile = true
-
-[[files]]
-file = "mods/toggle-toggle-sprint.pw.toml"
-hash = "8924c63b53c42a8416dff7dc484e28a0da2c0db7c4e3d909b6a4cac2a9f00758"
 metafile = true
 
 [[files]]

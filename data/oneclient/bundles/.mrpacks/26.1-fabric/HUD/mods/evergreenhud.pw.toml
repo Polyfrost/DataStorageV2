@@ -1,0 +1,16 @@
+id = "1yIQcc2b"
+enabled = true
+hidden = false
+name = "EvergreenHUD"
+filename = "evergreenhud-3.0.0+26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1yIQcc2b/versions/swu22Th3/evergreenhud-3.0.0%2B26.1.jar"
+hash-format = "sha512"
+hash = "ed01026ceee28377ebf228ab8fffd4754b19ce1f95a92f30c1f536df83b769038551babfcbe3e3faed58f3071418c102f63ebdd8b0bbf9b78c2e433671f8c171"
+
+[update]
+[update.modrinth]
+mod-id = "1yIQcc2b"
+version = "swu22Th3"

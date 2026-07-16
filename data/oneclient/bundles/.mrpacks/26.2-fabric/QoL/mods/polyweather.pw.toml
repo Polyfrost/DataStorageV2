@@ -1,0 +1,16 @@
+id = "r8Cr8YRg"
+enabled = true
+hidden = false
+name = "PolyWeather"
+filename = "PolyWeather-1.2.0+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/r8Cr8YRg/versions/zbohNNFp/PolyWeather-1.2.0%2B26.2.jar"
+hash-format = "sha512"
+hash = "64ab949890c7266c8c177802b363132ccdcb998ca751f149f05d9123b8ee21db000b2660914824707fe1c5f672e92c25f622b5da9c753e00e81e7c6feb71b79d"
+
+[update]
+[update.modrinth]
+mod-id = "r8Cr8YRg"
+version = "zbohNNFp"

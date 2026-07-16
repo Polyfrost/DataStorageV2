@@ -1,0 +1,16 @@
+id = "7hJZhArg"
+enabled = true
+hidden = false
+name = "SoundTweaks"
+filename = "soundtweaks-1.0.0+1.21.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7hJZhArg/versions/iTe19PNj/soundtweaks-1.0.0%2B1.21.10.jar"
+hash-format = "sha512"
+hash = "c27ba34bf40f80de7f77f55311f3fbc078aefe65de34b017e205275005687eed6f7f37e88f38d4133487a0d7100255201ad9ee591fd447bf5c155670e3ea4d07"
+
+[update]
+[update.modrinth]
+mod-id = "7hJZhArg"
+version = "iTe19PNj"
