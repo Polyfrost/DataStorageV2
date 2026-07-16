@@ -40,6 +40,11 @@ hash = "19d91a98d6a417f63b03f517ec38a5be1b4c450b5a8bf0841d78289a33c8691c"
 metafile = true
 
 [[files]]
+file = "mods/blur-plus.pw.toml"
+hash = "ee280d1d44b2853c8bf2cb8c29122e818738fad1635d57492ce4a6da7a6320c0"
+metafile = true
+
+[[files]]
 file = "mods/centered-crosshair.pw.toml"
 hash = "3eb136919b01f3a601f5e58d0cae6957734312147880121b0ae765ff53c416a7"
 metafile = true
@@ -372,6 +377,11 @@ metafile = true
 [[files]]
 file = "mods/tntcountdown.pw.toml"
 hash = "b83404512eaf3b8a548d7787233601aa7c46e6e821cb3951b01bc6688718d8d2"
+metafile = true
+
+[[files]]
+file = "mods/tooltip-scroll.pw.toml"
+hash = "9067aa4d3e87b36321b5061d8407f723f235778978b0a5f7863e9a5601bf732e"
 metafile = true
 
 [[files]]

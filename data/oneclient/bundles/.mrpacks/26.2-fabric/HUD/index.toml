@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "f9882e1810a02815747878859fd02e52e8810676780470373f105c697d3b570c"
+metafile = true
+
+[[files]]
 file = "mods/better-mount-hud.pw.toml"
 hash = "0882389119356e5852b340d1b99a413cabac3a47058ad3644b5ac53fa880668e"
 metafile = true
@@ -8,6 +13,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "40ee55428355b93464254c33db97b5d3b7c2df3f6c623daf714348ab85f07a1b"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "30f443ee61fc93e6ac5b2a651e45ba5c749c4dc8546ce4a2c5768f3e1ebe0319"
 metafile = true
 
 [[files]]
@@ -36,11 +46,6 @@ hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
 metafile = true
 
 [[files]]
-file = "mods/inventoryhudplus.pw.toml"
-hash = "a9b6c06c39f0a5c8838a1242c6b2066995d9b757830c004887877d181f85495c"
-metafile = true
-
-[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "3a51eb3ebd600eda95bfc132a61227d4396fbf6194e559209b34e16cb10c766a"
 metafile = true
@@ -53,16 +58,6 @@ metafile = true
 [[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "48a4b4109af0672f942cb053c35689024b4fb8e9573ce59cb4db2d7f6d1060fb"
-metafile = true
-
-[[files]]
-file = "mods/ukulib.pw.toml"
-hash = "d7407484b5a8c0d0c6bed0d9a9e258a5fe3aa6067cdb5b7e2b95cb6259ab2485"
-metafile = true
-
-[[files]]
-file = "mods/ukus-armor-hud.pw.toml"
-hash = "7cca617292e61cfbcd841ca1b653f1bb40998eab252da9e9678bfb9a3c9a6a09"
 metafile = true
 
 [[files]]
