@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "a96dfde50b1d73e0e58685d47f4d5cb7d7de9010acc4ee1bfe95ea409c56a3da"
+hash = "97a0f41311a11c0c1fb5b18167902c2b55af0cac056ed9e02a0f383d36dc5acc"
 metafile = true
 
 [[files]]
@@ -252,6 +252,11 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "bfd40059b9a534f5af8075f1909d5e830acac3596f1972365c94ea46879bc083"
+metafile = true
+
+[[files]]
+file = "mods/redaction.pw.toml"
+hash = "25867d181ac5e31fec6f17bbd9477550dc33f120176a4dec6f40a41c006e98de"
 metafile = true
 
 [[files]]

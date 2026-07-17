@@ -1,0 +1,16 @@
+id = "nF6YaBfO"
+enabled = true
+hidden = false
+name = "Hytils Reborn"
+filename = "Hytils Reborn-2.0.0+1.21.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nF6YaBfO/versions/SucEE1xo/Hytils%20Reborn-2.0.0%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "36c10ce0b300f9a322b528b182075cf86c39509a34f5deadf07ef5d1fccdcb8031d63e2d9194c5840344e06dac2d3c7682c2d76bff5fec206726ee812bdd91bd"
+
+[update]
+[update.modrinth]
+mod-id = "nF6YaBfO"
+version = "SucEE1xo"

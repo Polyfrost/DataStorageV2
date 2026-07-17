@@ -11,6 +11,11 @@ hash = "da17b555c53ce390b30cd6eb5357720fd2cca482fb5a927695ab8e74d679d3ad"
 metafile = true
 
 [[files]]
+file = "mods/behindyou.pw.toml"
+hash = "d315014d15b83f8669956930bf50bde3102a3fc909bfee749ae0055e333cb268"
+metafile = true
+
+[[files]]
 file = "mods/better-narrator-error.pw.toml"
 hash = "103524c2dc102a8fd61cd3407e8e1b267ec23ae5626a52824882c8fa1c84792d"
 metafile = true

@@ -11,6 +11,11 @@ hash = "6f9f45de64f847baaf73d4849f252bbb227f6f12b4d0fb4b769dcd431132a356"
 metafile = true
 
 [[files]]
+file = "mods/behindyou.pw.toml"
+hash = "17e4ca07897fd94c40715f38950d5b3a3fb09679507fd9c163c758684eb7a5e2"
+metafile = true
+
+[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "3f6c0de2201995292e2ff04cfb50bfc8b780569be32424e26f9f2e0756158edd"
 metafile = true
@@ -71,8 +76,18 @@ hash = "975e07ddc4a70ee7f0afc22ab553d91e2612f105a0a9f1f8b19aeb8f154d943e"
 metafile = true
 
 [[files]]
+file = "mods/hypixel-mod-api.pw.toml"
+hash = "2807dcd5529b12aa3b422651810801442c39cba10834c4f00f4980e2a91eae0a"
+metafile = true
+
+[[files]]
 file = "mods/hypixelautogg.pw.toml"
 hash = "8ababcabf8b9f502b6cfba349cb41398a3cc32a5013654add7e84e3d06c4344d"
+metafile = true
+
+[[files]]
+file = "mods/hytils.pw.toml"
+hash = "eb20898954e4d97e94766b875c7b644bd0fbc9f4fae6204d56b7d14088d8a9d5"
 metafile = true
 
 [[files]]

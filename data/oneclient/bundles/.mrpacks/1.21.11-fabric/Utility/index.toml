@@ -11,6 +11,11 @@ hash = "1f450b1df03f577fb2d34745cf43dca40553b17973c0e90fd2b30712e71e6ca9"
 metafile = true
 
 [[files]]
+file = "mods/behindyou.pw.toml"
+hash = "0024c49e84e1a1d5b740d01028ec92f6d00f7e80507705b018a6bd41a69678a8"
+metafile = true
+
+[[files]]
 file = "mods/better-narrator-error.pw.toml"
 hash = "103524c2dc102a8fd61cd3407e8e1b267ec23ae5626a52824882c8fa1c84792d"
 metafile = true
@@ -81,8 +86,18 @@ hash = "d760e6052063adeecb3272687877864ef33c276ea9e9d14084aeebe6471435b2"
 metafile = true
 
 [[files]]
+file = "mods/hypixel-mod-api.pw.toml"
+hash = "ba05ea4d42477c2306bddd6a8f708f1ec7a464c18219ee5adc13ad84aabdbbea"
+metafile = true
+
+[[files]]
 file = "mods/hypixelautogg.pw.toml"
 hash = "d3b089f13d6018ddf3af0be6ddf238279a64270e94bf46deeafe44fd0db13792"
+metafile = true
+
+[[files]]
+file = "mods/hytils.pw.toml"
+hash = "b4e6e205099a9e46a749cc096ddf977ca88e14da5989bd4c3ed0d77e3b322b74"
 metafile = true
 
 [[files]]
