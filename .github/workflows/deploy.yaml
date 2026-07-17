@@ -6,6 +6,13 @@ on:
     paths:
       - data/**
       - scripts/**
+  # The Update Bundles workflow pushes with GITHUB_TOKEN, which cannot trigger
+  # the push event above (GitHub's recursive-workflow guard). Chain off its
+  # completion so bundle updates actually get published.
+  workflow_run:
+    workflows: ["Update Bundles"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -21,6 +28,11 @@ jobs:
   build:
     name: Generate bundles and build site
     runs-on: ubuntu-latest
+    # Skip when chained off a failed Update Bundles run; always run for direct
+    # push / manual dispatch.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Git checkout
         uses: actions/checkout@v4
