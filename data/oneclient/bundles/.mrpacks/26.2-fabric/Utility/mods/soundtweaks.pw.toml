@@ -1,0 +1,16 @@
+id = "7hJZhArg"
+enabled = true
+hidden = false
+name = "SoundTweaks"
+filename = "soundtweaks-1.0.0+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7hJZhArg/versions/JeutHzN4/soundtweaks-1.0.0%2B26.2.jar"
+hash-format = "sha512"
+hash = "8a0778c686c114fe744c8105785abe6833cf5abfb482b5f18ddf8247f1dd0412282340a5503209e1bad66375f08f136262a95f07ea6cf20eb176e2a0fddd1cab"
+
+[update]
+[update.modrinth]
+mod-id = "7hJZhArg"
+version = "JeutHzN4"

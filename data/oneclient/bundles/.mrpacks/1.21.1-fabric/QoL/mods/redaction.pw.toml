@@ -1,0 +1,16 @@
+id = "Gapz72zt"
+enabled = true
+hidden = false
+name = "Redaction"
+filename = "REDACTION-2.0.0+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gapz72zt/versions/JdVVBXkt/REDACTION-2.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "cf9a0d1bb1e34c6ed9e741f990cb36b68800daba9b6f674539e760018567060793f3525c456a6b5a0f968a50a7cfb8a311c8ee9092c9f1627b0b95cf78178898"
+
+[update]
+[update.modrinth]
+mod-id = "Gapz72zt"
+version = "JdVVBXkt"

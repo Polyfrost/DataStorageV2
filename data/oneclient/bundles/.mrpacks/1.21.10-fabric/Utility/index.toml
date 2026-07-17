@@ -11,6 +11,11 @@ hash = "dbc4960d91ef836961171d8a13f8adc29ee6df2c63ea23efeca96fc93e5d280a"
 metafile = true
 
 [[files]]
+file = "mods/behindyou.pw.toml"
+hash = "03f7f9cd6d7b3a519801a7727a94a95d7b83bb70ededb34ad0a7d4e2cb48efb8"
+metafile = true
+
+[[files]]
 file = "mods/better-narrator-error.pw.toml"
 hash = "103524c2dc102a8fd61cd3407e8e1b267ec23ae5626a52824882c8fa1c84792d"
 metafile = true
@@ -76,8 +81,23 @@ hash = "61eb4c52a94a2716fba0a47109eff44951aa70fa3f618cc64a072e8561c59105"
 metafile = true
 
 [[files]]
+file = "mods/hitbox.pw.toml"
+hash = "10aa354231b7970fd7de332a91e70be4193cd90a20df5c4816de2d73a50dcdc5"
+metafile = true
+
+[[files]]
+file = "mods/hypixel-mod-api.pw.toml"
+hash = "ba05ea4d42477c2306bddd6a8f708f1ec7a464c18219ee5adc13ad84aabdbbea"
+metafile = true
+
+[[files]]
 file = "mods/hypixelautogg.pw.toml"
 hash = "d3b089f13d6018ddf3af0be6ddf238279a64270e94bf46deeafe44fd0db13792"
+metafile = true
+
+[[files]]
+file = "mods/hytils.pw.toml"
+hash = "b788eb00773938202419d149ea2dccc080b4cb0a9a74e6fb865439cd0bd08ee9"
 metafile = true
 
 [[files]]
@@ -116,6 +136,11 @@ hash = "06d5c516a3e893df9742f09cc489b73c5e72c6f2eafc4d1b116c641e97b5a2f2"
 metafile = true
 
 [[files]]
+file = "mods/polysprint.pw.toml"
+hash = "7cd1fe7fa6dcfa9247a3c2ae2cef23c9e3e7beafe169e2eaabcd2462e513c0d0"
+metafile = true
+
+[[files]]
 file = "mods/resourcify.pw.toml"
 hash = "9e6fed118f1d7547b96300b3965d778360168f9fe61fdada87d73b99032864ec"
 metafile = true
@@ -146,8 +171,8 @@ hash = "d228c27aca7e07c5cc5554597ddf63ac1797165dc48c118e0b3443d7bf41a498"
 metafile = true
 
 [[files]]
-file = "mods/sound-controller.pw.toml"
-hash = "6e0f414996a0e52109a89bcd70fa7e2192471bc02b6258fa25c279b69030e0e5"
+file = "mods/soundtweaks.pw.toml"
+hash = "4d1177d37cdaaf1c8ce6e4cce69cae63f2eed841b44de3dacaa88653be8d3bb0"
 metafile = true
 
 [[files]]
@@ -163,11 +188,6 @@ metafile = true
 [[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "1a53fd9a425b727d9f3b867b77c92755bc0ef387619c6947b8b64d6fc0782c7a"
-metafile = true
-
-[[files]]
-file = "mods/toggle-toggle-sprint.pw.toml"
-hash = "8924c63b53c42a8416dff7dc484e28a0da2c0db7c4e3d909b6a4cac2a9f00758"
 metafile = true
 
 [[files]]

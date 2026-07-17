@@ -50,13 +50,23 @@ hash = "3eb136919b01f3a601f5e58d0cae6957734312147880121b0ae765ff53c416a7"
 metafile = true
 
 [[files]]
-file = "mods/chat-heads.pw.toml"
-hash = "f2035b8617ad5517d64cc127ed62dd3ccd70ac2102f6f80b6e4de8d990c9dc9f"
+file = "mods/chatting.pw.toml"
+hash = "c182cad21a2be8bf326fcd4155ea6925875b081722460571a67e08e1549d6de1"
+metafile = true
+
+[[files]]
+file = "mods/chattweaks.pw.toml"
+hash = "a2b2ca49d9ccd33c3e430c2c8a803d9319b2b65f84a489ea84a52bc55a3783dc"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "9c22bad4f0d606f92ce105da00204c29aa2b356401cc5d1088f63bb02f90d351"
+metafile = true
+
+[[files]]
+file = "mods/colorsaturation.pw.toml"
+hash = "56118b717e675893fa55039c544a298fa8b67bdf62ba09288ef1c20ca3426f7a"
 metafile = true
 
 [[files]]
@@ -190,11 +200,6 @@ hash = "1c55ed514aeabd5f8960e9ed554cc303a98bf2c845bc29d6cc6e4ab96085e650"
 metafile = true
 
 [[files]]
-file = "mods/nametagtweaks.pw.toml"
-hash = "f7fd4179a1d4fd85058be89b093395ebb3477fcf576bda2cd914e1e9b38d7f05"
-metafile = true
-
-[[files]]
 file = "mods/nbt-autocomplete.pw.toml"
 hash = "bdf6067f65863068f71585423bec6f484aef15503ceac63de4f06b69795ea817"
 metafile = true
@@ -240,6 +245,11 @@ hash = "cb3555d4858820ab6e0914e846e848d42746bd843e632cce1458e89af96235de"
 metafile = true
 
 [[files]]
+file = "mods/overflowparticles.pw.toml"
+hash = "a1bec35cdef60464ce04667625966ee365bc859f5a32ebac53056483fb5e199d"
+metafile = true
+
+[[files]]
 file = "mods/overlaytweaks.pw.toml"
 hash = "2b00dadb4be55f64e05ea395a4d91b47a4e6fd185e3fed0638d0b8aee2a10b7a"
 metafile = true
@@ -250,8 +260,18 @@ hash = "ec8c86e8e0e3b67e54523e4b862868192466c4e2e2691af5d73f69f18acf2eac"
 metafile = true
 
 [[files]]
+file = "mods/polyblur.pw.toml"
+hash = "b668c990f5ada4553774d143d015d905a440d2344c927d9c1ac5251010b1ec5f"
+metafile = true
+
+[[files]]
+file = "mods/polynametag.pw.toml"
+hash = "3e7ad4ebfc5402ed312e03eec94bdf1b1692d105fd23ed7de59cb3a4474ac83d"
+metafile = true
+
+[[files]]
 file = "mods/polytime.pw.toml"
-hash = "ff4f69dbecd7fa54da430149e4fb682a63d19ccb3ece066ddeb1dd018deaf836"
+hash = "8c6234c39b80520a1914e7dce402ff6c19e39a7991a6969f6f2607da651f5bee"
 metafile = true
 
 [[files]]
@@ -270,6 +290,11 @@ hash = "22472d2e8c9c800d82f9d136ac985bb21a664ab39c99ee0f7f736331ccb16576"
 metafile = true
 
 [[files]]
+file = "mods/redaction.pw.toml"
+hash = "74e033e1ca35ae959b6f56c6a5db968602e6a2f7c79567f951082da0693e5267"
+metafile = true
+
+[[files]]
 file = "mods/rendertweaks.pw.toml"
 hash = "0c48822898ceb572329fea3fa108b568652235bafcd41fe7c7d479f656cb9b04"
 metafile = true
@@ -282,11 +307,6 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "36044ab399f0a85c5bf90aa2bc28e0bf4fcb451e759983f39d54832a2cdd56e2"
-metafile = true
-
-[[files]]
-file = "mods/scoreboardtweaks.pw.toml"
-hash = "9c009a8efd6da4ea1e05e4d529a567c8eb0455a424a610d40c191eef6a3f447c"
 metafile = true
 
 [[files]]
@@ -357,21 +377,6 @@ metafile = true
 [[files]]
 file = "mods/symbol-chat.pw.toml"
 hash = "5d360793274d6e422e85395018ea675ef0f6d023b74624809c1262da07b3967c"
-metafile = true
-
-[[files]]
-file = "mods/tabtweaks.pw.toml"
-hash = "235add68ed0e4c6a3bc12ad6f5e5108a934e1b859e855fbad459af2cc669ff57"
-metafile = true
-
-[[files]]
-file = "mods/text-tunnels.pw.toml"
-hash = "e98aeeffa9730ff8a365e4182ef2014037006149bd5a8fa38620a3bac4c71c0e"
-metafile = true
-
-[[files]]
-file = "mods/titletweaks.pw.toml"
-hash = "0aae38162b1b7270a40774a7ee6256f0d1e1a0dc06b4177d212b6c339b3448b7"
 metafile = true
 
 [[files]]

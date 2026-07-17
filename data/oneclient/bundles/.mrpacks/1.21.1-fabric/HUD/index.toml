@@ -11,16 +11,6 @@ hash = "955e7437e9a64d43ff4a3ec650b4811c7ac8304cd7d2fdfbf16c00a7df10df13"
 metafile = true
 
 [[files]]
-file = "mods/chat-impressive-animation.pw.toml"
-hash = "25570218b33a6eed6d131290853c4cf5224fb55e9b012dbd375bd4dd23665293"
-metafile = true
-
-[[files]]
-file = "mods/chatshot.pw.toml"
-hash = "00d9a1506076b0885231c9449569fe3e73dc8b8b5f556745e2f8e24fb827dcc8"
-metafile = true
-
-[[files]]
 file = "mods/clean-f3.pw.toml"
 hash = "288269e2aff73ea5adc4eda51bc797d0d8e6046469e5382bb115743359b8d1c6"
 metafile = true
@@ -31,13 +21,18 @@ hash = "37892a1101fb31f445c6c9e913e5090fc7dc4d7949f6856effbeafd62ef80d01"
 metafile = true
 
 [[files]]
-file = "mods/compacting.pw.toml"
-hash = "c651c1bb726fe2e38f8c03f97dbdbcf458032402ae28318ceaf1adb861938019"
+file = "mods/compose-multiplatform.pw.toml"
+hash = "30f443ee61fc93e6ac5b2a651e45ba5c749c4dc8546ce4a2c5768f3e1ebe0319"
 metafile = true
 
 [[files]]
 file = "mods/detail-armor-bar.pw.toml"
 hash = "55def88e464ef42c00af38e69a97100f0154be9c6c878fd9cf50872c49bb78b1"
+metafile = true
+
+[[files]]
+file = "mods/evergreenhud.pw.toml"
+hash = "6da922f00cc0464665f1b80443443bf0fc4481a10c45bada72bb4e12755a6844"
 metafile = true
 
 [[files]]
@@ -51,13 +46,13 @@ hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
 metafile = true
 
 [[files]]
-file = "mods/inventoryhudplus.pw.toml"
-hash = "786f3a6ed629e1bafd211366b13b12d1d38a5769244391c218cdc39c895fca04"
+file = "mods/midnightlib.pw.toml"
+hash = "2ba6377ddf084cce6043c95cfacfe64e64d7738ce3607ff8df3cb1062b6f7ad3"
 metafile = true
 
 [[files]]
-file = "mods/midnightlib.pw.toml"
-hash = "2ba6377ddf084cce6043c95cfacfe64e64d7738ce3607ff8df3cb1062b6f7ad3"
+file = "mods/oneconfig.pw.toml"
+hash = "7b34fba199dff949041d77a88b538f52da31b852a5a497bdf9a83e465709942e"
 metafile = true
 
 [[files]]
@@ -66,13 +61,8 @@ hash = "fff13e17bc4721a50170a6ceb523a8da57917cf42138d7466db5d35ba4b6e967"
 metafile = true
 
 [[files]]
-file = "mods/ukulib.pw.toml"
-hash = "20e1a1dcf94d75727bdc6794ddd91fd05eedd8ab0c74e47ebb10ad4b4d9de0f7"
-metafile = true
-
-[[files]]
-file = "mods/ukus-armor-hud.pw.toml"
-hash = "b645d09fcdae9e6a47209869d0a40e7dce8e8395b6fbf74091a7c9ab989f9777"
+file = "mods/vanillahud.pw.toml"
+hash = "31cfbc9c8299bebc11983be4ea3c802c696494822d6521e9eb48c0877d058d63"
 metafile = true
 
 [[files]]

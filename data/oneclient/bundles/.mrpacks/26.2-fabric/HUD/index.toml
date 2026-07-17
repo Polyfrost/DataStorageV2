@@ -11,18 +11,13 @@ hash = "0882389119356e5852b340d1b99a413cabac3a47058ad3644b5ac53fa880668e"
 metafile = true
 
 [[files]]
-file = "mods/chatshot.pw.toml"
-hash = "ae6457fb59dbb2976c43b91b9d1b65f1bc4ac9ad80f5ce6ecef6c2d3cada6a89"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "40ee55428355b93464254c33db97b5d3b7c2df3f6c623daf714348ab85f07a1b"
 metafile = true
 
 [[files]]
-file = "mods/compacting.pw.toml"
-hash = "6dd4f32a089f31a2e53e695155321cbd9ce9b9707ba9d4b71d40e71c132b5b58"
+file = "mods/compose-multiplatform.pw.toml"
+hash = "30f443ee61fc93e6ac5b2a651e45ba5c749c4dc8546ce4a2c5768f3e1ebe0319"
 metafile = true
 
 [[files]]
@@ -36,6 +31,11 @@ hash = "d71a708d341b1a7f68661bac2d83080db9d3867607390774a30ea3097e14d1fc"
 metafile = true
 
 [[files]]
+file = "mods/evergreenhud.pw.toml"
+hash = "1d58491896991c1744f412b61339a92910edeadfeed1f2456f1f9b1a68e73891"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "6635161c418aad4d69580152accd4bef8c048cb39ee8fcb4a7a60846854b9be7"
 metafile = true
@@ -43,11 +43,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
-metafile = true
-
-[[files]]
-file = "mods/inventoryhudplus.pw.toml"
-hash = "a9b6c06c39f0a5c8838a1242c6b2066995d9b757830c004887877d181f85495c"
 metafile = true
 
 [[files]]
@@ -61,13 +56,13 @@ hash = "e6ffd9afffe5fc20a453a188bf0d73c39b9cd1629c7cb7b1887a0f1fd87059a8"
 metafile = true
 
 [[files]]
-file = "mods/ukulib.pw.toml"
-hash = "d7407484b5a8c0d0c6bed0d9a9e258a5fe3aa6067cdb5b7e2b95cb6259ab2485"
+file = "mods/oneconfig.pw.toml"
+hash = "dd2bb80636cc6136ecebed2e6a9a89b118f71937d0d171e5462ae4ba814eaafa"
 metafile = true
 
 [[files]]
-file = "mods/ukus-armor-hud.pw.toml"
-hash = "7cca617292e61cfbcd841ca1b653f1bb40998eab252da9e9678bfb9a3c9a6a09"
+file = "mods/vanillahud.pw.toml"
+hash = "8b9657aa6e9de8cae5b0aa08f351708fd5dbd7f714a6487994e1831ff843ddc0"
 metafile = true
 
 [[files]]

@@ -1,0 +1,16 @@
+id = "fLNnSWgM"
+enabled = true
+hidden = false
+name = "ColorSaturation"
+filename = "colorsaturation-1.1.0+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fLNnSWgM/versions/IWk840by/colorsaturation-1.1.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "ffb6736f66c8c159fa8dae9c20355b3b37027785ffa8693cdaca2e2ee8c5eea61fdca56076691f964232f15dee08d934843ad3de7517a35e6ff80db70453e79e"
+
+[update]
+[update.modrinth]
+mod-id = "fLNnSWgM"
+version = "IWk840by"

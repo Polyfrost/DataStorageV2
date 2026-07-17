@@ -11,6 +11,11 @@ hash = "6f9f45de64f847baaf73d4849f252bbb227f6f12b4d0fb4b769dcd431132a356"
 metafile = true
 
 [[files]]
+file = "mods/behindyou.pw.toml"
+hash = "17e4ca07897fd94c40715f38950d5b3a3fb09679507fd9c163c758684eb7a5e2"
+metafile = true
+
+[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "3f6c0de2201995292e2ff04cfb50bfc8b780569be32424e26f9f2e0756158edd"
 metafile = true
@@ -66,8 +71,23 @@ hash = "6d86901c17e4da56de167adabebcb4de862448abd7031c611e4a0f21e8536151"
 metafile = true
 
 [[files]]
+file = "mods/hitbox.pw.toml"
+hash = "975e07ddc4a70ee7f0afc22ab553d91e2612f105a0a9f1f8b19aeb8f154d943e"
+metafile = true
+
+[[files]]
+file = "mods/hypixel-mod-api.pw.toml"
+hash = "2807dcd5529b12aa3b422651810801442c39cba10834c4f00f4980e2a91eae0a"
+metafile = true
+
+[[files]]
 file = "mods/hypixelautogg.pw.toml"
 hash = "8ababcabf8b9f502b6cfba349cb41398a3cc32a5013654add7e84e3d06c4344d"
+metafile = true
+
+[[files]]
+file = "mods/hytils.pw.toml"
+hash = "eb20898954e4d97e94766b875c7b644bd0fbc9f4fae6204d56b7d14088d8a9d5"
 metafile = true
 
 [[files]]
@@ -93,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "a506047739203cf2eef1c8f9624c83fd09a96ccafb1712301d540d967961f0b1"
+metafile = true
+
+[[files]]
+file = "mods/polysprint.pw.toml"
+hash = "78ca04ceac211dad0406148369fc531c0afe29c66142283c79fff4e0f006bac9"
 metafile = true
 
 [[files]]
@@ -126,8 +151,8 @@ hash = "74399b10dfdd3fc331f18ba4e9e796f6674f91ae323b218aca0011cd5e34824d"
 metafile = true
 
 [[files]]
-file = "mods/sound-controller.pw.toml"
-hash = "e0e74c3bc226851b1313f2aa900eebb988177005ccaf403276e93e8da0b48dfd"
+file = "mods/soundtweaks.pw.toml"
+hash = "4446b67398a0810ada9c04cc6ab66e43ab419d4489f75cc00fc7f5f352837047"
 metafile = true
 
 [[files]]
@@ -138,11 +163,6 @@ metafile = true
 [[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "b5c5956fb1996ad124cfff493cbd63238fe012df9d332cc0d83f3666b830201c"
-metafile = true
-
-[[files]]
-file = "mods/toggle-toggle-sprint.pw.toml"
-hash = "9b5fc9d651e26c21b16ad5be806b2e1e5499569d33e4b857457c05bbb4ba1c35"
 metafile = true
 
 [[files]]
