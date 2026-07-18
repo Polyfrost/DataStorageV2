@@ -155,6 +155,11 @@ hash = "2cf1f1ce8c40d92d4dd4d0088302833e1b667c691dfed857c4082c657c987129"
 metafile = true
 
 [[files]]
+file = "mods/fovchanger.pw.toml"
+hash = "975c61651096a13c58aed3d1ff945782f4dd5db0be65fe54eeb7fa5e3a882cf7"
+metafile = true
+
+[[files]]
 file = "mods/hold-that-chunk-v2.pw.toml"
 hash = "7d0458abe9bb090a795f32acd0461fb41f4b0a50d682f947faeb3fab627eb0a7"
 metafile = true
