@@ -1,0 +1,16 @@
+id = "Iw9mZi4a"
+enabled = true
+hidden = false
+name = "Poly+"
+filename = "polyplus-1.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iw9mZi4a/versions/fmA0Bune/polyplus-1.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "3670f47432493490c097c99f8572190d8ecef7a193b9051b3a19fd189d2dc46e85c0a9ca12fd699eb5ff6217f5a817d07322b5acea262dfd71fb68679fffe9e0"
+
+[update]
+[update.modrinth]
+mod-id = "Iw9mZi4a"
+version = "fmA0Bune"
