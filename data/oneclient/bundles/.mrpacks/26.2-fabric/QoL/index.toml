@@ -235,6 +235,11 @@ hash = "c06539d8146e4d0cdd2aaaa365551168cd7197e2417ad6c68b39c2131b8a4be2"
 metafile = true
 
 [[files]]
+file = "mods/polyplus.pw.toml"
+hash = "d2eef0973fc00f1d296107050b13ff7f89ccfc106d9880a94cfc621f100906bc"
+metafile = true
+
+[[files]]
 file = "mods/polytime.pw.toml"
 hash = "97a0f41311a11c0c1fb5b18167902c2b55af0cac056ed9e02a0f383d36dc5acc"
 metafile = true
