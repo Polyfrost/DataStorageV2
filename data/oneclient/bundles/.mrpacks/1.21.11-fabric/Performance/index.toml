@@ -6,11 +6,6 @@ hash = "1e8673ac87db89b84cb1bb8712cb403899f2dc3d9ec69c84167966350c6400ad"
 metafile = true
 
 [[files]]
-file = "mods/better-block-entities.pw.toml"
-hash = "42dc45a4550e7bf7db3d3f34228fa311793ce652f1e368fedc8aa409d7ce3865"
-metafile = true
-
-[[files]]
 file = "mods/better-mipmaps.pw.toml"
 hash = "4273e3044a11a77ab840a8652d24f591bf0aa71c4103de8b4993754a1a7242ab"
 metafile = true
@@ -143,6 +138,11 @@ metafile = true
 [[files]]
 file = "mods/noxesium.pw.toml"
 hash = "3d22391d697b39f61a5844e236a8e911d5404e076d457438972d77335d63f665"
+metafile = true
+
+[[files]]
+file = "mods/obe.pw.toml"
+hash = "173e9b8ff3541a1d561288eae27e3a3896b29de7c6128868f7951ae1643405e1"
 metafile = true
 
 [[files]]
