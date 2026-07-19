@@ -53,6 +53,9 @@ jobs:
         run: pnpm check
 
       - name: Generate bundles
+        env:
+          PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x ./scripts/*.sh
           ./scripts/generate-bundles.sh

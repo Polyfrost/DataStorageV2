@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/animatium.pw.toml"
-hash = "24731ca801d292c29b52b5c012fd143355619809580ae9c1d2cad4dd8b380779"
+hash = "37f4fd21716f8e6cd7c1ffae1b2df055ffe5fac69f2606f2b95f03e2b529f043"
 metafile = true
 
 [[files]]
@@ -48,6 +48,11 @@ metafile = true
 [[files]]
 file = "mods/controlify.pw.toml"
 hash = "eb8a222bbca151a95c50cb79337181d622adf1f4548360c26e0899305d733fc4"
+metafile = true
+
+[[files]]
+file = "mods/crashpatch.pw.toml"
+hash = "88086a7183257df40939d26fc0484ad6069d3d72a50ec128df56eb80293000ba"
 metafile = true
 
 [[files]]
@@ -108,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "c6260824bd2856b5348e6cd2e33224030926bcdcc3f8f24fcbb4b5f043ada6c0"
+metafile = true
+
+[[files]]
+file = "mods/notenoughcrashes.pw.toml"
+hash = "ae7ca6d02e37ff38235601f65111df053d2eafa9e9063f54654e9164bf2de588"
 metafile = true
 
 [[files]]

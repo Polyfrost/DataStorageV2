@@ -145,6 +145,11 @@ hash = "87ee374d9f4cf65e2227a7b8f6bb2e881e2b3376c086a1adb05aa65489c2ce04"
 metafile = true
 
 [[files]]
+file = "mods/fovchanger.pw.toml"
+hash = "0474a98894b93e175def4033bb595d1d194c3dadcca5f9a030812101d663f972"
+metafile = true
+
+[[files]]
 file = "mods/hold-that-chunk-v2.pw.toml"
 hash = "7d0458abe9bb090a795f32acd0461fb41f4b0a50d682f947faeb3fab627eb0a7"
 metafile = true
@@ -232,6 +237,11 @@ metafile = true
 [[files]]
 file = "mods/polynametag.pw.toml"
 hash = "c06539d8146e4d0cdd2aaaa365551168cd7197e2417ad6c68b39c2131b8a4be2"
+metafile = true
+
+[[files]]
+file = "mods/polyplus.pw.toml"
+hash = "19727e7aaa253088e4af7e42014582c3d44bd5e7ab9b235631e93cfdc7ad897a"
 metafile = true
 
 [[files]]

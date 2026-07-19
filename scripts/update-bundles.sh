@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Runs `packwiz update` on every pack under bundles/.mrpacks/<version>/<Bundle>,
 # bumping mods to their latest stable versions (updates the source .pw.toml files).
+# Mods in BETA_MODS get a second pass without --stable so they track pre-releases.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
@@ -18,12 +19,28 @@ source "$SCRIPT_DIR/setup-packwiz.sh"
 MAX_ATTEMPTS="${PACKWIZ_UPDATE_MAX_ATTEMPTS:-6}"
 INTER_BUNDLE_SLEEP="${PACKWIZ_UPDATE_SLEEP:-3}"
 
+# Mods that should track pre-release (beta/alpha) versions instead of stable.
+# Names match the mod's .pw.toml basename under each bundle's mods/ dir.
+# Expand this list to opt more mods into pre-release updates.
+BETA_MODS=(
+  skyhanni
+)
+
 update_bundle() {
   local bundle="$1"
-  local attempt=1 out wait
+  local attempt=1 out wait beta_out mod
   while (( attempt <= MAX_ATTEMPTS )); do
+    # Stable pass: bump every mod to its latest stable version.
     out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update -a -y --stable ) 2>&1 )" || true
     printf '%s\n' "$out"
+    # Beta pass: re-update opted-in mods without --stable so packwiz accepts the
+    # newest version regardless of release channel (beta/alpha).
+    for mod in "${BETA_MODS[@]}"; do
+      [ -f "$bundle/mods/$mod.pw.toml" ] || continue
+      beta_out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update "$mod" -y ) 2>&1 )" || true
+      printf '%s\n' "$beta_out"
+      out+=$'\n'"$beta_out"
+    done
     if ! grep -q '429' <<<"$out"; then
       return 0
     fi

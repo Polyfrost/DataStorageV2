@@ -16,6 +16,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Update bundles
+        env:
+          PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x ./scripts/*.sh
           ./scripts/update-bundles.sh
@@ -53,4 +56,8 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/oneclient/bundles/.mrpacks
           git commit -m "chore(update-bundles)" || echo "No changes to commit"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash && git push && break
+            echo "Push failed (attempt $i), retrying..."
+            sleep 5
+          done

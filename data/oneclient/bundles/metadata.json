@@ -35,10 +35,6 @@
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/skyblock-1.21.10-fabric.mrpack",
-                    "sha1": "${sha1(this.path)}"
-                },
-                {
                     "path": "/oneclient/bundles/generated/utility-1.21.10-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
