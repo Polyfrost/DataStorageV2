@@ -6,11 +6,6 @@ hash = "9065cf0eff952d4d965dfe609d662b359bf40bd9672903fcaaea15a26cc5437d"
 metafile = true
 
 [[files]]
-file = "mods/better-block-entities.pw.toml"
-hash = "086a97057f4fe9b91b8cfe82a3b307fa10b3c2de2896644a4efb91e34f9cf950"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "a3525e381c25e279b787614e47b2d8294e8fe708feaf0d681df65b1400fa4528"
 metafile = true
@@ -126,8 +121,13 @@ hash = "dbc8bc553820f647621587b03a30c4b9bab690c40ace6f9f7ca876f180d8e91a"
 metafile = true
 
 [[files]]
+file = "mods/obe.pw.toml"
+hash = "a73fa968add03de6e6d84528069fbee757cc07fe58bb56dc11fdaa69d5859aab"
+metafile = true
+
+[[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "49966d200683723977772f0dc7451f9839d2887988b6b1e550635e4977516ec0"
+hash = "f9a59fb730229a90298c352ab36ac30df1257c8722e310bc0e6ec1e8e3d91d91"
 metafile = true
 
 [[files]]

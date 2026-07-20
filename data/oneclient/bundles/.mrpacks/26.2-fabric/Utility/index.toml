@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "bbd690ec535a0ee4fc0b5836b3e34c70c27be97e3869894ccdfdf0a47b70ed2c"
+hash = "88030f42391b74ba5763f28e004b6279c72f9c6ad82efbd5912b55b371f0d286"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "7637cc1a87a4b8c264f78105950b2d45a4ab815a362c6eb488d12bc52b6aa505"
+hash = "88b640759d1beab38c97169f5e72e68b5d6232a02f6c6477c73df9ca1abaddf7"
 metafile = true
 
 [[files]]
@@ -117,12 +117,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "49966d200683723977772f0dc7451f9839d2887988b6b1e550635e4977516ec0"
+hash = "f9a59fb730229a90298c352ab36ac30df1257c8722e310bc0e6ec1e8e3d91d91"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "78ca04ceac211dad0406148369fc531c0afe29c66142283c79fff4e0f006bac9"
+hash = "d547fbbdd5e85f26e9a3806c61aa7755d28f8f480b5a3b164bd9d70db82c3df0"
 metafile = true
 
 [[files]]
@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "74399b10dfdd3fc331f18ba4e9e796f6674f91ae323b218aca0011cd5e34824d"
+hash = "8d1e6e31bfc0323212aa1c20e145aab3b125ec97d59ea4d221761dd97a03f06d"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/tcdcommons.pw.toml"
-hash = "e73e7621d5aeefd1c15c4d98b56600d5020f62d60f8c050591410a11059256a7"
+hash = "c5c4e0f00730fe22e4dc93de1a16f2a7cc39582debefe0fd34f16cbe3cc0e944"
 metafile = true
 
 [[files]]
