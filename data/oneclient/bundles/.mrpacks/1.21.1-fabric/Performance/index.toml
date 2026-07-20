@@ -151,11 +151,6 @@ hash = "9bd4f9b6008be54bf3cddd4ea69765fbe59449c199f6784a02ba4d5192030b23"
 metafile = true
 
 [[files]]
-file = "mods/quick-pack.pw.toml"
-hash = "47b919014db2903476a9402383cc6639b9fc1c2dd7d474fc076948b5fdcad1dd"
-metafile = true
-
-[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "5a3883bb2d6b943edc61f1dff826a328f5acfa119b6ae1200c016eb95aa6839b"
 metafile = true
