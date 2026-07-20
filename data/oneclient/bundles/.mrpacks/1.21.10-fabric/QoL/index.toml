@@ -220,11 +220,6 @@ hash = "4ff1e551d7d0f0c0cf6068fa215a1afd63c66f688288e7c8fb59babd58e60065"
 metafile = true
 
 [[files]]
-file = "mods/no-ones-view-model.pw.toml"
-hash = "b403f0ebc6dd00ad51ffab1cc31c7eb9151188a165b0a56c30801adfe4c39d1e"
-metafile = true
-
-[[files]]
 file = "mods/notsoessential.pw.toml"
 hash = "78c50dfb4a64563c21a9716062112e5ec8aa79cc703e2945402d53ec0ad9b9dd"
 metafile = true
