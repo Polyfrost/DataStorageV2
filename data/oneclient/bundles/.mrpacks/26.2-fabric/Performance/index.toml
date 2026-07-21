@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
-hash = "158ec8eae5cbb91adcf875d8f5fd3221a123df931ae0b2bbbb251f01ee816f4d"
+hash = "72f28c01103432bb02b20457edd674bb9a7e53b1c5887ba7d7949dd2664a6686"
 metafile = true
 
 [[files]]
@@ -177,5 +177,5 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "67f401425752098905a43238e8112e63eba3c25990f34826aed3879251b9c589"
+hash = "8f22dbc1106731a5e54c5b38472e3f364b25bab0171e5491aa430f4c361f1859"
 metafile = true

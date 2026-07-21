@@ -112,12 +112,12 @@ metafile = true
 
 [[files]]
 file = "mods/stella.pw.toml"
-hash = "2d5f68e50b1d648b5e7cbd63ddf8e6dd4acdea3bf92e775bed974960f2711930"
+hash = "0bc64a9641829f736d1307ac421bfd0298fcb9e0b30a7f2298a0a6b5b9724676"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "21b7720009020d5d0257287ac272df2ac9a55d4f787d1effeefef3527d271d30"
+hash = "59fcce1ec87b77cce50e9aa31b93293dbf31b6dbd6ebe6a093ffbff3cb9a3220"
 metafile = true
 
 [[files]]

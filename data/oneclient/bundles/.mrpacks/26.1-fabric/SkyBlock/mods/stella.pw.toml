@@ -2,15 +2,15 @@ id = "ZSWJelST"
 enabled = true
 hidden = false
 name = "Stella"
-filename = "stella-1.0.6+26.1-b3.jar"
+filename = "stella-26.1-1.0.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZSWJelST/versions/cvYS4RL9/stella-1.0.6%2B26.1-b3.jar"
+url = "https://cdn.modrinth.com/data/ZSWJelST/versions/rULp6nFp/stella-26.1-1.0.5.jar"
 hash-format = "sha512"
-hash = "f8961d82456a8cf70e28619c8233665d60d4ba42c7425a1c99149950917a798d46c3bc8dd4bfce96b0ef2e274a96b32cad18b6cb9557e4ae731495c3ce51b3b1"
+hash = "d7404de176231312f8b5dc73db0110f4280b91196a35f91db107928cca4d35055ec97cbb695abf27ef2d1c44715950ec0fc78e3ca0984119f3efbbac8208a22b"
 
 [update]
 [update.modrinth]
 mod-id = "ZSWJelST"
-version = "cvYS4RL9"
+version = "rULp6nFp"
