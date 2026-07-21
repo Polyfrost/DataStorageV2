@@ -51,11 +51,6 @@ hash = "767c290f0dad014357e018dce440a1939f9d7058c7c761649aa20dd737b8c691"
 metafile = true
 
 [[files]]
-file = "mods/marketguard.pw.toml"
-hash = "73fd837f6e6c62ad3d59633f1caf25efacaf9294b9f27c3e72777d979de730e1"
-metafile = true
-
-[[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "2377a3ff551d763b56f03c48f51afba807c78307f7ea64c971524310626bd516"
 metafile = true

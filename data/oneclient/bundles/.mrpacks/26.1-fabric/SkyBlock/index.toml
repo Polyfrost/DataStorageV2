@@ -51,11 +51,6 @@ hash = "b7fdd452deed57d2a9f7babe01bbb04b125ec347aef63ba16ef53d53000a4204"
 metafile = true
 
 [[files]]
-file = "mods/marketguard.pw.toml"
-hash = "6db05aa030d0c7c43996b1f4285601d34299a917195a3db44fc23f0336e4a354"
-metafile = true
-
-[[files]]
 file = "mods/odin.pw.toml"
 hash = "c6e5ad3f87d6cf0ca483af6d53ab3c5173bd0e83a3a16ffea9bbf963e0925276"
 metafile = true

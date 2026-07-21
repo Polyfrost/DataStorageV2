@@ -56,11 +56,6 @@ hash = "b7fdd452deed57d2a9f7babe01bbb04b125ec347aef63ba16ef53d53000a4204"
 metafile = true
 
 [[files]]
-file = "mods/marketguard.pw.toml"
-hash = "6db05aa030d0c7c43996b1f4285601d34299a917195a3db44fc23f0336e4a354"
-metafile = true
-
-[[files]]
 file = "mods/modern-warp-menu.pw.toml"
 hash = "320fd0febc0e93ec020815d47d3e2b6e080cfeb7bbeb167b0678fb24a3b5e754"
 metafile = true
