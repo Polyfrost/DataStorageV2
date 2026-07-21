@@ -1,0 +1,16 @@
+id = "IzWPcaNg"
+enabled = true
+hidden = false
+name = "BtrBz"
+filename = "btrbz-0.10.0-alpha+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IzWPcaNg/versions/vwlUhjvG/btrbz-0.10.0-alpha%2B26.2.jar"
+hash-format = "sha512"
+hash = "0191f495a875eafa7fe52a0195c0de88819e9613115faf1f338f865ae00f96d9ce59ea9be13415534a3c506d7175883385a9d299010e32438f69e63259971dee"
+
+[update]
+[update.modrinth]
+mod-id = "IzWPcaNg"
+version = "vwlUhjvG"

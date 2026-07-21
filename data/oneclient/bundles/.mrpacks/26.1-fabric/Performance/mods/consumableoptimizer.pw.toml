@@ -1,0 +1,16 @@
+id = "4alTd2ag"
+enabled = true
+hidden = false
+name = "Consumable Optimizer"
+filename = "ConsumableOptimizer-2.2.2-26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4alTd2ag/versions/dIxVOqud/ConsumableOptimizer-2.2.2-26.1.jar"
+hash-format = "sha512"
+hash = "d15444818ed08f4199d806c883633fb6e59c728c0085c7286568d7ea044606d59553a53bc9117914ba5a1cb7cbb8e2d24cb6db1d0ef3fbddd110acbf90d887eb"
+
+[update]
+[update.modrinth]
+mod-id = "4alTd2ag"
+version = "dIxVOqud"

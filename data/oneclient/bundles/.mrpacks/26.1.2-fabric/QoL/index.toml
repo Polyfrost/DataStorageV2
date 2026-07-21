@@ -40,6 +40,11 @@ hash = "adb04f281b2fd33467da2f49febc971c87077dbd25cbcc94444623d459f6fa8e"
 metafile = true
 
 [[files]]
+file = "mods/chatblock.pw.toml"
+hash = "f21e9afd9bced640bd54fe31f318eb1d0cc83c40388f33490b79a5fc5de18add"
+metafile = true
+
+[[files]]
 file = "mods/chatting.pw.toml"
 hash = "099820128ea6bdf7fc79dcdc1db7cd63fd784ad34a2cbb6ab1a46157e9c94ec2"
 metafile = true
@@ -82,6 +87,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "386a69a8184c91335ca1a3d2908039da0a94932443ebd3ef87536f74d731b885"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "be056af57853b19abe28999c356219deea4c003c13da5851c70a7db8bef52131"
 metafile = true
 
 [[files]]
@@ -130,6 +140,11 @@ hash = "2c1f799705c52e19d3ccdcf2c929438190a299bfb3af3b46e7edc2d048257875"
 metafile = true
 
 [[files]]
+file = "mods/entitycrosshair.pw.toml"
+hash = "6410861967ca4840eae5523a812e0ec7b10a71a76c6ce0cb08db8c7d621e8e07"
+metafile = true
+
+[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "5d323458f6b91ad1d0ad9cb78f0af5fe5b0d0b3864dac25b4fdfa7ff972dbade"
 metafile = true
@@ -162,6 +177,11 @@ metafile = true
 [[files]]
 file = "mods/hold-that-chunk-v2.pw.toml"
 hash = "7d0458abe9bb090a795f32acd0461fb41f4b0a50d682f947faeb3fab627eb0a7"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic-lite.pw.toml"
+hash = "8f518b39f8f698acba8ec7155734a1e9d1f1fb409575b61ded46517ed02e5abd"
 metafile = true
 
 [[files]]
@@ -202,11 +222,6 @@ metafile = true
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
 hash = "df8b141827adbc331a623dc4d1a59861f6ad29239a7901e6f80ced0b87acd8ee"
-metafile = true
-
-[[files]]
-file = "mods/no-ones-view-model.pw.toml"
-hash = "5b7c9cb52bb1164be69d3840ab2b0a8e5044fec7dfcf23f762354baf0ca4e3d6"
 metafile = true
 
 [[files]]
@@ -295,6 +310,16 @@ hash = "41ce6c734d454eb166770af185054cb02a4ab97248e8faa8389909eeb6c190ee"
 metafile = true
 
 [[files]]
+file = "mods/rescale.pw.toml"
+hash = "f1c437e90b9c5d3134d690e3963bde4d00e0bd450e22c2dd6b46bd188629f370"
+metafile = true
+
+[[files]]
+file = "mods/resourcepackcached.pw.toml"
+hash = "abb3ef779221d0230397d393ee381a81833472eda158349dfe6adc3be6807e18"
+metafile = true
+
+[[files]]
 file = "mods/reward-claim.pw.toml"
 hash = "2f7e5dbccc6f63540642e32f650613746053e2c17751dba95d38bd94ec068290"
 metafile = true
@@ -307,6 +332,11 @@ metafile = true
 [[files]]
 file = "mods/screencopy.pw.toml"
 hash = "05fcc0573e4c5a2b8eda2c5baba5a3c29f1ff4869ccfbcd6879cb4e8114af152"
+metafile = true
+
+[[files]]
+file = "mods/screenshotmessageenhancer.pw.toml"
+hash = "dc0baeb5924e87d4535b035e99d6c6c315a19f0e26106b2ffad3630557ef137f"
 metafile = true
 
 [[files]]

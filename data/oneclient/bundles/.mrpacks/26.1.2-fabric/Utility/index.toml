@@ -16,6 +16,11 @@ hash = "e7c3ce7a7878c8f6c39c67c19fa347e9f13702fe13d78169a25ecc801453191f"
 metafile = true
 
 [[files]]
+file = "mods/better-hypixel-chat.pw.toml"
+hash = "0611f60df59a5cfc0e1d992c5746be33aced48b95537bdd22bc857f923e4c793"
+metafile = true
+
+[[files]]
 file = "mods/better-narrator-error.pw.toml"
 hash = "103524c2dc102a8fd61cd3407e8e1b267ec23ae5626a52824882c8fa1c84792d"
 metafile = true
@@ -33,6 +38,11 @@ metafile = true
 [[files]]
 file = "mods/betternightvision.pw.toml"
 hash = "6ac2004b504f0e46ec96329779f38e2cff6cd564e99e3309514062b9f992a579"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "80ad0e49db089b47deda8147b50ea310e83f9f8a2fd5be9a20a52432ae16caaf"
 metafile = true
 
 [[files]]
@@ -81,6 +91,11 @@ hash = "21725538ce4eddb30d00eb2fe7b4065bea709c2014512c3ab024f3d035b8ff9b"
 metafile = true
 
 [[files]]
+file = "mods/hymod.pw.toml"
+hash = "47a8bb1522995cd80be26a0a0907dd5ab5ef67a348fb1680a01582b3efe5bd6c"
+metafile = true
+
+[[files]]
 file = "mods/hypixel-mod-api.pw.toml"
 hash = "2807dcd5529b12aa3b422651810801442c39cba10834c4f00f4980e2a91eae0a"
 metafile = true
@@ -88,6 +103,11 @@ metafile = true
 [[files]]
 file = "mods/hypixelautogg.pw.toml"
 hash = "18776c1c7e8032a493d43ca8042d79ed14cb6c4122b09541ffa7b97f3c6775e9"
+metafile = true
+
+[[files]]
+file = "mods/hypixelautotip.pw.toml"
+hash = "6800ad811335a1518357b8a35788515d7a55818dcb3aa27320d32d1e04c5402b"
 metafile = true
 
 [[files]]
@@ -146,6 +166,11 @@ hash = "7b0dee41b1f2d13dcf528b3b478d8718205ac135e68508f64073b4e4c34011e5"
 metafile = true
 
 [[files]]
+file = "mods/reward-claim.pw.toml"
+hash = "2f7e5dbccc6f63540642e32f650613746053e2c17751dba95d38bd94ec068290"
+metafile = true
+
+[[files]]
 file = "mods/rsls.pw.toml"
 hash = "70f3ca328120d260b0c4e9f4efe248e20d0bc2939e23ac268f134f0fe82850bb"
 metafile = true
@@ -173,6 +198,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "3bd34e3ecfdf47fe98c2d5e1970b56b0ffd5acbb3e044b3b4b4519d07698f74b"
+metafile = true
+
+[[files]]
+file = "mods/startup-timer.pw.toml"
+hash = "a682e60ccd8639299539081a92f9ab33f08fe09581d5d5f665cbffb6147d8804"
 metafile = true
 
 [[files]]

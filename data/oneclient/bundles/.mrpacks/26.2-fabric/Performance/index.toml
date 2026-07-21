@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "158ec8eae5cbb91adcf875d8f5fd3221a123df931ae0b2bbbb251f01ee816f4d"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "9065cf0eff952d4d965dfe609d662b359bf40bd9672903fcaaea15a26cc5437d"
 metafile = true
@@ -33,6 +38,11 @@ metafile = true
 [[files]]
 file = "mods/cull-fewer-leaves.pw.toml"
 hash = "9d9628c351223ecc516f7f9fdad90f597db2c90e1875f02e1a515e161ae8682c"
+metafile = true
+
+[[files]]
+file = "mods/debugify.pw.toml"
+hash = "7943c76fe3bb7797c2e6e25aae6c866b14f3e22a8728d4bc7d31b24632bc397d"
 metafile = true
 
 [[files]]
@@ -73,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "f29e68d4a3d46f8c31df61c1c43d4fe6992071a48d1c9eb254a3e957b7eccea7"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "7a9a354ed9a41840f9b38819473f74dacb07f96b43d69a143ad70e6ea48d2bdc"
 metafile = true
 
 [[files]]
@@ -131,6 +146,11 @@ hash = "edf71e2d9c54950c70115c678bf11ba876eff54664d4f19c33de859f2de23d35"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "9eca06acf1e3ef9b5ee95e026d7f3f44d275c9de98a40314045a3f78bfaae4e0"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "932a7a7fb1ada9434d8c3eccb8ccf13330d51370a3dff3e02beb7017d11c9f49"
 metafile = true
@@ -143,6 +163,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-compression.pw.toml"
 hash = "68f81b636a87df436a97a7223c9a9394e079abb62c9f7e8dac7dc96f7ec496bf"
+metafile = true
+
+[[files]]
+file = "mods/shuttfup.pw.toml"
+hash = "f081f8e32b490539f61fbe51d5b7976146ed33bf74fa4dcfdb1fbc6876e2024f"
 metafile = true
 
 [[files]]

@@ -1,0 +1,16 @@
+id = "ZSWJelST"
+enabled = true
+hidden = false
+name = "Stella"
+filename = "stella-1.0.6+26.1-b3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZSWJelST/versions/cvYS4RL9/stella-1.0.6%2B26.1-b3.jar"
+hash-format = "sha512"
+hash = "f8961d82456a8cf70e28619c8233665d60d4ba42c7425a1c99149950917a798d46c3bc8dd4bfce96b0ef2e274a96b32cad18b6cb9557e4ae731495c3ce51b3b1"
+
+[update]
+[update.modrinth]
+mod-id = "ZSWJelST"
+version = "cvYS4RL9"

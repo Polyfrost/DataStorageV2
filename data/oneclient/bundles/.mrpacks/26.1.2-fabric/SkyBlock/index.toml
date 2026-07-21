@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/btrbz.pw.toml"
+hash = "6b4b66ef02a7bcd305901e406d6bb85fe28137f108ad09d1b57ae06f7bb9dba8"
+metafile = true
+
+[[files]]
 file = "mods/catharsis.pw.toml"
 hash = "09d5d8b61a196f53bc3da9e222eda1f54d52fa99946a9dfaa94b585af77a8148"
 metafile = true
@@ -8,6 +13,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "58c8e94e25cd8c185aa9fb56bbbec13d600e7718d8ecc3a58bc767c4f2cf7b5b"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "30f443ee61fc93e6ac5b2a651e45ba5c749c4dc8546ce4a2c5768f3e1ebe0319"
 metafile = true
 
 [[files]]
@@ -21,8 +31,48 @@ hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
 metafile = true
 
 [[files]]
+file = "mods/feesh.pw.toml"
+hash = "deb38dcea8c7d541ccc2a6d36a820c87a09c4c6369304e7bedb23437ba8586e6"
+metafile = true
+
+[[files]]
 file = "mods/hypixel-mod-api.pw.toml"
 hash = "f08323ae85654864db79015aaf2f0843d4346279ea742449add846efb3fb75de"
+metafile = true
+
+[[files]]
+file = "mods/iconographic.pw.toml"
+hash = "fae9e3d9ef57c4ce4cc4c79776bbabce606b6178e514ad7f4caabdbdf17554ed"
+metafile = true
+
+[[files]]
+file = "mods/iq-addons.pw.toml"
+hash = "7414b421f0824936d2e9c2d9f56d8b5314ebb8dd0cb8252c949530f3aa73d0e5"
+metafile = true
+
+[[files]]
+file = "mods/legacyskyblock.pw.toml"
+hash = "b7fdd452deed57d2a9f7babe01bbb04b125ec347aef63ba16ef53d53000a4204"
+metafile = true
+
+[[files]]
+file = "mods/marketguard.pw.toml"
+hash = "6db05aa030d0c7c43996b1f4285601d34299a917195a3db44fc23f0336e4a354"
+metafile = true
+
+[[files]]
+file = "mods/modern-warp-menu.pw.toml"
+hash = "320fd0febc0e93ec020815d47d3e2b6e080cfeb7bbeb167b0678fb24a3b5e754"
+metafile = true
+
+[[files]]
+file = "mods/odin.pw.toml"
+hash = "c6e5ad3f87d6cf0ca483af6d53ab3c5173bd0e83a3a16ffea9bbf963e0925276"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "6013f9ab73b19a2ab83989bf51f9e3ba7a6908ab6c31968a6d195418a0fc26a6"
 metafile = true
 
 [[files]]
@@ -33,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
 hash = "ce686e67909506b7da259dff02f4c95a9f8ef1d2246118fad92cb08283818f10"
+metafile = true
+
+[[files]]
+file = "mods/skyblock-overhaul.pw.toml"
+hash = "75f99283b19827bcdb93a9d8ca2ab119a91f80b39197bf36590a4ab087d08ae7"
 metafile = true
 
 [[files]]
@@ -61,6 +116,11 @@ hash = "9532e556fff80d3dac47de956faa6584c9716123e135f26f695d9f0ecb19c852"
 metafile = true
 
 [[files]]
+file = "mods/stella.pw.toml"
+hash = "2d5f68e50b1d648b5e7cbd63ddf8e6dd4acdea3bf92e775bed974960f2711930"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "21b7720009020d5d0257287ac272df2ac9a55d4f787d1effeefef3527d271d30"
 metafile = true
@@ -78,6 +138,16 @@ metafile = true
 [[files]]
 file = "resourcepacks/furfsky-reborn.pw.toml"
 hash = "203f6a8c3752f796b656eda62105c01ecec5adc83365daea2816bcb2b6ac69d0"
+metafile = true
+
+[[files]]
+file = "resourcepacks/hypixel-skyblock-enchanted-books.pw.toml"
+hash = "a71b236b0d2cc6a1c07c6122a1f4a8c6c7b9bfc919c2dc0d03e6c9f3ecdff342"
+metafile = true
+
+[[files]]
+file = "resourcepacks/hypixel-skyblock-legacy.pw.toml"
+hash = "348c0c583fcd8edb78179ed620c8636d0e17a03b607aaee21a8bee2ad38d92ac"
 metafile = true
 
 [[files]]

@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "158ec8eae5cbb91adcf875d8f5fd3221a123df931ae0b2bbbb251f01ee816f4d"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "c8b55307c45ef887c6f503def0f03c3209939873b34d5cda7170d2d06e8785da"
 metafile = true
@@ -28,6 +33,11 @@ metafile = true
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "4e4aa134cd255d6ab0b6feb25a8729c505f8120ed95067cf47b81b5628d3e700"
+metafile = true
+
+[[files]]
+file = "mods/consumableoptimizer.pw.toml"
+hash = "7994d140a78c69c87568c7152366a3c798cd0779051b743611f8c8bc10beceb0"
 metafile = true
 
 [[files]]
@@ -83,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "c363c4e32b3e45ff4bd97a0ea4e57a994b609499f83411c8757b210b943c90de"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "beea690a266b1001be0a51a0dee11645dcbdb3920f01a525ad160a19d7e31ede"
 metafile = true
 
 [[files]]
@@ -146,6 +161,11 @@ hash = "cac130f0cdb7221ee6f4d64edf0b98fbd96313f9b179d7f74a15bc0ccd80c7f1"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "ee9ff39e40c33bedb9588e75eca109e013b03c6f2425ae597e52e64968f8233e"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "a83b41d9c7c3dc3eaa0b80317a579ed72aec8a7568d7ca2879a0a7de779be38b"
 metafile = true
@@ -161,6 +181,11 @@ hash = "773c859a79a1017d9bf7c4993fe72674c823890624de27c30e1906705dc29023"
 metafile = true
 
 [[files]]
+file = "mods/shuttfup.pw.toml"
+hash = "9ef13f7faf7e10311495ce8d66bebe36e516f39bffd03b58eb5d8f78c4ae3f85"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "fe9153b3ef287bc8426c10b96be23f31fda11d4a43a3b6f85ab7e1edcd59bff5"
 metafile = true
@@ -168,6 +193,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "f1fd50a0600bb7ea785d5fd62f7922b434c1e513b5945ae877a25e6f6021e609"
+metafile = true
+
+[[files]]
+file = "mods/walksylib.pw.toml"
+hash = "dc23bb2f0daefbe768232dd60e4c4f83096c4c1e2f41f7063e949bf321f64f7b"
 metafile = true
 
 [[files]]

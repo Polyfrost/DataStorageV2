@@ -1,0 +1,16 @@
+id = "3IwykNr3"
+enabled = true
+hidden = false
+name = "Better Hypixel Chat"
+filename = "better_hypixel_chat-0.3.2+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3IwykNr3/versions/ZTUBZW1n/better_hypixel_chat-0.3.2%2B26.2.jar"
+hash-format = "sha512"
+hash = "5ef235e6f32f0de88e5aa24f7a6dac8bdc606ff0995b80c04d6346c37fad5db4fcba65e3d68a664709001f141a176240c13f1339a2b86564b2dd5143ed80f693"
+
+[update]
+[update.modrinth]
+mod-id = "3IwykNr3"
+version = "ZTUBZW1n"

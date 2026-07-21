@@ -1,0 +1,16 @@
+id = "QCpogurE"
+enabled = true
+hidden = false
+name = "Feesh"
+filename = "Feesh-1.10.0+26.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/QCpogurE/versions/OC9hy3A3/Feesh-1.10.0%2B26.1-fabric.jar"
+hash-format = "sha512"
+hash = "f96c80d54d324d9c92f65cc8f8afc2fb0a5b93b5231eaa44bde737bad523eea33f94688624002347fdb4a3681e647f17802f82b8b8fa3aca23f4189ff7f92898"
+
+[update]
+[update.modrinth]
+mod-id = "QCpogurE"
+version = "OC9hy3A3"
