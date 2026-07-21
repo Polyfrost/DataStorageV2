@@ -166,11 +166,6 @@ hash = "68f81b636a87df436a97a7223c9a9394e079abb62c9f7e8dac7dc96f7ec496bf"
 metafile = true
 
 [[files]]
-file = "mods/shuttfup.pw.toml"
-hash = "f081f8e32b490539f61fbe51d5b7976146ed33bf74fa4dcfdb1fbc6876e2024f"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "1911ca51df104d2bd6636e4d944ec79940e9be7d393a80e050b5146919459c36"
 metafile = true
