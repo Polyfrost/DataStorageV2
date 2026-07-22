@@ -10,11 +10,6 @@ hash = "6f417cc2e8b6b79e8cf77d75fb289e74086230986a0cd14d31acca625cf8f62b"
 metafile = true
 
 [[files]]
-file = "mods/amecs.pw.toml"
-hash = "d114b29c5baf941a3037606daba6be56e7cd5ece7e075f1e81e1cd2fe09bc759"
-metafile = true
-
-[[files]]
 file = "mods/animaticarefabricated.pw.toml"
 hash = "2ed0967728c47ba1055f943e7d8bc09b343068a17d4319a0f3b348a7914ffda0"
 metafile = true
@@ -46,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatting.pw.toml"
-hash = "4d0aa24f945808fe6e48b970ffe4ae0023e44a82b467aca8c2e193f34c50eed1"
+hash = "04468f7a3827ad232cd907299b51e369a027f91b095b0b45764ed6544f1da100"
 metafile = true
 
 [[files]]
@@ -261,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "e3dd9332d3f24a5514e9d97514573a8824b930f75d172533c1e751a60b9bf8b2"
+hash = "37263ead80b3d25d354c4a09ef2ef22553caffbf6cfb5b873fbedd7f9613d3ae"
 metafile = true
 
 [[files]]
@@ -271,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "e6d2f2c4d561474e5f0c4b18e26bdc79587b3ed40b7089fe3042b8e2057ea6ab"
+hash = "48ac5c6915567ae237c7b9c37813fa75be04891442e944b134a1100a2324f348"
 metafile = true
 
 [[files]]
