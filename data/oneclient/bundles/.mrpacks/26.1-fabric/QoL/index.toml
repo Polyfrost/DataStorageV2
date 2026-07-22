@@ -10,11 +10,6 @@ hash = "0c16a83461315a5454a9c70345a0386894cad311ecd56e160d6c39ecab384252"
 metafile = true
 
 [[files]]
-file = "mods/amecs.pw.toml"
-hash = "106813eb6cd8bd021edf7bcdd8e6eb7eeaf12b7937a51ef49afe44c62c37c0d1"
-metafile = true
-
-[[files]]
 file = "mods/animaticarefabricated.pw.toml"
 hash = "b34f5ced7689efc2f044586b41db5b668092d466101ff0a8980b4d449412dc19"
 metafile = true
