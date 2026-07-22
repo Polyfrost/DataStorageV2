@@ -132,12 +132,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "a92b91ef280c262ccedb5a81cb6a255c1ff862f73ecc1deec1eadc78cf73b2c2"
+hash = "9bedbe8d3aecffae7c749c32a263a567910d9bdf44a187b9169898b129d2e8e1"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "acefbaeaed0e6b1da23fdf53a7ac0ebde2a38253aaac40438f62817449872368"
+hash = "9a57f0e9aa782cf149076c24f6ff98a7e8691fe35c16076b19263df4fab1d826"
 metafile = true
 
 [[files]]
