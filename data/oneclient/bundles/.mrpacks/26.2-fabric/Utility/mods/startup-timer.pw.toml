@@ -1,0 +1,16 @@
+id = "oSqzHTSY"
+enabled = true
+hidden = false
+name = "Startup Timer"
+filename = "startuptimer-1.0.2+26.2-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/oSqzHTSY/versions/2RfkwG8Z/startuptimer-1.0.2%2B26.2-fabric.jar"
+hash-format = "sha512"
+hash = "0c98bdb1fd032ed7eb156676665a050ba342d80ce6c2c0a838ab8ed9b7c40d67b219ccef4e44b2957e5817536e3af40265906b9a5c37d43a7819d45d92d3df90"
+
+[update]
+[update.modrinth]
+mod-id = "oSqzHTSY"
+version = "2RfkwG8Z"

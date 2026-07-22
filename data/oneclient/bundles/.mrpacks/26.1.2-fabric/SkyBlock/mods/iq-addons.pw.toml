@@ -1,0 +1,16 @@
+id = "RDr7Qmy0"
+enabled = true
+hidden = false
+name = "IQ Addons"
+filename = "iq-1.0.3+mc26.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/RDr7Qmy0/versions/6lT5EEqh/iq-1.0.3%2Bmc26.1.2.jar"
+hash-format = "sha512"
+hash = "bfb5c968287b04d791f53d9a6ee226f515f4abaec662035cdd0843fb2468e6356299ef1c934b278a887b586ec774fc7045823a3972fba9f5d31cc566c2fd7316"
+
+[update]
+[update.modrinth]
+mod-id = "RDr7Qmy0"
+version = "6lT5EEqh"

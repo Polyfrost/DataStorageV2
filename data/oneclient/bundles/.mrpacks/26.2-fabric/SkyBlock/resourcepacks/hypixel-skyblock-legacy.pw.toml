@@ -1,0 +1,16 @@
+id = "eiWiefXD"
+enabled = false
+hidden = false
+name = "Hypixel SkyBlock Legacy"
+filename = "SkyBlock Legacy.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/eiWiefXD/versions/PiQGzH29/SkyBlock%20Legacy.zip"
+hash-format = "sha512"
+hash = "598a64e93f713c5f1eb05f44d8f8c6fb8e52fb07603f5fd244651c317c08de81411e7f32d3d22016b7a41377eab4cc29f675cde0dfe675dc7a795da43511bcaa"
+
+[update]
+[update.modrinth]
+mod-id = "eiWiefXD"
+version = "PiQGzH29"

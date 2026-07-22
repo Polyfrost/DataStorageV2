@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "72f28c01103432bb02b20457edd674bb9a7e53b1c5887ba7d7949dd2664a6686"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "c8b55307c45ef887c6f503def0f03c3209939873b34d5cda7170d2d06e8785da"
 metafile = true
@@ -86,6 +91,11 @@ hash = "c363c4e32b3e45ff4bd97a0ea4e57a994b609499f83411c8757b210b943c90de"
 metafile = true
 
 [[files]]
+file = "mods/gnetum.pw.toml"
+hash = "beea690a266b1001be0a51a0dee11645dcbdb3920f01a525ad160a19d7e31ede"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "be21c092cbedceff89be03dfc392182e722681ba0bd55d5cc7a860096e2c5256"
 metafile = true
@@ -143,6 +153,11 @@ metafile = true
 [[files]]
 file = "mods/optipainting-updated.pw.toml"
 hash = "cac130f0cdb7221ee6f4d64edf0b98fbd96313f9b179d7f74a15bc0ccd80c7f1"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "ee9ff39e40c33bedb9588e75eca109e013b03c6f2425ae597e52e64968f8233e"
 metafile = true
 
 [[files]]

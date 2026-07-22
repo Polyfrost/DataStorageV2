@@ -1,0 +1,16 @@
+id = "HBz1jJcy"
+enabled = true
+hidden = false
+name = "Entity Crosshair"
+filename = "EntityCrosshair-2.0.0-26.1+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HBz1jJcy/versions/No7PhZHL/EntityCrosshair-2.0.0-26.1%2B_fabric.jar"
+hash-format = "sha512"
+hash = "0881301b43af71231189519eee1c7816e679ea23b54f39416d658567aa594263883cdfccf4af26a6a07c024252684472834d042f5e4e768e1e7b50add3f8d871"
+
+[update]
+[update.modrinth]
+mod-id = "HBz1jJcy"
+version = "No7PhZHL"

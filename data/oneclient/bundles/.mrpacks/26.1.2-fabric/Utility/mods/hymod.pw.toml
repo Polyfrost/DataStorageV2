@@ -1,0 +1,16 @@
+id = "4dNGXeZO"
+enabled = true
+hidden = false
+name = "HyMod"
+filename = "HyMod-1.1.0-26.1+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/r2smUamd/HyMod-1.1.0-26.1%2B_fabric.jar"
+hash-format = "sha512"
+hash = "6148a09a5d9980a2fc5d5f22b10e6daba2f2365c4eac58f619d3797f905cbe3e7c2fc688cea2d1ec2b3bd9510d5aedff01cd8bf170314604206e1a860953dbec"
+
+[update]
+[update.modrinth]
+mod-id = "4dNGXeZO"
+version = "r2smUamd"

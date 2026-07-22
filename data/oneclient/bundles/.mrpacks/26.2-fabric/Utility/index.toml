@@ -16,6 +16,11 @@ hash = "17e4ca07897fd94c40715f38950d5b3a3fb09679507fd9c163c758684eb7a5e2"
 metafile = true
 
 [[files]]
+file = "mods/better-hypixel-chat.pw.toml"
+hash = "c7928b4bb97b8372c9e72dc0dd7a326d182ca9a2dc1093eadaac12ae50260766"
+metafile = true
+
+[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "88030f42391b74ba5763f28e004b6279c72f9c6ad82efbd5912b55b371f0d286"
 metafile = true
@@ -28,6 +33,11 @@ metafile = true
 [[files]]
 file = "mods/betternightvision.pw.toml"
 hash = "5add36494deb05c037a489c8987703b2d98fa9980286c4ac14c3f33e01397746"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
+hash = "f26c54ea7e3018cf5587b058c56c985cfd2b3a0d457f01720737c3111f8ff97f"
 metafile = true
 
 [[files]]
@@ -76,6 +86,11 @@ hash = "975e07ddc4a70ee7f0afc22ab553d91e2612f105a0a9f1f8b19aeb8f154d943e"
 metafile = true
 
 [[files]]
+file = "mods/hymod.pw.toml"
+hash = "453d62c6e450485c331489d169a22abff2f41fd76756641d8bdd1a9bd3c03bc4"
+metafile = true
+
+[[files]]
 file = "mods/hypixel-mod-api.pw.toml"
 hash = "2807dcd5529b12aa3b422651810801442c39cba10834c4f00f4980e2a91eae0a"
 metafile = true
@@ -83,6 +98,11 @@ metafile = true
 [[files]]
 file = "mods/hypixelautogg.pw.toml"
 hash = "8ababcabf8b9f502b6cfba349cb41398a3cc32a5013654add7e84e3d06c4344d"
+metafile = true
+
+[[files]]
+file = "mods/hypixelautotip.pw.toml"
+hash = "6800ad811335a1518357b8a35788515d7a55818dcb3aa27320d32d1e04c5402b"
 metafile = true
 
 [[files]]
@@ -136,6 +156,11 @@ hash = "447794cd1f3a4327adf67bc445883a97b2c85c748943bd20524ca0b4817bf7a0"
 metafile = true
 
 [[files]]
+file = "mods/reward-claim.pw.toml"
+hash = "890568c180b6b7a20fad867acb57640723e6113ff06ee9d99601e1e94e072792"
+metafile = true
+
+[[files]]
 file = "mods/rsls.pw.toml"
 hash = "70f3ca328120d260b0c4e9f4efe248e20d0bc2939e23ac268f134f0fe82850bb"
 metafile = true
@@ -163,6 +188,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "3bd34e3ecfdf47fe98c2d5e1970b56b0ffd5acbb3e044b3b4b4519d07698f74b"
+metafile = true
+
+[[files]]
+file = "mods/startup-timer.pw.toml"
+hash = "c83bf5983cfd38dc8cddda366d61ac99cdfb06eae18459cc50b98b7c7bb5b971"
 metafile = true
 
 [[files]]
