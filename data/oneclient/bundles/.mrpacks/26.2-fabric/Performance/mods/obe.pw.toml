@@ -6,11 +6,11 @@ filename = "obe+26.2-1.1.37.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/AtOSAunf/versions/l7KAfpPb/obe%2B26.2-1.1.37.jar"
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/oqcWtowW/obe%2B26.2-1.1.37.jar"
 hash-format = "sha512"
-hash = "d47ce801a20869acdb549787c862df3d561c8995e1acc6dd8b7b829342e1feeced0141c24e2aaceea06f0cb9caffe8589bae33077ed6d4c524606cb35f506ba3"
+hash = "f909455ff06f3b94e566188182a25cfa89f949b5bff4efdc0c625029102b1f72107d2d09c56841cc7d12078b4054d2e720e5e96d962c1a76dc0e6a49c4e2bae8"
 
 [update]
 [update.modrinth]
 mod-id = "AtOSAunf"
-version = "l7KAfpPb"
+version = "oqcWtowW"
