@@ -184,7 +184,7 @@ async function main() {
   for (const [project, entries] of byProject) {
     console.log(`Project ${project.displayName} (${project.projectId}):`);
     const { contentHashes, nextPatch } = await projectState(project.projectId);
-    let patch = nextPatch;
+    const versionNumber = `${VERSION_PREFIX}${nextPatch}`;
 
     for (const { filename, mc } of entries) {
       const buffer = fs.readFileSync(path.join(GENERATED_DIR, filename));
@@ -193,7 +193,6 @@ async function main() {
         console.log(`  up to date: ${mc} (${filename})`);
         continue;
       }
-      const versionNumber = `${VERSION_PREFIX}${patch++}`;
       await createVersion({
         projectId: project.projectId,
         displayName: project.displayName,
