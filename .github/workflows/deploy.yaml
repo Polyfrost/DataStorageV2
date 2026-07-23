@@ -59,6 +59,14 @@ jobs:
         run: |
           chmod +x ./scripts/*.sh
           ./scripts/generate-bundles.sh
+          ./scripts/generate-modrinth-packs.sh
+
+      - name: Publish to Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          MODRINTH_MODPACK_PROJECT_ID: ${{ secrets.MODRINTH_MODPACK_PROJECT_ID }}
+          MODRINTH_SKYBLOCK_PROJECT_ID: ${{ secrets.MODRINTH_SKYBLOCK_PROJECT_ID }}
+        run: node ./scripts/publish-modrinth.js
 
       - name: Build site
         run: ./scripts/build-site.sh

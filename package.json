@@ -5,6 +5,8 @@
   "scripts": {
     "check": "node scripts/check.js",
     "check:compat": "node scripts/compat-check.js",
+    "generate:modrinth": "bash scripts/generate-modrinth-packs.sh",
+    "publish:modrinth": "node scripts/publish-modrinth.js",
     "test": "node --test scripts/lib/*.test.js"
   },
   "keywords": [],
