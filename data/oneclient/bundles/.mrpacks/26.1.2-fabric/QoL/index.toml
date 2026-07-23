@@ -281,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/redaction.pw.toml"
-hash = "8f100afabc12f2d6f3275ab95329656e0006189845c526ae9389acb9f3c76db4"
+hash = "d5ac7bc3bcb695c3b0b2585ce1f8868189b86d60c86af19a574a7a464ca227e0"
 metafile = true
 
 [[files]]
