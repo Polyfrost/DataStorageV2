@@ -56,11 +56,6 @@ hash = "74f498cdd6b202be11e58e2bbb6837c4b3975c70268c8efe24be2dfeaa2538a9"
 metafile = true
 
 [[files]]
-file = "mods/tiptapshow.pw.toml"
-hash = "fff13e17bc4721a50170a6ceb523a8da57917cf42138d7466db5d35ba4b6e967"
-metafile = true
-
-[[files]]
 file = "mods/vanillahud.pw.toml"
 hash = "b0c3990729db1d3a9f813407bc1949e2c3457112f08dcff22c0d6941f91b7417"
 metafile = true
