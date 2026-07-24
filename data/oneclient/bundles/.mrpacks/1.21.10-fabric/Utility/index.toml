@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "9482c8384927d5d9b30bb8aa8d1a0c1cca4ca87e0a7810f2ee4f307d1a48beb6"
+hash = "572cd5cdbf54064f218eaa70ceaf05a091f47b17b07f5ed37bf79c66b288a1a4"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "138b4f03d452c2b8bbd9b23127f72617febc4f4effd1c0017a58cdcb6db37ad6"
+hash = "f6841c080209184130f397c34b514c8f0a412851f268ef0347c37bdfe808eee7"
 metafile = true
 
 [[files]]
