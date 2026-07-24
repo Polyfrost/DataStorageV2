@@ -131,6 +131,11 @@ hash = "0db4162280a7eca935cb52eff373d162c1ffb39d6979f5707e3ea7ce34300058"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+hash = "9eca06acf1e3ef9b5ee95e026d7f3f44d275c9de98a40314045a3f78bfaae4e0"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "932a7a7fb1ada9434d8c3eccb8ccf13330d51370a3dff3e02beb7017d11c9f49"
 metafile = true
