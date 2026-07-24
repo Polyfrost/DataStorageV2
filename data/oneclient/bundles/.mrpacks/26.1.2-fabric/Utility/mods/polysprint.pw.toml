@@ -2,15 +2,15 @@ id = "i9xRThb3"
 enabled = true
 hidden = false
 name = "PolySprint"
-filename = "polysprint-1.1.4+26.1.jar"
+filename = "polysprint-1.1.5+26.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/i9xRThb3/versions/nkDGHklz/polysprint-1.1.4%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/i9xRThb3/versions/auEUDPCO/polysprint-1.1.5%2B26.1.jar"
 hash-format = "sha512"
-hash = "472e78602765136e4fd3a86e0a7adcffefbb446099ae7a89a9aa30f085dbaa865dc579cf4f9684562fb608bd3b258ee31192057012f9b2f6637852f3d02a78f8"
+hash = "db12bfae470f217e7dea82592f6bf1346da74b89d7dbe12517651da5bc11490d8d32bb1b82c8f78f2f726326a6462ce353b1174f39d4d7f8d497a287653113dc"
 
 [update]
 [update.modrinth]
 mod-id = "i9xRThb3"
-version = "nkDGHklz"
+version = "auEUDPCO"

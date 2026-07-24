@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "88030f42391b74ba5763f28e004b6279c72f9c6ad82efbd5912b55b371f0d286"
+hash = "aa703198870836ace6ded5310c8dda2ad1f38514f9de57518742b423991af238"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "c0eae35772e55865f230217309309a1343e2131b545e812abf82e19b513dd9f7"
+hash = "cedcb08e59b359a2639ea54cb8abf2602b6abe0d8753d2a42a3fad851f0cda8b"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/tcdcommons.pw.toml"
-hash = "c5c4e0f00730fe22e4dc93de1a16f2a7cc39582debefe0fd34f16cbe3cc0e944"
+hash = "5a6881313a306e792965bf7c3a64a4997ed01c08d7c63b2934fa5a113341919a"
 metafile = true
 
 [[files]]
