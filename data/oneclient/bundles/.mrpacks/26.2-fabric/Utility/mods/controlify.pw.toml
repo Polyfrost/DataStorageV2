@@ -6,11 +6,11 @@ filename = "controlify-3.1.0+mc26.2-universal.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DOUdJVEm/versions/9XmA3Zgb/controlify-3.1.0%2Bmc26.2-universal.jar"
+url = "https://cdn.modrinth.com/data/DOUdJVEm/versions/u8ZrA3qC/controlify-3.1.0%2Bmc26.2-universal.jar"
 hash-format = "sha512"
-hash = "b003ec5840436e2fdca0810489732fc3a2f2dc5fcc59c234511c077479aed1313fd9e2e374139c3def091c2e2be30cc38034b2f9fa87ebf208536efd8bcfca4c"
+hash = "2e4972bc75620214a784e8dc3a4baf2de6d1e17df3b6a1c84764ef4b37d0124aa288947eb29115a1dd6fa21b343e286a3dc26e3a65574a851ce9785d914c8b88"
 
 [update]
 [update.modrinth]
 mod-id = "DOUdJVEm"
-version = "9XmA3Zgb"
+version = "u8ZrA3qC"
