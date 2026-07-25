@@ -11,11 +11,6 @@ hash = "d50e9db908b32a4f37d12558fbc3344b4d16777c0adde8c635ab5542eca162f0"
 metafile = true
 
 [[files]]
-file = "mods/catharsis.pw.toml"
-hash = "09d5d8b61a196f53bc3da9e222eda1f54d52fa99946a9dfaa94b585af77a8148"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "58c8e94e25cd8c185aa9fb56bbbec13d600e7718d8ecc3a58bc767c4f2cf7b5b"
 metafile = true
