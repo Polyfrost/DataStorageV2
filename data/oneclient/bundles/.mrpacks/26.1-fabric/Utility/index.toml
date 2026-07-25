@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "e7c3ce7a7878c8f6c39c67c19fa347e9f13702fe13d78169a25ecc801453191f"
+hash = "dcb99dad872310c8634c8d06b101889cb7881268d16838f8734a64417a4edc8e"
 metafile = true
 
 [[files]]
@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "eb8a222bbca151a95c50cb79337181d622adf1f4548360c26e0899305d733fc4"
+hash = "283bcab6ba2b52d523fa833febf9734799cb7c6a86dfca13d5349cde0c39a6f4"
 metafile = true
 
 [[files]]
@@ -125,11 +125,6 @@ hash = "fdafcf4bc229ae8997b6322095b7c366532f3ebe9a5d2a7f0caa1744969e5e27"
 metafile = true
 
 [[files]]
-file = "mods/modernconfig.pw.toml"
-hash = "2f0d05f156bd6a7c83ded6aa4d731a52f1cfbcda96db8f90f4d89d9ed463267f"
-metafile = true
-
-[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "c6260824bd2856b5348e6cd2e33224030926bcdcc3f8f24fcbb4b5f043ada6c0"
 metafile = true
@@ -141,12 +136,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "fb05acffd4afe999fe56d7830849741de60f2c8d57a32112c429e13f0ef6aef0"
+hash = "8997baaabd8c3b7841fb0b239efba347059aa64da950c3245900e5ede11ed50e"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "8839e308b29983ae4093ae443c25f71171ba6502d4b06546540603ddb127f22c"
+hash = "c2b89d97ddc634d224486158ea426eea1e1832edfc9fd9e21f8c3a677e344d32"
 metafile = true
 
 [[files]]

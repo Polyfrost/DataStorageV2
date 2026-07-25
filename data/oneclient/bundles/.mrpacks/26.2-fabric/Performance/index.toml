@@ -137,12 +137,17 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "a73fa968add03de6e6d84528069fbee757cc07fe58bb56dc11fdaa69d5859aab"
+hash = "9899bc35e5f2c27158ef4f6f94d9abcf74dbfff6938955675fc6a547d38de423"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "edf71e2d9c54950c70115c678bf11ba876eff54664d4f19c33de859f2de23d35"
+hash = "1450839dee410cc2a20f389c23435d0954e07907005808a271b8f1856a7c56e1"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "9eca06acf1e3ef9b5ee95e026d7f3f44d275c9de98a40314045a3f78bfaae4e0"
 metafile = true
 
 [[files]]

@@ -5,3 +5,7 @@ _site/
 
 # Mod jar cache for the compatibility checker
 scripts/.cache/
+
+scripts/packwiz
+scripts/packwiz-upstream
+scripts/packwiz*-linux.zip

@@ -41,12 +41,12 @@ metafile = true
 
 [[files]]
 file = "mods/chatting.pw.toml"
-hash = "b133ec4ad1fd9f59f239b681fc9f7da205e82543b78e0d4f5bd3c7a206a0188e"
+hash = "d976cc6c11e6b342ff12a3fa98654c2c702380a967f737e541d21fc27db4a00e"
 metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "b61e93a6f84502fea0d19cfb501c648e3ec1662fb4938da0c7af3308dc4c102d"
+hash = "4bb3b46e3fae03a26134cc1ac9d458537c8581a9230df452265cca8f87c7ac8d"
 metafile = true
 
 [[files]]
@@ -231,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "6013f9ab73b19a2ab83989bf51f9e3ba7a6908ab6c31968a6d195418a0fc26a6"
+hash = "948469b54402e05355552fc5ce0dd08d8bbbbf6d8a4c2aacdb16ef03ed8c3c30"
 metafile = true
 
 [[files]]
@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "3c09df2f837677979840da8af564a5ffcb40bdb4994f31b64804c3461973bfaf"
+hash = "d7318db62b5723d57d93317a694bf64128ca8a228c8b9db2d7691352107d291f"
 metafile = true
 
 [[files]]
@@ -250,8 +250,8 @@ hash = "a443eb5b0c55f1391f1d683495873545e1234edf2ea918f02f4bc50246a418f1"
 metafile = true
 
 [[files]]
-file = "mods/pack-manager.pw.toml"
-hash = "6c4696954b43f29a4478514678d855c292f1984ff9711d8349ae4a1c489234ba"
+file = "mods/packed-packs.pw.toml"
+hash = "cd7928c7989e2b3e0e9f60e0e71ed97efd61416660ae2d04e2ac9ec4e627c8ec"
 metafile = true
 
 [[files]]
@@ -266,17 +266,17 @@ metafile = true
 
 [[files]]
 file = "mods/polynametag.pw.toml"
-hash = "27d9e87604adec67a223a02e7ece7c9daa6dffdce5bcb0c2e44145963059344c"
+hash = "ffac1d2c64cce59754cd6173c64affdd6186fb09d53c154c044217095353da34"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "d38afde9a1a357ba7ae89105854aab2e84c4e6e35de3a176bd7d26952eab8303"
+hash = "f0057f602c1666e29561f561ae0ce749af4c46e4d7eea5e0f7d25362d305b5ec"
 metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "52f6aac1de2d76b3d8b4c8aee96491f7f7c91877b2196bf1040bcbc4d5c4f6a2"
+hash = "8c27f3973060977203eea7d3e2db85ad418d6ad5adffaaa9a4b1beef75d4e5f2"
 metafile = true
 
 [[files]]
@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyweather.pw.toml"
-hash = "b83158ebb7e7fe8dc77f2ed58060c4f78a3f86e60b662f508fd3c42826cf450d"
+hash = "3c4a62bbfe57f6a22edd0e8e40bac36af2abfc570bbc8c8c0a59f95beef9dccb"
 metafile = true
 
 [[files]]
@@ -296,7 +296,7 @@ metafile = true
 
 [[files]]
 file = "mods/redaction.pw.toml"
-hash = "8f100afabc12f2d6f3275ab95329656e0006189845c526ae9389acb9f3c76db4"
+hash = "d5ac7bc3bcb695c3b0b2585ce1f8868189b86d60c86af19a574a7a464ca227e0"
 metafile = true
 
 [[files]]
@@ -366,7 +366,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyboxify.pw.toml"
-hash = "a2b879c1ee27da6604b1cdfda39ed35cba834999e2dd2376e29ceaebbcfdfad4"
+hash = "7dba1443efc8463cc6b64f2227b5dee1772b36ad2ddeedca9c8ad5763d504736"
 metafile = true
 
 [[files]]

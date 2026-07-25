@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "17e4ca07897fd94c40715f38950d5b3a3fb09679507fd9c163c758684eb7a5e2"
+hash = "d9a5403dd0d9490429101caeadbfab0517112937a081ecec71e22148412777c2"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "88030f42391b74ba5763f28e004b6279c72f9c6ad82efbd5912b55b371f0d286"
+hash = "aa703198870836ace6ded5310c8dda2ad1f38514f9de57518742b423991af238"
 metafile = true
 
 [[files]]
@@ -52,12 +52,12 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "eaf02fa312002862b117bf895b9027fd78198ec4216f9f898675b789422e6e6e"
+hash = "cfbdde997a08d0725e5fc2fcab7d4ac39a8e0b6eb568d2b80d131f9b260e0607"
 metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "5eb2560bf9ff8f5ec8dc573bbf6537d7b6b2ab29f764123129c44226c5b40eb8"
+hash = "032f92f85dfbb49d279c19dcc7085da739d48549c60446b84737f01b9c3eba97"
 metafile = true
 
 [[files]]
@@ -137,12 +137,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "edf71e2d9c54950c70115c678bf11ba876eff54664d4f19c33de859f2de23d35"
+hash = "1450839dee410cc2a20f389c23435d0954e07907005808a271b8f1856a7c56e1"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "67506c73a07676119f35e9f058d805f2420d9ab73fc9b2883e72d619b8746347"
+hash = "cedcb08e59b359a2639ea54cb8abf2602b6abe0d8753d2a42a3fad851f0cda8b"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/tcdcommons.pw.toml"
-hash = "c5c4e0f00730fe22e4dc93de1a16f2a7cc39582debefe0fd34f16cbe3cc0e944"
+hash = "5a6881313a306e792965bf7c3a64a4997ed01c08d7c63b2934fa5a113341919a"
 metafile = true
 
 [[files]]
