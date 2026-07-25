@@ -231,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "cc0852a38e774701a893408cafb6f04743ff1d83790c65754a782c33bdc0a8d5"
+hash = "e088a3a3b2b4446a349bdc3f8b7dc444d91e7881db93f2b9ea582e38fef0f058"
 metafile = true
 
 [[files]]
