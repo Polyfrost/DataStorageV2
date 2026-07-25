@@ -215,8 +215,8 @@ hash = "fa781b4860eca56fe6ebcafb3f051598b4c7a4a5446f9a05c09367d2360962f9"
 metafile = true
 
 [[files]]
-file = "mods/pack-manager.pw.toml"
-hash = "6032a0bcfa6465890d434f84fe58cf7118a9556d24cc45926ee694a9930939a8"
+file = "mods/packed-packs.pw.toml"
+hash = "b70e8383e12ab95381ed48852997a276ce7f36138eeccd18112bfd6dce7667c6"
 metafile = true
 
 [[files]]

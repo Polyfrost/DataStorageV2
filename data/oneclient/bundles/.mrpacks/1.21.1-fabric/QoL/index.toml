@@ -236,6 +236,11 @@ hash = "0c80511ceed7af28a2df892dfeb5c55f00ec2231577caa4184f29b10323d865c"
 metafile = true
 
 [[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "3efd067411d0448ee8bdcf2d05857b8c46d988b7b438e9c88c82cb836bbc84e3"
+metafile = true
+
+[[files]]
 file = "mods/paginatedadvancements.pw.toml"
 hash = "f0f08158fc38c5cab704926594205d83bc39c8e332bb4a74bb41136d1f647d3e"
 metafile = true
