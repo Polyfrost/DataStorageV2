@@ -1,3 +1,19 @@
+# 2.1.0
+
+- feat(ui): toasts pause on hover + bunch of small general tweaks
+- feat(ui): better looking bundle updates
+- feat(ui): show all individual versions
+- fix(core): shader configs are persisted across launches
+- fix(core): better parallelisation for downloads and tweaked visual download elements
+- feat(ui): file/folder drag and drop is now global across the app and prompts the user regarding the import
+- feat: add RPM builds, deduplicate .exe and .appimage and disable autoupdating on linux builds that aren't appimages
+- feat(core): better sentry error reporting regarding stacktraces and errors
+- fix(ui): macOS window border
+- feat(ui): Window corner radius is now dynamic on Windows and Linux, whereas on macOS native window attributes are used
+- feat(ui): Added debouncing to the browser search input
+- feat(ui): Make bundle updates prettier
+- feat(ui): Add readable MS errors
+
 # 2.0.1
 
 - Fixed locating Java
