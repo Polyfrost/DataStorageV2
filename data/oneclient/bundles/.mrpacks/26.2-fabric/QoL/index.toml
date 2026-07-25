@@ -170,6 +170,11 @@ hash = "7df71d5f64c70659d1200c3f9e3216b8f11ee66aac3fc11a34158649c3c4e86a"
 metafile = true
 
 [[files]]
+file = "mods/itemphysicliteconfig.pw.toml"
+hash = "19d5ec8e24d9ed513e8d0413fd78d7b7ecb73f486bd93be3cd6cb882a0e15b35"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "53f7f2e531aa11e00e20149eb1fc71617122b7ceec835b9364ced22e4f05988f"
 metafile = true
