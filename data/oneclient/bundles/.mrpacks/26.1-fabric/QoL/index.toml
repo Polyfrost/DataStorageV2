@@ -170,11 +170,6 @@ hash = "975c61651096a13c58aed3d1ff945782f4dd5db0be65fe54eeb7fa5e3a882cf7"
 metafile = true
 
 [[files]]
-file = "mods/hold-that-chunk-v2.pw.toml"
-hash = "7d0458abe9bb090a795f32acd0461fb41f4b0a50d682f947faeb3fab627eb0a7"
-metafile = true
-
-[[files]]
 file = "mods/itemphysic-lite.pw.toml"
 hash = "e2b6b0c188295e53a1e12b1b29807ab3111e2b9f5dda0dee9cba69c8d62301cf"
 metafile = true
