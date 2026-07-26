@@ -2,15 +2,15 @@ id = "lhGA9TYQ"
 enabled = true
 hidden = true
 name = "Architectury API"
-filename = "architectury-fabric-20.0.10.jar"
+filename = "architectury-fabric-20.0.12.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/qOe8Iyhj/architectury-fabric-20.0.10.jar"
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/hNxqF6r7/architectury-fabric-20.0.12.jar"
 hash-format = "sha512"
-hash = "db104fce179fe9600436895f278ddf55f29ba9b90cda009401be546ac90b92946c41dd5e9443c6b173c1a3e0ea19b5bb6487ba4675b7ce9f6cd49396f2a66a2f"
+hash = "d8f8ecbc8f4769e9c225d5c7eb9aac0c66fdcaae92bd1e1dea74282b2d24337c7a5bb63ecf3b1465bb639ab15f10b394a7df6e283ba36791bdab377bda8e6383"
 
 [update]
 [update.modrinth]
 mod-id = "lhGA9TYQ"
-version = "qOe8Iyhj"
+version = "hNxqF6r7"
