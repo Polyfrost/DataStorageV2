@@ -2,15 +2,15 @@ id = "pWXJaKrX"
 enabled = true
 hidden = false
 name = "VanillaHUD"
-filename = "vanillahud-3.2.1+1.21.10.jar"
+filename = "vanillahud-3.2.2+1.21.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/pWXJaKrX/versions/2FFPcwgs/vanillahud-3.2.1%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/pWXJaKrX/versions/SbrgswLP/vanillahud-3.2.2%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "01f0bc181ea55e7fa9c2e0fc9394446c1853435c16d35b0d991909e25835ad81af5a1b71eab3282ac9fb71860f0a1477f03c643e34b5db72691d620efd8ef486"
+hash = "c071c0f9f8a3ed768fc3a07b576ffc08d32cc6028d32bdf39d47e3f1668a667a102aabb433b70a9b23905e6355fcda8a3db413ada5d4be1280643d322ef95a87"
 
 [update]
 [update.modrinth]
 mod-id = "pWXJaKrX"
-version = "2FFPcwgs"
+version = "SbrgswLP"
