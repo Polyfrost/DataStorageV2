@@ -7,12 +7,12 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "447aff6677d08661ec57888cf0682850185024d2e28481a9d3b45be89383d97c"
+hash = "7abc08d0b7f860a0c85023471c09faabf8a88a95d2fbcbdaa9bfb56e47720a64"
 metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "dcb99dad872310c8634c8d06b101889cb7881268d16838f8734a64417a4edc8e"
+hash = "79318a59a76e4f6c5d7e5a9776f08c76dbb010944c7da06e9aafb85c617e3f74"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
-hash = "fdafcf4bc229ae8997b6322095b7c366532f3ebe9a5d2a7f0caa1744969e5e27"
+hash = "fad78cba402bb962f9b844ba305b97436631c40899b583ec4af1773cfe6a62ad"
 metafile = true
 
 [[files]]
