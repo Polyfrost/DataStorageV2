@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/hytils.pw.toml"
-hash = "b788eb00773938202419d149ea2dccc080b4cb0a9a74e6fb865439cd0bd08ee9"
+hash = "03bdf6c486361eced4f70ee5c662299ac402577086d34c7e7f864e17b22a3911"
 metafile = true
 
 [[files]]
