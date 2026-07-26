@@ -2,15 +2,15 @@ id = "nF6YaBfO"
 enabled = true
 hidden = false
 name = "Hytils Reborn"
-filename = "Hytils Reborn-2.0.0+1.21.10.jar"
+filename = "Hytils Reborn-2.0.1+1.21.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/nF6YaBfO/versions/Gs4tfCEU/Hytils%20Reborn-2.0.0%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/nF6YaBfO/versions/okAHNojR/Hytils%20Reborn-2.0.1%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "174416961bf993fb65a0eede9007b3f32fc7deb3bf353901caa873915cba08ed4c6aa5c9c51e2726eadc65339d2f6577ae7d78b32fbe2a3c596fd0c971588033"
+hash = "1cc1de2843a8976b487d947e11b01e5e11504d4ad0e2a7328ec5a6b25ad5f227c5a336ad80bb7930037afc85138e27730af65a1adf92d4f7ee09fb044d91430a"
 
 [update]
 [update.modrinth]
 mod-id = "nF6YaBfO"
-version = "Gs4tfCEU"
+version = "okAHNojR"

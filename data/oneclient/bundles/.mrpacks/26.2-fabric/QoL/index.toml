@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "6c006d265129217405b9ea862392f08f73dfccd2c57b1615bc4e16d1515f3d91"
+hash = "03b67293c697879b8430f96d518062ee949be98ca2e2b0e85b0cb8b981e77006"
 metafile = true
 
 [[files]]
@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "021e6f614f5293e0ddd13b4a4e0c6069fa3cd5a941949f0151f32ee01944d4f9"
+hash = "e80e941f6b6c82e4ed2c5b38c20b0a2848516c6feb2500cf82e95981a5268a46"
 metafile = true
 
 [[files]]
@@ -271,7 +271,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyweather.pw.toml"
-hash = "69ef34daff7892ae2a05eb513afd9b62011f03e97d7cfde852a432deadc78870"
+hash = "c624b9976a26c719ff7643b35beb4cda1b01115a918cb9beb0115ffbed6b7f76"
 metafile = true
 
 [[files]]
