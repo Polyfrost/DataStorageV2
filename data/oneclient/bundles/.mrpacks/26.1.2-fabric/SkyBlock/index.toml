@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/firmament.pw.toml"
-hash = "e28db847b7858789320139b260ed66c4c6437a6c7bdd1bbb51591d0c89824a77"
+hash = "fa08586351d7df166ec0bdc2339710c166dec3aaae832bfb9dd4be9988a75432"
 metafile = true
 
 [[files]]
