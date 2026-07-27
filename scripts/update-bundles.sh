@@ -23,6 +23,8 @@ INTER_BUNDLE_SLEEP="${PACKWIZ_UPDATE_SLEEP:-3}"
 # Names match the mod's .pw.toml basename under each bundle's mods/ dir.
 # Expand this list to opt more mods into pre-release updates.
 BETA_MODS=(
+  catharsis
+  skyblock-item-list
   skyhanni
 )
 
