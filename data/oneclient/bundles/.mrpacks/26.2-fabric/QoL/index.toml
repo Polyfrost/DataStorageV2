@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitycrosshair.pw.toml"
-hash = "e8812ad009316776a42d31cc7b0fed5981392e07f86e5a960076b4ed390d4984"
+hash = "f2c98d7bf12f7cd9b3e9671bd5c9e19bf2d974368a67ad4e4be8d6cde48fbe1b"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "a305d269f50c7e33e859f2941ee23776ab01e40b1b0594663e49b40ca12ef585"
+hash = "9e4056ebc13a560c58047b7aec26a015af296f86d9a84304d571f5e922a64ffb"
 metafile = true
 
 [[files]]
@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "060a2fc5afca2ca93dc6efa19fe45e056ec6f87f1dca9a073c12ac7e2e147bc3"
+hash = "6bf4b14b89eb58821d06d7b0a1f183fcbf6e3e3482f1637e9e2db7716fed57cd"
 metafile = true
 
 [[files]]

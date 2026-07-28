@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/hymod.pw.toml"
-hash = "b5a4008523bbcc6fa4b8f2fbb64f256dd62bcf7cf5c1fadf1238242bf46206bf"
+hash = "1d03bbd37f4085252c4b744cf3471344c4273e74ce7b80dc380ffb74680ed005"
 metafile = true
 
 [[files]]
@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "f73bdd4aed0904b944dd4b8994f0b45eabe6c8b0a5d7ee130695917c009359b2"
+hash = "9e00eb1c84ede22010a86f6b0fdcae073cabca321c325c6b1f20369b13107d2d"
 metafile = true
 
 [[files]]
