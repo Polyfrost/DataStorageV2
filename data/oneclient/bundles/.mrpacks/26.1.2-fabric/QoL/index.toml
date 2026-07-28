@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "853688f3eb156b8fd9e4d1e103f37dba16b873a06b3a8b0577385f07e44e2899"
+hash = "34968804a01b72aad60b6426b24bb1cf111c07d013bb47c284fda9d7363b49e0"
 metafile = true
 
 [[files]]
@@ -231,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "0faddd344fd6483a4ed2bd972164a5ffb71db0e98cd2021cacd966403b40110b"
+hash = "743fc403c2fea40f4c3c55dbe8b675998a85f6a8b8ad50d0a45e39377576f4f0"
 metafile = true
 
 [[files]]

@@ -27,12 +27,12 @@ metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "30e41da537df3e855feddc8e4b5f46d8427369c2e15969f63ce4306a9982d38d"
+hash = "4ec2d22bf022eebdad8fbc9b797a06401bcd48b3bd79f689ee6f6d796c4b0647"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0487ad4191145ad0f25302ada39c8e9235aefd42f881b89aea90a78dd588aa30"
+hash = "48f96e48149160d27d0b9465a2a99fda256f8b731f46727dd445cf590f9a7dcd"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "0b200144b0833251561c183a400abcd2db2cb09fe3c896fe2bcefdb1419a8764"
+hash = "a19055d8a13a2df4398872553d6d0f7fdde1dc750d415888aa98213a9bdd190a"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillahud.pw.toml"
-hash = "27724827dcaf61c8c75c4e42278b1b8a4a552498e691acd7e61752fe81c771b6"
+hash = "1bc2dabedf6d1d0dd9109d1c74a85d296bc53e6519aa7030cff08f472047b746"
 metafile = true
 
 [[files]]

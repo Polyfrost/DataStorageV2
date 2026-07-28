@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "0024c49e84e1a1d5b740d01028ec92f6d00f7e80507705b018a6bd41a69678a8"
+hash = "669542552a64f9f6651a93ac41194f763d2109135bd9aecdd9af7ede19783ddb"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "bef44f0ee7841d6ea2f76802d584e0ccccc4b3e7b284de36ccdf421519cc93a9"
+hash = "4c6e1a887a90cb54f4ab3c8f0aa1c5aca8a51a9f6bf64995d8001d8bcb4eb9bd"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0487ad4191145ad0f25302ada39c8e9235aefd42f881b89aea90a78dd588aa30"
+hash = "48f96e48149160d27d0b9465a2a99fda256f8b731f46727dd445cf590f9a7dcd"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/hytils.pw.toml"
-hash = "b4e6e205099a9e46a749cc096ddf977ca88e14da5989bd4c3ed0d77e3b322b74"
+hash = "e8c2fdaa9a5a55aa3d97d0a00a977b724103abe19d73d95388488bdeab079068"
 metafile = true
 
 [[files]]
@@ -108,11 +108,6 @@ metafile = true
 [[files]]
 file = "mods/libjf.pw.toml"
 hash = "9f6f39d3acc3df773b942239552a6b2ab51c240fb325a17b0a89a79747012a78"
-metafile = true
-
-[[files]]
-file = "mods/modernconfig.pw.toml"
-hash = "883d76b77290f1d43fb3cd14e4c0ecec142b670a75ffa7dc6ad9dafb1c83bc72"
 metafile = true
 
 [[files]]
@@ -132,12 +127,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "9bedbe8d3aecffae7c749c32a263a567910d9bdf44a187b9169898b129d2e8e1"
+hash = "43112ffa846e6a61fb5bc2e1b71f52b72f863dc755b5e729f46e0fcdf30619a3"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "9a57f0e9aa782cf149076c24f6ff98a7e8691fe35c16076b19263df4fab1d826"
+hash = "5df29428f3e6682694cad427d50462925678bbc30f76795b1348ff2be8a7f9be"
 metafile = true
 
 [[files]]

@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0487ad4191145ad0f25302ada39c8e9235aefd42f881b89aea90a78dd588aa30"
+hash = "48f96e48149160d27d0b9465a2a99fda256f8b731f46727dd445cf590f9a7dcd"
 metafile = true
 
 [[files]]
@@ -137,17 +137,22 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "4bb54bc02277c8af224a687f4732e80ffb2509702c5c054516667c15ffee951b"
+hash = "4338848de2be46d86f6fbf6433ef82bd0e63b9cbb3a670f6b3c1b31fc1097f45"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "9bedbe8d3aecffae7c749c32a263a567910d9bdf44a187b9169898b129d2e8e1"
+hash = "43112ffa846e6a61fb5bc2e1b71f52b72f863dc755b5e729f46e0fcdf30619a3"
 metafile = true
 
 [[files]]
 file = "mods/optipainting-updated.pw.toml"
 hash = "cac130f0cdb7221ee6f4d64edf0b98fbd96313f9b179d7f74a15bc0ccd80c7f1"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "e6ce5ce3cf208c5c6dbffd7bad30ef1170c3c01cd33309c215a5d9eff2089e20"
 metafile = true
 
 [[files]]

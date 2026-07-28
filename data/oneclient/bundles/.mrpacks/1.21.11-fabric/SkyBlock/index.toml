@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "68c781b8fd0940c0c1397ef292004d7a77a0d515d2932c544eadad719bb9310a"
+hash = "29dfcafecf99555187a8b545743bf1fc85de55d3df5e9b4aeb7d446f7db606f9"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0487ad4191145ad0f25302ada39c8e9235aefd42f881b89aea90a78dd588aa30"
+hash = "48f96e48149160d27d0b9465a2a99fda256f8b731f46727dd445cf590f9a7dcd"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "43c0abcc52212554fb1b0897572e23644940bb663ac4d3e29b2ae27e1ce8d620"
+hash = "061e1f33859c541b567f5625bebfefd09eba800bdb20d43d97123fceea0448cf"
 metafile = true
 
 [[files]]

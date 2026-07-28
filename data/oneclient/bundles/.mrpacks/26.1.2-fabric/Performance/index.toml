@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "efeb63e02d512a5003d91c8b41ac8bea48ed2af9ed6c428e80d0f61f5313281f"
+hash = "dc1dd954a386ac8891ea0e5fbb3364119703a3c1ee043a5fe9ee85a43cac25a0"
 metafile = true
 
 [[files]]
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "3c420ff3384ef1901f47a55bbcd1919b23bddb56b3a797ba4a684aadfd45037e"
+hash = "ee88b320daac105ed71b807f64bbf05f0b2d4f53ace5e76753381f9363310e12"
 metafile = true
 
 [[files]]

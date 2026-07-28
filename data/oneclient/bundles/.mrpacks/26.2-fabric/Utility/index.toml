@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/bobby.conf"
+hash = "62276de17ae37eb47790f5b1f57b844b55c199d33155dbe710cc6daeabfcb007"
+
+[[files]]
 file = "mods/animatium.pw.toml"
 hash = "ae5d4bc1797b4bb1655cb4ee6c0d31d8e405ab2610c8c8ae3de94200861da8fc"
 metafile = true
@@ -52,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "eddff1c05fd880918f3512b4a7382b4bc4b95be4640b75502793eb5f33adc021"
+hash = "d8a4cbb89b5abb0e3eb63eb0f094f838d39b2568bf3154e5d0902d62b393903b"
 metafile = true
 
 [[files]]
@@ -67,7 +71,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "33b59b7c41c3b59676c14c6d7d94bfec51742fe11ae7051bed77daa9c9131ced"
+hash = "328e0c4b292b1edde98e4c8320f2e228bbc01a4831d7b2ccda42b39a9edb4ab6"
 metafile = true
 
 [[files]]
@@ -107,7 +111,7 @@ metafile = true
 
 [[files]]
 file = "mods/hytils.pw.toml"
-hash = "d9d7199762a992f99764bc562c9dd79d5306d24abce9664c8081a123a2254ade"
+hash = "ff980c21c1665d6409b00d3b3e48085fdb78ba937792d841fb9fc5ab913164a3"
 metafile = true
 
 [[files]]
@@ -137,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "dc644bbe119a98140239cef0a5ff5990341c9b300a68d5295709dd484fd1b6c2"
+hash = "f73bdd4aed0904b944dd4b8994f0b45eabe6c8b0a5d7ee130695917c009359b2"
 metafile = true
 
 [[files]]

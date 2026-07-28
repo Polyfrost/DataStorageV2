@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "1476046b9a152c268bbc729c495e138dd8d8ac62129603ceb424f4bb2978c1f9"
+hash = "7e060dbed9935401b157e12d31fa70db7ca2270fb87938c415e98aa34a125d90"
 metafile = true
 
 [[files]]
@@ -137,12 +137,17 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "243f7460f9ef7a8a9ec75c4dde5e060f0ec138b202ed91916ae1610b10f1478b"
+hash = "96e289d35d828e53c94daffbc79486e498e3aa8849ceca31e3da6c0b35d43d79"
 metafile = true
 
 [[files]]
 file = "mods/optipainting-updated.pw.toml"
 hash = "cac130f0cdb7221ee6f4d64edf0b98fbd96313f9b179d7f74a15bc0ccd80c7f1"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "fba6b4f43109bc730c55a5c9d7cc7d5b56e8ee931a024a9dd92bf2150b74ac27"
 metafile = true
 
 [[files]]
