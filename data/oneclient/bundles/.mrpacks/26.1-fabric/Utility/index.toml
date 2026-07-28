@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/bobby.conf"
-hash = "62276de17ae37eb47790f5b1f57b844b55c199d33155dbe710cc6daeabfcb007"
-
-[[files]]
 file = "config/fabric_loader_dependencies.json"
 hash = "aba164881d7a965d612c259b8f69f7dd7440e1b1422b830f792415c628743312"
 

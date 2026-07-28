@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/bobby.conf"
-hash = "62276de17ae37eb47790f5b1f57b844b55c199d33155dbe710cc6daeabfcb007"
-
-[[files]]
 file = "mods/animatium.pw.toml"
 hash = "ae5d4bc1797b4bb1655cb4ee6c0d31d8e405ab2610c8c8ae3de94200861da8fc"
 metafile = true
