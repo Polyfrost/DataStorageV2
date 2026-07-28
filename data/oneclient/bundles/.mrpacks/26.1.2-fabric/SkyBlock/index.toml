@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "09d5d8b61a196f53bc3da9e222eda1f54d52fa99946a9dfaa94b585af77a8148"
+hash = "d8b32ac95c2a821b3235ef19d64972cb2e41da9c08061c12ad680d306f70b669"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
-hash = "ce686e67909506b7da259dff02f4c95a9f8ef1d2246118fad92cb08283818f10"
+hash = "6095ecdefe08132226a5883f73fbd32bab1e2dbb8fbf4bd39bc992793d00d754"
 metafile = true
 
 [[files]]
