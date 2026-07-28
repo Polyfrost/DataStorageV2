@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0487ad4191145ad0f25302ada39c8e9235aefd42f881b89aea90a78dd588aa30"
+hash = "48f96e48149160d27d0b9465a2a99fda256f8b731f46727dd445cf590f9a7dcd"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "43c0abcc52212554fb1b0897572e23644940bb663ac4d3e29b2ae27e1ce8d620"
+hash = "5caaa0335bee671e966ad8d359c95da7cfc85552292878c6bfb85bbbb6fbea44"
 metafile = true
 
 [[files]]
