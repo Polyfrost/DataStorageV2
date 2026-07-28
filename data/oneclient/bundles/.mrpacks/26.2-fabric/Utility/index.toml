@@ -20,11 +20,6 @@ hash = "c8446d3696b389759a585912adc137cec09d0b241ed806333bb85674d3fa5693"
 metafile = true
 
 [[files]]
-file = "mods/better-hypixel-chat.pw.toml"
-hash = "c7928b4bb97b8372c9e72dc0dd7a326d182ca9a2dc1093eadaac12ae50260766"
-metafile = true
-
-[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "aa703198870836ace6ded5310c8dda2ad1f38514f9de57518742b423991af238"
 metafile = true

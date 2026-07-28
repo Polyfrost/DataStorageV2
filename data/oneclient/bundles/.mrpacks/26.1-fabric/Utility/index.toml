@@ -24,11 +24,6 @@ hash = "79318a59a76e4f6c5d7e5a9776f08c76dbb010944c7da06e9aafb85c617e3f74"
 metafile = true
 
 [[files]]
-file = "mods/better-hypixel-chat.pw.toml"
-hash = "0611f60df59a5cfc0e1d992c5746be33aced48b95537bdd22bc857f923e4c793"
-metafile = true
-
-[[files]]
 file = "mods/better-narrator-error.pw.toml"
 hash = "103524c2dc102a8fd61cd3407e8e1b267ec23ae5626a52824882c8fa1c84792d"
 metafile = true
