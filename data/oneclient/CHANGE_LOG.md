@@ -1,3 +1,18 @@
+# 2.1.1
+
+- fix(ui): version art gets properly prefetched
+- feat(ui): browser navbar tab + better installation feedback
+- fix(core): disabled packages don't enable themselves after updating
+- fix: recent cards sizing issue
+- fix(ui): status bar close button, and the layer saturation behind it
+- feat(ui): JVM arguments setting
+- feat(content): make mod toggles work while the game is running
+- fix(ui): rotate the changelog chevron with the accordion
+- fix(content): stop removed bundle mods coming back
+- fix(ui): render the connectivity status bar message properly
+- fix(ui): keep bundle update text from covering the navbar
+- chore: update to freya 0.4 (fixes browser freeze issue)
+
 # 2.1.0
 
 - feat(ui): toasts pause on hover + bunch of small general tweaks
