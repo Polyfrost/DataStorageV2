@@ -1,11 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/btrbz.pw.toml"
-hash = "36f0c5133479eb97b2f115c96f96fc69152199f6225e071b5269c936c73f1933"
-metafile = true
-
-[[files]]
 file = "mods/catharsis.pw.toml"
 hash = "453e163dd493b4ba67b9ae43069750f09e9147c57b08ba17552a606160bd351d"
 metafile = true
@@ -28,11 +23,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
-metafile = true
-
-[[files]]
-file = "mods/feesh.pw.toml"
-hash = "9458e8cf5fbd9102f483f6955cd8d64a910eaade46c44807dc4cee800c672785"
 metafile = true
 
 [[files]]
@@ -83,11 +73,6 @@ metafile = true
 [[files]]
 file = "mods/skyocean.pw.toml"
 hash = "012760b9b68845518389c03832dbf1947db0d7ba74f8687e29607f3322eb668e"
-metafile = true
-
-[[files]]
-file = "mods/stella.pw.toml"
-hash = "3c4b2bf7ddc808670eb2d82d6138ba192aba9f3391fab82fb3c9a4aee3b418e0"
 metafile = true
 
 [[files]]
