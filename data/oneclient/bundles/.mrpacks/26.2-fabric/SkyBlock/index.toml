@@ -11,11 +11,6 @@ hash = "40ee55428355b93464254c33db97b5d3b7c2df3f6c623daf714348ab85f07a1b"
 metafile = true
 
 [[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "30f443ee61fc93e6ac5b2a651e45ba5c749c4dc8546ce4a2c5768f3e1ebe0319"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "328e0c4b292b1edde98e4c8320f2e228bbc01a4831d7b2ccda42b39a9edb4ab6"
 metafile = true
@@ -28,21 +23,6 @@ metafile = true
 [[files]]
 file = "mods/hypixel-mod-api.pw.toml"
 hash = "f08323ae85654864db79015aaf2f0843d4346279ea742449add846efb3fb75de"
-metafile = true
-
-[[files]]
-file = "mods/iconographic.pw.toml"
-hash = "6ef0f5a2246d377605ca06f9a0fa7dcc79cc766bb8af2789daf0768c60729181"
-metafile = true
-
-[[files]]
-file = "mods/legacyskyblock.pw.toml"
-hash = "767c290f0dad014357e018dce440a1939f9d7058c7c761649aa20dd737b8c691"
-metafile = true
-
-[[files]]
-file = "mods/oneconfig.pw.toml"
-hash = "a305d269f50c7e33e859f2941ee23776ab01e40b1b0594663e49b40ca12ef585"
 metafile = true
 
 [[files]]
@@ -93,16 +73,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/furfsky-reborn.pw.toml"
 hash = "203f6a8c3752f796b656eda62105c01ecec5adc83365daea2816bcb2b6ac69d0"
-metafile = true
-
-[[files]]
-file = "resourcepacks/hypixel-skyblock-enchanted-books.pw.toml"
-hash = "a71b236b0d2cc6a1c07c6122a1f4a8c6c7b9bfc919c2dc0d03e6c9f3ecdff342"
-metafile = true
-
-[[files]]
-file = "resourcepacks/hypixel-skyblock-legacy.pw.toml"
-hash = "348c0c583fcd8edb78179ed620c8636d0e17a03b607aaee21a8bee2ad38d92ac"
 metafile = true
 
 [[files]]
