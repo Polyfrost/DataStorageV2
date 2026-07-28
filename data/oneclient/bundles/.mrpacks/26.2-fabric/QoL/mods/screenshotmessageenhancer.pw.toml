@@ -1,0 +1,16 @@
+id = "UpkHNO8R"
+enabled = true
+hidden = false
+name = "Screenshot Message Enhancer"
+filename = "ScreenshotMessageEnhancer-1.0.3-26.2+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UpkHNO8R/versions/WXUfeero/ScreenshotMessageEnhancer-1.0.3-26.2%2B_fabric.jar"
+hash-format = "sha512"
+hash = "17b05812af71708fc1367617b0e2df463cb39ae4a934413fae8424bd54d3f7be1be9a4533ec14d0a12f0b5110c42baece49ac3a39c79b347a86e7d1fdab4773e"
+
+[update]
+[update.modrinth]
+mod-id = "UpkHNO8R"
+version = "WXUfeero"

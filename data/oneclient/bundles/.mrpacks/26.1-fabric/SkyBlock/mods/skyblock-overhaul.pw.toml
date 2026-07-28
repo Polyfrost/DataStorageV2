@@ -1,0 +1,16 @@
+id = "9lBqVbQF"
+enabled = true
+hidden = false
+name = "Skyblock Overhaul (SBO)"
+filename = "SBO-0.3.0-beta+26.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9lBqVbQF/versions/GmvelbTm/SBO-0.3.0-beta%2B26.1-fabric.jar"
+hash-format = "sha512"
+hash = "dfa8eef544c55113c8ef8f72bad6d84288dd60b922564b403a97a2995fe8b2c38b1e2db48b338db5f0c34884987fe2f566f704226ea62c3a969d497cd5547c1b"
+
+[update]
+[update.modrinth]
+mod-id = "9lBqVbQF"
+version = "GmvelbTm"
