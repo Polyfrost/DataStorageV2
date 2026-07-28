@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
-hash = "72f28c01103432bb02b20457edd674bb9a7e53b1c5887ba7d7949dd2664a6686"
+hash = "8701bb67a9389d0480509544a6535c0f48a206938ef5145df282254cb8bad7e4"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "f73bdd4aed0904b944dd4b8994f0b45eabe6c8b0a5d7ee130695917c009359b2"
+hash = "9e00eb1c84ede22010a86f6b0fdcae073cabca321c325c6b1f20369b13107d2d"
 metafile = true
 
 [[files]]
