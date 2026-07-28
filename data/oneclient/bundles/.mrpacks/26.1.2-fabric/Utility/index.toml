@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/hymod.pw.toml"
-hash = "47a8bb1522995cd80be26a0a0907dd5ab5ef67a348fb1680a01582b3efe5bd6c"
+hash = "1d41dccc923522cc47830a5892f0346241ee73a5981213052cc6625c24b87e2c"
 metafile = true
 
 [[files]]
