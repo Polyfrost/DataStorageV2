@@ -1,0 +1,16 @@
+id = "6ekmo61Y"
+enabled = true
+hidden = false
+name = "Hypixel AutoTip"
+filename = "hypixelautotip-1.4.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6ekmo61Y/versions/f7kRNWxz/hypixelautotip-1.4.1.jar"
+hash-format = "sha512"
+hash = "4df9a3ed903b590a8a4009d1314162b8500f31d07e3f4cf2bb1f38fbb1de274350248bdcb372c618ff933edfc34e125e1008dbaf13af0d325619500a948720bb"
+
+[update]
+[update.modrinth]
+mod-id = "6ekmo61Y"
+version = "f7kRNWxz"

@@ -1,0 +1,16 @@
+id = "jrPpQCNN"
+enabled = true
+hidden = false
+name = "Iconographic"
+filename = "iconographic-1.0.0-beta.2-26.1+afce0b75.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jrPpQCNN/versions/4iJu6er1/iconographic-1.0.0-beta.2-26.1%2Bafce0b75.jar"
+hash-format = "sha512"
+hash = "26e752857327e0529365ecb5f7248f059ec903f359a1b00d9c9d94682096fbcb9a03d12dcdef010baf65cb9437cc64dfa5da9f9534c875a92ec0b325bf0bc1ea"
+
+[update]
+[update.modrinth]
+mod-id = "jrPpQCNN"
+version = "4iJu6er1"

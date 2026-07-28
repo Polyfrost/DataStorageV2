@@ -1,0 +1,16 @@
+id = "iQzAOa0W"
+enabled = true
+hidden = false
+name = "Rescale (Aspect Ratio)"
+filename = "Rescale-1.1.0-26.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iQzAOa0W/versions/2fc7LFm9/Rescale-1.1.0-26.1-fabric.jar"
+hash-format = "sha512"
+hash = "05029d30369c49b15a9a69511d454d29e123178959571da6f73cc3274092c99877f7c6a41c751fb0755b08ee842f76e90bb03045d7d896531e11010506f410fb"
+
+[update]
+[update.modrinth]
+mod-id = "iQzAOa0W"
+version = "2fc7LFm9"

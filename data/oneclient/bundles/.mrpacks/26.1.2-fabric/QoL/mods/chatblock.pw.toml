@@ -1,0 +1,16 @@
+id = "aMcWnMHI"
+enabled = true
+hidden = false
+name = "Chat Block"
+filename = "ChatBlock-1.5.0-26.1+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aMcWnMHI/versions/kuwrz4fy/ChatBlock-1.5.0-26.1%2B_fabric.jar"
+hash-format = "sha512"
+hash = "b66dce5b8d09eb8922efb4307709949bb241e23086125e3f3e0875dd8404c33bec4bf66b45a8563085bee10843aaaec1122c73c9af134ddf25f592c8f5b55fb9"
+
+[update]
+[update.modrinth]
+mod-id = "aMcWnMHI"
+version = "kuwrz4fy"

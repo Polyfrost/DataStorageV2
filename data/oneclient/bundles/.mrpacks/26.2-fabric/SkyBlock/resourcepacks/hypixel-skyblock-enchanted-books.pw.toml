@@ -1,0 +1,16 @@
+id = "Z3mvPSZb"
+enabled = true
+hidden = false
+name = "night's Hypixel SkyBlock Enchanted Books"
+filename = "SkyBlock Enchanted Books.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z3mvPSZb/versions/wzAE0jIs/SkyBlock%20Enchanted%20Books.zip"
+hash-format = "sha512"
+hash = "43bb1c163b672cd1af7954642fae78394b385bb76b311d9616875bec632a6486923e07eb9dfb5809db78a75f2d810fe1b1d9ae9ba1fe4a78d22cf599210f1eaa"
+
+[update]
+[update.modrinth]
+mod-id = "Z3mvPSZb"
+version = "wzAE0jIs"
