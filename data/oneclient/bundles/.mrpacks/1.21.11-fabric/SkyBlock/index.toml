@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "68c781b8fd0940c0c1397ef292004d7a77a0d515d2932c544eadad719bb9310a"
+hash = "29dfcafecf99555187a8b545743bf1fc85de55d3df5e9b4aeb7d446f7db606f9"
 metafile = true
 
 [[files]]
