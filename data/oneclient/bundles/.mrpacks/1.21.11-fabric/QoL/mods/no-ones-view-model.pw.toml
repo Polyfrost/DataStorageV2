@@ -2,15 +2,15 @@ id = "Pl8MehSU"
 enabled = true
 hidden = false
 name = "View Model"
-filename = "view-model-1.0.3-1.21.11-fabric.jar"
+filename = "view-model-1.0.4-1.21.11-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Pl8MehSU/versions/gdoURDJd/view-model-1.0.3-1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/Pl8MehSU/versions/7R52NadH/view-model-1.0.4-1.21.11-fabric.jar"
 hash-format = "sha512"
-hash = "dedbcd303c2109da363659cc0bab5d88248288f1607618a07761d3e4c1894a4504519aeb1e4e3d6de1e9813692c04377d3f2aca8adcd3f3890cf578f008702e0"
+hash = "ee09d83fbfded521d91524dad7c30b2416697e6cff42c1020c6031c9fdecf0f09b05946d4f9e32e65e35a43d95f9e83939c09e0f3cdc447cb4ba2d7428859a5f"
 
 [update]
 [update.modrinth]
 mod-id = "Pl8MehSU"
-version = "gdoURDJd"
+version = "7R52NadH"

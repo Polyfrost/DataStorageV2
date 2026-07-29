@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-ones-view-model.pw.toml"
-hash = "5b7c9cb52bb1164be69d3840ab2b0a8e5044fec7dfcf23f762354baf0ca4e3d6"
+hash = "5f002db90ac035dc711105b293c1a9af9a9e66cbc1f5dfe2aedaf9c54375453a"
 metafile = true
 
 [[files]]
