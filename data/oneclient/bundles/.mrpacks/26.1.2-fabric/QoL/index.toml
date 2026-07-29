@@ -135,11 +135,6 @@ hash = "2c1f799705c52e19d3ccdcf2c929438190a299bfb3af3b46e7edc2d048257875"
 metafile = true
 
 [[files]]
-file = "mods/entitycrosshair.pw.toml"
-hash = "9cee1df9f908ad270956c4b687f15e3a5bc2b5b3921c502c146a44d23a04750d"
-metafile = true
-
-[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "5d323458f6b91ad1d0ad9cb78f0af5fe5b0d0b3864dac25b4fdfa7ff972dbade"
 metafile = true
