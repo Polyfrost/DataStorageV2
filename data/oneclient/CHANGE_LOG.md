@@ -1,3 +1,8 @@
+# 2.1.2
+- feat(core): utilize better JVM args for better JVM garbage collection
+- fix(ui): fix startup overlaying on bundle updates
+- fix(core): package downloading with dependencies actually downloads required dependencies now
+
 # 2.1.1
 
 - fix(ui): version art gets properly prefetched
