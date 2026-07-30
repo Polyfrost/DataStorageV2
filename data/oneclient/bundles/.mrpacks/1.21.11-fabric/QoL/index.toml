@@ -281,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "1e6677f9686414255070915c510dcb493417bf24431b1a67e1442801f0fff384"
+hash = "f4b2a256f13fb9a5457b5cf2c99874ca0dbff0dbc3ea7c52307544f85545f8da"
 metafile = true
 
 [[files]]
@@ -361,7 +361,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "ee6bb4c7678372ef35f737a583bd9640c50a2321de31f675f696112c5b75c529"
+hash = "e057ef9392a42b75217171ad6d95951d4ed52b3ce0737a1b357b44d4b768f845"
 metafile = true
 
 [[files]]
