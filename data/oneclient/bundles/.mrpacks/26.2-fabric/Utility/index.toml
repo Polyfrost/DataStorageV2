@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/bobby.pw.toml"
-hash = "f26c54ea7e3018cf5587b058c56c985cfd2b3a0d457f01720737c3111f8ff97f"
+hash = "f158a3d522832ee8ab8fcc1f03f6a22113f5815caf391386d8064840039ab3aa"
 metafile = true
 
 [[files]]

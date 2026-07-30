@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/hold-that-chunk-v2.pw.toml"
-hash = "f77ad00d525cd75830ff047640a3c1b1aeb8f1199f2fcaf602a1c4ce16a00319"
+hash = "c6161390248f64d49a86c2d0b9ea83ebf0d86f65ee9b80817e99ef100918246d"
 metafile = true
 
 [[files]]
