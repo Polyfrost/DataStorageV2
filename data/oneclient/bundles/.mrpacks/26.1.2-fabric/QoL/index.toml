@@ -155,11 +155,6 @@ hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
 metafile = true
 
 [[files]]
-file = "mods/forge-config-api-port.pw.toml"
-hash = "2cf1f1ce8c40d92d4dd4d0088302833e1b667c691dfed857c4082c657c987129"
-metafile = true
-
-[[files]]
 file = "mods/fovchanger.pw.toml"
 hash = "975c61651096a13c58aed3d1ff945782f4dd5db0be65fe54eeb7fa5e3a882cf7"
 metafile = true
