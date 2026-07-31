@@ -1,3 +1,9 @@
+# 2.1.3
+
+- fix(core): disable hickory dns on windows fixing failed requests
+- feat(ui): storage manager
+- fix(core): package deletion works properly now
+
 # 2.1.2
 - feat(core): utilize better JVM args for better JVM garbage collection
 - fix(ui): fix startup overlaying on bundle updates
