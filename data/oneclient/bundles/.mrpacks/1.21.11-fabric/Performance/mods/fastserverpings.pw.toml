@@ -2,15 +2,15 @@ id = "5eVpQJSP"
 enabled = true
 hidden = false
 name = "Fast Server Pings"
-filename = "FastServerPings-1.1.0.jar"
+filename = "FastServerPings-1.1.4+1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/5eVpQJSP/versions/A1VBvpOx/FastServerPings-1.1.0.jar"
+url = "https://cdn.modrinth.com/data/5eVpQJSP/versions/2BvcoPHo/FastServerPings-1.1.4%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "cedfbb3447adc1c76d0a45ea8e0d488156d8f1d825e32d7f11237b4cd952fb76c0026e8a0451a082b55425dfe8e2cd1857cdb49f7d793c7d0cca3b377c4f7602"
+hash = "4ae7ba3069b301cfeecb301ab7403569c8dcfe20fc3668783e2b14da0695fa414e70b76519eda3b1b8dc142ca30097e20ea7283365981d72f3bb6dba0be3a9de"
 
 [update]
 [update.modrinth]
 mod-id = "5eVpQJSP"
-version = "A1VBvpOx"
+version = "2BvcoPHo"

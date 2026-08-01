@@ -331,7 +331,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-skies.pw.toml"
-hash = "5e3564c0b13f3e9e6ecefb815b4ba7a798568314b53160ebeac3f168aa6ed862"
+hash = "0d4df6fd5d8c87355c2a404af2a1be4258875a93f55fc544f129afb78db445a0"
 metafile = true
 
 [[files]]
