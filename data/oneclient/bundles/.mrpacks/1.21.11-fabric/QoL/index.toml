@@ -30,6 +30,11 @@ hash = "4179ab7808c1a11cbac8210bf36b326b3f5abd49025094c5ff4b62265e10d809"
 metafile = true
 
 [[files]]
+file = "mods/blur-plus.pw.toml"
+hash = "52a1661bd7f077342bd442a0eca6d6c16b118b3f5b4f229ebf9397a0d2d6e80e"
+metafile = true
+
+[[files]]
 file = "mods/centered-crosshair.pw.toml"
 hash = "ba4bf3fa860fb72b491ca8970703e37318aa5c6bd0a248f7af2a7ba3490c7fac"
 metafile = true
