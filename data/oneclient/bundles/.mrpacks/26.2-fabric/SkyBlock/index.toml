@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "453e163dd493b4ba67b9ae43069750f09e9147c57b08ba17552a606160bd351d"
+hash = "a94959e292baedb5cc3b1feb89b6a4f1ae326a8f0b7c872b8bb64a1065dae6bd"
 metafile = true
 
 [[files]]
