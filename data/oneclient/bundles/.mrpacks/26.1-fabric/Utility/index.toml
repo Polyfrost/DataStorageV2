@@ -30,6 +30,11 @@ hash = "dd0f0d74f1ef2f1a200d87a80eb315d9c64bf9711751d2594b5b48c721cf45cb"
 metafile = true
 
 [[files]]
+file = "mods/bettercommandblockui.pw.toml"
+hash = "b67f10be91dc706d560dd5260ed377f578f33f081225b1972b51129618396529"
+metafile = true
+
+[[files]]
 file = "mods/betternightvision.pw.toml"
 hash = "6ac2004b504f0e46ec96329779f38e2cff6cd564e99e3309514062b9f992a579"
 metafile = true
