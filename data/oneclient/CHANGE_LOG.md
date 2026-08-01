@@ -1,3 +1,21 @@
+# 2.1.4
+
+- feat: auto-repair as well as verify cluster button in cluster settings
+- feat(ui): browser package better multi-version management
+- feat(ui): browser grid tags and install button on package cards
+- feat(ui): check browser package updates on game launch instead
+- feat(ui): per-cluster update prompt for browser content
+- feat(content): check browser-installed packages for newer versions
+- feat(db): browser package update cache and per-profile update mode
+- fix(ui): hide bundle packages marked hidden from the package manager (except in "All" category)
+- fix(ui): scope package manager search to the actively viewed category
+- feat(ui): rename External tab to Browser and add toolbar browse action
+- fix(ui): disable the launch button on click, not until first message response
+- fix(core): disallow launching multiple instances so fast
+- feat(ui): install packages straight from the listing
+- feat(java): prefer JDKs, require java.awt, install kits only
+- chore(onboarding): better pre-download toggle description
+
 # 2.1.3
 
 - fix(core): disable hickory dns on windows fixing failed requests
