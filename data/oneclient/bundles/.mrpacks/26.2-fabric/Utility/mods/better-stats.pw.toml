@@ -1,6 +1,6 @@
 id = "n6PXGAoM"
 enabled = true
-hidden = false
+hidden = true
 name = "Better Statistics Screen"
 filename = "betterstats-5.5.5+fn-26.2.jar"
 side = "both"

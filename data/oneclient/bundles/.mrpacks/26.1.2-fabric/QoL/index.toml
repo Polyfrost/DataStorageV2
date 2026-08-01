@@ -25,11 +25,6 @@ hash = "31000795f05e79b4c1d29947302331c04edf5762085e22a3bc6f40ed26b30085"
 metafile = true
 
 [[files]]
-file = "mods/blur-plus.pw.toml"
-hash = "06686e62ebda833b6e14b99e014a36a06f2e44f3ffc319d781fed3a562207d36"
-metafile = true
-
-[[files]]
 file = "mods/centered-crosshair.pw.toml"
 hash = "adb04f281b2fd33467da2f49febc971c87077dbd25cbcc94444623d459f6fa8e"
 metafile = true
@@ -106,12 +101,7 @@ metafile = true
 
 [[files]]
 file = "mods/dark-graph.pw.toml"
-hash = "d50c62ce2c560fd5a6ab855ecb6e706ccc068ca07f69f36a964892ffa87f952b"
-metafile = true
-
-[[files]]
-file = "mods/dark-loading-screen.pw.toml"
-hash = "83ff544c412bb7e21d194ada1d0d6f71b060a6ad47f43e5d641fc4036c5674ce"
+hash = "c9ffb0c566557653ceeff731c38cbbb7a66925495b0a0a89c2f507578441d1f5"
 metafile = true
 
 [[files]]
@@ -211,7 +201,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-ones-view-model.pw.toml"
-hash = "5f002db90ac035dc711105b293c1a9af9a9e66cbc1f5dfe2aedaf9c54375453a"
+hash = "21b8ef85eb1e58c87afc205daa68bc9b2e21af554bf8b70b89863c1066f7bd64"
 metafile = true
 
 [[files]]
@@ -315,11 +305,6 @@ hash = "bd1901c84c0a2adf73c34b496bbb88a469215b7523d6fca9a050611fab8fdb1b"
 metafile = true
 
 [[files]]
-file = "mods/screencopy.pw.toml"
-hash = "05fcc0573e4c5a2b8eda2c5baba5a3c29f1ff4869ccfbcd6879cb4e8114af152"
-metafile = true
-
-[[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
 hash = "dc0baeb5924e87d4535b035e99d6c6c315a19f0e26106b2ffad3630557ef137f"
 metafile = true
@@ -370,11 +355,6 @@ hash = "5e3564c0b13f3e9e6ecefb815b4ba7a798568314b53160ebeac3f168aa6ed862"
 metafile = true
 
 [[files]]
-file = "mods/smuc.pw.toml"
-hash = "6f9ea6ddbf5884d5a177f552446dbcf2b42c47d8c003522d588631e645bc01bb"
-metafile = true
-
-[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "3e697792afeba3bb4613bb723be4d8c26f392331e1005b44eeeed6caf3eb9339"
 metafile = true
@@ -382,11 +362,6 @@ metafile = true
 [[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "c514673c733cd9fa3e2ce00ad26aee10a2d8feb98e044989324354da43062022"
-metafile = true
-
-[[files]]
-file = "mods/symbol-chat.pw.toml"
-hash = "7f40ec028302ee87f6c3e065b97088c655ec3f6a9614c8ed2203826797ca52dc"
 metafile = true
 
 [[files]]
@@ -406,7 +381,7 @@ metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "a9c54447327b87a356d023c569b6071c6ed7bc1adb375fc00ab7ac5938ea5555"
+hash = "c6b640c97d5461448e0c316193f81a0236874039764b138ccff1ea47d48864c7"
 metafile = true
 
 [[files]]
@@ -417,11 +392,6 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "aaa40294199eb7212bfb6f3379d08789d66c0227c06daa51181bd1f12f106cf2"
-metafile = true
-
-[[files]]
-file = "mods/yosbr.pw.toml"
-hash = "3cf9454db44da1445fe9e55aa8e4a488faac04e5d22b4189425f3ce0572671f1"
 metafile = true
 
 [[files]]

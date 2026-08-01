@@ -22,12 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "ed6f8461bcc70d112a862f661a97ad2238f2c7fdc74ffa6efa79c6903abcc9b3"
-metafile = true
-
-[[files]]
-file = "mods/bettercommandblockui.pw.toml"
-hash = "89b555932f4f50e0f878ef589123d49d48552b182292102a7a569d2f3b3772a1"
+hash = "171ccf857d8df28ed37b1dd41e367372f9084f442126393f073d6da18b71953d"
 metafile = true
 
 [[files]]
@@ -152,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "1e0937b3389a835daef7ef08856a0a297d829142aeef4e9698a29d52efa0b602"
+hash = "1bfe52a33511f2ad0d6baf37f979e51940b34069f521af5ffb55eb3e2cf2a6b4"
 metafile = true
 
 [[files]]

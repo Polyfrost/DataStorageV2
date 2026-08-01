@@ -1,6 +1,6 @@
 id = "l6YH9Als"
 enabled = true
-hidden = false
+hidden = true
 name = "spark"
 filename = "spark-1.10.152-fabric.jar"
 side = "both"

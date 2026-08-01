@@ -22,12 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "b720b88479f6589545815d11f1f1d17735a79b4dd4f1718dbb588ee022f973cb"
-metafile = true
-
-[[files]]
-file = "mods/bettercommandblockui.pw.toml"
-hash = "c372db12962c08d4e319bb91416478a62fe2320373fb24b2152ab7585b895bb0"
+hash = "f0d677b69401c478ce7ced5223490831d6f992470fd1ab2a440a66431392c525"
 metafile = true
 
 [[files]]
@@ -83,11 +78,6 @@ metafile = true
 [[files]]
 file = "mods/hypixel-mod-api.pw.toml"
 hash = "ba05ea4d42477c2306bddd6a8f708f1ec7a464c18219ee5adc13ad84aabdbbea"
-metafile = true
-
-[[files]]
-file = "mods/hypixelautogg.pw.toml"
-hash = "d3b089f13d6018ddf3af0be6ddf238279a64270e94bf46deeafe44fd0db13792"
 metafile = true
 
 [[files]]
@@ -177,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "a6a412097036e5e7737b008fa13e6e9bc1997a524d015ef37ad542912626fef9"
+hash = "701509a0fef33f5dde4d7217cebe0bdaa5732537f62df0f98cda4822a2a8b602"
 metafile = true
 
 [[files]]

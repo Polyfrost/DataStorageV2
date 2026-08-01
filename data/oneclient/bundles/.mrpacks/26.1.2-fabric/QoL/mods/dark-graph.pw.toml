@@ -1,6 +1,6 @@
 id = "E7uiJ5bx"
 enabled = true
-hidden = false
+hidden = true
 name = "Dark Graph"
 filename = "dark-graph-1.2.2.jar"
 side = "client"
