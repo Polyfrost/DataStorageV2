@@ -1,0 +1,16 @@
+id = "2GLXmVz9"
+enabled = true
+hidden = false
+name = "Remember My Txt"
+filename = "remember-my-txt-1.0.4+MC26.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2GLXmVz9/versions/jVU6bAHm/remember-my-txt-1.0.4%2BMC26.1.2.jar"
+hash-format = "sha512"
+hash = "3a6cd315d889ba10dbd9760feeccb057e048403172ac35c1426edb017f5cec56e2e026e18954b459b9424cffe230b64b5ee3967a47b6eddbc2281c75c4d9810e"
+
+[update]
+[update.modrinth]
+mod-id = "2GLXmVz9"
+version = "jVU6bAHm"

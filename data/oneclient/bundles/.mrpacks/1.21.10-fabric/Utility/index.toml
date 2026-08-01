@@ -136,6 +136,11 @@ hash = "28cac79a2c3549a333b1891572c6b0359fdb6c7486a9c00dca3ce573f4cfebfa"
 metafile = true
 
 [[files]]
+file = "mods/remember-my-txt.pw.toml"
+hash = "6fb434f347104c82aaeeb69a51f52df68a7ab3dd4d156fb1909c1448ae2f8e70"
+metafile = true
+
+[[files]]
 file = "mods/resourcify.pw.toml"
 hash = "9e6fed118f1d7547b96300b3965d778360168f9fe61fdada87d73b99032864ec"
 metafile = true
