@@ -1,0 +1,16 @@
+id = "4das1Fjq"
+enabled = false
+hidden = false
+name = "Flashback"
+filename = "Flashback-0.42.1-for-MC26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4das1Fjq/versions/Bt2JHlo4/Flashback-0.42.1-for-MC26.1.jar"
+hash-format = "sha512"
+hash = "64cbf79f3112aafb478c4690999106c052ed475ac0240a636fc206912a9d30f377c5f46ebd551665f4bee831a2bfe38de111f1c76426e2bef4908b60c33135c1"
+
+[update]
+[update.modrinth]
+mod-id = "4das1Fjq"
+version = "Bt2JHlo4"

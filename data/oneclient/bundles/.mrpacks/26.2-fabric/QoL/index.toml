@@ -140,6 +140,11 @@ hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
 metafile = true
 
 [[files]]
+file = "mods/flashback.pw.toml"
+hash = "c909efdc8fa8825b69c02a03812cdf2601bd672305f4cffef7d3851b41975f16"
+metafile = true
+
+[[files]]
 file = "mods/fovchanger.pw.toml"
 hash = "0474a98894b93e175def4033bb595d1d194c3dadcca5f9a030812101d663f972"
 metafile = true

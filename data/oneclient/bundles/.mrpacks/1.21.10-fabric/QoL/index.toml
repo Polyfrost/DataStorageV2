@@ -150,6 +150,11 @@ hash = "82c5e52d22449651a09711c08c94f27792f250e4a882df1c1210523275b33032"
 metafile = true
 
 [[files]]
+file = "mods/flashback.pw.toml"
+hash = "5609aa57c09470901bf238c026fd23441e09e9aab87e99df5c84738ef3c9b178"
+metafile = true
+
+[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "c1f2a3de3583dfc64723e1415ca43dd4ec73dff15c3ba9f608aaf86f3b9e59c0"
 metafile = true
