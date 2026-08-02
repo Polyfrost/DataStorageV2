@@ -1,0 +1,45 @@
+{
+    "$comment": [
+        "Priority weights for the generated /oneclient/mods.json feed.",
+        "Higher numbers are shown first by the website; anything not listed here defaults to 0.",
+        "Negative numbers push a mod down the list without hiding it.",
+        "A key matches a mod by Modrinth slug, Modrinth project id, or .pw.toml filename.",
+        "Keys that match nothing produce a build warning, so remove a mod's key when it leaves the pack."
+    ],
+
+    "oneconfig": 100,
+
+    "polyblur": 80,
+    "polynametag": 80,
+    "polyplus": 80,
+    "polysprint": 80,
+    "polytime": 80,
+    "polyweather": 80,
+    "evergreenhud": 80,
+    "vanillahud": 80,
+    "hytils": 80,
+    "chatting": 80,
+    "crashpatch": 80,
+    "overflowparticles": 80,
+    "redaction": 80,
+
+    "sodium": 60,
+    "lithium": 55,
+    "entityculling": 50,
+    "immediatelyfast": 50,
+    "ferrite-core": 45,
+    "dynamic-fps": 45,
+
+    "simple-voice-chat": 40,
+    "controlify": 40,
+    "zoomify": 40,
+    "modmenu": 35,
+    "3dskinlayers": 35,
+    "wavey-capes": 35,
+    "no-chat-reports": 35,
+
+    "skyblocker-liap": 40,
+    "skyocean": 35,
+    "skycubed": 35,
+    "catharsis": 30
+}

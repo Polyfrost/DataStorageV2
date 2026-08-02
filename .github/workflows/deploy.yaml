@@ -61,6 +61,9 @@ jobs:
           ./scripts/generate-bundles.sh
           ./scripts/generate-modrinth-packs.sh
 
+      - name: Generate mod index
+        run: node ./scripts/generate-mods-json.js
+
       - name: Publish to Modrinth
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}

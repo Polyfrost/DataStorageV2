@@ -6,6 +6,8 @@ _site/
 # Mod jar cache for the compatibility checker
 scripts/.cache/
 
+data/oneclient/mods.json
+
 scripts/packwiz
 scripts/packwiz-upstream
 scripts/packwiz*-linux.zip
