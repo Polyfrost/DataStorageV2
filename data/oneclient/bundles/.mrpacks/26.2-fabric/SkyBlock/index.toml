@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "62709d2b4d28c483c1f3b8c009763a0f922ded3c099de6fcc36f0ccbbafd376a"
+hash = "e96b9d11e971b66512576e85011bf0a9113aff19d61d4d7946d26b766689da23"
 metafile = true
 
 [[files]]
@@ -107,5 +107,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/skyblock-dark-ui.pw.toml"
-hash = "93c67eb053b107cdb485ff60eeebc7c7dc140f7f49b1e4ed08237c979b1f4b38"
+hash = "cb3386b54e006fd4e827106bce46e2754e3b6c29abbe65494c9aba0dc59c21e0"
 metafile = true
