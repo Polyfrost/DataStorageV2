@@ -295,11 +295,6 @@ hash = "41ce6c734d454eb166770af185054cb02a4ab97248e8faa8389909eeb6c190ee"
 metafile = true
 
 [[files]]
-file = "mods/resourcepackcached.pw.toml"
-hash = "abb3ef779221d0230397d393ee381a81833472eda158349dfe6adc3be6807e18"
-metafile = true
-
-[[files]]
 file = "mods/reward-claim.pw.toml"
 hash = "2f7e5dbccc6f63540642e32f650613746053e2c17751dba95d38bd94ec068290"
 metafile = true
