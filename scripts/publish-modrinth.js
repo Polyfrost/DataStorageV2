@@ -34,6 +34,8 @@ const CONTENT_MARKER_RE = /Content SHA-1: `([0-9a-f]{40})`/g;
 
 const IGNORED_MC = new Set(["26.1"]);
 
+const ENVIRONMENT = "client_only";
+
 const PROJECTS = [
   {
     prefix: "oneclient-skyblock-",
@@ -115,6 +117,7 @@ async function createVersion({
     game_versions: [mc],
     version_type: "release",
     loaders: [LOADER],
+    environment: ENVIRONMENT,
     featured: false,
     project_id: projectId,
     file_parts: ["file"],
