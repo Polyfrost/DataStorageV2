@@ -1,6 +1,6 @@
 id = "codAaoxh"
 enabled = true
-hidden = false
+hidden = true
 name = "MidnightLib"
 filename = "midnightlib-fabric-1.9.3+1.21.1.jar"
 side = "both"

@@ -1,6 +1,6 @@
 id = "1eAoo2KR"
 enabled = true
-hidden = false
+hidden = true
 name = "YetAnotherConfigLib (YACL)"
 filename = "yet_another_config_lib_v3-3.9.6+26.1-fabric.jar"
 side = "both"

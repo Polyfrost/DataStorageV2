@@ -1,6 +1,6 @@
 id = "1A2mKfBx"
 enabled = true
-hidden = false
+hidden = true
 name = "Hypixel Mod API"
 filename = "HypixelModAPI-1.0.2+build.1+mc26.1.jar"
 side = "client"

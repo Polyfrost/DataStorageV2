@@ -1,6 +1,6 @@
 id = "mOgUt4GM"
 enabled = true
-hidden = false
+hidden = true
 name = "Mod Menu"
 filename = "modmenu-18.0.0.jar"
 side = "client"

@@ -1,6 +1,6 @@
 id = "xv94TkTM"
 enabled = true
-hidden = true
+hidden = false
 name = "Controlling"
 filename = "Controlling-fabric-26.1.2-26.1.2.4.jar"
 side = "client"

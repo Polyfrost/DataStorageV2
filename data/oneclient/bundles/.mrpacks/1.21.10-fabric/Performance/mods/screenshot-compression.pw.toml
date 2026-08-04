@@ -1,6 +1,6 @@
 id = "cfrxss4E"
 enabled = true
-hidden = true
+hidden = false
 name = "Screenshot Compression"
 filename = "screenshotcompression-1.21.10-1.1.jar"
 side = "client"
