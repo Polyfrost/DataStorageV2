@@ -12,7 +12,6 @@
 #      (public). Tokens, most-to-least preferred:
 #        PACKWIZ_TOKEN  (PAT with actions:read on the target repo)
 #        GH_TOKEN / GITHUB_TOKEN  (the default Actions token is scoped to *this*
-#        repo and CANNOT read another repo's artifacts, so it 401s and falls
 #        back to nightly.link)
 set -euo pipefail
 
@@ -40,18 +39,25 @@ _pw_token() {
   echo "${PACKWIZ_TOKEN:-${GH_TOKEN:-${GITHUB_TOKEN:-}}}"
 }
 
+_pw_api_curl() {
+  _pw_curl -H "Authorization: Bearer $(_pw_token)" \
+           -H "Accept: application/vnd.github+json" \
+           -H "X-GitHub-Api-Version: 2022-11-28" \
+           "$@"
+}
+
 _pw_resolve_api() {
   command -v jq >/dev/null 2>&1 || { echo "jq not available" >&2; return 1; }
   local api="https://api.github.com/repos/$_PACKWIZ_REPO"
 
   local run_id
-  run_id="$(_pw_curl \
+  run_id="$(_pw_api_curl \
     "$api/actions/workflows/$_PACKWIZ_WORKFLOW/runs?status=success&branch=$_PACKWIZ_BRANCH&per_page=1" \
     | jq -r '.workflow_runs[0].id // empty')"
   [[ -n "$run_id" ]] || { echo "no successful $_PACKWIZ_WORKFLOW run found" >&2; return 1; }
 
   local artifact_url
-  artifact_url="$(_pw_curl "$api/actions/runs/$run_id/artifacts" \
+  artifact_url="$(_pw_api_curl "$api/actions/runs/$run_id/artifacts?per_page=100" \
     | jq -r --arg name "$_PACKWIZ_ARTIFACT" \
         '.artifacts[] | select(.name == $name and .expired == false) | .archive_download_url' \
     | head -n1)"
@@ -90,7 +96,13 @@ _pw_download_linux() {
   fi
 
   echo "Downloading packwiz via nightly.link ($_PACKWIZ_NIGHTLY_URL)"
-  _pw_curl -o "$zip" "$_PACKWIZ_NIGHTLY_URL"
+  if ! _pw_curl -o "$zip" "$_PACKWIZ_NIGHTLY_URL"; then
+    rm -f "$zip"
+    echo "Error: could not fetch packwiz for $_PACKWIZ_REPO." >&2
+    echo "  GitHub API needs a token with actions:read on $_PACKWIZ_REPO (PACKWIZ_TOKEN);" >&2
+    echo "  the nightly.link fallback only works while that repo's latest $_PACKWIZ_BRANCH artifact is live." >&2
+    return 1
+  fi
   _pw_install_zip "$zip"
 }
 
