@@ -206,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "4d0ae32e5779319f0dd57b55bc81adfa168d270bf4ee11d808d49ced58bb2b09"
+hash = "13a22e71a5bab61d4df2cdffd9d00db58eb51d9d6bd6bbc0bb9cab99c594d043"
 metafile = true
 
 [[files]]
@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "2397a03de50f278bba850c037579bdaee3140ed16e6291b8a83828bdfcaf2fe4"
+hash = "fd9bbbc05d381251ba57af23fb2149787c0f556e77daa120b02503927b7c308a"
 metafile = true
 
 [[files]]

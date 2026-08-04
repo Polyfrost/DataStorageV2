@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "ac97ee2d78580e26c29df5c2eb349505292c07f04070e03b4a4fe2b5f73bb500"
+hash = "95c3878dadad442ae7458cbb0684c11b5dc4a41f2231cf940799f35c4e353954"
 metafile = true
 
 [[files]]
@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/hypixel-skyblock-legacy.pw.toml"
-hash = "94a03643d891853cbc1f2ab41d3879ec048a7497430aef1e7a052964b0099b21"
+hash = "baa650d7cb32f646401a0c2c2f95be7a4f1570a47273602a90be5b7e53e0f0a3"
 metafile = true
 
 [[files]]
