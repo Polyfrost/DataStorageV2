@@ -1,3 +1,9 @@
+# 2.1.5
+- fix(core): fix downloading libraries properly
+- feat(ui): add a huge warning when people try to install skyblock mods
+- fix(java): revert JVM back to G1GC
+- fix(core): update dependencies, may fix graphical glitches
+
 # 2.1.4
 
 - feat: auto-repair as well as verify cluster button in cluster settings
