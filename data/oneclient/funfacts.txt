@@ -13,3 +13,20 @@ Make sure to drink water! You never know if you might be dehydrated.
 People asking you to "test their mod" are likely trying to hack you.\nThe only ones you can trust are ones widely trusted by the community.
 Have a great day!
 You can sleep through a thunderstorm, even during the day.
+Also try OneConfig!
+Made by the community, for the community
+OneClient had its first full release on Feburary 26th, 2026
+OneClient v2 was fully released on July 18th 2026
+Join our discord to stay up to date with OneClient. discord.gg/polyfrost
+Join our discord to stay up to date with news, annoucements and everything else. discord.gg/polyfrost
+Got a suggestion for something new and cool? Come chat about it in our discord. discord.gg/polyfrost
+Water is important. Please drink it
+Sleep is important. Please sleep
+Polyfrost first started as W-OVERFLOW back in October 2021
+Building cool and open source projects since October 2021
+We have had 0 private repositories since January 15th, 2026, and we plan to keep it that way for the foreseeable future as part of our public pledge to Open Source Software
+why-vest
+Passionate creators redefining the modding community
+Open Source, Forever
+The cake is a lie
+OneClient is the first launcher to be powered by Freya, a all-native Rust framework.
