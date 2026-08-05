@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "e4f90f8a68b41d75364a8fa15d8daca7a02e640e81d49d9776bcf005761c739b"
+hash = "433150d28878ce69a97e7f31ac6d9a6b39eec2bb3b23be7242b44da692dbe96f"
 metafile = true
 
 [[files]]
@@ -330,11 +330,6 @@ hash = "d5337f9dbe0a75bb0dbe3242f2a11bced968546be1952b24eec0e8e88d963118"
 metafile = true
 
 [[files]]
-file = "mods/server-pack-unlocker.pw.toml"
-hash = "7f9d9978e53d9c84e09a15d28951d53168d392026309ed7c9fcbab52fb428b05"
-metafile = true
-
-[[files]]
 file = "mods/shaketweaks.pw.toml"
 hash = "e077af4843818078aa9ef9d5c088e0878833c626fed13328ad274ec98de8eed1"
 metafile = true
@@ -396,7 +391,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "aaa40294199eb7212bfb6f3379d08789d66c0227c06daa51181bd1f12f106cf2"
+hash = "59fcce1ec87b77cce50e9aa31b93293dbf31b6dbd6ebe6a093ffbff3cb9a3220"
 metafile = true
 
 [[files]]

@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/midnightlib.pw.toml"
-hash = "772d9780dfdc8041d0084d89eba54dcbd8d01c96078e702b1553c59d298632a3"
+hash = "2ba6377ddf084cce6043c95cfacfe64e64d7738ce3607ff8df3cb1062b6f7ad3"
 metafile = true
 
 [[files]]
@@ -308,11 +308,6 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "5f7c70b287fca566f5738bd847f67c1b9d1fdcca25ddc6e1fd1c9a8a71a361bb"
-metafile = true
-
-[[files]]
-file = "mods/server-pack-unlocker.pw.toml"
-hash = "5e80b8af8739eebbd7bac6d59ac7c41f181ea70afd1858a5fdcac1a7ccc1ce82"
 metafile = true
 
 [[files]]
