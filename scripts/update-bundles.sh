@@ -24,6 +24,7 @@ INTER_BUNDLE_SLEEP="${PACKWIZ_UPDATE_SLEEP:-3}"
 # Expand this list to opt more mods into pre-release updates.
 BETA_MODS=(
   catharsis
+  rrls
   skyblock-item-list
   skyhanni
 )
