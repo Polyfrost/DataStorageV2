@@ -1,4 +1,19 @@
+# 2.2.0
+
+- fix(core): bundle overrides being problematic
+- feat(logs): live launcher log console in its own window
+- fix(auth): actually cancel an in-flight Microsoft sign-in
+- feat(search): make cluster package search fuzzy
+- refactor(java): simpler java check
+- fix(ui): player preview is properly rendered now
+- chore(game): remove string dedup in jvm args
+- chore(ui): accounts page part of the settings layout
+- feat(ui): hidden bundle packages filter
+- feat(updater): allow disabling the updater through an environment variable
+- fix(ui): make GPU cache limit 512mb instead of 32mb
+
 # 2.1.5
+
 - fix(core): fix downloading libraries properly
 - feat(ui): add a huge warning when people try to install skyblock mods
 - fix(java): revert JVM back to G1GC
