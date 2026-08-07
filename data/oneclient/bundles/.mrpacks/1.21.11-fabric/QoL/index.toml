@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/damagetint.pw.toml"
-hash = "67eeae901246c1edf15d3db31a0fd67c42157fb45fabc23e73946455a2e0c3c7"
+hash = "b498612bb24e0b48a400daf03bd1879309610878511788aed275e84f071ca2d9"
 metafile = true
 
 [[files]]
