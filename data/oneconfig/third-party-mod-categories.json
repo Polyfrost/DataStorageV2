@@ -57,6 +57,7 @@
     "sodium-extra"
   ],
   "visuals": [
+    "advantimations",
     "animatica",
     "animatium",
     "better-block-entities",
