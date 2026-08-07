@@ -81,11 +81,6 @@ hash = "d72b9cc4688a89220e86374e59435a15afebb69b3cea86850a9173c9e0a083d8"
 metafile = true
 
 [[files]]
-file = "mods/in-game-account-switcher.pw.toml"
-hash = "58d33abdbc7da26fa4d76ebf8f0a3103a075b90f78ab187c87b2e8bb6cdd264c"
-metafile = true
-
-[[files]]
 file = "mods/island-utils.pw.toml"
 hash = "942ef97ef2e13bc97e0ecfc02100b12a1d0798362b29398f5abe66ee77212a77"
 metafile = true
