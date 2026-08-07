@@ -91,11 +91,6 @@ hash = "87364dfa39fa6bbcd9b56b92a6a78d763c61ff19833c0ce0133bab82ace8f161"
 metafile = true
 
 [[files]]
-file = "mods/in-game-account-switcher.pw.toml"
-hash = "6082d5a9c3c832c8ca69567e8b48c334a9f5372052a8c798ca18a52a7f7c35e9"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "9f8daa3db1f97bf7f965841fb5c9b9a27d2e1f22e29f4e617ceca95eba713e05"
 metafile = true
