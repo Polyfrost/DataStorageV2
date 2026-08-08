@@ -345,11 +345,6 @@ hash = "385d08a8eb2dec67e3cfde8d5f0d52761228c633b33fdea8428f68de8f3c0687"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-perfected.pw.toml"
-hash = "51614751c41727e916cc387b7df709d4d36651d2959f819aa4802db78ab56243"
-metafile = true
-
-[[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "6803f950a328127292642614dc2f01a35252fa1d889e8c1998d272934e82d31d"
 metafile = true
