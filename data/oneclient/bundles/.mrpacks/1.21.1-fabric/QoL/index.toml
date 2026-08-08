@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/damagetint.pw.toml"
-hash = "b1ceac4cc492eea22d7d418cc5c88484f176042b040a9a7a9e24e08d267a39cd"
+hash = "ee43c51f30446ea81c8ade9e859948d232848ce880e02aa30eff5fb8452de4c1"
 metafile = true
 
 [[files]]
@@ -257,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "9111ef0484717830cac284169101af3c9b2b5c2346a9768a19645b76abbd6c4a"
+hash = "f1a313e2bfcf5e852aac206755442a511b40ab7d702d98041c5c22c67e29e0e1"
 metafile = true
 
 [[files]]
