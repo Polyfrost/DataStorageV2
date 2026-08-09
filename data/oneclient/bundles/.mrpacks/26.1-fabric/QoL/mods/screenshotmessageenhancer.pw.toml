@@ -2,15 +2,15 @@ id = "UpkHNO8R"
 enabled = true
 hidden = false
 name = "Screenshot Message Enhancer"
-filename = "ScreenshotMessageEnhancer-1.0.3-26.1+_fabric.jar"
+filename = "ScreenshotMessageEnhancer-2.0.0-26.1+_fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/UpkHNO8R/versions/QE39nkyp/ScreenshotMessageEnhancer-1.0.3-26.1%2B_fabric.jar"
+url = "https://cdn.modrinth.com/data/UpkHNO8R/versions/XsxidGgg/ScreenshotMessageEnhancer-2.0.0-26.1%2B_fabric.jar"
 hash-format = "sha512"
-hash = "22e7dc37189300df0991edbf1068953d61e43f79be2708332580c41c46328318a131e65da59c69641b9461a88f8a5d5d9c5e73af4fb635c00a7a223c1252bffa"
+hash = "7542c7f3c3164cae35386a6b49cf49b658f1b5913bd21cbc9af44430e259c093e74875a072dd355cbd6fe9b2a18396235d18e800bfeaf165b6ab54f0ab1be6d9"
 
 [update]
 [update.modrinth]
 mod-id = "UpkHNO8R"
-version = "QE39nkyp"
+version = "XsxidGgg"

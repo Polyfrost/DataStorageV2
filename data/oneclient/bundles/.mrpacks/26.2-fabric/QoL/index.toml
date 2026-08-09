@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/droppeditemtweaks.pw.toml"
-hash = "29a7d41a92805fb043b019f6cb457004adcbf2acdc030f58deb79cc7038e575d"
+hash = "795aa89fd94e04e9be8388b46fe5e72f0338150ca7e0dba96438e2804bd71938"
 metafile = true
 
 [[files]]
@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
-hash = "74e6eccd9bfbc3fa9604c9b80fb233196ad537c37b482492b68923d22f790a09"
+hash = "1fef42e588d8663658c2d45447f0fce357deb4731b01a3237b0267f2c4dccb80"
 metafile = true
 
 [[files]]
