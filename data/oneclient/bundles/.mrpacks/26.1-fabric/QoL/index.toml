@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "cd7928c7989e2b3e0e9f60e0e71ed97efd61416660ae2d04e2ac9ec4e627c8ec"
+hash = "79b50521a7c0c73be1b2cf66dabf32351360118fcf7e7e47a065f27cf3e9b89d"
 metafile = true
 
 [[files]]
