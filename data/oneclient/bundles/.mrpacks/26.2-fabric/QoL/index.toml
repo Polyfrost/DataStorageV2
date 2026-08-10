@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "03b67293c697879b8430f96d518062ee949be98ca2e2b0e85b0cb8b981e77006"
+hash = "0e7e390fec6c830497064769ebeab7d05a84ee7f94223a623a511cd838a172dc"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysicliteconfig.pw.toml"
-hash = "19d5ec8e24d9ed513e8d0413fd78d7b7ecb73f486bd93be3cd6cb882a0e15b35"
+hash = "6a02e8ac30bb97b9c9809de9c5a191dcd12bfb51712d5188e905be0300f254a0"
 metafile = true
 
 [[files]]
