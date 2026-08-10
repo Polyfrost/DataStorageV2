@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "328e0c4b292b1edde98e4c8320f2e228bbc01a4831d7b2ccda42b39a9edb4ab6"
+hash = "0b807e6b16040a36973c1bbcb65da79c324dd1842e82115cc28d774c4465eba0"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-custom-scoreboard.pw.toml"
-hash = "adb99e2d92a66d34c5ff1dfd5ee1fc3d4b11cdd778b51c9eb7b906119a4ec1c2"
+hash = "17643100f85f886bd3a4930cf7065ad4edf7a7c372f692167c46ccf3d2aa6829"
 metafile = true
 
 [[files]]
