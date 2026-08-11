@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "1ad280065720ee91672945d80a817ed59838da97020e418c83bc9044eecd7c12"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "7695172e9df86f5133b995be57039fb2d46be7236acce5d64dc5d82e8238b9e3"
 metafile = true
