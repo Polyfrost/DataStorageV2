@@ -156,6 +156,16 @@ hash = "1265af291c131b170d06f789228bfc35e4b37a224cb6262b33a9abebddc1def7"
 metafile = true
 
 [[files]]
+file = "mods/itemphysic-lite.pw.toml"
+hash = "64285c3d522b9dcc87801af76b0947962d2a238ed4a205e3b24484167c249aac"
+metafile = true
+
+[[files]]
+file = "mods/itemphysicliteconfig.pw.toml"
+hash = "455898920ae31e4548c023508a8302169e251e98680c4f5aae6ec8ae81d36cbe"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "2ba6377ddf084cce6043c95cfacfe64e64d7738ce3607ff8df3cb1062b6f7ad3"
 metafile = true

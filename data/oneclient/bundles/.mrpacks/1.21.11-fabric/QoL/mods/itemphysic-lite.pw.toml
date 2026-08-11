@@ -1,0 +1,16 @@
+id = "OuyCgP8t"
+enabled = true
+hidden = false
+name = "ItemPhysic Lite"
+filename = "ItemPhysicLite_FABRIC_v1.6.11_mc1.21.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OuyCgP8t/versions/1hUpcULe/ItemPhysicLite_FABRIC_v1.6.11_mc1.21.11.jar"
+hash-format = "sha512"
+hash = "8e8b92987a447e5ad9ecf85a51279f864127397aec79bb72fabccda15734d679978d04b3f1ff5f5b7baef9b6b688fbda15e6486af6dfc1574cf0a6325efe7fac"
+
+[update]
+[update.modrinth]
+mod-id = "OuyCgP8t"
+version = "1hUpcULe"

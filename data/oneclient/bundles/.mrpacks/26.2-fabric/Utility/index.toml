@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/hypixel-mod-api.pw.toml"
-hash = "2807dcd5529b12aa3b422651810801442c39cba10834c4f00f4980e2a91eae0a"
+hash = "f08323ae85654864db79015aaf2f0843d4346279ea742449add846efb3fb75de"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "e9db3ab93384d33f4915f47d2ac07b14fe52de84fbcd2b638daefda5c386d8ed"
+hash = "e6ffd9afffe5fc20a453a188bf0d73c39b9cd1629c7cb7b1887a0f1fd87059a8"
 metafile = true
 
 [[files]]

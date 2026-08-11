@@ -85,11 +85,6 @@ hash = "393ffb99665de7407db8be16c6aaad3d198838cbc59d87e9785cf8c3e1a271fe"
 metafile = true
 
 [[files]]
-file = "mods/creativecore.pw.toml"
-hash = "5665cc23b858628dc48c408c4e97e2a3112c35a994061d5fd9f786f6ed1e92f6"
-metafile = true
-
-[[files]]
 file = "mods/crosshairtweaks.pw.toml"
 hash = "8f781f0b0c87fc6045d12b4b6a9b9cdd009d6f8ac043d34e1c26f49aa4e03372"
 metafile = true
