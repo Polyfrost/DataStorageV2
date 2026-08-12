@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
-hash = "8701bb67a9389d0480509544a6535c0f48a206938ef5145df282254cb8bad7e4"
+hash = "13c211e14b4210b1e8769b47ba503ca88425f11e8c5f2742cf2951510abdcf84"
 metafile = true
 
 [[files]]

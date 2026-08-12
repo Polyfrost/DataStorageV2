@@ -341,7 +341,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-scrolling-refurbished.pw.toml"
-hash = "8016258cfaa1d84e35c70690e0c53980c5e67f70cb2e2abdbd0d27207a2c6881"
+hash = "46ccaaaf40f8d24c007c030469bff671818a2c86a6228ea60363b85419bb930d"
 metafile = true
 
 [[files]]

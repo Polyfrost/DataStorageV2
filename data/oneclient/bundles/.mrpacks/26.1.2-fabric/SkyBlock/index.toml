@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-warp-menu.pw.toml"
-hash = "320fd0febc0e93ec020815d47d3e2b6e080cfeb7bbeb167b0678fb24a3b5e754"
+hash = "2fd16f6449611b8f32745e338f92475e6075bb687f0c9a0a01d605942dc0238b"
 metafile = true
 
 [[files]]
