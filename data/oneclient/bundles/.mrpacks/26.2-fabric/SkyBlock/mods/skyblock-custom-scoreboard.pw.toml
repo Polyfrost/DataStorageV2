@@ -6,11 +6,11 @@ filename = "CustomScoreboard-1.12.13-26.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/fpb5uaJt/versions/qZkpMYfX/CustomScoreboard-1.12.13-26.2.jar"
+url = "https://cdn.modrinth.com/data/fpb5uaJt/versions/pyd1eWIb/CustomScoreboard-1.12.13-26.2.jar"
 hash-format = "sha512"
-hash = "889574e9d4e0b43f61f7fd307b1e45f8ad63d2f317a024ac72e16502ee2b7097ac0fc4afd5ad5437d4951e9b6484b37f63257086e7b3d99a780e08d0152a5f34"
+hash = "d7e9cf9413ccccea64618ff92b2662cdffe934fbef8c0c51b8c7432a034dba0366205a4d22889f0f4660a08a7af08f92f685f6176f3d7a1e90f2c6fbd62d9ad5"
 
 [update]
 [update.modrinth]
 mod-id = "fpb5uaJt"
-version = "qZkpMYfX"
+version = "pyd1eWIb"
