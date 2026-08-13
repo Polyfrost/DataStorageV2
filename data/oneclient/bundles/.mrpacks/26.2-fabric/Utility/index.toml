@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/animatium.pw.toml"
-hash = "3f57247d9b0b8a12144fe340405b97804a1ebd27b031f94a3c1da5b298f2aa01"
+hash = "2272317a9f0ce3291040be4d7bed2fbfddbbaada7db9cfd34e38cde2bad916cb"
 metafile = true
 
 [[files]]
