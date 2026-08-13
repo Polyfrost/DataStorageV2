@@ -1,11 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/animatium.pw.toml"
-hash = "c8e02072fc9d194a1170d9f9b12e18887fcaa057d9c788a99af667e0cd6f0a86"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "dbc4960d91ef836961171d8a13f8adc29ee6df2c63ea23efeca96fc93e5d280a"
 metafile = true
