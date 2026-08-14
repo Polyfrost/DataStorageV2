@@ -2,15 +2,15 @@ id = "znwUKvZc"
 enabled = false
 hidden = false
 name = "SkyCubed"
-filename = "SkyCubed-1.9.1-26.2.jar"
+filename = "SkyCubed-1.9.2-26.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/znwUKvZc/versions/RDJA5TsS/SkyCubed-1.9.1-26.2.jar"
+url = "https://cdn.modrinth.com/data/znwUKvZc/versions/tAXIb1aF/SkyCubed-1.9.2-26.2.jar"
 hash-format = "sha512"
-hash = "fa2a8479c2c485fbba086b28efd5b025337cef2f16ca736c789c9ae14703cb76d1433619008bc0230d7870fdbecdb4f1e5c647358c15b59b6ba806c7ae5370c7"
+hash = "887afcfbf904efd4f5a34cb4237ebad7d0ab9e8abecc74ccc5e09905539c0fadb0926d37e843d5e8c357f38c227fe0665cd624745cbeeb1a4d2f5cd869b7da81"
 
 [update]
 [update.modrinth]
 mod-id = "znwUKvZc"
-version = "RDJA5TsS"
+version = "tAXIb1aF"
