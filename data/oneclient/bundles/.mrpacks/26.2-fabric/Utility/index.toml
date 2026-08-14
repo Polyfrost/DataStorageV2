@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/noxesium.pw.toml"
-hash = "dbc8bc553820f647621587b03a30c4b9bab690c40ace6f9f7ca876f180d8e91a"
+hash = "6281a2f3a81f04409029b420d49b63b9111b155616386b2e5014ed2c8aced448"
 metafile = true
 
 [[files]]
