@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/odin.pw.toml"
-hash = "ec4afbc4859f4d476d9b001cb4f3e2672ec5ea84faeb5042fd68044bb55b2496"
+hash = "231ae15fc45867da173e46575e93a42c1d71772f22c41e898ee71307dfd6499a"
 metafile = true
 
 [[files]]
