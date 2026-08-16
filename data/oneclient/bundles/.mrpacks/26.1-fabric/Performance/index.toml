@@ -206,6 +206,11 @@ hash = "aff01d651fefc0a2d5bfcc803277547c4a1f9a9d4cdcde09a3635a90dda4ecb3"
 metafile = true
 
 [[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "8c109c78ddb2919ad7c868260a723a481a8f823a992c8347c41faab55db8b807"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "59fcce1ec87b77cce50e9aa31b93293dbf31b6dbd6ebe6a093ffbff3cb9a3220"
 metafile = true
