@@ -111,6 +111,11 @@ hash = "3b30fe1059b665c5b515cb74744cf0c0f78e39feee448b1890e8e6b3c4be01ef"
 metafile = true
 
 [[files]]
+file = "mods/krypton.pw.toml"
+hash = "c29b93f9fd26d79915d995695bcc51eb16bf5c0a6d8d3eb91cd057f73b86726b"
+metafile = true
+
+[[files]]
 file = "mods/lazy-language-loader.pw.toml"
 hash = "847a65082cab446494b66dd6fa0a960e21f6e125873400e8f9b61f3c1d948325"
 metafile = true
@@ -128,11 +133,6 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "538df5dd1fc933cf905411659acd2394f9ea5f91d1f97f2f9319cc696266e6ad"
-metafile = true
-
-[[files]]
-file = "mods/noisium.pw.toml"
-hash = "089a7a5af53243a3a4487c67d9b95575d11dd7eeeeb6dfb5b08e77c90228f1e0"
 metafile = true
 
 [[files]]
@@ -161,6 +161,11 @@ hash = "a808aa94357c764bab5ea7e265ef9ff205f97bf87581badf8cf559dd87020bc1"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "9ae20d0ae7692e303b9203c2404588cab8b92809fc13ffa6d3a45f2893b56a10"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "5a3883bb2d6b943edc61f1dff826a328f5acfa119b6ae1200c016eb95aa6839b"
 metafile = true
@@ -176,6 +181,11 @@ hash = "23580720a6179e2d5db6f07a34b23ae849297bd5c70160ce81d223b10b99efcd"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "22f55ad9f2f595c27231aa1052d6d1e27e2e3518a57cf8fa597bf128c504fb8b"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "037cb664e61e9ef3cf036ff8e19953d181653e6992cd2ed71f8b2621e9e1e8a7"
 metafile = true
@@ -186,6 +196,21 @@ hash = "1e9424be22fce5eed52c74fcc05ccafdfa812c21bd3feacdc438e9ddcb03a884"
 metafile = true
 
 [[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "725203ce60034d608c4ec21ca52f2982e26b49a176bd0cee861e15fde052e72b"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "f58d19dbd7d1ffe8d4b38f29d4ac0bd84a2c3b32ddb1cfe4eabab5eb02ee5d9f"
+metafile = true
+
+[[files]]
+file = "mods/zconfig.pw.toml"
+hash = "4780eb8452d364dfbb6c191472b55ae51a64dc2e7ff593aac9807d7b50bf0ef6"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "49a30877765382ff41e2ef5ca689a5b5e7fa49e0ce48926ac55ae820f959a358"
 metafile = true

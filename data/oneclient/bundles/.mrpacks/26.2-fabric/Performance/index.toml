@@ -96,6 +96,11 @@ hash = "f636e24fd0c134789d43234103986916a8c5c153f392ef1e4b6a4c3ea7a152c5"
 metafile = true
 
 [[files]]
+file = "mods/krypton.pw.toml"
+hash = "3ba8cfccfc1d76c84924f67aa37f50b3653d913f302436d57507946cdcde846f"
+metafile = true
+
+[[files]]
 file = "mods/language-reload.pw.toml"
 hash = "99a89d0dd9da6616e8d2da791482d2bfbeff068554ae0a24ccb5643ee5d425f1"
 metafile = true
@@ -146,6 +151,11 @@ hash = "6953712920e6045ce8371031dfd054297cf14c513daf3539f97a73325c6bac4e"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "f43cfc3096b3b04d8360a1ba423643d2096b85be655f4d2de866a16202e6a21f"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "932a7a7fb1ada9434d8c3eccb8ccf13330d51370a3dff3e02beb7017d11c9f49"
 metafile = true
@@ -161,6 +171,11 @@ hash = "06fb529b966b4b692346032d47877fe8c7e143c9160bb4fe2610d52f3f8f9582"
 metafile = true
 
 [[files]]
+file = "mods/servercore.pw.toml"
+hash = "e85dcc7ec808095fe1baa6b4889dac1bf4ff8e0f6b4133b286d7363c0abeb5d1"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "1911ca51df104d2bd6636e4d944ec79940e9be7d393a80e050b5146919459c36"
 metafile = true
@@ -171,6 +186,16 @@ hash = "f40a2a127b97fa0d11f23c789f25ba4f512f0538e934ff576e931e5b6b4cc676"
 metafile = true
 
 [[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "aff01d651fefc0a2d5bfcc803277547c4a1f9a9d4cdcde09a3635a90dda4ecb3"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "8f22dbc1106731a5e54c5b38472e3f364b25bab0171e5491aa430f4c361f1859"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "91426ba126b84cb5eb9bac2f38a4a90f15f57c62876eda91ebf340729e939e42"
 metafile = true
