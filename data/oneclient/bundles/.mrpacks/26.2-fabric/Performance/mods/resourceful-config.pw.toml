@@ -1,6 +1,6 @@
 id = "M1953qlQ"
 enabled = true
-hidden = false
+hidden = true
 name = "Resourceful Config"
 filename = "ResourcefulConfig-5.0.0.jar"
 side = "both"

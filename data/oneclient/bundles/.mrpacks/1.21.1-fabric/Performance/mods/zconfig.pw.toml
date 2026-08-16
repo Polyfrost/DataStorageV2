@@ -1,6 +1,6 @@
 id = "4qmvXRB9"
 enabled = true
-hidden = false
+hidden = true
 name = "ZConfig"
 filename = "zconfig-1.0.0+1.21.x.jar"
 side = "both"

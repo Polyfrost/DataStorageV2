@@ -1,6 +1,6 @@
 id = "M1953qlQ"
 enabled = true
-hidden = false
+hidden = true
 name = "Resourceful Config"
 filename = "ResourcefulConfig-fabric-1.21.11-3.11.3.jar"
 side = "both"

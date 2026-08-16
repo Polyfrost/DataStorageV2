@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-config.pw.toml"
-hash = "442a60149ed38bd921e214909b7a6d8c2a5ebbaf4e60267d98b8672725957230"
+hash = "1a9dd36a59c7dc45e070e94e959af1e49b629121e8c2a919a13ba1b904779b82"
 metafile = true
 
 [[files]]
