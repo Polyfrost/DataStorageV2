@@ -2,15 +2,15 @@ id = "AtOSAunf"
 enabled = true
 hidden = false
 name = "Optimized Block Entities"
-filename = "obe+1.21.1-1.1.40-hotfix.2.jar"
+filename = "obe+1.21.1-1.1.40-hotfix.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/AtOSAunf/versions/hPebH2al/obe%2B1.21.1-1.1.40-hotfix.2.jar"
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/QwyBPfZN/obe%2B1.21.1-1.1.40-hotfix.3.jar"
 hash-format = "sha512"
-hash = "5cfda3678045ae30cbc750b4787db7d4b6178b849e0582f5e685b54e958ac8e44c7d954b96d16dfed296a4f768cc276c6491498176ad23d241231a2fefe0ab69"
+hash = "58ac622e16a38c0092fc57c40446b1803b38168f0f2f55c7137f5e9d9781feb32c39ab66131cee21dae633ba890b3a0288d814b984bd60add41bcbdb231bdb33"
 
 [update]
 [update.modrinth]
 mod-id = "AtOSAunf"
-version = "hPebH2al"
+version = "QwyBPfZN"
