@@ -336,7 +336,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyboxify.pw.toml"
-hash = "50089e389cc1369a34072730ac022d7eff9d0d3b4f321cdab2610b660e1b68f3"
+hash = "111dd5990c476b22acaf1a6b9965bbaecf801125a39652143438d5ed4f31c628"
 metafile = true
 
 [[files]]
