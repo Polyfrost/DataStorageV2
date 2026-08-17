@@ -71,6 +71,11 @@ hash = "f3d2b17c1c70893255e2949833f09f8bfd7999db4b0e1310538edbfdb25ef116"
 metafile = true
 
 [[files]]
+file = "mods/skyhanni.pw.toml"
+hash = "5fcc2374f3cc3d6890abf4316bf67ae0270fc11c9c08af0460762ac4e82a24a6"
+metafile = true
+
+[[files]]
 file = "mods/skyocean.pw.toml"
 hash = "012760b9b68845518389c03832dbf1947db0d7ba74f8687e29607f3322eb668e"
 metafile = true
