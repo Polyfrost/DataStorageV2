@@ -360,11 +360,6 @@ hash = "8bef6b4dbaaf539e8f392071a2f9210a9c7bb355c30f5da6faf97fb79a8f497c"
 metafile = true
 
 [[files]]
-file = "mods/sodium-shadowy-path-blocks.pw.toml"
-hash = "6d6fcfdcb4255cef08c18208cf60dfbf5feecab77bfe63bf8c765194df1ec837"
-metafile = true
-
-[[files]]
 file = "mods/sound-physics-perfected.pw.toml"
 hash = "51614751c41727e916cc387b7df709d4d36651d2959f819aa4802db78ab56243"
 metafile = true

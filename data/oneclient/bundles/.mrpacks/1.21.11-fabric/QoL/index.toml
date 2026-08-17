@@ -350,11 +350,6 @@ hash = "385d08a8eb2dec67e3cfde8d5f0d52761228c633b33fdea8428f68de8f3c0687"
 metafile = true
 
 [[files]]
-file = "mods/sodium-shadowy-path-blocks.pw.toml"
-hash = "569fd8a6694227c0e32e8b093e74a45f9220d7508b95ad13e7cce04e4b96906e"
-metafile = true
-
-[[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "6803f950a328127292642614dc2f01a35252fa1d889e8c1998d272934e82d31d"
 metafile = true
