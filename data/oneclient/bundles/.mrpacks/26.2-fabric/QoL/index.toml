@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "bbd7bc5e24784f46288c0155e80dd7b183b8c807f3d0a55060ad137ade88ccb2"
+hash = "b1e0db7f07911ed52eb1056e7be6799dd91dd4b7c2d7f1ba2ac090e9c64650c1"
 metafile = true
 
 [[files]]
