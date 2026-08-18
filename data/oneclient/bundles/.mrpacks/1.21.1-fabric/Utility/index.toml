@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "6c24ac6afa6ac785b101a10046c698963f68ba7a84622583d1439b0e610cbb09"
+hash = "5b3d46f3e08da25f7dd52b0a6f5a39bbae96af3debe104c75da0db8e5419c3d7"
 metafile = true
 
 [[files]]
