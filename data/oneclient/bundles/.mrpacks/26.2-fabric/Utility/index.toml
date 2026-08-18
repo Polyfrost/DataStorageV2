@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "6e4e12e72ef2ae2860592e2d6d9ae39369931075ac82edaf201fdf5d06c22fb5"
+hash = "cbf842eb8cfe91d300234ae9a052a967f4109938a20090cb45441e6d4ce0cf17"
 metafile = true
 
 [[files]]
