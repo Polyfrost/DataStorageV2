@@ -6,11 +6,11 @@ filename = "animatium-4.3+26.2-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/zy0karK1/versions/C9RycZui/animatium-4.3%2B26.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/zy0karK1/versions/Q5mMiKxL/animatium-4.3%2B26.2-fabric.jar"
 hash-format = "sha512"
-hash = "e8b6543facfabd8a932b0623871c39a1e153c1703a456b4615f2e8dd3871cb3b09f2df3f64f5e856094a22d0a845ffc28a9ef8907d874c39ec29225ee5bf845d"
+hash = "9f976ab94ee0fa80e73c4fcec4cc20428b07d1d6c20cbc1a2a9b37b52a72d52ab8228c3f65f2deecee6a8ece66cc622bbb93f34b8ed3f294cdd1b07684e24a93"
 
 [update]
 [update.modrinth]
 mod-id = "zy0karK1"
-version = "C9RycZui"
+version = "Q5mMiKxL"
