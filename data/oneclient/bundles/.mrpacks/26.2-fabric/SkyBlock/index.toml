@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-custom-scoreboard.pw.toml"
-hash = "684e846b84d5bd72da8ba3d0001bdf8f233332af4595d161043287b035378e29"
+hash = "5badbd7b92f9328b59ea19d3aebc23fdbaa95b3889236556fccdb48e0fb2575c"
 metafile = true
 
 [[files]]
