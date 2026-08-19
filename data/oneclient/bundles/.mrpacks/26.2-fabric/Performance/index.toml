@@ -96,11 +96,6 @@ hash = "f636e24fd0c134789d43234103986916a8c5c153f392ef1e4b6a4c3ea7a152c5"
 metafile = true
 
 [[files]]
-file = "mods/krypton.pw.toml"
-hash = "3ba8cfccfc1d76c84924f67aa37f50b3653d913f302436d57507946cdcde846f"
-metafile = true
-
-[[files]]
 file = "mods/language-reload.pw.toml"
 hash = "99a89d0dd9da6616e8d2da791482d2bfbeff068554ae0a24ccb5643ee5d425f1"
 metafile = true

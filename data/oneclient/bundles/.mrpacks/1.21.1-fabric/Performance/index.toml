@@ -111,11 +111,6 @@ hash = "3b30fe1059b665c5b515cb74744cf0c0f78e39feee448b1890e8e6b3c4be01ef"
 metafile = true
 
 [[files]]
-file = "mods/krypton.pw.toml"
-hash = "c29b93f9fd26d79915d995695bcc51eb16bf5c0a6d8d3eb91cd057f73b86726b"
-metafile = true
-
-[[files]]
 file = "mods/lazy-language-loader.pw.toml"
 hash = "847a65082cab446494b66dd6fa0a960e21f6e125873400e8f9b61f3c1d948325"
 metafile = true
