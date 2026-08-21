@@ -1,0 +1,16 @@
+id = "HfLFMeJe"
+enabled = true
+hidden = false
+name = "Shield Fixes"
+filename = "shieldfixes-2.0.4+26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HfLFMeJe/versions/KFXLdMF3/shieldfixes-2.0.4%2B26.1.jar"
+hash-format = "sha512"
+hash = "71c3ea448c13b26ca07fda6734e903b65fe9399a26ab3eb249b11c782695eb79f6858b93c38c94dd04a85b80496be3c5f190cf37728858a787884bbab2e2d322"
+
+[update]
+[update.modrinth]
+mod-id = "HfLFMeJe"
+version = "KFXLdMF3"

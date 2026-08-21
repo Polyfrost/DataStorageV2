@@ -41,6 +41,11 @@ hash = "40ee55428355b93464254c33db97b5d3b7c2df3f6c623daf714348ab85f07a1b"
 metafile = true
 
 [[files]]
+file = "mods/complete-shield-fixes.pw.toml"
+hash = "e84a4ebda3a61d02f789e92cb448b61c5490a03eef1ba7e7969771999f0d24b0"
+metafile = true
+
+[[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "4e4aa134cd255d6ab0b6feb25a8729c505f8120ed95067cf47b81b5628d3e700"
 metafile = true
@@ -193,6 +198,11 @@ metafile = true
 [[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "bfc7633d6af8046160bbc630ca56be028a8a72850a22fce0d97af1c313584312"
+metafile = true
+
+[[files]]
+file = "mods/walksylib.pw.toml"
+hash = "6d92d7f59d449933dcb5c73ced8bb5615b50a207ad690c7e9420353d4ee23524"
 metafile = true
 
 [[files]]
