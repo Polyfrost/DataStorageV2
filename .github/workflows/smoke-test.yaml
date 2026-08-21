@@ -1,0 +1,103 @@
+name: "Smoke Test"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"
+
+jobs:
+  Packs:
+    name: Generate merged modpacks
+    runs-on: ubuntu-latest
+    outputs:
+      packs: ${{ steps.collect.outputs.packs }}
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Cache packwiz downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache-${{ hashFiles('data/**/*.pw.toml') }}
+          restore-keys: packwiz-cache-
+
+      - name: Generate merged modpacks
+        env:
+          PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x ./scripts/*.sh
+          ./scripts/generate-modrinth-packs.sh
+
+      - name: Collect packs
+        id: collect
+        run: |
+          packs="$(cd data/oneclient/bundles/generated && ls *.mrpack | sed 's/\.mrpack$//' | jq -R -s -c 'split("\n")[:-1]')"
+          echo "packs=$packs" >> "$GITHUB_OUTPUT"
+          echo "$packs"
+
+      - name: Upload packs
+        uses: actions/upload-artifact@v4
+        with:
+          name: mrpacks
+          path: data/oneclient/bundles/generated/*.mrpack
+
+  SmokeTest:
+    name: ${{ matrix.pack }}
+    needs: Packs
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        pack: ${{ fromJson(needs.Packs.outputs.packs) }}
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Download packs
+        uses: actions/download-artifact@v4
+        with:
+          name: mrpacks
+          path: mrpacks
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Use Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Install portablemc
+        run: pipx install portablemc
+
+      - name: Install headless OpenGL
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends xvfb libgl1-mesa-dri
+
+      - name: Cache Minecraft install
+        uses: actions/cache@v4
+        with:
+          path: ~/.mc-ci-shared
+          key: mc-ci-${{ matrix.pack }}-${{ github.run_id }}
+          restore-keys: |
+            mc-ci-${{ matrix.pack }}-
+
+      - name: Smoke test
+        env:
+          LIBGL_ALWAYS_SOFTWARE: "1"
+        run: bash scripts/smoke-test.sh "mrpacks/${{ matrix.pack }}.mrpack"
+
+      - name: Upload logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ matrix.pack }}
+          path: |
+            ${{ runner.temp }}/mc-smoke/*/client.log
+            ${{ runner.temp }}/mc-smoke/*/server.log
+            ${{ runner.temp }}/mc-smoke/*/crash-reports/
+          if-no-files-found: warn
