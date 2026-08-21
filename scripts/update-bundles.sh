@@ -27,6 +27,7 @@ BETA_MODS=(
   rrls
   skyblock-item-list
   skyhanni
+  walksylib
 )
 
 update_bundle() {
