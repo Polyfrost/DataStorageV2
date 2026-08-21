@@ -52,6 +52,13 @@ jobs:
       - name: Check bundles
         run: pnpm check
 
+      - name: Cache packwiz downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache-${{ hashFiles('data/**/*.pw.toml') }}
+          restore-keys: packwiz-cache-
+
       - name: Generate bundles
         env:
           PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
