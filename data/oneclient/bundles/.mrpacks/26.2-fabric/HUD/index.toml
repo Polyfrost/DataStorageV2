@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/eclipseui.pw.toml"
-hash = "d71a708d341b1a7f68661bac2d83080db9d3867607390774a30ea3097e14d1fc"
+hash = "e83e4efb553e86f36ce529b640cd1932b5b914a3d691319fbc2152e8c2ae9103"
 metafile = true
 
 [[files]]

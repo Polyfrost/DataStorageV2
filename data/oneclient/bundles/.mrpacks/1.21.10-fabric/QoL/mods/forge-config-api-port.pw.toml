@@ -1,6 +1,6 @@
 id = "ohNO6lps"
 enabled = true
-hidden = false
+hidden = true
 name = "Forge Config API Port"
 filename = "ForgeConfigAPIPort-v21.10.1+mc1.21.10-Fabric.jar"
 side = "both"

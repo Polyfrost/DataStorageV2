@@ -1,6 +1,6 @@
 id = "99cGtHRy"
 enabled = true
-hidden = false
+hidden = true
 name = "EclipseUI"
 filename = "EclipseUI-fabric-1.0.5+mc26.2-rc-2.jar"
 side = "client"
