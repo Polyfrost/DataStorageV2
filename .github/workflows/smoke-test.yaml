@@ -70,7 +70,9 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 21
+          java-version: |
+            21
+            25
 
       - name: Install portablemc
         run: pipx install portablemc

@@ -33,7 +33,12 @@ wait_for() {
   return 2
 }
 
-fail() { echo "::error::[$PACK_ID] $*"; exit 1; }
+fail() {
+  [ -f "$WORK_DIR/client.log" ] && { echo "--- client.log (tail) ---"; tail -n 40 "$WORK_DIR/client.log"; }
+  [ -f "$WORK_DIR/server.log" ] && { echo "--- server.log (tail) ---"; tail -n 20 "$WORK_DIR/server.log"; }
+  echo "::error::[$PACK_ID] $*"
+  exit 1
+}
 
 unzip -q "$MRPACK" -d "$WORK_DIR/.mrpack"
 INDEX="$WORK_DIR/.mrpack/modrinth.index.json"
@@ -74,16 +79,24 @@ pauseOnLostFocus:false
 fullscreen:false
 EOF
 
+read -r SERVER_URL JAVA_MAJOR <<EOF
+$(node --input-type=module -e '
+  const mc = process.argv[1];
+  const manifest = await (await fetch("https://launchermeta.mojang.com/mc/game/version_manifest_v2.json")).json();
+  const entry = manifest.versions.find((v) => v.id === mc);
+  if (!entry) { console.error("no such Minecraft version in the manifest: " + mc); process.exit(1); }
+  const meta = await (await fetch(entry.url)).json();
+  console.log(meta.downloads.server.url, meta.javaVersion.majorVersion);
+' "$MC_VERSION")
+EOF
+
+JAVA_HOME_VAR="JAVA_HOME_${JAVA_MAJOR}_X64"
+JAVA_BIN="${!JAVA_HOME_VAR:-}/bin/java"
+[ -x "$JAVA_BIN" ] || JAVA_BIN="java"
+echo "== server needs Java $JAVA_MAJOR, using $JAVA_BIN"
+
 SERVER_JAR="$SHARED_DIR/server-$MC_VERSION.jar"
 if [ ! -f "$SERVER_JAR" ]; then
-  SERVER_URL="$(node --input-type=module -e '
-    const mc = process.argv[1];
-    const manifest = await (await fetch("https://launchermeta.mojang.com/mc/game/version_manifest_v2.json")).json();
-    const entry = manifest.versions.find((v) => v.id === mc);
-    if (!entry) { console.error("no such Minecraft version in the manifest: " + mc); process.exit(1); }
-    const meta = await (await fetch(entry.url)).json();
-    console.log(meta.downloads.server.url);
-  ' "$MC_VERSION")"
   curl -sSfL -o "$SERVER_JAR.tmp" "$SERVER_URL" && mv "$SERVER_JAR.tmp" "$SERVER_JAR"
 fi
 
@@ -101,7 +114,7 @@ sync-chunk-writes=false
 EOF
 
 echo "== starting vanilla server"
-( cd "$SRV" && java -Xmx2G -jar "$SERVER_JAR" nogui > "$WORK_DIR/server.log" 2>&1 ) &
+( cd "$SRV" && "$JAVA_BIN" -Xmx2G -jar "$SERVER_JAR" nogui > "$WORK_DIR/server.log" 2>&1 ) &
 SERVER_PID=$!
 
 wait_for "$WORK_DIR/server.log" 'For help, type "help"' 300 "$SERVER_PID" || \
@@ -112,7 +125,7 @@ xvfb-run -a -s "-screen 0 1280x720x24" \
   portablemc --main-dir "$SHARED_DIR" --work-dir "$WORK_DIR" \
   start "fabric:$MC_VERSION:$LOADER_VERSION" \
   -u "$USERNAME" -s 127.0.0.1 -p 25565 \
-  --resolution 1280x720 --jvm-args "-Xmx4G" \
+  --resolution 1280x720 --jvm-args=-Xmx4G \
   > "$WORK_DIR/client.log" 2>&1 &
 CLIENT_PID=$!
 
