@@ -176,6 +176,11 @@ hash = "94f5fbd936e3d9f041c75fd36165f9172fbe6f34bd7f5d395ff251b417022b77"
 metafile = true
 
 [[files]]
+file = "mods/smartsearch.pw.toml"
+hash = "54136e8de6b63a09b5a5e2211c95ddc6f144566fc896b3e3d86a4fc1aa881796"
+metafile = true
+
+[[files]]
 file = "mods/soundtweaks.pw.toml"
 hash = "4446b67398a0810ada9c04cc6ab66e43ab419d4489f75cc00fc7f5f352837047"
 metafile = true
