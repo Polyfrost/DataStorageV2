@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "1949ee2e2de86abdb2b07d46dc30851e61e4820c589dc22cb334d7f5b3375d80"
+hash = "b44b620f3edb84db755acc19602139105a4b01297eee87eee1edaac2122a49b3"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "54136e8de6b63a09b5a5e2211c95ddc6f144566fc896b3e3d86a4fc1aa881796"
+hash = "fedb74f143f5aef141da78488b63a0f9488a9616f2f7ccafcf0213a0883c6e4f"
 metafile = true
 
 [[files]]
