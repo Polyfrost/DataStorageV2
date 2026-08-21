@@ -25,14 +25,20 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    name: Generate bundles and build site
-    runs-on: ubuntu-latest
+  SmokeTest:
+    name: Smoke test
+    uses: ./.github/workflows/smoke-test.yaml
+    secrets: inherit
     # Skip when chained off a failed Update Bundles run; always run for direct
-    # push / manual dispatch.
+    # push / manual dispatch. build is skipped with it.
     if: >-
       github.event_name != 'workflow_run' ||
       github.event.workflow_run.conclusion == 'success'
+
+  build:
+    name: Generate bundles and build site
+    runs-on: ubuntu-latest
+    needs: SmokeTest
     steps:
       - name: Git checkout
         uses: actions/checkout@v4
