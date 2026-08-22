@@ -16,6 +16,19 @@ wait_for() {
   return 2
 }
 
+kill_client() {
+  local i=0
+  [ -n "${CLIENT_PID:-}" ] || return 0
+  kill -- -"$CLIENT_PID" 2>/dev/null || kill "$CLIENT_PID" 2>/dev/null || true
+  wait "$CLIENT_PID" 2>/dev/null || true
+  while kill -0 -- -"$CLIENT_PID" 2>/dev/null && [ "$i" -lt 30 ]; do
+    sleep 1
+    i=$((i + 1))
+  done
+  kill -9 -- -"$CLIENT_PID" 2>/dev/null || true
+  CLIENT_PID=""
+}
+
 [ -n "${MC_LIB_ONLY:-}" ] && return 0
 
 MRPACK="${1:?usage: run-mc-locally.sh <path/to/pack.mrpack>}"
@@ -34,12 +47,6 @@ mkdir -p "$WORK_DIR" "$SHARED_DIR"
 
 SERVER_PID=""
 CLIENT_PID=""
-kill_client() {
-  [ -n "$CLIENT_PID" ] || return 0
-  kill -- -"$CLIENT_PID" 2>/dev/null || kill "$CLIENT_PID" 2>/dev/null || true
-  wait "$CLIENT_PID" 2>/dev/null || true
-  CLIENT_PID=""
-}
 
 cleanup() {
   kill_client
@@ -136,6 +143,7 @@ wait_for "$WORK_DIR/server.log" 'For help, type "help"' 300 "$SERVER_PID" || \
 
 attempt() {
   local offset=$(( $(wc -c < "$WORK_DIR/server.log") + 1 ))
+  REASON=""
 
   setsid xvfb-run -a -s "-screen 0 1280x720x24" \
     portablemc --main-dir "$SHARED_DIR" --work-dir "$WORK_DIR" \
@@ -146,16 +154,16 @@ attempt() {
   CLIENT_PID=$!
 
   case "$(wait_for "$WORK_DIR/server.log" "$USERNAME joined the game" "$JOIN_TIMEOUT" "$CLIENT_PID" "$offset"; echo $?)" in
-    1) echo "client exited before joining the world"; return 1 ;;
-    2) echo "client never joined the world within ${JOIN_TIMEOUT}s"; return 1 ;;
+    1) REASON="client exited before joining the world"; return 1 ;;
+    2) REASON="client never joined the world within ${JOIN_TIMEOUT}s"; return 1 ;;
   esac
 
-  echo "== joined, soaking for ${SOAK_SECONDS}s" >&2
+  echo "== joined, soaking for ${SOAK_SECONDS}s"
   sleep "$SOAK_SECONDS"
 
-  kill -0 "$CLIENT_PID" 2>/dev/null || { echo "client died while in-world"; return 1; }
+  kill -0 "$CLIENT_PID" 2>/dev/null || { REASON="client died while in-world"; return 1; }
   if seen_since "$WORK_DIR/server.log" "$USERNAME lost connection" "$offset"; then
-    echo "client dropped out of the world"
+    REASON="client dropped out of the world"
     return 1
   fi
   return 0
@@ -164,7 +172,7 @@ attempt() {
 REASON=""
 for i in $(seq 1 "$ATTEMPTS"); do
   echo "== starting client (attempt $i/$ATTEMPTS)"
-  if REASON="$(attempt)"; then REASON=""; break; fi
+  if attempt; then break; fi
   kill_client
   echo "== attempt $i failed: $REASON"
   [ "$i" -lt "$ATTEMPTS" ] || break

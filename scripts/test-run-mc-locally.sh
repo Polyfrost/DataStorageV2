@@ -30,4 +30,21 @@ wait "$PID" 2>/dev/null || true
 wait_for "$LOG" "never appears" 5 "$PID" && :
 [ $? -eq 1 ] || { echo "FAIL: wait_for should report 1 when the process is gone"; exit 1; }
 
+CLIENT_PID=""
+perl -e 'setpgrp(0,0); exec @ARGV' bash -c 'sleep 120 & sleep 120 & wait' &
+CLIENT_PID=$!
+sleep 1
+GROUP="$CLIENT_PID"
+kill -0 -- -"$GROUP" 2>/dev/null || { echo "FAIL: test client group never came up"; exit 1; }
+kill_client
+kill -0 -- -"$GROUP" 2>/dev/null && { echo "FAIL: kill_client left the client group alive"; exit 1; }
+[ -z "$CLIENT_PID" ] || { echo "FAIL: kill_client did not clear CLIENT_PID"; exit 1; }
+
+CLIENT_PID=""
+REASON=""
+fake_attempt() { CLIENT_PID=4242; REASON="boom"; return 1; }
+if fake_attempt; then echo "FAIL: attempt result inverted"; exit 1; fi
+[ "$CLIENT_PID" = 4242 ] || { echo "FAIL: attempt ran in a subshell, CLIENT_PID lost"; exit 1; }
+[ "$REASON" = boom ] || { echo "FAIL: attempt ran in a subshell, REASON lost"; exit 1; }
+
 echo "ok"
