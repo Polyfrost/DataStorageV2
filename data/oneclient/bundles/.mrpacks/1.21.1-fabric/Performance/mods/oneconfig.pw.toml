@@ -2,15 +2,15 @@ id = "AibBIVmj"
 enabled = true
 hidden = true
 name = "OneConfig"
-filename = "OneConfig-1.21.1-fabric-1.1.7.jar"
+filename = "OneConfig-1.21.1-fabric-1.1.8.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/AibBIVmj/versions/qxwNw5C5/OneConfig-1.21.1-fabric-1.1.7.jar"
+url = "https://cdn.modrinth.com/data/AibBIVmj/versions/gKrJ9odp/OneConfig-1.21.1-fabric-1.1.8.jar"
 hash-format = "sha512"
-hash = "1fe24bc1d1c91c1da9fccf7ec0f28cd33b23cbfeb7c1697f81eb28c5789f7625e3a1d1f247dbd48cd96a57a2c9985a4e9a7159a234b3445c3c99310ef997c05e"
+hash = "1cd7f6721a88e7c1f9fb5b14d5847d93005466cc6ae3b55ca24cc44495086ea641fdb6b2c6c2d9f2f415c92a58a83f5eb47b8495ef5a2870736664150e167b17"
 
 [update]
 [update.modrinth]
 mod-id = "AibBIVmj"
-version = "qxwNw5C5"
+version = "gKrJ9odp"
