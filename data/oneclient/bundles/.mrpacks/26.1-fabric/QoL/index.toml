@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
-hash = "ad550c45caa1e8a4549f0444ee154a2f99cbb4a988a47370253957eb3c323eb6"
+hash = "aa10c6fdcf4189c7a02976ed35a988928ed080f973cddbccaa59df5845d02140"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "ca1434ab1cd6768a4d0d88c611e9445effba1205c81a10906e3cbdfc81291ba1"
+hash = "aa963050bd5b7ed21015a898a54c07663b1c91a76936caa1cc71163abcbc1141"
 metafile = true
 
 [[files]]
