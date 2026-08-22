@@ -25,9 +25,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  SmokeTest:
-    name: Smoke test
-    uses: ./.github/workflows/smoke-test.yaml
+  RunMcLocally:
+    name: Run MC locally
+    uses: ./.github/workflows/run-mc-locally.yaml
     secrets: inherit
     # Skip when chained off a failed Update Bundles run; always run for direct
     # push / manual dispatch. build is skipped with it.
@@ -38,7 +38,7 @@ jobs:
   build:
     name: Generate bundles and build site
     runs-on: ubuntu-latest
-    needs: SmokeTest
+    needs: RunMcLocally
     steps:
       - name: Git checkout
         uses: actions/checkout@v4

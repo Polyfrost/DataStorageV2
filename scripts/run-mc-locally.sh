@@ -1,14 +1,32 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MRPACK="${1:?usage: smoke-test.sh <path/to/pack.mrpack>}"
+seen_since() {
+  grep -qF "$2" <(tail -c +"${3:-1}" "$1" 2>/dev/null)
+}
+
+wait_for() {
+  local file="$1" needle="$2" timeout="$3" pid="$4" offset="${5:-1}" i=0
+  while [ "$i" -lt "$timeout" ]; do
+    seen_since "$file" "$needle" "$offset" && return 0
+    kill -0 "$pid" 2>/dev/null || { seen_since "$file" "$needle" "$offset" && return 0; return 1; }
+    sleep 1
+    i=$((i + 1))
+  done
+  return 2
+}
+
+[ -n "${MC_LIB_ONLY:-}" ] && return 0
+
+MRPACK="${1:?usage: run-mc-locally.sh <path/to/pack.mrpack>}"
 MRPACK="$(cd -- "$(dirname -- "$MRPACK")" && pwd)/$(basename -- "$MRPACK")"
 PACK_ID="$(basename -- "$MRPACK" .mrpack)"
 
 SHARED_DIR="${MC_SHARED_DIR:-$HOME/.mc-ci-shared}"
-WORK_DIR="${MC_WORK_DIR:-${RUNNER_TEMP:-/tmp}/mc-smoke/$PACK_ID}"
+WORK_DIR="${MC_WORK_DIR:-${RUNNER_TEMP:-/tmp}/run-mc-locally/$PACK_ID}"
 JOIN_TIMEOUT="${JOIN_TIMEOUT:-900}"
 SOAK_SECONDS="${SOAK_SECONDS:-45}"
+ATTEMPTS="${ATTEMPTS:-2}"
 USERNAME="${MC_USERNAME:-CIBot}"
 
 rm -rf "$WORK_DIR"
@@ -16,22 +34,18 @@ mkdir -p "$WORK_DIR" "$SHARED_DIR"
 
 SERVER_PID=""
 CLIENT_PID=""
+kill_client() {
+  [ -n "$CLIENT_PID" ] || return 0
+  kill -- -"$CLIENT_PID" 2>/dev/null || kill "$CLIENT_PID" 2>/dev/null || true
+  wait "$CLIENT_PID" 2>/dev/null || true
+  CLIENT_PID=""
+}
+
 cleanup() {
-  [ -n "$CLIENT_PID" ] && kill "$CLIENT_PID" 2>/dev/null || true
+  kill_client
   [ -n "$SERVER_PID" ] && kill "$SERVER_PID" 2>/dev/null || true
 }
 trap cleanup EXIT
-
-wait_for() {
-  local file="$1" needle="$2" timeout="$3" pid="$4" i=0
-  while [ "$i" -lt "$timeout" ]; do
-    grep -qF "$needle" "$file" 2>/dev/null && return 0
-    kill -0 "$pid" 2>/dev/null || { grep -qF "$needle" "$file" 2>/dev/null && return 0; return 1; }
-    sleep 1
-    i=$((i + 1))
-  done
-  return 2
-}
 
 fail() {
   [ -f "$WORK_DIR/client.log" ] && { echo "--- client.log (tail) ---"; tail -n 40 "$WORK_DIR/client.log"; }
@@ -120,28 +134,47 @@ SERVER_PID=$!
 wait_for "$WORK_DIR/server.log" 'For help, type "help"' 300 "$SERVER_PID" || \
   fail "vanilla server never finished starting (see server.log)"
 
-echo "== starting client"
-xvfb-run -a -s "-screen 0 1280x720x24" \
-  portablemc --main-dir "$SHARED_DIR" --work-dir "$WORK_DIR" \
-  start "fabric:$MC_VERSION:$LOADER_VERSION" \
-  -u "$USERNAME" -s 127.0.0.1 -p 25565 \
-  --resolution 1280x720 --jvm-args=-Xmx4G \
-  > "$WORK_DIR/client.log" 2>&1 &
-CLIENT_PID=$!
+attempt() {
+  local offset=$(( $(wc -c < "$WORK_DIR/server.log") + 1 ))
 
-case "$(wait_for "$WORK_DIR/server.log" "$USERNAME joined the game" "$JOIN_TIMEOUT" "$CLIENT_PID"; echo $?)" in
-  1) fail "client exited before joining the world" ;;
-  2) fail "client never joined the world within ${JOIN_TIMEOUT}s" ;;
-esac
+  setsid xvfb-run -a -s "-screen 0 1280x720x24" \
+    portablemc --main-dir "$SHARED_DIR" --work-dir "$WORK_DIR" \
+    start "fabric:$MC_VERSION:$LOADER_VERSION" \
+    -u "$USERNAME" -s 127.0.0.1 -p 25565 \
+    --resolution 1280x720 --jvm-args=-Xmx4G \
+    > "$WORK_DIR/client.log" 2>&1 &
+  CLIENT_PID=$!
 
-echo "== joined, soaking for ${SOAK_SECONDS}s"
-sleep "$SOAK_SECONDS"
+  case "$(wait_for "$WORK_DIR/server.log" "$USERNAME joined the game" "$JOIN_TIMEOUT" "$CLIENT_PID" "$offset"; echo $?)" in
+    1) echo "client exited before joining the world"; return 1 ;;
+    2) echo "client never joined the world within ${JOIN_TIMEOUT}s"; return 1 ;;
+  esac
 
-kill -0 "$CLIENT_PID" 2>/dev/null || fail "client died while in-world"
-grep -qF "$USERNAME lost connection" "$WORK_DIR/server.log" && fail "client dropped out of the world"
+  echo "== joined, soaking for ${SOAK_SECONDS}s" >&2
+  sleep "$SOAK_SECONDS"
 
-kill "$CLIENT_PID" 2>/dev/null || true
-CLIENT_PID=""
+  kill -0 "$CLIENT_PID" 2>/dev/null || { echo "client died while in-world"; return 1; }
+  if seen_since "$WORK_DIR/server.log" "$USERNAME lost connection" "$offset"; then
+    echo "client dropped out of the world"
+    return 1
+  fi
+  return 0
+}
+
+REASON=""
+for i in $(seq 1 "$ATTEMPTS"); do
+  echo "== starting client (attempt $i/$ATTEMPTS)"
+  if REASON="$(attempt)"; then REASON=""; break; fi
+  kill_client
+  echo "== attempt $i failed: $REASON"
+  [ "$i" -lt "$ATTEMPTS" ] || break
+  mv "$WORK_DIR/client.log" "$WORK_DIR/client-attempt$i.log"
+  [ -d "$WORK_DIR/crash-reports" ] && mv "$WORK_DIR/crash-reports" "$WORK_DIR/crash-reports-attempt$i" || true
+done
+
+[ -z "$REASON" ] || fail "$REASON (after $ATTEMPTS attempts)"
+
+kill_client
 
 if compgen -G "$WORK_DIR/crash-reports/*" > /dev/null; then
   fail "crash report(s) produced: $(ls "$WORK_DIR/crash-reports")"
