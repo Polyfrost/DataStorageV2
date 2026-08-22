@@ -2,15 +2,15 @@ id = "NpllRsQ9"
 enabled = true
 hidden = false
 name = "Dark Mode Skyblock"
-filename = "DarkModeSkyblock 1.1.0 v26.x.zip"
+filename = "DarkModeSkyblock 1.2.0 v26.X.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/NpllRsQ9/versions/gD7XiiaH/DarkModeSkyblock%201.1.0%20v26.x.zip"
+url = "https://cdn.modrinth.com/data/NpllRsQ9/versions/QixTOPu6/DarkModeSkyblock%201.2.0%20v26.X.zip"
 hash-format = "sha512"
-hash = "0288c673edc8bb2325ca0b83b4e2380b358d70608b063ee9e7fe0456aa18fea8bee8e7188b7b06f1eb115eb52a1f59df2a175e2f5669c099a9ae46869191e409"
+hash = "f63fd6d6f541c0506673eb2cee5104f3713340699874c285a2d13893bbdd1213fef9747384368eba3af3c0951c6bffcd1a8bf4fd6e4319fbb4ada1a0a06b16fb"
 
 [update]
 [update.modrinth]
 mod-id = "NpllRsQ9"
-version = "gD7XiiaH"
+version = "QixTOPu6"
