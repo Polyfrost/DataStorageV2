@@ -2,15 +2,15 @@ id = "9lBqVbQF"
 enabled = true
 hidden = false
 name = "Skyblock Overhaul (SBO)"
-filename = "SBO-0.4.3+26.1.2-fabric.jar"
+filename = "SBO-0.5.0+26.1.2-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/9lBqVbQF/versions/KyhU782S/SBO-0.4.3%2B26.1.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/9lBqVbQF/versions/P488HcTV/SBO-0.5.0%2B26.1.2-fabric.jar"
 hash-format = "sha512"
-hash = "1d0fbc8daea8a0f098f71e66ce62a82f417073d9e990cd2897897e227402f05f57b5faac75312ec57fdfb6e30f4a0bc8c5cba219d9d737225193c7faf3eb9874"
+hash = "37dbf4996807192f4b8cc4635c3bc2fcb2d45ef3a748fdc3ecec75f3e3cb00ad18c3ba5f3c211f7e5bf2eb3037bddac72027e59ccd574be0c62b1c7f47c4b1fb"
 
 [update]
 [update.modrinth]
 mod-id = "9lBqVbQF"
-version = "KyhU782S"
+version = "P488HcTV"
