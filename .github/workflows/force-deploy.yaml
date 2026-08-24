@@ -1,0 +1,78 @@
+name: "Force Deploy"
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Generate bundles and build site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: "pnpm"
+
+      - name: Install node dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Cache packwiz downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache-${{ hashFiles('data/**/*.pw.toml') }}
+          restore-keys: packwiz-cache-
+
+      - name: Generate bundles
+        env:
+          PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x ./scripts/*.sh
+          ./scripts/generate-bundles.sh
+          ./scripts/generate-modrinth-packs.sh
+
+      - name: Generate mod index
+        run: node ./scripts/generate-mods-json.js
+
+      - name: Publish to Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          MODRINTH_MODPACK_PROJECT_ID: ${{ secrets.MODRINTH_MODPACK_PROJECT_ID }}
+          MODRINTH_SKYBLOCK_PROJECT_ID: ${{ secrets.MODRINTH_SKYBLOCK_PROJECT_ID }}
+        run: node ./scripts/publish-modrinth.js
+
+      - name: Build site
+        run: ./scripts/build-site.sh
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
