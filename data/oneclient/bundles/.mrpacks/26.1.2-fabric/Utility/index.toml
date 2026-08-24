@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "689cdfd0e16664f420f1230abfaa1befb1c15485142af4f05818df2364dfbb34"
+hash = "59d807e8c77a3ef3fbf3e66e39d284305803d88a672afb729994ed6d299bec91"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "fedb74f143f5aef141da78488b63a0f9488a9616f2f7ccafcf0213a0883c6e4f"
+hash = "fc1bcdba1d824e36a3eb894adbb6f85ab3b6de79f62beb34ec74da91fefa61cb"
 metafile = true
 
 [[files]]
