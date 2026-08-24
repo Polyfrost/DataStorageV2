@@ -1,0 +1,16 @@
+id = "dpkYdLu5"
+enabled = false
+hidden = false
+name = "Tier Tagger"
+filename = "TierTagger-2.3.2+mc1.21.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dpkYdLu5/versions/iTqTBoVp/TierTagger-2.3.2%2Bmc1.21.9.jar"
+hash-format = "sha512"
+hash = "20527eae20039b34f05ad36b2fe035e6acdfd6d167642502b0249be075537c3bde15a54e04a9e0081faf18d65b244eca10e47236cdc75488a802022b705a3455"
+
+[update]
+[update.modrinth]
+mod-id = "dpkYdLu5"
+version = "iTqTBoVp"

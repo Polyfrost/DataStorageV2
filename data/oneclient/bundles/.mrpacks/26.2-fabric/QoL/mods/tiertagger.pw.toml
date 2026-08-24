@@ -1,0 +1,16 @@
+id = "dpkYdLu5"
+enabled = false
+hidden = false
+name = "Tier Tagger"
+filename = "tiertagger-fabric-2.6.0+mc26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dpkYdLu5/versions/OY4tXUMX/tiertagger-fabric-2.6.0%2Bmc26.2.jar"
+hash-format = "sha512"
+hash = "71adb8262f8eab7b02c4dc0db952ffe9b2dc2c242ea31b32da190babb73bb12b6b7aa0a44b51195e9e3e0f41f8ccd11ab00d2c94b8f81450646f2473b2d8c368"
+
+[update]
+[update.modrinth]
+mod-id = "dpkYdLu5"
+version = "OY4tXUMX"

@@ -355,8 +355,18 @@ hash = "6803f950a328127292642614dc2f01a35252fa1d889e8c1998d272934e82d31d"
 metafile = true
 
 [[files]]
+file = "mods/tiertagger.pw.toml"
+hash = "e993eaa02603757914fc7bbe08fa0dff4ddf9d511a22bb00063848e50d91d021"
+metafile = true
+
+[[files]]
 file = "mods/tooltip-scroll.pw.toml"
 hash = "9067aa4d3e87b36321b5061d8407f723f235778978b0a5f7863e9a5601bf732e"
+metafile = true
+
+[[files]]
+file = "mods/ukulib.pw.toml"
+hash = "71550d18d84d3f045ffb0ac0dc0ad020d6fa1f263cb60c1fd1aa9024f58229b1"
 metafile = true
 
 [[files]]

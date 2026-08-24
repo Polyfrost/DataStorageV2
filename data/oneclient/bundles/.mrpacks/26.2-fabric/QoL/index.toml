@@ -330,6 +330,11 @@ hash = "acf052555b3be4be858c512f5ff6f8b9ee5942f192c2d2edfc6985102e92a735"
 metafile = true
 
 [[files]]
+file = "mods/tiertagger.pw.toml"
+hash = "cba24099767023229a228b5eb4c68fc1a461dbf90fcb8e67d336df8dcc6904e4"
+metafile = true
+
+[[files]]
 file = "mods/tntcountdown.pw.toml"
 hash = "2369f43f56d47054d4e7dcb06bd7f61dd46ebc92cc6e68c26753f6b7cbc384bd"
 metafile = true
@@ -337,6 +342,11 @@ metafile = true
 [[files]]
 file = "mods/tooltip-scroll.pw.toml"
 hash = "08ef816e59741651e13eaa98ef55fdb71317433026d56dcef525f12cca81ab05"
+metafile = true
+
+[[files]]
+file = "mods/ukulib.pw.toml"
+hash = "d7407484b5a8c0d0c6bed0d9a9e258a5fe3aa6067cdb5b7e2b95cb6259ab2485"
 metafile = true
 
 [[files]]
