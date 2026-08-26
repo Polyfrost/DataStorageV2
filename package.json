@@ -8,6 +8,7 @@
     "generate:modrinth": "bash scripts/generate-modrinth-packs.sh",
     "generate:mods": "node scripts/generate-mods-json.js",
     "publish:modrinth": "node scripts/publish-modrinth.js",
+    "update:changelog": "node scripts/update-changelog.js",
     "test": "node --test scripts/lib/*.test.js"
   },
   "keywords": [],
