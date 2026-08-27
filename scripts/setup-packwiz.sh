@@ -21,6 +21,7 @@ _PACKWIZ_REPO="${PACKWIZ_SETUP_REPO:-Polyfrost/packwiz}"
 _PACKWIZ_WORKFLOW="${PACKWIZ_SETUP_WORKFLOW:-go.yml}"
 _PACKWIZ_BRANCH="${PACKWIZ_SETUP_BRANCH:-main}"
 _PACKWIZ_ARTIFACT="${PACKWIZ_SETUP_ARTIFACT:-Linux 64-bit x86}"
+_PACKWIZ_RUN_SCAN="${PACKWIZ_SETUP_RUN_SCAN:-10}"
 _PACKWIZ_NIGHTLY_URL="${PACKWIZ_SETUP_NIGHTLY_URL:-https://nightly.link/Polyfrost/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip}"
 _PACKWIZ_BIN_NAME="${PACKWIZ_SETUP_BIN_NAME:-packwiz}"
 _PACKWIZ_BIN_PATH="$_PACKWIZ_SETUP_DIR/$_PACKWIZ_BIN_NAME"
@@ -50,20 +51,27 @@ _pw_resolve_api() {
   command -v jq >/dev/null 2>&1 || { echo "jq not available" >&2; return 1; }
   local api="https://api.github.com/repos/$_PACKWIZ_REPO"
 
-  local run_id
-  run_id="$(_pw_api_curl \
-    "$api/actions/workflows/$_PACKWIZ_WORKFLOW/runs?status=success&branch=$_PACKWIZ_BRANCH&per_page=1" \
-    | jq -r '.workflow_runs[0].id // empty')"
-  [[ -n "$run_id" ]] || { echo "no successful $_PACKWIZ_WORKFLOW run found" >&2; return 1; }
+  local run_ids
+  run_ids="$(_pw_api_curl \
+    "$api/actions/workflows/$_PACKWIZ_WORKFLOW/runs?status=success&branch=$_PACKWIZ_BRANCH&per_page=$_PACKWIZ_RUN_SCAN" \
+    | jq -r '.workflow_runs[].id')"
+  [[ -n "$run_ids" ]] || { echo "no successful $_PACKWIZ_WORKFLOW run found" >&2; return 1; }
 
-  local artifact_url
-  artifact_url="$(_pw_api_curl "$api/actions/runs/$run_id/artifacts?per_page=100" \
-    | jq -r --arg name "$_PACKWIZ_ARTIFACT" \
-        '.artifacts[] | select(.name == $name and .expired == false) | .archive_download_url' \
-    | head -n1)"
-  [[ -n "$artifact_url" ]] || { echo "artifact '$_PACKWIZ_ARTIFACT' not found/expired for run $run_id" >&2; return 1; }
+  local run_id artifact_url
+  while read -r run_id; do
+    artifact_url="$(_pw_api_curl "$api/actions/runs/$run_id/artifacts?per_page=100" \
+      | jq -r --arg name "$_PACKWIZ_ARTIFACT" \
+          '.artifacts[] | select(.name == $name and .expired == false) | .archive_download_url' \
+      | head -n1)"
+    if [[ -n "$artifact_url" ]]; then
+      printf '%s\n' "$artifact_url"
+      return 0
+    fi
+    echo "artifact '$_PACKWIZ_ARTIFACT' not found/expired for run $run_id" >&2
+  done <<< "$run_ids"
 
-  printf '%s\n' "$artifact_url"
+  echo "no run with a live '$_PACKWIZ_ARTIFACT' artifact in the last $_PACKWIZ_RUN_SCAN successful $_PACKWIZ_BRANCH runs" >&2
+  return 1
 }
 
 _pw_install_zip() {
