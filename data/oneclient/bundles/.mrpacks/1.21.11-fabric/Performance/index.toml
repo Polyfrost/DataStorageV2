@@ -96,6 +96,11 @@ hash = "1b7e33939272407738d8908c25a1a5943fab36b4c31ddde865d8cc79d1f9334d"
 metafile = true
 
 [[files]]
+file = "mods/gnetum.pw.toml"
+hash = "86227e92b1ca4e660ca861ed50527cb0a562add4d9a6d403f47eb03169701a1e"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "f26469e2ddf038696834755da97a469d42c7fcfddb6544e477ea66d7f724b596"
 metafile = true

@@ -36,6 +36,11 @@ hash = "a80e53a334ee3bd4c2ac4f06cf156a7843c91953e3724d7b0a64484010c68c1d"
 metafile = true
 
 [[files]]
+file = "mods/bobby.pw.toml"
+hash = "79074dd9dc8fca99c6fc26acb58fb59bc04a85c05f595e74319300a64ad0a5c2"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "bbf28818ac59c19583f03d516a86b508e7da7a591c28d071c4e53effd4865bf6"
 metafile = true

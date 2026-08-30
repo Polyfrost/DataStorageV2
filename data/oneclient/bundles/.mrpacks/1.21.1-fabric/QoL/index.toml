@@ -161,6 +161,11 @@ hash = "455898920ae31e4548c023508a8302169e251e98680c4f5aae6ec8ae81d36cbe"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "306e36d3f1033378966e54324835ec90566ba82804b2c97dd7c107b6e39ba349"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "2ba6377ddf084cce6043c95cfacfe64e64d7738ce3607ff8df3cb1062b6f7ad3"
 metafile = true
@@ -301,8 +306,8 @@ hash = "2b10befa9a98edb9a29ca65838c59d015bbe888a2bd15157c11d17c21e4a2536"
 metafile = true
 
 [[files]]
-file = "mods/screenshot-to-clipboard.pw.toml"
-hash = "565f934ddbd73acc59b77073440362c8a6e4cb5c66d9d38a7fa868b9bbef8ab0"
+file = "mods/screenshotmessageenhancer.pw.toml"
+hash = "a671675d7f13dab81135e7dd7503d9d7d90cd2b783f5ea296a2a5645f789ddf7"
 metafile = true
 
 [[files]]

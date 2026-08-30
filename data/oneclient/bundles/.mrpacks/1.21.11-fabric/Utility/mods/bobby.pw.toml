@@ -1,0 +1,16 @@
+id = "M08ruV16"
+enabled = false
+hidden = false
+name = "Bobby"
+filename = "bobby-5.2.11.1+mc1.21.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/M08ruV16/versions/ZwOXWoVI/bobby-5.2.11.1%2Bmc1.21.11.jar"
+hash-format = "sha512"
+hash = "4a691e6601936baf0e1e6fdc7b041caba315e66c75b08424c500a1903cb225d822a633ac565337f2f14bccfee851eb0c5ad672a2277c205ea00ca187ae762835"
+
+[update]
+[update.modrinth]
+mod-id = "M08ruV16"
+version = "ZwOXWoVI"

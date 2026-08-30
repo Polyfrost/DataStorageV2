@@ -45,6 +45,11 @@ hash = "3eb136919b01f3a601f5e58d0cae6957734312147880121b0ae765ff53c416a7"
 metafile = true
 
 [[files]]
+file = "mods/chatblock.pw.toml"
+hash = "ad44da9e130924e865041ea47f5cb49cdddad5cedda9baee0993617ad2cf3c47"
+metafile = true
+
+[[files]]
 file = "mods/chatting.pw.toml"
 hash = "33887a70296abb26a5d301b246a2d671bacad842eb7cd3a57d5e012261e91233"
 metafile = true
@@ -317,6 +322,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "36044ab399f0a85c5bf90aa2bc28e0bf4fcb451e759983f39d54832a2cdd56e2"
+metafile = true
+
+[[files]]
+file = "mods/screenshotmessageenhancer.pw.toml"
+hash = "8fa08d9777fbeb1f9b8b5d3711f5dd71e108cf66dcaf36b34132e812e5b12eec"
 metafile = true
 
 [[files]]

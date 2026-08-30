@@ -40,6 +40,11 @@ hash = "ba4bf3fa860fb72b491ca8970703e37318aa5c6bd0a248f7af2a7ba3490c7fac"
 metafile = true
 
 [[files]]
+file = "mods/chatblock.pw.toml"
+hash = "256ae4cd4a2f9282a0971560916808f29b3f4f004be17a866c7b1668eac03048"
+metafile = true
+
+[[files]]
 file = "mods/chatting.pw.toml"
 hash = "618d3ca611947f1d88061443e4ca8fe50c7e209c07f21ae80e921264cb2697af"
 metafile = true
@@ -310,6 +315,11 @@ hash = "aabc3115b6b59c076a580386f6ab81813d3238b0723a1b6dc5761fff63c0d9be"
 metafile = true
 
 [[files]]
+file = "mods/screenshotmessageenhancer.pw.toml"
+hash = "86fe143f708d1bb91ade390b0f09f47e6470ab4f5f2510ee1f73c8a04e249d1a"
+metafile = true
+
+[[files]]
 file = "mods/scrolltweaks.pw.toml"
 hash = "00fb117a2ba12716346c78de57d1f27799e57a4b78134b25a2dfb1674907791b"
 metafile = true
@@ -357,6 +367,11 @@ metafile = true
 [[files]]
 file = "mods/tiertagger.pw.toml"
 hash = "e993eaa02603757914fc7bbe08fa0dff4ddf9d511a22bb00063848e50d91d021"
+metafile = true
+
+[[files]]
+file = "mods/tntcountdown.pw.toml"
+hash = "7607f99861c71496121f30273e06b6d02abd61b8e868bc9890960ced07e90f66"
 metafile = true
 
 [[files]]

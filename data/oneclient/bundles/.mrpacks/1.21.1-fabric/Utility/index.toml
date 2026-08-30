@@ -36,6 +36,11 @@ hash = "a80e53a334ee3bd4c2ac4f06cf156a7843c91953e3724d7b0a64484010c68c1d"
 metafile = true
 
 [[files]]
+file = "mods/bobby.pw.toml"
+hash = "bb761845022512cfe9d4fd4d3e7b3644e825ba09e07e1b03a45b3cf8a9617b06"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "37892a1101fb31f445c6c9e913e5090fc7dc4d7949f6856effbeafd62ef80d01"
 metafile = true
@@ -96,6 +101,11 @@ hash = "e8dade42b731df67b2b45ee5239cce9969802e0652a216e31eddf55f6318ced8"
 metafile = true
 
 [[files]]
+file = "mods/libjf.pw.toml"
+hash = "45cd6149b0af7148695314e95978257c81c1f7c38f52349d699008851349c99a"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "538df5dd1fc933cf905411659acd2394f9ea5f91d1f97f2f9319cc696266e6ad"
 metafile = true
@@ -128,6 +138,16 @@ metafile = true
 [[files]]
 file = "mods/resourcify.pw.toml"
 hash = "9e67c3b117c5f833cc134ac51250eba53c1a53ee083ece73f4ccc804bbebd6fc"
+metafile = true
+
+[[files]]
+file = "mods/respackopts.pw.toml"
+hash = "aa18c6aefcd36455f8eb66e920290e825f124eaf6dc26df7abafdd46bcfe9a28"
+metafile = true
+
+[[files]]
+file = "mods/rsls.pw.toml"
+hash = "444dd99f29a272de481a2e3fff407ddaabaac1e0fefb6608b09940a25ba473b9"
 metafile = true
 
 [[files]]

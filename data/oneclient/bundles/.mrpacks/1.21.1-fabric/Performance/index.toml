@@ -96,6 +96,11 @@ hash = "9d651ef36c8ba89357d823b027f9a8375372c8f75f74012fefa09c5bc391117c"
 metafile = true
 
 [[files]]
+file = "mods/gnetum.pw.toml"
+hash = "2eff2f7582c467ce381addc43dec18386a68330986c92049f599694c60677a61"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "1b05f609ec3804f3f7d1b60c2814e0f684b4028a651c1805c0640f28f733a8d9"
 metafile = true
@@ -118,6 +123,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "08ae3cea7110fe56b1c4dae6b0fb44e2f3c51a3d591d1f7681d4056b763959f4"
+metafile = true
+
+[[files]]
+file = "mods/log-cleaner.pw.toml"
+hash = "6a11f24debd05247a8df11859d78ace5c775fd82e8b8ae27b1ce3a8bc73234b1"
 metafile = true
 
 [[files]]
