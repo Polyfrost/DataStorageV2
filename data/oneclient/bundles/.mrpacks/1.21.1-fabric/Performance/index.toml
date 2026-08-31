@@ -6,11 +6,6 @@ hash = "c20e3dabfc6197ff717e0c98fdcc1e3be05806f30b64dcafe1063bcd469ab4d6"
 metafile = true
 
 [[files]]
-file = "mods/asyncparticles.pw.toml"
-hash = "229e3b44965d0cece672b6de343194effb8a29c7c36fcdac09bdaf8e526a2f97"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "bceef1ff8d0e144d32ea31964e38f52f422c56919f219f27c413b9da496a78de"
 metafile = true

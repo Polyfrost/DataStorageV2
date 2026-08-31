@@ -17,16 +17,19 @@ INTER_BUNDLE_SLEEP="${PACKWIZ_UPDATE_SLEEP:-3}"
 # Names match the mod's .pw.toml basename under each bundle's mods/ dir.
 # Expand this list to opt more mods into pre-release updates.
 BETA_MODS=(
+  c2me-fabric
   catharsis
+  gnetum
   rrls
   skyblock-item-list
   skyhanni
+  vmp-fabric
   walksylib
 )
 
 update_bundle() {
   local bundle="$1"
-  local attempt=1 out wait beta_out mod
+  local attempt=1 out wait beta_out mod transient
   while (( attempt <= MAX_ATTEMPTS )); do
     # Stable pass: bump every mod to its latest stable version.
     out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update -a -y --stable ) 2>&1 )" || true
@@ -39,7 +42,8 @@ update_bundle() {
       printf '%s\n' "$beta_out"
       out+=$'\n'"$beta_out"
     done
-    if ! grep -q 'Failed to check updates for' <<<"$out"; then
+    transient="$( grep 'Failed to check updates for' <<<"$out" | grep -v 'no stable versions found' || true )"
+    if [ -z "$transient" ]; then
       return 0
     fi
     wait=$(( 20 * 2 ** (attempt - 1) ))
