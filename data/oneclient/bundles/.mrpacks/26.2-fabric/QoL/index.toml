@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatting.pw.toml"
-hash = "265b7b86e5a3e9de256faed1dafb48ea72f856ec29914a10ec0fe551068e693f"
+hash = "57e9785287989842b8a195bd1b5edcb4ce6bcbea6643189460ca89f4daa896f9"
 metafile = true
 
 [[files]]
@@ -166,7 +166,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "d3775358856490844c44bc8c1cdef11423af49dada32c74833985f5cc1abf8a4"
+hash = "e785afd1ecd24c044d1cf4807e7b22e1f470227132acd5f9f3f1e6381b19c02b"
 metafile = true
 
 [[files]]
