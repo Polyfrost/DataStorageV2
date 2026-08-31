@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "a3525e381c25e279b787614e47b2d8294e8fe708feaf0d681df65b1400fa4528"
+hash = "536f8d75d649fe7ce918607eef8e99c799fc373ef084ec944310471a6f770809"
 metafile = true
 
 [[files]]
@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "69f75eb5339bbff55d68a08ce7bdecde85672b4c830ef37fabaf07f5e955538d"
+hash = "635cf84f467f7f871c4159ace32ceb634850cb9060e7f91de2c5ba61d5166fc4"
 metafile = true
 
 [[files]]

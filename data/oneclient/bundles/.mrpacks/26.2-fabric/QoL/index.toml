@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "bf1c57428269e931dda159bcdbb463c53a70ac5a9b4f984102489258cbc45267"
+hash = "9b6f158f92ebcf45219678c779b55b0d4f574fd4762376245c06e5faada7d306"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "778451f71dae62dac85d576a0359427ec461d7af447fa2dc1979dcf57288f929"
+hash = "3b9eea42c64418a266567cc58dd3434fdd4d88e30f1c6567d22bd0c9ab84db15"
 metafile = true
 
 [[files]]
@@ -276,7 +276,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
-hash = "2cba8f20eb88bd35cad57c120fc1fbcbd77f61fa2c28b33fa3aa959599a3d819"
+hash = "24809a5ca4a2281c64470601a8f4b486656e8430f618631387a86ed82a7e6cee"
 metafile = true
 
 [[files]]

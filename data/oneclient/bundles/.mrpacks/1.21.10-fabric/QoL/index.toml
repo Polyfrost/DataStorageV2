@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "1255bf68b02bef55b04467c2a7408f6eda19ca9bb45fa9be379251751dd78a48"
+hash = "e49f27ab333a8742c92251d0b9042a4c9b8feb6438d12777d235d639ead76f1c"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "5609aa57c09470901bf238c026fd23441e09e9aab87e99df5c84738ef3c9b178"
+hash = "d4a455ad8152e527cf316c9d8ffaa94f785aa32a95f7c101893cf7e0dfe61f47"
 metafile = true
 
 [[files]]

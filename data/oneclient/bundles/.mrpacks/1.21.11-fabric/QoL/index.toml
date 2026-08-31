@@ -51,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "1f1c90c85f7a5dfc6303c48d78093a66ebe32968cb1cfecc035e73da3b540d85"
+hash = "5e67a44ed5bb70a7be6ab908248fead7755986be847034b08b5fba4f9d57e0ba"
 metafile = true
 
 [[files]]
@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "7feab38fa408edcb28854c56211f840953bfdf3d57377eb735ae4c9f4821b81e"
+hash = "b66bf1c9767439fa7767fb6d8552f8e80cf4492e4ad7dfef18e29d4e8777764d"
 metafile = true
 
 [[files]]
@@ -281,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "c237e01f22589d9835a44b53675dd86e692d0ec33ea7231ea8bf1c6e58e35eea"
+hash = "f3a85f81c351ab4351a1d1703b77f4058faa06553769f07e461d13f35a3ef41b"
 metafile = true
 
 [[files]]

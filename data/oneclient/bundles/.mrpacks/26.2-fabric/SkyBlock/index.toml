@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "6b89ebba1ab7f6cd6cd075183989a5187c4ac0709b922c2f3e1a1c390a862736"
+hash = "a10c192d9403f8db0a67aa3430fdcd7f9df87d5c62dc376a33b6a672f3aada80"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
-hash = "72c061ace86138f91c1ca4fedda8c5a5498f76edf82b86b7b19fb152e5b1ee43"
+hash = "8e6fff52281fc6e72928a0f7199ddc56b168e667bc66501748b3d038a84101ef"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblocker-liap.pw.toml"
-hash = "b51e370f4e168eb786dc30349c4864c60c16677905e04b4dbba02f8d08c62a2e"
+hash = "b1378ceac6ed8585ac68d5f4b9f5b8e8867921413224adf76f92a3a8a0aefbb5"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "5b6f3e5e63300b137f73786fbf5ddd6ab61c26350b9a88e2b04bf526be07a442"
+hash = "384b10c1854d2fa10a571e018d3f9130e4f203ef726005b5fe8f44df2f5c39bc"
 metafile = true
 
 [[files]]
@@ -107,10 +107,10 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/hypixel-skyblock-legacy.pw.toml"
-hash = "baa650d7cb32f646401a0c2c2f95be7a4f1570a47273602a90be5b7e53e0f0a3"
+hash = "54b8c8a03c34c00579209a6d7d3414759cc174eb1b4b44aa34a772a6dc41c75e"
 metafile = true
 
 [[files]]
 file = "resourcepacks/skyblock-dark-ui.pw.toml"
-hash = "cb3386b54e006fd4e827106bce46e2754e3b6c29abbe65494c9aba0dc59c21e0"
+hash = "7022c415561b14683298378adae0e4fe6413a6f47c1d885e5158150a38eee7ac"
 metafile = true
