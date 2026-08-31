@@ -60,6 +60,12 @@ const ANY_VERSION_BUILTINS = new Set(["mixinextras"]);
 
 const RELATIONS = ["depends", "recommends", "suggests", "breaks", "conflicts"];
 
+const PLACEHOLDER_IDS = new Set(["another-mod"]);
+
+function relEntries(unit, rel) {
+  return Object.entries(unit[rel] || {}).filter(([id]) => !PLACEHOLDER_IDS.has(id));
+}
+
 // ---------------------------------------------------------------------------
 // Discovery
 // ---------------------------------------------------------------------------
@@ -290,26 +296,19 @@ async function main() {
 
       const map = providerMap(catProviders);
 
-      // Per-bundle: depends (FAIL), recommends/suggests (WARN), breaks (FAIL), conflicts (WARN).
       for (const unit of primaries) {
-        for (const [id, range] of Object.entries(unit.depends || {})) {
+        for (const [id, range] of relEntries(unit, "depends")) {
           const r = resolve(map, id, range);
           if (r === "ok") continue;
           const why = r === "missing" ? "not provided" : `no version satisfies "${fmt(range)}"`;
           const label = id === "minecraft" ? "MC-incompatible" : "depends";
           add("FAIL", mcVersion, b.category, `${unit.id} ${label} ${id} — ${why}`);
         }
-        for (const relName of ["recommends", "suggests"]) {
-          for (const [id, range] of Object.entries(unit[relName] || {})) {
-            if (resolve(map, id, range) !== "ok")
-              add("WARN", mcVersion, b.category, `${unit.id} ${relName} ${id} — not satisfied`);
-          }
-        }
-        for (const [id, range] of Object.entries(unit.breaks || {})) {
+        for (const [id, range] of relEntries(unit, "breaks")) {
           if (triggered(map, id, range))
             add("FAIL", mcVersion, b.category, `${unit.id} breaks ${id} "${fmt(range)}" — present`);
         }
-        for (const [id, range] of Object.entries(unit.conflicts || {})) {
+        for (const [id, range] of relEntries(unit, "conflicts")) {
           if (triggered(map, id, range))
             add("WARN", mcVersion, b.category, `${unit.id} conflicts ${id} "${fmt(range)}" — present`);
         }
@@ -323,11 +322,17 @@ async function main() {
         const res = loaded.get(cacheKeyFor(m));
         if (!res || !res.primary) continue;
         const unit = applyOverrides(res.primary, b.overrides);
-        for (const [id, range] of Object.entries(unit.breaks || {})) {
+        for (const relName of ["recommends", "suggests"]) {
+          for (const [id, range] of relEntries(unit, relName)) {
+            if (resolve(unionMap, id, range) !== "ok")
+              add("WARN", mcVersion, b.category, `${unit.id} ${relName} ${id} — not satisfied`);
+          }
+        }
+        for (const [id, range] of relEntries(unit, "breaks")) {
           if (triggered(unionMap, id, range))
             add("FAIL", mcVersion, `${b.category}✕union`, `${unit.id} breaks ${id} "${fmt(range)}" — present in another category`);
         }
-        for (const [id, range] of Object.entries(unit.conflicts || {})) {
+        for (const [id, range] of relEntries(unit, "conflicts")) {
           if (triggered(unionMap, id, range))
             add("WARN", mcVersion, `${b.category}✕union`, `${unit.id} conflicts ${id} "${fmt(range)}" — present in another category`);
         }
