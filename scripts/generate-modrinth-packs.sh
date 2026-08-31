@@ -18,8 +18,7 @@ for cmd in zip unzip; do
   fi
 done
 
-export PACKWIZ_SETUP_REPO="packwiz/packwiz"
-export PACKWIZ_SETUP_NIGHTLY_URL="https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip"
+export PACKWIZ_SETUP_GO_MODULE="github.com/packwiz/packwiz@latest"
 export PACKWIZ_SETUP_BIN_NAME="packwiz-upstream"
 export PACKWIZ_SETUP_SKIP_PATH=1
 

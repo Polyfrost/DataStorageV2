@@ -7,12 +7,14 @@
 # Resolution order:
 #   1. `packwiz` already on PATH            (unless PACKWIZ_SETUP_SKIP_PATH=1)
 #   2. A previously downloaded copy cached next to this script
-#   3. Download the build (Linux x86-64 only) from the workflow artifact via the
-#      GitHub API (auth-gated — needs a token), falling back to nightly.link
-#      (public). Tokens, most-to-least preferred:
+#   3. If PACKWIZ_SETUP_GO_MODULE is set, `go install` it (works on any OS).
+#   4. Otherwise download the build (Linux x86-64 only) from the workflow
+#      artifact via the GitHub API (auth-gated — needs a token), falling back to
+#      nightly.link (public). Tokens, most-to-least preferred:
 #        PACKWIZ_TOKEN  (PAT with actions:read on the target repo)
 #        GH_TOKEN / GITHUB_TOKEN  (the default Actions token is scoped to *this*
-#        back to nightly.link)
+#        repo, so cross-repo artifact reads usually 404 and fall back to
+#        nightly.link)
 set -euo pipefail
 
 _PACKWIZ_SETUP_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
@@ -23,6 +25,7 @@ _PACKWIZ_BRANCH="${PACKWIZ_SETUP_BRANCH:-main}"
 _PACKWIZ_ARTIFACT="${PACKWIZ_SETUP_ARTIFACT:-Linux 64-bit x86}"
 _PACKWIZ_RUN_SCAN="${PACKWIZ_SETUP_RUN_SCAN:-10}"
 _PACKWIZ_NIGHTLY_URL="${PACKWIZ_SETUP_NIGHTLY_URL:-https://nightly.link/Polyfrost/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip}"
+_PACKWIZ_GO_MODULE="${PACKWIZ_SETUP_GO_MODULE:-}"
 _PACKWIZ_BIN_NAME="${PACKWIZ_SETUP_BIN_NAME:-packwiz}"
 _PACKWIZ_BIN_PATH="$_PACKWIZ_SETUP_DIR/$_PACKWIZ_BIN_NAME"
 
@@ -85,6 +88,19 @@ _pw_install_zip() {
   chmod +x "$_PACKWIZ_BIN_PATH"
 }
 
+_pw_go_install() {
+  command -v go >/dev/null 2>&1 || {
+    echo "Error: go is required to build $_PACKWIZ_GO_MODULE." >&2
+    return 1
+  }
+  local tmp
+  tmp="$(mktemp -d)"
+  GOBIN="$tmp" go install "$_PACKWIZ_GO_MODULE"
+  mv -f "$tmp/packwiz" "$_PACKWIZ_BIN_PATH"
+  rm -rf "$tmp"
+  chmod +x "$_PACKWIZ_BIN_PATH"
+}
+
 _pw_download_linux() {
   local zip="$_PACKWIZ_SETUP_DIR/$_PACKWIZ_BIN_NAME-linux.zip"
   local token url
@@ -120,6 +136,10 @@ if [[ -z "${PACKWIZ_SETUP_SKIP_PATH:-}" ]] && command -v packwiz >/dev/null 2>&1
 elif [[ -x "$_PACKWIZ_BIN_PATH" ]]; then
   PACKWIZ_BIN="$_PACKWIZ_BIN_PATH"
   echo "Using cached packwiz: $PACKWIZ_BIN"
+elif [[ -n "$_PACKWIZ_GO_MODULE" ]]; then
+  echo "packwiz not found, building $_PACKWIZ_GO_MODULE"
+  _pw_go_install
+  PACKWIZ_BIN="$_PACKWIZ_BIN_PATH"
 elif [[ "$(uname -s)" == "Linux" ]]; then
   if ! command -v unzip >/dev/null 2>&1; then
     echo "Error: unzip is required to set up packwiz." >&2

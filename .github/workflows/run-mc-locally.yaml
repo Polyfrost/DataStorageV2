@@ -20,6 +20,12 @@ jobs:
           key: packwiz-cache-${{ hashFiles('data/**/*.pw.toml') }}
           restore-keys: packwiz-cache-
 
+      - name: Cache upstream packwiz
+        uses: actions/cache@v4
+        with:
+          path: scripts/packwiz-upstream
+          key: packwiz-upstream-${{ hashFiles('scripts/setup-packwiz.sh', 'scripts/generate-modrinth-packs.sh') }}
+
       - name: Generate merged modpacks
         env:
           PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
