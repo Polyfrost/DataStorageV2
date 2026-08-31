@@ -20,6 +20,11 @@ hash = "ea6e9ca88aaa3b6d3b4ccf08071ef925a5ce7ab5564505c75770fce109b35197"
 metafile = true
 
 [[files]]
+file = "mods/better-selection.pw.toml"
+hash = "bc3ef1ea029f815a63b04d067f544172c5bb0c8cb2a114036d56699bd50d330f"
+metafile = true
+
+[[files]]
 file = "mods/black-bar-concealer.pw.toml"
 hash = "aca672b3e92cf338462baf9943f060b2ef20e8a79c6b0129519eefabb165d23d"
 metafile = true
@@ -120,6 +125,11 @@ hash = "d5b68a2f66f0b0c7b221d3ad9f53a34bdd0337301b8a788ea68564ed6d9e8ec9"
 metafile = true
 
 [[files]]
+file = "mods/esf.pw.toml"
+hash = "4bd24b4d55051cc8b587345c8b77be5a5976b0227de0d66cb1c77732c54a3e82"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "672bd445af7178b3aaaab091099299bf2c308a9a376291b22dc0887b94c7ff6f"
 metafile = true
@@ -147,6 +157,11 @@ metafile = true
 [[files]]
 file = "mods/itemphysicliteconfig.pw.toml"
 hash = "6a02e8ac30bb97b9c9809de9c5a191dcd12bfb51712d5188e905be0300f254a0"
+metafile = true
+
+[[files]]
+file = "mods/lambdabettergrass.pw.toml"
+hash = "3899810e817a6e2c136c9882d8b7b20e624a85c5b459aa1bac15ff6af362bb2b"
 metafile = true
 
 [[files]]

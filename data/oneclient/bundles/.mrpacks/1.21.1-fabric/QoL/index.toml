@@ -36,6 +36,11 @@ hash = "8b1102adbc60949e937925bb194acbe4625ee45925970fd07916772695ec1276"
 metafile = true
 
 [[files]]
+file = "mods/cit-resewn.pw.toml"
+hash = "57ead4a28cf630ba4ab537cc06d71da8c17eff3edcf06ba1f2da686f9a65649c"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "37892a1101fb31f445c6c9e913e5090fc7dc4d7949f6856effbeafd62ef80d01"
 metafile = true
@@ -161,6 +166,11 @@ hash = "455898920ae31e4548c023508a8302169e251e98680c4f5aae6ec8ae81d36cbe"
 metafile = true
 
 [[files]]
+file = "mods/lambdabettergrass.pw.toml"
+hash = "d076854f28d5bc86d47029668e53a6d343dac2261f09694567e02bc881bdaff4"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "306e36d3f1033378966e54324835ec90566ba82804b2c97dd7c107b6e39ba349"
 metafile = true
@@ -216,13 +226,18 @@ hash = "4871c04f7eed33069d9ecda4dc199d2df3315f6c02f0d055cd54c3903eeee55d"
 metafile = true
 
 [[files]]
-file = "mods/numerical-enchantments.pw.toml"
-hash = "93d23b02f3f9332665894105c7626a1e11a260ed08e2087462aeedb6f8d88e3b"
+file = "mods/nuit-interop.pw.toml"
+hash = "84b7e51b4f4c300181c27cae8a48fc1b141cd71be43df693adc7fe284b36b0af"
 metafile = true
 
 [[files]]
-file = "mods/one-click-join.pw.toml"
-hash = "365aadd96c13503a8f5a6a6bed13ddc96a4bc1498f40e22d77cf6cf9773add3e"
+file = "mods/nuit.pw.toml"
+hash = "314dcc393b462ade227efbc30659b9a048155b88de6a3ff3449e070afca19eec"
+metafile = true
+
+[[files]]
+file = "mods/numerical-enchantments.pw.toml"
+hash = "93d23b02f3f9332665894105c7626a1e11a260ed08e2087462aeedb6f8d88e3b"
 metafile = true
 
 [[files]]

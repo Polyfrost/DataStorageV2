@@ -100,11 +100,6 @@ hash = "c2f2aa04d03385eecdf5cd2b13d13639acc0cbc7c39149d59dfa39ad0565bb0b"
 metafile = true
 
 [[files]]
-file = "mods/dark-graph.pw.toml"
-hash = "c9ffb0c566557653ceeff731c38cbbb7a66925495b0a0a89c2f507578441d1f5"
-metafile = true
-
-[[files]]
 file = "mods/droppeditemtweaks.pw.toml"
 hash = "29a7d41a92805fb043b019f6cb457004adcbf2acdc030f58deb79cc7038e575d"
 metafile = true
@@ -160,6 +155,11 @@ hash = "1e990bb44c1350f1f660529236b7fc659bdaaebbea2a5fc6f1843dcfec63c939"
 metafile = true
 
 [[files]]
+file = "mods/lambdabettergrass.pw.toml"
+hash = "0589da208d6e41ca72a0d498c3533b8f89278048e3c1043889cbf2ab7e78cc42"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "c78003b5d48d7b6e1a2d56ae053b77aa8febf2c8bf71b2529837cf96d322f6f5"
 metafile = true
@@ -167,11 +167,6 @@ metafile = true
 [[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "1f42958c96940cc88e1b0e8ab0c14da0e8e958607a72c1a153464ecc59afb8d8"
-metafile = true
-
-[[files]]
-file = "mods/mixintrace.pw.toml"
-hash = "c228d0159ea15e48ee145fe27435955bfd9ab21ee2e4155e2f5d16af92960a0a"
 metafile = true
 
 [[files]]

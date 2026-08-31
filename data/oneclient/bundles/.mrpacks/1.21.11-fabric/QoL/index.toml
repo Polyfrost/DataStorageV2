@@ -175,6 +175,11 @@ hash = "30bf70bd0e6a993ac4df77a4f65c548a308e30375fc959d4328383a2ece6fa41"
 metafile = true
 
 [[files]]
+file = "mods/lambdabettergrass.pw.toml"
+hash = "537785f9857af91164df4ccd60d1cb5f8f520cb6dba54b018452977a304190f9"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "99c250d5c3812b19b8114340d51cb5af63d92b5dec954be73b3c729dcf5cf3c9"
 metafile = true

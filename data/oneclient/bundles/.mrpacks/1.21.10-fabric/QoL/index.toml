@@ -180,6 +180,11 @@ hash = "bbd8d7c3591b1acae1c49f6dbbc847a5508f9aaeb4db8a6a18c5bda9f415c855"
 metafile = true
 
 [[files]]
+file = "mods/lambdabettergrass.pw.toml"
+hash = "bb95cfc2825d4740e957e80353bd4a7be83929a8379d224949e0910b7799d3d2"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "5d75fcca2b50cf123b7cca0706ff75ed74821d544cbf8e6f1a9fe8830195a9c0"
 metafile = true
@@ -232,11 +237,6 @@ metafile = true
 [[files]]
 file = "mods/numerical-enchantments.pw.toml"
 hash = "93d23b02f3f9332665894105c7626a1e11a260ed08e2087462aeedb6f8d88e3b"
-metafile = true
-
-[[files]]
-file = "mods/one-click-join.pw.toml"
-hash = "8f7f0324be94687453bb598c85639db8691cd3ab90a4f19e40d40a0b7115a8f7"
 metafile = true
 
 [[files]]

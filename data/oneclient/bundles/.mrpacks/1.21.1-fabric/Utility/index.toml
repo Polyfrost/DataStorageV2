@@ -6,11 +6,6 @@ hash = "ef2a41da2044711a9d3d2e53ccd1737f489a70f455d25541f1183b3f36a6692e"
 metafile = true
 
 [[files]]
-file = "mods/auto-gg.pw.toml"
-hash = "da17b555c53ce390b30cd6eb5357720fd2cca482fb5a927695ab8e74d679d3ad"
-metafile = true
-
-[[files]]
 file = "mods/behindyou.pw.toml"
 hash = "221bb1fc8283a7f52c0a0c2f0d94f0c52c90819f3b7302f82dfaa84c1dcf2cbc"
 metafile = true
@@ -88,11 +83,6 @@ metafile = true
 [[files]]
 file = "mods/hitbox.pw.toml"
 hash = "61d8e907bee994bd0b71516e64a0b61870a48d00f0aecd6b288275b158761a55"
-metafile = true
-
-[[files]]
-file = "mods/island-utils.pw.toml"
-hash = "942ef97ef2e13bc97e0ecfc02100b12a1d0798362b29398f5abe66ee77212a77"
 metafile = true
 
 [[files]]

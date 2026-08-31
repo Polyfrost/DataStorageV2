@@ -76,11 +76,6 @@ hash = "7a0dff1a11e523c830d75bb2b9b4d98c432c5f99715ebc2fd21dce109e1b9123"
 metafile = true
 
 [[files]]
-file = "mods/fix-keyboard-on-linux.pw.toml"
-hash = "a6be0d290ca6903988d05df68e1548f6cf21f8203608ab7c2bddad00f558e2ee"
-metafile = true
-
-[[files]]
 file = "mods/forcecloseworldloadingscreen.pw.toml"
 hash = "cd5653c273629cfc5fc905257fd5ebfc5731ff8f3ffd82917f378016d564f37e"
 metafile = true
@@ -126,6 +121,11 @@ hash = "6a11f24debd05247a8df11859d78ace5c775fd82e8b8ae27b1ce3a8bc73234b1"
 metafile = true
 
 [[files]]
+file = "mods/macos-input-fixes.pw.toml"
+hash = "96d80b9440258bc785eba06219c9e2776925fdca1fc0689d9687d88fa75079bc"
+metafile = true
+
+[[files]]
 file = "mods/modernfix-mvus.pw.toml"
 hash = "ca546111481af0ce82162a640ddb1b3cb9686e31a82c43bf03212146b821262f"
 metafile = true
@@ -148,11 +148,6 @@ metafile = true
 [[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "b3679ca15889dfe5c8f178eec7c50cf112ad1a237ef610975f43b3cd3711f095"
-metafile = true
-
-[[files]]
-file = "mods/optipainting-updated.pw.toml"
-hash = "cac130f0cdb7221ee6f4d64edf0b98fbd96313f9b179d7f74a15bc0ccd80c7f1"
 metafile = true
 
 [[files]]

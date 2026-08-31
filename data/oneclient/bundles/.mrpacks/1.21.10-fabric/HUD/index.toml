@@ -56,11 +56,6 @@ hash = "867280e8e85966d174b173ad5d0b5b18b6b8ebfc12bcadae4edbc0599c93635c"
 metafile = true
 
 [[files]]
-file = "mods/slice.pw.toml"
-hash = "dd253e8d102c496e90033b4165fc2c0e6fe598fff287358472bf3c4614b2151c"
-metafile = true
-
-[[files]]
 file = "mods/vanillahud.pw.toml"
 hash = "db0530b11238fce62b4965d5f44bd7ad05f75be0e9664771eb4b8e8583641542"
 metafile = true

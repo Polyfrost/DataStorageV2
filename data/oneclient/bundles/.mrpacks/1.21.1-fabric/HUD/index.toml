@@ -51,6 +51,11 @@ hash = "2ba6377ddf084cce6043c95cfacfe64e64d7738ce3607ff8df3cb1062b6f7ad3"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "0bc0506a4c37edd3abf79455e0872b64e8734c1839478b085cfff8e7164275ad"
+metafile = true
+
+[[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "db0ddd85ce6c45fc05c37a9a8024e6849fbacf00ec968e2b9003a8acf186d25a"
 metafile = true
