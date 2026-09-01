@@ -111,17 +111,17 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "2c1f799705c52e19d3ccdcf2c929438190a299bfb3af3b46e7edc2d048257875"
+hash = "bfd76f9ba67d16f9ebade50815f71eb41cfe39264ae1c5d47cf87ec7d3082a59"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "5d323458f6b91ad1d0ad9cb78f0af5fe5b0d0b3864dac25b4fdfa7ff972dbade"
+hash = "8acd9109868ee2b1132dd7125aab42e1578f1d95b01d8201758ae85c29f0a495"
 metafile = true
 
 [[files]]
 file = "mods/esf.pw.toml"
-hash = "4bd24b4d55051cc8b587345c8b77be5a5976b0227de0d66cb1c77732c54a3e82"
+hash = "cb79c571497f1c408925d1d59045b881256eb6ee36eda60ef1a6601728200f32"
 metafile = true
 
 [[files]]
