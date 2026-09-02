@@ -42,12 +42,12 @@ metafile = true
 
 [[files]]
 file = "mods/odin.pw.toml"
-hash = "231ae15fc45867da173e46575e93a42c1d71772f22c41e898ee71307dfd6499a"
+hash = "2727000410beaeed53d61a3043a09c3ad202919ed7462db15dd88c2082fde7f0"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "b3679ca15889dfe5c8f178eec7c50cf112ad1a237ef610975f43b3cd3711f095"
+hash = "c121df1b2101603f89942db81a62239d00af5824962b6a0b702faad179ef5aea"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblocker-liap.pw.toml"
-hash = "99754f59e37b947a14128f543bf2732f9e498abae9c7c6faaa527579c8987270"
+hash = "411f307f17e579454f60b58f5f3477fae78fb585452a701b115e100d170db859"
 metafile = true
 
 [[files]]
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "0c09dbba0c5c575820a7e8b942e02663859a07663419d7485d57d09edd86b4ef"
+hash = "cf811247c14d682c2029ac49db797fc7be015a108a4f2de453ea699847fbdc6e"
 metafile = true
 
 [[files]]

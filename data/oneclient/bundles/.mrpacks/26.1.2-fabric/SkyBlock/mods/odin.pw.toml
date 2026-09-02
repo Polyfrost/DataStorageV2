@@ -2,15 +2,15 @@ id = "jJJLywXp"
 enabled = true
 hidden = false
 name = "Odin - Hypixel Skyblock"
-filename = "Odin-0.3.1.jar"
+filename = "Odin-0.3.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/jJJLywXp/versions/cC7YBIsC/Odin-0.3.1.jar"
+url = "https://cdn.modrinth.com/data/jJJLywXp/versions/pb6t335x/Odin-0.3.2.jar"
 hash-format = "sha512"
-hash = "95a7b2930e83b9231e8df78c8dcd1c1baca5bf14a4863c9ea24aa6d39d6527e8d9acc0b5537941ccd888ec1f4c8e15eeb29ac9bd2658ce974fcd23156bab3259"
+hash = "04b035901b5ec8dc197750351fce5ed6422433f37050311e19a77b7f6d101f095cb005fe083aa2919226dc7b025a92f29ae6f12e7466afc983d550e1d8217531"
 
 [update]
 [update.modrinth]
 mod-id = "jJJLywXp"
-version = "cC7YBIsC"
+version = "pb6t335x"

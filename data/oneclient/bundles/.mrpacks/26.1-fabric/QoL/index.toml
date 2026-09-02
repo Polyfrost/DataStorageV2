@@ -111,12 +111,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "bfd76f9ba67d16f9ebade50815f71eb41cfe39264ae1c5d47cf87ec7d3082a59"
+hash = "3ff2ab79467440f3b09435254b9d40a787745a7b2b79172e19a46f1f9a1f7bd3"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "8acd9109868ee2b1132dd7125aab42e1578f1d95b01d8201758ae85c29f0a495"
+hash = "2c11de9b9d8841282aa011e12c8fb871b9eaa0681cd6fe620ef1ed3872ade442"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "b3679ca15889dfe5c8f178eec7c50cf112ad1a237ef610975f43b3cd3711f095"
+hash = "c121df1b2101603f89942db81a62239d00af5824962b6a0b702faad179ef5aea"
 metafile = true
 
 [[files]]

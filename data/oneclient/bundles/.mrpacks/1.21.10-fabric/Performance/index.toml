@@ -142,12 +142,12 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "9296a975754ccac33b59d56d270eeae8201475fb4a63cd390da238e39d2792c8"
+hash = "c6193635780053592e2f18407c5f4ab3bd1517febbd38a5a0a7a6a924df75a7d"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "867280e8e85966d174b173ad5d0b5b18b6b8ebfc12bcadae4edbc0599c93635c"
+hash = "f319798dfa916a9d5573103b6fd0ae334118d510d18eb0dd63a61f03edfe96e9"
 metafile = true
 
 [[files]]

@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "672bd445af7178b3aaaab091099299bf2c308a9a376291b22dc0887b94c7ff6f"
+hash = "da439abfbac39bb37d6c44929cabfa08764d76d8aa88ff75ead1cf6cca7d429b"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "e626a4d295840dfbf3b13cfd53b51b5f337009ee2df3e3b0c5a0fb7d1c16d088"
+hash = "760e7e30cc5ee1fb95cb047c41f56314c665effe5ac3014cbcdff0499e48e886"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblocker-liap.pw.toml"
-hash = "b1378ceac6ed8585ac68d5f4b9f5b8e8867921413224adf76f92a3a8a0aefbb5"
+hash = "988ea6266123b0a8f7eb9800621dc2a289652ec53b792eb54f924b20ee72f935"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "384b10c1854d2fa10a571e018d3f9130e4f203ef726005b5fe8f44df2f5c39bc"
+hash = "b43b1e8a02a9bbed120135267cb1ddda032c6b8501d4c0d95a895ccd323237bf"
 metafile = true
 
 [[files]]
