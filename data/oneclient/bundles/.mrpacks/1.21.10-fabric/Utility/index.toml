@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "fc1bcdba1d824e36a3eb894adbb6f85ab3b6de79f62beb34ec74da91fefa61cb"
+hash = "1ea7cbe4850f9842dbd1fbfddf72f0da05f3cb79b840725bdb8734966f3f780d"
 metafile = true
 
 [[files]]

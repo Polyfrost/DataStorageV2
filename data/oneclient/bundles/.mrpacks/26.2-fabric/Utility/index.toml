@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "c2f326696e872ea1e525273ea103fda4500895129e7a61fd8696e38208e9269b"
+hash = "97045839144848285a09a07f49ca7d0b274ea9c994a5f0273f0585842a151e8e"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "fc1bcdba1d824e36a3eb894adbb6f85ab3b6de79f62beb34ec74da91fefa61cb"
+hash = "1ea7cbe4850f9842dbd1fbfddf72f0da05f3cb79b840725bdb8734966f3f780d"
 metafile = true
 
 [[files]]

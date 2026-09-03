@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "1b68a8ecadd147a8ecad7becb6b018846ddf86c606fbc45c34e7b4879ab6e174"
+hash = "3c3f1e1d560b3102f2fbace2c5d32cf530289f497f1c8fa7fdbfe75ca822aae6"
 metafile = true
 
 [[files]]
@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "bdf6067f65863068f71585423bec6f484aef15503ceac63de4f06b69795ea817"
+hash = "3286c0ce1a7f950c5d185c5a107a8470eb0362ae9ca6b2e5469c7e3b7e29f784"
 metafile = true
 
 [[files]]

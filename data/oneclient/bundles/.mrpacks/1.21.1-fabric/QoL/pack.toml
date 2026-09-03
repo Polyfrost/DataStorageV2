@@ -11,8 +11,8 @@ update-url = "oneclient/generated/qol-1.21.1-fabric.mrpack"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "39511ed0c7e8372229f0036f281f3efbd8c023884895c4bd17bf27fab2ee4bf5"
+hash = "0fce1dcc1c9ebe52ea33b2ae63ac2be9a713ca8bb73f847afecba448be5d2f09"
 
 [versions]
-fabric = "0.19.3"
+fabric = "0.19.5"
 minecraft = "1.21.1"
