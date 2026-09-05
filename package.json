@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Data storage & packwiz bundle generation for OneClient",
   "scripts": {
-    "check": "node scripts/check.js",
+    "check": "node scripts/check.js && node scripts/check-featured-servers.js",
+    "check:servers": "node scripts/check-featured-servers.js",
     "check:compat": "node scripts/compat-check.js",
     "generate:modrinth": "bash scripts/generate-modrinth-packs.sh",
     "generate:mods": "node scripts/generate-mods-json.js",

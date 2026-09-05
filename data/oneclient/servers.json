@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "servers": [
+    {
+      "id": "colorgens",
+      "name": "ColorGens",
+      "address": "oc.colorgens.com",
+      "outline_color": "rainbow",
+      "featured": {
+        "campaign_id": "colorgens-2026",
+        "starts_at": "2026-01-01T00:00:00Z",
+        "ends_at": "2030-01-01T00:00:00Z",
+        "title": "ColorGens",
+        "description": "Join ColorGens and start playing.",
+        "cta_label": "Play now"
+      }
+    }
+  ]
+}
