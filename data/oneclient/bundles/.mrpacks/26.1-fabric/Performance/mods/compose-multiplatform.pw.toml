@@ -2,15 +2,15 @@ id = "eHe8QhtD"
 enabled = true
 hidden = true
 name = "Compose Multiplatform"
-filename = "compose-bundle-1.0.3+compose.1.12.0-alpha01.jar"
+filename = "compose-bundle-1.0.4+compose.1.12.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/eHe8QhtD/versions/fXgVG4P3/compose-bundle-1.0.3%2Bcompose.1.12.0-alpha01.jar"
+url = "https://cdn.modrinth.com/data/eHe8QhtD/versions/4MxJbQOd/compose-bundle-1.0.4%2Bcompose.1.12.0.jar"
 hash-format = "sha512"
-hash = "0f447e124d36b2f6533bef8191025e775d429cf785141c7ac049f4e3f9ca167bf0668e96dc2e8d60e8b0eb3fcefccb47156aac54d8a824e894f3b456d53ea735"
+hash = "13b26534cfc5ed4c67c2d891ba70b8e2a90f874374e8b3547aef031770c87b3caed68f2947846beb6a538336fa1799bb300a68c92b84f65f392debf4d36c1ee4"
 
 [update]
 [update.modrinth]
 mod-id = "eHe8QhtD"
-version = "fXgVG4P3"
+version = "4MxJbQOd"

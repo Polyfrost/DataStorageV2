@@ -71,7 +71,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "07888b3461d7fc6bd5504c1a1ef9972b20a3d7d5926fccba75ef49c30cf3adf6"
+hash = "d50b8352a2b1b363ec8939b36380fffc10fa378cde3d4b83e17c427525f6f2b6"
 metafile = true
 
 [[files]]
@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "35ea00221cc9953e29217b18a04d51effa798c4491de695ae031d195b2b2158c"
+hash = "137cb8af5bd6879ba9cc63014e12ecc7c178aae3abe828084bab227f6afe9b60"
 metafile = true
 
 [[files]]
@@ -281,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "b0d22741083d847261faf7495a7088f0f940246b2719c22c834c82d1c5977b04"
+hash = "4783ffb0e1aceb311a0eced048c3941b1279bebc9371ec84cfbac0e67a79c5c1"
 metafile = true
 
 [[files]]
