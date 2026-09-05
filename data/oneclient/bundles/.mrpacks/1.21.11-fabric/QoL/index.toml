@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "9c3b8188c43e793c4f23293d4e7ce2d27291979cca0ab7501c2dfd33a52f98b9"
+hash = "6dac9461ffcff0484caa1d4d14aba09403930a5c586ae736b6fce0bff55b3e1b"
 metafile = true
 
 [[files]]
@@ -411,7 +411,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "36448fa76318730a72c4cb186cd5fa4c91a018f8fdc74766565c3b2f5c06d073"
+hash = "bcc85b085aa32503fcbd2486290d1489cc46e0a8b720023f37ef95f58087ee32"
 metafile = true
 
 [[files]]
