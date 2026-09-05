@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "f3a85f81c351ab4351a1d1703b77f4058faa06553769f07e461d13f35a3ef41b"
+hash = "6dac9461ffcff0484caa1d4d14aba09403930a5c586ae736b6fce0bff55b3e1b"
 metafile = true
 
 [[files]]
@@ -401,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "5701207ff7645342d50b71c9d013aa56fd8688d502f8c9f95cbd1117d0474145"
+hash = "c21a611887fe13be958a6b22ab215b9af073538613c596c6eaa91a1057de5f2d"
 metafile = true
 
 [[files]]
@@ -411,7 +411,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "36448fa76318730a72c4cb186cd5fa4c91a018f8fdc74766565c3b2f5c06d073"
+hash = "bcc85b085aa32503fcbd2486290d1489cc46e0a8b720023f37ef95f58087ee32"
 metafile = true
 
 [[files]]

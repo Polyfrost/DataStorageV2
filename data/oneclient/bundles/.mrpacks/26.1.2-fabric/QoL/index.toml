@@ -381,7 +381,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "3b4ae51df95e8d68ea5f7f988458315699d9ccc0dcdcef8987e9c70d0f1b19a6"
+hash = "3a73b21eaef49dec3ebc002503553f5520ecb1a3ec82f1e45777a019771cbbc8"
 metafile = true
 
 [[files]]
@@ -391,7 +391,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "36448fa76318730a72c4cb186cd5fa4c91a018f8fdc74766565c3b2f5c06d073"
+hash = "bcc85b085aa32503fcbd2486290d1489cc46e0a8b720023f37ef95f58087ee32"
 metafile = true
 
 [[files]]
