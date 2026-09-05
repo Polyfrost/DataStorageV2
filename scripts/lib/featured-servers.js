@@ -84,6 +84,12 @@ function validateFeaturedServers(catalog) {
       errors.push(`${at}.featured.ends_at must be later than starts_at`);
     }
 
+    for (const field of ["dismissible_in_main_menu", "dismissible_in_server_list"]) {
+      if (featured[field] !== undefined && typeof featured[field] !== "boolean") {
+        errors.push(`${at}.featured.${field} must be a boolean when present`);
+      }
+    }
+
     if (featured.image_url !== undefined) {
       if (!nonEmptyString(featured.image_url)) {
         errors.push(`${at}.featured.image_url must be a non-empty HTTPS URL when present`);

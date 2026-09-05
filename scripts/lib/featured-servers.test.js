@@ -53,6 +53,23 @@ test("rejects malformed known values", () => {
   assert.ok(errors.some((error) => error.includes("HTTPS URL")));
 });
 
+test("accepts dismissible flags and rejects non-boolean ones", () => {
+  assert.deepEqual(
+    validateFeaturedServers({
+      schema_version: 1,
+      servers: [server({ featured: featured({ dismissible_in_main_menu: true, dismissible_in_server_list: false }) })],
+    }),
+    []
+  );
+
+  const errors = validateFeaturedServers({
+    schema_version: 1,
+    servers: [server({ featured: featured({ dismissible_in_main_menu: "yes", dismissible_in_server_list: 0 }) })],
+  });
+  assert.ok(errors.some((error) => error.includes("dismissible_in_main_menu must be a boolean")));
+  assert.ok(errors.some((error) => error.includes("dismissible_in_server_list must be a boolean")));
+});
+
 test("rejects duplicate server and campaign ids", () => {
   const errors = validateFeaturedServers({
     schema_version: 1,
