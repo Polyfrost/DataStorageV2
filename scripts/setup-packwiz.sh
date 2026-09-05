@@ -7,7 +7,7 @@
 # Resolution order:
 #   1. `packwiz` already on PATH            (unless PACKWIZ_SETUP_SKIP_PATH=1)
 #   2. A previously downloaded copy cached next to this script
-#   3. If PACKWIZ_SETUP_GO_MODULE is set, `go install` it (works on any OS).
+#   3. If PACKWIZ_SETUP_GO_MODULE is set, clone and `go build` it (any OS).
 #   4. Otherwise download the build (Linux x86-64 only) from the workflow
 #      artifact via the GitHub API (auth-gated — needs a token), falling back to
 #      nightly.link (public). Tokens, most-to-least preferred:
@@ -93,9 +93,22 @@ _pw_go_install() {
     echo "Error: go is required to build $_PACKWIZ_GO_MODULE." >&2
     return 1
   }
-  local tmp
+  command -v git >/dev/null 2>&1 || {
+    echo "Error: git is required to build $_PACKWIZ_GO_MODULE." >&2
+    return 1
+  }
+
+  local mod ref tmp
+  mod="${_PACKWIZ_GO_MODULE%@*}"
+  ref="${_PACKWIZ_GO_MODULE##*@}"
+  if [[ "$ref" == "$_PACKWIZ_GO_MODULE" ]]; then ref="latest"; fi
+
+  local clone_args=(--depth 1)
+  if [[ "$ref" != "latest" ]]; then clone_args+=(--branch "$ref"); fi
+
   tmp="$(mktemp -d)"
-  GOBIN="$tmp" go install "$_PACKWIZ_GO_MODULE"
+  git clone --quiet "${clone_args[@]}" "https://$mod.git" "$tmp/src"
+  ( cd "$tmp/src" && go build -o "$tmp/packwiz" . )
   mv -f "$tmp/packwiz" "$_PACKWIZ_BIN_PATH"
   rm -rf "$tmp"
   chmod +x "$_PACKWIZ_BIN_PATH"
