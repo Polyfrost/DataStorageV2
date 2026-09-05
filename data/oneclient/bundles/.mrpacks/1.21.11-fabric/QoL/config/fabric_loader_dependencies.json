@@ -5,6 +5,11 @@
             "-depends": {
                 "minecraft": "IGNORED"
             }
+        },
+        "nbtac": {
+            "+breaks": {
+                "nbt_ac": "*"
+            }
         }
     }
 }
