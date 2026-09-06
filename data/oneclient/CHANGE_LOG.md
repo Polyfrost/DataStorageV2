@@ -1,3 +1,56 @@
+# 2.3.0
+
+- automatically clear out any corrupted files
+- feat: let new installs choose the data folder
+- feat: better UX with folder data changing
+- chore: log console should enable "debug" log filter by default
+- fix: declining TOS no longer skips onboarding
+- chore: make decling and accepting TOS better
+- fix onboarding being completely reprompted when TOS updates
+- chore: ignore weird java awt natives loading
+- Revert "fix: stop rejecting java installations over an awt probe"
+- fix: debug page resetting onboarding state
+- perf: optimize mod toggling
+- fix: verify and repair missing natives
+- fix: fixed hidden mods being enabled on every launch
+- fix: allow both path forms in allowed_symlinks.txt
+- fix: stop rejecting java installations over an awt probe
+- perf: extract archives off the caller's executor
+- fix: browser markdown
+- feat: added an option for starting the launcher maximized
+- chore: sorted cluster settings
+- feat: shortcuts
+- feat: local mods support
+- feat: added checking for bundle updates on game launch
+- feat: added an opt-in flow for bundle mods shipped disabled
+- feat: resource packs and shaders quiet reload
+- feat: lower the default memory on lower memory machines
+- feat: prefer the dedicated gpu on windows
+- chore: added dedicated gpu flags
+- feat: added a don't show again option to the update prompt
+- feat: added New/Updated badges to cluster package lists
+- feat: added context menu inside the screenshot viewer
+- feat: added context menu on homepage clusters
+- feat: added a picker for the amount of columns in a row
+- feat: added MB4/MB5 and Esc navigation globally
+- fix: stop a stray console window opening on windows
+- chore: drop duplicate crate-local sqlx cache
+- feat: launcher data folder
+- fix: stray java runtime tmps and version files
+- feat: delete mods from dead bundles
+- feat: added ability to decline TOS
+- chore: migrated to freya 0.5.0-rc.4
+- feat: added memory allocation presets to minecraft and cluster settings
+- feat: implemented disabling animations
+- feat: added rerender when new screenshot is taken
+- chore: try to auto update in case of startup crash
+- fix: make back button on settings page not count sidebar items
+- fix: scrollbar obscuring the file path
+- fix: text that was visible in the center on stats
+- fix: fixed memory input changing to default on every app launch
+- feat: added progress bar on first launch screen; changed progress bar to reusable component (there were 4 duplicates)
+- completely wipe out hickory
+
 # 2.2.3
 
 - feat: added cosmetic navbar link
