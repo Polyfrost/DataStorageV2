@@ -151,11 +151,6 @@ hash = "8279349b0b760c40215f9cc8df80f3782ecc6d660605139a55fd5f88fa84bb41"
 metafile = true
 
 [[files]]
-file = "mods/rsls.pw.toml"
-hash = "444dd99f29a272de481a2e3fff407ddaabaac1e0fefb6608b09940a25ba473b9"
-metafile = true
-
-[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "4579bb92708f2c0767e7125f1c6ef7666d5681c1ba0a42db1e8304bbcffc9b56"
 metafile = true
