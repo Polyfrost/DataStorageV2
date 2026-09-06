@@ -1,0 +1,72 @@
+name: "Update Changelog"
+on:
+  schedule:
+    # :30 so this does not queue behind Update Bundles, which runs on the hour.
+    - cron: "30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-changelog
+  cancel-in-progress: false
+
+jobs:
+  UpdateChangelog:
+    name: Sync CHANGE_LOG.md with OneClient releases
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Generate missing changelog sections
+        id: changelog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node ./scripts/update-changelog.js
+
+      - name: Open or update the changelog PR
+        if: steps.changelog.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSIONS: ${{ steps.changelog.outputs.versions }}
+          LATEST: ${{ steps.changelog.outputs.latest }}
+        run: |
+          set -euo pipefail
+          BRANCH="chore/update-changelog"
+
+          git config --global user.name "Changelog Updater[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$BRANCH"
+          git add data/oneclient/CHANGE_LOG.md
+          git commit -m "chore(changelog): add $VERSIONS"
+
+          # The branch is regenerated from main every run, so force-push is the
+          # update path for an already-open PR.
+          git push --force origin "$BRANCH"
+
+          if [ -n "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number // empty')" ]; then
+            echo "Existing PR updated with $VERSIONS"
+            exit 0
+          fi
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(changelog): OneClient $LATEST" \
+            --body "$(cat <<EOF
+          Generated from the commits between the OneClient release tags in [Polyfrost/OneLauncher](https://github.com/Polyfrost/OneLauncher/releases).
+
+          Versions added: **$VERSIONS**
+
+          Entries are raw commit subjects with the PR number stripped, newest first. Please reword and drop anything that is not user-facing before merging — release plumbing is filtered out automatically, but internal changes phrased like features are not.
+          EOF
+          )"
