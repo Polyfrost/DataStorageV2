@@ -1,3 +1,32 @@
+# 2.2.3
+
+- feat: added cosmetic navbar link
+- fix: fixed 404 response from curseforge
+- feat: added rerendering after every new java runtime addition
+- Fix/refreshing account doesnt change username
+- Decrease minimum RAM allocation in JVM
+- feat: added funfacts changing on background change
+- feat: added search bar into Game Output live logs
+- fix(app): normalize trackpad scroll deltas on macOS
+- chore: changed ping url from gstatic to 1.1.1.1
+- fix: panic caused by min > max
+- feat: changed windows stack memory from 1MB to 8MB (same as Linux and MacOS)
+- fix(misc): bring back accidentally removed comment
+- fix mod card toggle taking 20 years
+
+# 2.2.2
+
+- fix: increase z-index of label in home recents row
+- fix: migration issues, cluster preparation and sentry logging
+- add one more check for awt
+- actually properly check for AWT
+
+# 2.2.1
+
+- maybe improve visual code bundling
+- package visual c++ directly in windows installer
+- fix liquid glass icon
+
 # 2.2.0
 
 - fix(core): bundle overrides being problematic
