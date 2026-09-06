@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "e4dab19a8e707938dc1dba8d90b6762687e276744e99479508a8d49b3f02d543"
+hash = "e4d6cacf4e9b19423d71b1deeb1e5ecf45f483fa59a39884bd31dacc21f4e39a"
 metafile = true
 
 [[files]]
