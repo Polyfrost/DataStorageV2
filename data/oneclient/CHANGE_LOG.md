@@ -1,3 +1,8 @@
+# 2.3.1
+
+- chore: log freya info and switched to experimental branch with windows rendering fix
+- fix: long launches caused by anti-corruption mechanism
+
 # 2.3.0
 
 - automatically clear out any corrupted files
