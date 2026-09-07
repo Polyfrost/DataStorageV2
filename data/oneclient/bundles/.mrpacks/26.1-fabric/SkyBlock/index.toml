@@ -17,12 +17,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "1a27135626945c25cea2d33192b6838ad647ce75e9a6018a83515004d7b902ff"
+hash = "5fd84d0fcc537e5f2cf6dda4e57bb16f8b30737f2bef2a8d688b29e0f5f1b806"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true
 
 [[files]]
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "f210b6ecd005c9857b9a44b2ed9d4f21bac71a00bdc0828489507a0c10e4e674"
+hash = "6d025ec48f96f8a5c6283c0945fa103c9c3e4194139807d8fd98a0f6c7c9fab0"
 metafile = true
 
 [[files]]

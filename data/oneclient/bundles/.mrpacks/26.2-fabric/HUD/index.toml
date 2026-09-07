@@ -37,12 +37,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "da439abfbac39bb37d6c44929cabfa08764d76d8aa88ff75ead1cf6cca7d429b"
+hash = "b005c59c8786460398395a26ad8c82995fc789d02f1f705a518bf81ee07266d1"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true
 
 [[files]]
