@@ -20,6 +20,7 @@ BETA_MODS=(
   c2me-fabric
   catharsis
   gnetum
+  nuit
   rrls
   skyblock-item-list
   skyhanni
