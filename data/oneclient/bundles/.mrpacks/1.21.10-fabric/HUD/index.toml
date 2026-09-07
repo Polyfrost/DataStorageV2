@@ -52,7 +52,17 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "b76504b881de4bac9da14ee9c5a43e8d4d87e6dcaa5414f452ae386e113f46b8"
+hash = "dfb4f7a8e51add56643a1820b051c2e14d0c65a43f5135454320b0ef15e1be4f"
+metafile = true
+
+[[files]]
+file = "mods/ukulib.pw.toml"
+hash = "97f295e324738f9cb4483444e9f14b518336821575edf9851d5492cef7d3052c"
+metafile = true
+
+[[files]]
+file = "mods/ukus-armor-hud.pw.toml"
+hash = "35add685c5328920c944be7f8ebebd666073bd4cf0ed7a3ff1c4891e5c392b80"
 metafile = true
 
 [[files]]
