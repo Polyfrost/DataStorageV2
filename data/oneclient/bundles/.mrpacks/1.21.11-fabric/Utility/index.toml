@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "07888b3461d7fc6bd5504c1a1ef9972b20a3d7d5926fccba75ef49c30cf3adf6"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "61d5a39f0979edb38c56b6580fe34233c1da309ba87e1826b37ffb9930a49ab3"
+hash = "f76a633fe69fd966bc525c922211fdac265c14a521060d4ebb9971997e543ffb"
 metafile = true
 
 [[files]]
@@ -151,11 +151,6 @@ hash = "8279349b0b760c40215f9cc8df80f3782ecc6d660605139a55fd5f88fa84bb41"
 metafile = true
 
 [[files]]
-file = "mods/rsls.pw.toml"
-hash = "444dd99f29a272de481a2e3fff407ddaabaac1e0fefb6608b09940a25ba473b9"
-metafile = true
-
-[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "4579bb92708f2c0767e7125f1c6ef7666d5681c1ba0a42db1e8304bbcffc9b56"
 metafile = true
@@ -172,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "1ea7cbe4850f9842dbd1fbfddf72f0da05f3cb79b840725bdb8734966f3f780d"
+hash = "98bdf9065de059e26620aa42b92c5bcae0eded4ede7979fd248ad36a708bc4a5"
 metafile = true
 
 [[files]]

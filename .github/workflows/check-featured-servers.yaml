@@ -1,0 +1,31 @@
+name: "Check Featured Servers"
+on:
+  pull_request:
+    paths:
+      - data/oneclient/servers.json
+      - scripts/check-featured-servers.js
+      - scripts/lib/featured-servers.js
+      - scripts/lib/featured-servers.test.js
+      - package.json
+  push:
+    paths:
+      - data/oneclient/servers.json
+      - scripts/check-featured-servers.js
+      - scripts/lib/featured-servers.js
+      - scripts/lib/featured-servers.test.js
+      - package.json
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check:servers
+      - run: node --test scripts/lib/featured-servers.test.js

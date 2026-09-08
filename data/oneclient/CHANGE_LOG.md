@@ -1,3 +1,90 @@
+# 2.3.1
+
+- chore: log freya info and switched to experimental branch with windows rendering fix
+- fix: long launches caused by anti-corruption mechanism
+
+# 2.3.0
+
+- automatically clear out any corrupted files
+- feat: let new installs choose the data folder
+- feat: better UX with folder data changing
+- chore: log console should enable "debug" log filter by default
+- fix: declining TOS no longer skips onboarding
+- chore: make decling and accepting TOS better
+- fix onboarding being completely reprompted when TOS updates
+- chore: ignore weird java awt natives loading
+- Revert "fix: stop rejecting java installations over an awt probe"
+- fix: debug page resetting onboarding state
+- perf: optimize mod toggling
+- fix: verify and repair missing natives
+- fix: fixed hidden mods being enabled on every launch
+- fix: allow both path forms in allowed_symlinks.txt
+- fix: stop rejecting java installations over an awt probe
+- perf: extract archives off the caller's executor
+- fix: browser markdown
+- feat: added an option for starting the launcher maximized
+- chore: sorted cluster settings
+- feat: shortcuts
+- feat: local mods support
+- feat: added checking for bundle updates on game launch
+- feat: added an opt-in flow for bundle mods shipped disabled
+- feat: resource packs and shaders quiet reload
+- feat: lower the default memory on lower memory machines
+- feat: prefer the dedicated gpu on windows
+- chore: added dedicated gpu flags
+- feat: added a don't show again option to the update prompt
+- feat: added New/Updated badges to cluster package lists
+- feat: added context menu inside the screenshot viewer
+- feat: added context menu on homepage clusters
+- feat: added a picker for the amount of columns in a row
+- feat: added MB4/MB5 and Esc navigation globally
+- fix: stop a stray console window opening on windows
+- chore: drop duplicate crate-local sqlx cache
+- feat: launcher data folder
+- fix: stray java runtime tmps and version files
+- feat: delete mods from dead bundles
+- feat: added ability to decline TOS
+- chore: migrated to freya 0.5.0-rc.4
+- feat: added memory allocation presets to minecraft and cluster settings
+- feat: implemented disabling animations
+- feat: added rerender when new screenshot is taken
+- chore: try to auto update in case of startup crash
+- fix: make back button on settings page not count sidebar items
+- fix: scrollbar obscuring the file path
+- fix: text that was visible in the center on stats
+- fix: fixed memory input changing to default on every app launch
+- feat: added progress bar on first launch screen; changed progress bar to reusable component (there were 4 duplicates)
+- completely wipe out hickory
+
+# 2.2.3
+
+- feat: added cosmetic navbar link
+- fix: fixed 404 response from curseforge
+- feat: added rerendering after every new java runtime addition
+- Fix/refreshing account doesnt change username
+- Decrease minimum RAM allocation in JVM
+- feat: added funfacts changing on background change
+- feat: added search bar into Game Output live logs
+- fix(app): normalize trackpad scroll deltas on macOS
+- chore: changed ping url from gstatic to 1.1.1.1
+- fix: panic caused by min > max
+- feat: changed windows stack memory from 1MB to 8MB (same as Linux and MacOS)
+- fix(misc): bring back accidentally removed comment
+- fix mod card toggle taking 20 years
+
+# 2.2.2
+
+- fix: increase z-index of label in home recents row
+- fix: migration issues, cluster preparation and sentry logging
+- add one more check for awt
+- actually properly check for AWT
+
+# 2.2.1
+
+- maybe improve visual code bundling
+- package visual c++ directly in windows installer
+- fix liquid glass icon
+
 # 2.2.0
 
 - fix(core): bundle overrides being problematic

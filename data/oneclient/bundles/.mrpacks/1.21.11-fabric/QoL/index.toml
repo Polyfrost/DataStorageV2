@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "07888b3461d7fc6bd5504c1a1ef9972b20a3d7d5926fccba75ef49c30cf3adf6"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
 
 [[files]]
@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "29c8ab8a604e799127815a4ab61392dd7e58a5ae9d2f64794ab42020ac565bf6"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true
 
 [[files]]
@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "61d5a39f0979edb38c56b6580fe34233c1da309ba87e1826b37ffb9930a49ab3"
+hash = "f76a633fe69fd966bc525c922211fdac265c14a521060d4ebb9971997e543ffb"
 metafile = true
 
 [[files]]
@@ -276,7 +276,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "26d82d42c7b4434e1d04eb6197e3fc94da74d6ecc143050ecbc83375a1f52584"
+hash = "9c9df078b18a5c077b9f415e46f915f824ca7108a10db3bf6a9b613b8fcad8a0"
 metafile = true
 
 [[files]]
@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "f3a85f81c351ab4351a1d1703b77f4058faa06553769f07e461d13f35a3ef41b"
+hash = "6dac9461ffcff0484caa1d4d14aba09403930a5c586ae736b6fce0bff55b3e1b"
 metafile = true
 
 [[files]]
@@ -401,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "c21a611887fe13be958a6b22ab215b9af073538613c596c6eaa91a1057de5f2d"
+hash = "aee4b352312138f35e0fdcb1641fb4f12b29bf81dd53900ce6ff5c88f855dc71"
 metafile = true
 
 [[files]]
@@ -411,7 +411,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "36448fa76318730a72c4cb186cd5fa4c91a018f8fdc74766565c3b2f5c06d073"
+hash = "57300d81cbd29c671362d559f4692f91d6d14b47e6576d0f6c59795ea8fed65c"
 metafile = true
 
 [[files]]
