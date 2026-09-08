@@ -1,11 +1,6 @@
 {
     "version": 1,
     "overrides": {
-        "idontwannascrollagain": {
-            "-depends": {
-                "minecraft": "IGNORED"
-            }
-        },
         "nbtac": {
             "+breaks": {
                 "nbt_ac": "*"
