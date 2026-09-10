@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "29c3fa94ca60e2ee8030ebc9c4140a5f1ffa22aaf8701fc173df5b169bee1c33"
+hash = "8f4fe6d959c503da82f5866334d7b3b71ee062804acb28b0d4c9d3a53080312f"
 metafile = true
 
 [[files]]
@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "e378df0f342467c9b7bbad5eb60d7b49519c66d487a4e7ca2e159b52c1bbb8ad"
+hash = "51e7e26fc7cc9d1fa2b3a5e795da74ad009808717f6ec91830a497d9a6acbdc9"
 metafile = true
 
 [[files]]
