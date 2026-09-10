@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatting.pw.toml"
-hash = "57e9785287989842b8a195bd1b5edcb4ce6bcbea6643189460ca89f4daa896f9"
+hash = "ebb773b83b1f80228abbae62467ee0dbaf28e255a007114737d5607c52cdf328"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "2a1e308a2d027ef66b4acc33e5eb7365cd8057a05ca1847d5304b4de645b67c5"
+hash = "3efc85da3f0e2ff717ce30e43c8388d81c099608764b83e1f8467e821162552d"
 metafile = true
 
 [[files]]
@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "3ae105d95f997b6b86ac8d1a6e174c3ab07ad329c539f26f488f81f2e37594cf"
+hash = "09b2a23ac8d8aed7befab66a4c34f843c14a614913bc2b4440c402e3c9cfa0a6"
 metafile = true
 
 [[files]]
