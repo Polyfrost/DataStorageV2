@@ -39,6 +39,7 @@
     "ZOMBIES_DEAD_END": "arcade_zombies_dead_end",
     "ZOMBIES_BAD_BLOOD": "arcade_zombies_bad_blood",
     "ZOMBIES_ALIEN_ARCADIUM": "arcade_zombies_alien_arcadium",
+    "ZOMBIES_PRISON": "arcade_zombies_prison",
     "HIDE_AND_SEEK_PROP_HUNT": "arcade_hide_and_seek_prop_hunt",
     "HIDE_AND_SEEK_PARTY_POOPER": "arcade_hide_and_seek_party_pooper",
     "SIMON_SAYS": "arcade_simon_says",
