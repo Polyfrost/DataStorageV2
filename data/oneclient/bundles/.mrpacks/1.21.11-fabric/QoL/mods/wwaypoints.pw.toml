@@ -1,0 +1,16 @@
+id = "eQke7g17"
+enabled = true
+hidden = false
+name = "wWaypoints"
+filename = "wWaypoints 0.7.3 1.21.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/eQke7g17/versions/kCkt5CMP/wWaypoints%200.7.3%201.21.11.jar"
+hash-format = "sha512"
+hash = "762b62057846771510c15ee05f5d7f798c3c4ec63d24634dabe09fc4a09ebb5108e6e4bf79f2b6ea0090038cf0b4e58e2ba0c7b69e62704d8618a1b75fea4042"
+
+[update]
+[update.modrinth]
+mod-id = "eQke7g17"
+version = "kCkt5CMP"

@@ -385,6 +385,11 @@ hash = "5303a4d58080ec61346929f8c7bd3565c8ca5256c2a646f4e99ec6e6a99aa58f"
 metafile = true
 
 [[files]]
+file = "mods/wwaypoints.pw.toml"
+hash = "2e2ad17c14e8e6bdf0a36e8dac1f0d899fb6b5b6168024fa609a1757544e7ee4"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "59fcce1ec87b77cce50e9aa31b93293dbf31b6dbd6ebe6a093ffbff3cb9a3220"
 metafile = true

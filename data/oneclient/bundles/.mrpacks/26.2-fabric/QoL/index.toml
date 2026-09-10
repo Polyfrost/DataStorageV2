@@ -380,6 +380,11 @@ hash = "14b6da72f2590fdbabf68397d1620118afddb61beade5528611ab442fdec45de"
 metafile = true
 
 [[files]]
+file = "mods/wwaypoints.pw.toml"
+hash = "66df8097d13dd662d8989f2e35ba7f2ffa73d6c0098d3eb0aa6c94e17fcf298b"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "8f22dbc1106731a5e54c5b38472e3f364b25bab0171e5491aa430f4c361f1859"
 metafile = true
