@@ -111,7 +111,7 @@ metafile = true
 
 [[files]]
 file = "mods/effecttimerplus.pw.toml"
-hash = "9b4c12f2bc9a319c70ddac9eb6988b16bf12bc666f4274302c8a12d078f706c5"
+hash = "780d49a9a5961b66c732a501b53824969f2a5bec478d09b6c9a6bccd2f6d5698"
 metafile = true
 
 [[files]]
@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "09b2a23ac8d8aed7befab66a4c34f843c14a614913bc2b4440c402e3c9cfa0a6"
+hash = "a3675cc65bb36389075d6d62547420d9700035ada2e619f5249936eba933bb3a"
 metafile = true
 
 [[files]]

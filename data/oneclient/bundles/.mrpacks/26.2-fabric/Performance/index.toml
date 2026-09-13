@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "536f8d75d649fe7ce918607eef8e99c799fc373ef084ec944310471a6f770809"
+hash = "bf3c26f61cac234768a97d8344000d0004e3beb4f98b6e0c9a7aa23f187c9d80"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/noxesium.pw.toml"
-hash = "6281a2f3a81f04409029b420d49b63b9111b155616386b2e5014ed2c8aced448"
+hash = "2fbe53e1be0b12f1b0733daca28a980c63e0f43f78744e9ca9355df77e58b2e6"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "f40a2a127b97fa0d11f23c789f25ba4f512f0538e934ff576e931e5b6b4cc676"
+hash = "78c63ccebad4195a84b2b2e7bc2595eec654e025f0dd6e3b62997c1e32a767fa"
 metafile = true
 
 [[files]]

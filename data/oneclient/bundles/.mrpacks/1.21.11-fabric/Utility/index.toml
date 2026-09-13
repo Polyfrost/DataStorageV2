@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/animatium.pw.toml"
-hash = "ddcd978a759102ed24db3be5a7331229953b49db21e7a49e873497b6ee47b298"
+hash = "ccf3cf29c4033c9223053a5e1222d850ff63ec7661c3a395c7b768104975c5c9"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourcify.pw.toml"
-hash = "294dd2d44253b164ca9a669a46e17c77dd66d85330383b15e536d61a4ffbc599"
+hash = "4afeaeb77379b2380c8f94c6181464258c427c0f95dd61b28258466d65b5bc68"
 metafile = true
 
 [[files]]

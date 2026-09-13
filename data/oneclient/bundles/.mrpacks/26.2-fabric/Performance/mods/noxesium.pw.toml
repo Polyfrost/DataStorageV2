@@ -2,15 +2,15 @@ id = "Kw7Sm3Xf"
 enabled = true
 hidden = false
 name = "Noxesium"
-filename = "noxesium-fabric-3.2.4.jar"
+filename = "noxesium-fabric-3.2.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Kw7Sm3Xf/versions/5koMmPI1/noxesium-fabric-3.2.4.jar"
+url = "https://cdn.modrinth.com/data/Kw7Sm3Xf/versions/PcrMax4F/noxesium-fabric-3.2.5.jar"
 hash-format = "sha512"
-hash = "80e61b2693b0f7c9403298e9d117004f8ecdebbfa1608ef6bf52da71c33437c3ae8196aa319909c3f728b041a2f2410804d14685de02b369bf6338fff8b3cd91"
+hash = "97d5b019a5edede706397a301da6be95b617268ac5e8b14cbf3dbf1fc69f1fec030efbc3910b367d8bb7977943c6ca2021feffd4d7a9b82cb8f6b94df3c1b68f"
 
 [update]
 [update.modrinth]
 mod-id = "Kw7Sm3Xf"
-version = "5koMmPI1"
+version = "PcrMax4F"

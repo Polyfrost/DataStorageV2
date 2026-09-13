@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/animatium.pw.toml"
-hash = "b388b0317eb40fb2628abc23f78c7c1c78f0c3fb798301f2018449a861bde9fa"
+hash = "79eda072d09225e04fb4c82452bf1c909f6ed9e4ad90f134ef981f88526044b6"
 metafile = true
 
 [[files]]
@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/noxesium.pw.toml"
-hash = "6281a2f3a81f04409029b420d49b63b9111b155616386b2e5014ed2c8aced448"
+hash = "2fbe53e1be0b12f1b0733daca28a980c63e0f43f78744e9ca9355df77e58b2e6"
 metafile = true
 
 [[files]]
@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourcify.pw.toml"
-hash = "ab9ea95df46f1989ef28c7a58ee8cbb7d7758e9d87942224ad62dc5ee7e903dd"
+hash = "b9bfcd24adcda1baa1f516663580f8ea2ecb46a38958571e99f032c06dbba430"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "1e58a74af1796a86c697294abe77fd11e33fd324f18b0834014e35559d61065f"
+hash = "037941358046f15012fbb2bc054d5f63e4c89d06d3056656438cfd8e392009e5"
 metafile = true
 
 [[files]]
