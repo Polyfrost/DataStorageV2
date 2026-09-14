@@ -22,6 +22,7 @@ BETA_MODS=(
   gnetum
   nuit
   rrls
+  simple-voice-chat
   skyblock-item-list
   skyhanni
   vmp-fabric
