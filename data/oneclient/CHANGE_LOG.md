@@ -1,7 +1,5 @@
 # 2.4.0
 
-- Revert "fix: enable Wayland clipboard for image copy + align MSRV docs (#826)"
-- fix: enable Wayland clipboard for image copy + align MSRV docs
 - tweak wording on stuff
 - fix: symlinks
 - fix: linux use dedicated GPU setting
@@ -14,7 +12,6 @@
 - chore: only download bundle content in onboarding pre-download
 - fix: cluster settings not inheriting value from global memory field
 - chore: deleted corners on the app
-- Update splash_curtain.rs
 - perf: optimise used memory
 
 # 2.3.1
