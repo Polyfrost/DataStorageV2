@@ -1,3 +1,19 @@
+# 2.4.0
+
+- tweak wording on stuff
+- fix: symlinks
+- fix: linux use dedicated GPU setting
+- fix: issues caused by merges
+- feat: added placeholder image for images that couldnt be decoded; fixed overflowing titles in mods view
+- feat: added microsoft jdk and new shared mods folder layout
+- feat: added resource packs and shaders sections inside browse view
+- chore: added checking for browser autoupdater by published_at
+- Add Ornithe support
+- chore: only download bundle content in onboarding pre-download
+- fix: cluster settings not inheriting value from global memory field
+- chore: deleted corners on the app
+- perf: optimise used memory
+
 # 2.3.1
 
 - chore: log freya info and switched to experimental branch with windows rendering fix
