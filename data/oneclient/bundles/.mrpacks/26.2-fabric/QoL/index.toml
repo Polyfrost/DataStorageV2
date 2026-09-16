@@ -235,11 +235,6 @@ hash = "2e46ecd86073fea042770b0ec1d7ef2baa82ca9ca7d926e6eb1c759a07da06bd"
 metafile = true
 
 [[files]]
-file = "mods/paginatedadvancements.pw.toml"
-hash = "3e4cc73b2420aaec9c9f2971e88783b4510e61b8cfa381acfae4e52a32e268eb"
-metafile = true
-
-[[files]]
 file = "mods/polyblur.pw.toml"
 hash = "c91ff39ddd63b7278f2cae99307010f119754495f7d79b1d4a01616f345a840b"
 metafile = true
