@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "290cda5439f0026546d987626f1b42e30814d8f7fc5951b3687cabcbd3dc92b1"
+hash = "cdb591719d752024684dd2dde14b48d6a7b6dfb0a9f6a0c38b9b758bb7b7f550"
 metafile = true
 
 [[files]]
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "906d9101c0bd3979cbb9edab83648974b3dc1056052bc78a5ad71ecc7c5ee584"
+hash = "3753ff8e66acd574dc7cc095e191e54f63daacab5375cccb22af7c86fcd64a9e"
 metafile = true
 
 [[files]]

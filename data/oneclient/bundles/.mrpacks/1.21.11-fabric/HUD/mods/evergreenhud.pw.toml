@@ -2,15 +2,15 @@ id = "1yIQcc2b"
 enabled = true
 hidden = false
 name = "EvergreenHUD"
-filename = "evergreenhud-3.8.1+1.21.11.jar"
+filename = "evergreenhud-3.9.0+1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/1yIQcc2b/versions/ORu2M9vg/evergreenhud-3.8.1%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/1yIQcc2b/versions/AKMjvfc5/evergreenhud-3.9.0%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "d24a8acbb0c65c8a7ef4205b5db7d2a0e4c83cebcfc649a990b53c654bc208ff003e322d72e6e45b0bdd373925c981010fcbaa13829ba2be696e44592af81ec6"
+hash = "66982b9f9cb343d8eadba49153c989c61aa69ff834204cdcef285e41c1bdd1762ca7dd31b6b3260a8ffb2d49fdf5154ff5f992921b4781133a1a01330ffa28bb"
 
 [update]
 [update.modrinth]
 mod-id = "1yIQcc2b"
-version = "ORu2M9vg"
+version = "AKMjvfc5"

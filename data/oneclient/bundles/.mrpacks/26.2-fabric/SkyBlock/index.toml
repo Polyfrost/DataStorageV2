@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "a94959e292baedb5cc3b1feb89b6a4f1ae326a8f0b7c872b8bb64a1065dae6bd"
+hash = "eb0cc10679494ef84b91b9dfb1d69edf4f2d094f4997cc6efeaaf38d2ec365ff"
 metafile = true
 
 [[files]]
@@ -37,12 +37,12 @@ metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "be19c04faba4d3b6c401eda52b347a4367028de280b0a651623f6bac1479447b"
+hash = "4275e12e2a1a8c9299a377fce245f80b836f54a4739beb66ab00c5ca9c399077"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "3efc85da3f0e2ff717ce30e43c8388d81c099608764b83e1f8467e821162552d"
+hash = "045e3489c297968b3a28a5f3261c5ca6add5f03037a3fcd2deb95a93172eb1d0"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
-hash = "8e6fff52281fc6e72928a0f7199ddc56b168e667bc66501748b3d038a84101ef"
+hash = "199e5c2b372b2b0c138b83378389c670b76a6783c81ab4664fc467667fad1e16"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblocker-liap.pw.toml"
-hash = "a142b9f50117ea91dca3e10a648f86f7599c4c47ff070157db8f6f4b3da6f8ca"
+hash = "1c6ca4b41481f91bee9edccf217c3c056e394ba2c766ce2976235ddf171963fc"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "2564bb178bf267c537d9a779fc10a3a49cf6cd9312c76012c914c729376c9bfe"
+hash = "29a51fec610769f7540ae7d245d5670cbbf5a7177201146c355068e57fad05af"
 metafile = true
 
 [[files]]

@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "9f3955486e115f534c80513cc82bb9c80f4605775a964f6281488762c88f01f5"
+hash = "2cd450f2efa67efc641b62022ae5f817009a485804ed1bf4d8393eb94c1acce4"
 metafile = true
 
 [[files]]
@@ -92,12 +92,12 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "1b7e33939272407738d8908c25a1a5943fab36b4c31ddde865d8cc79d1f9334d"
+hash = "26697bdf047d77ec7682d7f4001bcf4dbdf5683cd7a8f1415bf9bac7e4fd78e0"
 metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "86227e92b1ca4e660ca861ed50527cb0a562add4d9a6d403f47eb03169701a1e"
+hash = "fb299deef1114e94dec49feaf9638bcfb26aba1e2af0e24c379fb021f0433496"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7cf100205eec0086d4b54f2454048bdd09729fdbe2200bd5cf7cdbdc8d83206b"
+hash = "beb01176b3d11d7a4b7c638f56113b7ad9d94271a705708ceb6b02508e285cfe"
 metafile = true
 
 [[files]]
