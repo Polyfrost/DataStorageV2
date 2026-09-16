@@ -1,0 +1,16 @@
+id = "Si9Uim4y"
+enabled = true
+hidden = false
+name = "Detail Armor Bar Reconstructed"
+filename = "DetailArmorBarReconstructed-5.3.2-26.3-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Si9Uim4y/versions/A5X8OkYf/DetailArmorBarReconstructed-5.3.2-26.3-fabric.jar"
+hash-format = "sha512"
+hash = "eb5f2927f85ef91391544b8797b6bfd64cc7183bc9676e67709726951492d77e60e160f3932129ecda73a6aa22c1d8388e683f7b56e4747954b81ab22d4df66a"
+
+[update]
+[update.modrinth]
+mod-id = "Si9Uim4y"
+version = "A5X8OkYf"

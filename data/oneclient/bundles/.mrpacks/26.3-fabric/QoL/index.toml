@@ -5,6 +5,11 @@ file = "config/fabric_loader_dependencies.json"
 hash = "421e01a40b809d313695dc1a789822fef1a050aad2ef8b5b66260526b55d7800"
 
 [[files]]
+file = "mods/animaticarefabricated.pw.toml"
+hash = "222a193e43684f8e5c2ff9c0bfcd1dccf4d4cc05f0b02b5b0d4039fa39fe9c31"
+metafile = true
+
+[[files]]
 file = "mods/chatblock.pw.toml"
 hash = "94a25436f3778e9d7c684116e51bd3e884c939c4ed4a978357c0362b522b60b7"
 metafile = true
@@ -17,6 +22,11 @@ metafile = true
 [[files]]
 file = "mods/chattweaks.pw.toml"
 hash = "738bde20360520ba0836e758499fde0332650ac80e730ced986b6af85aa0af5e"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
 metafile = true
 
 [[files]]
@@ -45,6 +55,11 @@ hash = "3a0a4c4fffc6da3e61b70d42ee3e9f90f7ec30f9832058897e1ed745d53007b7"
 metafile = true
 
 [[files]]
+file = "mods/effecttimerplus.pw.toml"
+hash = "689a34d51c994b2351d53ec1e18af9f08369cdcd574e000ad12dbed005b27075"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "7f23177eee91d2de4423396a546677ddbe62291f4447bd80be13a5468302fcfe"
 metafile = true
@@ -65,6 +80,11 @@ hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true
 
 [[files]]
+file = "mods/lambdabettergrass.pw.toml"
+hash = "8ea8d301bb9ff04ad2a8df334346bbbe94c3078740f3dd3a7faf2e776a547112"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "70460e705688c69aabf95510ec7cfe5563a50a50e873e475c7e16a4bfb24e083"
 metafile = true
@@ -72,6 +92,16 @@ metafile = true
 [[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "f89217dcc0cd535d32b023528453ccf099446238f0a49dac4267bad2ed3c8c6c"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "34f55ffe52d50ffcc6b3041ab87da292eacb58d1fc4266854a6812d960ad8e6b"
+metafile = true
+
+[[files]]
+file = "mods/numerical-enchantments.pw.toml"
+hash = "1309c3108cf977bb6a071b77489cd76cbbcb3259bab715d045da3ab1fd18e27f"
 metafile = true
 
 [[files]]
@@ -87,6 +117,11 @@ metafile = true
 [[files]]
 file = "mods/packed-packs.pw.toml"
 hash = "b0d338786aeb149931d3fccc3c0b1cf27546c62ca08e5d45be5a1f1e8518759e"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "4e0681f980758a2385d0109b4e973e268bc188092a154e1b1000bf9aa2c5d4bf"
 metafile = true
 
 [[files]]
@@ -125,6 +160,26 @@ hash = "b09d0d84001d1b6a1caf8a9ae7b9ebf6c6c5a1df8ae461080343b811a2961761"
 metafile = true
 
 [[files]]
+file = "mods/scrolltweaks.pw.toml"
+hash = "9f8af16ee2b40985d4c3f71ea63087a31335d52111540abae552edba040cf012"
+metafile = true
+
+[[files]]
+file = "mods/secureskins.pw.toml"
+hash = "d5337f9dbe0a75bb0dbe3242f2a11bced968546be1952b24eec0e8e88d963118"
+metafile = true
+
+[[files]]
+file = "mods/simple-nick-hider.pw.toml"
+hash = "af31ef42af87a1df0d9203e1f43554240adfc37d7ca3a3899c77f57bdc3b5f64"
+metafile = true
+
+[[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "acf052555b3be4be858c512f5ff6f8b9ee5942f192c2d2edfc6985102e92a735"
+metafile = true
+
+[[files]]
 file = "mods/tiertagger.pw.toml"
 hash = "474c3e6cd6c6ec3b23920335a70fe555688909768296b577629a62550db51727"
 metafile = true
@@ -137,6 +192,11 @@ metafile = true
 [[files]]
 file = "mods/wwaypoints.pw.toml"
 hash = "c072d40e5336e9872a606c8236ebf5772aa6f421d80ac8baa53a7b2cd679db2a"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
 metafile = true
 
 [[files]]

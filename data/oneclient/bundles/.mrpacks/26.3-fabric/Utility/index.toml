@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/animatium.pw.toml"
+hash = "e9878655d379ff25abfc461814b1fdb68064aa063f037b5da99a54b308950daa"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "71b60cd75ac3ad06bac6898f472a4e0f5a0299c9be3f3359c04576bc0eb0e0e6"
 metafile = true
@@ -8,6 +13,16 @@ metafile = true
 [[files]]
 file = "mods/behindyou.pw.toml"
 hash = "088047df32dcce3397a16d39c9837132f5e4bb768bb243fe419921d19f25f41a"
+metafile = true
+
+[[files]]
+file = "mods/betternightvision.pw.toml"
+hash = "5add36494deb05c037a489c8987703b2d98fa9980286c4ac14c3f33e01397746"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
 metafile = true
 
 [[files]]
@@ -31,13 +46,28 @@ hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true
 
 [[files]]
+file = "mods/gamma-utils.pw.toml"
+hash = "eac4ea78f63d71c6e3395eb7ba32e733fb0220a12838d1ffd44df1b39ebc5b8d"
+metafile = true
+
+[[files]]
 file = "mods/hitbox.pw.toml"
 hash = "eb4f425520f33c480097d20bc91552084cfe261f2242c4599c7ff7304199f0cf"
 metafile = true
 
 [[files]]
+file = "mods/hymod.pw.toml"
+hash = "11045541224450ce437d3c86441b56c399d940aff1d13a521864955ee31b480a"
+metafile = true
+
+[[files]]
 file = "mods/hypixelautotip.pw.toml"
 hash = "ccb34231a725d76ffb52568d411ce88985845f254f5840c74e4080df60ea4fb5"
+metafile = true
+
+[[files]]
+file = "mods/hytils.pw.toml"
+hash = "f649b3d3d7f367f4b5f5e3c4053cec39015e8c261a0197156a337d8ab23e1e21"
 metafile = true
 
 [[files]]
@@ -51,8 +81,18 @@ hash = "2880c159f138975b8ee86ba263ad64d12a337dc9ad2b250f576550d5e740a533"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "34f55ffe52d50ffcc6b3041ab87da292eacb58d1fc4266854a6812d960ad8e6b"
+metafile = true
+
+[[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "bb9a81906d919e2d6f00be00dece412dadd6cf10fd58cae58d0d32c8fd94197c"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "4e0681f980758a2385d0109b4e973e268bc188092a154e1b1000bf9aa2c5d4bf"
 metafile = true
 
 [[files]]
@@ -71,6 +111,16 @@ hash = "6cf2a444139d1efd03da45d618f47d34fdfa7796985c02dbd75945fb519a8369"
 metafile = true
 
 [[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "91cf0b2756fba54e194f2a12ae53dd982e6e61b2baa9663d4ef64a5894168517"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "b94352c3e2249fd5b7bef45f55ecb27d4cb42482310d3dd09d0fa1287dba38f9"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
 metafile = true

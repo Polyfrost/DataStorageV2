@@ -41,13 +41,33 @@ hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true
 
 [[files]]
+file = "mods/fastserverpings.pw.toml"
+hash = "36bb366e3fe1339b1c0e064a13766dac80ade14af1575ad1a3d815f1e998630f"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "fd523939506bc9cc3d7528ea9c3632365ccbfc7f4c818980c73d17ffdba72f3d"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "eccb35a46b882cab46aeb6e0a23e449bb86581351ede179ce789038f7cdfa421"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "ac449637b994d7020fa91d86f4ba1c8227a35a66a35731dce0ff25b7d1b4b266"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "748f253678c93cef369396f60246c1cf79c24fca317759074589b01a971d156e"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "34f55ffe52d50ffcc6b3041ab87da292eacb58d1fc4266854a6812d960ad8e6b"
 metafile = true
 
 [[files]]
@@ -61,8 +81,23 @@ hash = "bb9a81906d919e2d6f00be00dece412dadd6cf10fd58cae58d0d32c8fd94197c"
 metafile = true
 
 [[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "4e0681f980758a2385d0109b4e973e268bc188092a154e1b1000bf9aa2c5d4bf"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "5594e26214ca0013618b6196e149898374f5b7f367276017ab95e3b309713c26"
+metafile = true
+
+[[files]]
+file = "mods/sciophobia.pw.toml"
+hash = "24f8f34bbd5edec1f30427f14f853f031f74345078dd39b41858721386b3161c"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "90c6d0ca1496098e20da4074019f355511d9c90fde5e4ba316e1aad57bda6d3c"
 metafile = true
 
 [[files]]
@@ -78,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "f072dbe8bc237884614b2cfda240e3050dc70ab0ebf886cab7ca37186020ff6c"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
 metafile = true
 
 [[files]]
