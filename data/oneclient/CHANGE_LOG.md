@@ -1,3 +1,14 @@
+# 2.4.2
+
+- fix: mod updates applying after launch and not before
+- fix: mod updates not being symlinked to a clusters mods folder after update
+
+# 2.4.1
+
+- chore: improve stats page and cluster overview
+- fix: issues with mod updating and mods randomly being disabled
+- Reapply "fix: enable Wayland clipboard for image copy + align MSRV docs (#826)"
+
 # 2.4.0
 
 - tweak wording on stuff
