@@ -1,21 +1,21 @@
-name = "OneClient 26.2 Fabric [QoL]"
+name = "OneClient 26.3 Fabric [QoL]"
 author = "Polyfrost"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 poly-format = "1"
 enabled = true
 category = "QoL"
-id = "qol-26.2-fabric"
-update-url = "oneclient/generated/qol-26.2-fabric.mrpack"
+id = "qol-26.3-fabric"
+update-url = "oneclient/generated/qol-26.3-fabric.mrpack"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "661c5a93661a0f38d3b45609530c5c5aedbf2b65f44bf0a1112af49132b7debc"
+hash = "1a124d2d6c3294e4fa24e1181bec4e4d6a9407744dd787a7e10054469fe4e379"
 
 [versions]
 fabric = "0.19.5"
-minecraft = "26.2"
+minecraft = "26.3"
 
 [options]
 acceptable-game-versions = []

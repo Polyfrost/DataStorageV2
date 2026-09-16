@@ -1,0 +1,91 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "13c211e14b4210b1e8769b47ba503ca88425f11e8c5f2742cf2951510abdcf84"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "16d1c1bfa1e6f0f053fb7b78710b661cc1f22e276ec4da9e96b40a61b8753b83"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "47248a86e194d3979a618530811a992010b9a165ed33f75ce9786043948160e1"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/cull-fewer-leaves.pw.toml"
+hash = "9d9628c351223ecc516f7f9fdad90f597db2c90e1875f02e1a515e161ae8682c"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "9388d15d371c08d3c06dcb0d0c41bbaad42f788f4993f48b839314a14c72d9e5"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "be64311839256d72e7104fbb7f93cac60c3486fa0f4c8e1bccb62e186dc333f6"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "fd523939506bc9cc3d7528ea9c3632365ccbfc7f4c818980c73d17ffdba72f3d"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "1db3c944285f4e9a2d182c97ed998fa2af7e4871b75b562c61b6742ffa375bd1"
+metafile = true
+
+[[files]]
+file = "mods/obe.pw.toml"
+hash = "f783abb7a3f7216128e657e1a30a31a6f8995991b29ba09fc97de07ee545d6f2"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "bb9a81906d919e2d6f00be00dece412dadd6cf10fd58cae58d0d32c8fd94197c"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "5594e26214ca0013618b6196e149898374f5b7f367276017ab95e3b309713c26"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "c16567b4ed67a8f6684dac9e17b7e023e84913ed8204acefc8d75ea60ab1b27a"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "68b768e818c8598618d2cf7248affb50e0c120adabdbf74e750f14b8efa019c5"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "f072dbe8bc237884614b2cfda240e3050dc70ab0ebf886cab7ca37186020ff6c"
+metafile = true
+
+[[files]]
+file = "mods/zconfig.pw.toml"
+hash = "e7ba3242bf683143ae76dc97968b50b49248c7febee2e2040ca2d72fa3a6ec43"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "46e73153802d3b6d02c9e0de2bab4199abd9b4fe5a09d1c3e5a4e67b7559d6d1"
+metafile = true
