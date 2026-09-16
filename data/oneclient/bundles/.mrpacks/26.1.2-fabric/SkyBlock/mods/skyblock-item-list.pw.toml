@@ -2,15 +2,15 @@ id = "OaKmV2nB"
 enabled = true
 hidden = false
 name = "SkyBlock Item List"
-filename = "skyblock-item-list-0.0.21+26.1.2.jar"
+filename = "skyblock-item-list-0.0.22+26.1.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/OaKmV2nB/versions/gTINDM42/skyblock-item-list-0.0.21%2B26.1.2.jar"
+url = "https://cdn.modrinth.com/data/OaKmV2nB/versions/XexAxTfg/skyblock-item-list-0.0.22%2B26.1.2.jar"
 hash-format = "sha512"
-hash = "cdaf6c9093f8fff66b9953847c44379a673a9f35733ef6fa8008a59c0db53daeb9bfe9c50c07eedf8bb7ee781401decc3320230923b41aa8b271fa6713f1af7e"
+hash = "2b1f66f6c0373d314899cba3ea7bebc1cfad912a2007532a8314f7e9806a8ee47f042cb41010c9df6569aebb6447cc5c5fd30064012ca12f0c89ad38925fe604"
 
 [update]
 [update.modrinth]
 mod-id = "OaKmV2nB"
-version = "gTINDM42"
+version = "XexAxTfg"

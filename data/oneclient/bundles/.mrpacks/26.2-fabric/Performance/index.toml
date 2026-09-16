@@ -77,12 +77,12 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "f29e68d4a3d46f8c31df61c1c43d4fe6992071a48d1c9eb254a3e957b7eccea7"
+hash = "ed1be02ad00e542add193f5bcdf0368f8d5e443f5a40eaf6e812877b46ddc383"
 metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "15805bab340db054b1c193121364496dbc90d563af90194ac64fc43ac8248516"
+hash = "b68297ef292b388ea2465ef583ffa585ff1a1a47527b550346bdfc38f4c55bd2"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "3efc85da3f0e2ff717ce30e43c8388d81c099608764b83e1f8467e821162552d"
+hash = "045e3489c297968b3a28a5f3261c5ca6add5f03037a3fcd2deb95a93172eb1d0"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "1911ca51df104d2bd6636e4d944ec79940e9be7d393a80e050b5146919459c36"
+hash = "f338f37100fa0cc9b4240ce12247bc05c689b5c95acfdea06ed4ded7e2c2f780"
 metafile = true
 
 [[files]]

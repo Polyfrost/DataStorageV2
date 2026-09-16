@@ -2,15 +2,15 @@ id = "fLNnSWgM"
 enabled = true
 hidden = false
 name = "ColorSaturation"
-filename = "colorsaturation-1.2.0+1.21.10.jar"
+filename = "colorsaturation-1.3.0+1.21.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/fLNnSWgM/versions/cEH6PnZL/colorsaturation-1.2.0%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/fLNnSWgM/versions/6mnnPUvD/colorsaturation-1.3.0%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "644b23bf3efc158b9ce94341b77ed55c04d516a815c2eaa759c279d47cfd7861cc02f93ccb4f26b83a563c276749b122ce59be2480c003995934fd2b1a44fe45"
+hash = "d9a0c28dfed54b6b1c6927b49b2aa0c34780556234985f7ad99677097a0737f80a0612d60bbb17ce89f92a72170dc24a6b4a4719bba8a443ef708ed0bdec3874"
 
 [update]
 [update.modrinth]
 mod-id = "fLNnSWgM"
-version = "cEH6PnZL"
+version = "6mnnPUvD"

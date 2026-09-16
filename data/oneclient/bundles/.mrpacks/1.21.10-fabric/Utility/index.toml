@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "5bf31bd23ef6913752055eb942e5cc139a6f7f2b0d435f52e674df3ec09582ca"
+hash = "163b44320d3e11cb233d75493a20a2bfaf53f614e5746500e18b7762c94fb470"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "764e3eeef82d4310c0ed2dbf7c05f2cc8765d2e838a31309e906927356258ac0"
+hash = "be0700b3d5c8e34d031470c28259a979ee9da445fb632f0a33f450a709184bda"
 metafile = true
 
 [[files]]
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "9be08229afccf2587351cc8b79910afd013ac999a4eac43c1a2ab7ed42103d60"
+hash = "1c143c4d5e1790636c613d3164f1c67bfdf848fa4cd3a3413ef964a9dd6b17d4"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/hytils.pw.toml"
-hash = "87364dfa39fa6bbcd9b56b92a6a78d763c61ff19833c0ce0133bab82ace8f161"
+hash = "2c29bd34bf67712ed34e9737cf55afa30a1a4ef381baa81eceaaa6564663d865"
 metafile = true
 
 [[files]]
@@ -122,12 +122,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "906d9101c0bd3979cbb9edab83648974b3dc1056052bc78a5ad71ecc7c5ee584"
+hash = "3753ff8e66acd574dc7cc095e191e54f63daacab5375cccb22af7c86fcd64a9e"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "2fc3525594f865a1f293ea0a3f5fcc0871a4de3fba2c020ec5bb584e834a966e"
+hash = "29dd4740e2870e7011d62218d56a74fdf8e0ac8060c8caa83e23bedb9b1017af"
 metafile = true
 
 [[files]]

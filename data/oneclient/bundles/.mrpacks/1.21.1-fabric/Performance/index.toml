@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "0cc53c6c8079f09d5628accf4ee500e0e24772e2ceacd21b9b8475accbce4c68"
+hash = "9358601cb547e69fa7188c6252a059bed1bbd241e13c3c50d86814fd002e2763"
 metafile = true
 
 [[files]]
@@ -92,17 +92,17 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "9d651ef36c8ba89357d823b027f9a8375372c8f75f74012fefa09c5bc391117c"
+hash = "6f35adfe99bd0d00751f949cbcade47dd4b315b345b4c7f127fff20e10840647"
 metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "2eff2f7582c467ce381addc43dec18386a68330986c92049f599694c60677a61"
+hash = "8cafaca66a484e6c6a5be8ba61825f2dfc7b49fe35ee6a1d9e9532f40dc23db3"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "2b1687b863d657297545c5cf3ad7096d26168561e853d60ac3a85ee261c2ca6d"
+hash = "24df97c67bdb8ddfc5d1a60c79a34619ba83870ab79bcec850114d05a8fc499b"
 metafile = true
 
 [[files]]
@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "ec7a2ef7f74110532a69cc7ea2dc6b9ec8a8a56becfe480041a2e36351b37449"
+hash = "446c3c82c62ba88b1dba585250d8937c78109dbedd22616c6a8934cbd2b65a83"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "037cb664e61e9ef3cf036ff8e19953d181653e6992cd2ed71f8b2621e9e1e8a7"
+hash = "04f90a8bcf4e71d7f0cc3b15e5f9deca18c066c16b31f0061c5b83ec2a3bb6bc"
 metafile = true
 
 [[files]]
