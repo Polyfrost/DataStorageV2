@@ -1,3 +1,24 @@
+# 2.5.0
+
+- chore: add flag to AUR PKGBUILD to prevent rustc from getting OOM killed
+- feat: control center and smaller navbar link gaps
+- fix: fixed most of the sizing issues in the launcher
+- feat: added tooltips
+- fix: fixed scrollbar overlapping with the scrollview content
+- fix: fixed versions metadata not healing when unable to parse or read
+- fix: incorrect database and filesystem structure of mods after updates
+
+# 2.4.2
+
+- fix: mod updates applying after launch and not before
+- fix: mod updates not being symlinked to a clusters mods folder after update
+
+# 2.4.1
+
+- chore: improve stats page and cluster overview
+- fix: issues with mod updating and mods randomly being disabled
+- Reapply "fix: enable Wayland clipboard for image copy + align MSRV docs (#826)"
+
 # 2.4.0
 
 - tweak wording on stuff
