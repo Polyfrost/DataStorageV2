@@ -126,6 +126,11 @@ hash = "96d80b9440258bc785eba06219c9e2776925fdca1fc0689d9687d88fa75079bc"
 metafile = true
 
 [[files]]
+file = "mods/modernfix-mvus.pw.toml"
+hash = "499c5e6cd3e6e7e7bcdb8ab4031353bebe883686e10a7d5f2ec4f2e4d05cd6e5"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "b6a662b66f2b333ca955faf3c01f8dc4ab8ab380b189ffc98b9af18d3c026fae"
 metafile = true

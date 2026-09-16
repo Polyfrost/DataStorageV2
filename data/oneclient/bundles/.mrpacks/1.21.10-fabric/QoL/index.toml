@@ -120,11 +120,6 @@ hash = "8476aba217c53cf8dc84279531933117cbf5f6fb742e39326b7966a2e44e9b41"
 metafile = true
 
 [[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "5d77b03ebca9e719592c1fdd9a42cc86cd0d63eba3a3f1b2a38e1b72b4f5c3d8"
-metafile = true
-
-[[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "ef49eb5aa38225f5d997add6d6ab7188e80ccdb1013b1f1bd6638392ed5cad0d"
 metafile = true
