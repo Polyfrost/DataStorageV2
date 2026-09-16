@@ -125,11 +125,6 @@ hash = "b09d0d84001d1b6a1caf8a9ae7b9ebf6c6c5a1df8ae461080343b811a2961761"
 metafile = true
 
 [[files]]
-file = "mods/status-effect-bars.pw.toml"
-hash = "acf052555b3be4be858c512f5ff6f8b9ee5942f192c2d2edfc6985102e92a735"
-metafile = true
-
-[[files]]
 file = "mods/tiertagger.pw.toml"
 hash = "474c3e6cd6c6ec3b23920335a70fe555688909768296b577629a62550db51727"
 metafile = true

@@ -81,6 +81,11 @@ hash = "f072dbe8bc237884614b2cfda240e3050dc70ab0ebf886cab7ca37186020ff6c"
 metafile = true
 
 [[files]]
+file = "mods/zconfig.pw.toml"
+hash = "e7ba3242bf683143ae76dc97968b50b49248c7febee2e2040ca2d72fa3a6ec43"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "46e73153802d3b6d02c9e0de2bab4199abd9b4fe5a09d1c3e5a4e67b7559d6d1"
 metafile = true
