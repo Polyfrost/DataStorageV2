@@ -126,6 +126,7 @@ mkdir -p "$SRV"
 echo "eula=true" > "$SRV/eula.txt"
 cat > "$SRV/server.properties" <<'EOF'
 online-mode=false
+white-list=false
 level-type=minecraft:flat
 spawn-protection=0
 view-distance=6
