@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "c641c97db0ec6adb49398422a237755b379aad5216486d49a813f82c4d8b415c"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "014738ddc5094f9d340c0bea6b06ee6efc37a6576d6f7793db862fb6a898cb3a"
 metafile = true
@@ -232,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/nuit.pw.toml"
-hash = "db00ad1afb3729729ee9abb505e54f9eaa89c223abab5302ff26cafa627e926d"
+hash = "a275a93a1268ff5bc0290b9b4f673743e71466a03ab256c8f0860eba9be1a8bf"
 metafile = true
 
 [[files]]
