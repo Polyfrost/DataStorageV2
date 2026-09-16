@@ -1,0 +1,16 @@
+id = "r8Cr8YRg"
+enabled = true
+hidden = false
+name = "PolyWeather"
+filename = "polyweather-1.3.0+26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/r8Cr8YRg/versions/IOWTUTef/polyweather-1.3.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "2bd66a3a4ef12571f6ea3f5cf94bc6ee70ce9e6422faf5eade71a61ce30fb15ccd664136852a657f2834fe49e7798055d3f92bc79c498c8ec3ebb9c36904f468"
+
+[update]
+[update.modrinth]
+mod-id = "r8Cr8YRg"
+version = "IOWTUTef"

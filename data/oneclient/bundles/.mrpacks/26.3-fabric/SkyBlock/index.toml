@@ -1,0 +1,31 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/catharsis.pw.toml"
+hash = "6e3f9abc2ed8c63aa81f01f2da182ca954c1581c7d9759a5608928fa8a5c269d"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "be64311839256d72e7104fbb7f93cac60c3486fa0f4c8e1bccb62e186dc333f6"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "bb9a81906d919e2d6f00be00dece412dadd6cf10fd58cae58d0d32c8fd94197c"
+metafile = true
+
+[[files]]
+file = "mods/skyblock-item-list.pw.toml"
+hash = "adf44c99fa11f32cd2c1eb049c2e4422247903651cb7a6344adebc9aad54f877"
+metafile = true

@@ -1,0 +1,155 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "421e01a40b809d313695dc1a789822fef1a050aad2ef8b5b66260526b55d7800"
+
+[[files]]
+file = "mods/chatblock.pw.toml"
+hash = "94a25436f3778e9d7c684116e51bd3e884c939c4ed4a978357c0362b522b60b7"
+metafile = true
+
+[[files]]
+file = "mods/chatting.pw.toml"
+hash = "c5414b7a1198e5355fd024f832cf1d6a6364acb79930fe3469b0facd3c37db1f"
+metafile = true
+
+[[files]]
+file = "mods/chattweaks.pw.toml"
+hash = "738bde20360520ba0836e758499fde0332650ac80e730ced986b6af85aa0af5e"
+metafile = true
+
+[[files]]
+file = "mods/colorsaturation.pw.toml"
+hash = "8697a680f521e92c555907f1ea2d631965f50e48d822ae44b50b06caffc41b9c"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/confirmresetkeys.pw.toml"
+hash = "0cd3283fe3548ad1b8177de40ca0198b436894d00b30df8fe48db2366443150f"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "eaec83032b35c1d5e88fe9306d77d1d6ca6f95a37e287ed0334f264edcf461ba"
+metafile = true
+
+[[files]]
+file = "mods/damagetint.pw.toml"
+hash = "3a0a4c4fffc6da3e61b70d42ee3e9f90f7ec30f9832058897e1ed745d53007b7"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "7f23177eee91d2de4423396a546677ddbe62291f4447bd80be13a5468302fcfe"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "edbaa6d52b55901ee0f2a411a062a52afb1078d5ed793b80f2041464f2c3c30b"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "be64311839256d72e7104fbb7f93cac60c3486fa0f4c8e1bccb62e186dc333f6"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "70460e705688c69aabf95510ec7cfe5563a50a50e873e475c7e16a4bfb24e083"
+metafile = true
+
+[[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "f89217dcc0cd535d32b023528453ccf099446238f0a49dac4267bad2ed3c8c6c"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "bb9a81906d919e2d6f00be00dece412dadd6cf10fd58cae58d0d32c8fd94197c"
+metafile = true
+
+[[files]]
+file = "mods/overflowparticles.pw.toml"
+hash = "c392afbf466c19efcc2c1cc6f7e67df29e3f56e3101dca61be11c47b626ef3aa"
+metafile = true
+
+[[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "b0d338786aeb149931d3fccc3c0b1cf27546c62ca08e5d45be5a1f1e8518759e"
+metafile = true
+
+[[files]]
+file = "mods/polyblur.pw.toml"
+hash = "b94fad41d36f31c27a228795d35f4c703b72c873aa7aaff78a2d1fe698dca96e"
+metafile = true
+
+[[files]]
+file = "mods/polynametag.pw.toml"
+hash = "26c94896288c32b2866e88622b643f8fc81ea3b4462c867c256ed9b8e5286be7"
+metafile = true
+
+[[files]]
+file = "mods/polyplus.pw.toml"
+hash = "39391b2d426abfd4c50844b3855e7501a176380c11580b72c3f43307cfcab0bc"
+metafile = true
+
+[[files]]
+file = "mods/polytime.pw.toml"
+hash = "e9a0135bbc0ab10bb5045aabab10569480af35c8d00c4c51a95dacc2bdc367a5"
+metafile = true
+
+[[files]]
+file = "mods/polyweather.pw.toml"
+hash = "c70e98c7b12aa09e1aa22e9c4f88224823c55983b299786323711488e231f7e6"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "e7d12fa3b3303dc0432dabe878c33b65652ca98f015bda60ec4a7dba2c93811e"
+metafile = true
+
+[[files]]
+file = "mods/screenshotmessageenhancer.pw.toml"
+hash = "b09d0d84001d1b6a1caf8a9ae7b9ebf6c6c5a1df8ae461080343b811a2961761"
+metafile = true
+
+[[files]]
+file = "mods/status-effect-bars.pw.toml"
+hash = "acf052555b3be4be858c512f5ff6f8b9ee5942f192c2d2edfc6985102e92a735"
+metafile = true
+
+[[files]]
+file = "mods/tiertagger.pw.toml"
+hash = "474c3e6cd6c6ec3b23920335a70fe555688909768296b577629a62550db51727"
+metafile = true
+
+[[files]]
+file = "mods/ukulib.pw.toml"
+hash = "c711943e94a50476753ab74fe0346af2aef1a28062752a5e1c79e9b4a14d965b"
+metafile = true
+
+[[files]]
+file = "mods/wwaypoints.pw.toml"
+hash = "c072d40e5336e9872a606c8236ebf5772aa6f421d80ac8baa53a7b2cd679db2a"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "d04b943117282231905b392e09151b42d9c47d3e0591c58314279776ef4a3193"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "b4aa64e2345245cb75b348fdb355a390fb934b923abd1e5d79ce1569f10840d9"
+metafile = true
