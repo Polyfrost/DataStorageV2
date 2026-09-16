@@ -50,6 +50,13 @@
                     "art": "/oneclient/versions/art/Chaos_Cubed.jpg",
                     "loader": "fabric",
                     "tags": ["PvP", "SkyBlock", "Survival"]
+                },
+                {
+                    "minor_version": 3,
+                    "name": "Wilderness Bound",
+                    "art": "/oneclient/versions/art/Wilderness_Bound.jpg",
+                    "loader": "fabric",
+                    "tags": ["PvP", "SkyBlock", "Survival"]
                 }
             ]
         }

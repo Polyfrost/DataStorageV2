@@ -1,0 +1,16 @@
+id = "8LNT47ZH"
+enabled = true
+hidden = false
+name = "ChatTweaks"
+filename = "chattweaks-1.2.0+26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8LNT47ZH/versions/qoYGt44j/chattweaks-1.2.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "51df3f7beb59a25fff2bde4258635871eeb82c6827e8a5e0bf89255eac6c28859ae033d54cf8c1162577f10771aec5e06c70828feb34f97182c551606a9c1aab"
+
+[update]
+[update.modrinth]
+mod-id = "8LNT47ZH"
+version = "qoYGt44j"

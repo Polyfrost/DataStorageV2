@@ -1,0 +1,16 @@
+id = "61g97TVF"
+enabled = true
+hidden = false
+name = "OverflowParticles"
+filename = "overflowparticles-1.2.0+26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/61g97TVF/versions/LYqxic00/overflowparticles-1.2.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "a81c813f71988a8879d060a3b24223e473f4007fd90e6272749787102c2b4948b718b708858c4d3d716a68305591f4690fdcfdb1ba2e73a4e60dc1d704bf703f"
+
+[update]
+[update.modrinth]
+mod-id = "61g97TVF"
+version = "LYqxic00"

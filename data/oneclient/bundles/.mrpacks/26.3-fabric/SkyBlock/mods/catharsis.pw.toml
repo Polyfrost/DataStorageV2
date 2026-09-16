@@ -1,0 +1,16 @@
+id = "fc4wBpRx"
+enabled = true
+hidden = false
+name = "Catharsis"
+filename = "Catharsis-1.0.0-beta.22-26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fc4wBpRx/versions/NiyG56Rb/Catharsis-1.0.0-beta.22-26.3.jar"
+hash-format = "sha512"
+hash = "fe5f4aff0206f867dd699273c22af599a831e89ac55e041ed957d0ecaebedbff0036bc4c4cd5a3d0d1b1cf6e0905c19f5e10144ebf4e0eef7749b539ee7f4d57"
+
+[update]
+[update.modrinth]
+mod-id = "fc4wBpRx"
+version = "NiyG56Rb"

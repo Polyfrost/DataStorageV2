@@ -1,0 +1,76 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "71b60cd75ac3ad06bac6898f472a4e0f5a0299c9be3f3359c04576bc0eb0e0e6"
+metafile = true
+
+[[files]]
+file = "mods/behindyou.pw.toml"
+hash = "088047df32dcce3397a16d39c9837132f5e4bb768bb243fe419921d19f25f41a"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "be0700b3d5c8e34d031470c28259a979ee9da445fb632f0a33f450a709184bda"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "be64311839256d72e7104fbb7f93cac60c3486fa0f4c8e1bccb62e186dc333f6"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/hitbox.pw.toml"
+hash = "eb4f425520f33c480097d20bc91552084cfe261f2242c4599c7ff7304199f0cf"
+metafile = true
+
+[[files]]
+file = "mods/hypixelautotip.pw.toml"
+hash = "ccb34231a725d76ffb52568d411ce88985845f254f5840c74e4080df60ea4fb5"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "4581e3b9d8393ce528c3ffa866fa443f84e67ad3a7f83351ae1d1e75d1e82634"
+metafile = true
+
+[[files]]
+file = "mods/libjf.pw.toml"
+hash = "2880c159f138975b8ee86ba263ad64d12a337dc9ad2b250f576550d5e740a533"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "bb9a81906d919e2d6f00be00dece412dadd6cf10fd58cae58d0d32c8fd94197c"
+metafile = true
+
+[[files]]
+file = "mods/polysprint.pw.toml"
+hash = "1223b3665cc07dc2e4f2e2a4dc68e9ecf88c22977bb0547d0ae748664db93b14"
+metafile = true
+
+[[files]]
+file = "mods/resourcify.pw.toml"
+hash = "9316cb85707f4e6213dc4b026591add56a13f8bdccbe248e55574bfe93a6d16d"
+metafile = true
+
+[[files]]
+file = "mods/respackopts.pw.toml"
+hash = "6cf2a444139d1efd03da45d618f47d34fdfa7796985c02dbd75945fb519a8369"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "b94352c3e2249fd5b7bef45f55ecb27d4cb42482310d3dd09d0fa1287dba38f9"
+metafile = true
