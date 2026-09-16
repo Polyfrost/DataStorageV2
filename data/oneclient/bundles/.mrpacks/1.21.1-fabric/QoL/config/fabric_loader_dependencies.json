@@ -5,6 +5,11 @@
             "+breaks": {
                 "nbt_ac": "*"
             }
+        },
+        "flashback": {
+            "-breaks": {
+                "voicechat": "IGNORED"
+            }
         }
     }
 }
