@@ -9,7 +9,6 @@ SKYBLOCK_CATEGORY="skyblock"
 
 IGNORED_VERSIONS=(
   "26.1-fabric"
-  "26.3-fabric"
 )
 
 for cmd in zip unzip; do
