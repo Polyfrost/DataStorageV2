@@ -2,15 +2,15 @@ id = "xT45UG5o"
 enabled = true
 hidden = false
 name = "PolyBlur"
-filename = "polyblur-2.2.0+26.1.jar"
+filename = "polyblur-2.2.1+26.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/xT45UG5o/versions/3zg6k0gU/polyblur-2.2.0%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/xT45UG5o/versions/q6cxRNaT/polyblur-2.2.1%2B26.1.jar"
 hash-format = "sha512"
-hash = "65d2b0d6810105a131ee0b97f0254d596061a68b09dafb10abd164fdfa7bf6e1c4d66ec5ca42636cc01ee4250c5223d6f22197fd5ac2ea35ec6a935028e93205"
+hash = "5c3b2255b5f170d9d0350012fb0776e3e57f0ba526d4af21c8dde3e29d7372ba663f1ba50a45514b034f7eb694c782b927a129b987932908dc4479c729c276c8"
 
 [update]
 [update.modrinth]
 mod-id = "xT45UG5o"
-version = "3zg6k0gU"
+version = "q6cxRNaT"
