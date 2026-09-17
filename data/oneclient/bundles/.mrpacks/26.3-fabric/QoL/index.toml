@@ -5,8 +5,18 @@ file = "config/fabric_loader_dependencies.json"
 hash = "421e01a40b809d313695dc1a789822fef1a050aad2ef8b5b66260526b55d7800"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "65c7e434c458a668cd0cd111bbc714e8df17c8e4611aa8cde037587bfc691a04"
+metafile = true
+
+[[files]]
 file = "mods/animaticarefabricated.pw.toml"
 hash = "222a193e43684f8e5c2ff9c0bfcd1dccf4d4cc05f0b02b5b0d4039fa39fe9c31"
+metafile = true
+
+[[files]]
+file = "mods/black-bar-concealer.pw.toml"
+hash = "e22f70d17f42d1c6b06977b9075dfd2442d5620d013165f18d49087fe3d43d52"
 metafile = true
 
 [[files]]
@@ -47,6 +57,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "eaec83032b35c1d5e88fe9306d77d1d6ca6f95a37e287ed0334f264edcf461ba"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "1ec665c4d43413881f9809555fa504cd4acac68a2850630f3bf3e253d679c1ef"
 metafile = true
 
 [[files]]
@@ -155,6 +170,11 @@ hash = "e7d12fa3b3303dc0432dabe878c33b65652ca98f015bda60ec4a7dba2c93811e"
 metafile = true
 
 [[files]]
+file = "mods/rrls.pw.toml"
+hash = "0ded5e4d4cf5b8c1bb7c5e10a5b92a5f2426b66117fba9057b82687dc7ddaa6c"
+metafile = true
+
+[[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
 hash = "b09d0d84001d1b6a1caf8a9ae7b9ebf6c6c5a1df8ae461080343b811a2961761"
 metafile = true
@@ -165,8 +185,18 @@ hash = "9f8af16ee2b40985d4c3f71ea63087a31335d52111540abae552edba040cf012"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+hash = "32731373740ddf270156b9fac091b162cae991953ad91aa4cc1f4a8cc03ebb63"
+metafile = true
+
+[[files]]
 file = "mods/secureskins.pw.toml"
 hash = "d5337f9dbe0a75bb0dbe3242f2a11bced968546be1952b24eec0e8e88d963118"
+metafile = true
+
+[[files]]
+file = "mods/shaketweaks.pw.toml"
+hash = "5daf5ccdbb05f911c9b28c07157aa61ab449e2b4708a5299ff0c36b0680d63be"
 metafile = true
 
 [[files]]

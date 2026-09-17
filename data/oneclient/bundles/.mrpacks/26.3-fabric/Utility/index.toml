@@ -16,6 +16,11 @@ hash = "088047df32dcce3397a16d39c9837132f5e4bb768bb243fe419921d19f25f41a"
 metafile = true
 
 [[files]]
+file = "mods/better-stats.pw.toml"
+hash = "9d9febd38baa795e52b0648ac669850cfe7fecc5e0393b8854c927dfda87873b"
+metafile = true
+
+[[files]]
 file = "mods/betternightvision.pw.toml"
 hash = "5add36494deb05c037a489c8987703b2d98fa9980286c4ac14c3f33e01397746"
 metafile = true
@@ -118,6 +123,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "b94352c3e2249fd5b7bef45f55ecb27d4cb42482310d3dd09d0fa1287dba38f9"
+metafile = true
+
+[[files]]
+file = "mods/tcdcommons.pw.toml"
+hash = "0dd8de45b39d88a7bfed52dc591ba48753a79266e7e6901d7c4c32e18807d1e8"
 metafile = true
 
 [[files]]

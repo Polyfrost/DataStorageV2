@@ -46,6 +46,11 @@ hash = "36bb366e3fe1339b1c0e064a13766dac80ade14af1575ad1a3d815f1e998630f"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "7a0dff1a11e523c830d75bb2b9b4d98c432c5f99715ebc2fd21dce109e1b9123"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "fd523939506bc9cc3d7528ea9c3632365ccbfc7f4c818980c73d17ffdba72f3d"
 metafile = true
@@ -53,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "33939c3986e8dc8c8c41ac6796b560022616a14a4ff2c7ee019914dbb6789ff6"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "fa05c98d0f52f9a61025a1a4c1896729bccda32663c8b0c47d63f13086d78dad"
 metafile = true
 
 [[files]]
@@ -86,6 +96,16 @@ hash = "4e0681f980758a2385d0109b4e973e268bc188092a154e1b1000bf9aa2c5d4bf"
 metafile = true
 
 [[files]]
+file = "mods/quick-pack.pw.toml"
+hash = "0186ae3535a604f802b4a307981414258545c39f83fd9ed55e213ece84238a73"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "2e387744c8e5d0578f2d9e8abff1801c52caa3309909d7f43c81f0f2383ba83a"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "5594e26214ca0013618b6196e149898374f5b7f367276017ab95e3b309713c26"
 metafile = true
@@ -106,8 +126,18 @@ hash = "c16567b4ed67a8f6684dac9e17b7e023e84913ed8204acefc8d75ea60ab1b27a"
 metafile = true
 
 [[files]]
+file = "mods/sodium-shadowy-path-blocks.pw.toml"
+hash = "9e93ba4c0eb59a078444b50d811aa5ecbc97a2f265a1d1519a0536238880114b"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "68b768e818c8598618d2cf7248affb50e0c120adabdbf74e750f14b8efa019c5"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "ebacb90bebab38aa5679eb2a08ddb2d2feb5dd8f9763ccc3eba14172ebc08a60"
 metafile = true
 
 [[files]]

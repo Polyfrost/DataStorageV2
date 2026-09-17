@@ -6,6 +6,11 @@ hash = "6e3f9abc2ed8c63aa81f01f2da182ca954c1581c7d9759a5608928fa8a5c269d"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
+metafile = true
+
+[[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
@@ -33,4 +38,9 @@ metafile = true
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
 hash = "adf44c99fa11f32cd2c1eb049c2e4422247903651cb7a6344adebc9aad54f877"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
 metafile = true

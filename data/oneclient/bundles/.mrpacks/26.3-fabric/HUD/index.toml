@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
+metafile = true
+
+[[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
@@ -63,4 +68,9 @@ metafile = true
 [[files]]
 file = "mods/vanillahud.pw.toml"
 hash = "1d1a8dbb2117c8dcd692271fe979045245370ce7eb1c217cb1d5bc206ac03cc2"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
 metafile = true
