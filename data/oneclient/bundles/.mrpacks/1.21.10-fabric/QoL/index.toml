@@ -6,7 +6,7 @@ hash = "4a37f9caa8a8fc787fe3c5314ffbb9f14e9fa1cf6edbf54066684e40b97dcfea"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "95a9f07c3466a7b72891f3385c1fc7147978637498bec102d961c9f1f7d116cc"
+hash = "59271ca1a2df679a835692b62e12b89f362ee0cb2e6b13413bbafd80a274366c"
 metafile = true
 
 [[files]]
@@ -231,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "3753ff8e66acd574dc7cc095e191e54f63daacab5375cccb22af7c86fcd64a9e"
+hash = "5ba3739907194969cacdc1d16c76984ef15b95ffae2c204672ad7660ad2c34ee"
 metafile = true
 
 [[files]]
