@@ -16,6 +16,11 @@ hash = "47248a86e194d3979a618530811a992010b9a165ed33f75ce9786043948160e1"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
+metafile = true
+
+[[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
@@ -56,6 +61,11 @@ hash = "eccb35a46b882cab46aeb6e0a23e449bb86581351ede179ce789038f7cdfa421"
 metafile = true
 
 [[files]]
+file = "mods/ixeris.pw.toml"
+hash = "fa05c98d0f52f9a61025a1a4c1896729bccda32663c8b0c47d63f13086d78dad"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "ac449637b994d7020fa91d86f4ba1c8227a35a66a35731dce0ff25b7d1b4b266"
 metafile = true
@@ -86,6 +96,11 @@ hash = "4e0681f980758a2385d0109b4e973e268bc188092a154e1b1000bf9aa2c5d4bf"
 metafile = true
 
 [[files]]
+file = "mods/quick-pack.pw.toml"
+hash = "0186ae3535a604f802b4a307981414258545c39f83fd9ed55e213ece84238a73"
+metafile = true
+
+[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "5594e26214ca0013618b6196e149898374f5b7f367276017ab95e3b309713c26"
 metafile = true
@@ -103,6 +118,11 @@ metafile = true
 [[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "c16567b4ed67a8f6684dac9e17b7e023e84913ed8204acefc8d75ea60ab1b27a"
+metafile = true
+
+[[files]]
+file = "mods/sodium-shadowy-path-blocks.pw.toml"
+hash = "9e93ba4c0eb59a078444b50d811aa5ecbc97a2f265a1d1519a0536238880114b"
 metafile = true
 
 [[files]]
