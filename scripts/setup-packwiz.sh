@@ -8,7 +8,7 @@
 #   1. `packwiz` already on PATH            (unless PACKWIZ_SETUP_SKIP_PATH=1)
 #   2. A previously downloaded copy cached next to this script
 #   3. If PACKWIZ_SETUP_GO_MODULE is set, clone and `go build` it (any OS).
-#   4. Otherwise download the build (Linux x86-64 only) from the workflow
+#   4. Otherwise download the prebuilt binary (Linux/macOS x86-64) from the workflow
 #      artifact via the GitHub API (auth-gated — needs a token), falling back to
 #      nightly.link (public). Tokens, most-to-least preferred:
 #        PACKWIZ_TOKEN  (PAT with actions:read on the target repo)
@@ -22,9 +22,13 @@ _PACKWIZ_SETUP_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 _PACKWIZ_REPO="${PACKWIZ_SETUP_REPO:-Polyfrost/packwiz}"
 _PACKWIZ_WORKFLOW="${PACKWIZ_SETUP_WORKFLOW:-go.yml}"
 _PACKWIZ_BRANCH="${PACKWIZ_SETUP_BRANCH:-main}"
-_PACKWIZ_ARTIFACT="${PACKWIZ_SETUP_ARTIFACT:-Linux 64-bit x86}"
+case "$(uname -s)" in
+  Darwin) _PACKWIZ_OS_ARTIFACT="macOS 64-bit x86" ;;  # x86-64 build, runs on arm64 via Rosetta
+  *)      _PACKWIZ_OS_ARTIFACT="Linux 64-bit x86" ;;
+esac
+_PACKWIZ_ARTIFACT="${PACKWIZ_SETUP_ARTIFACT:-$_PACKWIZ_OS_ARTIFACT}"
 _PACKWIZ_RUN_SCAN="${PACKWIZ_SETUP_RUN_SCAN:-10}"
-_PACKWIZ_NIGHTLY_URL="${PACKWIZ_SETUP_NIGHTLY_URL:-https://nightly.link/Polyfrost/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip}"
+_PACKWIZ_NIGHTLY_URL="${PACKWIZ_SETUP_NIGHTLY_URL:-https://nightly.link/Polyfrost/packwiz/workflows/go/main/$(printf '%s' "$_PACKWIZ_ARTIFACT" | sed 's/ /%20/g').zip}"
 _PACKWIZ_GO_MODULE="${PACKWIZ_SETUP_GO_MODULE:-}"
 _PACKWIZ_BIN_NAME="${PACKWIZ_SETUP_BIN_NAME:-packwiz}"
 _PACKWIZ_BIN_PATH="$_PACKWIZ_SETUP_DIR/$_PACKWIZ_BIN_NAME"
@@ -114,7 +118,7 @@ _pw_go_install() {
   chmod +x "$_PACKWIZ_BIN_PATH"
 }
 
-_pw_download_linux() {
+_pw_download_prebuilt() {
   local zip="$_PACKWIZ_SETUP_DIR/$_PACKWIZ_BIN_NAME-linux.zip"
   local token url
   token="$(_pw_token)"
@@ -153,13 +157,13 @@ elif [[ -n "$_PACKWIZ_GO_MODULE" ]]; then
   echo "packwiz not found, building $_PACKWIZ_GO_MODULE"
   _pw_go_install
   PACKWIZ_BIN="$_PACKWIZ_BIN_PATH"
-elif [[ "$(uname -s)" == "Linux" ]]; then
+elif [[ "$(uname -s)" == "Linux" || "$(uname -s)" == "Darwin" ]]; then
   if ! command -v unzip >/dev/null 2>&1; then
     echo "Error: unzip is required to set up packwiz." >&2
     return 1
   fi
-  echo "packwiz not found, downloading $_PACKWIZ_REPO (Linux x86-64)"
-  _pw_download_linux
+  echo "packwiz not found, downloading $_PACKWIZ_REPO ($_PACKWIZ_ARTIFACT)"
+  _pw_download_prebuilt
   PACKWIZ_BIN="$_PACKWIZ_BIN_PATH"
 else
   echo "Error: packwiz not found on $(uname -s). Install packwiz and rerun." >&2

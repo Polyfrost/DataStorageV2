@@ -2,15 +2,15 @@ id = "4dNGXeZO"
 enabled = true
 hidden = false
 name = "HyMod"
-filename = "HyMod-2.2.0-26.2+_fabric.jar"
+filename = "HyMod-2.2.2-26.2+_fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/LmXS5fMl/HyMod-2.2.0-26.2%2B_fabric.jar"
+url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/QbDTS5hn/HyMod-2.2.2-26.2%2B_fabric.jar"
 hash-format = "sha512"
-hash = "2b1cf1744dec44e28067078d60a6329cd8e1d019834e69a183c45382e524d107310c110b74715ce29ec2493aa56f57310d7a8e59c61b1337e5eb99cee4d91351"
+hash = "c6d9f7502040a1a6360963783af5a76a30480b8e6f812f86cabed7cd094131a5cf1ffc1cf284e9afccaad0fb1a4894836c0f0c58da2c0cd4345d0c5fae649390"
 
 [update]
 [update.modrinth]
 mod-id = "4dNGXeZO"
-version = "LmXS5fMl"
+version = "QbDTS5hn"

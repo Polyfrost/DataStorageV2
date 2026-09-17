@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "be64311839256d72e7104fbb7f93cac60c3486fa0f4c8e1bccb62e186dc333f6"
+hash = "78b7d9cf85da5dcc863046e85d599ef705fa9ff375052bd4644e118df71a91c6"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/hymod.pw.toml"
-hash = "11045541224450ce437d3c86441b56c399d940aff1d13a521864955ee31b480a"
+hash = "101902dee8ee610782f5df528aafb534d7f1352868eae2d0a47ff002a404c33a"
 metafile = true
 
 [[files]]

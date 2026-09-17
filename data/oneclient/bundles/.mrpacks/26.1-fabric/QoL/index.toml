@@ -111,12 +111,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "e0cb8961e2db6415567733a3a6fcc03f69f49e10bb02c2a49adb213335d0b2d3"
+hash = "fdd95fb6711beb16aa33237c05be4e2f239337a1d8328db1b6fce1e586f66d9c"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "cccb3afd6addd154df72d95de018ba9c94c45d3bd928385255bc86f978035107"
+hash = "b711d1555c75e238eba0115cd5835dc6dc25e92543fb00bae4396ebe25ba2cce"
 metafile = true
 
 [[files]]
@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyblur.pw.toml"
-hash = "1d821394fe02548195e67cc33670e8757c34e3aba42d1863e519810f69a1c694"
+hash = "6f55fcf40dae3f5f3165c85fc32e8fba4b81ce5b10565e6ba1e401691ab0ac8b"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "1ba9767a010efee56351e961c3bf0f3cdd817ef29d79f916516ec25e9295237a"
+hash = "d5ced9e2a7b4f58f6620a4f92b281574d2189aca8a132f0f2157bf0e1efeebae"
 metafile = true
 
 [[files]]
@@ -311,7 +311,7 @@ metafile = true
 
 [[files]]
 file = "mods/shaketweaks.pw.toml"
-hash = "e077af4843818078aa9ef9d5c088e0878833c626fed13328ad274ec98de8eed1"
+hash = "2a889263e919cbe2798043709a26421ff33f0dede999733e06a4069b12ab772b"
 metafile = true
 
 [[files]]
