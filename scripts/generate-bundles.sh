@@ -7,7 +7,9 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-MRPACKS_DIR="$SCRIPT_DIR/../data/oneclient/bundles/.mrpacks"
+# Overridable so callers can export from a scratch copy: `packwiz export` also
+# refreshes index.toml/pack.toml in place, which would dirty the repo.
+MRPACKS_DIR="${MRPACKS_DIR:-$SCRIPT_DIR/../data/oneclient/bundles/.mrpacks}"
 OUTPUT_DIR="${1:-$SCRIPT_DIR/../data/oneclient/bundles/generated}"
 
 for cmd in zip unzip; do
@@ -41,7 +43,8 @@ for version in "$MRPACKS_DIR"/*; do
     work="$(mktemp -d)"
     unzip -q "$output" -d "$work"
     rm "$output"
-    find "$work" -exec touch -h -d '@0' {} +
+    # -t (not -d '@0'): BSD touch has no @epoch form. TZ pins it to the epoch.
+    TZ=UTC0 find "$work" -exec touch -h -t 197001010000 {} +
     ( cd "$work" && LC_ALL=C find . -print | sort | zip -X -q -@ "$output" )
     rm -rf "$work"
   done
