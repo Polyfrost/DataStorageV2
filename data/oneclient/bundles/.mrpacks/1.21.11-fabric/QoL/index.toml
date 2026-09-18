@@ -116,12 +116,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "b7f907530218beed7ca401e97bdd9ecf13392e5be46d7cb4f5ac439dfb9b917f"
+hash = "545fd6208859e221ef0c1ab3160bdd7f12dfa4bc19fd4a098f3053ee37f7293e"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "070c20ac0917ef6921ed46c7945a3db8e73e381d38c8aa464b2f0e21db762306"
+hash = "20fd3cea29ae3eeb6aa2140c164ebb568dbaec14b7f86d9fc20410d5e5413238"
 metafile = true
 
 [[files]]
@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "b55b1fa11c928a2b85d3b34ff34ef309f2474139761a558239d1101726facf17"
+hash = "1ae57fab233e30a2d2ebbf5f4589a06113faca3424df2339a8963fdb8560b004"
 metafile = true
 
 [[files]]
@@ -271,7 +271,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "6001d90dbbaecdae6a76b3160657193b56b7ceae168d700fe3569a7a391fc961"
+hash = "4ea049821f551ffcdb2f1428c0124e5a61354867e716a63c8fe700856d2dfd45"
 metafile = true
 
 [[files]]
@@ -346,7 +346,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyboxify.pw.toml"
-hash = "111dd5990c476b22acaf1a6b9965bbaecf801125a39652143438d5ed4f31c628"
+hash = "2d597c2917c1ffc592a29aec163b5a623cf8f36593d062be9a43436c01a1afa0"
 metafile = true
 
 [[files]]

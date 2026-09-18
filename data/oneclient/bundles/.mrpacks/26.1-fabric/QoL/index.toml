@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/confirm-disconnect.pw.toml"
-hash = "4df0e267631bcac9aa3297cf169fcdec7c54f3dfdba9cd5736aeb2dd6cb49996"
+hash = "c782a2017be5809e8191212953dd1d721f638f23247757f9d260f3e7c2c77a62"
 metafile = true
 
 [[files]]
@@ -101,7 +101,7 @@ metafile = true
 
 [[files]]
 file = "mods/droppeditemtweaks.pw.toml"
-hash = "29a7d41a92805fb043b019f6cb457004adcbf2acdc030f58deb79cc7038e575d"
+hash = "08ee55de8abc5c9044c6453baa3ad00adec6d7774e70a7ed53ee1223d4de7979"
 metafile = true
 
 [[files]]
@@ -111,12 +111,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "fdd95fb6711beb16aa33237c05be4e2f239337a1d8328db1b6fce1e586f66d9c"
+hash = "08fc0ff6fae796b501a5a572dd9fed31ae14818b515bad79eaf1ca3beda6ecec"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "b711d1555c75e238eba0115cd5835dc6dc25e92543fb00bae4396ebe25ba2cce"
+hash = "6c69e8c75064fbba88e5cc4ec7280f9397452544af0f1b79cd9636f42b7f2da8"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "301ffc201d7264c0963b295958fa36ed9b6164900ba68a926fbd7c33ceb5c6ca"
+hash = "0594f10f1ac7e76e4fc38129efc3c29bfe88ddb5f41162c04c5110bc59cad249"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "d5ced9e2a7b4f58f6620a4f92b281574d2189aca8a132f0f2157bf0e1efeebae"
+hash = "04d72015626164baeeb8c926399c7b9f48b7665f433884b4c4861aafac8bf472"
 metafile = true
 
 [[files]]
@@ -276,7 +276,7 @@ metafile = true
 
 [[files]]
 file = "mods/rendertweaks.pw.toml"
-hash = "41ce6c734d454eb166770af185054cb02a4ab97248e8faa8389909eeb6c190ee"
+hash = "4b73c4c6f939b5d310dcfcda34de5ee260693fb4f88f3d3d0bb39c0f72a22dc1"
 metafile = true
 
 [[files]]
@@ -321,7 +321,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyboxify.pw.toml"
-hash = "c6b85a76097e1f0b710d108989ed09c44e76c443728f515547bb440efc82621f"
+hash = "f6ec1b3b25a754d27eea44d9af3b6e12f2630f0dc2af374608d8f60e339d4ddf"
 metafile = true
 
 [[files]]

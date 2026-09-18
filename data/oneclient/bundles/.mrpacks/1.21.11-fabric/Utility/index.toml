@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/animatium.pw.toml"
-hash = "ccf3cf29c4033c9223053a5e1222d850ff63ec7661c3a395c7b768104975c5c9"
+hash = "217696a1229816e97f3ce043e96de02d06d22169cbdfa5e34594d8c2e7980053"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "b55b1fa11c928a2b85d3b34ff34ef309f2474139761a558239d1101726facf17"
+hash = "1ae57fab233e30a2d2ebbf5f4589a06113faca3424df2339a8963fdb8560b004"
 metafile = true
 
 [[files]]
