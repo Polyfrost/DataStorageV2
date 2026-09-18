@@ -9,5 +9,6 @@ scripts/.cache/
 data/oneclient/mods.json
 
 scripts/packwiz
+scripts/packwiz.exe
 scripts/packwiz-upstream
 scripts/packwiz*-linux.zip
