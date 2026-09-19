@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysicliteconfig.pw.toml"
-hash = "6a02e8ac30bb97b9c9809de9c5a191dcd12bfb51712d5188e905be0300f254a0"
+hash = "1bddd1af3123e0a874ac390bc1576bd3628169359a568d610ad768d67acd19f8"
 metafile = true
 
 [[files]]
@@ -181,7 +181,7 @@ metafile = true
 
 [[files]]
 file = "mods/mountopacity.pw.toml"
-hash = "3b5094aa86059beb7df48499c0920b680259a0beab832371c727f5eb53c696c9"
+hash = "94715968ebc0496935b51c8119abcf290cb9a815f4fe541b3c66c0380f9779f1"
 metafile = true
 
 [[files]]
