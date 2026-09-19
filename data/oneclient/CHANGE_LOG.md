@@ -1,3 +1,12 @@
+# 2.5.1
+
+- chore: update bundled packages only after cluster launch
+- fix: update stale package metadata if it's supported versions were updated
+- feat: better error handling for process hooks
+- chore: optimize assets with oxipng
+- Fix version-tag matching and bundle filtering
+- ignore mc version check for tracked bundle mods
+
 # 2.5.0
 
 - chore: add flag to AUR PKGBUILD to prevent rustc from getting OOM killed
