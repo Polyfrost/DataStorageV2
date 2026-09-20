@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "433150d28878ce69a97e7f31ac6d9a6b39eec2bb3b23be7242b44da692dbe96f"
+hash = "097d70ce8b1f832d754ea58fb7ed971b0471b76d1eba145897a84b5de8c39690"
 metafile = true
 
 [[files]]
