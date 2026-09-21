@@ -21,6 +21,9 @@
  * won't load or is internally inconsistent is a broken bundle, not a footnote.
  *
  * Exit code 1 if any FAIL, else 0. WARN never changes the exit code.
+ *
+ * `--json <file>` additionally writes the findings as JSON; each finding lists
+ * the .pw.toml `files` involved so a caller can revert just those.
  */
 
 const fs = require("node:fs");
@@ -240,19 +243,19 @@ async function main() {
   });
   console.log("");
 
-  const findings = []; // {level, version, category, msg}
+  const findings = []; // {level, version, category, msg, files}
   const globalWarnings = new Set();
-  const add = (level, version, category, msg) =>
-    findings.push({ level, version, category, msg });
+  const add = (level, version, category, msg, files = []) =>
+    findings.push({ level, version, category, msg, files: [...new Set(files)] });
 
   // Surface jar-level load warnings once each. A jar that can't be downloaded,
   // unzipped, or parsed is a broken bundle entry — treat it as a FAIL, not a note.
   // Only genuinely-benign cases ("no fabric.mod.json", i.e. a plain library jar)
   // stay as notes.
   const CRITICAL_LOAD = /(download failed|could not unzip|invalid fabric\.mod\.json|hash mismatch)/;
-  for (const res of loaded.values()) {
+  for (const [key, res] of loaded) {
     for (const w of res.warnings) {
-      if (CRITICAL_LOAD.test(w)) add("FAIL", "jars", "load", w);
+      if (CRITICAL_LOAD.test(w)) add("FAIL", "jars", "load", w, [uniqueMods.get(key).file]);
       else globalWarnings.add(w);
     }
   }
@@ -266,7 +269,18 @@ async function main() {
 
   for (const [mcVersion, group] of byVersion) {
     const unionProviders = builtinProviders(mcVersion, group[0].fabricVersion);
-    const unionMods = new Map(); // id -> {version, category}
+    const unionMods = new Map(); // id -> {version, category, file}
+    // Every provided id (incl. JiJ) -> the .pw.toml files that ship it, across categories.
+    const filesById = new Map();
+    for (const b of group) {
+      for (const m of b.mods) {
+        for (const p of loaded.get(cacheKeyFor(m))?.providers || []) {
+          if (!filesById.has(p.id)) filesById.set(p.id, []);
+          filesById.get(p.id).push(m.file);
+        }
+      }
+    }
+    const involved = (unit, id) => [unit.file, ...(filesById.get(id) || [])];
 
     for (const b of group) {
       // Resolve each mod in this category, then build the category provider set.
@@ -276,7 +290,7 @@ async function main() {
       for (const m of b.mods) {
         const res = loaded.get(cacheKeyFor(m));
         if (!res || !res.primary) continue;
-        const unit = applyOverrides(res.primary, b.overrides);
+        const unit = { ...applyOverrides(res.primary, b.overrides), file: m.file };
         primaries.push(unit);
         catProviders.push(...res.providers);
         unionProviders.push(...res.providers);
@@ -288,10 +302,11 @@ async function main() {
             "FAIL",
             mcVersion,
             `${prev.category}✕${b.category}`,
-            `"${unit.id}" pinned to ${prev.version} in ${prev.category} but ${unit.version} in ${b.category}`
+            `"${unit.id}" pinned to ${prev.version} in ${prev.category} but ${unit.version} in ${b.category}`,
+            [prev.file, unit.file]
           );
         }
-        unionMods.set(unit.id, { version: unit.version, category: b.category });
+        unionMods.set(unit.id, { version: unit.version, category: b.category, file: unit.file });
       }
 
       const map = providerMap(catProviders);
@@ -302,15 +317,15 @@ async function main() {
           if (r === "ok") continue;
           const why = r === "missing" ? "not provided" : `no version satisfies "${fmt(range)}"`;
           const label = id === "minecraft" ? "MC-incompatible" : "depends";
-          add("FAIL", mcVersion, b.category, `${unit.id} ${label} ${id} — ${why}`);
+          add("FAIL", mcVersion, b.category, `${unit.id} ${label} ${id} — ${why}`, involved(unit, id));
         }
         for (const [id, range] of relEntries(unit, "breaks")) {
           if (triggered(map, id, range))
-            add("FAIL", mcVersion, b.category, `${unit.id} breaks ${id} "${fmt(range)}" — present`);
+            add("FAIL", mcVersion, b.category, `${unit.id} breaks ${id} "${fmt(range)}" — present`, involved(unit, id));
         }
         for (const [id, range] of relEntries(unit, "conflicts")) {
           if (triggered(map, id, range))
-            add("WARN", mcVersion, b.category, `${unit.id} conflicts ${id} "${fmt(range)}" — present`);
+            add("WARN", mcVersion, b.category, `${unit.id} conflicts ${id} "${fmt(range)}" — present`, involved(unit, id));
         }
       }
     }
@@ -321,7 +336,7 @@ async function main() {
       for (const m of b.mods) {
         const res = loaded.get(cacheKeyFor(m));
         if (!res || !res.primary) continue;
-        const unit = applyOverrides(res.primary, b.overrides);
+        const unit = { ...applyOverrides(res.primary, b.overrides), file: m.file };
         for (const relName of ["recommends", "suggests"]) {
           for (const [id, range] of relEntries(unit, relName)) {
             if (resolve(unionMap, id, range) !== "ok")
@@ -330,17 +345,22 @@ async function main() {
         }
         for (const [id, range] of relEntries(unit, "breaks")) {
           if (triggered(unionMap, id, range))
-            add("FAIL", mcVersion, `${b.category}✕union`, `${unit.id} breaks ${id} "${fmt(range)}" — present in another category`);
+            add("FAIL", mcVersion, `${b.category}✕union`, `${unit.id} breaks ${id} "${fmt(range)}" — present in another category`, involved(unit, id));
         }
         for (const [id, range] of relEntries(unit, "conflicts")) {
           if (triggered(unionMap, id, range))
-            add("WARN", mcVersion, `${b.category}✕union`, `${unit.id} conflicts ${id} "${fmt(range)}" — present in another category`);
+            add("WARN", mcVersion, `${b.category}✕union`, `${unit.id} conflicts ${id} "${fmt(range)}" — present in another category`, involved(unit, id));
         }
       }
     }
   }
 
   report(findings, globalWarnings);
+  const jsonIdx = process.argv.indexOf("--json");
+  if (jsonIdx !== -1) {
+    const rel = (f) => ({ ...f, files: f.files.map((p) => path.relative(path.join(__dirname, ".."), p)) });
+    fs.writeFileSync(process.argv[jsonIdx + 1], JSON.stringify(dedupe(findings).map(rel), null, 2));
+  }
   const fails = findings.filter((f) => f.level === "FAIL").length;
   process.exit(fails > 0 ? 1 : 0);
 }

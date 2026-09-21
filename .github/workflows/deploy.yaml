@@ -29,11 +29,12 @@ jobs:
     name: Run MC locally
     uses: ./.github/workflows/run-mc-locally.yaml
     secrets: inherit
-    # Skip when chained off a failed Update Bundles run; always run for direct
-    # push / manual dispatch. build is skipped with it.
+    # Update Bundles only ever commits sources that passed its compatibility gate,
+    # and fails *after* pushing when some updates had to be held back, so run
+    # regardless of its conclusion (a run that pushed nothing just redeploys main).
     if: >-
       github.event_name != 'workflow_run' ||
-      github.event.workflow_run.conclusion == 'success'
+      github.event.workflow_run.conclusion != 'cancelled'
 
   build:
     name: Generate bundles and build site
