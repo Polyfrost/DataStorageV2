@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 # Compatibility gate for freshly-updated bundle sources (run after update-bundles.sh).
-# Instead of failing outright, reverts only the updated .pw.toml files involved in
-# each FAIL back to HEAD and re-checks, since a revert can expose a new gap. Failures
-# that involve no updated file were already broken in HEAD; they are reported but do
-# not hold back the other updates.
 #
-# Exit 0 when the surviving changes pass (even if some were reverted or pre-existing
-# failures remain — those are surfaced as ::error:: annotations and `degraded=true`
-# in $GITHUB_OUTPUT), exit 1 only if the check cannot converge.
+# Failures are compared against a baseline check of HEAD: anything already failing
+# there is pre-existing and only reported. A failure the update introduced reverts the
+# updated .pw.toml files involved in it (or, if none can be attributed, every updated
+# file of that MC version) and the check is re-run, since a revert can expose a new
+# gap. Unrelated mods and versions are left updated.
+#
+# Exit 0 when the surviving changes pass (reverts and pre-existing failures are
+# surfaced as ::error:: annotations and `degraded=true` in $GITHUB_OUTPUT). Exit 1
+# when the checker produces no report, or the changes cannot be made to pass.
 set -euo pipefail
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
@@ -16,32 +18,67 @@ source scripts/setup-packwiz.sh
 
 MRPACKS="data/oneclient/bundles/.mrpacks"
 MAX_ROUNDS="${GATE_MAX_ROUNDS:-5}"
-report="$(mktemp)"
+tmp="$(mktemp -d)"
+trap 'git worktree remove --force "$tmp/head" 2>/dev/null || true; rm -rf "$tmp"' EXIT
+report="$tmp/report.json"
+baseline="$tmp/baseline.json"
 reverted=()
 
-fails_involving_changes() {
-  comm -12 \
-    <(jq -r '.[] | select(.level == "FAIL") | .files[]' "$report" | sort -u) \
-    <(git diff --name-only -- "$MRPACKS" | sort -u)
+# Runs the checker in checkout $1, writing $2. Fails closed if no fresh, valid report
+# was produced (checker crash, malformed TOML, ...).
+check() {
+  local status=0
+  rm -f "$2"
+  node "$1/scripts/compat-check.js" --json "$2" || status=$?
+  jq -e 'type == "array"' "$2" >/dev/null 2>&1 || {
+    echo "::error::Compatibility checker produced no report (exit $status)" >&2
+    exit 1
+  }
+  return "$status"
 }
+# A failure is keyed once per involved file, so one that gains a file (e.g. a second
+# bundle updating to an already-broken jar) is new, while one that merely loses a
+# file (an update fixing one of two references) stays pre-existing.
+jq_defs='def fkeys: . as $f | (.files | if length == 0 then [""] else . end)[] | [$f.version, $f.category, $f.msg, .] | join("|");'
+fail_keys() { jq -r "$jq_defs"' .[] | select(.level == "FAIL") | fkeys' "$1" | sort -u; }
 
-for (( round = 1; round <= MAX_ROUNDS; round++ )); do
-  if node scripts/compat-check.js --json "$report"; then break; fi
-  mapfile -t to_revert < <(fails_involving_changes)
-  (( ${#to_revert[@]} > 0 )) || break
-  echo "Round $round: reverting ${#to_revert[@]} updated file(s) involved in failures"
+echo "Running baseline compatibility check on HEAD"
+git worktree add -q --detach "$tmp/head" HEAD
+ln -s "$PWD/node_modules" "$tmp/head/node_modules"
+mkdir -p scripts/.cache && ln -s "$PWD/scripts/.cache" "$tmp/head/scripts/.cache"
+check "$tmp/head" "$baseline" || true
+git worktree remove --force "$tmp/head"
+
+for (( round = 0; ; round++ )); do
+  if check . "$report"; then break; fi
+  new_fails="$(comm -23 <(fail_keys "$report") <(fail_keys "$baseline"))"
+  [ -n "$new_fails" ] || break
+  if (( round >= MAX_ROUNDS )); then
+    echo "::error::Compatibility check still failing after $MAX_ROUNDS revert rounds; not committing" >&2
+    exit 1
+  fi
+  changed="$(git diff --name-only -- "$MRPACKS" | jq -R . | jq -s .)"
+  mapfile -t to_revert < <(jq -r --argjson changed "$changed" --argjson base "$(fail_keys "$baseline" | jq -R . | jq -s .)" "$jq_defs"'
+    .[] | select(.level == "FAIL")
+    | select(any(fkeys; IN($base[]) | not))
+    | .versionDirs as $vds
+    | (.files - (.files - $changed)) as $hit
+    | if ($hit | length) > 0 then $hit[]
+      else $changed[] | select(. as $c | $vds | any(. as $v | $c | startswith("'"$MRPACKS"'/" + $v + "/"))) end
+  ' "$report" | sort -u)
+  if (( ${#to_revert[@]} == 0 )); then
+    echo "::error::New compatibility failures cannot be attributed to any updated file; not committing" >&2
+    printf '%s\n' "$new_fails" >&2
+    exit 1
+  fi
+  echo "Round $((round + 1)): reverting ${#to_revert[@]} updated file(s) involved in new failures"
   git checkout -- "${to_revert[@]}"
   reverted+=("${to_revert[@]}")
   # index.toml/pack.toml carry hashes of the mod files, so re-sync them.
-  for bundle in $(printf '%s\n' "${to_revert[@]}" | xargs -n1 dirname | xargs -n1 dirname | sort -u); do
+  for bundle in $(printf '%s\n' "${to_revert[@]}" | sed -E "s#^($MRPACKS/[^/]+/[^/]+)/.*#\\1#" | sort -u); do
     ( cd "$bundle" && "$PACKWIZ_BIN" refresh )
   done
 done
-
-if [ -n "$(fails_involving_changes)" ]; then
-  echo "::error::Compatibility check still failing after $MAX_ROUNDS revert rounds; not committing" >&2
-  exit 1
-fi
 
 degraded=false
 if (( ${#reverted[@]} > 0 )); then
