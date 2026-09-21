@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "97045839144848285a09a07f49ca7d0b274ea9c994a5f0273f0585842a151e8e"
+hash = "4502736ca6348066467293446d9ba3ad17a3ff8545a365d9b02c65fbfeecad23"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "cc7ead5e137ff1a0608425ef97543cd04d04fb3b30204d3b548e4085439d2b00"
+hash = "f5c182eb64e8901a9299f04c6c45e571674a0e01852736ff2460d91951538cf1"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "ea111ec5606ab6a861a048a67a9ff5fa09bd06fc691b82a4296f6406238c1113"
+hash = "667375a6453616cfa4c52b061cf6fef1dd6e348cb431d73f7a85e3f7701285f4"
 metafile = true
 
 [[files]]
@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "8f22dbc1106731a5e54c5b38472e3f364b25bab0171e5491aa430f4c361f1859"
+hash = "9ddb46a92e26abe8448d10f69be8d6ac1a21d5c5b1e6f23ed5b4feaa1ee5fdf0"
 metafile = true
 
 [[files]]

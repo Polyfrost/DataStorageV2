@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "47248a86e194d3979a618530811a992010b9a165ed33f75ce9786043948160e1"
+hash = "f79e63d829f673cbbdb69a61746a63fa0228cd9dc3d313e9f218f2c8d3a2fd7f"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "fa05c98d0f52f9a61025a1a4c1896729bccda32663c8b0c47d63f13086d78dad"
+hash = "b5614b6cbf9a8eb1f80b37fadd0b584bdfe56d838bf584d857d18c8056bbbd95"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "fb9b3cbc1af67f69d0cbd6a31d40f79f2ce285e2933567628d9888679116f6e9"
+hash = "99cf8eb76c6759263853d37fe74a3ec4cd4b22af108a2274ed2c4eb4febb2b0a"
 metafile = true
 
 [[files]]
@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
+hash = "cebfee1e0bc35052e1f92bf89b8c46a046b03ed1e6ce92f01d766af2ae27ae11"
 metafile = true
 
 [[files]]

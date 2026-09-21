@@ -206,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "c16e7a0146bd6cd05683f5a093e66d3adf79cf18944c0cea364081895e87b3a8"
+hash = "39bb914b7404b0fc44435267a8deecc60ed9bcda21944286f298f364ddb5930b"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7b41a94d5c016cb702a678887fb70b486d5a3909325257f3b425ee0a18c60357"
+hash = "f7cd875aaeb2b9253de827ca110576286a95d9ff7cd7911a6738633d07c55656"
 metafile = true
 
 [[files]]
@@ -281,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "5d2cdb8164d8e6120f7d6b0619c9a8190c0d87491e2006ea6850db0ff5f8abe0"
+hash = "ec9e43e4672af6b8784f7f5fc61c007c7e6f900c52813fc38cc98db29afe8d5f"
 metafile = true
 
 [[files]]
