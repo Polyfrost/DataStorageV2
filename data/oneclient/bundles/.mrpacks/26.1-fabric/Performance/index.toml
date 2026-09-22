@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "23d5c6360fc157056abc3d9fa55ecd2b4b661c026ed8b998c2a6fbdfee177d66"
+hash = "e11db75fa62b34e41582eb19220e277e5ee961ab9577e690dd285183ff345ad3"
 metafile = true
 
 [[files]]
