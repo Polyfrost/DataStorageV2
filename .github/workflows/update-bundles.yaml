@@ -15,16 +15,6 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v4
 
-      - name: Update bundles
-        env:
-          PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          chmod +x ./scripts/*.sh
-          ./scripts/update-bundles.sh
-
-      # Gate: if the freshly-updated versions break the dependency graph, fail here
-      # instead of committing broken sources (which Deploy would then publish).
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
 
@@ -45,8 +35,21 @@ jobs:
           restore-keys: |
             mod-jars-
 
+      - name: Update bundles
+        id: update
+        env:
+          PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x ./scripts/*.sh
+          ./scripts/update-bundles.sh
+
+      # Gate: updates that break the dependency graph are reverted (only the mods
+      # involved), so everything else still gets committed. Reverts and pre-existing
+      # failures are annotated and fail the job at the end, after the push.
       - name: Check compatibility
-        run: pnpm check:compat
+        id: gate
+        run: ./scripts/gate-bundle-updates.sh
 
       # Only the packwiz source (.mrpacks) is committed. Pushing to main triggers
       # the Deploy workflow, which regenerates the bundles and publishes to GitHub Pages.
@@ -61,3 +64,9 @@ jobs:
             echo "Push failed (attempt $i), retrying..."
             sleep 5
           done
+
+      - name: Fail if any update was held back
+        if: steps.update.outputs.degraded == 'true' || steps.gate.outputs.degraded == 'true'
+        run: |
+          echo "::error::Some bundles were not updated; see the annotations from the compatibility check"
+          exit 1
