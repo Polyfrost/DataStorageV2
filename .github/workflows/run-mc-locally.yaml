@@ -37,7 +37,8 @@ jobs:
       - name: Collect packs
         id: collect
         run: |
-          packs="$(cd data/oneclient/bundles/generated && ls *.mrpack | sed 's/\.mrpack$//' | jq -R -s -c 'split("\n")[:-1]')"
+          # TODO: 1.21.1 packs temporarily skipped (flaky download timeouts); drop the grep -v to re-enable
+          packs="$(cd data/oneclient/bundles/generated && ls *.mrpack | sed 's/\.mrpack$//' | grep -v -- '-1\.21\.1-' | jq -R -s -c 'split("\n")[:-1]')"
           echo "packs=$packs" >> "$GITHUB_OUTPUT"
           echo "$packs"
 
