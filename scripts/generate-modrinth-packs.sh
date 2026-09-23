@@ -96,7 +96,7 @@ EOF
   done
 
   echo "Bundling $name ($mc) -> $output"
-  ( cd "$work" && "$PACKWIZ_BIN" refresh >/dev/null && "$PACKWIZ_BIN" modrinth export --output "$output" )
+  ( cd "$work" && "$PACKWIZ_BIN" refresh >/dev/null && packwiz_export "$output" )
 
   echo "Normalising $(basename "$output")"
   local rezip
