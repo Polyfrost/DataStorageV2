@@ -1,12 +1,12 @@
-name = "OneClient 1.8.9 Fabric [HUD]"
+name = "OneClient 1.8.9 Ornithe [HUD]"
 author = "Polyfrost"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 poly-format = "1"
 enabled = false
 category = "HUD"
-id = "hud-1.8.9-fabric"
-update-url = "oneclient/generated/hud-1.8.9-fabric.mrpack"
+id = "hud-1.8.9-ornithe"
+update-url = "oneclient/generated/hud-1.8.9-ornithe.mrpack"
 
 [index]
 file = "index.toml"

@@ -3,7 +3,7 @@
 /**
  * Fabric mod compatibility checker for the OneClient bundles.
  *
- * For every bundle (data/oneclient/bundles/.mrpacks/<mcver>-fabric/<Category>/) this:
+ * For every bundle (data/oneclient/bundles/.mrpacks/<mcver>-<loader>/<Category>/) this:
  *   1. downloads each mod jar referenced by its .pw.toml and reads the real
  *      fabric.mod.json inside (plus nested jar-in-jar modules),
  *   2. applies the pack's config/fabric_loader_dependencies.json overrides,
@@ -92,11 +92,13 @@ function readToml(file) {
 function discoverBundles() {
   const bundles = [];
   for (const versionDir of listDirs(MRPACKS_DIR)) {
-    // e.g. "26.2-fabric" -> mcVersion "26.2", loader "fabric"
+    // e.g. "26.2-fabric" -> mcVersion "26.2", loader "fabric".
+    // Ornithe (1.8.9) runs Fabric Loader with its own intermediary, so the same
+    // fabric.mod.json checks apply.
     const dash = versionDir.lastIndexOf("-");
     const mcVersion = versionDir.slice(0, dash);
     const loader = versionDir.slice(dash + 1);
-    if (loader !== "fabric") continue;
+    if (loader !== "fabric" && loader !== "ornithe") continue;
 
     for (const category of listDirs(path.join(MRPACKS_DIR, versionDir))) {
       const bundleDir = path.join(MRPACKS_DIR, versionDir, category);
@@ -222,7 +224,7 @@ async function mapLimit(items, limit, fn) {
 async function main() {
   const bundles = discoverBundles();
   if (bundles.length === 0) {
-    console.error("No fabric bundles found under data/oneclient/bundles/.mrpacks/");
+    console.error("No bundles found under data/oneclient/bundles/.mrpacks/");
     process.exit(1);
   }
 

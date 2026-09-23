@@ -1,12 +1,12 @@
-name = "OneClient 1.8.9 Fabric [Utility]"
+name = "OneClient 1.8.9 Ornithe [Utility]"
 author = "Polyfrost"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 poly-format = "1"
 enabled = false
 category = "Utility"
-id = "utility-1.8.9-fabric"
-update-url = "oneclient/generated/utility-1.8.9-fabric.mrpack"
+id = "utility-1.8.9-ornithe"
+update-url = "oneclient/generated/utility-1.8.9-ornithe.mrpack"
 
 [index]
 file = "index.toml"

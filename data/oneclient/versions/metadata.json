@@ -9,7 +9,7 @@
             "entries": [
                 {
                     "minor_version": 9,
-                    "loader": "fabric",
+                    "loader": "ornithe",
                     "java": 25,
                     "tags": ["PvP"]
                 }

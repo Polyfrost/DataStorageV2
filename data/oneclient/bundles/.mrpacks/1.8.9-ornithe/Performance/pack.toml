@@ -1,12 +1,12 @@
-name = "OneClient 1.8.9 Fabric [Performance]"
+name = "OneClient 1.8.9 Ornithe [Performance]"
 author = "Polyfrost"
 version = "0.1.0"
 pack-format = "packwiz:1.1.0"
 poly-format = "1"
 enabled = false
 category = "Performance"
-id = "performance-1.8.9-fabric"
-update-url = "oneclient/generated/performance-1.8.9-fabric.mrpack"
+id = "performance-1.8.9-ornithe"
+update-url = "oneclient/generated/performance-1.8.9-ornithe.mrpack"
 
 [index]
 file = "index.toml"

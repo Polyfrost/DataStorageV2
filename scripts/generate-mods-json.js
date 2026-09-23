@@ -20,7 +20,7 @@ const PRIORITY_FILE = path.join(
 );
 const DEFAULT_OUTPUT = path.join(REPO_ROOT, "data", "oneclient", "mods.json");
 
-const IGNORED_VERSIONS = ["26.1-fabric", "1.8.9-fabric"];
+const IGNORED_VERSIONS = ["26.1-fabric", "1.8.9-ornithe"];
 
 const MODRINTH_API = "https://api.modrinth.com/v2";
 const USER_AGENT =
