@@ -35,7 +35,7 @@ for version in "$MRPACKS_DIR"/*; do
     output="$OUTPUT_DIR/$name-$parsed.mrpack"
 
     echo "Bundling $bundle -> $output"
-    ( cd "$bundle" && "$PACKWIZ_BIN" modrinth export --output "$output" )
+    ( cd "$bundle" && packwiz_export "$output" )
 
     # Rezip deterministically: reset every timestamp to the unix epoch and sort
     # the entries so the resulting archive is byte-for-byte reproducible.
