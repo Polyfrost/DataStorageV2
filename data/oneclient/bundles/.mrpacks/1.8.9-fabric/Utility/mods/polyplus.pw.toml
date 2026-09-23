@@ -1,0 +1,14 @@
+id = "polyplus"
+enabled = true
+name = "PolyPlus"
+filename = "polyplus-1.2.29+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/PolyPlus/d148d34e6181da8bf133ad62d4e70db6dc9c22ce/polyplus-1.2.29+1.8.9.jar"
+hash-format = "sha512"
+hash = "13a928a89795fca7bab5a8c19fa73a604629c029e13441c3adf813e44436706c606c0001016a7ac97e71d5bf4b20c441230c11bfa486012ad516b55dd6dbca30"
+
+[overrides]
+description = "Various expansions for the OneClient 'modpack'"
+authors = ["Polyfrost"]

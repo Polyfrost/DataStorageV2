@@ -1,0 +1,14 @@
+id = "hybedwars"
+enabled = true
+name = "HyBedWars"
+filename = "HyBedWars-1.0.0-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/HyBedWars/fea0d0da0e05ad2d71dbcc7185312e7bb1fb5df0/HyBedWars-1.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "68430ddfda623fadfcbb0cc44fd17d517755ce6cb90373deaf71dcbd10111f6b513123f8c424849c73ba46c315ad2a5f7807fb89434927eeaa6de929be4da745"
+
+[overrides]
+description = "Minecraft mod for Hypixel adding BedWars QoL features like resource display, height limit and more!"
+authors = ["Tomeko"]

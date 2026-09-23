@@ -1,0 +1,14 @@
+id = "polyblur"
+enabled = true
+name = "PolyBlur"
+filename = "polyblur-2.2.1+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/PolyBlur/0e25f794878cd66dd0e69df7ee5f23ff1c4cf610/polyblur-2.2.1+1.8.9.jar"
+hash-format = "sha512"
+hash = "b83baf821567186c6bd28c2d99a3ca24603acc406c72a103e59131b74246e486a02446323168eb01970800934b30c11d2cde677169405434bf1e64eb87c93b53"
+
+[overrides]
+description = "Motion blur"
+authors = ["Polyfrost"]

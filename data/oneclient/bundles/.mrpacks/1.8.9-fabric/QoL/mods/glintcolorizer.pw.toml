@@ -1,0 +1,14 @@
+id = "glintcolorizer"
+enabled = true
+name = "GlintColorizer"
+filename = "glintcolorizer-3.0.0+1.8.9.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/GlintColorizer/a4192ff13f9b4e5f032a34dfe04e950b53a2bb84/glintcolorizer-3.0.0+1.8.9.jar"
+hash-format = "sha512"
+hash = "bdce5baacdbf5602279167155ac8c22d7095b7165c934c2d0731184148f294d7daacb049cb89c07854d79c7c15e0b8ff4af98d76c3bbbc9ffacea62f01de9cd3"
+
+[overrides]
+description = "Change the color of the enchantment glint!"
+authors = ["Polyfrost"]

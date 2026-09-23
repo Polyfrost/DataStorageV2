@@ -1,0 +1,14 @@
+id = "rendertweaks"
+enabled = true
+name = "Render Tweaks"
+filename = "rendertweaks-2.0.1+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/RenderTweaks/b385e5682baa52808cfbb8d124aade3b1696f755/rendertweaks-2.0.1+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "0a77adfcfb2f275172a2ac82b8f2a5463c987fef54be2e6fc53784d0ba10b9d4de13d210ef9a925583b6b3b87aeabd08e73d21602cba0e0e0e86ebc762824252"
+
+[overrides]
+description = "Allows modifying the rendering of some in world things."
+authors = ["Microcontrollers"]

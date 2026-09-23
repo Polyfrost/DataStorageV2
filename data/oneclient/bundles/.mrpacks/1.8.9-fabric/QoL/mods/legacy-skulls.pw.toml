@@ -1,0 +1,15 @@
+id = "AugHLYph"
+enabled = true
+name = "Legacy Skulls"
+filename = "legacy-skulls-1.0.0+mc1.8.9-ornithe.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/AugHLYph/versions/38fnirG5/legacy-skulls-1.0.0%2Bmc1.8.9-ornithe.jar"
+hash-format = "sha512"
+hash = "244d4339f3bc53b3d71ea9fbbddd16351ba229fe27f8c051d03871e00799d3c93419c2d7d9c9ae89bdfff36e3d87908fa8a47d53d365d1e259f9dcd0e1c2f882"
+
+[update]
+[update.modrinth]
+mod-id = "AugHLYph"
+version = "38fnirG5"

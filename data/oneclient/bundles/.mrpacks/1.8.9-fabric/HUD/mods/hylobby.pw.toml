@@ -1,0 +1,14 @@
+id = "hylobby"
+enabled = true
+name = "HyLobby"
+filename = "HyLobby-1.0.0-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/HyLobby/889224d2bdb342e9de8bfa232b17f802f31db4a6/HyLobby-1.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "b0ef551d9046d8a7f9c1c819742a373a0234f4d7a5873226501061e16015e32f3093dbcfb9df3812613af5c0e7949ac6aae70439a66beefe624c22cf4b580a68"
+
+[overrides]
+description = "Minecraft mod for Hypixel adding lobby related features like middle click gui items and sound silencer"
+authors = ["Tomeko"]

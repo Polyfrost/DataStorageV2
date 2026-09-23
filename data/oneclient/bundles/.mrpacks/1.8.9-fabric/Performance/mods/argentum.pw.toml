@@ -1,0 +1,14 @@
+id = "argentum"
+enabled = true
+name = "Argentum"
+filename = "argentum-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Argentum/8b714f75d5b7d4ed669ffe61b416599f5aba9c74/argentum-1.0.0.jar"
+hash-format = "sha512"
+hash = "1e24a88de197e80c8a7e86837fff7c76cb9070d78890bba6d6e8279fa823aed81911426de205e51397f5ccaa07ae58ca99b92d52af57b965c9aded26c64f5b10"
+
+[overrides]
+description = "Client rendering improvements for Minecraft 1.8.9"
+authors = ["rdh"]

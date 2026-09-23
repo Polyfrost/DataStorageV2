@@ -1,0 +1,14 @@
+id = "sciophobia"
+enabled = true
+name = "Sciophobia"
+filename = "sciophobia-1.2.6+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Sciophobia/8b4a1a0e5082c59426bd192ca9f6eee60e5a5a16/sciophobia-1.2.6+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "87a0d2799119cdcd080b5e89bfc21e256a7bd17c7041f265b79e0bd5897b38d76f0a4dcf97f283e6fce3c8a50f03b9c47352dfae01329594e15c5569638ac175"
+
+[overrides]
+description = "Customize Minecraft's text shadow!"
+authors = ["Microcontrollers", "Wyvest"]

@@ -1,0 +1,14 @@
+id = "screenshotmessageenhancer"
+enabled = true
+name = "Screenshot Message Enhancer"
+filename = "ScreenshotMessageEnhancer-2.5.0-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/ScreenshotMessageEnhancer/2c2a94c84d010a4ddf8983447b17446c3375bfe7/ScreenshotMessageEnhancer-2.5.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "88003c8e5b5e8ab54e772d424b28b827129df1ec120b49f3b787ff67c31cb7c3cff0c1c1f310fe59a25782389a463e6eeb64c9a76c3c009088de6f1337102c2f"
+
+[overrides]
+description = "Enhance screenshot messages with COPY, OPEN, OPEN FOLDER, DELETE, UPLOAD buttons"
+authors = ["Tomeko"]

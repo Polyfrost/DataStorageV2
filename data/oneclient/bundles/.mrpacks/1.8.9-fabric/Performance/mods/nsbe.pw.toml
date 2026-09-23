@@ -1,0 +1,15 @@
+id = "KDHYFoqc"
+enabled = true
+name = "NSBE"
+filename = "NSBE-0.1.0+mc1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KDHYFoqc/versions/Qp33MOIG/NSBE-0.1.0%2Bmc1.8.9.jar"
+hash-format = "sha512"
+hash = "d0445e4af7f112e5b03a424b0a31aa8def69288b71e5779dcfd4ef6a1bc7bac218747576a55463eeff8b9dd4c8d3263506a02592ad142e2e2fb17e0528322147"
+
+[update]
+[update.modrinth]
+mod-id = "KDHYFoqc"
+version = "Qp33MOIG"

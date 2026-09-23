@@ -1,0 +1,14 @@
+id = "itemphysiclite"
+enabled = true
+name = "O-ItemPhysicLite"
+filename = "O-ItemPhysicLite-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/O-ItemPhysicLite/974c21c10ff65a02fb2bd4aaae4e7def853528b5/O-ItemPhysicLite-1.0.0.jar"
+hash-format = "sha512"
+hash = "622be749a818b5152346d0c9e98c272648775dcc5c94310afd7fe6beb80059a7604f998a4e0b37579f425eb3af0bdb0c0b9cf144038323f820252421161b1bdf"
+
+[overrides]
+description = "Adds physics to dropped items client-side."
+authors = ["Tryfle"]

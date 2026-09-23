@@ -1,0 +1,14 @@
+id = "mountopacity"
+enabled = true
+name = "Mount Opacity"
+filename = "mountopacity-1.2.2+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/MountOpacity/123dcbe172276c1a131af8583747b2ed881d9aef/mountopacity-1.2.2+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "eb1796a667bc1d11f2e42eb7deef87d1b1ab930744e72352e29c1fb4881da0887d0b2503f025b763ac4ce6a412d199c02ca1d895484123c4e76693b13e20b2ad"
+
+[overrides]
+description = "Opacity for entities you can ride."
+authors = ["Microcontrollers"]

@@ -1,6 +1,21 @@
 {
     "clusters": [
         {
+            "major_version": 8,
+            "name": "Bountiful Update",
+            "art": "/oneclient/versions/art/Bountiful_Update.png",
+            "long_description": "Minecraft's 1.8 update, known as \"The Bountiful Update\", added ocean monuments, armor stands, and the slime block. It remains the most popular version for PvP, being the last release before the controversial 1.9 combat update.",
+            "tags": ["Bountiful Update"],
+            "entries": [
+                {
+                    "minor_version": 9,
+                    "loader": "fabric",
+                    "java": 25,
+                    "tags": ["PvP"]
+                }
+            ]
+        },
+        {
             "major_version": 21,
             "name": "Tricky Trials",
             "art": "/oneclient/versions/art/Tricky_Trials.jpg",

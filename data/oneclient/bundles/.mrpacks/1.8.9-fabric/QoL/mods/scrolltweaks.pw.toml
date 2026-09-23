@@ -1,0 +1,14 @@
+id = "scrolltweaks"
+enabled = true
+name = "Scroll Tweaks"
+filename = "scrolltweaks-1.0.7+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/ScrollTweaks/9da44c35a5ce2f9fbfde729928398ae486a0485c/scrolltweaks-1.0.7+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "ed54c21109ef6095477414955d2f515b78cd84d2e0dd1a2a4f135b436df97d9a9a8a0ccf8e1915b73883e428c61911d71a832445494c129d8a54823bbd1f5cd2"
+
+[overrides]
+description = "Customizable hotbar scrolling."
+authors = ["Microcontrollers"]

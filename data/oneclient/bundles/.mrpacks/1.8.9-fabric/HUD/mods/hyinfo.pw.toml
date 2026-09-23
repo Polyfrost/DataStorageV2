@@ -1,0 +1,14 @@
+id = "hyinfo"
+enabled = true
+name = "HyInfo"
+filename = "HyInfo-3.0.0-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/HyMod/261f995543be9e15b591f1a7430cad147593c8b7/HyInfo-3.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "a10ae2261b4716f6877d844d69756151e48db36b4c1b5629befdb04208c6e124d51ecc5cdbd6e65e5ede94e47528418f77992f551fb114bd13a39142cc03658f"
+
+[overrides]
+description = "Minecraft mod for Hypixel adding levelhead, BedWars stars, SkyWars stars and Duels division display in Tablist and above nametags"
+authors = ["Tomeko"]

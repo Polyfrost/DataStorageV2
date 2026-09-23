@@ -1,0 +1,56 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/crosshairtweaks.pw.toml"
+hash = "144403c438c656ceb7e781f0197439df8a14f9a5aacb784291af7a6bdcd8e26d"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/hybedwars.pw.toml"
+hash = "61d6a0759b249b70f0a541017a2166028c0600edfc0d1fb6edabca7b48f9600d"
+metafile = true
+
+[[files]]
+file = "mods/hybridge.pw.toml"
+hash = "86d05615ddc939f29ceab5cd8b7b0a84af5cba8e6d922f85b8812b07b4df2009"
+metafile = true
+
+[[files]]
+file = "mods/hyinfo.pw.toml"
+hash = "1284bb13a089bb1fce26596c65079fbdff4f296962862004dbc5f55a1752a114"
+metafile = true
+
+[[files]]
+file = "mods/hylobby.pw.toml"
+hash = "64b3ea88a626d4976602c1034b6039f7e1a64c0fcd7d72991f0e5fb9a16445ee"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "e13af004eb316abae0dadd9afc6bf622dea4260c92f05197ead55c4a907d2a03"
+metafile = true
+
+[[files]]
+file = "mods/osl.pw.toml"
+hash = "cbc287ab9eb06565e63e9d33461302e9e72ce30e21911d0b368e8b86168e3e9b"
+metafile = true
+
+[[files]]
+file = "mods/overlaytweaks.pw.toml"
+hash = "e5f223b33c4832788629949edad1f7ab3a9b19f0ab85f16d4bea17104f16de4d"
+metafile = true
+
+[[files]]
+file = "mods/tipper.pw.toml"
+hash = "51188dccb872ebd47bc61496cbe1c059fc8381437c048a657d46c237dbbe77d7"
+metafile = true

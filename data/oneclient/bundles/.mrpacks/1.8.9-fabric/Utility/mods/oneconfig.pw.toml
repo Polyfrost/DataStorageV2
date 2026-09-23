@@ -1,0 +1,15 @@
+id = "oneconfig"
+enabled = true
+hidden = true
+name = "OneConfig"
+filename = "OneConfig-1.8.9-ornithe-1.2.4.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/OneConfig/e85003b60661b34c409b251abd65c4649b342a14/OneConfig-1.8.9-ornithe-1.2.4.jar"
+hash-format = "sha512"
+hash = "def7ea409d627e5ecdc03f35cf35341c0d540577ae15a1d25b44359bc6b04ac94d0578b491943418111c120b7a9622e6bfcbdf2928e21efbecf8d20c7c1dcb30"
+
+[overrides]
+description = "Access all your mod settings in one place, with a sleek and intuitive interface."
+authors = ["Polyfrost"]

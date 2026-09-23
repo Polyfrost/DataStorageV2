@@ -1,0 +1,14 @@
+id = "tooltipscroll"
+enabled = true
+name = "Tooltip Scroll"
+filename = "Tooltip-Scroll-Ornithe-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Tooltip-Scroll-Fabric/cee1f3ee3788aa9b5224d34bc00d6e76b3b6af36/Tooltip-Scroll-Ornithe-1.0.0.jar"
+hash-format = "sha512"
+hash = "b91337bd0a5a4777b08b9a39ad4c796b1406711672e55a9e6ff53b7ec5f3a75d73db913a772c576b54d1646fd8d63f2e1cb81ef43d31665ddb1c3231c1083fc7"
+
+[overrides]
+description = "Allows the tooltip GUI to be moved with the scrollwheel or configurable keys."
+authors = ["Provismet"]

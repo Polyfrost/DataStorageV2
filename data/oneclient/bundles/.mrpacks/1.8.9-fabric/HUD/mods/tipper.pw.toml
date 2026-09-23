@@ -1,0 +1,14 @@
+id = "tipper"
+enabled = true
+name = "Tipper"
+filename = "tipper-1.0.0+mc1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Tipper/1a4f6ecdc5493390fb603a8b39807ce766cfc3e7/tipper-1.0.0+mc1.8.9.jar"
+hash-format = "sha512"
+hash = "9fc99c433ab81c7565180123dbd81ac59b20a4a4115c79a36367e681b6844cfcedfa74d9f231f7679c8d1c0c6e1257415f1d32a9df0493234318d92c636744e5"
+
+[overrides]
+description = "Automatically send and receive tips while playing Hypixel."
+authors = ["awruff"]

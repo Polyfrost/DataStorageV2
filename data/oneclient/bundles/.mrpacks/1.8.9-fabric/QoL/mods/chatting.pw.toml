@@ -1,0 +1,14 @@
+id = "chatting"
+enabled = true
+name = "Chatting"
+filename = "chatting-3.1.5+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Chatting/a542fd44fdb5e5885c080667e8d9e8187f8a0d4e/chatting-3.1.5+1.8.9.jar"
+hash-format = "sha512"
+hash = "f330cf0eaa2cd28dad59481c8020133fb3243e68b9bb18fc822575a1bec04e48bbbfda6129efa550495fa607803287610d86676e55ee9b82d7fcc2e03205db8a"
+
+[overrides]
+description = "Bringing a fresh look to the Minecraft chat, with various improvements and features."
+authors = ["Polyfrost"]

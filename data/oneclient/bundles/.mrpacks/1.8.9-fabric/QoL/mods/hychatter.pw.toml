@@ -1,0 +1,14 @@
+id = "hychatter"
+enabled = true
+name = "HyChatter"
+filename = "HyChatter-1.0.0-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/HyChatter/c917d793fcfeaa685c8d9d545450c050e2f449a5/HyChatter-1.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "c7ddea53dd06876977e8df27920a25141d0ae7aed9479cea2c8242012653a972f0ff736c780c0eea0fee2b91d4d6c6c447a3ad6e6f50f3d495aa2940a5c3099e"
+
+[overrides]
+description = "Minecraft mod for Hypixel adding chat related features like autogg, chat coordinates waypoints and more!"
+authors = ["Tomeko"]

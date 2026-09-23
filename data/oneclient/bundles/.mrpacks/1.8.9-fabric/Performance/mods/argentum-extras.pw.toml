@@ -1,0 +1,14 @@
+id = "argentum-extras"
+enabled = true
+name = "Argentum Extras"
+filename = "argentum-extras-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Argentum/8b714f75d5b7d4ed669ffe61b416599f5aba9c74/argentum-extras-1.0.0.jar"
+hash-format = "sha512"
+hash = "0f9e878099cb626e5a3c5a0789c780aba021eae8ef3dd10c56a61f1cbbe84735f3bd88695a557fee450db371e4adbb385b41aa021d10990018d1d60ac003f89e"
+
+[overrides]
+description = "Optional rendering and visual controls for Argentum"
+authors = ["rdh"]

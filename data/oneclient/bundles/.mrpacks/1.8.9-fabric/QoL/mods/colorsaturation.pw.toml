@@ -1,0 +1,14 @@
+id = "colorsaturation"
+enabled = true
+name = "ColorSaturation"
+filename = "colorsaturation-1.3.0+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/ColorSaturation/573a10721201de06198c8fa0e2a2a99be21a7c99/colorsaturation-1.3.0+1.8.9.jar"
+hash-format = "sha512"
+hash = "4d222c65d8609f1bc91ada6bd582da3291c69b0bc242d3ff3a151a1c01400da214b3e86b4a1529bec3b3950ceae416e8660fd68126aa586a59b98a1eb4c778cc"
+
+[overrides]
+description = "A mod which changes Minecraft's color saturation."
+authors = ["Polyfrost"]

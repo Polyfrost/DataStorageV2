@@ -1,0 +1,14 @@
+id = "polyzoom"
+enabled = true
+name = "PolyZoom"
+filename = "PolyZoom-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/PolyZoom/ba8f354e453f730f9d2e3fdb15a34952aaab89d9/PolyZoom-1.0.0.jar"
+hash-format = "sha512"
+hash = "0f8791d4c5420723bc982154fe9554827fbf8ee9fa7de9fc6b1b94e8134a54553f50f0fa07c9e09b741139d5d20a9fc503a3fc649111dba284e3dd9d421271bf"
+
+[overrides]
+description = "zoom"
+authors = ["Polyfrost"]

@@ -1,0 +1,141 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/betterhurtcam.pw.toml"
+hash = "3ff18cf8f401fa81bb59d5e2fdb269def75ecb28a573535c6402c27b747ba5b6"
+metafile = true
+
+[[files]]
+file = "mods/betternightvision.pw.toml"
+hash = "75a40161b082cfded7086e1462154fac867d2c2f5d9d71bb68afa475d3946dfd"
+metafile = true
+
+[[files]]
+file = "mods/betterscreens.pw.toml"
+hash = "631c19a1e871fde1a7841ba189956f432e99da475e61f47dba8784c1599a351a"
+metafile = true
+
+[[files]]
+file = "mods/blur.pw.toml"
+hash = "6e9d89c4447791015d5497dd83cd4e4e8cdf632bed63ac410b10839392c515c1"
+metafile = true
+
+[[files]]
+file = "mods/chatting.pw.toml"
+hash = "6891110c09f0d2cb7ea05a59f9eb8846ccffebd0659d0469b07576d0a807b629"
+metafile = true
+
+[[files]]
+file = "mods/colorsaturation.pw.toml"
+hash = "6b2f87600c752f3a57fea834484e1effd119f8936d78bf6827d9c0fb21e9cc48"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/confirmresetkeys.pw.toml"
+hash = "4aa29dc9b0ec29f0c304083a48e034d4c45ec991e3a7968864141b39ab99507a"
+metafile = true
+
+[[files]]
+file = "mods/droppeditemtweaks.pw.toml"
+hash = "1790b81df338e0e9826499c3011d2be86ecca0898c52ee9bbbdd3d62158de58e"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/glintcolorizer.pw.toml"
+hash = "6b68abd670f86b7fd13ef12951c5f10fd2481c027a0e3eba9c5f22b838c139ea"
+metafile = true
+
+[[files]]
+file = "mods/hychatter.pw.toml"
+hash = "522e5d78cc8a6045afa3ea915493e0b744bbf650792227785c41784180f2e0ee"
+metafile = true
+
+[[files]]
+file = "mods/itemphysiclite.pw.toml"
+hash = "2b7f5febe517fde35cbda3e056b604467d7c7de777dff07cf08d83f91328d570"
+metafile = true
+
+[[files]]
+file = "mods/legacy-skulls.pw.toml"
+hash = "7b7b14585e3504a2cb9889c59cf613266bf2d37a49c7f42a91bee01461552287"
+metafile = true
+
+[[files]]
+file = "mods/mountopacity.pw.toml"
+hash = "1700d0bb32650fe6a643067d14500956eb97bcddfd185c48e1ad88532f82af2f"
+metafile = true
+
+[[files]]
+file = "mods/numericalenchantments.pw.toml"
+hash = "705480b03dd3bd48bb30468649dd65653abc2b381aa6de005b3e37800653f8f7"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "e13af004eb316abae0dadd9afc6bf622dea4260c92f05197ead55c4a907d2a03"
+metafile = true
+
+[[files]]
+file = "mods/osl.pw.toml"
+hash = "cbc287ab9eb06565e63e9d33461302e9e72ce30e21911d0b368e8b86168e3e9b"
+metafile = true
+
+[[files]]
+file = "mods/polyblur.pw.toml"
+hash = "4fbf721079982ef45de093ffabe62066e68263e45d564bf22507ac47131dc52e"
+metafile = true
+
+[[files]]
+file = "mods/rendertweaks.pw.toml"
+hash = "e6c03a394a3f918fe93606ab90c24b2b38d9874ce1c8abc49ac4210fe0e02111"
+metafile = true
+
+[[files]]
+file = "mods/sciophobia.pw.toml"
+hash = "fdf6c5f57ef217b6c2ad72668f3763dc36fb4c015c1e522bb9bb6699c6734c3b"
+metafile = true
+
+[[files]]
+file = "mods/screenshotmessageenhancer.pw.toml"
+hash = "d7d6f9e045d360f9b25dc32a6e13929ce2d45c691852786233381a6904d06e63"
+metafile = true
+
+[[files]]
+file = "mods/scrolltweaks.pw.toml"
+hash = "cf9628dc21adf96b68129c5c4615c5b585748545c2968e2aa5c1b2ac3f3fe5f3"
+metafile = true
+
+[[files]]
+file = "mods/shaketweaks.pw.toml"
+hash = "3598eaef8fe75bd1dc68c4cd3c616060bb384612b7f8a9b6a4a3efc4b33c1521"
+metafile = true
+
+[[files]]
+file = "mods/smoothscrollingrefurbished.pw.toml"
+hash = "7b278bd0a21af11866398cdb157a0ecd0bb0403c1a6bdcb74a1d1e0c10324d2b"
+metafile = true
+
+[[files]]
+file = "mods/smoothskies.pw.toml"
+hash = "a48687ee0145caed492dc9cd5f738e4c655f2b8d67f475f8a3e4aa7e87555645"
+metafile = true
+
+[[files]]
+file = "mods/soundtweaks.pw.toml"
+hash = "110babdf2def2a26ea1c137aba66f7950a82d5ccc9b8ac114ba7c2429dd3b38e"
+metafile = true
+
+[[files]]
+file = "mods/tooltipscroll.pw.toml"
+hash = "405181d6ac839940494985f5865382043cb5eab4f58685169aa26b25ba276245"
+metafile = true

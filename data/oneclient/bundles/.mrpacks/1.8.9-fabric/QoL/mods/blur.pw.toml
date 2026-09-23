@@ -1,0 +1,14 @@
+id = "blur"
+enabled = true
+name = "Legacy GUI Blur"
+filename = "LegacyGuiBlur-6.3.3+mc1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Blur/90efb2a38e12c2f68238273d7404acaa8f0abd5d/LegacyGuiBlur-6.3.3+mc1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "ba3ff498a8902c0a06cc3a887daf269d8ab22e8b11457c5e8403fbaff085a6ddbde0b0f1c698cdb97a6c6d431d8f0699805226dd272609833cf6770f948c75dc"
+
+[overrides]
+description = "Configurable blur, gradients, and fade animations behind Minecraft GUIs"
+authors = ["Motschen", "amiralimollaei", "tterrag1098", "Pyrofab"]

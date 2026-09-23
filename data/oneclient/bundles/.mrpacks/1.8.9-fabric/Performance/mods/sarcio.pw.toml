@@ -1,0 +1,14 @@
+id = "sarcio"
+enabled = true
+name = "Sarcio"
+filename = "Sarcio-0.1.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Sarcio/c4bdaa01d468d61256678a2a720dff5de4f595d8/Sarcio-0.1.jar"
+hash-format = "sha512"
+hash = "9065733e9b864eaa7f2481e1327a75be92dff8f2daf8f2f0ac0f92b40de84f23d14375336cd42478a4076f81c89a25c05623f869874dee3f97090bfbfbe2fe47"
+
+[overrides]
+description = "Targeted memory optimizations and bugfixes for Minecraft 1.8.9"
+authors = ["rdh", "Microcontrollers"]

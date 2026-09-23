@@ -1,0 +1,14 @@
+id = "redaction"
+enabled = true
+name = "REDACTION"
+filename = "redaction-2.0.1+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/REDACTION/e8ab57c2aa13fa20d221cd92ad9d29ac16e218f0/redaction-2.0.1+1.8.9.jar"
+hash-format = "sha512"
+hash = "ad8cdee0202208a2fce29f4e51e829c527066456d339c68c12dbf6ba1dddaedd7207d4f1f3a12737d9fec275e0d21a23deecebaeba0fcc8c54e5ba5d7655b455"
+
+[overrides]
+description = "Redaction Mod"
+authors = ["Polyfrost"]

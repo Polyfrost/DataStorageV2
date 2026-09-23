@@ -1,0 +1,14 @@
+id = "smoothscrollingrefurbished"
+enabled = true
+name = "Smooth Scrolling Refurbished"
+filename = "smoothscrollingrefurbished-1.10.0+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/SmoothScrollingRefurbished/1a6089dbe4d494afc411964128cb2facf357f719/smoothscrollingrefurbished-1.10.0+1.8.9.jar"
+hash-format = "sha512"
+hash = "d25b529274e1246d19d704db6234a50a4ca2cc59a802f0ee3d62898b1919a42369dda8e2da8cb80f769bf80a454c0cf90610fcf6765585760aa1f66064656065"
+
+[overrides]
+description = "Changes most scrollbars in the game to scroll smoothly."
+authors = ["JustAlittleWolf"]

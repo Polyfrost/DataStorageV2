@@ -1,0 +1,14 @@
+id = "betterhurtcam"
+enabled = true
+name = "BetterHurtCam"
+filename = "BetterHurtCam-1.14.0+mc1.8.9-ornithe.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/betterhurtcam/79c28d89a0e8953e3d078f26e7bff5f71d41ef80/BetterHurtCam-1.14.0+mc1.8.9-ornithe.jar"
+hash-format = "sha512"
+hash = "5f946dfd8c73e10a35a2e6fda1c410bccf29f9749d4c24e4dad6794c526c634203d5e4d6c748888bc647f52e3d8b1d79eb21a694b92155cd9fed907c07cd3157"
+
+[overrides]
+description = "nohurtcam but better"
+authors = ["uku", "thecount"]

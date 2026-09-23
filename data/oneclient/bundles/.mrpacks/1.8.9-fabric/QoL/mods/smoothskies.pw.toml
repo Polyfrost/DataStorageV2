@@ -1,0 +1,14 @@
+id = "smoothskies"
+enabled = true
+name = "Smooth Skies"
+filename = "smoothskies-2.12.2+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Smooth-Skies/1ae69f2f2674d4ae45d480611fef92a412f77a73/smoothskies-2.12.2+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "dc814d522801e88b37808c344f8e3a247d545721d4d3e5845229c03524b356bb562a3b1e4c146b79a8000083dc28910c332103cc3ca30c4594d6e26fdcf045c9"
+
+[overrides]
+description = "Fixes several skybox related graphical issues"
+authors = ["Microcontrollers"]

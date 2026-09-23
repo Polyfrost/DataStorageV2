@@ -1,0 +1,13 @@
+id = "polysprint"
+enabled = true
+name = "PolySprint"
+filename = "polysprint-1.2.2+1.8.9.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/PolySprint/e4771d2e608cad9afc12d3ed731e85a58ba84136/polysprint-1.2.2+1.8.9.jar"
+hash-format = "sha512"
+hash = "e8ec23612ef5b70bf4e653979cfef26ab00ec70a2410c616ac52a262af5dc778680ca509d56ea7df15a08ba218e3abb34e38af859c0c43aad592c114fe0e3925"
+
+[overrides]
+authors = ["Polyfrost"]

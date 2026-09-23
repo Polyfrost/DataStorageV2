@@ -1,0 +1,14 @@
+id = "hybridge"
+enabled = true
+name = "HyBridge"
+filename = "HyBridge-1.0.0-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/HyBridge/3d889aa6dfd6f6b94c9f37eab459c24d84d3a1d8/HyBridge-1.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "e9c3e82341531adb6e25636ae1b4bd99ebc39324b9554564d4970a35ce6bf77aa2987365236869a425b8ffc547a93a3f394105ec3122e13223e1b06eca7e060e"
+
+[overrides]
+description = "Minecraft mod for Hypixel adding height overlay for The Bridge"
+authors = ["Tomeko"]

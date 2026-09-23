@@ -1,0 +1,13 @@
+id = "soundtweaks"
+enabled = true
+name = "SoundTweaks"
+filename = "soundtweaks-1.0.0-alpha.1+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/SoundTweaks/5d234a6c204614c81def4f9e332bf4ef7d140c36/soundtweaks-1.0.0-alpha.1+1.8.9.jar"
+hash-format = "sha512"
+hash = "71bb5f5f18372c44010d6847c931afcf8b961afc7327f249ea1afb92e8cac35fb6fb6b696220e969e0df6d006aa8bf6a35af83944c5d4d3357d1f367d0151c47"
+
+[overrides]
+authors = ["Polyfrost"]

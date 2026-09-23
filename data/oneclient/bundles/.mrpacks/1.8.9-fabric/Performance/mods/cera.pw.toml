@@ -1,0 +1,14 @@
+id = "cera"
+enabled = true
+name = "Cera"
+filename = "cera-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Argentum/8b714f75d5b7d4ed669ffe61b416599f5aba9c74/cera-1.0.0.jar"
+hash-format = "sha512"
+hash = "580805262ce9d393b93109a8de2348ca3ecafadf1efa29f7691ad527aca1bf1a85fbdd0fb02838fc440a4791bdcbcbbb2261d2046bdf200c06fa26c6960a8819"
+
+[overrides]
+description = "MCPatcher/OptiFine resource pack extensions"
+authors = ["rdh"]

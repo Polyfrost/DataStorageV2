@@ -1,0 +1,14 @@
+id = "pulse"
+enabled = false
+name = "pulse"
+filename = "pulse-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Pulse/e6d61f6f5a01fe1b4f3505218fc741cd696cca62/pulse-1.0.0.jar"
+hash-format = "sha512"
+hash = "f3a7dbab50058b7059da151feba2961c1b80a20cae813dd62854d427669926b9297a07358519c102e90b2f3d35ee24aa7606379f742c10ced39dfa29f819564d"
+
+[overrides]
+description = "Profiling and render instrumentation for Minecraft 1.8.9"
+authors = ["rdh"]

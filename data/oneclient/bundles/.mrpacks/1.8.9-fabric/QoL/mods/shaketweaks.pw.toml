@@ -1,0 +1,14 @@
+id = "shaketweaks"
+enabled = true
+name = "Shake Tweaks"
+filename = "shaketweaks-1.2.3+1.8.9-fabric.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/ShakeTweaks/df2b685b028f88fc67b00892ec5c6e6fee78be8f/shaketweaks-1.2.3+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "f7d4b25c15ea4e0093a05c01087028a27845684d7e528b6d3f75e190e1e07ca64db1876a65add736caa4ae44ca1259883543a5e06cc1826f68929aa7bbe4eb67"
+
+[overrides]
+description = "Small tweaks to the shake effect of the screen and hand!"
+authors = ["Microcontrollers"]

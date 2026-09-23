@@ -1,0 +1,14 @@
+id = "betternightvision"
+enabled = true
+name = "Better Night Vision"
+filename = "betternightvision-1.0.5+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/BetterNightVision/43be3e8c4bdcfb7a03d8b8dfc59d915294e46fa2/betternightvision-1.0.5+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "12c02ae3ec068e9aed40345c1327882aa619720e5240af8d3d210b928c3636674d1ff81093bd6c38e14e4bf93af929a6a3d928235d3406ab25a3f9d242d97dd9"
+
+[overrides]
+description = "Customize the night vision effect"
+authors = ["Microcontrollers"]

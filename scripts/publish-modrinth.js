@@ -32,7 +32,7 @@ const INDEX_NAME = "modrinth.index.json";
 const CONTENT_MARKER = (digest) => `Content SHA-1: \`${digest}\``;
 const CONTENT_MARKER_RE = /Content SHA-1: `([0-9a-f]{40})`/g;
 
-const IGNORED_MC = new Set(["26.1"]);
+const IGNORED_MC = new Set(["26.1", "1.8.9"]);
 
 const ENVIRONMENT = "client_only";
 

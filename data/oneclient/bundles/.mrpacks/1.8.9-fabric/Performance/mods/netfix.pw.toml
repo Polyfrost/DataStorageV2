@@ -1,0 +1,15 @@
+id = "hCyJxgEF"
+enabled = true
+name = "netfix"
+filename = "netfix-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hCyJxgEF/versions/Ql9GSRaF/netfix-1.0.3.jar"
+hash-format = "sha512"
+hash = "7b67de5f9f4ffddd8f34eb8f4f34538beb682815f00be3b311044facf43445b4481ccb5cc811153b1047550612b0a3b7724e133fa656143fa82533a16fedb31e"
+
+[update]
+[update.modrinth]
+mod-id = "hCyJxgEF"
+version = "Ql9GSRaF"

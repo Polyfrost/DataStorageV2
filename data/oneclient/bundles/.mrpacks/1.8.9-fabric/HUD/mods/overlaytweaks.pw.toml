@@ -1,0 +1,14 @@
+id = "overlaytweaks"
+enabled = true
+name = "Overlay Tweaks"
+filename = "overlaytweaks-2.0.0+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/OverlayTweaks/39ca4b81ce3233e8a205c527b6aefc8844b660f8/overlaytweaks-2.0.0+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "8912029f680c0395880e1774c502797a8418370da1e62e5e3d86b70d74c055ad3448070c8c2934e969245d0063e8a735605c9584fd24edfc54c2c9b25828c2c8"
+
+[overrides]
+description = "Small tweaks to Minecraft's overlays!"
+authors = ["Microcontrollers"]

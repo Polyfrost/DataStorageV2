@@ -1,0 +1,16 @@
+id = "EHGtwpJv"
+enabled = true
+hidden = true
+name = "Ornithe Standard Libraries"
+filename = "ornithe-standard-libraries-0.21.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EHGtwpJv/versions/T21Ph3Pq/ornithe-standard-libraries-0.21.0.jar"
+hash-format = "sha512"
+hash = "a55c645fe68f9d434eecef82d47d05754afe0cecae73cae58d0bb9a42e1a117348b172e1e49d9acc585a77f70fecf7fed2c679aaa4ed12564cac51807b73adce"
+
+[update]
+[update.modrinth]
+mod-id = "EHGtwpJv"
+version = "T21Ph3Pq"

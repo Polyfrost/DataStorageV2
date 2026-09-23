@@ -1,0 +1,66 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/argentum-extras.pw.toml"
+hash = "e890cd258a4e61b34554f98566f045da0f3ed325b47c62aa06914dcf922b3302"
+metafile = true
+
+[[files]]
+file = "mods/argentum.pw.toml"
+hash = "77c017505de2573786dffe0857905f60bdfba1622c7fc131afa4f47b5bd5cb5c"
+metafile = true
+
+[[files]]
+file = "mods/cera.pw.toml"
+hash = "448d4f3a0fc7830488d03730fe094c5ef1535cc64c596d61a349f3e94c2455ec"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "d83d410a13030b412a4e3d9209857fe11a21b214d8268968f0d93b4ea0a4bf08"
+metafile = true
+
+[[files]]
+file = "mods/exploint.pw.toml"
+hash = "dfa68e77d0d194174f9ba9add8643653b2e47b483aa51381993a9b30715e96f4"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/lenis.pw.toml"
+hash = "f9e77127523a912ca04b97c7b1d2c1d28f91739ef2bc19d1f9502f5923f3b30a"
+metafile = true
+
+[[files]]
+file = "mods/netfix.pw.toml"
+hash = "303c1af3178ba1ac3916b6305385912eee957c6c4016cf44e4a26bae6f101403"
+metafile = true
+
+[[files]]
+file = "mods/nsbe.pw.toml"
+hash = "8be68b747d6f97d15f9bfaae5541d240e20d1afa8596906bcb4db0a6d6f7fcbd"
+metafile = true
+
+[[files]]
+file = "mods/osl.pw.toml"
+hash = "cbc287ab9eb06565e63e9d33461302e9e72ce30e21911d0b368e8b86168e3e9b"
+metafile = true
+
+[[files]]
+file = "mods/pulse.pw.toml"
+hash = "897ca84169fe5d842e0fa69f1a55547d33904fa3745a103f33f4c67a9390ee4e"
+metafile = true
+
+[[files]]
+file = "mods/sarcio.pw.toml"
+hash = "bcff94a298171f70605137fff637e485f8d6f555d977b649032b525a31ee2f1d"
+metafile = true

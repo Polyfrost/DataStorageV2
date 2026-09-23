@@ -1,0 +1,14 @@
+id = "confirmresetkeys"
+enabled = true
+name = "Confirm Reset Keys"
+filename = "confirmresetkeys-1.0.1+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/ConfirmResetKeys/96bcc86bd3d6274f910ecbfad222b6a7ff4fee7b/confirmresetkeys-1.0.1+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "ec37fa6e85702a6ea5befecb1618348c17323eca3dc9f6a3082008d6688cde1c2520a08ddb0504789c89eb3100f7b8529e78f1c84daccee1163ea8250f6c5b11"
+
+[overrides]
+description = "Makes sure you don't accidentally reset your keys!"
+authors = ["Microcontrollers"]

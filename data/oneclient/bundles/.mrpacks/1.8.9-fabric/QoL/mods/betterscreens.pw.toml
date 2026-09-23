@@ -1,0 +1,14 @@
+id = "betterscreens"
+enabled = true
+name = "Better Screens"
+filename = "betterscreens-2.0.14+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Better-Screens/fd58a321701e598086c39102d81b80d9b1d0f71f/betterscreens-2.0.14+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "ebfa7ee399535d2ba4907a778a17bad4d7200d0103fe0f0fc53bd0a609e4fc377520d4e48e3cbc4e8240b0163db1dfba995e5592cffcae051741b8fb3d7c3b01"
+
+[overrides]
+description = "Improvements to some screen mechanics!"
+authors = ["Microcontrollers", "Moulberry", "nea89o", "Noamm"]

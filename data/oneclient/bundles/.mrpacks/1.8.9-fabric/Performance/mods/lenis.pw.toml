@@ -1,0 +1,13 @@
+id = "lenis"
+enabled = true
+name = "Lenis"
+filename = "lenis-0.1.4.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/lenis/8b94852d8ed52b69db6598b325a10a1a2a4fdd55/lenis-0.1.4.jar"
+hash-format = "sha512"
+hash = "c5f8b59daf1d5b3f7f216c7c5b54ea1e1837fa92382481c86899f8188dc29ca45f1de30fcd1622f8b4b86a38cf2b8d57d76dc2810576c90486e841cfadc7b72f"
+
+[overrides]
+authors = ["notdevcody"]

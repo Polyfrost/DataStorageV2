@@ -46,7 +46,9 @@ const CONCURRENCY = 8;
 /** Java version bundled with the game for a given MC version. */
 function javaForMc(mcVersion) {
   const major = parseInt(String(mcVersion).split(".")[0], 10);
-  // MC 26.1+ ships Java 25; 1.21.x ships Java 21.
+  // MC 26.1+ ships Java 25; 1.21.x ships Java 21. The 1.8.9 Ornithe bundles are
+  // launched on Java 25 as well (see the entry in versions/metadata.json).
+  if (mcVersion === "1.8.9") return "25";
   return major >= 26 ? "25" : "21";
 }
 

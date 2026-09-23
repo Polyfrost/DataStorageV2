@@ -1,0 +1,14 @@
+id = "crosshairtweaks"
+enabled = true
+name = "Crosshair Tweaks"
+filename = "crosshairtweaks-2.0.1+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/CrosshairTweaks/c4467ed2b8c06d0a84c7bf98580488d4e079cf87/crosshairtweaks-2.0.1+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "9a39d9869ef3ef14a283be64be195958ac9e6b5b51f20ee540948e6f1b0e8e2ba0d0a6f1e21102c5bc85e28e1aebb5a7f87c9be798f4d3371e7bb529b5453729"
+
+[overrides]
+description = "Small tweaks to the vanilla crosshair."
+authors = ["Microcontrollers"]

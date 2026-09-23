@@ -1,0 +1,14 @@
+id = "numericalenchantments"
+enabled = true
+name = "Numerical Enchantments"
+filename = "numericalenchantments-1.0.2+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Numerical-Enchantments/f67285092c27a2495c26059878319eab3ff73bcd/numericalenchantments-1.0.2+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "330122e36766850835e4a9e5917b18f848f1cc797af687f3d13dfe7bbddfa74d805a7ca66822d545b41db41a8fd651c38298e9e86dc021b919ef4fb82b99cab5"
+
+[overrides]
+description = "Converts roman numerals to arabic numbers."
+authors = ["Microcontrollers"]

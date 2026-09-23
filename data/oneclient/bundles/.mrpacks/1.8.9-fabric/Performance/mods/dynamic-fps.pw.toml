@@ -1,0 +1,14 @@
+id = "dynamic_fps"
+enabled = true
+name = "Dynamic FPS"
+filename = "dynamic-fps-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/Dynamic-FPS/99f3c39210410354c3d148ee752797eb5c84f354/dynamic-fps-1.0.0.jar"
+hash-format = "sha512"
+hash = "20efcf24a934c79b3ad2a761fc2f9f6d81b7e41c793cceaa08909219906139fe7457ef59fdcdd2487313a36eeb7d180f5d3de7a5b15d025e19721e3b40255ab1"
+
+[overrides]
+description = "Reduce resource usage while Minecraft is in the background or idle."
+authors = ["juliand665", "LostLuma"]

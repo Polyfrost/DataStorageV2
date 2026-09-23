@@ -1,0 +1,15 @@
+id = "mL0gJygK"
+enabled = true
+name = "Exploint"
+filename = "exploint-1.0.0+mc1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/mL0gJygK/versions/mvnEsLbQ/exploint-1.0.0%2Bmc1.8.9.jar"
+hash-format = "sha512"
+hash = "e2d687ff38bf57b2dce6b5a7e1ce5f2b12a5b6b3f4264b99cbeb7eeb7e52fc4686e9ddae73548a9bf55a5172a8d7c3f6a064b0966663067248d55da50054b658"
+
+[update]
+[update.modrinth]
+mod-id = "mL0gJygK"
+version = "mvnEsLbQ"

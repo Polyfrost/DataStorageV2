@@ -1,0 +1,14 @@
+id = "droppeditemtweaks"
+enabled = true
+name = "Dropped Item Tweaks"
+filename = "droppeditemtweaks-2.0.0+1.8.9-fabric.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/awruff/assets/main/jars/DroppedItemTweaks/3a4518b6d14509ac0bbc239481dff64e2add556d/droppeditemtweaks-2.0.0+1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "4e0c13401bacdd62eb099230451a5df1ffdfbc5fd48d7721995eecc8f0f60857220b953043d6f2e7bdf70cfcfd2cd7b6bdd2497e03ffe03852a47b1ad7fd24e0"
+
+[overrides]
+description = "Small changes to the way dropped items render."
+authors = ["Microcontrollers"]
