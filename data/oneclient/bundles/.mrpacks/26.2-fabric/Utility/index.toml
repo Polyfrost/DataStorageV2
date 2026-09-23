@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "43c9dbce70bad963d1922201c251221e72aa8fbf8774362d3560cc40d4a8e1d4"
+hash = "fc2b9e73071fc0e639906cad46f9b9a33c961293f07cfc52caa835cbe6687ae2"
 metafile = true
 
 [[files]]
@@ -217,5 +217,5 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "b36ce15db506dc4b6bc42033afb95c18fc633f65dd3adfd4d74bfeaa28200893"
+hash = "b75fed6626b8e3045e46fdedc046473eeb032939f0ac71a257892a3e37cc08d8"
 metafile = true
