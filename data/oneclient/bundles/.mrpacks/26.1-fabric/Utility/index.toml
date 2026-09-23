@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "45b56c775628411b98faf24a264e5d3d5be9d1f425b57328b6dd813202633266"
+hash = "82bcac0be5e07631364b5efc07b2d32d565446374f2865432197597eecba08d8"
 metafile = true
 
 [[files]]
@@ -211,5 +211,5 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "62f8523adf98354246a50597b73cc4ea0a939dc380e436409c61c951d3fb75bd"
+hash = "dcb71e08d0714667a40ae65f9b884864cb062fd62f996aad918c4f4b07058a8a"
 metafile = true

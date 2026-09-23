@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "45b56c775628411b98faf24a264e5d3d5be9d1f425b57328b6dd813202633266"
+hash = "82bcac0be5e07631364b5efc07b2d32d565446374f2865432197597eecba08d8"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/sciophobia.pw.toml"
-hash = "24f8f34bbd5edec1f30427f14f853f031f74345078dd39b41858721386b3161c"
+hash = "4d7c832b97a53580dfc637aed4f871f8aeeedbdda960154eb448380b3d83310f"
 metafile = true
 
 [[files]]
