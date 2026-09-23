@@ -1,22 +1,6 @@
 {
     "clusters": [
         {
-            "major_version": 8,
-            "name": "Bountiful Update",
-            "long_description": "Minecraft's 1.8 update, known as the \"Bountiful Update,\" introduced ocean monuments with guardians, new stone types, slime blocks, banners, and armor stands. Version 1.8.9 remains the long-standing favourite of the PvP community.",
-            "tags": ["Bountiful Update"],
-            "entries": [
-                {
-                    "minor_version": 9,
-                    "loader": "ornithe",
-                    "tags": ["PvP"],
-                    "flags": {
-                        "show_initial_migration": false
-                    }
-                }
-            ]
-        },
-        {
             "major_version": 21,
             "name": "Tricky Trials",
             "art": "/oneclient/versions/art/Tricky_Trials.webp",
