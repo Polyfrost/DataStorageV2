@@ -2,15 +2,15 @@ id = "6ekmo61Y"
 enabled = true
 hidden = false
 name = "Hypixel AutoTip"
-filename = "hypixelautotip-1.4.2+26.2.jar"
+filename = "hypixelautotip-1.5.0+26.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/6ekmo61Y/versions/QKhVWQQk/hypixelautotip-1.4.2%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/6ekmo61Y/versions/5LGn2UZd/hypixelautotip-1.5.0%2B26.2.jar"
 hash-format = "sha512"
-hash = "5ea590bef90ab04b69e9679779e15fe17cc9b62d78e4b52fd536ee7623596baaf300b6cc7482993d04b57e131b948a858592672dcad5d6ede162b0d969c00b8a"
+hash = "78d79c4ece769d2bcb26e837ef37bcbd4954061a5dc32d2d07d41e458764aee80366982ccfb44ecd5556ba7c476918b6b7f039a58337faa0acd6d1b67fe6bb49"
 
 [update]
 [update.modrinth]
 mod-id = "6ekmo61Y"
-version = "QKhVWQQk"
+version = "5LGn2UZd"

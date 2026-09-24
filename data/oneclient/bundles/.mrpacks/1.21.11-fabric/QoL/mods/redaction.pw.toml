@@ -2,15 +2,15 @@ id = "Gapz72zt"
 enabled = true
 hidden = false
 name = "Redaction"
-filename = "REDACTION-2.0.1+1.21.11.jar"
+filename = "REDACTION-2.1.0+1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Gapz72zt/versions/IZWvMhlQ/REDACTION-2.0.1%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/Gapz72zt/versions/teylpTvG/REDACTION-2.1.0%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "f945a83b8e4647ae495b105fc6b45dae60b69932f20d3b571c20aa81a69728213cb8dd504c476edde437fcd236c9d3a99558b26faec8d4d74f8037f835706c0d"
+hash = "223529f07bb9a68ef3e4366baf0cc705795399a7d5a4bfba9aa28f51e1eecfad209737aff3d2b455cecc40dd9a6cde70f397d00c66883782f86092dae5f650b6"
 
 [update]
 [update.modrinth]
 mod-id = "Gapz72zt"
-version = "IZWvMhlQ"
+version = "teylpTvG"
