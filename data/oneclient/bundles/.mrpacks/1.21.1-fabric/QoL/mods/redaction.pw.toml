@@ -2,15 +2,15 @@ id = "Gapz72zt"
 enabled = true
 hidden = false
 name = "Redaction"
-filename = "REDACTION-2.0.1+1.21.1.jar"
+filename = "REDACTION-2.1.0+1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Gapz72zt/versions/51xzbYiE/REDACTION-2.0.1%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/Gapz72zt/versions/o0wUDmvA/REDACTION-2.1.0%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "c98f5402bced2818248efd963cc01576a0799a387f22fc6483297bddb263b9930992aaad01bbd47d79a3c5e4a76d3f9d15e216dca413d9f5b4df04c857284051"
+hash = "32a379203aae8c0dd8dc1315c19b4bc948b7d855762eb277647ca77d66462507c579aad0fbd09f01325847d63273d983e1d61b66d9bc288b5b8c0b4c4b3d424c"
 
 [update]
 [update.modrinth]
 mod-id = "Gapz72zt"
-version = "51xzbYiE"
+version = "o0wUDmvA"

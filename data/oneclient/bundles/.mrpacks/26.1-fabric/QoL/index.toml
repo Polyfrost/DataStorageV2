@@ -246,12 +246,12 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "0092a437cc09fd5fed8ddcc01f1f711fe87097aae19679cfc04254c634c8504f"
+hash = "558ca68b81f54961c605dffdd7d212fa3c164fe251207c0d974e541699df4706"
 metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "4189753e62a30fde5d00973528dcd5b7a0c830b2bb50e4a7ea671313a624d1dd"
+hash = "cc7ed0d75cc76e1377dcfd0a775b896b6c7c4a91c4129b051e424291773cf727"
 metafile = true
 
 [[files]]
@@ -271,7 +271,7 @@ metafile = true
 
 [[files]]
 file = "mods/redaction.pw.toml"
-hash = "d5ac7bc3bcb695c3b0b2585ce1f8868189b86d60c86af19a574a7a464ca227e0"
+hash = "90132d0b031810de31d380ed75ac4c1f8e3f19f6009f5b85d910d20c8514162a"
 metafile = true
 
 [[files]]
