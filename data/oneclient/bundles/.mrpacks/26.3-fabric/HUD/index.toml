@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "316359e6d37a69a7b4758d2d7be50378171a74032fdc2b961965b0c33ef95243"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "8e5223cca91869db93c9c6a6acd9058f2f47cdaa6c3d54a1b703dca2e4d44711"
 metafile = true

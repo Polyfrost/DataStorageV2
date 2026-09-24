@@ -16,6 +16,16 @@ hash = "f79e63d829f673cbbdb69a61746a63fa0228cd9dc3d313e9f218f2c8d3a2fd7f"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "8e5223cca91869db93c9c6a6acd9058f2f47cdaa6c3d54a1b703dca2e4d44711"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "062b51d91d2766af91c5bae4def2ac960d2a544a4d18b74e4c7f64e181f9e80f"
+metafile = true
+
+[[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
@@ -28,6 +38,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "9388d15d371c08d3c06dcb0d0c41bbaad42f788f4993f48b839314a14c72d9e5"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "3e7bef23fcee7e4c6bac3c5d13d5786c0f19397e4a18639f6cea022fe7752817"
 metafile = true
 
 [[files]]
@@ -51,8 +66,18 @@ hash = "7a0dff1a11e523c830d75bb2b9b4d98c432c5f99715ebc2fd21dce109e1b9123"
 metafile = true
 
 [[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "4051847701e444448c84fefe7a97c3b5bfdc02a521241336ad40bca2fe32aa9f"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "fd523939506bc9cc3d7528ea9c3632365ccbfc7f4c818980c73d17ffdba72f3d"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "1134cfc2c07948ac5780944d3ed05253b69282574768fabf63654c172f76f051"
 metafile = true
 
 [[files]]
@@ -118,6 +143,11 @@ metafile = true
 [[files]]
 file = "mods/sciophobia.pw.toml"
 hash = "4d7c832b97a53580dfc637aed4f871f8aeeedbdda960154eb448380b3d83310f"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-compression.pw.toml"
+hash = "2069d2668d91e518f34aca0fb4a8cd959f1baf6ec0c9340806e275c7c212a758"
 metafile = true
 
 [[files]]

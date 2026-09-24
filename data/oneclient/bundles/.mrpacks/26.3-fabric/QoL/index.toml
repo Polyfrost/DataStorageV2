@@ -15,8 +15,23 @@ hash = "222a193e43684f8e5c2ff9c0bfcd1dccf4d4cc05f0b02b5b0d4039fa39fe9c31"
 metafile = true
 
 [[files]]
+file = "mods/better-screens.pw.toml"
+hash = "f6fd8b427a818db1ec3573828886acc5b6bd75be8a00ecbbbb16b19b4854d953"
+metafile = true
+
+[[files]]
 file = "mods/black-bar-concealer.pw.toml"
 hash = "e22f70d17f42d1c6b06977b9075dfd2442d5620d013165f18d49087fe3d43d52"
+metafile = true
+
+[[files]]
+file = "mods/blur-plus.pw.toml"
+hash = "2e237474260f9085d542f7d99d9959d4ecc53f9c84566a2da2c74bd38e5000f8"
+metafile = true
+
+[[files]]
+file = "mods/centered-crosshair.pw.toml"
+hash = "001b7b63a6f1f2641e5e6a6039fb3e10348498bdba61a386a011c6215537c49a"
 metafile = true
 
 [[files]]
@@ -50,6 +65,11 @@ hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
 
 [[files]]
+file = "mods/confirm-disconnect.pw.toml"
+hash = "151d5e44c5cbd3b2b60ad91f63c98d25d51b1a38ceeb05fc6601fa9d92e463b2"
+metafile = true
+
+[[files]]
 file = "mods/confirmresetkeys.pw.toml"
 hash = "0cd3283fe3548ad1b8177de40ca0198b436894d00b30df8fe48db2366443150f"
 metafile = true
@@ -65,8 +85,18 @@ hash = "1c438b39bf0065759bdf6ff2cdced494d336388eb294917fc37dc0e87d84ee79"
 metafile = true
 
 [[files]]
+file = "mods/crosshairtweaks.pw.toml"
+hash = "f01cec2a8f42ec24357e4713fbb5d878e34e21a1b2f00467e5138fc5c0c0d661"
+metafile = true
+
+[[files]]
 file = "mods/damagetint.pw.toml"
 hash = "3a0a4c4fffc6da3e61b70d42ee3e9f90f7ec30f9832058897e1ed745d53007b7"
+metafile = true
+
+[[files]]
+file = "mods/droppeditemtweaks.pw.toml"
+hash = "08ee55de8abc5c9044c6453baa3ad00adec6d7774e70a7ed53ee1223d4de7979"
 metafile = true
 
 [[files]]
@@ -85,6 +115,11 @@ hash = "505534eac584974a2f97dc0f39f987cdd13da1809a8afb0cbbc4292f81aa4407"
 metafile = true
 
 [[files]]
+file = "mods/esf.pw.toml"
+hash = "cb79c571497f1c408925d1d59045b881256eb6ee36eda60ef1a6601728200f32"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "1bc530ab825fb419eaec520826f93f4fa8c6d9e66a365ee65f5aff5ba509d70b"
 metafile = true
@@ -92,6 +127,21 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+metafile = true
+
+[[files]]
+file = "mods/flashback.pw.toml"
+hash = "6a56a7120dee583fdc1d922128d6e8ceccdddc7263c0eacd2a94b09f81cdefcd"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic-lite.pw.toml"
+hash = "1e5f2f7691b12ad9007bffbb8f15862d58529e4d27773c76e3d99fcf3d01405b"
+metafile = true
+
+[[files]]
+file = "mods/itemphysicliteconfig.pw.toml"
+hash = "0a01161d935a9efb80af3fb7edb97a1fabe41c6e7b56527cb484e691b82c6ddf"
 metafile = true
 
 [[files]]
@@ -115,6 +165,16 @@ hash = "c833b49f4534f56dbd6ce1ed520badb6e1eedc337f35ae9deda58f9f1225f6e3"
 metafile = true
 
 [[files]]
+file = "mods/mountopacity.pw.toml"
+hash = "fb84d74dcf63ee875c6d2c8c35de8927bbda5629bca455899c18733f31f240f3"
+metafile = true
+
+[[files]]
+file = "mods/nbt-autocomplete.pw.toml"
+hash = "e24eb62d72727721ee6740cf0ba395afc83bd89239a404681bb530c36c4560c9"
+metafile = true
+
+[[files]]
 file = "mods/numerical-enchantments.pw.toml"
 hash = "1309c3108cf977bb6a071b77489cd76cbbcb3259bab715d045da3ab1fd18e27f"
 metafile = true
@@ -125,8 +185,18 @@ hash = "278082f8abdb7e7cc226c6e589b04a7b61957454877ad625d4764d47d153917a"
 metafile = true
 
 [[files]]
+file = "mods/optigui.pw.toml"
+hash = "2ec83df601b2128b05e81abca411b58ed16437ff70048efa17f1fa10e1f31413"
+metafile = true
+
+[[files]]
 file = "mods/overflowparticles.pw.toml"
 hash = "c392afbf466c19efcc2c1cc6f7e67df29e3f56e3101dca61be11c47b626ef3aa"
+metafile = true
+
+[[files]]
+file = "mods/overlaytweaks.pw.toml"
+hash = "33935a2368728037bd053fca8ee967baa9e53f7f236f6124e587904f3b4c4f9a"
 metafile = true
 
 [[files]]
@@ -170,6 +240,16 @@ hash = "e7d12fa3b3303dc0432dabe878c33b65652ca98f015bda60ec4a7dba2c93811e"
 metafile = true
 
 [[files]]
+file = "mods/redaction.pw.toml"
+hash = "86f4c6ee3ca7044726cf6386f85b2e9ffab214d6e5771b958989b96687c2d058"
+metafile = true
+
+[[files]]
+file = "mods/rendertweaks.pw.toml"
+hash = "4b73c4c6f939b5d310dcfcda34de5ee260693fb4f88f3d3d0bb39c0f72a22dc1"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "0ded5e4d4cf5b8c1bb7c5e10a5b92a5f2426b66117fba9057b82687dc7ddaa6c"
 metafile = true
@@ -205,6 +285,26 @@ hash = "af31ef42af87a1df0d9203e1f43554240adfc37d7ca3a3899c77f57bdc3b5f64"
 metafile = true
 
 [[files]]
+file = "mods/skyboxify.pw.toml"
+hash = "ab38bc8f71ac36884a856d94ee527345bb30b574578084a7f435ddf9ba6431b1"
+metafile = true
+
+[[files]]
+file = "mods/smooth-scrolling-refurbished.pw.toml"
+hash = "190ce665326a5909b036c59d0da5279fbc110968fbadb15297e0cd451bead383"
+metafile = true
+
+[[files]]
+file = "mods/smooth-skies.pw.toml"
+hash = "3ede0538d46622a65d18cc0b8726ef9a5f29e649324296c245a87a4b100fa27a"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-perfected.pw.toml"
+hash = "fdd507c60a4a290458243c1942c7670a4f9022b37d6853659ec4b9f9953f394c"
+metafile = true
+
+[[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "acf052555b3be4be858c512f5ff6f8b9ee5942f192c2d2edfc6985102e92a735"
 metafile = true
@@ -220,6 +320,16 @@ hash = "c711943e94a50476753ab74fe0346af2aef1a28062752a5e1c79e9b4a14d965b"
 metafile = true
 
 [[files]]
+file = "mods/unilib.pw.toml"
+hash = "c8d6838b7e0875b6b06bb1f83f9980d403ef882a1c21f2248945a0a0ae634925"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "af87268ece650cda2d879c2e21135917c4edf4ff9a9064cf815b2509c6b32e15"
+metafile = true
+
+[[files]]
 file = "mods/wwaypoints.pw.toml"
 hash = "c072d40e5336e9872a606c8236ebf5772aa6f421d80ac8baa53a7b2cd679db2a"
 metafile = true
@@ -227,6 +337,11 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "cebfee1e0bc35052e1f92bf89b8c46a046b03ed1e6ce92f01d766af2ae27ae11"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "ac4b8958fb4730780942ade1ccaa9533f750bca3d2442ef9e173416eaac3039b"
 metafile = true
 
 [[files]]

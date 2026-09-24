@@ -36,6 +36,11 @@ hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
 metafile = true
 
 [[files]]
+file = "mods/controlify.pw.toml"
+hash = "4e50a8d6ed5fb20ab4f5029a04d3d13beded2b1d77647773ee5ea55da765f6df"
+metafile = true
+
+[[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "be0700b3d5c8e34d031470c28259a979ee9da445fb632f0a33f450a709184bda"
 metafile = true
@@ -116,6 +121,11 @@ hash = "6cf2a444139d1efd03da45d618f47d34fdfa7796985c02dbd75945fb519a8369"
 metafile = true
 
 [[files]]
+file = "mods/reward-claim.pw.toml"
+hash = "7de9c77b10e30a319395e3022840189adf3fd1d1bcb8c274d19b1e6e298a62ae"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "91cf0b2756fba54e194f2a12ae53dd982e6e61b2baa9663d4ef64a5894168517"
 metafile = true
@@ -126,6 +136,11 @@ hash = "964e40fb8ccd0147a8742e04ab182e78729db3e437d835f0e6fbcd535f9a8bdb"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "63b601e2ab293133629d9c5fc92ee6751e2ac588149b69d454073cca972d7278"
+metafile = true
+
+[[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "0dd8de45b39d88a7bfed52dc591ba48753a79266e7e6901d7c4c32e18807d1e8"
 metafile = true
@@ -133,4 +148,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "cebfee1e0bc35052e1f92bf89b8c46a046b03ed1e6ce92f01d766af2ae27ae11"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "3dfc527a667fc197f5f61a17441a2ff3659ed57ce3b621ca38c789f5b8cc300f"
 metafile = true

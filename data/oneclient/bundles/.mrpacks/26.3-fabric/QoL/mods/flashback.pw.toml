@@ -1,0 +1,16 @@
+id = "4das1Fjq"
+enabled = false
+hidden = false
+name = "Flashback"
+filename = "Flashback-0.43.6-for-MC26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4das1Fjq/versions/cV1pa0YV/Flashback-0.43.6-for-MC26.3.jar"
+hash-format = "sha512"
+hash = "80d194d117352942ebf2bc96914e5f0f550ab857204cda5b362459110ea22a38332825ecebf5ee3fc54d4f01c72279c0a06e45f26e26b62c49015e208167242e"
+
+[update]
+[update.modrinth]
+mod-id = "4das1Fjq"
+version = "cV1pa0YV"
