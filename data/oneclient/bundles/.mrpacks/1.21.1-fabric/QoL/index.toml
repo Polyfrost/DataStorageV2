@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysic-lite.pw.toml"
-hash = "64285c3d522b9dcc87801af76b0947962d2a238ed4a205e3b24484167c249aac"
+hash = "6665e496648a1c81ed8fe231ea67b71c42d78e5a45739d7cb839bca2653451fe"
 metafile = true
 
 [[files]]

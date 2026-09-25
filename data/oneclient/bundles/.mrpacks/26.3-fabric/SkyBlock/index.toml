@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
-hash = "adf44c99fa11f32cd2c1eb049c2e4422247903651cb7a6344adebc9aad54f877"
+hash = "d614a177a7ab88b3f6680306b788092fd987b55e69a6b438f86b0ff3dcab3899"
 metafile = true
 
 [[files]]
