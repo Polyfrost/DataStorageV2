@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "c641c97db0ec6adb49398422a237755b379aad5216486d49a813f82c4d8b415c"
+hash = "7aa64d02f347ecf68f0f05bfedbfac91a079b1aba09ca751afb0c16d5e5711a2"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "23e6bc356805ab665bdd7fc725de8045ff3fa3cf7a1b7c61f1902057fd99944b"
+hash = "a6998414416d205aec058b175f940dd346c30594e3a05cdad7ca87322f78e95a"
 metafile = true
 
 [[files]]
