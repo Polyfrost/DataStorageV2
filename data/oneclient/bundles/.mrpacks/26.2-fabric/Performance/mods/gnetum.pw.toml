@@ -4,6 +4,7 @@ hidden = false
 name = "Gnetum"
 filename = "Gnetum-4.5.5+26.2-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/7MoE34WK/versions/da7x8W8B/Gnetum-4.5.5%2B26.2-fabric.jar"

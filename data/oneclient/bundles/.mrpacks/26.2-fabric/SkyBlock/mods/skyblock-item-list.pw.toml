@@ -4,6 +4,7 @@ hidden = false
 name = "SkyBlock Item List"
 filename = "skyblock-item-list-0.0.22+26.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/OaKmV2nB/versions/cQCKIhLE/skyblock-item-list-0.0.22%2B26.2.jar"

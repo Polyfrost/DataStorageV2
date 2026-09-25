@@ -4,6 +4,7 @@ hidden = false
 name = "Animatica Refabricated"
 filename = "animatica-0.6.1+1.21.8.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/xEyZuswh/versions/AcnOTlcL/animatica-0.6.1%2B1.21.8.jar"

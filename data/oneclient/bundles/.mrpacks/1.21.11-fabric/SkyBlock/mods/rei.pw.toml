@@ -4,6 +4,7 @@ hidden = false
 name = "Roughly Enough Items (REI)"
 filename = "RoughlyEnoughItems-21.11.816-fabric.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/nfn13YXA/versions/QEiKPzyl/RoughlyEnoughItems-21.11.816-fabric.jar"

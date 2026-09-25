@@ -4,6 +4,7 @@ hidden = false
 name = "FOVChanger"
 filename = "fovchanger-1.0.0-beta.1+1.21.11.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/JyeqOA7R/versions/U0RVnEj3/fovchanger-1.0.0-beta.1%2B1.21.11.jar"

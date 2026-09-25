@@ -4,6 +4,7 @@ hidden = false
 name = "Crosshair Tweaks"
 filename = "crosshairtweaks-1.5.0+1.21.10-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/uv6GyJOZ/versions/2K79b6qH/crosshairtweaks-1.5.0%2B1.21.10-fabric.jar"

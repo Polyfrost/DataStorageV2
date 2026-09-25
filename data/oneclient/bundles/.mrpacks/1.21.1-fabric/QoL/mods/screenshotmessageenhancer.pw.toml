@@ -4,6 +4,7 @@ hidden = false
 name = "Screenshot Message Enhancer"
 filename = "ScreenshotMessageEnhancer-2.4.0-1.21.1_fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/UpkHNO8R/versions/FUCyh3LT/ScreenshotMessageEnhancer-2.4.0-1.21.1_fabric.jar"

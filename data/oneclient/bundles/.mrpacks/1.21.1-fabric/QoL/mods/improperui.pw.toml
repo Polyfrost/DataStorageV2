@@ -4,6 +4,7 @@ hidden = true
 name = "ImproperUI"
 filename = "ImproperUI-1.21-0.0.6-BETA.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/rizRiwPL/versions/7DS4gH7P/ImproperUI-1.21-0.0.6-BETA.jar"

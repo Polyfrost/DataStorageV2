@@ -4,6 +4,7 @@ hidden = false
 name = "Sciophobia"
 filename = "sciophobia-1.2.3+1.21.1-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/UlfKEvQE/versions/As2ElDiw/sciophobia-1.2.3%2B1.21.1-fabric.jar"

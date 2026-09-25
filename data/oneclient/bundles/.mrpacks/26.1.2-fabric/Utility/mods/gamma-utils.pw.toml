@@ -4,6 +4,7 @@ hidden = false
 name = "Gamma Utils (Fullbright)"
 filename = "Gamma-Utils-3.0.0+mc26.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/wdLuzzEP/versions/HhjXbCFQ/Gamma-Utils-3.0.0%2Bmc26.1.jar"

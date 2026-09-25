@@ -4,6 +4,7 @@ hidden = true
 name = "Resourceful Config"
 filename = "ResourcefulConfig-6.0.1.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/M1953qlQ/versions/IFB0XCI9/ResourcefulConfig-6.0.1.jar"

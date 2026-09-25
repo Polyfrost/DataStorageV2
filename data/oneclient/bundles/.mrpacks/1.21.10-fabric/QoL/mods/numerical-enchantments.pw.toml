@@ -4,6 +4,7 @@ hidden = false
 name = "Numerical Enchantments"
 filename = "numericalenchantments-1.0.1+1.21.1-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/HeyHGg62/versions/uoMdRvnS/numericalenchantments-1.0.1%2B1.21.1-fabric.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Complementary Shaders - Unbound"
 filename = "ComplementaryUnbound_r5.9.3.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip"

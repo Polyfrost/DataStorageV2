@@ -4,6 +4,7 @@ hidden = false
 name = "StackDeobfuscator"
 filename = "StackDeobfuscatorFabric-1.4.3+08e71cc.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/NusMqsjF/versions/pyiVLk9R/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar"

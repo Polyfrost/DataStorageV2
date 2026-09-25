@@ -4,6 +4,7 @@ hidden = false
 name = "Tooltip Scroll"
 filename = "tooltip-scroll-1.5.1+1.21.10.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/wySVd6d8/versions/gBczTI9h/tooltip-scroll-1.5.1%2B1.21.10.jar"

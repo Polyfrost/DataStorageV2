@@ -4,6 +4,7 @@ hidden = false
 name = "FerriteCore"
 filename = "ferritecore-7.0.3-fabric.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar"

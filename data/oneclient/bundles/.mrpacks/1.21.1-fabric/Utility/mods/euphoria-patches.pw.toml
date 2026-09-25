@@ -4,6 +4,7 @@ hidden = false
 name = "Euphoria Patches"
 filename = "EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/4H6sumDB/versions/YYczPGkW/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar"

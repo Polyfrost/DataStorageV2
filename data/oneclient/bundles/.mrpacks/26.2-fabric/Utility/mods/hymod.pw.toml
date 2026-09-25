@@ -4,6 +4,7 @@ hidden = false
 name = "HyMod"
 filename = "HyMod-2.2.2-26.2+_fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/QbDTS5hn/HyMod-2.2.2-26.2%2B_fabric.jar"

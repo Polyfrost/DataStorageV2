@@ -4,6 +4,7 @@ hidden = false
 name = "[ESF] Entity Sound Features"
 filename = "entity_sound_features-0.8.2-26.1-fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/IMuO8COj/versions/wLbaCWaA/entity_sound_features-0.8.2-26.1-fabric.jar"

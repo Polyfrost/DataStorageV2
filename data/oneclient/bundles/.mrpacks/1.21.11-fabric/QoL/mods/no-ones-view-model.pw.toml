@@ -4,6 +4,7 @@ hidden = false
 name = "View Model"
 filename = "view-model-1.0.6-1.21.11-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Pl8MehSU/versions/QjmRfjqG/view-model-1.0.6-1.21.11-fabric.jar"

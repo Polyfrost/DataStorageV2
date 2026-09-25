@@ -4,6 +4,7 @@ hidden = false
 name = "Zoomify"
 filename = "zoomify-2.15.2+1.21.11.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/w7ThoJFB/versions/gI5KZI8V/zoomify-2.15.2%2B1.21.11.jar"

@@ -4,6 +4,7 @@ hidden = true
 name = "spark"
 filename = "spark-1.10.187-fabric.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/l6YH9Als/versions/e3hsPc1o/spark-1.10.187-fabric.jar"

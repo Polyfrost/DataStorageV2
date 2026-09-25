@@ -4,6 +4,7 @@ hidden = true
 name = "LibJF"
 filename = "libjf-3.19.4+backport.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/WKwQAwke/versions/sMCcYngo/libjf-3.19.4%2Bbackport.jar"

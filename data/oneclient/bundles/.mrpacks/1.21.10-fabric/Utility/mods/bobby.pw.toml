@@ -4,6 +4,7 @@ hidden = false
 name = "Bobby"
 filename = "bobby-5.2.10+mc1.21.9.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/M08ruV16/versions/xiXouhmS/bobby-5.2.10%2Bmc1.21.9.jar"

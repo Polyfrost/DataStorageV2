@@ -4,6 +4,7 @@ hidden = true
 name = "YetAnotherConfigLib (YACL)"
 filename = "yet_another_config_lib_v3-3.9.6+26.3-fabric.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/1eAoo2KR/versions/rSnhz5tr/yet_another_config_lib_v3-3.9.6%2B26.3-fabric.jar"

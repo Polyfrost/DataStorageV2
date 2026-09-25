@@ -4,6 +4,7 @@ hidden = true
 name = "Mod Menu"
 filename = "modmenu-20.0.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/mOgUt4GM/versions/WdLLrOzD/modmenu-20.0.2.jar"

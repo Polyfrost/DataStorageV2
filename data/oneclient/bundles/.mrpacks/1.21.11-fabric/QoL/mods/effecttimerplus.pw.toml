@@ -4,6 +4,7 @@ hidden = false
 name = "Effect Timer Plus"
 filename = "effecttimerplus-fabric-2.2.7+1.21.11.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/JIUF2Wb5/versions/5mBLMYSY/effecttimerplus-fabric-2.2.7%2B1.21.11.jar"

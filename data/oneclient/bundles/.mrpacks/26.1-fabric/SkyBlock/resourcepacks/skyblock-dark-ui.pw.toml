@@ -4,6 +4,7 @@ hidden = false
 name = "Skyblock Dark UI"
 filename = "Skyblock Dark UI 1.18 for 26.1.2+.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Ed25eRJG/versions/vDsMM5iE/Skyblock%20Dark%20UI%201.18%20for%2026.1.2%2B.zip"

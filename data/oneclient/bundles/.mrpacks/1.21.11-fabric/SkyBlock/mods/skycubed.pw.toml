@@ -4,6 +4,7 @@ hidden = false
 name = "SkyCubed"
 filename = "SkyCubed-1.9.0-1.21.11.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/znwUKvZc/versions/HK6ybfV8/SkyCubed-1.9.0-1.21.11.jar"

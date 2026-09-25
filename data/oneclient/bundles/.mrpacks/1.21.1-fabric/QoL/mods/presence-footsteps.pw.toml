@@ -4,6 +4,7 @@ hidden = false
 name = "Presence Footsteps"
 filename = "PresenceFootsteps-1.11.2+1.21.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/rcTfTZr3/versions/CrvsDgLW/PresenceFootsteps-1.11.2%2B1.21.jar"

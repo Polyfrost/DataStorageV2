@@ -4,6 +4,7 @@ hidden = false
 name = "Simple Voice Chat"
 filename = "voicechat-fabric-2.6.23+26.2.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/JDkcoyAy/voicechat-fabric-2.6.23%2B26.2.jar"

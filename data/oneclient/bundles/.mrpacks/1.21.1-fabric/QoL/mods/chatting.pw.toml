@@ -4,6 +4,7 @@ hidden = false
 name = "Chatting"
 filename = "chatting-3.2.0+1.21.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/8pJYUDNi/versions/uOwCFqs5/chatting-3.2.0%2B1.21.1.jar"

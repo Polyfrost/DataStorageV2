@@ -4,6 +4,7 @@ hidden = true
 name = "Collective"
 filename = "collective-26.1.2-8.32.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/iXqgYZEw/collective-26.1.2-8.32.jar"

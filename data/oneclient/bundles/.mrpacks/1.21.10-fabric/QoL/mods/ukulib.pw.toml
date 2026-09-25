@@ -4,6 +4,7 @@ hidden = true
 name = "ukulib"
 filename = "ukulib-1.9.0+1.21.9.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Y8uFrUil/versions/EsXqtkdN/ukulib-1.9.0%2B1.21.9.jar"

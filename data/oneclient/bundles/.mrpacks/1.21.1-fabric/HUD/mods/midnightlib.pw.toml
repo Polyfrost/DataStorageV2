@@ -4,6 +4,7 @@ hidden = true
 name = "MidnightLib"
 filename = "midnightlib-fabric-1.9.3+1.21.1.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/codAaoxh/versions/as2ZKoB1/midnightlib-fabric-1.9.3%2B1.21.1.jar"

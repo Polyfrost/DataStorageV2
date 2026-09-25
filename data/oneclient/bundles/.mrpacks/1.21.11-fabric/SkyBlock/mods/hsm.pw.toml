@@ -4,6 +4,7 @@ hidden = false
 name = "HSM - Mending fix & Skyblock drill fix"
 filename = "hotshirtlessmen-2.0.4.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Q5kyKoWn/versions/4YU2kuXx/hotshirtlessmen-2.0.4.1.jar"

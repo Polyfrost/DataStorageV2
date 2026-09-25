@@ -4,6 +4,7 @@ hidden = true
 name = "Architectury API"
 filename = "architectury-fabric-20.1.15.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/mGrBpQYO/architectury-fabric-20.1.15.jar"

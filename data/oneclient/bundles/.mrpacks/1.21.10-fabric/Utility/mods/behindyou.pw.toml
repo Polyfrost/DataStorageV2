@@ -4,6 +4,7 @@ hidden = false
 name = "BehindYouV3"
 filename = "behindyouv3-3.5.0+1.21.10.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/sAFPANmp/versions/tqpLgQAR/behindyouv3-3.5.0%2B1.21.10.jar"

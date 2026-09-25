@@ -4,6 +4,7 @@ hidden = false
 name = "OptiPainting Updated"
 filename = "OptiPainting-1.1.0+1.21.10.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/CrZpD5qF/versions/ngL4DlnN/OptiPainting-1.1.0%2B1.21.10.jar"

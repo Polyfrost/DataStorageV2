@@ -4,6 +4,7 @@ hidden = false
 name = "kennytvs-epic-force-close-loading-screen-mod-for-fabric"
 filename = "forcecloseloadingscreen-2.3.6.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/blWBX5n1/versions/KpFKKs8P/forcecloseloadingscreen-2.3.6.jar"

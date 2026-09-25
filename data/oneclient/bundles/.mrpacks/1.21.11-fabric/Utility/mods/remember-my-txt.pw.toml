@@ -4,6 +4,7 @@ hidden = false
 name = "Remember My Txt"
 filename = "remember-my-txt-1.0.4+MC1.21.6.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/2GLXmVz9/versions/U3BS5cDk/remember-my-txt-1.0.4%2BMC1.21.6.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Hypixel Reward Claim"
 filename = "rewardclaim-2.4.0.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/sbgVdyNC/versions/892qTcZg/rewardclaim-2.4.0.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Redaction"
 filename = "REDACTION-2.0.1+1.21.10.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Gapz72zt/versions/CWw3FC7X/REDACTION-2.0.1%2B1.21.10.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "wWaypoints"
 filename = "wWaypoints 0.8.0 Fabric 26.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/eQke7g17/versions/vudKzlxH/wWaypoints%200.8.0%20Fabric%2026.2.jar"

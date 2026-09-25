@@ -4,6 +4,7 @@ hidden = false
 name = "Sodium Shadowy Path Blocks (SSPB)"
 filename = "sodium-shadowy-path-blocks-fabric-5.0.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/EIa1eiMm/versions/yFDGAR6C/sodium-shadowy-path-blocks-fabric-5.0.1.jar"

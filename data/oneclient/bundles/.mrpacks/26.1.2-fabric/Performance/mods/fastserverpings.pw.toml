@@ -4,6 +4,7 @@ hidden = false
 name = "Fast Server Pings"
 filename = "FastServerPings-1.1.4+26.3.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/5eVpQJSP/versions/FjliU16r/FastServerPings-1.1.4%2B26.3.jar"

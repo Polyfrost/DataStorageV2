@@ -4,6 +4,7 @@ hidden = false
 name = "Sound Physics Perfected"
 filename = "sound_physics_perfected-1.17.5+26.1-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/KS6Hbu9Z/versions/Ggyhlyvm/sound_physics_perfected-1.17.5%2B26.1-fabric.jar"

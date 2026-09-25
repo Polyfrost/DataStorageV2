@@ -4,6 +4,7 @@ hidden = true
 name = "UniLib"
 filename = "UniLib-1.2.1+1.21.11-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/nT86WUER/versions/2wvZasyj/UniLib-1.2.1%2B1.21.11-fabric.jar"

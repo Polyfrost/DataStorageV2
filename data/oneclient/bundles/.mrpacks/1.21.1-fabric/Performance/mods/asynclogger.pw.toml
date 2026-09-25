@@ -4,6 +4,7 @@ hidden = false
 name = "Async Logger"
 filename = "asynclogger-2.2.2+1.20.1-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/zvNzKfGF/versions/EdZUwK8s/asynclogger-2.2.2%2B1.20.1-fabric.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Render Tweaks"
 filename = "rendertweaks-2.0.2+26.3-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/1je3wJFn/versions/fmCoyiob/rendertweaks-2.0.2%2B26.3-fabric.jar"

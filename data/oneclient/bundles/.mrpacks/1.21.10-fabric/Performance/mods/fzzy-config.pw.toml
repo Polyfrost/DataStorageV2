@@ -4,6 +4,7 @@ hidden = true
 name = "Fzzy Config"
 filename = "fzzy_config-0.7.7+1.21.9.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/hYykXjDp/versions/zxQQiUtX/fzzy_config-0.7.7%2B1.21.9.jar"

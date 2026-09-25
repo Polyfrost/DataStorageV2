@@ -4,6 +4,7 @@ hidden = false
 name = "Ixeris"
 filename = "Ixeris-4.6.7+1.21.11-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/p8RJPJIC/versions/Ag1UtumI/Ixeris-4.6.7%2B1.21.11-fabric.jar"

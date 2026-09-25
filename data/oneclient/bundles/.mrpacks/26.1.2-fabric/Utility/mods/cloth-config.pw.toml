@@ -4,6 +4,7 @@ hidden = true
 name = "Cloth Config API"
 filename = "cloth-config-26.1.154.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/9s6osm5g/versions/GFM8zh9J/cloth-config-26.1.154.jar"

@@ -4,6 +4,7 @@ hidden = true
 name = "LibJF"
 filename = "libjf-26.1.4.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/WKwQAwke/versions/X6T6G2ad/libjf-26.1.4.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "ImmediatelyFast"
 filename = "ImmediatelyFast-Fabric-1.17.1+26.3.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/5ZwdcRci/versions/3MP9UR23/ImmediatelyFast-Fabric-1.17.1%2B26.3.jar"

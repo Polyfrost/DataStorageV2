@@ -4,6 +4,7 @@ hidden = false
 name = "Secure Skins"
 filename = "secureskins-1.0.1+26.1.1-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/4C4XkPCE/versions/cFBMxP98/secureskins-1.0.1%2B26.1.1-fabric.jar"

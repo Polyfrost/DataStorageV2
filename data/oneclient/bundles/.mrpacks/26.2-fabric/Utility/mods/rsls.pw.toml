@@ -4,6 +4,7 @@ hidden = false
 name = "Raise Sound Limit Simplified"
 filename = "rsls-1.2.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/SKW62Pht/versions/sjeLtBce/rsls-1.2.2.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Entity Culling"
 filename = "entityculling-fabric-1.11.0-mc1.21.11.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/NNAgCjsB/versions/mb5FjYpq/entityculling-fabric-1.11.0-mc1.21.11.jar"

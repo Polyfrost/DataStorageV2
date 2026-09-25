@@ -4,6 +4,7 @@ hidden = false
 name = "IQ Addons"
 filename = "iq-1.0.3+mc26.1.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/RDr7Qmy0/versions/6lT5EEqh/iq-1.0.3%2Bmc26.1.2.jar"

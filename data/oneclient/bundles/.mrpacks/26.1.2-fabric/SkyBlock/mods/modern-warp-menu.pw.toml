@@ -4,6 +4,7 @@ hidden = false
 name = "Modern Warp Menu"
 filename = "modernwarpmenu-0.2.4+26.1.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/3GNyRk4I/versions/qE039OfC/modernwarpmenu-0.2.4%2B26.1.2.jar"

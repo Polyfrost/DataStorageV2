@@ -4,6 +4,7 @@ hidden = false
 name = "Respackopts"
 filename = "respackopts-4.14.0.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/TiF5QWZY/versions/77bvDS07/respackopts-4.14.0.jar"

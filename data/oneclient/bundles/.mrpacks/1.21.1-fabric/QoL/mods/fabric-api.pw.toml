@@ -4,6 +4,7 @@ hidden = true
 name = "Fabric API"
 filename = "fabric-api-0.116.17+1.21.1.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar"

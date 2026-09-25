@@ -4,6 +4,7 @@ hidden = false
 name = "Detail Armor Bar Reconstructed"
 filename = "DetailArmorBarReconstructed-5.2.1+1.21.9_11-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Si9Uim4y/versions/yn6fzG3B/DetailArmorBarReconstructed-5.2.1%2B1.21.9_11-fabric.jar"

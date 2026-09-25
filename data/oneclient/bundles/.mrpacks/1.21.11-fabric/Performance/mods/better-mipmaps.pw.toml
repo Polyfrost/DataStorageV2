@@ -4,6 +4,7 @@ hidden = false
 name = "Better Mipmaps"
 filename = "better-mipmaps-0.2-1.21.11.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/daZwiCIT/versions/2x2toQZh/better-mipmaps-0.2-1.21.11.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Model Gap Fix"
 filename = "modelfix-1.21.10-1.12-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/QdG47OkI/versions/WzvHpi86/modelfix-1.21.10-1.12-fabric.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "[ETF] Entity Texture Features"
 filename = "entity_texture_features-7.2.4-1.21.9-fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/BVzZfTc1/versions/acEWVo9a/entity_texture_features-7.2.4-1.21.9-fabric.jar"

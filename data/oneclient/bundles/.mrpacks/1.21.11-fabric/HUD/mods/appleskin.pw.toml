@@ -4,6 +4,7 @@ hidden = false
 name = "AppleSkin"
 filename = "appleskin-fabric-mc1.21.11-3.0.8.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/EsAfCjCV/versions/59ti1rvg/appleskin-fabric-mc1.21.11-3.0.8.jar"

@@ -5,6 +5,7 @@ name = "SkyHanni for Hypixel SkyBlock"
 filename = "SkyHanni-7.41.0-mc1.21.11.jar"
 side = "client"
 pin = true
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/byNkmv5G/versions/36vjvPll/SkyHanni-7.41.0-mc1.21.11.jar"

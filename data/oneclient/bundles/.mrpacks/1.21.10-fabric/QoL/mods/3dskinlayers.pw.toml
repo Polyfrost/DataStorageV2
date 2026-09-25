@@ -4,6 +4,7 @@ hidden = false
 name = "3D Skin Layers"
 filename = "skinlayers3d-fabric-1.11.3-mc1.21.10.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/zV5r3pPn/versions/4mHA4WB5/skinlayers3d-fabric-1.11.3-mc1.21.10.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Centered Crosshair"
 filename = "centered-crosshair+1.21-1.0.8.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/xUTHly0N/versions/Orfi1Sh5/centered-crosshair%2B1.21-1.0.8.jar"

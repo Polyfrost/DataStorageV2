@@ -5,6 +5,7 @@ name = "Iris Shaders"
 filename = "iris-fabric-1.8.14-beta.1+mc1.21.1.jar"
 side = "client"
 pin = true
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar"

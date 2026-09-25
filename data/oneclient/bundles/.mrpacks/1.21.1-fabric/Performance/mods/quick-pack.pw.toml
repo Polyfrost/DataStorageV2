@@ -4,6 +4,7 @@ hidden = false
 name = "quick pack"
 filename = "quick-pack-fabric-1.5.0+1.21.1.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/pSISfJ4O/versions/IZT0VD3l/quick-pack-fabric-1.5.0%2B1.21.1.jar"
