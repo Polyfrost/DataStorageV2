@@ -4,6 +4,7 @@ hidden = false
 name = "Better Narrator Error"
 filename = "betternarratorerror-1.0.0.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/f63ZlDVt/versions/duKXqTU4/betternarratorerror-1.0.0.jar"

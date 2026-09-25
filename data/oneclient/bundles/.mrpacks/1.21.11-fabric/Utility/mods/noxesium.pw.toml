@@ -4,6 +4,7 @@ hidden = false
 name = "Noxesium"
 filename = "noxesium-fabric-3.0.0.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/Kw7Sm3Xf/versions/mn8Ev2Im/noxesium-fabric-3.0.0.jar"

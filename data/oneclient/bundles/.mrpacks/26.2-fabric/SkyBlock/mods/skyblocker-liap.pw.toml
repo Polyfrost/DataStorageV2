@@ -4,6 +4,7 @@ hidden = false
 name = "Skyblocker • Hypixel Skyblock"
 filename = "skyblocker-6.10.4+26.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/y6DuFGwJ/versions/Kegf578l/skyblocker-6.10.4%2B26.2.jar"

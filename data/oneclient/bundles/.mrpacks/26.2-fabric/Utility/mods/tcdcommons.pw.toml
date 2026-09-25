@@ -4,6 +4,7 @@ hidden = true
 name = "TCDCommons API"
 filename = "tcdcommons-5.5.6+fn-26.2.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Eldc1g37/versions/NM3aWYRR/tcdcommons-5.5.6%2Bfn-26.2.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Blur+"
 filename = "blur-fabric-6.3.1+26.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/NK39zBp2/versions/4EVZYUqp/blur-fabric-6.3.1%2B26.1.jar"

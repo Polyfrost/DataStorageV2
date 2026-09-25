@@ -4,6 +4,7 @@ hidden = false
 name = "MacOS Input Fixes"
 filename = "macos-input-fixes-1.13.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/x9BrsVME/versions/Bejy0PdE/macos-input-fixes-1.13.jar"

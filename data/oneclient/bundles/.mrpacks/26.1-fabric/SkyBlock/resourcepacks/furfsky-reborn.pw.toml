@@ -4,6 +4,7 @@ hidden = false
 name = "FurSky Reborn"
 filename = "FurSky Reborn.cats.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/khMbd0K1/versions/ZvrKZR97/FurSky%20Reborn.cats.zip"

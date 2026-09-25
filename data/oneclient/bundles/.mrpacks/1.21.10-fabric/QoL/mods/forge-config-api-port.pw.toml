@@ -4,6 +4,7 @@ hidden = true
 name = "Forge Config API Port"
 filename = "ForgeConfigAPIPort-v21.10.1+mc1.21.10-Fabric.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/ohNO6lps/versions/IKHTwwTv/ForgeConfigAPIPort-v21.10.1%2Bmc1.21.10-Fabric.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Odin - Hypixel Skyblock"
 filename = "Odin-0.3.4.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/jJJLywXp/versions/7FcnBdo7/Odin-0.3.4.jar"

@@ -4,6 +4,7 @@ hidden = true
 name = "Fabric Language Kotlin"
 filename = "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Ha28R6CL/versions/eRRZzGMc/fabric-language-kotlin-1.14.1%2Bkotlin.2.4.20.jar"

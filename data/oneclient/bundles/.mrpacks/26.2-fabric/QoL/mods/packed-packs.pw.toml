@@ -4,6 +4,7 @@ hidden = false
 name = "Packed Packs"
 filename = "packed_packs-fabric-2.2.5+26.2.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/8Pq6Exn2/versions/9DZ4Dxvy/packed_packs-fabric-2.2.5%2B26.2.jar"

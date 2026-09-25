@@ -4,6 +4,7 @@ hidden = false
 name = "Confirm Reset Keys"
 filename = "confirmresetkeys-1.0.1+26.1.2-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/y0E9vcbS/versions/SUQDEKfA/confirmresetkeys-1.0.1%2B26.1.2-fabric.jar"

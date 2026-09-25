@@ -4,6 +4,7 @@ hidden = false
 name = "BadOptimizations"
 filename = "BadOptimizations-2.4.1-26.3-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/Sp0ctspw/BadOptimizations-2.4.1-26.3-fabric.jar"

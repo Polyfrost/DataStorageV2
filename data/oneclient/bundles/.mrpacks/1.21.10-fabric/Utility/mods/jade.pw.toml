@@ -4,6 +4,7 @@ hidden = false
 name = "Jade 🔍"
 filename = "Jade-1.21.9-Fabric-20.0.5.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/nvQzSEkH/versions/qC0qUqL5/Jade-1.21.9-Fabric-20.0.5.jar"

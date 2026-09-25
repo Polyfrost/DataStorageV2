@@ -4,6 +4,7 @@ hidden = true
 name = "ZConfig"
 filename = "zconfig-1.0.0+26.x.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/4qmvXRB9/versions/tsgt79sG/zconfig-1.0.0%2B26.x.jar"

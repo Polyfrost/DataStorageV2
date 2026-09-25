@@ -4,6 +4,7 @@ hidden = true
 name = "Searchables"
 filename = "Searchables-fabric-26.3-1.0.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/fuuu3xnx/versions/RlPMfNdS/Searchables-fabric-26.3-1.0.2.jar"

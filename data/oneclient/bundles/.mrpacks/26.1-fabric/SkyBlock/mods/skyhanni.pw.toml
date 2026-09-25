@@ -4,6 +4,7 @@ hidden = false
 name = "SkyHanni for Hypixel SkyBlock"
 filename = "SkyHanni-9.0.0-mc26.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/byNkmv5G/versions/FxKnACkb/SkyHanni-9.0.0-mc26.1.jar"

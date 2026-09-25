@@ -4,6 +4,7 @@ hidden = false
 name = "No Chat Restrictions"
 filename = "NoChatRestrictions-Fabric-MC1.21.11-v1.0.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/z440MEwJ/versions/Wmvqt0wm/NoChatRestrictions-Fabric-MC1.21.11-v1.0.2.jar"

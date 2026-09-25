@@ -4,6 +4,7 @@ hidden = false
 name = "Dark Mode Skyblock"
 filename = "DarkModeSkyblock 1.1.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/NpllRsQ9/versions/qs1mBSCs/DarkModeSkyblock%201.1.zip"

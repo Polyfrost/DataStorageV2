@@ -4,6 +4,7 @@ hidden = false
 name = "[EMF] Entity Model Features"
 filename = "entity_model_features-3.3.8-26.3-fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/4I1XuqiY/versions/kdDVwkgV/entity_model_features-3.3.8-26.3-fabric.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Shake Tweaks"
 filename = "shaketweaks-1.2.4+26.2-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/plzVz20Z/versions/zA86Auu8/shaketweaks-1.2.4%2B26.2-fabric.jar"

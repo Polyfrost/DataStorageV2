@@ -4,6 +4,7 @@ hidden = false
 name = "Very Many Players (Fabric)"
 filename = "vmp-fabric-mc26.2-0.2.0+beta.7.236-all.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/wnEe9KBa/versions/d6FfpWFI/vmp-fabric-mc26.2-0.2.0%2Bbeta.7.236-all.jar"

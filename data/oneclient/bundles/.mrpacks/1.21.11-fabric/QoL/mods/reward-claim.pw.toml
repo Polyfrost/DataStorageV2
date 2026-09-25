@@ -4,6 +4,7 @@ hidden = false
 name = "Reward Claim"
 filename = "rewardclaim-2.3.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/sbgVdyNC/versions/Pgxl6Iof/rewardclaim-2.3.1.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "PolyBlur"
 filename = "polyblur-2.2.1+26.3.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/xT45UG5o/versions/fT1Un1mE/polyblur-2.2.1%2B26.3.jar"

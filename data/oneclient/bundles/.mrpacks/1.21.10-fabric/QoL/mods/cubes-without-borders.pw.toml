@@ -4,6 +4,7 @@ hidden = false
 name = "Cubes Without Borders"
 filename = "cwb-fabric-3.0.0+mc1.21.5.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/ETlrkaYF/versions/wXhtL4fb/cwb-fabric-3.0.0%2Bmc1.21.5.jar"

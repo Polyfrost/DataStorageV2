@@ -4,6 +4,7 @@ hidden = false
 name = "Scroll Tweaks"
 filename = "scrolltweaks-1.0.5+1.21.5-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/8MEn1Qsz/versions/lulLiQZV/scrolltweaks-1.0.5%2B1.21.5-fabric.jar"

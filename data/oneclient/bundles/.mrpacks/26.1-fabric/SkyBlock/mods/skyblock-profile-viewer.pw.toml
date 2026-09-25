@@ -4,6 +4,7 @@ hidden = false
 name = "SkyBlock Profile Viewer"
 filename = "SkyBlockPv-1.8.9-26.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/8yqXwFLl/versions/iVpdy3W0/SkyBlockPv-1.8.9-26.1.jar"

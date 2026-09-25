@@ -4,6 +4,7 @@ hidden = false
 name = "Dynamic FPS"
 filename = "dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/LQ3K71Q1/versions/Jwq069rR/dynamic-fps-3.11.10%2Bminecraft-26.3.0-fabric.jar"

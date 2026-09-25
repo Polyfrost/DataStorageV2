@@ -4,6 +4,7 @@ hidden = false
 name = "Better Command Block UI"
 filename = "bettercommandblockui-0.5.2a-1.21.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/8iQcgjQ2/versions/NvyufuVp/bettercommandblockui-0.5.2a-1.21.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Black Bar Concealer"
 filename = "blackbarconcealer-1.0.7.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/OpQzuo63/versions/beD4SpM1/blackbarconcealer-1.0.7.jar"

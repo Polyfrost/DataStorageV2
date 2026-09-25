@@ -4,6 +4,7 @@ hidden = false
 name = "Simple Nick Hider"
 filename = "simplenickhider-0.2.0+1.21.10-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/90Bv2iLE/versions/CW6Z5nGm/simplenickhider-0.2.0%2B1.21.10-fabric.jar"

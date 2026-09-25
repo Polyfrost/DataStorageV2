@@ -4,6 +4,7 @@ hidden = true
 name = "WalksyLib"
 filename = "WalksyLib-0.9.96+1.21.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/7P86n6Vg/versions/eYLzpv4t/WalksyLib-0.9.96%2B1.21.jar"

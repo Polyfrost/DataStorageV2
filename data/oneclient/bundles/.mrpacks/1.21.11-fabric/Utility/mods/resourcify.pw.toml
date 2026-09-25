@@ -4,6 +4,7 @@ hidden = false
 name = "Resourcify"
 filename = "Resourcify (1.21.11-fabric)-1.8.6.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/RLzHAoZe/versions/HsH7nIWU/Resourcify%20%281.21.11-fabric%29-1.8.6.jar"

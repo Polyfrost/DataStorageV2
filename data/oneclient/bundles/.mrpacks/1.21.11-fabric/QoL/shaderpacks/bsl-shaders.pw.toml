@@ -4,6 +4,7 @@ hidden = false
 name = "BSL Shaders"
 filename = "BSL_v10.1.5.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Q1vvjJYV/versions/yFTiE1Nc/BSL_v10.1.5.zip"

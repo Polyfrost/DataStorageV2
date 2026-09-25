@@ -4,6 +4,7 @@ hidden = false
 name = "Mount Opacity"
 filename = "mountopacity-1.2.2+26.1-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/ranjG9Zq/versions/5MlxDj3d/mountopacity-1.2.2%2B26.1-fabric.jar"

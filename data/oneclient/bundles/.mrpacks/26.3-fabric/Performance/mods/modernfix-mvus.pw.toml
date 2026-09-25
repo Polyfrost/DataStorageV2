@@ -4,6 +4,7 @@ hidden = false
 name = "ModernFix-mVUS"
 filename = "modernfix-5.27.20-build.1.jar"
 side = "both"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/TjSm1wrD/versions/iKbywnU7/modernfix-5.27.20-build.1.jar"

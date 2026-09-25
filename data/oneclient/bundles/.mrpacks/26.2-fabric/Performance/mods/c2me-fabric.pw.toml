@@ -4,6 +4,7 @@ hidden = false
 name = "Concurrent Chunk Management Engine (Fabric)"
 filename = "c2me-fabric-mc26.2-0.4.2-alpha.0.52.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/VSNURh3q/versions/LmKTn6Yc/c2me-fabric-mc26.2-0.4.2-alpha.0.52.jar"

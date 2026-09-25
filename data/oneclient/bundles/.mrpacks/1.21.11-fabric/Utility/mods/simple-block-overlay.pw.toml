@@ -4,6 +4,7 @@ hidden = false
 name = "Simple Block Overlay"
 filename = "simpleblockoverlay-1.6.4+1.21.11-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Vklwtkf7/versions/I7JHtLXp/simpleblockoverlay-1.6.4%2B1.21.11-fabric.jar"

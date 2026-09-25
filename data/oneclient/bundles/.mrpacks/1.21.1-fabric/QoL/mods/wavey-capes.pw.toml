@@ -4,6 +4,7 @@ hidden = false
 name = "Wavey Capes"
 filename = "waveycapes-fabric-1.11.1-mc1.21.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/kYuIpRLv/versions/87QownBp/waveycapes-fabric-1.11.1-mc1.21.1.jar"

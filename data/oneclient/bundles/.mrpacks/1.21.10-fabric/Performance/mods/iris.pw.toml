@@ -4,6 +4,7 @@ hidden = false
 name = "Iris Shaders"
 filename = "iris-fabric-1.9.7+mc1.21.10.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/YL57xq9U/versions/a98UkgML/iris-fabric-1.9.7%2Bmc1.21.10.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Controlling"
 filename = "Controlling-fabric-1.21.10-28.0.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/xv94TkTM/versions/FEy417jo/Controlling-fabric-1.21.10-28.0.2.jar"

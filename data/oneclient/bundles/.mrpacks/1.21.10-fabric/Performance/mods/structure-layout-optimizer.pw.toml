@@ -4,6 +4,7 @@ hidden = false
 name = "Structure Layout Optimizer"
 filename = "structure_layout_optimizer-1.1.4+1.21.9-fabric.jar"
 side = "server"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/ayPU0OHc/versions/d0Vgh2W9/structure_layout_optimizer-1.1.4%2B1.21.9-fabric.jar"

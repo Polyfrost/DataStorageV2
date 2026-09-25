@@ -4,6 +4,7 @@ hidden = false
 name = "TNT Countdown"
 filename = "countdown-2.1.0-beta.1+mc1.21.10.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/pQFm0mAJ/versions/fnNg2J5k/countdown-2.1.0-beta.1%2Bmc1.21.10.jar"

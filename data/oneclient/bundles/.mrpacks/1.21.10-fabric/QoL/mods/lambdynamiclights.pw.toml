@@ -4,6 +4,7 @@ hidden = false
 name = "LambDynamicLights - Dynamic Lights"
 filename = "lambdynamiclights-4.8.7+1.21.10.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/yBW8D80W/versions/QEjgcnZG/lambdynamiclights-4.8.7%2B1.21.10.jar"

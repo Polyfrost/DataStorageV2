@@ -4,6 +4,7 @@ hidden = false
 name = "OptiGUI"
 filename = "optigui-2.3.0-beta.9+1.21.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/JuksLGBQ/versions/npnKNaoI/optigui-2.3.0-beta.9%2B1.21.jar"

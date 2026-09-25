@@ -2,45 +2,45 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "6e3f9abc2ed8c63aa81f01f2da182ca954c1581c7d9759a5608928fa8a5c269d"
+hash = "a58677e2db9f2888f407b7c15994b20af14d3d4d78d7d9bf17b8ba21c7d4e373"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
+hash = "85b31a72b7f6bd710c14b81aad9a901d3e28c8fe9978c1a6e03fa1f08ec70921"
 metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+hash = "206f9f0af0516c12fa3e1ce9f27ed464a08ea142336644812701cb280681ba2b"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "78b7d9cf85da5dcc863046e85d599ef705fa9ff375052bd4644e118df71a91c6"
+hash = "0a1fa0e8aa19c181ee0a43ceb2a0aa3e1000319a64f7131d56d3e698414f83f1"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+hash = "456d229e618c9770f7e5d82db01b6b1ff960651a74a2bfa14b7d3a335b5b7c8c"
 metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "517a05a9df41b90c8556f58f5c1d97dee33af4453aed40f90070645db565ed11"
+hash = "d4849a5e29c1562a1d30c0bbadf541f5fae796d6d67114741372abc32336f431"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "fb9b3cbc1af67f69d0cbd6a31d40f79f2ce285e2933567628d9888679116f6e9"
+hash = "2736f1fa97ea4d3fd3cc7a8345e525fc248e370f7b83224f2049d91af554645e"
 metafile = true
 
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
-hash = "adf44c99fa11f32cd2c1eb049c2e4422247903651cb7a6344adebc9aad54f877"
+hash = "3dd79645e4b04664cff7446593f8f53d450d69d7f7e2a1f8786cdb003d69dc51"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
+hash = "cd2f06dce2bbc2fbc40291263c2e9416ae9681e72557faa4f203087a0cf2ebe6"
 metafile = true

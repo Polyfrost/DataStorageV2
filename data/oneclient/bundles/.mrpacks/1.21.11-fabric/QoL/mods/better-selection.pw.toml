@@ -4,6 +4,7 @@ hidden = false
 name = "Better Selection"
 filename = "better-selection-1.8.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/xIpcAYJL/versions/OO0yafe4/better-selection-1.8.jar"

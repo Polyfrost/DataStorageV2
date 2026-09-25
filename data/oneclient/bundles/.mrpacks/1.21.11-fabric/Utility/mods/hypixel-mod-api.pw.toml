@@ -4,6 +4,7 @@ hidden = true
 name = "Hypixel Mod API"
 filename = "HypixelModAPI-1.0.1+build.1+mc1.21.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/1A2mKfBx/versions/IkrpaHUp/HypixelModAPI-1.0.1%2Bbuild.1%2Bmc1.21.jar"

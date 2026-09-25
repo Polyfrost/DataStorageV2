@@ -4,6 +4,7 @@ hidden = false
 name = "Log Cleaner"
 filename = "logcleaner-1.0.0.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/hwRo6mwQ/versions/wrFyE1h4/logcleaner-1.0.0.jar"

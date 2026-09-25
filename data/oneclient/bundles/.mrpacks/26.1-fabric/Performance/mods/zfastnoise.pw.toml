@@ -4,6 +4,7 @@ hidden = false
 name = "Fast Noise"
 filename = "zfastnoise-1.0.27+26.1.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/OnlVIpq5/versions/jlFW8jqM/zfastnoise-1.0.27%2B26.1.jar"

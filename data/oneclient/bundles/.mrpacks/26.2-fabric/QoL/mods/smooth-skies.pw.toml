@@ -4,6 +4,7 @@ hidden = false
 name = "Smooth Skies"
 filename = "smoothskies-2.12.1+26.2-fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/uvlgIwBD/versions/uKs9UjND/smoothskies-2.12.1%2B26.2-fabric.jar"

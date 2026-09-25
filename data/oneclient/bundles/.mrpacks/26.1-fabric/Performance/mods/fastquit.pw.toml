@@ -4,6 +4,7 @@ hidden = false
 name = "FastQuit"
 filename = "fastquit-3.1.4+mc26.1.x.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/x1hIzbuY/versions/ly8rADfr/fastquit-3.1.4%2Bmc26.1.x.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Legacy Skyblock"
 filename = "LegacySkyblock-2.4.3-26.1+_fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/61aTg1r5/versions/s7AqWDIq/LegacySkyblock-2.4.3-26.1%2B_fabric.jar"

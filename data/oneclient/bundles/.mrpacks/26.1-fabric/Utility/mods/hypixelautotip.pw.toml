@@ -4,6 +4,7 @@ hidden = false
 name = "Hypixel AutoTip"
 filename = "hypixelautotip-1.4.1.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/6ekmo61Y/versions/f7kRNWxz/hypixelautotip-1.4.1.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "ServerCore"
 filename = "servercore-fabric-1.5.16+26.1.jar"
 side = "server"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/4WWQxlQP/versions/P8k080Af/servercore-fabric-1.5.16%2B26.1.jar"

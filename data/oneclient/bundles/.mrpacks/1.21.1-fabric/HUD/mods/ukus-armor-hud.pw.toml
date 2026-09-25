@@ -4,6 +4,7 @@ hidden = false
 name = "uku's Armor HUD"
 filename = "ukus-armor-hud-0.5.1+mc1.21.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/wF189hn9/versions/KvfhcyfG/ukus-armor-hud-0.5.1%2Bmc1.21.jar"

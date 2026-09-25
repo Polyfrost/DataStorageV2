@@ -4,6 +4,7 @@ hidden = false
 name = "Hypixel SkyBlock Legacy"
 filename = "SkyBlock Legacy.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/eiWiefXD/versions/UfU7LVhm/SkyBlock%20Legacy.zip"

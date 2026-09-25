@@ -4,6 +4,7 @@ hidden = false
 name = "Skyblock Overhaul (SBO)"
 filename = "SBO-0.5.2+26.1.2-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/9lBqVbQF/versions/DnPJ7hEV/SBO-0.5.2%2B26.1.2-fabric.jar"

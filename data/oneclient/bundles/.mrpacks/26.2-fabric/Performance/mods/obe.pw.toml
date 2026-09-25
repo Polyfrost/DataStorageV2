@@ -4,6 +4,7 @@ hidden = false
 name = "Optimized Block Entities"
 filename = "obe+26.2-1.1.46.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/AtOSAunf/versions/houTLTxf/obe%2B26.2-1.1.46.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Remove Reloading Screen"
 filename = "rrls-5.1.12+mc1.21.9-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/ZP7xHXtw/versions/76XHcrde/rrls-5.1.12%2Bmc1.21.9-fabric.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Animatium"
 filename = "animatium-4.4.1+26.1.2-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/zy0karK1/versions/uocg4NZh/animatium-4.4.1%2B26.1.2-fabric.jar"

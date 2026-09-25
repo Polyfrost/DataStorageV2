@@ -4,6 +4,7 @@ hidden = false
 name = "EvergreenHUD"
 filename = "evergreenhud-3.9.0+26.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/1yIQcc2b/versions/x27pEMTU/evergreenhud-3.9.0%2B26.2.jar"

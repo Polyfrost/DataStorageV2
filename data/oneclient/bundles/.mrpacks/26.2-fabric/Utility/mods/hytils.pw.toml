@@ -4,6 +4,7 @@ hidden = false
 name = "Hytils Reborn"
 filename = "hytils-reborn-2.1.0+26.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/nF6YaBfO/versions/gVtwGWnc/hytils-reborn-2.1.0%2B26.2.jar"
