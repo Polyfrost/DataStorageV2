@@ -10,6 +10,7 @@ const TYPES = {
   ".sha256": "text/plain; charset=utf-8",
   ".png": "image/png",
   ".jpg": "image/jpeg",
+  ".webp": "image/webp",
 };
 
 function createServer(root) {
