@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-selection.pw.toml"
-hash = "bc3ef1ea029f815a63b04d067f544172c5bb0c8cb2a114036d56699bd50d330f"
+hash = "4636fd585a958903ee1bbc1cd16d059ff597a3ea56deddaa7ade4dcd503f6fbf"
 metafile = true
 
 [[files]]
