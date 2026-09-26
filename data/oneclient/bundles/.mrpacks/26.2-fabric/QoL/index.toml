@@ -280,11 +280,6 @@ hash = "4b73c4c6f939b5d310dcfcda34de5ee260693fb4f88f3d3d0bb39c0f72a22dc1"
 metafile = true
 
 [[files]]
-file = "mods/rrls.pw.toml"
-hash = "ce7c02e5f2b6fac1a38b086377f3d626582b546c9063fe1c02465e3071a104d3"
-metafile = true
-
-[[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
 hash = "b09d0d84001d1b6a1caf8a9ae7b9ebf6c6c5a1df8ae461080343b811a2961761"
 metafile = true
