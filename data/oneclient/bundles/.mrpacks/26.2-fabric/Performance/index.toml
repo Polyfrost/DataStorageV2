@@ -41,11 +41,6 @@ hash = "34008e4c865215b2be70680263ebf823ae63ad59547297e41ab45c684a42b057"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-fps.pw.toml"
-hash = "06ce462a58bd7ed393929ccfa6531d08c777a158a054c6180e76c90e0a20fae1"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "6dcece9d8f41c7775ed29e8161a682e10307e0fe3739e5172fd79ad4df861e66"
 metafile = true
@@ -122,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "b6fec7fb2615ff3144532c0651b85b60692e005daa045738fc24bcc133ba9f68"
+hash = "8b75390fe2ec6934bbd38791495fe86d88add9e97483c7da76193e2cdc536b6f"
 metafile = true
 
 [[files]]

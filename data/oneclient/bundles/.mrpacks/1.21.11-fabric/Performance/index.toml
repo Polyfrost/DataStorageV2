@@ -46,11 +46,6 @@ hash = "efd1328abf4cbb49c0b873595d790752b962bb67188ae4daf88d6b88f3f21d52"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-fps.pw.toml"
-hash = "f1bd163b9e8290c36c1c20940028e0c255db58e1686ad375326a87cb7ee8707e"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "240c3f816dadeb3564c4dcc54d63ed54814b9299e855a3862c4a0f479c260ac8"
 metafile = true
