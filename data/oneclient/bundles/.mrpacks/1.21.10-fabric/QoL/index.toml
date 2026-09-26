@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "be4d734c23548fdd2610776ee25795a9a3497f07b8370a021390f7d5d1314cbc"
+hash = "aeb7a054080dc329f7d2f27b029fc572ac700bd278026e24e1adadc8fee87226"
 metafile = true
 
 [[files]]
