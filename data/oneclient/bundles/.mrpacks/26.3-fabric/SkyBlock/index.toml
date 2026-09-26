@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "80bdc0673c5983fd3edffb6ac85b9bb2b574f540dd3b7516fa8460a4d73b2c31"
+
+[[files]]
 file = "mods/catharsis.pw.toml"
 hash = "6e3f9abc2ed8c63aa81f01f2da182ca954c1581c7d9759a5608928fa8a5c269d"
 metafile = true
@@ -33,11 +37,6 @@ metafile = true
 [[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "473002148094722b0dcac2528ef733a4c512aec6ab0c5d2f2d30e0dded8e28e4"
-metafile = true
-
-[[files]]
-file = "mods/skyblock-item-list.pw.toml"
-hash = "d614a177a7ab88b3f6680306b788092fd987b55e69a6b438f86b0ff3dcab3899"
 metafile = true
 
 [[files]]
