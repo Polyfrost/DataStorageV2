@@ -4,6 +4,7 @@ hidden = false
 name = "SmartSearch"
 filename = "smartsearch-1.1.0-1.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/N5EQhK31/versions/NdAwHU46/smartsearch-1.1.0-1.jar"

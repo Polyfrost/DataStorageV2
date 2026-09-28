@@ -4,6 +4,7 @@ hidden = false
 name = "Better Screens"
 filename = "betterscreens-2.1.0+26.3-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/PBbfPJZN/versions/7dpw0BRr/betterscreens-2.1.0%2B26.3-fabric.jar"

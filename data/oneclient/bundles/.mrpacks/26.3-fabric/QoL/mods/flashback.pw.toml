@@ -4,6 +4,7 @@ hidden = false
 name = "Flashback"
 filename = "Flashback-0.43.6-for-MC26.3.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/4das1Fjq/versions/cV1pa0YV/Flashback-0.43.6-for-MC26.3.jar"

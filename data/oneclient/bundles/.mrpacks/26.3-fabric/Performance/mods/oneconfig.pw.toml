@@ -4,7 +4,7 @@ hidden = true
 name = "OneConfig"
 filename = "OneConfig-26.3-fabric-1.2.7.jar"
 side = "client"
-type = "normal"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/AibBIVmj/versions/tFyrTxyK/OneConfig-26.3-fabric-1.2.7.jar"

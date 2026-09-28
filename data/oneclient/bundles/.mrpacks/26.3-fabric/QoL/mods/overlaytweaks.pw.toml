@@ -4,6 +4,7 @@ hidden = false
 name = "Overlay Tweaks"
 filename = "overlaytweaks-2.0.1+26.3-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/wql2D9Gj/versions/IRltw5NB/overlaytweaks-2.0.1%2B26.3-fabric.jar"

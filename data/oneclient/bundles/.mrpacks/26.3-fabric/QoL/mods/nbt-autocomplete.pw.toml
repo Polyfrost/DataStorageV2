@@ -4,6 +4,7 @@ hidden = false
 name = "NBT Autocomplete"
 filename = "NBTac-FABRIC-26.3-2.1.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/UR0ocuEt/versions/oyCeoqzt/NBTac-FABRIC-26.3-2.1.jar"

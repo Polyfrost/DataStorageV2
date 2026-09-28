@@ -4,6 +4,7 @@ hidden = false
 name = "Controlify (Controller support)"
 filename = "controlify-3.5.3+mc26.3-universal.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/DOUdJVEm/versions/fo76vL20/controlify-3.5.3%2Bmc26.3-universal.jar"
