@@ -6,45 +6,45 @@ hash = "80bdc0673c5983fd3edffb6ac85b9bb2b574f540dd3b7516fa8460a4d73b2c31"
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "6e3f9abc2ed8c63aa81f01f2da182ca954c1581c7d9759a5608928fa8a5c269d"
+hash = "ae5d7174b062178c1ae0bcedba2cb1b5e8dcb15485cb406870e221c153f5fd4e"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "8e5223cca91869db93c9c6a6acd9058f2f47cdaa6c3d54a1b703dca2e4d44711"
+hash = "34a9e128eb16a02e00fcb224bef8e32ddebc4dfb450ee95b6712868165518861"
 metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+hash = "621a39b184973eab11a79bc39c173d93f49c2bd297b954d6f6f26fc77c6d6c94"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "1bc530ab825fb419eaec520826f93f4fa8c6d9e66a365ee65f5aff5ba509d70b"
+hash = "e17d876aece8b916f92f5c3b67828340822ae890c3bae50401924754fb6f0f61"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
+hash = "c1677b7829da3eb19ca8a5b68eb9ebd8c060271e31a0fc75e4bbd28518213776"
 metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "a0ce5f9064300289ad5b3517212a9eae028262ba0c97d92c3f1b12878dab6f31"
+hash = "2809f447569b347345e10b4dcbc1e7b3d56a6f6b71607c2a7fed7ce302b9198f"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "473002148094722b0dcac2528ef733a4c512aec6ab0c5d2f2d30e0dded8e28e4"
+hash = "254aa9b6136d5cdab84eb8a4747f1f610163e560493849a956d777409e907db5"
 metafile = true
 
 [[files]]
 file = "mods/skyblock-profile-viewer.pw.toml"
-hash = "e926284b878faabbebfcd39d03b673c00f181e38e55d412999b23f1d394799cd"
+hash = "d596e0260448a0af60268110ca459887c4ea90077d8bb350d2eab83991dbaec8"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "cebfee1e0bc35052e1f92bf89b8c46a046b03ed1e6ce92f01d766af2ae27ae11"
+hash = "48ddd99ab99484fc168ac3786fb4ac874f934fc3ff80cde65a552f5b5c35e62f"
 metafile = true
