@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/ukulib.pw.toml"
-hash = "e1ca985a982d32b090e685afe96aaff6e4baa68c0dc405ae13b36919c35e19e2"
+hash = "d1bdff7713df1d9ef7baf2ddb9c8e5a2e0afca28968fc0c5bdc20112dc20bd8a"
 metafile = true
 
 [[files]]

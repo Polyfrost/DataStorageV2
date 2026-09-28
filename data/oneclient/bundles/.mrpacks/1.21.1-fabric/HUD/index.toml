@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "171847a43ac51cef7bd711cce7b51e34ebad3c6bfd29e38ffdf05b96710534b3"
+hash = "ce0da634170efae48c9ca42baa25562882a18d6f9bec88115b4f310cdd24edb5"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/ukulib.pw.toml"
-hash = "1a5c5f267f91dde60f606e39a6c67a2e9b23d1ed3cceadc3fc82de4788bf47fb"
+hash = "20e1a1dcf94d75727bdc6794ddd91fd05eedd8ab0c74e47ebb10ad4b4d9de0f7"
 metafile = true
 
 [[files]]

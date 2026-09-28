@@ -1,6 +1,6 @@
 id = "Y8uFrUil"
 enabled = true
-hidden = false
+hidden = true
 name = "ukulib"
 filename = "ukulib-1.10.2+1.21.11.jar"
 side = "client"

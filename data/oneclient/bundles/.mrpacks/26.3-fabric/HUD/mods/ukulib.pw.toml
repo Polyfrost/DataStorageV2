@@ -1,6 +1,6 @@
 id = "Y8uFrUil"
 enabled = true
-hidden = false
+hidden = true
 name = "ukulib"
 filename = "ukulib-fabric-2.2.0+26.3.jar"
 side = "client"
