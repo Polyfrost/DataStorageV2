@@ -171,3 +171,18 @@ else
 fi
 
 export PACKWIZ_BIN
+
+# `packwiz modrinth export` in the current directory, retried because it only logs
+# a failed download, leaves that mod out of the manifest, and still exits 0.
+packwiz_export() {
+  local output="$1" log attempt
+  for attempt in 1 2 3; do
+    log="$("$PACKWIZ_BIN" modrinth export --output "$output" 2>&1)" || { echo "$log"; return 1; }
+    echo "$log"
+    grep -qE '^(Download of .* failed:|Error resolving external file)' <<<"$log" || return 0
+    echo "Export of $output dropped files (attempt $attempt/3)" >&2
+    sleep 5
+  done
+  echo "::error::packwiz could not export $output without dropping files" >&2
+  return 1
+}

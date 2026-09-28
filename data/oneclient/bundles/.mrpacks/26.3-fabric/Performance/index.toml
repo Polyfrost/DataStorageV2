@@ -12,7 +12,17 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "47248a86e194d3979a618530811a992010b9a165ed33f75ce9786043948160e1"
+hash = "cbe48009e0632168c42beb981022682551d6b00e6d0481d18bcd5550462f01af"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "8e5223cca91869db93c9c6a6acd9058f2f47cdaa6c3d54a1b703dca2e4d44711"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "062b51d91d2766af91c5bae4def2ac960d2a544a4d18b74e4c7f64e181f9e80f"
 metafile = true
 
 [[files]]
@@ -26,8 +36,13 @@ hash = "9d9628c351223ecc516f7f9fdad90f597db2c90e1875f02e1a515e161ae8682c"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-fps.pw.toml"
-hash = "9388d15d371c08d3c06dcb0d0c41bbaad42f788f4993f48b839314a14c72d9e5"
+file = "mods/debugify.pw.toml"
+hash = "59df45d0a34d112269bc4795b0be474447ba8d48acd8d2ad292b6b7eb5a75c6e"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "3e7bef23fcee7e4c6bac3c5d13d5786c0f19397e4a18639f6cea022fe7752817"
 metafile = true
 
 [[files]]
@@ -51,8 +66,18 @@ hash = "7a0dff1a11e523c830d75bb2b9b4d98c432c5f99715ebc2fd21dce109e1b9123"
 metafile = true
 
 [[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "4051847701e444448c84fefe7a97c3b5bfdc02a521241336ad40bca2fe32aa9f"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "fd523939506bc9cc3d7528ea9c3632365ccbfc7f4c818980c73d17ffdba72f3d"
+hash = "6879981e57984d03104f57d37e6ef687e849a90ee6edd708fa7adb25cb88472f"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "1134cfc2c07948ac5780944d3ed05253b69282574768fabf63654c172f76f051"
 metafile = true
 
 [[files]]
@@ -67,32 +92,32 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "fa05c98d0f52f9a61025a1a4c1896729bccda32663c8b0c47d63f13086d78dad"
+hash = "b5614b6cbf9a8eb1f80b37fadd0b584bdfe56d838bf584d857d18c8056bbbd95"
 metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "ac449637b994d7020fa91d86f4ba1c8227a35a66a35731dce0ff25b7d1b4b266"
+hash = "7c49cfd2e5c44bbf2f20894c4b1a2526868cb36188c6810fb9e93bcfbcf53188"
 metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "748f253678c93cef369396f60246c1cf79c24fca317759074589b01a971d156e"
+hash = "7538eae2c2ece9416e7b9b6266d358ec55533730ee02c974d7caa8451ce70791"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "34f55ffe52d50ffcc6b3041ab87da292eacb58d1fc4266854a6812d960ad8e6b"
+hash = "c833b49f4534f56dbd6ce1ed520badb6e1eedc337f35ae9deda58f9f1225f6e3"
 metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "f783abb7a3f7216128e657e1a30a31a6f8995991b29ba09fc97de07ee545d6f2"
+hash = "6b18242dddd215b650696bebb76667408d7f957789730c97ae97d05c53770466"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "fb9b3cbc1af67f69d0cbd6a31d40f79f2ce285e2933567628d9888679116f6e9"
+hash = "473002148094722b0dcac2528ef733a4c512aec6ab0c5d2f2d30e0dded8e28e4"
 metafile = true
 
 [[files]]
@@ -117,7 +142,12 @@ metafile = true
 
 [[files]]
 file = "mods/sciophobia.pw.toml"
-hash = "24f8f34bbd5edec1f30427f14f853f031f74345078dd39b41858721386b3161c"
+hash = "4d7c832b97a53580dfc637aed4f871f8aeeedbdda960154eb448380b3d83310f"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-compression.pw.toml"
+hash = "2069d2668d91e518f34aca0fb4a8cd959f1baf6ec0c9340806e275c7c212a758"
 metafile = true
 
 [[files]]
@@ -152,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
+hash = "cebfee1e0bc35052e1f92bf89b8c46a046b03ed1e6ce92f01d766af2ae27ae11"
 metafile = true
 
 [[files]]

@@ -1,0 +1,16 @@
+id = "sbgVdyNC"
+enabled = true
+hidden = false
+name = "Hypixel Reward Claim"
+filename = "rewardclaim-2.6.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sbgVdyNC/versions/w2hmrhFv/rewardclaim-2.6.0.jar"
+hash-format = "sha512"
+hash = "929d4eb14a7895e91d7e20bd11133db9d1525bc25d88371a1e40baeed2cf01bcf81a961e22fcb75bac80f20692539334eeadb884599bfe002b5e9bd5727682ba"
+
+[update]
+[update.modrinth]
+mod-id = "sbgVdyNC"
+version = "w2hmrhFv"

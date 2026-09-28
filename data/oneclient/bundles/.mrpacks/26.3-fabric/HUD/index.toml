@@ -1,8 +1,13 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "316359e6d37a69a7b4758d2d7be50378171a74032fdc2b961965b0c33ef95243"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
+hash = "8e5223cca91869db93c9c6a6acd9058f2f47cdaa6c3d54a1b703dca2e4d44711"
 metafile = true
 
 [[files]]
@@ -22,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "f9d389bfa8c249ba093fabc524acfe72890fe284e42e79c130a46fe855f7033f"
+hash = "940eaaba61e8731f72289c426fc04773e7cbd54619c1716b137f8c42dc60bdeb"
 metafile = true
 
 [[files]]
@@ -42,12 +47,12 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "34f55ffe52d50ffcc6b3041ab87da292eacb58d1fc4266854a6812d960ad8e6b"
+hash = "c833b49f4534f56dbd6ce1ed520badb6e1eedc337f35ae9deda58f9f1225f6e3"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "fb9b3cbc1af67f69d0cbd6a31d40f79f2ce285e2933567628d9888679116f6e9"
+hash = "473002148094722b0dcac2528ef733a4c512aec6ab0c5d2f2d30e0dded8e28e4"
 metafile = true
 
 [[files]]
@@ -72,5 +77,5 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
+hash = "cebfee1e0bc35052e1f92bf89b8c46a046b03ed1e6ce92f01d766af2ae27ae11"
 metafile = true

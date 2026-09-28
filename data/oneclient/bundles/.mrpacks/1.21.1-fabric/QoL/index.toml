@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "c641c97db0ec6adb49398422a237755b379aad5216486d49a813f82c4d8b415c"
+hash = "7aa64d02f347ecf68f0f05bfedbfac91a079b1aba09ca751afb0c16d5e5711a2"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "49ef34869d92b991b08d26b17e8e76d3288e196a3b44086f35a362cae8658bbb"
+hash = "12fb8302be6c77742514ae2120c76656b2361088d11a2e8f4f1fd127c10418db"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "23e6bc356805ab665bdd7fc725de8045ff3fa3cf7a1b7c61f1902057fd99944b"
+hash = "a6998414416d205aec058b175f940dd346c30594e3a05cdad7ca87322f78e95a"
 metafile = true
 
 [[files]]
@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemphysic-lite.pw.toml"
-hash = "64285c3d522b9dcc87801af76b0947962d2a238ed4a205e3b24484167c249aac"
+hash = "6665e496648a1c81ed8fe231ea67b71c42d78e5a45739d7cb839bca2653451fe"
 metafile = true
 
 [[files]]
@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "538df5dd1fc933cf905411659acd2394f9ea5f91d1f97f2f9319cc696266e6ad"
+hash = "ce0da634170efae48c9ca42baa25562882a18d6f9bec88115b4f310cdd24edb5"
 metafile = true
 
 [[files]]
@@ -206,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "c16e7a0146bd6cd05683f5a093e66d3adf79cf18944c0cea364081895e87b3a8"
+hash = "39bb914b7404b0fc44435267a8deecc60ed9bcda21944286f298f364ddb5930b"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7b41a94d5c016cb702a678887fb70b486d5a3909325257f3b425ee0a18c60357"
+hash = "c17eb4d0af977d93fd3f33c14795040c70ff090c4cedecf77ba5fd68172a6a2d"
 metafile = true
 
 [[files]]
@@ -281,12 +281,12 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "5d2cdb8164d8e6120f7d6b0619c9a8190c0d87491e2006ea6850db0ff5f8abe0"
+hash = "197cef5abc7aba89ff48e13bb1bd7adc6c1fc3aaa42daf7f60cccbe751d280ad"
 metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "53fda81ba18ad1869c6ef37bf2f5874e23cb6fe64fd2354e50fe5cfe0a1cab29"
+hash = "3fdd2ae0310d4262b18023e7c10a0096e1003888c7ac938231e52e1f61e97d5c"
 metafile = true
 
 [[files]]
@@ -306,17 +306,12 @@ metafile = true
 
 [[files]]
 file = "mods/redaction.pw.toml"
-hash = "cebbdca37071765fbdd9cda8f53046d6dcce7a2d81c63a8508cb0d58da817715"
+hash = "99bc270843adf823c2472c7f4436c7a1b28007e25ebfd1b54aaf32fa3940a304"
 metafile = true
 
 [[files]]
 file = "mods/rendertweaks.pw.toml"
 hash = "58df0cda006fec4462d9402178d08357a82aa7947a8a5dfcd349303bbb420c7b"
-metafile = true
-
-[[files]]
-file = "mods/rrls.pw.toml"
-hash = "2b10befa9a98edb9a29ca65838c59d015bbe888a2bd15157c11d17c21e4a2536"
 metafile = true
 
 [[files]]

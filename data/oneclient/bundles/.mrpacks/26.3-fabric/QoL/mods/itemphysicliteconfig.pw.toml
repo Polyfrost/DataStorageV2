@@ -1,0 +1,16 @@
+id = "BngtDh26"
+enabled = true
+hidden = false
+name = "ItemPhysic Lite Config"
+filename = "itemphysicliteconfig-1.1.1+26.3-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/BngtDh26/versions/AWa7QhsG/itemphysicliteconfig-1.1.1%2B26.3-fabric.jar"
+hash-format = "sha512"
+hash = "f148026feb5d1339d2dcf3e48c3fc41535e7c1586671df76e984a86c397a5258d14e0acfb63c8eb03dcac26cc41359a760252d3e368294afeeb0291fa6383e7f"
+
+[update]
+[update.modrinth]
+mod-id = "BngtDh26"
+version = "AWa7QhsG"

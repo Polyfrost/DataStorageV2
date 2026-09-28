@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "6dd3298aa00240b6f0c55c1b1fa943a3dccb3c2bf06cfd210962d00ab7393523"
+hash = "06ba400a3f4e292e349e3bb7043bcdfa4fe1feeb184af9abdf2ea51edb1aec77"
 metafile = true
 
 [[files]]
@@ -127,12 +127,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "1ae57fab233e30a2d2ebbf5f4589a06113faca3424df2339a8963fdb8560b004"
+hash = "8fe7cbd9fbc22d03dee7f28f7362bfdd0bb30836a10392073d38c47566f197f0"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "e1abd282a585c7b1b7ff551495b8cbb0d7575fa4d3eaf0c1a2e24e509fd9b98d"
+hash = "524dddc3c5e2a908b32082c0bcad4c873a8f49775adead3eacd1590e89ca753c"
 metafile = true
 
 [[files]]
@@ -162,17 +162,17 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "fceda132ecda5a84bb7dfba350c2c82f2b7dafc9a8b27a274bcfeb4693127773"
+hash = "b96b23673fa1c41f85ae777eb137d7470a0ebb20cdd8543538539ff96b685f96"
 metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "98bdf9065de059e26620aa42b92c5bcae0eded4ede7979fd248ad36a708bc4a5"
+hash = "cb6dbc8078eb3a7ef3a594c6dcd44d64394824c84ba2b0d6a372cd1ff0d1eb52"
 metafile = true
 
 [[files]]
 file = "mods/soundtweaks.pw.toml"
-hash = "713e2e4d7abe3bd092d9753f932478c3fa30f59680282eabc27c4a951767fe88"
+hash = "a750adf7f95361c1a9b8c80d8f8c597bd51cf2bf7ed4d2887bad3cd71ffa6ef0"
 metafile = true
 
 [[files]]

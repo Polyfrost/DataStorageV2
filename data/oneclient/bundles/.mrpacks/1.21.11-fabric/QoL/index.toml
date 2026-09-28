@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "4a37f9caa8a8fc787fe3c5314ffbb9f14e9fa1cf6edbf54066684e40b97dcfea"
+hash = "3f14e33ea5298fabeb5249c2b4d85ed6dd420194ef651d7dcd2daf8d79f54102"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -51,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "6d82a429dbc3ae6cd81348b9170a8432dac1dbde0da31e35df75305c58cb4caf"
+hash = "9e627f4e1b2e531ea60c2a727448edf3ffa7bd69cf326f8d48cfc24650d646b2"
 metafile = true
 
 [[files]]
@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "886216d7d52044476e40b67532922480d3c359c1c168dda0cce76043ce3ea9a3"
+hash = "3dcf9a8027e11b55860986d8165361dcaf8cf7c843682c2efaea339daa6be1cc"
 metafile = true
 
 [[files]]
@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "6dd3298aa00240b6f0c55c1b1fa943a3dccb3c2bf06cfd210962d00ab7393523"
+hash = "06ba400a3f4e292e349e3bb7043bcdfa4fe1feeb184af9abdf2ea51edb1aec77"
 metafile = true
 
 [[files]]
@@ -206,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "d06fcb791bf34967f9eff0f9513af6f7060d7b52673a5a712aa310edba24a9fd"
+hash = "ba795f000dc94a913fa87beb99ad2d78f9e88693f4362e81410e0c39c0265228"
 metafile = true
 
 [[files]]
@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "1ae57fab233e30a2d2ebbf5f4589a06113faca3424df2339a8963fdb8560b004"
+hash = "8fe7cbd9fbc22d03dee7f28f7362bfdd0bb30836a10392073d38c47566f197f0"
 metafile = true
 
 [[files]]
@@ -271,12 +271,12 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "4ea049821f551ffcdb2f1428c0124e5a61354867e716a63c8fe700856d2dfd45"
+hash = "f06d7eff1cfdc6c363fb367844f01ec15e02f17f3e0b49f7ba4304fbb07fc72f"
 metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "341280864d6caaef2c86396ed249e86718616930b16b531583fc50a3275ad537"
+hash = "5f94e11d7d8729089257b187bac4d7e4b00ec417bdde0d02d77c4193bff98652"
 metafile = true
 
 [[files]]
@@ -296,7 +296,7 @@ metafile = true
 
 [[files]]
 file = "mods/redaction.pw.toml"
-hash = "7c62349094d9e48b19ca39ee29afa1d4950c6ae0b0342d4c3f45e1090da12cf0"
+hash = "4b816742af75c93a7755049d0cc4e4f68815c7b972377d23b0bf039efaa2ca05"
 metafile = true
 
 [[files]]
@@ -307,11 +307,6 @@ metafile = true
 [[files]]
 file = "mods/reward-claim.pw.toml"
 hash = "fd18d2d23079ef91495d9fc9ad90e3698bc9541bee9e57244ce92282036becdd"
-metafile = true
-
-[[files]]
-file = "mods/rrls.pw.toml"
-hash = "aabc3115b6b59c076a580386f6ab81813d3238b0723a1b6dc5761fff63c0d9be"
 metafile = true
 
 [[files]]
@@ -411,7 +406,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
-hash = "57300d81cbd29c671362d559f4692f91d6d14b47e6576d0f6c59795ea8fed65c"
+hash = "ac4b8958fb4730780942ade1ccaa9533f750bca3d2442ef9e173416eaac3039b"
 metafile = true
 
 [[files]]

@@ -7,12 +7,17 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "919437975099816c0967c1c14ef1d794b37ab8fe55039bbfb2bd8e98538e3441"
+hash = "7b1ced1266d16b4c6f00c2d9af25575856f811d452a08b72a88b69e3c8486cbf"
 metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
 hash = "088047df32dcce3397a16d39c9837132f5e4bb768bb243fe419921d19f25f41a"
+metafile = true
+
+[[files]]
+file = "mods/better-narrator-error.pw.toml"
+hash = "103524c2dc102a8fd61cd3407e8e1b267ec23ae5626a52824882c8fa1c84792d"
 metafile = true
 
 [[files]]
@@ -27,12 +32,17 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "0b356065f907839a4dbe51cdbc77b49544d1366b167a1f1bcb8c957cb526a89b"
+hash = "8e5223cca91869db93c9c6a6acd9058f2f47cdaa6c3d54a1b703dca2e4d44711"
 metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "40313ef92ed377167a3320e3a1f921d3c5f7632261396f1c059d407f6b9e8aea"
+metafile = true
+
+[[files]]
+file = "mods/controlify.pw.toml"
+hash = "4e50a8d6ed5fb20ab4f5029a04d3d13beded2b1d77647773ee5ea55da765f6df"
 metafile = true
 
 [[files]]
@@ -67,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/hypixelautotip.pw.toml"
-hash = "ccb34231a725d76ffb52568d411ce88985845f254f5840c74e4080df60ea4fb5"
+hash = "6cc4ac6146f72779618aae91093a829123752095b7b628464ce96c565e415b03"
 metafile = true
 
 [[files]]
@@ -82,17 +92,17 @@ metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
-hash = "2880c159f138975b8ee86ba263ad64d12a337dc9ad2b250f576550d5e740a533"
+hash = "beb3d6966d4fee0dd081258ffaae9d638d753467abeab79781cecc3da9e8b2de"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "34f55ffe52d50ffcc6b3041ab87da292eacb58d1fc4266854a6812d960ad8e6b"
+hash = "c833b49f4534f56dbd6ce1ed520badb6e1eedc337f35ae9deda58f9f1225f6e3"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "fb9b3cbc1af67f69d0cbd6a31d40f79f2ce285e2933567628d9888679116f6e9"
+hash = "473002148094722b0dcac2528ef733a4c512aec6ab0c5d2f2d30e0dded8e28e4"
 metafile = true
 
 [[files]]
@@ -102,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "1223b3665cc07dc2e4f2e2a4dc68e9ecf88c22977bb0547d0ae748664db93b14"
+hash = "35c1f6d4b66e6fff012a8f570462c7d6a5bc9a3ca2d79f66b902e94e8e8fa1e6"
 metafile = true
 
 [[files]]
@@ -116,13 +126,28 @@ hash = "6cf2a444139d1efd03da45d618f47d34fdfa7796985c02dbd75945fb519a8369"
 metafile = true
 
 [[files]]
+file = "mods/reward-claim.pw.toml"
+hash = "7de9c77b10e30a319395e3022840189adf3fd1d1bcb8c274d19b1e6e298a62ae"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "91cf0b2756fba54e194f2a12ae53dd982e6e61b2baa9663d4ef64a5894168517"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "b94352c3e2249fd5b7bef45f55ecb27d4cb42482310d3dd09d0fa1287dba38f9"
+hash = "964e40fb8ccd0147a8742e04ab182e78729db3e437d835f0e6fbcd535f9a8bdb"
+metafile = true
+
+[[files]]
+file = "mods/smartsearch.pw.toml"
+hash = "cb6dbc8078eb3a7ef3a594c6dcd44d64394824c84ba2b0d6a372cd1ff0d1eb52"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "63b601e2ab293133629d9c5fc92ee6751e2ac588149b69d454073cca972d7278"
 metafile = true
 
 [[files]]
@@ -132,5 +157,10 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "afa8d9f162f1208e8c346c91a809a664a25d13799c18ad51db5a380035a46391"
+hash = "cebfee1e0bc35052e1f92bf89b8c46a046b03ed1e6ce92f01d766af2ae27ae11"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "2356175e370adca8cfbc272209f257a16565db3b4df7cac6a6715d1617ae10f7"
 metafile = true

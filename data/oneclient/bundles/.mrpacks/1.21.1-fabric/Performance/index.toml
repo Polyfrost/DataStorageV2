@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "930409bd1a318435ef4faa11d3827b0bab620e56978a259b90881b83c7cc1dbd"
+hash = "5d57aa741b1c9b3daba01bc4d5daa1549fb7adcf945a4f8bb37c8ec5f01b82e2"
 metafile = true
 
 [[files]]
@@ -46,13 +46,8 @@ hash = "f96234c62f4e3fd26a4875bf6032fd2173eab797138b5cbf0b7dbfb4771e2e23"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-fps.pw.toml"
-hash = "0c11639e9841ab4134686bc1cd17a2d8040df58bd571969057fa578d07256f60"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
-hash = "82cc5ad44d49bc4ad092f39ffef1e9b5ef0cf05bccd1d77f78d0c0401cd46083"
+hash = "8a313b69d39474a13370c78a29893f622d8d5ced24a807e5dc31b5cb9e24e2d5"
 metafile = true
 
 [[files]]
@@ -97,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "8cafaca66a484e6c6a5be8ba61825f2dfc7b49fe35ee6a1d9e9532f40dc23db3"
+hash = "a988dd73d6b8695103929c6d3c3ea91c91692e2e82b8a808497b0a2bc5e84456"
 metafile = true
 
 [[files]]
@@ -112,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "e257bf12e8eee168b0fec3d3e26cd2b3455c1525eb31918f80c4ef830f1c48c2"
+hash = "a871df834dff596a8f18d4fd304be2d9287a2a1abbeaa2d8f73d61f88654d440"
 metafile = true
 
 [[files]]
@@ -147,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "538df5dd1fc933cf905411659acd2394f9ea5f91d1f97f2f9319cc696266e6ad"
+hash = "ce0da634170efae48c9ca42baa25562882a18d6f9bec88115b4f310cdd24edb5"
 metafile = true
 
 [[files]]
@@ -162,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7b41a94d5c016cb702a678887fb70b486d5a3909325257f3b425ee0a18c60357"
+hash = "c17eb4d0af977d93fd3f33c14795040c70ff090c4cedecf77ba5fd68172a6a2d"
 metafile = true
 
 [[files]]

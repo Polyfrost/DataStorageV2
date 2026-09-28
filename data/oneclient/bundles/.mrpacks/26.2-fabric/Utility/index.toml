@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "234424a67dbb5a81670fad6d88f005f7ab9c88e6558017042b4b82ff7b7e83c6"
+hash = "6123d7dd4f556bba86298388a69bf29ec96b3ae45764c8e8098f503c0e9e104c"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "97045839144848285a09a07f49ca7d0b274ea9c994a5f0273f0585842a151e8e"
+hash = "fc2b9e73071fc0e639906cad46f9b9a33c961293f07cfc52caa835cbe6687ae2"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/hypixelautotip.pw.toml"
-hash = "e60feece5224c633bfda8afeed38b889fcb8e6a2b8aa412e9ff539219a92ddbc"
+hash = "6300bb6ef52ed0986cbd1ef29b8e60040f89b4ad654636e0145489ccd4176075"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "c0bacd0de545c4cca3d66a25b13254c93e02f7765ba00f27649a6eb84706f812"
+hash = "ff3d20d7090b238bc26bf4cd4c253004fbf9854ae7ef29bf2614137819538d07"
 metafile = true
 
 [[files]]
@@ -137,12 +137,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "cc7ead5e137ff1a0608425ef97543cd04d04fb3b30204d3b548e4085439d2b00"
+hash = "77cc27f7b0075beebb48b77d3133cef356e2bff07649bba858c40e9c2cf8f322"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "2f45d28de4d102e51fcf814167741954504823f6ff278a75e45cc412ba38aee4"
+hash = "51088cdd8cc432984f877d8b550c27ce36c370e75479fe6a6edcfd623193aba1"
 metafile = true
 
 [[files]]
@@ -182,17 +182,17 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "ea111ec5606ab6a861a048a67a9ff5fa09bd06fc691b82a4296f6406238c1113"
+hash = "667375a6453616cfa4c52b061cf6fef1dd6e348cb431d73f7a85e3f7701285f4"
 metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "98bdf9065de059e26620aa42b92c5bcae0eded4ede7979fd248ad36a708bc4a5"
+hash = "cb6dbc8078eb3a7ef3a594c6dcd44d64394824c84ba2b0d6a372cd1ff0d1eb52"
 metafile = true
 
 [[files]]
 file = "mods/soundtweaks.pw.toml"
-hash = "4446b67398a0810ada9c04cc6ab66e43ab419d4489f75cc00fc7f5f352837047"
+hash = "758ac1cc9c397f4484341fd686df118bd666da86c81dec7947fd763df88c4b4d"
 metafile = true
 
 [[files]]
@@ -212,10 +212,10 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "8f22dbc1106731a5e54c5b38472e3f364b25bab0171e5491aa430f4c361f1859"
+hash = "9ddb46a92e26abe8448d10f69be8d6ac1a21d5c5b1e6f23ed5b4feaa1ee5fdf0"
 metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "c3cf66b0fa6e27b7dc12ea3381431dde5ceae8056a4d80249e63f91cce347233"
+hash = "b75fed6626b8e3045e46fdedc046473eeb032939f0ac71a257892a3e37cc08d8"
 metafile = true

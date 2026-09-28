@@ -37,12 +37,12 @@ metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "4275e12e2a1a8c9299a377fce245f80b836f54a4739beb66ab00c5ca9c399077"
+hash = "5797b5b93f8a52c78856a319d0f9cc6e8f34fe0690e713dc7785301c503c8e67"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "cc7ead5e137ff1a0608425ef97543cd04d04fb3b30204d3b548e4085439d2b00"
+hash = "77cc27f7b0075beebb48b77d3133cef356e2bff07649bba858c40e9c2cf8f322"
 metafile = true
 
 [[files]]
@@ -52,12 +52,12 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
-hash = "199e5c2b372b2b0c138b83378389c670b76a6783c81ab4664fc467667fad1e16"
+hash = "e5c47c1d2e83c4912d975f745ff99aad37b49ddf92a71ee312b2c6f253e0ace0"
 metafile = true
 
 [[files]]
 file = "mods/skyblock-profile-viewer.pw.toml"
-hash = "5741f9d8358b208c732b99d6b2013a04b01e5cb7f5ca63179ef4aec59733867d"
+hash = "ff17abd8ddd993593d34ef80a20b92ac152c5b21d900822bbb0139fb905d3e18"
 metafile = true
 
 [[files]]
@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "8f22dbc1106731a5e54c5b38472e3f364b25bab0171e5491aa430f4c361f1859"
+hash = "9ddb46a92e26abe8448d10f69be8d6ac1a21d5c5b1e6f23ed5b4feaa1ee5fdf0"
 metafile = true
 
 [[files]]
