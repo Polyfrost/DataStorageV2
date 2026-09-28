@@ -2,16 +2,16 @@ id = "QwxR6Gcd"
 enabled = true
 hidden = false
 name = "Debugify"
-filename = "debugify-1.21.11+1.1.jar"
+filename = "debugify-1.21.11+1.2.jar"
 side = "both"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/QwxR6Gcd/versions/xVevtAGn/debugify-1.21.11%2B1.1.jar"
+url = "https://cdn.modrinth.com/data/QwxR6Gcd/versions/eY6cliLn/debugify-1.21.11%2B1.2.jar"
 hash-format = "sha512"
-hash = "156732558bf7c6280c8cb59160fa3842a22da196c8dd3f6fba3ef8b07367c1c793a42e928ac9d53917e1d00e7cff7f72ae13f6e5f233bd32d0db31acd8b43cbd"
+hash = "763d64b7ae392e19384fbc5d70cfd48f6444d49ef38a43174c98406e741b305eff0bbe35652364b68a4ae489dfb376f919e9c963117633261bcd18a7f214ff74"
 
 [update]
 [update.modrinth]
 mod-id = "QwxR6Gcd"
-version = "xVevtAGn"
+version = "eY6cliLn"

@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/rsls.pw.toml"
-hash = "630f650fd0b6403de5cc2749d5c4f19d0d407b32609487e7f60a70ba76d7d2b4"
+hash = "6665da4bd014727a43551a1994369c205deb8f84b43ae105bc139e1de3ae85f5"
 metafile = true
 
 [[files]]

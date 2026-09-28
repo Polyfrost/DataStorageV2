@@ -2,16 +2,16 @@ id = "SKW62Pht"
 enabled = true
 hidden = false
 name = "Raise Sound Limit Simplified"
-filename = "rsls-1.2.2.jar"
+filename = "rsls-1.3.0.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/SKW62Pht/versions/sjeLtBce/rsls-1.2.2.jar"
+url = "https://cdn.modrinth.com/data/SKW62Pht/versions/oQbvY2j5/rsls-1.3.0.jar"
 hash-format = "sha512"
-hash = "1b415ebbc18d8ebd35563f85bc722b22ab5b7d46bc945fdb1d6e92d13944a5996ceafde2fe3344cd10c1fd72ec6bcd88776d589254a15246275c4814fc863e73"
+hash = "f1fff2f30e7ee43148a1907f6e1ebef3d021dbf2641ac43d2b391c3fc49d6b2daa65677d0cb49ad9971eae1fa48bc2cbd6b7e44b4544f25609504ec3540eee24"
 
 [update]
 [update.modrinth]
 mod-id = "SKW62Pht"
-version = "sjeLtBce"
+version = "oQbvY2j5"

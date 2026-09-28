@@ -82,15 +82,22 @@ function readBundle(bundleDir) {
       if (!entry.endsWith(".pw.toml")) continue;
       const file = path.join(dir, entry);
       const parsed = toml.parse(fs.readFileSync(file, "utf-8"));
-      const projectId = parsed.update?.modrinth?.["mod-id"] ?? parsed.id;
+      // GitHub-hosted mods aren't on Modrinth; their metadata comes from [overrides].
+      const githubSlug = parsed.update?.modrinth
+        ? null
+        : (parsed.update?.github?.slug ?? null);
+      const projectId =
+        parsed.update?.modrinth?.["mod-id"] ?? parsed.id ?? githubSlug;
       if (!projectId) {
         warn(`${file} has no Modrinth project id, skipping`);
         continue;
       }
       records.push({
         projectId,
+        githubSlug,
         slugHint: entry.replace(/\.pw\.toml$/, ""),
-        name: parsed.name ?? null,
+        name: (githubSlug && parsed.overrides?.name) || (parsed.name ?? null),
+        icon: parsed.overrides?.icon ?? null,
         description: parsed.overrides?.description ?? null,
         authors: parsed.overrides?.authors ?? null,
         side: parsed.side ?? null,
@@ -147,6 +154,8 @@ function collect() {
           mod = {
             projectId: record.projectId,
             slugHint: record.slugHint,
+            githubSlug: record.githubSlug,
+            icon: null,
             names: new Set(),
             descriptions: new Set(),
             authors: new Set(),
@@ -160,6 +169,8 @@ function collect() {
           };
           mods.set(record.projectId, mod);
         }
+        if (record.githubSlug) mod.githubSlug = record.githubSlug;
+        if (!mod.icon && record.icon) mod.icon = record.icon;
         if (record.name) mod.names.add(record.name);
         if (record.description) mod.descriptions.add(record.description);
         for (const author of record.authors ?? []) mod.authors.add(author);
@@ -248,11 +259,13 @@ async function main() {
   const hiddenCount = allMods.length - mods.length;
   if (hiddenCount) console.log(`Skipping ${hiddenCount} hidden mod(s)`);
 
-  const projects = await fetchProjects(mods.map((mod) => mod.projectId));
+  const projects = await fetchProjects(
+    mods.filter((mod) => !mod.githubSlug).map((mod) => mod.projectId)
+  );
   const priorities = readPriorities();
 
   const allEntries = mods.map((mod) => {
-    const project = projects.get(mod.projectId);
+    const project = mod.githubSlug ? null : projects.get(mod.projectId);
     const slug = project?.slug ?? mod.slugHint;
     const type = project?.project_type ?? mod.fallbackType;
     const { value: priority, matched } = priorityFor(
@@ -271,8 +284,10 @@ async function main() {
       description:
         [...mod.descriptions][0] ?? project?.description ?? null,
       authors: [...mod.authors].sort((a, b) => a.localeCompare(b)),
-      icon: project?.icon_url ?? null,
-      link: `https://modrinth.com/${type}/${slug}`,
+      icon: mod.githubSlug ? mod.icon : (project?.icon_url ?? null),
+      link: mod.githubSlug
+        ? `https://github.com/${mod.githubSlug}`
+        : `https://modrinth.com/${type}/${slug}`,
       type,
       category: modCategories[0] ?? null,
       categories: modCategories,
@@ -289,7 +304,7 @@ async function main() {
 
   const kept = allEntries.filter((entry) => {
     if (entry.icon) return true;
-    console.log(`Skipping ${entry.slug}: no Modrinth icon`);
+    console.log(`Skipping ${entry.slug}: no icon`);
     return false;
   });
   const entries = kept.map(({ _priorityKey, ...entry }) => entry);
