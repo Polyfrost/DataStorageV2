@@ -4,6 +4,7 @@ hidden = false
 name = "Firmament for Hypixel SkyBlock"
 filename = "Firmament-44.3.0+mc26.1.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/IJNUBZ2a/versions/J4SP0hOE/Firmament-44.3.0%2Bmc26.1.2.jar"

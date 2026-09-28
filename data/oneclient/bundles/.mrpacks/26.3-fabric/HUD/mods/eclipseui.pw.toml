@@ -4,6 +4,7 @@ hidden = true
 name = "EclipseUI"
 filename = "EclipseUI-fabric-1.0.5-fabric-26.3.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/99cGtHRy/versions/OzaItfKs/EclipseUI-fabric-1.0.5-fabric-26.3.jar"

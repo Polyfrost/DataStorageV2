@@ -4,6 +4,7 @@ hidden = false
 name = "Tier Tagger"
 filename = "TierTagger-2.3.2+mc1.21.9.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/dpkYdLu5/versions/iTqTBoVp/TierTagger-2.3.2%2Bmc1.21.9.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "ModernFix-mVUS"
 filename = "modernfix-fabric-latest.jar"
 side = "both"
+type = "advanced"
 
 [overrides]
 authors = ["embeddedt"]

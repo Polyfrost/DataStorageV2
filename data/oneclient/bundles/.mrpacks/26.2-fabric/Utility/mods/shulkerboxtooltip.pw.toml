@@ -4,6 +4,7 @@ hidden = false
 name = "Shulker Box Tooltip"
 filename = "shulkerboxtooltip-fabric-5.4.1+26.2.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/2M01OLQq/versions/fbcCAoFL/shulkerboxtooltip-fabric-5.4.1%2B26.2.jar"

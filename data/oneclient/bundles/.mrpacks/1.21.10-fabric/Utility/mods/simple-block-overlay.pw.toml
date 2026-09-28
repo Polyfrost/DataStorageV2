@@ -4,6 +4,7 @@ hidden = false
 name = "Simple Block Overlay"
 filename = "simpleblockoverlay-1.5.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Vklwtkf7/versions/hV4spH0i/simpleblockoverlay-1.5.2.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Chat Block"
 filename = "ChatBlock-1.2.0-1.21.9+_fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/aMcWnMHI/versions/NXDuXV4o/ChatBlock-1.2.0-1.21.9%2B_fabric.jar"

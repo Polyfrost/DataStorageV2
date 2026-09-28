@@ -4,6 +4,7 @@ hidden = false
 name = "Language Reload"
 filename = "language-reload-1.7.6+1.21.1.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/uLbm7CG6/versions/lLMGPiZe/language-reload-1.7.6%2B1.21.1.jar"

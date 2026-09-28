@@ -54,8 +54,11 @@ update_bundle() {
     sleep "$wait"
     (( attempt++ ))
   done
-  echo "::error::Update checks still failing for $bundle after ${MAX_ATTEMPTS} attempts; aborting to avoid an inconsistent partial update" >&2
-  return 1
+  # Revert just this bundle so its partial update is not committed; the others proceed.
+  echo "::error::Update checks still failing for $bundle after ${MAX_ATTEMPTS} attempts; reverting its partial update" >&2
+  git checkout -- "$bundle"
+  [ -n "${GITHUB_OUTPUT:-}" ] && echo "degraded=true" >> "$GITHUB_OUTPUT"
+  return 0
 }
 
 for version in "$MRPACKS_DIR"/*; do

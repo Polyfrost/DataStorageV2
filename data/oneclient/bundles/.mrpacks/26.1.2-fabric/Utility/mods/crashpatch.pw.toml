@@ -4,6 +4,7 @@ hidden = false
 name = "CrashPatch"
 filename = "CrashPatch-2.1.8+26.1.2.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/nZ3E8WQz/versions/9K5MtYb2/CrashPatch-2.1.8%2B26.1.2.jar"

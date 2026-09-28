@@ -4,6 +4,7 @@ hidden = false
 name = "Status Effect Bars"
 filename = "status-effect-bars-1.0.12.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/x02cBj9Y/versions/aAXJqboy/status-effect-bars-1.0.12.jar"

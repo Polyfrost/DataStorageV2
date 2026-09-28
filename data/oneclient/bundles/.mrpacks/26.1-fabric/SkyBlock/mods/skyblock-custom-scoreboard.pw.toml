@@ -4,6 +4,7 @@ hidden = false
 name = "Custom Scoreboard"
 filename = "CustomScoreboard-1.12.14-2-26.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/fpb5uaJt/versions/5VSiG5l7/CustomScoreboard-1.12.14-2-26.1.jar"

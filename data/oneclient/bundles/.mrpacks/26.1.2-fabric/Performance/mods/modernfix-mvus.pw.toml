@@ -4,6 +4,7 @@ hidden = false
 name = "ModernFix-mVUS"
 filename = "modernfix-5.27.19-build.1.jar"
 side = "both"
+type = "advanced"
 
 [overrides]
 authors = ["embeddedt"]

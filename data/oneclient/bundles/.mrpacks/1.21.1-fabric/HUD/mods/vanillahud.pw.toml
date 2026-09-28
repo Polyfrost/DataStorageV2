@@ -4,6 +4,7 @@ hidden = false
 name = "VanillaHUD"
 filename = "vanillahud-3.5.0+1.21.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/pWXJaKrX/versions/hbWv0Zp2/vanillahud-3.5.0%2B1.21.1.jar"

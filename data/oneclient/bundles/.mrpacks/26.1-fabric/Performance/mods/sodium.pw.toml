@@ -6,6 +6,7 @@ filename = "sodium-fabric-0.9.1+mc26.1.2.jar"
 side = "client"
 # mc26.1 deadlock: continuity/skyblocker need sodium>=0.8.9, iris needs 0.9.x, 0.8.9 breaks iris <=1.10.8. Only 0.9.1+mc26.1.2 satisfies; paired with iris 1.11.2.
 pin = true
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/AANobbMI/versions/vf7UgZpC/sodium-fabric-0.9.1%2Bmc26.1.2.jar"

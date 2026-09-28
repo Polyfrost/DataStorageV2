@@ -4,6 +4,7 @@ hidden = false
 name = "PolyNametag"
 filename = "polynametag-1.2.0+1.21.10.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/HK3p7LMj/versions/I4BtwwXX/polynametag-1.2.0%2B1.21.10.jar"

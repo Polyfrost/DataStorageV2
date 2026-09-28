@@ -4,6 +4,7 @@ hidden = false
 name = "No Chat Reports"
 filename = "NoChatReports-FABRIC-1.21.10-v2.16.0.jar"
 side = "both"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/qQyHxfxd/versions/78RjC1gi/NoChatReports-FABRIC-1.21.10-v2.16.0.jar"

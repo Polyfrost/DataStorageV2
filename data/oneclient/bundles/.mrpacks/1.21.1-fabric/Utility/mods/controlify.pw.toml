@@ -4,6 +4,7 @@ hidden = false
 name = "Controlify (Controller support)"
 filename = "controlify-3.0.1+lts+1.21.1-fabric.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/DOUdJVEm/versions/y9bu5RxH/controlify-3.0.1%2Blts%2B1.21.1-fabric.jar"
