@@ -4,6 +4,7 @@ hidden = false
 name = "Hold That Chunk V2"
 filename = "Hold-That-Chunk-V2-2.0.0+1.21.9.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/L4u8Yt14/versions/xRQGHfc9/Hold-That-Chunk-V2-2.0.0%2B1.21.9.jar"

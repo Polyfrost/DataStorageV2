@@ -4,6 +4,7 @@ hidden = false
 name = "SkyOcean"
 filename = "SkyOcean-1.17.2-26.1.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/dIczrQAR/versions/wwN6ghcO/SkyOcean-1.17.2-26.1.jar"

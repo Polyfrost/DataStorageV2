@@ -4,6 +4,7 @@ hidden = false
 name = "Lithium"
 filename = "lithium-fabric-0.24.7+mc26.1.2.jar"
 side = "both"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/Oqq8TOAV/lithium-fabric-0.24.7%2Bmc26.1.2.jar"

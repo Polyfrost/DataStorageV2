@@ -4,6 +4,7 @@ hidden = false
 name = "Skyboxify"
 filename = "skyboxify-3.4+26.1.2-fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/DWuwk8aA/versions/3bBTLzlD/skyboxify-3.4%2B26.1.2-fabric.jar"

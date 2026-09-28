@@ -4,6 +4,7 @@ hidden = false
 name = "Sodium Extra"
 filename = "sodium-extra-fabric-0.9.4+mc26.1.2.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/PtjYWJkn/versions/AdU0HYOc/sodium-extra-fabric-0.9.4%2Bmc26.1.2.jar"

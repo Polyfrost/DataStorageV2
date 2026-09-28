@@ -4,6 +4,7 @@ hidden = false
 name = "Bazaar Graph Fix"
 filename = "Bazaar Graph Fix.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/PTaRRA81/versions/4M6floac/Bazaar%20Graph%20Fix.zip"

@@ -4,6 +4,7 @@ hidden = false
 name = "LambdaBetterGrass"
 filename = "lambdabettergrass-2.5.0+1.21.9.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/2Uev7LdA/versions/FY86dPVr/lambdabettergrass-2.5.0%2B1.21.9.jar"

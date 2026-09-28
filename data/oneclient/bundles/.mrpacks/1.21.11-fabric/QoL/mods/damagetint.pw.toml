@@ -4,6 +4,7 @@ hidden = false
 name = "DamageTint"
 filename = "damagetint-3.7.0+1.21.11.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/6zatK8W5/versions/EWESKl14/damagetint-3.7.0%2B1.21.11.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "Vignette Tweaks"
 filename = "vignettetweaks-2.0.0+1.21.10.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/SIRG6coC/versions/yYYRqxyF/vignettetweaks-2.0.0%2B1.21.10.jar"

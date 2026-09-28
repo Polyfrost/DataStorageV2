@@ -4,6 +4,7 @@ hidden = false
 name = "Shield Fixes"
 filename = "shieldfixes-2.0.4+26.2.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/HfLFMeJe/versions/Xj74Uh1m/shieldfixes-2.0.4%2B26.2.jar"

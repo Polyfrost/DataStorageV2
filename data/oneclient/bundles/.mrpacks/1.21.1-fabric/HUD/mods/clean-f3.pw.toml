@@ -4,6 +4,7 @@ hidden = false
 name = "Clean F3"
 filename = "CleanF3-0.4.10.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/5lvjfaRs/versions/sONVk6J8/CleanF3-0.4.10.jar"

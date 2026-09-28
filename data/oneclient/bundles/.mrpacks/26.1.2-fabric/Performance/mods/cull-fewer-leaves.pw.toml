@@ -4,6 +4,7 @@ hidden = false
 name = "Cull Fewer Leaves"
 filename = "cull-fewer-leaves-1.1.2+26.1-fabric.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/alhWWxax/versions/jIEsEM7M/cull-fewer-leaves-1.1.2%2B26.1-fabric.jar"

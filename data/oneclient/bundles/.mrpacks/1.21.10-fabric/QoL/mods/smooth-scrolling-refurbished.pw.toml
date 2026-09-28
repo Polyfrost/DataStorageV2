@@ -4,6 +4,7 @@ hidden = false
 name = "Smooth Scrolling Refurbished"
 filename = "SmoothScrollingRefurbished+1.21.10-1.5.2.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/trr0scVt/versions/yiMsYIAw/SmoothScrollingRefurbished%2B1.21.10-1.5.2.jar"

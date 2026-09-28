@@ -4,6 +4,7 @@ hidden = false
 name = "Screenshot Compression"
 filename = "screenshotcompression-26.1.0-1.2.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/cfrxss4E/versions/pp755guZ/screenshotcompression-26.1.0-1.2.jar"

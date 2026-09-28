@@ -4,6 +4,7 @@ hidden = false
 name = "Not Enough Crashes"
 filename = "notenoughcrashes-fabric-4.4.9+26.1.2.jar"
 side = "both"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/yM94ont6/versions/t9SMrcvj/notenoughcrashes-fabric-4.4.9%2B26.1.2.jar"

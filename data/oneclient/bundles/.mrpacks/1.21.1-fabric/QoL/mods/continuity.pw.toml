@@ -4,6 +4,7 @@ hidden = false
 name = "Continuity"
 filename = "continuity-3.0.0+1.21.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/1IjD5062/versions/kSPJ4hQv/continuity-3.0.0%2B1.21.jar"

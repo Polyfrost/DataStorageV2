@@ -4,6 +4,7 @@ hidden = false
 name = "Dropped Item Tweaks"
 filename = "droppeditemtweaks-1.2.8+1.21.11-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/8sg2XRWF/versions/59OOysc5/droppeditemtweaks-1.2.8%2B1.21.11-fabric.jar"

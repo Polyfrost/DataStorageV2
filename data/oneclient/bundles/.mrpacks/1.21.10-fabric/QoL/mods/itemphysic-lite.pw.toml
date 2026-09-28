@@ -4,6 +4,7 @@ hidden = false
 name = "ItemPhysic Lite"
 filename = "ItemPhysicLite_FABRIC_v1.6.10_mc1.21.9.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/OuyCgP8t/versions/1XIGxX7x/ItemPhysicLite_FABRIC_v1.6.10_mc1.21.9.jar"

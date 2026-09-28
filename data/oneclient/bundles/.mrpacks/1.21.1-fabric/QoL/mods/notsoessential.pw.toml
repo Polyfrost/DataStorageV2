@@ -4,6 +4,7 @@ hidden = false
 name = "Not So Essential"
 filename = "NotSoEssential-Fabric-1.0.8.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/CDo9Niyy/versions/l1JDKmdc/NotSoEssential-Fabric-1.0.8.jar"

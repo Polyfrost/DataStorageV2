@@ -4,6 +4,7 @@ hidden = false
 name = "Catharsis"
 filename = "Catharsis-1.0.0-beta.22-26.3.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/fc4wBpRx/versions/NiyG56Rb/Catharsis-1.0.0-beta.22-26.3.jar"

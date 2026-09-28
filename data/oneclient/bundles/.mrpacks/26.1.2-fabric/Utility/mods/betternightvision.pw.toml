@@ -4,6 +4,7 @@ hidden = false
 name = "Better Night Vision"
 filename = "betternightvision-1.0.5+26.1.2-fabric.jar"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/CaQ3SZNi/versions/RwUPIoL8/betternightvision-1.0.5%2B26.1.2-fabric.jar"

@@ -4,6 +4,7 @@ hidden = false
 name = "night's Hypixel SkyBlock Enchanted Books"
 filename = "SkyBlock Enchanted Books.zip"
 side = "client"
+type = "normal"
 
 [download]
 url = "https://cdn.modrinth.com/data/Z3mvPSZb/versions/wzAE0jIs/SkyBlock%20Enchanted%20Books.zip"

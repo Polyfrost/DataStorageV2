@@ -4,6 +4,7 @@ hidden = false
 name = "Particle Core"
 filename = "particle_core-0.3.3+1.21.jar"
 side = "client"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/RSeLon5O/versions/mau4pnKr/particle_core-0.3.3%2B1.21.jar"
