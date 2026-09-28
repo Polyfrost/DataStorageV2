@@ -107,9 +107,8 @@ const DISABLE_WARNINGS_FILE = path.join(
 );
 
 function checkDisableWarning(label, warning) {
-  if (warning === null) return;
-  if (typeof warning !== "object" || Array.isArray(warning)) {
-    errors.push(`disable-warnings.json: ${label} must be an object or null`);
+  if (!warning || typeof warning !== "object" || Array.isArray(warning)) {
+    errors.push(`disable-warnings.json: ${label} must be an object`);
     return;
   }
   if (typeof warning.message !== "string" || !warning.message.endsWith(".md")) {
@@ -128,9 +127,6 @@ if (fs.existsSync(DISABLE_WARNINGS_FILE)) {
   const disableWarnings = JSON.parse(
     fs.readFileSync(DISABLE_WARNINGS_FILE, "utf-8")
   );
-  if (disableWarnings.default !== undefined) {
-    checkDisableWarning("default", disableWarnings.default);
-  }
   for (const [key, warning] of Object.entries(disableWarnings.mods ?? {})) {
     checkDisableWarning(`mods.${key}`, warning);
     if (!bundledProjectIds.has(key)) {

@@ -1,8 +1,4 @@
 {
-    "default": {
-        "message": "/oneclient/bundles/disable-warnings/default.md"
-    },
-
     "mods": {
         "Iw9mZi4a": {
             "message": "/oneclient/bundles/disable-warnings/polyplus.md"
