@@ -4,6 +4,8 @@ const path = require("path");
 const toml = require("@iarna/toml");
 
 const errors = [];
+// Modrinth project ids of every bundled mod, for validating disable-warnings.json
+const bundledProjectIds = new Set();
 
 // packwiz source packs live under data/oneclient/bundles/.mrpacks/<version>/<Bundle>
 const MRPACKS_DIR = path.join(
@@ -18,6 +20,9 @@ const MRPACKS_DIR = path.join(
 function checkMod(file) {
   const fileData = fs.readFileSync(file, "utf-8");
   const parsed = toml.parse(fileData);
+
+  const projectId = parsed.update?.modrinth?.["mod-id"];
+  if (projectId) bundledProjectIds.add(projectId);
 
   if (!parsed.id) {
     errors.push(`${file} doesn't have an id?`);
@@ -88,6 +93,51 @@ for (const version of versions) {
   const bundles = fs.readdirSync(path.join(MRPACKS_DIR, version));
   for (const bundle of bundles) {
     checkBundle(path.join(MRPACKS_DIR, version, bundle), bundle);
+  }
+}
+
+// Bundled-mod disable warnings, shipped as-is and read by the launcher
+const DISABLE_WARNINGS_FILE = path.join(
+  __dirname,
+  "..",
+  "data",
+  "oneclient",
+  "bundles",
+  "disable-warnings.json"
+);
+
+function checkDisableWarning(label, warning) {
+  if (warning === null) return;
+  if (typeof warning !== "object" || Array.isArray(warning)) {
+    errors.push(`disable-warnings.json: ${label} must be an object or null`);
+    return;
+  }
+  if (typeof warning.message !== "string" || !warning.message.endsWith(".md")) {
+    errors.push(`disable-warnings.json: ${label} message must be a .md path`);
+  } else {
+    const file = path.join(__dirname, "..", "data", warning.message);
+    if (!fs.existsSync(file) || !fs.readFileSync(file, "utf-8").trim()) {
+      errors.push(
+        `disable-warnings.json: ${label} message ${warning.message} is missing or empty`
+      );
+    }
+  }
+}
+
+if (fs.existsSync(DISABLE_WARNINGS_FILE)) {
+  const disableWarnings = JSON.parse(
+    fs.readFileSync(DISABLE_WARNINGS_FILE, "utf-8")
+  );
+  if (disableWarnings.default !== undefined) {
+    checkDisableWarning("default", disableWarnings.default);
+  }
+  for (const [key, warning] of Object.entries(disableWarnings.mods ?? {})) {
+    checkDisableWarning(`mods.${key}`, warning);
+    if (!bundledProjectIds.has(key)) {
+      console.warn(
+        `::warning::disable-warnings.json: "${key}" is not the Modrinth project id of any bundled mod`
+      );
+    }
   }
 }
 

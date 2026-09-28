@@ -3,9 +3,13 @@ on:
   pull_request:
     paths:
       - data/oneclient/bundles/.mrpacks/**
+      - data/oneclient/bundles/disable-warnings.json
+      - data/oneclient/bundles/disable-warnings/**
   push:
     paths:
       - data/oneclient/bundles/.mrpacks/**
+      - data/oneclient/bundles/disable-warnings.json
+      - data/oneclient/bundles/disable-warnings/**
   workflow_dispatch:
 
 jobs:
