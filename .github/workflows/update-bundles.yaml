@@ -40,6 +40,7 @@ jobs:
         env:
           PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKWIZ_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x ./scripts/*.sh
           ./scripts/update-bundles.sh
