@@ -220,11 +220,6 @@ hash = "3b4a22dba05fc797e791fa127e44707722243cabf85af2dd95809dfbe449bb41"
 metafile = true
 
 [[files]]
-file = "mods/no-ones-view-model.pw.toml"
-hash = "119f4db4de452262b0fd31bd034eba951d96ee3c600a810667d514fa9829edde"
-metafile = true
-
-[[files]]
 file = "mods/notsoessential.pw.toml"
 hash = "4871c04f7eed33069d9ecda4dc199d2df3315f6c02f0d055cd54c3903eeee55d"
 metafile = true
@@ -287,11 +282,6 @@ metafile = true
 [[files]]
 file = "mods/polyweather.pw.toml"
 hash = "57091da28d6567cddeedb76f7a1c3596f3c5de593828d56a5b99acc425c05049"
-metafile = true
-
-[[files]]
-file = "mods/presence-footsteps.pw.toml"
-hash = "f4b2a256f13fb9a5457b5cf2c99874ca0dbff0dbc3ea7c52307544f85545f8da"
 metafile = true
 
 [[files]]

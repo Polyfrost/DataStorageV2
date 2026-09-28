@@ -240,11 +240,6 @@ hash = "c70e98c7b12aa09e1aa22e9c4f88224823c55983b299786323711488e231f7e6"
 metafile = true
 
 [[files]]
-file = "mods/presence-footsteps.pw.toml"
-hash = "e7d12fa3b3303dc0432dabe878c33b65652ca98f015bda60ec4a7dba2c93811e"
-metafile = true
-
-[[files]]
 file = "mods/redaction.pw.toml"
 hash = "86f4c6ee3ca7044726cf6386f85b2e9ffab214d6e5771b958989b96687c2d058"
 metafile = true

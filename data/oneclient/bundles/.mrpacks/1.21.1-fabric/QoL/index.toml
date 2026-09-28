@@ -220,11 +220,6 @@ hash = "3b4a22dba05fc797e791fa127e44707722243cabf85af2dd95809dfbe449bb41"
 metafile = true
 
 [[files]]
-file = "mods/no-ones-view-model.pw.toml"
-hash = "c6a2b30837f7ac2a913c266cd550a3f3326227bc1294796afc5a5a0e3b336724"
-metafile = true
-
-[[files]]
 file = "mods/notsoessential.pw.toml"
 hash = "4871c04f7eed33069d9ecda4dc199d2df3315f6c02f0d055cd54c3903eeee55d"
 metafile = true
@@ -300,11 +295,6 @@ hash = "06458a06869d49619372a77c895985cda92042b84ced73c305f1781a6c5b4990"
 metafile = true
 
 [[files]]
-file = "mods/presence-footsteps.pw.toml"
-hash = "009d81f70b204642d8067ab1e227e962230794c9e2538a316a316f12bbe69fba"
-metafile = true
-
-[[files]]
 file = "mods/redaction.pw.toml"
 hash = "99bc270843adf823c2472c7f4436c7a1b28007e25ebfd1b54aaf32fa3940a304"
 metafile = true
@@ -342,11 +332,6 @@ metafile = true
 [[files]]
 file = "mods/smooth-skies.pw.toml"
 hash = "7ed1289395977d70221a8d9f76e768185427c8159bb561966c8907ca26738870"
-metafile = true
-
-[[files]]
-file = "mods/sound-physics-perfected.pw.toml"
-hash = "1c104c050fa709219bb145417ef4963768ef5ab1fd9c095dc50496f038d80209"
 metafile = true
 
 [[files]]

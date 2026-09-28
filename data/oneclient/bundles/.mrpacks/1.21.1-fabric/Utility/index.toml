@@ -61,11 +61,6 @@ hash = "c90888fcafcdd9d54ee6813b3ae32a6bda8777047d273bca8564aa3e2472416b"
 metafile = true
 
 [[files]]
-file = "mods/euphoria-patches.pw.toml"
-hash = "be0700b3d5c8e34d031470c28259a979ee9da445fb632f0a33f450a709184bda"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "e83a689c97c4e459bc06433cc54391ed1afc7033e67ceaace5131d708e8a5ae0"
 metafile = true
