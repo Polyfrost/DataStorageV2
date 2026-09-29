@@ -32,8 +32,6 @@ const INDEX_NAME = "modrinth.index.json";
 const CONTENT_MARKER = (digest) => `Content SHA-1: \`${digest}\``;
 const CONTENT_MARKER_RE = /Content SHA-1: `([0-9a-f]{40})`/g;
 
-const IGNORED_MC = new Set(["26.1"]);
-
 const ENVIRONMENT = "client_only";
 
 const PROJECTS = [
@@ -171,7 +169,6 @@ async function main() {
     const classified = classify(filename);
     if (!classified) continue;
     const { project, mc } = classified;
-    if (IGNORED_MC.has(mc)) continue; // explicitly excluded version
     if (!project.projectId) continue; // project not configured
     if (!byProject.has(project)) byProject.set(project, []);
     byProject.get(project).push({ filename, mc });

@@ -7,10 +7,6 @@ OUTPUT_DIR="${1:-$SCRIPT_DIR/../data/oneclient/bundles/generated}"
 
 SKYBLOCK_CATEGORY="skyblock"
 
-IGNORED_VERSIONS=(
-  "26.1-fabric"
-)
-
 for cmd in zip unzip; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
     echo "Error: Required command '$cmd' is not installed or not in PATH." >&2
@@ -111,18 +107,6 @@ EOF
 for version in "$MRPACKS_DIR"/*; do
   [ -d "$version" ] || continue
   parsed="$(basename "$version")"
-
-  skip=""
-  for ignored in "${IGNORED_VERSIONS[@]}"; do
-    if [ "${parsed,,}" = "${ignored,,}" ]; then
-      skip=1
-      break
-    fi
-  done
-  if [ -n "$skip" ]; then
-    echo "Skipping ignored version $parsed"
-    continue
-  fi
 
   local_base=()
   skyblock_dir=""
