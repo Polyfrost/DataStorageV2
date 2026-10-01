@@ -71,6 +71,11 @@ hash = "c0d62203799652ea1221ae536d7c78641c31e08c09cb4bfaa3ef3616b49d6d23"
 metafile = true
 
 [[files]]
+file = "mods/smooth-scrolling-refurbished.pw.toml"
+hash = "6356e7dcfe73d291fa0b92fb796664be1b61fb5a7d590fe296434030dfff6f9e"
+metafile = true
+
+[[files]]
 file = "mods/smooth-skies.pw.toml"
 hash = "e5cc0c8a7510523b70cadda8b35e46e615f14bf20eeb5658de830b7cfe8927fb"
 metafile = true
