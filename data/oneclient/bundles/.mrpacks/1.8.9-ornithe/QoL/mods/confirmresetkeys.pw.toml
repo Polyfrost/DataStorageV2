@@ -1,0 +1,17 @@
+id = "y0E9vcbS"
+enabled = true
+hidden = false
+name = "Confirm Reset Keys"
+filename = "confirmresetkeys-1.0.1+1.8.9-fabric-dev.jar"
+side = "client"
+type = "advanced"
+
+[download]
+url = "https://cdn.modrinth.com/data/y0E9vcbS/versions/5jtau2mM/confirmresetkeys-1.0.1%2B1.8.9-fabric-dev.jar"
+hash-format = "sha512"
+hash = "788887e063ffe41e5e2266e49f047738463ca2c49955f16dcf754c2af1fc2121ce30b38e47a55fa5481a51a19a21ec09f20574e06b58fad8fd47504b90f8f2ab"
+
+[update]
+[update.modrinth]
+mod-id = "y0E9vcbS"
+version = "5jtau2mM"

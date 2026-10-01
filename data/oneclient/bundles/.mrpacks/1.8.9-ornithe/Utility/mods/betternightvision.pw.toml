@@ -1,0 +1,17 @@
+id = "CaQ3SZNi"
+enabled = true
+hidden = false
+name = "Better Night Vision"
+filename = "betternightvision-1.0.5+1.8.9-fabric-dev.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://cdn.modrinth.com/data/CaQ3SZNi/versions/XJ7TZsx8/betternightvision-1.0.5%2B1.8.9-fabric-dev.jar"
+hash-format = "sha512"
+hash = "7f7638a920f2c5b36baf9651a656a574cbd6d38ce53a08cf5d1c3ae1b9b6ad10bcb67f5b3e831eb55a0d907325b4eadd160930aff406b29f05afcd40009a91e6"
+
+[update]
+[update.modrinth]
+mod-id = "CaQ3SZNi"
+version = "XJ7TZsx8"

@@ -1,0 +1,17 @@
+id = "uv6GyJOZ"
+enabled = true
+hidden = false
+name = "Crosshair Tweaks"
+filename = "crosshairtweaks-1.5.4+1.8.9-fabric-dev.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://cdn.modrinth.com/data/uv6GyJOZ/versions/5wl6M58b/crosshairtweaks-1.5.4%2B1.8.9-fabric-dev.jar"
+hash-format = "sha512"
+hash = "593930f3c72c80f2487026422fcd30cf064f09ad21e7cf7e99bdd8e423817f4d24cc2c86733bd42d1445d820a431c82efe3f9c6ac46eddfb5a4d7837c13210cc"
+
+[update]
+[update.modrinth]
+mod-id = "uv6GyJOZ"
+version = "5wl6M58b"

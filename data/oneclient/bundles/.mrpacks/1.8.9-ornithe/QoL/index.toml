@@ -1,0 +1,81 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/betterhurtcam.pw.toml"
+hash = "904ae4c333d89c198d74bcc416f54e3753758ad1be87701f2b6ff66454d35083"
+metafile = true
+
+[[files]]
+file = "mods/confirm-disconnect.pw.toml"
+hash = "46e8bf7bb73392b1609ca8d88a916c41915cb902c3d6b166e61b088de4e4c160"
+metafile = true
+
+[[files]]
+file = "mods/confirmresetkeys.pw.toml"
+hash = "b2d17cc049bf2fe43d5df2c30cd969b3a3244e27eee4f96312f546a0ca624196"
+metafile = true
+
+[[files]]
+file = "mods/crosshairtweaks.pw.toml"
+hash = "87d12452137c87053b6c714cd65cea8627a0cab4946d88dddac1b58e4908e582"
+metafile = true
+
+[[files]]
+file = "mods/droppeditemtweaks.pw.toml"
+hash = "b34a98600d675839e65071d22ed03bf56168a6931f5b6786b7b850f5697f7faa"
+metafile = true
+
+[[files]]
+file = "mods/mountopacity.pw.toml"
+hash = "e5d3dae7c69d7dd4e1e937d1d2d27e2422bcc76edbbbb387247d92009b4e497a"
+metafile = true
+
+[[files]]
+file = "mods/numerical-enchantments.pw.toml"
+hash = "3e3b99787be309f9ea480a0ad10afc54b7e119ad7373f84296459c91ce4e22b3"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "c348b20041c482d22c8b22239d52ba6f2819b7957b8da5cf2497cf182ec6c295"
+metafile = true
+
+[[files]]
+file = "mods/osl.pw.toml"
+hash = "07c2c61bed661b06dcd01230bcf225639c8849a942a83147bd304f974212bbd5"
+metafile = true
+
+[[files]]
+file = "mods/overlaytweaks.pw.toml"
+hash = "b1f474967c12499107c34d1469fa8635c636cf2c46cf13876f2913ead467d15d"
+metafile = true
+
+[[files]]
+file = "mods/pylon.pw.toml"
+hash = "7295654b8aa78098de947fe8f7ed34efe6a4c3f1f9cf4ccd8b208978b2805206"
+metafile = true
+
+[[files]]
+file = "mods/rendertweaks.pw.toml"
+hash = "f1c69a9262b4047906c8db5ac36069f9f764a5e6f0e5ed3e8c89bd3010f993ed"
+metafile = true
+
+[[files]]
+file = "mods/scrolltweaks.pw.toml"
+hash = "895ad42a2e9d4ed393855987944ea756dfd7a70d0b1d555550eac2878127a14a"
+metafile = true
+
+[[files]]
+file = "mods/shaketweaks.pw.toml"
+hash = "c0d62203799652ea1221ae536d7c78641c31e08c09cb4bfaa3ef3616b49d6d23"
+metafile = true
+
+[[files]]
+file = "mods/smooth-skies.pw.toml"
+hash = "e5cc0c8a7510523b70cadda8b35e46e615f14bf20eeb5658de830b7cfe8927fb"
+metafile = true
+
+[[files]]
+file = "mods/tipper.pw.toml"
+hash = "1dd20b3ba218979fdb5d480462f32b5db9266ee05899246769e437bc6bb4290a"
+metafile = true

@@ -1,0 +1,21 @@
+name = "OneClient 1.8.9 Ornithe [Utility]"
+author = "Polyfrost"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+poly-format = "1"
+enabled = true
+category = "Utility"
+id = "utility-1.8.9-ornithe"
+update-url = "oneclient/generated/utility-1.8.9-ornithe.mrpack"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "842bd1800a84acbfa6aa5ce7e64115dfb2d33be12fc827db742baa92e500256d"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "1.8.9"
+
+[options]
+acceptable-game-versions = []

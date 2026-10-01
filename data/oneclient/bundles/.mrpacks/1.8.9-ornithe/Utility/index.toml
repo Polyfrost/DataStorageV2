@@ -1,0 +1,16 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/betternightvision.pw.toml"
+hash = "866aa9180aebdbba8b5470bc9114f1f35fa9ed4ef9786c7a996aafe14ae0a0f1"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "c348b20041c482d22c8b22239d52ba6f2819b7957b8da5cf2497cf182ec6c295"
+metafile = true
+
+[[files]]
+file = "mods/pylon.pw.toml"
+hash = "7295654b8aa78098de947fe8f7ed34efe6a4c3f1f9cf4ccd8b208978b2805206"
+metafile = true

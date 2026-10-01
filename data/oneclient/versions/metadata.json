@@ -1,6 +1,21 @@
 {
     "clusters": [
         {
+            "major_version": 8,
+            "name": "Bountiful Update",
+            "art": "/oneclient/versions/art/Ocean_Update_1.8.webp",
+            "long_description": "Minecraft's 1.8 update, known as the \"Bountiful Update\", added oceans monuments, armor stands, slime blocks, granite, diorite and andesite, along with spectator mode and a long list of gameplay tweaks. 1.8.9 is still the home of competitive PvP.",
+            "tags": ["Bountiful Update"],
+            "entries": [
+                {
+                    "minor_version": 9,
+                    "loader": "ornithe",
+                    "java_version": 25,
+                    "tags": ["PvP"]
+                }
+            ]
+        },
+        {
             "major_version": 21,
             "name": "Tricky Trials",
             "art": "/oneclient/versions/art/Tricky_Trials.webp",
