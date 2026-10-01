@@ -79,3 +79,8 @@ metafile = true
 file = "mods/tipper.pw.toml"
 hash = "1dd20b3ba218979fdb5d480462f32b5db9266ee05899246769e437bc6bb4290a"
 metafile = true
+
+[[files]]
+file = "mods/tooltip-scroll.pw.toml"
+hash = "aeb7ff8af65848b0517713df05472fc99db3ab371d8a0dff098b30e8e038603f"
+metafile = true

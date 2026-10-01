@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/exploint.pw.toml"
+hash = "673eed7d6b4445d671816a88d16ab16cfe340db3436279afc1e9de16554b0a16"
+metafile = true
+
+[[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "c348b20041c482d22c8b22239d52ba6f2819b7957b8da5cf2497cf182ec6c295"
 metafile = true
