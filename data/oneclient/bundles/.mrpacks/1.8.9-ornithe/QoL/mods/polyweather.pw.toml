@@ -1,0 +1,16 @@
+id = "r8Cr8YRg"
+enabled = true
+hidden = false
+name = "PolyWeather"
+filename = "polyweather-1.3.0+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/r8Cr8YRg/versions/KymIUFkz/polyweather-1.3.0%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "aa8dd96a6416f33810c741b040de514031b0ab4e337fcb8b6c1099ae517f7a38805d1227583f928ce454052445bf99e2ea14e03a19883ed5e282e95877953959"
+
+[update]
+[update.modrinth]
+mod-id = "r8Cr8YRg"
+version = "KymIUFkz"

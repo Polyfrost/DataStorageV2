@@ -16,6 +16,11 @@ hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
 metafile = true
 
 [[files]]
+file = "mods/crashpatch.pw.toml"
+hash = "1b8ef37df23438635cb8ea614d93278e6c1f18a7df8de1f1cffd6263db7dcc3b"
+metafile = true
+
+[[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "873e39381b565bbb654c5bcf1b8ff637df9a1c9542c4448af302125dfc194d10"
 metafile = true

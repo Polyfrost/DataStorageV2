@@ -121,6 +121,11 @@ hash = "07c2c61bed661b06dcd01230bcf225639c8849a942a83147bd304f974212bbd5"
 metafile = true
 
 [[files]]
+file = "mods/overflowparticles.pw.toml"
+hash = "823e40e72b14cc9d6c8772c8c03972de8a60ea9542561a180dfd1f84d139e92a"
+metafile = true
+
+[[files]]
 file = "mods/overlaytweaks.pw.toml"
 hash = "b1f474967c12499107c34d1469fa8635c636cf2c46cf13876f2913ead467d15d"
 metafile = true
@@ -143,6 +148,11 @@ metafile = true
 [[files]]
 file = "mods/polytime.pw.toml"
 hash = "59df08020e5625294e868d6d79b72ec98733b897d18087b794bfb727b2be2d2c"
+metafile = true
+
+[[files]]
+file = "mods/polyweather.pw.toml"
+hash = "22505b6c0492abda993c74e240f7a453f0db97404127614ebc06384034f32046"
 metafile = true
 
 [[files]]

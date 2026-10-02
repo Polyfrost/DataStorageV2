@@ -1,0 +1,16 @@
+id = "nZ3E8WQz"
+enabled = true
+hidden = false
+name = "CrashPatch"
+filename = "CrashPatch-2.2.0+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nZ3E8WQz/versions/tD0pt5Br/CrashPatch-2.2.0%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "9607f8739b0228b9a99e16af84767e4636451b661ae4d28111324af19b58341cc0299d0975fe3328f0228bdccb2fb4f341f8703592ceb32b8b9d1b26f87092a6"
+
+[update]
+[update.modrinth]
+mod-id = "nZ3E8WQz"
+version = "tD0pt5Br"
