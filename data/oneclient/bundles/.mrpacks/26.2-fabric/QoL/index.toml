@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatblock.pw.toml"
-hash = "42826f723ab1d84807f952d9fbd5c1105896565b6a1c71269061f14b5f6ee96a"
+hash = "f84bf8cf8e2f3dfea3f846fff5c80b3d54e492d1461e28223cbe470e87ac7bcd"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "135cf82ca948ab7cd3aefe80e5bf0c7f5987ba74a3dd9c79d8c73493eda839cc"
+hash = "521c8ca34455cdd27a6cb02e4cb583ca52fd2c7942fc17e5e87fe01ffee9570a"
 metafile = true
 
 [[files]]
@@ -276,7 +276,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
-hash = "b99332e3e929718ab3df1f02d5fbc3ff603aadf3abcaa8ccd830227ad4428b51"
+hash = "21676fa425adc2b173d782302c491a05826e9b0137d7ffefa70c9603961f3de4"
 metafile = true
 
 [[files]]
