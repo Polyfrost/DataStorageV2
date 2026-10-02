@@ -2,16 +2,16 @@ id = "cfrxss4E"
 enabled = true
 hidden = false
 name = "Screenshot Compression"
-filename = "screenshotcompression-26.2.0-1.3.jar"
+filename = "screenshotcompression-26.2.0-1.4.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/cfrxss4E/versions/d2YXLx9A/screenshotcompression-26.2.0-1.3.jar"
+url = "https://cdn.modrinth.com/data/cfrxss4E/versions/tEuyU2xg/screenshotcompression-26.2.0-1.4.jar"
 hash-format = "sha512"
-hash = "866feeb10085a502d28cd295ea5a719d90c331f0daf55d711cea27b353c2ce24170a9e926f847586b3eab86805f71e20956848ff2e617297a75fe6ee0cdf8d4e"
+hash = "3cdc0104f5157a208dc8dab71a604897b4c8b91e80bcb543626f9fb574f5cd5e0a553c47a557a6f9d65d20ad36975e714c9e18d8c81b9ef6c3473497a12c0715"
 
 [update]
 [update.modrinth]
 mod-id = "cfrxss4E"
-version = "d2YXLx9A"
+version = "tEuyU2xg"

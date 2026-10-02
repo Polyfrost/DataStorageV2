@@ -6,11 +6,6 @@ hash = "3fac4fae71590116e9d660c67b64c8beae1b848ba4fa10f402c973ee63dd31a0"
 metafile = true
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-hash = "f42e0b6ac4913c32ca35d82567d6f73a16ee61b245cdc5e8f4caa249f54aff41"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "8dabeefe1729dc6903df937d0f600cea505b3101a3c589f29f54b2fd98a58d15"
 metafile = true

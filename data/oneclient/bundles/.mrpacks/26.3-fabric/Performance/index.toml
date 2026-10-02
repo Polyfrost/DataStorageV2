@@ -6,11 +6,6 @@ hash = "3fac4fae71590116e9d660c67b64c8beae1b848ba4fa10f402c973ee63dd31a0"
 metafile = true
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-hash = "b9abdb257f7ff53e7472cd84c04f275955206a3cc2b8cb211caaf71eb4acce2f"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "650394f55855b3081951f0a320bf094fa4a42e5beaf940191f71d5452638e5a3"
 metafile = true
@@ -147,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshot-compression.pw.toml"
-hash = "1936d2aa0a2b036bdf58d54f2940e138d5eea1f9246bb608e3022520f5f2860a"
+hash = "af159cd37babf9d7894e200a90a2716fdeefe705081ea33288cca83022a9d367"
 metafile = true
 
 [[files]]
