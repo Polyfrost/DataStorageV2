@@ -1,0 +1,23 @@
+id = "argentum"
+enabled = true
+hidden = false
+name = "Argentum"
+filename = "argentum-1.0.0+b45107a.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Argentum"
+description = "Client rendering improvements for Minecraft 1.8.9"
+authors = ["rdh"]
+
+[download]
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.0/argentum-1.0.0%2Bb45107a.jar"
+hash-format = "sha256"
+hash = "0f5c2885bd57efcd50ab3a62f61de19c77b39be5270bc585cceefcad8cf3ba70"
+
+[update]
+[update.github]
+branch = "main"
+slug = "Polyfrost/Argentum"
+tag = "v1.0.0"

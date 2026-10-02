@@ -1,0 +1,23 @@
+id = "argentum-extras"
+enabled = true
+hidden = false
+name = "Argentum Extras"
+filename = "argentum-extras-1.0.0+b45107a.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Argentum Extras"
+description = "Optional rendering and visual controls for Argentum"
+authors = ["rdh"]
+
+[download]
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.0/argentum-extras-1.0.0%2Bb45107a.jar"
+hash-format = "sha256"
+hash = "3ee95f04e111fcc6c4a000b5d14ef8ac614dfe0897aedeab45bd09c05f5d5606"
+
+[update]
+[update.github]
+branch = "main"
+slug = "Polyfrost/Argentum"
+tag = "v1.0.0"

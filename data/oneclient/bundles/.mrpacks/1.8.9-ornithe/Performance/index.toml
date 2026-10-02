@@ -1,6 +1,21 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/argentum-extras.pw.toml"
+hash = "b34b276d93290e5470a59ece36ae7b5dcec127b1a18f8b80a7d5e0417bb5021f"
+metafile = true
+
+[[files]]
+file = "mods/argentum.pw.toml"
+hash = "9ecd842003bcb7413f9b80b5846e324198d4c1b2148f506aaba1918e6fd94d76"
+metafile = true
+
+[[files]]
+file = "mods/cera.pw.toml"
+hash = "5a7436bc458ca5dcba5f8576e110bf4c18aa42da11f6ec765be44feda82792a1"
+metafile = true
+
+[[files]]
 file = "mods/compose-multiplatform.pw.toml"
 hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
 metafile = true
