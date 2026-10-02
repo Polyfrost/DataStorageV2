@@ -1,0 +1,23 @@
+id = "polyzoom"
+enabled = true
+hidden = false
+name = "PolyZoom"
+filename = "PolyZoom-1.0.0.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "PolyZoom"
+description = "Adds a configurable zoom keybind with smooth transitions."
+authors = ["Polyfrost"]
+
+[download]
+url = "https://github.com/Polyfrost/PolyZoom/releases/download/v1.0.0/PolyZoom-1.0.0.jar"
+hash-format = "sha256"
+hash = "6d404ab1a3ed1db7c48f41c51c20adbbbe71f0eb391c95dafec1bac798de0cc7"
+
+[update]
+[update.github]
+branch = "main"
+slug = "Polyfrost/PolyZoom"
+tag = "v1.0.0"

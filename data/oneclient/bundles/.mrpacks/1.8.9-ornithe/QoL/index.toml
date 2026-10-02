@@ -146,6 +146,11 @@ hash = "59df08020e5625294e868d6d79b72ec98733b897d18087b794bfb727b2be2d2c"
 metafile = true
 
 [[files]]
+file = "mods/polyzoom.pw.toml"
+hash = "452da93a4a0b67bffb9081d5b85bcd7021a2d4815c993c461004c623c6c58c0d"
+metafile = true
+
+[[files]]
 file = "mods/pylon.pw.toml"
 hash = "7295654b8aa78098de947fe8f7ed34efe6a4c3f1f9cf4ccd8b208978b2805206"
 metafile = true
