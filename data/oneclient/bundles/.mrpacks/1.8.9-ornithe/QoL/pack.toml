@@ -11,7 +11,7 @@ update-url = "oneclient/generated/qol-1.8.9-ornithe.mrpack"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1dc8c73bf160868bdef4d18b3feccdc31e39c8c396519f06ea7d9caa79e4e9e4"
+hash = "68b985638556072985043ddbee3858fe79b7969f4a4c50dddaf83a064b545e25"
 
 [versions]
 fabric = "0.19.5"

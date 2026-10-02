@@ -1,0 +1,16 @@
+id = "sAFPANmp"
+enabled = true
+hidden = false
+name = "BehindYou (SnapLook)"
+filename = "behindyouv3-3.5.0+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sAFPANmp/versions/LA4xblvd/behindyouv3-3.5.0%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "5d1eba76c992bc676640ba479837b7632d5364ef1501f6b02527fdbe090cd9588cc6d7efdcb9a0bdefc449f151a14078ce13eaa4c436e98590a7611bc3b9aa89"
+
+[update]
+[update.modrinth]
+mod-id = "sAFPANmp"
+version = "LA4xblvd"

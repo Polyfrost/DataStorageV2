@@ -1,0 +1,16 @@
+id = "Mptc0jo6"
+enabled = true
+hidden = false
+name = "PolyHitbox"
+filename = "polyhitbox-1.3.1+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Mptc0jo6/versions/lF5nB8Es/polyhitbox-1.3.1%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "da2237d42063a1725eb2d6af6ce2652582202e3e99ec3438874adf0d4e7322f65a1af011b65bea159d1885e83e010597c7215080c525d88fa3cee62172261b3d"
+
+[update]
+[update.modrinth]
+mod-id = "Mptc0jo6"
+version = "lF5nB8Es"

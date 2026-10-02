@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/animations.pw.toml"
+hash = "605b55d2014b59ecdcaa974b900fc3b757cbc31f8e3ebfca081a00d429328232"
+metafile = true
+
+[[files]]
 file = "mods/better-screens.pw.toml"
 hash = "4a0b2b4bbadf03e3642615077aca89aace51005a8ad0722816ef89acd8a0ae57"
 metafile = true
@@ -13,6 +18,11 @@ metafile = true
 [[files]]
 file = "mods/blur.pw.toml"
 hash = "50367471059d2173cc6dc50f3be01eeaf6303d4e233808c0e29a5e0d37ade611"
+metafile = true
+
+[[files]]
+file = "mods/chatting.pw.toml"
+hash = "dbb726542628c1b775022297a7a10d01fc096e6910da4e9d3f7c63222e06aa45"
 metafile = true
 
 [[files]]
@@ -38,6 +48,11 @@ metafile = true
 [[files]]
 file = "mods/crosshairtweaks.pw.toml"
 hash = "87d12452137c87053b6c714cd65cea8627a0cab4946d88dddac1b58e4908e582"
+metafile = true
+
+[[files]]
+file = "mods/damagetint.pw.toml"
+hash = "c53ddbbf98d446c1e41e9d713c486081e080e3f59b33dbc72bbd0af3acd176f7"
 metafile = true
 
 [[files]]
@@ -97,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "c348b20041c482d22c8b22239d52ba6f2819b7957b8da5cf2497cf182ec6c295"
+hash = "695a340912487fe37fef3139ba093034e944341ad0717b05df1bf471ceff10ab"
 metafile = true
 
 [[files]]
@@ -112,7 +127,12 @@ metafile = true
 
 [[files]]
 file = "mods/polyblur.pw.toml"
-hash = "f17ff77b37be33983daddaf5f8f82d7680882430a8d91c583bd1b8fd7b2a43da"
+hash = "ea9502dec6b9c4f6001743966264c5f8c074288e8bdba16e00d9f7ba588806c3"
+metafile = true
+
+[[files]]
+file = "mods/polynametag.pw.toml"
+hash = "c25b26e5a5725c6296102e3f8f436b9b7c8db757686c80d2624be54c5023e659"
 metafile = true
 
 [[files]]
@@ -122,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "de8d5f8078fb08c35cc82418d6e1331bf7ff7a2830ad2c9da312a3785ba052ed"
+hash = "59df08020e5625294e868d6d79b72ec98733b897d18087b794bfb727b2be2d2c"
 metafile = true
 
 [[files]]

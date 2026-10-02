@@ -11,7 +11,7 @@ update-url = "oneclient/generated/hud-1.8.9-ornithe.mrpack"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "72a510628534a6ccbc7617f09c762c7cc36e449ae2587999a9eba9573049fdc8"
+hash = "b29a8b8dbd92683fee9eaeb38f7a958c7e7b966f2857dbac3944c81f7d3d1399"
 
 [versions]
 fabric = "0.19.5"

@@ -1,0 +1,16 @@
+id = "8pJYUDNi"
+enabled = true
+hidden = false
+name = "Chatting"
+filename = "chatting-3.2.1+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8pJYUDNi/versions/BU5Irwvb/chatting-3.2.1%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "afdaa83c16dd0060f5300a10ca992a032eb039c6bdb53b0f03269573219e03cf5d1cc0cb603e279cb3e96087c68ee5dcb5fac09297f053167c6193778fef061a"
+
+[update]
+[update.modrinth]
+mod-id = "8pJYUDNi"
+version = "BU5Irwvb"
