@@ -46,6 +46,11 @@ hash = "7295654b8aa78098de947fe8f7ed34efe6a4c3f1f9cf4ccd8b208978b2805206"
 metafile = true
 
 [[files]]
+file = "mods/sarcio.pw.toml"
+hash = "dd275a65a83a09832342046c660437131cc581ab93b5c05d1abf3134cf392c6f"
+metafile = true
+
+[[files]]
 file = "mods/sciophobia.pw.toml"
 hash = "f17a92cc8a34b652e12959780b9de9a3b0ee43538d4bdc74c9345df38268dd24"
 metafile = true
