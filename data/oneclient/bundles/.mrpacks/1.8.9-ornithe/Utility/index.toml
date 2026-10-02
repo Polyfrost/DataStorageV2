@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "695a340912487fe37fef3139ba093034e944341ad0717b05df1bf471ceff10ab"
+hash = "610ed378f8f3a23f337cebe583e81a2a0e71cce114d6d4add1599d90eb08264d"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/pylon.pw.toml"
-hash = "7295654b8aa78098de947fe8f7ed34efe6a4c3f1f9cf4ccd8b208978b2805206"
+hash = "3fef8310066eac7c1a8a6eee74a70a3716efc8aa0d0fc431e9a6719b90362a16"
 metafile = true
 
 [[files]]

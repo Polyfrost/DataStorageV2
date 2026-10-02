@@ -2,7 +2,7 @@ id = "pylon"
 enabled = true
 hidden = true
 name = "Pylon"
-filename = "pylon-0.1.7.jar"
+filename = "pylon-0.1.8.jar"
 side = "client"
 type = "advanced"
 
@@ -13,12 +13,12 @@ authors = ["notdevcody"]
 icon = "https://raw.githubusercontent.com/notdevcody/pylon/main/src/main/resources/assets/pylon/icon.png"
 
 [download]
-url = "https://github.com/notdevcody/pylon/releases/download/v0.1.7/pylon-0.1.7.jar"
+url = "https://github.com/notdevcody/pylon/releases/download/v0.1.8/pylon-0.1.8.jar"
 hash-format = "sha256"
-hash = "61f162aaddfe231bb078ccb64ca2c4ebdd400fd2c5f2d4e82e81b6a176c17753"
+hash = "c0bf068479cb93d9c2cad2652b3eb4a5bc37f7bbec0856484f3bbaf35edeb479"
 
 [update]
 [update.github]
 slug = "notdevcody/pylon"
-tag = "v0.1.7"
+tag = "v0.1.8"
 branch = "main"
