@@ -4,7 +4,7 @@ hidden = false
 name = "Exploint"
 filename = "exploint-1.0.0+mc1.8.9.jar"
 side = "client"
-type = "normal"
+type = "advanced"
 
 [download]
 url = "https://cdn.modrinth.com/data/mL0gJygK/versions/mvnEsLbQ/exploint-1.0.0%2Bmc1.8.9.jar"
