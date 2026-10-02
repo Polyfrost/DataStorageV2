@@ -1,0 +1,24 @@
+id = "pylon"
+enabled = true
+hidden = true
+name = "Pylon"
+filename = "pylon-0.1.7.jar"
+side = "client"
+type = "advanced"
+
+[overrides]
+name = "Pylon"
+description = "Runs legacy Minecraft on LWJGL 3, replacing the old windowing system with SDL 3."
+authors = ["notdevcody"]
+icon = "https://raw.githubusercontent.com/notdevcody/pylon/main/src/main/resources/assets/pylon/icon.png"
+
+[download]
+url = "https://github.com/notdevcody/pylon/releases/download/v0.1.7/pylon-0.1.7.jar"
+hash-format = "sha256"
+hash = "61f162aaddfe231bb078ccb64ca2c4ebdd400fd2c5f2d4e82e81b6a176c17753"
+
+[update]
+[update.github]
+slug = "notdevcody/pylon"
+tag = "v0.1.7"
+branch = "main"

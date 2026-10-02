@@ -1,13 +1,13 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/betternightvision.pw.toml"
-hash = "866aa9180aebdbba8b5470bc9114f1f35fa9ed4ef9786c7a996aafe14ae0a0f1"
+file = "mods/compose-multiplatform.pw.toml"
+hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
 metafile = true
 
 [[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
+file = "mods/evergreenhud.pw.toml"
+hash = "bb5a69b52e591c6d11b72d8fafb46c372463e47372b5f61a20aebb15ef4fb211"
 metafile = true
 
 [[files]]
@@ -28,9 +28,4 @@ metafile = true
 [[files]]
 file = "mods/pylon.pw.toml"
 hash = "7295654b8aa78098de947fe8f7ed34efe6a4c3f1f9cf4ccd8b208978b2805206"
-metafile = true
-
-[[files]]
-file = "mods/smartsearch.pw.toml"
-hash = "833535e23401a2ed3d920ab5a55469763209e549202193fec3dfd697c8175933"
 metafile = true

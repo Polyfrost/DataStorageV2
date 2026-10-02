@@ -1,0 +1,16 @@
+id = "UpkHNO8R"
+enabled = true
+hidden = false
+name = "Screenshot Message Enhancer"
+filename = "ScreenshotMessageEnhancer-2.5.0-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UpkHNO8R/versions/aZQyTl3M/ScreenshotMessageEnhancer-2.5.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "d9ecbdf2767834df4b558e2d996ff6f67c4a3bed10ace7b19ffb83c32972a6e638b68b30ffa7eaae6e25598fac17ae6494ef476a7b581584d21e80fa984c997d"
+
+[update]
+[update.modrinth]
+mod-id = "UpkHNO8R"
+version = "aZQyTl3M"

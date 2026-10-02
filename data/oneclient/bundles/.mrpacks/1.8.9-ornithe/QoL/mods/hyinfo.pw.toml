@@ -1,0 +1,25 @@
+id = "HyInfo"
+enabled = true
+hidden = false
+name = "HyInfo"
+filename = "HyInfo-0.0.0-1.8.9_ornithe.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "HyInfo"
+description = "Adds Levelhead, BedWars stars, SkyWars stars and Duels division display in the tab list and above nametags on Hypixel."
+authors = ["Tomeko"]
+icon = "https://raw.githubusercontent.com/TomekoYT/HyInfo/main/src/main/resources/assets/hyinfo/icon.png"
+
+[download]
+url = "https://github.com/TomekoYT/HyInfo/releases/download/v0.0.0/HyInfo-0.0.0-1.8.9_ornithe.jar"
+hash-format = "sha256"
+hash = "e3b6b1b5cd34e90a644e0299182e2dea56fa65bb0cf4f5e3269d92e225a8a25e"
+
+[update]
+[update.github]
+branch = "main"
+regex = "1\\.8\\.9_ornithe\\.jar$"
+slug = "TomekoYT/HyInfo"
+tag = "v0.0.0"

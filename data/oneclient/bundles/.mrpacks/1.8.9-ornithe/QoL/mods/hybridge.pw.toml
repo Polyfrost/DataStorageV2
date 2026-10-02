@@ -1,0 +1,25 @@
+id = "HyBridge"
+enabled = true
+hidden = false
+name = "HyBridge"
+filename = "HyBridge-0.0.0-1.8.9_ornithe.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "HyBridge"
+description = "Adds a height overlay for The Bridge on Hypixel."
+authors = ["Tomeko"]
+icon = "https://raw.githubusercontent.com/TomekoYT/HyBridge/main/src/main/resources/assets/hybridge/icon.png"
+
+[download]
+url = "https://github.com/TomekoYT/HyBridge/releases/download/v0.0.0/HyBridge-0.0.0-1.8.9_ornithe.jar"
+hash-format = "sha256"
+hash = "0101f74ca5b58ffe29e6c90311d64d0b9187fb64ba23a72cfa430d8657d62f73"
+
+[update]
+[update.github]
+branch = "main"
+regex = "1\\.8\\.9_ornithe\\.jar$"
+slug = "TomekoYT/HyBridge"
+tag = "v0.0.0"

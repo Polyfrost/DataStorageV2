@@ -1,17 +1,17 @@
-name = "OneClient 1.8.9 Ornithe [QoL]"
+name = "OneClient 1.8.9 Ornithe [HUD]"
 author = "Polyfrost"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 poly-format = "1"
 enabled = true
-category = "QoL"
-id = "qol-1.8.9-ornithe"
-update-url = "oneclient/generated/qol-1.8.9-ornithe.mrpack"
+category = "HUD"
+id = "hud-1.8.9-ornithe"
+update-url = "oneclient/generated/hud-1.8.9-ornithe.mrpack"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1dc8c73bf160868bdef4d18b3feccdc31e39c8c396519f06ea7d9caa79e4e9e4"
+hash = "72a510628534a6ccbc7617f09c762c7cc36e449ae2587999a9eba9573049fdc8"
 
 [versions]
 fabric = "0.19.5"

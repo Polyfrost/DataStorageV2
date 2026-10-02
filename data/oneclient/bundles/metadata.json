@@ -63,6 +63,10 @@
         "1.8.9": {
             "ornithe": [
                 {
+                    "path": "/oneclient/bundles/generated/hud-1.8.9-ornithe.mrpack",
+                    "sha1": "${sha1(this.path)}"
+                },
+                {
                     "path": "/oneclient/bundles/generated/performance-1.8.9-ornithe.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },

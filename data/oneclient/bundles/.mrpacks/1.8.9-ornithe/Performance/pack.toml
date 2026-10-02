@@ -11,7 +11,7 @@ update-url = "oneclient/generated/performance-1.8.9-ornithe.mrpack"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "bbe77c9de458f968c6485eb6232bb045b99097e3a729c948b1223989ddbeff19"
+hash = "fe0c6c8c60af649885a8edb502c6674e54d497c0c0def5184afcbb6374365fbf"
 
 [versions]
 fabric = "0.19.5"
