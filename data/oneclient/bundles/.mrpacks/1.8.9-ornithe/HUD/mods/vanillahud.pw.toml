@@ -1,0 +1,17 @@
+id = "pWXJaKrX"
+enabled = true
+hidden = false
+name = "VanillaHUD"
+filename = "vanillahud-3.5.4+1.8.9.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://cdn.modrinth.com/data/pWXJaKrX/versions/Gpl9yiBF/vanillahud-3.5.4%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "c4149e4fec72dc5248de52192590fca7a8fe420b9f389b9eb9622020e02ea13f2e8b572f3b12741e93b5c66a41f329be8eed44dd5ef01065522b1f84fc133f26"
+
+[update]
+[update.modrinth]
+mod-id = "pWXJaKrX"
+version = "Gpl9yiBF"

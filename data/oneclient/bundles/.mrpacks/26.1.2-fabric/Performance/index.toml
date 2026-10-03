@@ -6,11 +6,6 @@ hash = "3fac4fae71590116e9d660c67b64c8beae1b848ba4fa10f402c973ee63dd31a0"
 metafile = true
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-hash = "f42e0b6ac4913c32ca35d82567d6f73a16ee61b245cdc5e8f4caa249f54aff41"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "8dabeefe1729dc6903df937d0f600cea505b3101a3c589f29f54b2fd98a58d15"
 metafile = true
@@ -117,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/macos-input-fixes.pw.toml"
-hash = "975e75ed03bad0474f94172113746c1073ba9bc7794562c82a3fa90a95d9a82f"
+hash = "9743b48d97fa4ca2926732c1034522b7cf9fabb8f745da34400e270d5531a65f"
 metafile = true
 
 [[files]]
@@ -137,12 +132,12 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "bfa3fc4332f558dcb710c264f74476c30cb88a5261ac06b7fd30cfc19937cc3a"
+hash = "63b8b266022fd347dbd5737be0ba54fb6822573950b1e7a89d0f1b3b1cde951d"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7608ea89d28fe8bea40f5d3ff0ff6f2a3e30db8bf5418ef427695d9b9ca8d5ed"
+hash = "d3ca4a7464ad2639fec61a6d00ff55ddec5253b9e39a9bdf5ad2ac9b673927e9"
 metafile = true
 
 [[files]]

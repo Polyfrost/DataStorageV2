@@ -1,0 +1,16 @@
+id = "61g97TVF"
+enabled = true
+hidden = false
+name = "OverflowParticles"
+filename = "overflowparticles-1.2.1+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/61g97TVF/versions/GPN2xTSL/overflowparticles-1.2.1%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "61503216734cb21dcfbb558d6d70e0fd0e4a6004cd4dd4bc460360192a27965102deaddae8781dc2939212753be093bd8b814e9b7eeca6dc7474064a3406281d"
+
+[update]
+[update.modrinth]
+mod-id = "61g97TVF"
+version = "GPN2xTSL"

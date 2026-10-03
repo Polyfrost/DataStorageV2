@@ -2,16 +2,16 @@ id = "x9BrsVME"
 enabled = true
 hidden = false
 name = "MacOS Input Fixes"
-filename = "macos-input-fixes-1.13.jar"
+filename = "macos-input-fixes-1.14.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/x9BrsVME/versions/Bejy0PdE/macos-input-fixes-1.13.jar"
+url = "https://cdn.modrinth.com/data/x9BrsVME/versions/ETM9FDou/macos-input-fixes-1.14.jar"
 hash-format = "sha512"
-hash = "8f6fa5310c8793e926459bb1bc1de598bb03e9b02115e3ccdd71e406000490171653edc43fe43352f1fab8b097bdc6a7c3cab178bc79c9a4be5bcdf45e292cd9"
+hash = "c8c38c63b3b28e23690a60672ca78ef6dda867c28115e764cd6f71151331c04108f79e5bbc67097f3c51a42abe6b84c77c5cb6f7d78d242960aa826c35842f8a"
 
 [update]
 [update.modrinth]
 mod-id = "x9BrsVME"
-version = "Bejy0PdE"
+version = "ETM9FDou"

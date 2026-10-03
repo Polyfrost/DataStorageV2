@@ -31,7 +31,7 @@ for version in "$MRPACKS_DIR"/*; do
   for bundle in "$version"/*; do
     [ -d "$bundle" ] || continue
     name="$(basename "$bundle")"
-    name="${name,,}"
+    name="$(printf '%s' "$name" | tr '[:upper:]' '[:lower:]')"
     output="$OUTPUT_DIR/$name-$parsed.mrpack"
 
     echo "Bundling $bundle -> $output"

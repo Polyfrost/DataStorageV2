@@ -1,0 +1,25 @@
+id = "tooltipscroll"
+enabled = true
+hidden = false
+name = "Tooltip Scroll"
+filename = "Tooltip-Scroll-Ornithe-1.0.0.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Tooltip Scroll"
+description = "Allows the tooltip GUI to be moved with the scrollwheel or configurable keys."
+authors = ["Provismet"]
+icon = "https://raw.githubusercontent.com/Polyfrost/Tooltip-Scroll-Fabric/1.8.9/src/main/resources/assets/toolscroll/icon.png"
+
+[download]
+url = "https://github.com/Polyfrost/Tooltip-Scroll-Fabric/releases/download/v1.3.0-1.8.9/Tooltip-Scroll-Ornithe-1.0.0.jar"
+hash-format = "sha256"
+hash = "565135f6fe7375fa7a7f1fa3a504d9f8e82a79312187dbfb64821aae03d8db52"
+
+[update]
+[update.github]
+slug = "Polyfrost/Tooltip-Scroll-Fabric"
+tag = "v1.3.0-1.8.9"
+branch = "1.8.9"
+regex = "^Tooltip-Scroll-Ornithe-.+\\.jar$"

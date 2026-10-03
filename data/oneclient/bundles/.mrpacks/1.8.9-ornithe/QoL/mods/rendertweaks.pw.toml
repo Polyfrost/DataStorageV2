@@ -1,0 +1,18 @@
+id = "1je3wJFn"
+enabled = true
+hidden = false
+name = "Render Tweaks"
+filename = "rendertweaks-2.0.2+1.8.9-fabric.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Render Tweaks"
+description = "Allows modifying the rendering of some in world things"
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/1je3wJFn/1e317638c9ff971d3fc4b04c1b9b184d0764ce1f_96.webp"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/rendertweaks-2.0.2/rendertweaks-2.0.2%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "a8ce92540a095737bd39ad17bb772dc50679b3a12bc48cb97a1123caad84807994973e22697805f6f10934ae69020d3e7ee58c48507ab646b008fdd46b337204"

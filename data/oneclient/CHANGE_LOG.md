@@ -1,3 +1,75 @@
+# 2.6.0
+
+- Reapply "chore: bump to 2.6.0"
+- chore: deleted icons from stats views
+- Revert "chore: bump to 2.6.0"
+- fix: refresh loader version info and metadata manifests
+- prompt for different mc versions when installing modpacks
+- bundle opt out per content type
+- exclude opted out bundles from package list
+- fix: graphics drivers issues on linux in appimage
+- fix: libxdo crash in deb packages
+- chore: add JVM argument to improve vector operations on Java 21+
+- chore: added enabling disabled bundled mods from browser
+- feat: added warning on clicking cosmetics button
+- ui: improve migration ui
+- feat: optionally copy configs into dedicated-folder targets on migration
+- feat: manual migration in both directions, only when there's something to copy
+- improve more design elements
+- improve design in some areas
+- fix: key cached version info by loader format version
+- feat: list/grid layout toggle on clusters page
+- feat: group user-created OneClient clusters by release line
+- feat: don't re-provision clusters the user deleted
+- feat: use gallery images for package card banners
+- fix: create config dir in file-lock override test
+- split 1.21.x into minor drops
+- pre-warm cluster art
+- fix: use correct OneClient logo
+- fix: swapped home screen cluster labels to show the cluster name in big text
+- feat: package selection
+- fix: clear all notifications shouldn't be clearing progress notis
+- fix: libappindicator crashing and bundling on linux
+- feat: working modpacks from modrinth and curseforge as well as manually imported; couple ui fixes
+- chore: forcefully migrate old launcher path to new path
+- wipe off incompatible mc version check entirely
+- feat: better versions UI
+- feat: list required dependencies in the browser versions page
+- feat: improved stats screen
+- fix: fixed worlds and datapacks tabs jumping in
+- feat: custom cluster instances
+- fix: move (almost) all IO off the UI thread
+- fix: open crate on windows not opening urls properly
+- chore: update dependencies and optimise archive operations
+- chore: update open crate to fix issue on windows
+- feat: polyplus mark and removal warning
+- feat: release migration
+- feat: worlds and datapacks views
+- fix: rotate the advanced section chevron when it opens
+- feat: added sections for advanced mods
+- feat: bad mods flagging
+- chore: deleted the download process from onboarding
+- feat: added support for github hosted bundle mods
+- feat: added deleting browser and local mods
+- feat: added reseting back to the default options in settings tabs
+- chore: changed the UX for optional mods modal
+- fix: treat a missing discrete GPU setting as on
+- fix: preserve executable bits when extracting Java runtimes
+- remove unnecessary tests
+- fix: it's -> its for possessive
+- fix corrupted file detection
+- chore: redesigned browser grid
+- chore: redesigned package grid
+- fix: homepage cover images are now in much better quality without bigger memory use
+- chore: redesigned the navbar links to be pills
+- chore: update freya and enable debug overlay in release
+- rename Fabric (Ornithe) -> Fabric
+- feat: system tray and process state controls
+- feat: better text inputs
+- Small QoL fixes: Java refresh, clipboard toasts, custom image endpoints
+- chore(lint): cargo fmt
+- fix: oneclient aur source publishes failing
+
 # 2.5.1
 
 - chore: update bundled packages only after cluster launch

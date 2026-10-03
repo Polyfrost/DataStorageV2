@@ -1,0 +1,22 @@
+name = "OneClient 1.8.9 Ornithe [Performance]"
+author = "Polyfrost"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+poly-format = "1"
+enabled = true
+category = "Performance"
+id = "performance-1.8.9-ornithe"
+update-url = "oneclient/generated/performance-1.8.9-ornithe.mrpack"
+java-version-override = 25
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8d78d2100debc3b9cd4c45486affd4da12d0079dd356eb74f69582cad0a9dde5"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "1.8.9"
+
+[options]
+acceptable-game-versions = []

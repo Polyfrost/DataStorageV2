@@ -44,7 +44,7 @@ update_bundle() {
       printf '%s\n' "$beta_out"
       out+=$'\n'"$beta_out"
     done
-    transient="$( grep 'Failed to check updates for' <<<"$out" | grep -v 'no stable versions found' || true )"
+    transient="$( grep 'Failed to check updates for' <<<"$out" | grep -vE 'no (stable|valid) versions found' || true )"
     if [ -z "$transient" ]; then
       return 0
     fi

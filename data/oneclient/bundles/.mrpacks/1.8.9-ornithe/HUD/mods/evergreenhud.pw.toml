@@ -1,0 +1,16 @@
+id = "1yIQcc2b"
+enabled = true
+hidden = false
+name = "EvergreenHUD"
+filename = "evergreenhud-3.9.5+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1yIQcc2b/versions/vsGmmenM/evergreenhud-3.9.5%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "90b6bed431164ba7470023453f314e80e3d8b3bd83c0181443d1584aa9f544a333c6ffab97a269a0cbc63d3aa279ad382bb2efaeb8aa64881c307dd4f11083d8"
+
+[update]
+[update.modrinth]
+mod-id = "1yIQcc2b"
+version = "vsGmmenM"

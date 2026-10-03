@@ -1,0 +1,18 @@
+id = "qyu2y7wG"
+enabled = true
+hidden = false
+name = "Confirm Disconnect"
+filename = "confirmdisconnect-1.1.9+1.8.9-fabric.jar"
+side = "client"
+type = "advanced"
+
+[overrides]
+name = "Confirm Disconnect"
+description = "Adds a confirmation dialogue before exiting your world/server"
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/qyu2y7wG/fff605f9be44ef263f074e88606c260f80159f4c_96.webp"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/confirm-disconnect-1.1.9/confirmdisconnect-1.1.9%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "0b4f7aac3c64236ee813a6e9bea51580b5eec07d4e73d241a712fb395a90f5c7329027991cd3d7d5ea944e5c3aa1630fa9cc739cd82fff4861e4d4446885a02a"

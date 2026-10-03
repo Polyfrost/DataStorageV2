@@ -1,0 +1,24 @@
+id = "betterhurtcam"
+enabled = true
+hidden = false
+name = "BetterHurtCam"
+filename = "BetterHurtCam-1.15.0+mc1.8.9-ornithe.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "BetterHurtCam"
+description = "Removes or reduces the screen shake when you take damage."
+authors = ["uku", "thecount"]
+icon = "https://raw.githubusercontent.com/Polyfrost/betterhurtcam/ornithe-1.8.9/src/main/resources/assets/betterhurtcam/icon.png"
+
+[download]
+url = "https://github.com/Polyfrost/betterhurtcam/releases/download/1.15.0%2Bmc1.8.9-ornithe/BetterHurtCam-1.15.0+mc1.8.9-ornithe.jar"
+hash-format = "sha256"
+hash = "65fcc413249cf0cfa4bbf298a14ba15ef4158db183bf235dfcb545317cdb841a"
+
+[update]
+[update.github]
+slug = "Polyfrost/betterhurtcam"
+tag = "1.15.0+mc1.8.9-ornithe"
+branch = "ornithe-1.8.9"

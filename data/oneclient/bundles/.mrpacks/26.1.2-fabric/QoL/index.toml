@@ -36,17 +36,17 @@ metafile = true
 
 [[files]]
 file = "mods/chatblock.pw.toml"
-hash = "d69c3a6e2f1c4c4076389d38ca46902182821517f85f29087075db224195e908"
+hash = "771ecd6def92b2f90ea4ea367f54344ca93dc585e7a5f2acd390bcc2e4f74f45"
 metafile = true
 
 [[files]]
 file = "mods/chatting.pw.toml"
-hash = "e93f9b069205a50fc707fdedeee1fc86248813aa178bcb583b9a2af022417db3"
+hash = "6d5f4f3314ee5751a2cc0a5bd2465ef89aa82eefd7df33b5d8d2b6b5d7978e37"
 metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "8f324b83d387bd4e61373f639a5d05f9c5f93813c9cdec87258ecbe1fe0ed462"
+hash = "b3476d61d49d9f4e056e0e23a43d73d878a4e56dcc6e39a3fe5687a64344f8cb"
 metafile = true
 
 [[files]]
@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/damagetint.pw.toml"
-hash = "1b9c03bc302a69364f77da5cd881d2fa652f87853ecb612b02357bd248b0a85d"
+hash = "4e2c1e730be8794dbceabb21d046b8beca5e6d3e2c55f15875a867bb2e72a7d2"
 metafile = true
 
 [[files]]
@@ -145,13 +145,18 @@ hash = "a6b680c128f3e8215ce5a1b656bf18f224b02f3de0b9d7d9906a3755608dccb7"
 metafile = true
 
 [[files]]
+file = "mods/freelook-oneconfig.pw.toml"
+hash = "635642913ced37eac826e39994b4ba0242ef9458450a0e21de52f9bd71ef652a"
+metafile = true
+
+[[files]]
 file = "mods/itemphysic-lite.pw.toml"
 hash = "b6180df0c1c7235fbd2c042bd4815d7172bacd096b75ab9e6621de3de37002af"
 metafile = true
 
 [[files]]
 file = "mods/itemphysicliteconfig.pw.toml"
-hash = "3ff8a51a1edb6237163cf95548acf159b55271add6c0e9ef9ec74b8cc2220bec"
+hash = "ae352df5275e108f881d49dbf27e04fbc35e8c977976785b637dfdfd6bca9e28"
 metafile = true
 
 [[files]]
@@ -191,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
-hash = "289a267031afbd532a2fffbe2e3705334cbb2ec0c1f346a7457b588a7ec77df7"
+hash = "80e17ec4b23bf8e14e9329c9c37850c5535b9c809a549c535f925a9029f68fda"
 metafile = true
 
 [[files]]
@@ -206,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7608ea89d28fe8bea40f5d3ff0ff6f2a3e30db8bf5418ef427695d9b9ca8d5ed"
+hash = "d3ca4a7464ad2639fec61a6d00ff55ddec5253b9e39a9bdf5ad2ac9b673927e9"
 metafile = true
 
 [[files]]
@@ -216,7 +221,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "119e3f4e6be4468ac15d3d5d38eee082126f354e0058ac192e1ccd3acc387f92"
+hash = "9e9831f307c3e8f5868d22c94d9b40ce46313e74ef440772a29aa27ea5296b5a"
 metafile = true
 
 [[files]]
@@ -231,22 +236,22 @@ metafile = true
 
 [[files]]
 file = "mods/polyblur.pw.toml"
-hash = "ccfdc407cee5f4ac9b03c6e32ea5ef967719ab40b093c788de87117930ab5644"
+hash = "f0fbb856de8593ea763a04f656b56516ab6820cda44096aea92e8d7e7a80c09f"
 metafile = true
 
 [[files]]
 file = "mods/polynametag.pw.toml"
-hash = "53615458d816b972ae58323d1ca5f2397dc5974ac176d0d3abad0e556423ca21"
+hash = "e9f6a50d65f533c77df9f6ec5ae52536519475b7810ab0dc380d2bb2e6269378"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "651f527f622914b6868ffa1bc15a64af6d2799cce34d04c23ca16e0accbf4357"
+hash = "36bfb793221f69226f5fac44a3d2c7ed46cb2f61c202f3f386c0112e6d53555a"
 metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "148729712acc84c5cc66b02185a43f87dac2b62d93e01fb303b4d1bcdd684f9d"
+hash = "d66e5ff29be7cd5b9f9d1f9e6ad34c48a489f475c8042146b88ddf9497d3c6cb"
 metafile = true
 
 [[files]]
@@ -266,7 +271,7 @@ metafile = true
 
 [[files]]
 file = "mods/rendertweaks.pw.toml"
-hash = "8036f860588b67176a569c44150dd005e33efd14ba51d304f2d61e4050570774"
+hash = "f1762a46c05a90a76332fd183b70fc4150d61c0c8f5820e3accec7232906605f"
 metafile = true
 
 [[files]]
@@ -276,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
-hash = "27c433481e31dbeee856e0fb4839b35366db0cf1685d31f77ac8596e573c73c1"
+hash = "fb856716b8b95cc04de1ffcfc06211496f67f23684a19964db5903ba48f8119d"
 metafile = true
 
 [[files]]

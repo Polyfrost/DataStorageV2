@@ -1,0 +1,18 @@
+id = "CaQ3SZNi"
+enabled = true
+hidden = false
+name = "Better Night Vision"
+filename = "betternightvision-1.0.5+1.8.9-fabric.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Better Night Vision"
+description = "Allows slight customization of the night vision effect, such as disabling it entirely and changing the warning flashing to be a smooth fade out."
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/CaQ3SZNi/9c1c8a46235aae5ca352a2ec9d945e762dfbb9bc_96.webp"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/betternightvision-1.0.5/betternightvision-1.0.5%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "12c02ae3ec068e9aed40345c1327882aa619720e5240af8d3d210b928c3636674d1ff81093bd6c38e14e4bf93af929a6a3d928235d3406ab25a3f9d242d97dd9"

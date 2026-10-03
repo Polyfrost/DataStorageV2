@@ -61,6 +61,11 @@ hash = "58cf9237604fd9f60f292bf7b9ecfb998676cc26a26367045ab49e063f7097d9"
 metafile = true
 
 [[files]]
+file = "mods/custom-block-highlight.pw.toml"
+hash = "837b8a634164d7571f59c6f18ef4b6fdf0af23b6acfb9a2fdcf666447976779a"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "092e288ce82f4a6de8893937384681022adcca2e5590a96b8b18c72424ad1710"
 metafile = true
@@ -77,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "c60a04992edb8de8fe4ed682ea42465cf0df0da4a8c6fb6c46db8b62bdf408a2"
+hash = "28abbae9710947481d73dbc86fc7d7a0ca90c1932dad5a72eb7f0230e4089480"
 metafile = true
 
 [[files]]
@@ -107,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7f8aef4068735719c8055901167c22f926235ab3b83e105e8062c305e87751a1"
+hash = "2a11dd1c43496df8a21a056a210f49b07c64f898896b24be4235348b42e2c211"
 metafile = true
 
 [[files]]

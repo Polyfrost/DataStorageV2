@@ -1,0 +1,16 @@
+id = "m3kNp1iP"
+enabled = true
+hidden = false
+name = "PolyTime"
+filename = "polytime-1.3.2+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/m3kNp1iP/versions/gQAQDrC5/polytime-1.3.2%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "bc651eccb7b873a73a713a536098895b7a5245114f0fdd0980b06e401ceb8afae28a387d94b808b5d7f90da957807fb279314beab92a13ba01aa0c1fb2799c16"
+
+[update]
+[update.modrinth]
+mod-id = "m3kNp1iP"
+version = "gQAQDrC5"

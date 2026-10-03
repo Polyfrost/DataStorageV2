@@ -2,16 +2,16 @@ id = "6zatK8W5"
 enabled = true
 hidden = false
 name = "DamageTint"
-filename = "damagetint-3.7.0+1.21.10.jar"
+filename = "damagetint-3.7.2+1.21.10.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/6zatK8W5/versions/WLiDAmC8/damagetint-3.7.0%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/6zatK8W5/versions/TTGaZsFm/damagetint-3.7.2%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "676d2245990962317c00c8469e8ee555633f2fbe46203e6bdaa001468c0ba5855604120285e521b07811fb6cfd311d0b9b6b468aca8bb2215f68876bca9f25d2"
+hash = "d27a1b7a95b9a6a70d96daa008f5772cae88d540066e726f30b6109450ee5b3fcfde7267ee2b08314234cf1eb90fe81e3e6f747ab8ee04f164cb425dd014cc01"
 
 [update]
 [update.modrinth]
 mod-id = "6zatK8W5"
-version = "WLiDAmC8"
+version = "TTGaZsFm"

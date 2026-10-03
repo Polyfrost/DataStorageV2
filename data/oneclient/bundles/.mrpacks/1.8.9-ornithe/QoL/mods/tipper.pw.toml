@@ -1,0 +1,17 @@
+id = "Uwb6VzvA"
+enabled = true
+hidden = false
+name = "Tipper"
+filename = "tipper-1.0.0+mc1.8.9.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://cdn.modrinth.com/data/Uwb6VzvA/versions/JpvnS6KS/tipper-1.0.0%2Bmc1.8.9.jar"
+hash-format = "sha512"
+hash = "9fc99c433ab81c7565180123dbd81ac59b20a4a4115c79a36367e681b6844cfcedfa74d9f231f7679c8d1c0c6e1257415f1d32a9df0493234318d92c636744e5"
+
+[update]
+[update.modrinth]
+mod-id = "Uwb6VzvA"
+version = "JpvnS6KS"

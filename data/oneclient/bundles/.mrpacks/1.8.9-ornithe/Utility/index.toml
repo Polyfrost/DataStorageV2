@@ -1,0 +1,71 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/behindyou.pw.toml"
+hash = "dc51cbc3e808f9851d019e9406818eb8dbb505ef795cbfe83aa73983d91238b5"
+metafile = true
+
+[[files]]
+file = "mods/betternightvision.pw.toml"
+hash = "65ce84de99bf6b7066cc602e5e993bbea06de4edc994b4dcab59207887a7d309"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
+metafile = true
+
+[[files]]
+file = "mods/crashpatch.pw.toml"
+hash = "1b8ef37df23438635cb8ea614d93278e6c1f18a7df8de1f1cffd6263db7dcc3b"
+metafile = true
+
+[[files]]
+file = "mods/custom-block-highlight.pw.toml"
+hash = "d50c60285fff301e7b924e882beeb53b777189ade6fcf6417c984b1f21b74b3b"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "b813ff51df485bee41ef82ee75fb54e59fd65603023daed46df34cb3bd4943dd"
+metafile = true
+
+[[files]]
+file = "mods/fullbright.pw.toml"
+hash = "a00ae192adb929db43c60fb69eac2c13a2063e0ebf21858b2b6fb9dbf9507f10"
+metafile = true
+
+[[files]]
+file = "mods/hitbox.pw.toml"
+hash = "abd62a9a0446a74af2d9e651811b91a8ee15e790dc82ed296d9a2b337fa0153f"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "babc550eac74ef05b1885bdd1cae3e58935b2c944daa98ff996f39d5dbd8044f"
+metafile = true
+
+[[files]]
+file = "mods/osl.pw.toml"
+hash = "0452b265cec777fb880048ceec77178925cf4923f9ec8e7fbb642c2a02e2cedc"
+metafile = true
+
+[[files]]
+file = "mods/polysprint.pw.toml"
+hash = "a63b08014f26b9f2e8054ab09a88da3a8d30e21b7e6dcec1aacd5eee72eb8556"
+metafile = true
+
+[[files]]
+file = "mods/pylon.pw.toml"
+hash = "fecfa72d30498dc43542cb9560c2d373efd3cd2983f82e350ac0ea184ee7e20e"
+metafile = true
+
+[[files]]
+file = "mods/smartsearch.pw.toml"
+hash = "323d43f77f69509ec8828658231c82dbe3cdee441c950aa524a6a0c8b778c563"
+metafile = true
+
+[[files]]
+file = "mods/soundtweaks.pw.toml"
+hash = "c1d05649ac8f46321f1d8fe4da53715eb2b4a2289d5e299a67fcb1c77216d93c"
+metafile = true

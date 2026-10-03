@@ -1,0 +1,25 @@
+id = "Blur"
+enabled = true
+hidden = false
+name = "Blur"
+filename = "LegacyGuiBlur-6.3.4+mc1.8.9-fabric.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Legacy GUI Blur"
+description = "Configurable blur, gradients, and fade animations behind Minecraft GUIs."
+authors = ["Motschen", "amiralimollaei", "tterrag1098", "Pyrofab"]
+icon = "https://raw.githubusercontent.com/Polyfrost/Blur/ornithe-1.8.9/src/main/resources/assets/blur/icon.png"
+
+[download]
+url = "https://github.com/Polyfrost/Blur/releases/download/legacy-gui-blur-6.3.4-mc1.8.9-fabric/LegacyGuiBlur-6.3.4%2Bmc1.8.9-fabric.jar"
+hash-format = "sha256"
+hash = "4bd3c09be707c1864f0eb724e9fa8e13beb90fc2a1616e99e933375110dc8721"
+
+[update]
+[update.github]
+branch = "ornithe-1.8.9"
+regex = "mc1\\.8\\.9-fabric\\.jar$"
+slug = "Polyfrost/Blur"
+tag = "legacy-gui-blur-6.3.4-mc1.8.9-fabric"

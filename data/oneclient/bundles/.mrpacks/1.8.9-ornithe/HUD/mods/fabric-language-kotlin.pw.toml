@@ -1,0 +1,17 @@
+id = "Ha28R6CL"
+enabled = true
+hidden = true
+name = "Fabric Language Kotlin"
+filename = "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar"
+side = "both"
+
+[download]
+url = "https://github.com/FabricMC/fabric-language-kotlin/releases/download/1.14.1%2Bkotlin.2.4.20/fabric-language-kotlin-1.14.1%2Bkotlin.2.4.20.jar"
+hash-format = "sha256"
+hash = "620c2709be2a262b837cf976f6f85f6eda80a56af2ba4242e0bdc83a60fee7a5"
+
+[update]
+[update.github]
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "FabricMC/fabric-language-kotlin"
+tag = "1.14.1+kotlin.2.4.20"

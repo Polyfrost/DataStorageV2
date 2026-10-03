@@ -6,11 +6,6 @@ hash = "a2dec210daf53bf34b30983aafa64d88dc3a3309e9e65974998ddad7475ce678"
 metafile = true
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-hash = "8ca615791465efb25f5ea21d7153dc994efa674f2fa86b0edc75655232afb4a8"
-metafile = true
-
-[[files]]
 file = "mods/better-mipmaps.pw.toml"
 hash = "8ffd0ef5bbf734146a9285cef3ace712167df1be3b0964899cb3afb2cbe210c2"
 metafile = true
@@ -102,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "ebd1eab6ad88a7cc74585a0bd6678cdb7aa809c10d38593f4e991c6050a967e3"
+hash = "058f192ab2df86d7925db9b7649713db3a868560a27db669e250292a6bc38ca2"
 metafile = true
 
 [[files]]
@@ -127,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/macos-input-fixes.pw.toml"
-hash = "975e75ed03bad0474f94172113746c1073ba9bc7794562c82a3fa90a95d9a82f"
+hash = "9743b48d97fa4ca2926732c1034522b7cf9fabb8f745da34400e270d5531a65f"
 metafile = true
 
 [[files]]
@@ -152,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "cf6010f9510b03c4c01a814d274ec1e0311d0b0f0eb510aad0c24161cf5ae438"
+hash = "474b20a7e0d98501419868cd789f81ef7a8bbc896363eb43987d136591f557ae"
 metafile = true
 
 [[files]]
@@ -197,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "d536f97dacb7de3fc6ea51835fe9c928140f1bbef4963dd12464a3349e438bc2"
+hash = "b37fe1a249b2e01472f9f8cf42c5a767154b017ff557b7543987f746bfbb39af"
 metafile = true
 
 [[files]]
@@ -207,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "3e792aab57056077297eacb89a69f5313d59bcef3c8b15ab74eae7e04609d453"
+hash = "3f7123cbd8e31f3a606862c217492ca6d6a8b11b18b44d8cb2b12132adc7aeb2"
 metafile = true
 
 [[files]]

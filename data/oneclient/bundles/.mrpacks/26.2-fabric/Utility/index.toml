@@ -1,8 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/animatium.pw.toml"
-hash = "bdacba93952437af459ecb35ed8374346c8994fd557541138b182024458b2bb7"
+file = "mods/animations.pw.toml"
+hash = "2df4650663721d8b80f47ec94502f62e2723c405f87596f70bfb620a588c0247"
 metafile = true
 
 [[files]]
@@ -66,6 +66,11 @@ hash = "f9e08fa6675c63394051ed193683c3760a8564ca6931910a65d61865f5d22c27"
 metafile = true
 
 [[files]]
+file = "mods/custom-block-highlight.pw.toml"
+hash = "8eb5d0b8207db5d7c890b6504d87ffb92b9d306894d3baecf7af368aa7be77a1"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "f713d831430abafb49ae940d8c139f87f1c52dfdf7187014cbb4e9a7fbd6293a"
 metafile = true
@@ -82,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "06c6243f24eaf7f2114d9d6a7e800c91c7221a9870e082d28c620abf0b2c5bb2"
+hash = "c13945b2e10a927a918e893f1b16dfa76614ac7a0bbe343fabec069a019e069d"
 metafile = true
 
 [[files]]
@@ -132,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "08123e52039c53c23bbfa04890bfeffe12a19721d1d0418979c550542d8c79fd"
+hash = "3494d21fd50b6c991222b5ce7c532b8ec51a694d2f238e8cd65f98310362c197"
 metafile = true
 
 [[files]]

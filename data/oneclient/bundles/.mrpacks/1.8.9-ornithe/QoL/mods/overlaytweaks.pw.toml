@@ -1,0 +1,18 @@
+id = "wql2D9Gj"
+enabled = true
+hidden = false
+name = "Overlay Tweaks"
+filename = "overlaytweaks-2.0.1+1.8.9-fabric.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Overlay Tweaks"
+description = "Small tweaks to Minecraft's overlays"
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/wql2D9Gj/fd4ad564069f870023c9e3e85598532cc60a2d02.png"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/overlaytweaks-2.0.1/overlaytweaks-2.0.1%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "66199ec69846ba0a04c0ee873db51bff35e6c2f5bda21f3a1644e8d9cce1077c6c270051034ef05d036d3b1868742a0aded30c6f2e06a1af21f9b065ec32f28e"

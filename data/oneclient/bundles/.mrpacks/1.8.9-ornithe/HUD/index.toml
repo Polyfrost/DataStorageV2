@@ -1,0 +1,36 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
+metafile = true
+
+[[files]]
+file = "mods/evergreenhud.pw.toml"
+hash = "3e5ee02038dcd0f3eccd2e4bd3c68b8de1eb07d694bb866aee7553d211bd0d62"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "b813ff51df485bee41ef82ee75fb54e59fd65603023daed46df34cb3bd4943dd"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "babc550eac74ef05b1885bdd1cae3e58935b2c944daa98ff996f39d5dbd8044f"
+metafile = true
+
+[[files]]
+file = "mods/osl.pw.toml"
+hash = "0452b265cec777fb880048ceec77178925cf4923f9ec8e7fbb642c2a02e2cedc"
+metafile = true
+
+[[files]]
+file = "mods/pylon.pw.toml"
+hash = "fecfa72d30498dc43542cb9560c2d373efd3cd2983f82e350ac0ea184ee7e20e"
+metafile = true
+
+[[files]]
+file = "mods/vanillahud.pw.toml"
+hash = "4baf93f60d1284f73c291342451e1d0603d52aee7fb84b0864ed661768e1ad0d"
+metafile = true

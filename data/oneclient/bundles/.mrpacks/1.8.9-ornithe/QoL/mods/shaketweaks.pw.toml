@@ -1,0 +1,18 @@
+id = "plzVz20Z"
+enabled = true
+hidden = false
+name = "Shake Tweaks"
+filename = "shaketweaks-1.2.3+1.8.9-fabric.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Shake Tweaks"
+description = "Small tweaks to the shake effect of the screen and hand!"
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/plzVz20Z/eb805bf9cd46ebf3a7c860120e50c923240a3530.png"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/shaketweaks-1.2.3/shaketweaks-1.2.3%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "14ee6e09d911f42de0f8168934ad51a7e73401fb4b83cd3822117adc4e14aedadb94c120f533704c5afe4306ac5542617d0eff423c58ad39c4e7a907f9849b80"

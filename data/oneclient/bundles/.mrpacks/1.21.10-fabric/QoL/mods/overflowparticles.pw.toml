@@ -7,11 +7,11 @@ side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/61g97TVF/versions/eBwZeBmQ/overflowparticles-1.2.1%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/61g97TVF/versions/FBNugMRL/overflowparticles-1.2.1%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "44265b0be67fe7db3837c5b9e5eef6c031aca61b5712b767c4d66dbe79dc72a4e7fcae8c9bebdcc5bb648f58e1a15ec660b7e39f9f2ea380b6763a91e32a3678"
+hash = "5ec421b59b8a9d628a77c42be7dc192ef3ceca83e1c45f2e5657a856fcaee1fac1bc50ae17c10d6b71bbfa13555a705c4a88454beb2b88b3e49c02b8876b20be"
 
 [update]
 [update.modrinth]
 mod-id = "61g97TVF"
-version = "eBwZeBmQ"
+version = "FBNugMRL"

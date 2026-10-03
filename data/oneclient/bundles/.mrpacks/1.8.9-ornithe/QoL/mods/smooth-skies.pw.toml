@@ -1,0 +1,18 @@
+id = "uvlgIwBD"
+enabled = true
+hidden = false
+name = "Smooth Skies"
+filename = "smoothskies-2.12.2+1.8.9-fabric.jar"
+side = "client"
+type = "advanced"
+
+[overrides]
+name = "Smooth Skies"
+description = "Smooths out the skybox colors on far render distances and fixes some other skybox visual issues."
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/uvlgIwBD/ef58264c2e41ce607da6de486a86570eda9c74ab.png"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/smooth-skies-2.12.2/smoothskies-2.12.2%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "9b55330dfe4f2758820ecae6c8d8f920249154ab41b75ee8821c56af858739f69fe759d8a90fdce107bf1efaa68dbf49562c9c27a1866527defc788bb01e3879"

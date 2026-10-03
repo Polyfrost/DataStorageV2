@@ -7,6 +7,10 @@ OUTPUT_DIR="${1:-$SCRIPT_DIR/../data/oneclient/bundles/generated}"
 
 SKYBLOCK_CATEGORY="skyblock"
 
+IGNORED_VERSIONS=(
+  "1.8.9-ornithe"
+)
+
 for cmd in zip unzip; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
     echo "Error: Required command '$cmd' is not installed or not in PATH." >&2

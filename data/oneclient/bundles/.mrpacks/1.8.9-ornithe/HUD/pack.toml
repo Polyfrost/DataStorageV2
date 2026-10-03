@@ -1,0 +1,22 @@
+name = "OneClient 1.8.9 Ornithe [HUD]"
+author = "Polyfrost"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+poly-format = "1"
+enabled = true
+category = "HUD"
+id = "hud-1.8.9-ornithe"
+update-url = "oneclient/generated/hud-1.8.9-ornithe.mrpack"
+java-version-override = 25
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ca38534a0d92e2bb6750b882dcd9b863281e425560e09be111282b5b413c3900"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "1.8.9"
+
+[options]
+acceptable-game-versions = []

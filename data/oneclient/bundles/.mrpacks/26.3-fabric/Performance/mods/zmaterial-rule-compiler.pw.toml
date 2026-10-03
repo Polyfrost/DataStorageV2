@@ -1,0 +1,17 @@
+id = "vnpqfrJN"
+enabled = true
+hidden = false
+name = "Material Rule Compiler"
+filename = "zmatcomp-1.0.0+26.3.jar"
+side = "server"
+type = "advanced"
+
+[download]
+url = "https://cdn.modrinth.com/data/vnpqfrJN/versions/2I588siQ/zmatcomp-1.0.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "b1a9782784095278c71532c3240c9ea4d95bfd209d9baff056c269d847f291b1434d328f3074d4013e8f31d5d7b8ff3d251ad2918fa9638246b01de55bf0db4e"
+
+[update]
+[update.modrinth]
+mod-id = "vnpqfrJN"
+version = "2I588siQ"

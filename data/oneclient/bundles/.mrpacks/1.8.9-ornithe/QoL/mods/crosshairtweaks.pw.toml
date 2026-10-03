@@ -1,0 +1,18 @@
+id = "uv6GyJOZ"
+enabled = true
+hidden = false
+name = "Crosshair Tweaks"
+filename = "crosshairtweaks-1.5.4+1.8.9-fabric.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Crosshair Tweaks"
+description = "A small QOL mod that lets you alter the vanilla crosshair in small ways."
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/uv6GyJOZ/c569408e837ae21d278f19608f5b2d07c7679ef2_96.webp"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/crosshairtweaks-1.5.4/crosshairtweaks-1.5.4%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "a007b68c45c69a987b5efc78677828c668718950570f1b424ac5d6e5c6543606393c0ffcaa6911a051e4cf31447db17ed0de1dc9585c94cc23fc4749f5cd7c05"

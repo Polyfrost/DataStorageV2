@@ -6,13 +6,8 @@ hash = "3fac4fae71590116e9d660c67b64c8beae1b848ba4fa10f402c973ee63dd31a0"
 metafile = true
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-hash = "c42b5834d66b63cdb429f7390c596325d70cf1cdc96032d1d391990e4c9cb382"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "31cd42602ff8b96e27d562d79226e2b2b2eda2321d6c8a87ceac1f8449e6b06d"
+hash = "f9114e5beeec26e37d38be9724af05a3028763393cee6ebc7f4124bc003726ac"
 metafile = true
 
 [[files]]
@@ -22,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "4d170c96ced2a9755929adb17141cce43341b39f953e06455a0a11175b96aab3"
+hash = "a8dff9d76dc978cff81af76c8af9ee790f29694f50766fae2fd60da6d7dfc1e7"
 metafile = true
 
 [[files]]
@@ -112,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/macos-input-fixes.pw.toml"
-hash = "975e75ed03bad0474f94172113746c1073ba9bc7794562c82a3fa90a95d9a82f"
+hash = "9743b48d97fa4ca2926732c1034522b7cf9fabb8f745da34400e270d5531a65f"
 metafile = true
 
 [[files]]
@@ -132,12 +127,12 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "b08be52207254a4ee26ea5dca064945ebf2c0f032d0083773e2198a7df0587b3"
+hash = "78813a94d7e2c9503a248f75c25ab3dc6f4dacfda832fc36559f8d2f70358d40"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "08123e52039c53c23bbfa04890bfeffe12a19721d1d0418979c550542d8c79fd"
+hash = "3494d21fd50b6c991222b5ce7c532b8ec51a694d2f238e8cd65f98310362c197"
 metafile = true
 
 [[files]]
@@ -167,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshot-compression.pw.toml"
-hash = "a3cb191c2f62692a2288d6a16cf1359eb3f83687a5042c81d9c72f1f65275a44"
+hash = "a50cbb3b05029948b3a07c06abd32c740b0661db30d5b4272a77bc1d42554b5f"
 metafile = true
 
 [[files]]
@@ -206,6 +201,21 @@ hash = "f538f426230b38df5aa7edce8da673b7d8a2aadae4ae419e7b176524c6554bd2"
 metafile = true
 
 [[files]]
+file = "mods/zconfig.pw.toml"
+hash = "fae651c488e3646fe4a3a6fe288b6e782b10790e949b24bb2b8e32ec018d5d2a"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "efdc0b809dad70fb428e8fdb6450eba3dcb34f9e8997836e6a36faf7abeb233c"
+hash = "eee20944ffde6fc4808816ad31b231cb5a6aef9220399a924b164b2e8af5fb2a"
+metafile = true
+
+[[files]]
+file = "mods/zfastsurface.pw.toml"
+hash = "8665d07fcb09f7ed463847d252dbef30715d0d4ddf9334f7deb1cbfb3e0ffab1"
+metafile = true
+
+[[files]]
+file = "mods/zmaterial-rule-compiler.pw.toml"
+hash = "554fd1748f520a5b756840696c276f570eb768a97ebd15cb3e01ff2e66a62dea"
 metafile = true

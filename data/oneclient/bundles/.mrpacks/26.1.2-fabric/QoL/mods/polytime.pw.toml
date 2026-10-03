@@ -2,16 +2,16 @@ id = "m3kNp1iP"
 enabled = true
 hidden = false
 name = "PolyTime"
-filename = "polytime-1.3.1+26.1.jar"
+filename = "polytime-1.3.2+26.1.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/m3kNp1iP/versions/1KsXK47y/polytime-1.3.1%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/m3kNp1iP/versions/REmnlP91/polytime-1.3.2%2B26.1.jar"
 hash-format = "sha512"
-hash = "ba72f26f3e3a0b6f9c24c05aea2788682722fdc7360fed8240ee1dc536d5f03ec5dfebbb2adb27f9cd253e459e166d390a1b2c809c1e42f7f511890fa4f5ba75"
+hash = "28d80a37e1af1281d18c73aea13aaa52d522eee462a2fa6509892984954f2dd1a13b1eeecc8714792190cb6aa067395bb9ed401490ea86688f16985874040415"
 
 [update]
 [update.modrinth]
 mod-id = "m3kNp1iP"
-version = "1KsXK47y"
+version = "REmnlP91"

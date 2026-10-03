@@ -2,18 +2,16 @@ id = "AANobbMI"
 enabled = true
 hidden = false
 name = "Sodium"
-filename = "sodium-fabric-0.8.12+mc1.21.11.jar"
+filename = "sodium-fabric-0.8.14+mc1.21.11.jar"
 side = "client"
-# breaks only <=1.10.6, so it stays compatible. Unpin once iris >1.10.7 ships.
-pin = true
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/AANobbMI/versions/NFkjnzWE/sodium-fabric-0.8.12%2Bmc1.21.11.jar"
+url = "https://cdn.modrinth.com/data/AANobbMI/versions/rkdTcxoT/sodium-fabric-0.8.14%2Bmc1.21.11.jar"
 hash-format = "sha512"
-hash = "17fdb8240670d069e9bb4d00cd3d17afe28ea3f7ea7daf27fd32844f302516e7a889686429db81f2c7b73ad4afce703cac8963a8c3943cfebf45d2c570bd8256"
+hash = "04c43f9e8534b87a52c42ffd51b0e344d4ef92dc9cc52da33d13af6a18bf74b05380d2027f1e0db982698d0aff274c42741c1e21b313b0cd75ed3af005fc98d9"
 
 [update]
 [update.modrinth]
 mod-id = "AANobbMI"
-version = "NFkjnzWE"
+version = "rkdTcxoT"

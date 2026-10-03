@@ -1,0 +1,18 @@
+id = "y0E9vcbS"
+enabled = true
+hidden = false
+name = "Confirm Reset Keys"
+filename = "confirmresetkeys-1.0.1+1.8.9-fabric.jar"
+side = "client"
+type = "advanced"
+
+[overrides]
+name = "Confirm Reset Keys"
+description = "Makes sure you don't accidentally reset your keys!"
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/y0E9vcbS/761d98b80cbf22b1e4eebdb651344d19b28d0059_96.webp"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/confirmresetkeys-1.0.1/confirmresetkeys-1.0.1%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "ec37fa6e85702a6ea5befecb1618348c17323eca3dc9f6a3082008d6688cde1c2520a08ddb0504789c89eb3100f7b8529e78f1c84daccee1163ea8250f6c5b11"

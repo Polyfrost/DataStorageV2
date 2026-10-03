@@ -1,0 +1,16 @@
+id = "Gapz72zt"
+enabled = true
+hidden = false
+name = "Redaction"
+filename = "redaction-2.1.0+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gapz72zt/versions/Dl4TTgNv/redaction-2.1.0%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "4890cf287b6d48b44328ef84e279fdc6dbc0c985b4406bb98b33d0fbe11c8c182f6fca6f309a5415b77b4324f4c91bcc5859d3aa220f9b246b72800865f7f9ae"
+
+[update]
+[update.modrinth]
+mod-id = "Gapz72zt"
+version = "Dl4TTgNv"

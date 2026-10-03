@@ -1,3 +1,3 @@
-Poly+ powers your Poly+ cosmetics and playtime tracking.
+# DO NOT DISABLE ME (POLY+)
 
-Turning it off disables them in game, and it stays off through future bundle updates until you turn it back on.
+PolyPlus not only adds world hosting, social features, and the OneClient main menu, it also IMPROVES YOUR PERFORMANCE! **REMOVING THIS MOD WILL DECREASE YOUR FPS!**

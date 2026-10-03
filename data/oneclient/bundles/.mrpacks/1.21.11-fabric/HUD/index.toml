@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "d75b9c6cf67dbcab53f5bdb1688fba1177efe8a27982935afb19b889aa9e144e"
+hash = "d98201a89ef6fa49ceb771ff23dbb224d88df2c8c79f496c9cc227bf8146e2ac"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "cf6010f9510b03c4c01a814d274ec1e0311d0b0f0eb510aad0c24161cf5ae438"
+hash = "474b20a7e0d98501419868cd789f81ef7a8bbc896363eb43987d136591f557ae"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillahud.pw.toml"
-hash = "c639136479e0782824844b8e5508357c56999fdd567deb0bceea2d1f366ec68c"
+hash = "245dd031d7b1976bd4602a30bd9d93717a2474067e40f80ccce6ece964bd7784"
 metafile = true
 
 [[files]]

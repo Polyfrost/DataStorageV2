@@ -1,0 +1,56 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/argentum-extras.pw.toml"
+hash = "07a2b74b25b26c6789ee34ffcc097a9470e74048b90954186fb9cef8b9683652"
+metafile = true
+
+[[files]]
+file = "mods/argentum.pw.toml"
+hash = "d9c7799753c8a5d79d9376882fab00780d5bc1ccb5b53f27c50925f9832eb068"
+metafile = true
+
+[[files]]
+file = "mods/cera.pw.toml"
+hash = "21048f2b09c7f94a06ce5a411ca7026caa0f9e74b7e84d7ba02d5dc189856db4"
+metafile = true
+
+[[files]]
+file = "mods/compose-multiplatform.pw.toml"
+hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
+metafile = true
+
+[[files]]
+file = "mods/exploint.pw.toml"
+hash = "87f5336f0d8108f6e6699e13f38eb56bcfa6f62a8331ea308722c02de8bb1c24"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "b813ff51df485bee41ef82ee75fb54e59fd65603023daed46df34cb3bd4943dd"
+metafile = true
+
+[[files]]
+file = "mods/oneconfig.pw.toml"
+hash = "babc550eac74ef05b1885bdd1cae3e58935b2c944daa98ff996f39d5dbd8044f"
+metafile = true
+
+[[files]]
+file = "mods/osl.pw.toml"
+hash = "0452b265cec777fb880048ceec77178925cf4923f9ec8e7fbb642c2a02e2cedc"
+metafile = true
+
+[[files]]
+file = "mods/pylon.pw.toml"
+hash = "fecfa72d30498dc43542cb9560c2d373efd3cd2983f82e350ac0ea184ee7e20e"
+metafile = true
+
+[[files]]
+file = "mods/sarcio.pw.toml"
+hash = "691d556b92e19aa2d0410c23f504f57aac2aeef0c2f1800f6f248c2da59a4e8a"
+metafile = true
+
+[[files]]
+file = "mods/sciophobia.pw.toml"
+hash = "9abe1c2cab29ed147248e1853e7f10d1e57c628fb254b0b352efb2c42a3c2643"
+metafile = true

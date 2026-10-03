@@ -1,0 +1,18 @@
+id = "8sg2XRWF"
+enabled = true
+hidden = false
+name = "Dropped Item Tweaks"
+filename = "droppeditemtweaks-2.0.1+1.8.9-fabric.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Dropped Item Tweaks"
+description = "Small changes to the way dropped items render (includes UHC Overlay)"
+authors = ["Microcontrollers"]
+icon = "https://cdn.modrinth.com/data/8sg2XRWF/d10f121360c2c77387b8a1f1f50db86d23ddeba6_96.webp"
+
+[download]
+url = "https://github.com/Wyvest/ornithe-remap-fixes/releases/download/droppeditemtweaks-2.0.1/droppeditemtweaks-2.0.1%2B1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "b1e88ba9a27b66cf9a24d93ba679eb2e42c782f34d562f78c8c57436e93026136fff0d8bbd812bd4d38016228a9d1cf7f98971952fd44415418f0f660c1afc14"

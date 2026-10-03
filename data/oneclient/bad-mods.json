@@ -1,5 +1,134 @@
 {
     "bad-mods": [
-        
+        {
+            "project-ids": {
+                "modrinth": "aC3cM3Vq",
+                "curseforge": "60089"
+            },
+            "name": "Mouse Tweaks",
+            "author": "YaLTeR",
+            "explanation": "/oneclient/bad_mods_mds/mouse-tweaks.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "51shyZVL",
+                "curseforge": "630104"
+            },
+            "name": "More Culling",
+            "author": "FX",
+            "explanation": "/oneclient/bad_mods_mds/moreculling.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "geGZinIB",
+                "curseforge": "1570586"
+            },
+            "name": "Combat Hitboxes",
+            "author": "sootysplash",
+            "explanation": "/oneclient/bad_mods_mds/combat-hitboxes.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "Mptc0jo6"
+                    }
+                }
+            ]
+        },
+        {
+            "project-ids": {
+                "modrinth": "9mtu0sUO",
+                "curseforge": "904356"
+            },
+            "name": "Fast IP Ping",
+            "author": "fallen-breath",
+            "explanation": "/oneclient/bad_mods_mds/fast-ip-ping.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "5eVpQJSP"
+                    }
+                }
+            ]
+        },
+        {
+            "project-ids": {
+                "modrinth": "Wb5oqrBJ",
+                "curseforge": "407206"
+            },
+            "name": "Chat Heads",
+            "author": "dzwdz",
+            "explanation": "/oneclient/bad_mods_mds/chat-heads.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "8pJYUDNi"
+                    }
+                }
+            ]
+        },
+        {
+            "project-ids": {
+                "modrinth": "Kp2uclYl",
+                "curseforge": "357540"
+            },
+            "name": "Inventory HUD+",
+            "author": "dmitrylovin",
+            "explanation": "/oneclient/bad_mods_mds/inventory-hud.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "1yIQcc2b"
+                    }
+                }
+            ]
+        },
+        {
+            "project-ids": {
+                "modrinth": "ONZm0H7Y",
+                "curseforge": "1434533"
+            },
+            "name": "Better Block Entities",
+            "author": "cseden",
+            "explanation": "/oneclient/bad_mods_mds/better-block-entities.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "AtOSAunf"
+                    }
+                }
+            ]
+        },
+        {
+            "project-ids": {
+                "modrinth": "8qkXwOnk",
+                "curseforge": "518319"
+            },
+            "name": "More Chat History",
+            "author": "JackFred",
+            "explanation": "/oneclient/bad_mods_mds/morechathistory.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "8LNT47ZH"
+                    }
+                }
+            ]
+        },
+        {
+            "project-ids": {
+                "modrinth": "DIlqwRFH",
+                "curseforge": "440228"
+            },
+            "name": "FPS - Display",
+            "author": "Grayray75",
+            "explanation": "/oneclient/bad_mods_mds/fpsdisplay.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "1yIQcc2b"
+                    }
+                }
+            ]
+        }
     ]
 }

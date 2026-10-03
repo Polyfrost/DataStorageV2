@@ -1,0 +1,16 @@
+id = "8pJYUDNi"
+enabled = true
+hidden = false
+name = "Chatting"
+filename = "chatting-3.2.2+1.8.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8pJYUDNi/versions/sHixscrl/chatting-3.2.2%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "024d9d71ad740292acf12ba97a18c019673f7b648e74513f94807aff228201fdfd203ff002d6df271ac6611d533398d7abb50720ab8771733d8a9ccfb60185d5"
+
+[update]
+[update.modrinth]
+mod-id = "8pJYUDNi"
+version = "sHixscrl"

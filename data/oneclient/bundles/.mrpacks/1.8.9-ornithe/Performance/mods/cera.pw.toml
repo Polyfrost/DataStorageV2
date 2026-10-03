@@ -1,0 +1,23 @@
+id = "cera"
+enabled = true
+hidden = false
+name = "Cera"
+filename = "cera-1.0.0.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Cera"
+description = "MCPatcher/OptiFine resource pack extensions"
+authors = ["rdh"]
+
+[download]
+url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.0/cera-1.0.0.jar"
+hash-format = "sha256"
+hash = "985df2197061481a8d16ef4438041988025fe7a8a7ea1f2322674d61e6c68645"
+
+[update]
+[update.github]
+branch = "main"
+slug = "QuicksilverMC/Argentum"
+tag = "v1.0.0"

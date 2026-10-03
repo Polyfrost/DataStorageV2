@@ -7,11 +7,11 @@ side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/8LNT47ZH/versions/rk4oAIn4/chattweaks-1.2.1%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/8LNT47ZH/versions/v6ukpHQp/chattweaks-1.2.1%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "77bc3540124eaef09a53598c379dd5699d4f1bfcdacec7887404e083dbdebd79c5c148fd72cc242c2d0c500ff33c31b3880158cccc99964a4c2303e0cdaf23ae"
+hash = "ba03015767d72a692b15ab43c1c0c752c6862d5954e030e93d804c977a6b7bb1284bdcf143827a1f4a486d528d28f45aa17f52f8c1e8280ae34dba091680ca65"
 
 [update]
 [update.modrinth]
 mod-id = "8LNT47ZH"
-version = "rk4oAIn4"
+version = "v6ukpHQp"

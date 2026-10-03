@@ -2,16 +2,16 @@ id = "OnlVIpq5"
 enabled = true
 hidden = false
 name = "Fast Noise"
-filename = "zfastnoise-1.0.40+26.2.jar"
+filename = "zfastnoise-1.1.1+26.2.jar"
 side = "both"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/OnlVIpq5/versions/9TGMeiu2/zfastnoise-1.0.40%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/OnlVIpq5/versions/WWl1RXk0/zfastnoise-1.1.1%2B26.2.jar"
 hash-format = "sha512"
-hash = "9dff1a998f67261c7ba275b923c5e5ed97f5e07e852513b7bbb667dab4a050995c292eec608ca58dfc3160672697584d43c7796068f3793046e92d6cf17360a2"
+hash = "7e0726688438cd69e9169ad47bbb5334d89fbf74f08d0c883fb2f023c03123db6d78f5181909b19fad034089e87dbb79155da784749709745593e19f79e29f23"
 
 [update]
 [update.modrinth]
 mod-id = "OnlVIpq5"
-version = "9TGMeiu2"
+version = "WWl1RXk0"

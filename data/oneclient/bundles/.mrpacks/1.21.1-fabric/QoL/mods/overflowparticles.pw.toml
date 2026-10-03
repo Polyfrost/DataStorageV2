@@ -7,11 +7,11 @@ side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/61g97TVF/versions/aXRoroih/overflowparticles-1.2.1%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/61g97TVF/versions/4L7PUXDg/overflowparticles-1.2.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "ec7ca4b0687b6d60e278a503e7111e10cb5df4aa5ae5e264e8021a680cf33372e270dac1f6dbd2e7e3b5adb4521afdfb03befd6e2452387cf791e8ecb70830dc"
+hash = "b32e7df593bbd59bdf3e9d0d8a9ff53e89162535726ed4cc68a068a68a9d696e0ba842663a5f4485d71d8fa02ec1574d3a684774866624c7ddab611b94f591fe"
 
 [update]
 [update.modrinth]
 mod-id = "61g97TVF"
-version = "aXRoroih"
+version = "4L7PUXDg"
