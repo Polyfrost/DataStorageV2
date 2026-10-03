@@ -20,6 +20,8 @@ const PRIORITY_FILE = path.join(
 );
 const DEFAULT_OUTPUT = path.join(REPO_ROOT, "data", "oneclient", "mods.json");
 
+const IGNORED_VERSIONS = [];
+
 const MODRINTH_API = "https://api.modrinth.com/v2";
 const USER_AGENT =
   "Polyfrost/DataStorageV2 (data-v2.polyfrost.org) generate-mods-json";
@@ -126,7 +128,13 @@ function collect() {
   const versionDirs = fs
     .readdirSync(MRPACKS_DIR, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name);
+    .map((entry) => entry.name)
+    .filter(
+      (name) =>
+        !IGNORED_VERSIONS.some(
+          (ignored) => ignored.toLowerCase() === name.toLowerCase()
+        )
+    );
 
   for (const versionDir of versionDirs) {
     const { minecraft, loader } = parseVersionDir(versionDir);

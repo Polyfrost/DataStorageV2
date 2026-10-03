@@ -112,6 +112,18 @@ for version in "$MRPACKS_DIR"/*; do
   [ -d "$version" ] || continue
   parsed="$(basename "$version")"
 
+  skip=""
+  for ignored in "${IGNORED_VERSIONS[@]}"; do
+    if [ "${parsed,,}" = "${ignored,,}" ]; then
+      skip=1
+      break
+    fi
+  done
+  if [ -n "$skip" ]; then
+    echo "Skipping ignored version $parsed"
+    continue
+  fi
+
   local_base=()
   skyblock_dir=""
   for category in "$version"/*; do
