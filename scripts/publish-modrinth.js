@@ -171,6 +171,7 @@ async function main() {
     const classified = classify(filename);
     if (!classified) continue;
     const { project, mc } = classified;
+    if (IGNORED_MC.has(mc)) continue; // explicitly excluded version
     if (!project.projectId) continue; // project not configured
     if (!byProject.has(project)) byProject.set(project, []);
     byProject.get(project).push({ filename, mc });
