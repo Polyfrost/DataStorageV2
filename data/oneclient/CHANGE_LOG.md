@@ -1,3 +1,8 @@
+# 2.6.1
+
+- stray commas
+- fix
+
 # 2.6.0
 
 - Reapply "chore: bump to 2.6.0"
