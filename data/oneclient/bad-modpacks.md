@@ -12,14 +12,13 @@ All of the explanations should go to the `bad_modpacks_mds` folder inside `/onec
 {
     "bad-modpacks": [
         {
-            "hash": "28b67391892582747bd17a7525318a954e54c80a",
             "project-ids": {
-                "modrinth": "1bokaNcj",
-                "curseforge": "263420"
+                "modrinth": "1KVo5zza",
+                "curseforge": "396246"
             },
-            "name": "Xaero's Minimap",
-            "author": "xaero96",
-            "explanation": "/oneclient/bad_mods_mds/test.md",
+            "name": "Fabulously Optimized",
+            "author": "robotkoer",
+            "explanation": "/oneclient/bad_modpacks_mds/test.md"
         }
     ]
 }
