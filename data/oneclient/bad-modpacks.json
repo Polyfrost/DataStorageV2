@@ -1,0 +1,14 @@
+{
+    "bad-modpacks": [
+        {
+            "hash": "asdasdasd",
+            "project-ids": {
+                "modrinth": "asdasd",
+                "curseforge": "gfegfg"
+            },
+            "name": "Joe",
+            "author": "Doue",
+            "explanation": "/oneclient/bad_modpacks_mds/test.md"
+        }
+    ]
+}
