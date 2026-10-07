@@ -101,7 +101,7 @@ metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "27e016fa4f449008c10ef3fa59ef800c02a0486637d0d10460205153ed0cdce9"
+hash = "80d7133578902bc4ffeacb3394085b7deb5f3ca8e8b3de74bff96caf075db298"
 metafile = true
 
 [[files]]
