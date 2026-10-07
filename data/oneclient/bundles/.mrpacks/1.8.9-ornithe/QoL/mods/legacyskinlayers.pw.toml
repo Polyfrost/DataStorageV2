@@ -1,0 +1,17 @@
+id = "Ni3Wk7yd"
+enabled = true
+hidden = false
+name = "Legacy SkinLayers"
+filename = "LegacySkinLayers-1.0.0.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ni3Wk7yd/versions/Xygz9N4y/LegacySkinLayers-1.0.0.jar"
+hash-format = "sha512"
+hash = "4efeba06ba3d5fbefd20ceb603429290be9d2021f0c0d5c9d8a49072176f1bd2a817c5f4db4fef5cde4f5f320a96c116157729d302519c0672a3ec86d3ae0e09"
+
+[update]
+[update.modrinth]
+mod-id = "Ni3Wk7yd"
+version = "Xygz9N4y"

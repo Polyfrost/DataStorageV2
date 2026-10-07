@@ -1,0 +1,25 @@
+id = "spark"
+enabled = true
+hidden = true
+name = "spark"
+filename = "spark-1.10.190-ornithe-1.8.9.jar"
+side = "both"
+type = "advanced"
+
+[overrides]
+name = "spark"
+description = "spark is a performance profiler for Minecraft clients, servers and proxies."
+authors = ["lucko"]
+icon = "https://raw.githubusercontent.com/Polyfrost/spark/legacy-1.8.9/spark-ornithe/src/main/resources/assets/spark/icon.png"
+
+[download]
+url = "https://github.com/Polyfrost/spark/releases/download/1.10.190%2Bmc1.8.9/spark-1.10.190-ornithe-1.8.9.jar"
+hash-format = "sha256"
+hash = "28eece63d6e945f5a212d4d59e3475ee5b3ca131cce6ddb24790d7cd203c280f"
+
+[update]
+[update.github]
+branch = "legacy-1.8.9"
+regex = "-ornithe-1\\.8\\.9\\.jar$"
+slug = "Polyfrost/spark"
+tag = "1.10.190+mc1.8.9"

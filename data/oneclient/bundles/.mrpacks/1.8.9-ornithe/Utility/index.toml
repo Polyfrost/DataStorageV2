@@ -73,3 +73,8 @@ metafile = true
 file = "mods/soundtweaks.pw.toml"
 hash = "c1d05649ac8f46321f1d8fe4da53715eb2b4a2289d5e299a67fcb1c77216d93c"
 metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "5b10a7fdb22b4ee04092108a1ca11c8f33362f5407fc83ad3ee713e876fcca48"
+metafile = true

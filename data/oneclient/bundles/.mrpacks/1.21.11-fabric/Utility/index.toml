@@ -91,16 +91,6 @@ hash = "01d44c12719afe7460c4cd02f285b0c0e200a82d5258691d7aa5814b6761649c"
 metafile = true
 
 [[files]]
-file = "mods/hypixel-mod-api.pw.toml"
-hash = "71d1eda198bfb865640f3ee5cdfa03fca8ad79945f1bfffbbb1eb36984c22bd4"
-metafile = true
-
-[[files]]
-file = "mods/hytils.pw.toml"
-hash = "a9b35a88105b517f996967caaee029255441366062cc8c4b308b0806e67bf684"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "5e5dc3bd5fd05e2a9c40b74236f4f8135613f8aae3252e1a73d0d483f130b043"
 metafile = true

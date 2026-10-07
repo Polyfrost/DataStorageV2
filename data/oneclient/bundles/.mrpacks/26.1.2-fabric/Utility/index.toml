@@ -91,23 +91,8 @@ hash = "405590b6c73412d9968d8b3a5154824b734896402b1a57ad1028fec36c30cf27"
 metafile = true
 
 [[files]]
-file = "mods/hymod.pw.toml"
-hash = "32df3b19f330023053c9bc685369ded2438ad0dbaf06d570d108b40b16767047"
-metafile = true
-
-[[files]]
-file = "mods/hypixel-mod-api.pw.toml"
-hash = "c87a8f394e0efce8a3c1a81939c532a2dbd4cf5f232062259a72d5f34d3447dd"
-metafile = true
-
-[[files]]
 file = "mods/hypixelautotip.pw.toml"
 hash = "2b458c67d63c6166dc1e259ecd44c6abe31949ca00a6f37ae288d8bb7141adbd"
-metafile = true
-
-[[files]]
-file = "mods/hytils.pw.toml"
-hash = "5485dbda2d4e58adb3a7b44425a760e09d7ea169b99c27104c52a9fa3539d3ae"
 metafile = true
 
 [[files]]
@@ -158,11 +143,6 @@ metafile = true
 [[files]]
 file = "mods/respackopts.pw.toml"
 hash = "7b8076aab9ef583017e25be50ff4d6064e7f8a59d864abd9413fbc0cfb2a0895"
-metafile = true
-
-[[files]]
-file = "mods/reward-claim.pw.toml"
-hash = "75685b959f88763e55f94927e9df9d3543875960e7685b5eb90a2a7ad3947764"
 metafile = true
 
 [[files]]

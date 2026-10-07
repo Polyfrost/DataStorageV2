@@ -275,11 +275,6 @@ hash = "f1762a46c05a90a76332fd183b70fc4150d61c0c8f5820e3accec7232906605f"
 metafile = true
 
 [[files]]
-file = "mods/reward-claim.pw.toml"
-hash = "75685b959f88763e55f94927e9df9d3543875960e7685b5eb90a2a7ad3947764"
-metafile = true
-
-[[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
 hash = "fb856716b8b95cc04de1ffcfc06211496f67f23684a19964db5903ba48f8119d"
 metafile = true
@@ -356,7 +351,7 @@ metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "60ee4da8eff40d637ab941e130b48f238c617119bee6a03add1333bd0a692cb0"
+hash = "3693f061a66096a88782f8386303d27e001be8a7ec0db74be442caaa6f6fb283"
 metafile = true
 
 [[files]]

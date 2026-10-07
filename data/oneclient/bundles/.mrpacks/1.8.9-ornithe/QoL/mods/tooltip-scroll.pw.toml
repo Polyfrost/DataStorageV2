@@ -1,25 +1,17 @@
-id = "tooltipscroll"
+id = "krmfSula"
 enabled = true
 hidden = false
-name = "Tooltip Scroll"
+name = "Legacy Tooltip Scroll"
 filename = "Tooltip-Scroll-Ornithe-1.0.0.jar"
 side = "client"
 type = "normal"
 
-[overrides]
-name = "Tooltip Scroll"
-description = "Allows the tooltip GUI to be moved with the scrollwheel or configurable keys."
-authors = ["Provismet"]
-icon = "https://raw.githubusercontent.com/Polyfrost/Tooltip-Scroll-Fabric/1.8.9/src/main/resources/assets/toolscroll/icon.png"
-
 [download]
-url = "https://github.com/Polyfrost/Tooltip-Scroll-Fabric/releases/download/v1.3.0-1.8.9/Tooltip-Scroll-Ornithe-1.0.0.jar"
-hash-format = "sha256"
-hash = "565135f6fe7375fa7a7f1fa3a504d9f8e82a79312187dbfb64821aae03d8db52"
+url = "https://cdn.modrinth.com/data/krmfSula/versions/pyswoLxP/Tooltip-Scroll-Ornithe-1.0.0.jar"
+hash-format = "sha512"
+hash = "3d5f8c7b522c8b2ad1844a44ccdc006b9fea9a1cd7e3bba7c060f87730ab2fd27014f7b3b560e95372f927fe1d55b0edebf45c837146d591d592de1c4624f143"
 
 [update]
-[update.github]
-slug = "Polyfrost/Tooltip-Scroll-Fabric"
-tag = "v1.3.0-1.8.9"
-branch = "1.8.9"
-regex = "^Tooltip-Scroll-Ornithe-.+\\.jar$"
+[update.modrinth]
+mod-id = "krmfSula"
+version = "pyswoLxP"

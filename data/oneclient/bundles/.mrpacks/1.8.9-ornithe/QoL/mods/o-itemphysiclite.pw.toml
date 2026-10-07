@@ -1,24 +1,17 @@
-id = "O-ItemPhysicLite"
+id = "hEEywddE"
 enabled = true
 hidden = false
-name = "O-ItemPhysicLite"
+name = "OrnitheItemPhysicLite"
 filename = "O-ItemPhysicLite-1.1.0.jar"
 side = "client"
 type = "normal"
 
-[overrides]
-name = "ItemPhysicLite"
-description = "Adds physics to dropped items client-side."
-authors = ["Tryfle"]
-
 [download]
-url = "https://github.com/Tryflle/O-ItemPhysicLite/releases/download/1.1.0/O-ItemPhysicLite-1.1.0.jar"
-hash-format = "sha256"
-hash = "f7125b92cfa21bc4266b2530c4f99f74b56bc4c5596652a583b88cc139c921c8"
+url = "https://cdn.modrinth.com/data/hEEywddE/versions/qfpc7Zm7/O-ItemPhysicLite-1.1.0.jar"
+hash-format = "sha512"
+hash = "2ccb8bb87512dd517f090ab079a3450b240ad3b74b6af3a253cf3213596dcbe975e4a2981ad164d56621aab7bbc7d892fbe6d6985f62df5579406c964dfffcba"
 
 [update]
-[update.github]
-branch = "main"
-regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
-slug = "Tryflle/O-ItemPhysicLite"
-tag = "1.1.0"
+[update.modrinth]
+mod-id = "hEEywddE"
+version = "qfpc7Zm7"

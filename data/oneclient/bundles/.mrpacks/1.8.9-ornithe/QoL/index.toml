@@ -120,6 +120,11 @@ hash = "b556c45331d7ec943d5206697e2db2c18e3e22ff04e199ff8ad06041b31a17b1"
 metafile = true
 
 [[files]]
+file = "mods/legacyskinlayers.pw.toml"
+hash = "113ba1fa66d10f8239c515eaf429ca33f24b9d5f619bf722782ffa57d0792ee3"
+metafile = true
+
+[[files]]
 file = "mods/mountopacity.pw.toml"
 hash = "2114e83021df2ba5ba9662d62d544bb116361fbe5a805af30c468012231460c2"
 metafile = true
@@ -131,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/o-itemphysiclite.pw.toml"
-hash = "ff14f369e146d96fd7d2d5bc77ad6aea37cc9f6fa4c9fcb3737ea24e63b6a205"
+hash = "30470ad6674ffd2baf90dcb97c6bf1e3c6ff611dc58b60c5f4a79765614af24b"
 metafile = true
 
 [[files]]
@@ -236,12 +241,12 @@ metafile = true
 
 [[files]]
 file = "mods/tooltip-scroll.pw.toml"
-hash = "aeb7ff8af65848b0517713df05472fc99db3ab371d8a0dff098b30e8e038603f"
+hash = "7cccee9873981903d934a9767adb9f78e2712ee5e91298a47123c55777c590b0"
 metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "c24db7e999d1fc0cd718aeed19bba347510e5cb380cd4fead5b2fc68a4074a2e"
+hash = "8a62fde1628d8038e357685955cfe8fca7e0f3eff517ab3bd8a5e1f88cab9372"
 metafile = true
 
 [[files]]
