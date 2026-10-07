@@ -2,16 +2,16 @@ id = "N5EQhK31"
 enabled = true
 hidden = false
 name = "SmartSearch"
-filename = "smartsearch-1.1.0-1-ornithe.jar"
+filename = "smartsearch-1.2.0-ornithe.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/N5EQhK31/versions/QbAjyLEq/smartsearch-1.1.0-1-ornithe.jar"
+url = "https://cdn.modrinth.com/data/N5EQhK31/versions/xUnOUkeY/smartsearch-1.2.0-ornithe.jar"
 hash-format = "sha512"
-hash = "50893085e6445b2b5b9252286a5c3e15a2db0c9fdebac3afaa72989ba692d7a7c9270d2d2c8411c2f7ebcd80de777c29a5c9ce23b1fc449883bb125412b1f616"
+hash = "f0219ecfafd09438127727e7e30572a06c965a0510b45212cb3ed8afe0b7f8763e2d4ce11a2bc0a8bdcb2e512246f8749002bbed4a9934d68def8a6b20e99b55"
 
 [update]
 [update.modrinth]
 mod-id = "N5EQhK31"
-version = "QbAjyLEq"
+version = "xUnOUkeY"
