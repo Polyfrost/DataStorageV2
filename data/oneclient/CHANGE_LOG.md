@@ -1,3 +1,24 @@
+# 2.7.0
+
+- Add custom game args to settings
+- fix: url opening, dgpu dropdown instead of switcher, invisible icons
+- mods folder sync
+- fix opt-in bundles not being asked for new mc versions
+- chore: make nightly release action upload portable executables
+- chore: add tooltip on settings system info
+- feat: github packages can now be opened in browser
+- chore: update description for launcher animation setting
+- fix: mclogs notification showing repeatedly
+- fix: match os argument rules on apple silicon for old versions
+- feat: log censoring
+- feat: add code block and update the open link dialogs with the code block
+- chore: new changelog generator
+
+# 2.6.1
+
+- stray commas
+- fix
+
 # 2.6.0
 
 - Reapply "chore: bump to 2.6.0"
