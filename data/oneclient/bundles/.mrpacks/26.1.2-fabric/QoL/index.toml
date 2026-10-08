@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyblur.pw.toml"
-hash = "623605e22f7c16cc4a4ba6c62ecdfef016067251a525297a4f6e4fc686a2c3ef"
+hash = "edb407a50352812f3fbf8220692612e6e8227ddf0854249345066313de143c38"
 metafile = true
 
 [[files]]
