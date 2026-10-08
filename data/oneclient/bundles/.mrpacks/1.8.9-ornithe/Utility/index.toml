@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "02ee4e7bc6f9c8b5975a986f1523da3524ddf5b57c717d0a876d20ac1746bf82"
+hash = "3cd9631fd513b5a5dde393778f1d09e9a8a93c2877ecbf3e4db932723d5ae79f"
 
 [[files]]
 file = "mods/behindyou.pw.toml"
@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/pylon.pw.toml"
-hash = "1980659397b3106db62d91b253dff75a0f658290405de7dd28e1661b00db2b37"
+hash = "6d7597c3dc4dcf4a43d943e32082e0881ede7173fea00c54c186b673a76c7aeb"
 metafile = true
 
 [[files]]

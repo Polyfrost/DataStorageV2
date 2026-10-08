@@ -2,7 +2,7 @@ id = "pylon"
 enabled = true
 hidden = true
 name = "Pylon"
-filename = "pylon-0.2.0.jar"
+filename = "pylon-0.2.2-beta.1.jar"
 side = "client"
 type = "advanced"
 
@@ -13,13 +13,13 @@ authors = ["notdevcody"]
 description = "Runs legacy Minecraft on LWJGL 3, replacing the old windowing system with SDL 3."
 
 [download]
-url = "https://github.com/notdevcody/pylon/releases/download/v0.2.0/pylon-0.2.0.jar"
+url = "https://github.com/Polyfrost/pylon/releases/download/0.2.2-beta.1/pylon-0.2.2-beta.1.jar"
 hash-format = "sha256"
-hash = "950884bc6c1be79b696fe606253ae9e170b3c8591d4976c7bc1fd4288e517a49"
+hash = "74201f39ef378b4eee49676221dff0ec28de57b30e6a4c3008eeb4fecdc59f65"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
-slug = "notdevcody/pylon"
-tag = "v0.2.0"
+slug = "Polyfrost/pylon"
+tag = "0.2.2-beta.1"
