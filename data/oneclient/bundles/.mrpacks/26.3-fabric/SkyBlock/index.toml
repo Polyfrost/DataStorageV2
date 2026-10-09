@@ -55,6 +55,11 @@ hash = "a5e846cd3a82048185ac3f4e12e7e3acd081c2e4de85c5d0a743363e74c9bb05"
 metafile = true
 
 [[files]]
+file = "mods/skyocean.pw.toml"
+hash = "7715979025b33b0ad7322d1c646a112b5f925d0285714c7048fc873673004744"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "48ddd99ab99484fc168ac3786fb4ac874f934fc3ff80cde65a552f5b5c35e62f"
 metafile = true
