@@ -2,7 +2,7 @@ id = "argentum-extras"
 enabled = true
 hidden = false
 name = "Argentum Extras"
-filename = "argentum-extras-1.0.0.jar"
+filename = "argentum-extras-1.0.1.jar"
 side = "client"
 type = "normal"
 
@@ -12,12 +12,12 @@ description = "Optional rendering and visual controls for Argentum"
 authors = ["rdh"]
 
 [download]
-url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.0/argentum-extras-1.0.0.jar"
+url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.1/argentum-extras-1.0.1.jar"
 hash-format = "sha256"
-hash = "8922e8f67aa663a6018affc847d2e3fd7edf9b31f249db825ce1202e6934c353"
+hash = "12eb585babe416f5acceb4ddd3a6753bc9abe7e7837d8dfaf886a60277947933"
 
 [update]
 [update.github]
 branch = "main"
 slug = "QuicksilverMC/Argentum"
-tag = "v1.0.0"
+tag = "v1.0.1"

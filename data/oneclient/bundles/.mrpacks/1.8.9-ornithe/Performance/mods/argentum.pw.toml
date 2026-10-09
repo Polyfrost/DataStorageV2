@@ -2,7 +2,7 @@ id = "argentum"
 enabled = true
 hidden = false
 name = "Argentum"
-filename = "argentum-1.0.0.jar"
+filename = "argentum-1.0.1.jar"
 side = "client"
 type = "normal"
 
@@ -12,12 +12,12 @@ description = "Client rendering improvements for Minecraft 1.8.9"
 authors = ["rdh"]
 
 [download]
-url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.0/argentum-1.0.0.jar"
+url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.1/argentum-1.0.1.jar"
 hash-format = "sha256"
-hash = "1656027edeae0e3b1f0b22f6a7bb0e15af9b5c46dd1491f7c9f165dd4f2d02ce"
+hash = "ad77d2673d038c878edf35d44ff78f99b77445c16b33ef6aa0cde73b59ad1dba"
 
 [update]
 [update.github]
 branch = "main"
 slug = "QuicksilverMC/Argentum"
-tag = "v1.0.0"
+tag = "v1.0.1"
