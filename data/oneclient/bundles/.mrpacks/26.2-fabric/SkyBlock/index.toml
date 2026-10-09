@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "c1677b7829da3eb19ca8a5b68eb9ebd8c060271e31a0fc75e4bbd28518213776"
+hash = "f27bd253ae498ae21ded7ce72dd195e363751363d775d025c67cf55501efd2f9"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyocean.pw.toml"
-hash = "5c891860273ede8a19356aff7ea9a6ebc9cd11d38b0b95a11f26b8d01ddbacfa"
+hash = "48e2673d0ee927e1e80011773c64327b2e7a3924e8e4cc1b354030b1d3012ef5"
 metafile = true
 
 [[files]]

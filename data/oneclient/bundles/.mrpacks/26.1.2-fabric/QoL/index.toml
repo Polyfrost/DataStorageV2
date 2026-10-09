@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "c1677b7829da3eb19ca8a5b68eb9ebd8c060271e31a0fc75e4bbd28518213776"
+hash = "f27bd253ae498ae21ded7ce72dd195e363751363d775d025c67cf55501efd2f9"
 metafile = true
 
 [[files]]
@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/freelook-oneconfig.pw.toml"
-hash = "702c3424b3aaa6c237f41d86d58d396f90b315b9460f1fd5f91a74940c8b4190"
+hash = "6d94ea9a6181231d5edb525f1e8aa9264003a96aeeeafb7d6a77c34a3d150b37"
 metafile = true
 
 [[files]]

@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-screens.pw.toml"
-hash = "4f11b8bd2f4d37d6b6a29353d8006c6d1aa876a361b8a3947750952091c11be3"
+hash = "83c472da4aeca1ad34e9eef452eea62020b4e201b1abed9d9dae67300adf2769"
 metafile = true
 
 [[files]]
@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "c1677b7829da3eb19ca8a5b68eb9ebd8c060271e31a0fc75e4bbd28518213776"
+hash = "f27bd253ae498ae21ded7ce72dd195e363751363d775d025c67cf55501efd2f9"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/freelook-oneconfig.pw.toml"
-hash = "89d3f4d635cf9161d00502cd8eb39237921cc2f437498c7c54a12b2552371bb5"
+hash = "572ede1e3c43ae5a4f37fc4c4f248833f9ce0dda23092f4598bd68b7410a0b72"
 metafile = true
 
 [[files]]

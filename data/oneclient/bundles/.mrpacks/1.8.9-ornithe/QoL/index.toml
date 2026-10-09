@@ -71,7 +71,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "b813ff51df485bee41ef82ee75fb54e59fd65603023daed46df34cb3bd4943dd"
+hash = "475aee3d954645ff83abc5dc3211da56e3cfda9d8c8bc32b069913d154e0d9bd"
 metafile = true
 
 [[files]]
@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/freelook-oneconfig.pw.toml"
-hash = "a593d4a4daae878f59717f9af86dbac7bcb64dbb041a8b6e9dbe0a27424dc671"
+hash = "5b19e2f5a83e1179ffad16f9c01ee8c4f1d7b5c945dc6da331f3bc5c24d4b800"
 metafile = true
 
 [[files]]
@@ -186,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyzoom.pw.toml"
-hash = "79cc15848e2493907fd314ef7ad82a58db8b538470b3a4678324cf12d2434563"
+hash = "c270fc129eebe1ad4cba75b06c8aee67f288c6485dfe29c7af03aa4cc28ca7e7"
 metafile = true
 
 [[files]]
