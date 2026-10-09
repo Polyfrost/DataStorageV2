@@ -1,25 +1,17 @@
-id = "pylon"
+id = "wx17t6U9"
 enabled = true
 hidden = true
 name = "Pylon"
-filename = "pylon-0.2.2-beta.1.jar"
+filename = "pylon-0.2.1.jar"
 side = "client"
 type = "advanced"
 
-[overrides]
-icon = "https://raw.githubusercontent.com/notdevcody/pylon/main/src/main/resources/assets/pylon/icon.png"
-name = "Pylon"
-authors = ["notdevcody"]
-description = "Runs legacy Minecraft on LWJGL 3, replacing the old windowing system with SDL 3."
-
 [download]
-url = "https://github.com/Polyfrost/pylon/releases/download/0.2.2-beta.1/pylon-0.2.2-beta.1.jar"
-hash-format = "sha256"
-hash = "74201f39ef378b4eee49676221dff0ec28de57b30e6a4c3008eeb4fecdc59f65"
+url = "https://cdn.modrinth.com/data/wx17t6U9/versions/NbWNyafh/pylon-0.2.1.jar"
+hash-format = "sha512"
+hash = "cdb0b9ec87cc902efc9bee40e2216235b43fe4c549334915bb839f51ac5af99c01de581501c5e96d24364a1f8c8f351edf5823eb41f8c096a7a2e09129c03558"
 
 [update]
-[update.github]
-branch = "main"
-regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
-slug = "Polyfrost/pylon"
-tag = "0.2.2-beta.1"
+[update.modrinth]
+mod-id = "wx17t6U9"
+version = "NbWNyafh"
