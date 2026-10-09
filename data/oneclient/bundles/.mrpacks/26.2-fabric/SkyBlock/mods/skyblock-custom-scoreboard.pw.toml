@@ -2,16 +2,16 @@ id = "fpb5uaJt"
 enabled = true
 hidden = false
 name = "Custom Scoreboard"
-filename = "CustomScoreboard-1.12.14-26.2.jar"
+filename = "CustomScoreboard-1.13.1-26.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/fpb5uaJt/versions/2Z6qHJlg/CustomScoreboard-1.12.14-26.2.jar"
+url = "https://cdn.modrinth.com/data/fpb5uaJt/versions/Ykuq0dkN/CustomScoreboard-1.13.1-26.2.jar"
 hash-format = "sha512"
-hash = "7249def8983918f078da74bb1f0d025c51287327e4652c8d07f698a454851f3e9beefd91c069a9da6d41c218580f12a20ff6e89c6bb3ca9ba163ed1fee13e0d4"
+hash = "434f6fcfdbe8a7b92703cfca7d7a0cac55311b7fbb289b028601eb01795300bfbe59d110d7c9f4d208a68f51eaa12638637a7a3b3e31e87a1b23c1ea39e256c0"
 
 [update]
 [update.modrinth]
 mod-id = "fpb5uaJt"
-version = "2Z6qHJlg"
+version = "Ykuq0dkN"
