@@ -1,4 +1,4 @@
-id = "cera"
+id = "z4ctq7MO"
 enabled = true
 hidden = false
 name = "Cera"
@@ -6,18 +6,12 @@ filename = "cera-1.0.1.jar"
 side = "client"
 type = "normal"
 
-[overrides]
-name = "Cera"
-description = "MCPatcher/OptiFine resource pack extensions"
-authors = ["rdh"]
-
 [download]
-url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.1/cera-1.0.1.jar"
-hash-format = "sha256"
-hash = "b2dc1edd4232dbe60aac1644b0dd94be12860ab5a4a4cdc0545181309b74806f"
+url = "https://cdn.modrinth.com/data/z4ctq7MO/versions/yAj5VKe1/cera-1.0.1.jar"
+hash-format = "sha512"
+hash = "662ea45adecc56b2f3b14c61536800d7b8904a5056fcad563d0a0f4cb9872b7e3c3f1b0acdccc9686b2ab3e221256d0d58d9c1dd227c890b278e47df6f595e80"
 
 [update]
-[update.github]
-branch = "main"
-slug = "QuicksilverMC/Argentum"
-tag = "v1.0.1"
+[update.modrinth]
+mod-id = "z4ctq7MO"
+version = "yAj5VKe1"

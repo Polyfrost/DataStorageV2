@@ -1,4 +1,4 @@
-id = "argentum"
+id = "QRMV06RW"
 enabled = true
 hidden = false
 name = "Argentum"
@@ -6,18 +6,12 @@ filename = "argentum-1.0.1.jar"
 side = "client"
 type = "normal"
 
-[overrides]
-name = "Argentum"
-description = "Client rendering improvements for Minecraft 1.8.9"
-authors = ["rdh"]
-
 [download]
-url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.1/argentum-1.0.1.jar"
-hash-format = "sha256"
-hash = "ad77d2673d038c878edf35d44ff78f99b77445c16b33ef6aa0cde73b59ad1dba"
+url = "https://cdn.modrinth.com/data/QRMV06RW/versions/X6fQxSsK/argentum-1.0.1.jar"
+hash-format = "sha512"
+hash = "22fa7b7ba6f0dabda864ef720107096043188e62af43f1f9b18af90c648b5add9c29761217c3acc03a2deb2d5dbb76683598b8266bc8891792694947ac8268f5"
 
 [update]
-[update.github]
-branch = "main"
-slug = "QuicksilverMC/Argentum"
-tag = "v1.0.1"
+[update.modrinth]
+mod-id = "QRMV06RW"
+version = "X6fQxSsK"

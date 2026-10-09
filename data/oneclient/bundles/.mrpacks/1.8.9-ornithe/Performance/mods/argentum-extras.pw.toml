@@ -1,4 +1,4 @@
-id = "argentum-extras"
+id = "Tc8Lbsu7"
 enabled = true
 hidden = false
 name = "Argentum Extras"
@@ -6,18 +6,12 @@ filename = "argentum-extras-1.0.1.jar"
 side = "client"
 type = "normal"
 
-[overrides]
-name = "Argentum Extras"
-description = "Optional rendering and visual controls for Argentum"
-authors = ["rdh"]
-
 [download]
-url = "https://github.com/QuicksilverMC/Argentum/releases/download/v1.0.1/argentum-extras-1.0.1.jar"
-hash-format = "sha256"
-hash = "12eb585babe416f5acceb4ddd3a6753bc9abe7e7837d8dfaf886a60277947933"
+url = "https://cdn.modrinth.com/data/Tc8Lbsu7/versions/6wzTdaZh/argentum-extras-1.0.1.jar"
+hash-format = "sha512"
+hash = "38597e2d0e0a3bb9b26b55b96ad15f5038f21ddecde9f608dd3e3cc08623b14fbea5c0614b09fe34d2696d46ea8d4fd437e46a1a315cf1834a7d075b9a3ba60f"
 
 [update]
-[update.github]
-branch = "main"
-slug = "QuicksilverMC/Argentum"
-tag = "v1.0.1"
+[update.modrinth]
+mod-id = "Tc8Lbsu7"
+version = "6wzTdaZh"
