@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/complete-shield-fixes.pw.toml"
-hash = "77ea3fc3d1e40dd62350e22c5693d88663c6c73e4f6998b2bb4dc009a6e0551d"
+hash = "9b6cdd133edb6fb4d898071951af420b46a0a9db19ed2a21685d3ef62adfd7cd"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/walksylib.pw.toml"
-hash = "b60050c23017ad90cab57ae77896bdab0e48689dfc968c5766ba754374282069"
+hash = "f10138fbe67c35dd7b4eaf95f6e7ad6cda618f1d2d2261f4cd4126abdc382b77"
 metafile = true
 
 [[files]]
