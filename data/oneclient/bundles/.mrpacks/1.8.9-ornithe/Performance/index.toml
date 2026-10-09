@@ -26,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
+hash = "1dff415fb4310c82d01cca910992fdd430a4262589cadb2ccf2dc1cf3f54a477"
 metafile = true
 
 [[files]]
