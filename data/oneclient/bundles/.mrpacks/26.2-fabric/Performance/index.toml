@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-core.pw.toml"
-hash = "6fbef4b3437366739fe52a250c5510d553c4dbc8a9a122c2798a4a218042e6ea"
+hash = "4738aabdf655f9099d773034cdd3ec6efeba9c35d59e9e27d303ebbb224b3ad0"
 metafile = true
 
 [[files]]

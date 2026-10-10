@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/macos-input-fixes.pw.toml"
-hash = "55e627eef2da6762a2de15d3fd99ff1e21c63ae6d9830cf63bcef64eec29b57c"
+hash = "3df517b1dab2861845e0ce98055c3404dcd7c9b1b6e6d9ce86156baa9378f1a4"
 metafile = true
 
 [[files]]
@@ -128,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/oneconfig.pw.toml"
 hash = "923bbe3f162cf2e780c0b965a02df5a1c8d72c187afa1d857512b0ac4aaa3c21"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "4738aabdf655f9099d773034cdd3ec6efeba9c35d59e9e27d303ebbb224b3ad0"
 metafile = true
 
 [[files]]
