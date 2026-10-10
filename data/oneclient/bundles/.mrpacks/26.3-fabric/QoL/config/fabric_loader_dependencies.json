@@ -1,6 +1,11 @@
 {
     "version": 1,
     "overrides": {
+        "centered-crosshair": {
+            "+breaks": {
+                "firstt": "*"
+            }
+        },
         "flashback": {
             "+breaks": {
                 "skyblock-item-list": "<0.0.23"
