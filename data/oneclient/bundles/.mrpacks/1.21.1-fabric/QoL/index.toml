@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/freelook-oneconfig.pw.toml"
-hash = "b0aeef847abe82ede30ba3013a051805436235c62ae08ddb681cd8c7703bc587"
+hash = "1a14756d3cc48136ce9d372edff3b7b4df9d0368ea0cd5a08db152a6957f5fdf"
 metafile = true
 
 [[files]]
@@ -371,7 +371,7 @@ metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "69166271453dc89fcdc4cb03500349eca002e9a2726e440705e0c870fea49918"
+hash = "6943e23984ed83f1df393d9227086466ad30bf6639dc1ec424d939bff2619917"
 metafile = true
 
 [[files]]

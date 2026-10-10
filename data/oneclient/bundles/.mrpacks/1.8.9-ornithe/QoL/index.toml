@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "1dff415fb4310c82d01cca910992fdd430a4262589cadb2ccf2dc1cf3f54a477"
+hash = "cbc6139bdb3d06ec126258b046364b8b92f12f032077d9be70cd9c59b26744f9"
 metafile = true
 
 [[files]]
@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/freelook-oneconfig.pw.toml"
-hash = "5b19e2f5a83e1179ffad16f9c01ee8c4f1d7b5c945dc6da331f3bc5c24d4b800"
+hash = "c15f5697e7785118fc43a31fdb7a32e68b376e3f1808ee89d2440da0ec4bfe72"
 metafile = true
 
 [[files]]
@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "912c4c425c56e1c7da5fc3ff3b324ca5d2f21c2425942d7fb9957f25b4f3ba9b"
+hash = "a9dddd0838ce7f423ace5e439484fda9ff25610af4e734a62fab55823739e6ed"
 metafile = true
 
 [[files]]
@@ -231,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/tipper.pw.toml"
-hash = "aff57b3edd760ea8c1595f68b136094e60aad2f2b0c6b2214ac13dde6e2ef7b9"
+hash = "65bf5c41502d104aa145a4be42f24e2fe1c80ab5854c635cc12d5f3ee4aba877"
 metafile = true
 
 [[files]]
@@ -246,7 +246,7 @@ metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "8a62fde1628d8038e357685955cfe8fca7e0f3eff517ab3bd8a5e1f88cab9372"
+hash = "973a4cc1fca6f98823cec94472fead130f056785065be85e376ea204e5ed589c"
 metafile = true
 
 [[files]]

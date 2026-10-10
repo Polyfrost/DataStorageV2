@@ -2,16 +2,16 @@ id = "Uwb6VzvA"
 enabled = true
 hidden = false
 name = "Tipper"
-filename = "tipper-1.0.1+mc1.8.9.jar"
+filename = "tipper-1.0.2+mc1.8.9.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/Uwb6VzvA/versions/eFhUEOmX/tipper-1.0.1%2Bmc1.8.9.jar"
+url = "https://cdn.modrinth.com/data/Uwb6VzvA/versions/8e99E1el/tipper-1.0.2%2Bmc1.8.9.jar"
 hash-format = "sha512"
-hash = "3888a80835a1d0d55fb780c4eadf3b300ac1b9fcb652953ab27e71db453f1075405e41a66d9dac9c5b481862d8888ebbe127a5aaad238e1b6718324d2fe9cb76"
+hash = "73590e21be4740b435b29e84a454ec70b8b61bbd4fff3dda1695de6a2e16bb24f4bf3643bbfeadb56fa45a55613c2a5f8b1ee66744ba145a284515e028a7f3cd"
 
 [update]
 [update.modrinth]
 mod-id = "Uwb6VzvA"
-version = "eFhUEOmX"
+version = "8e99E1el"
