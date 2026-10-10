@@ -1,3 +1,21 @@
+# 2.8.0
+
+- chore: pin freya to Polyfrost fork on 0.5.0-beta.10 without libxdo
+- feat: multiple minecraft instances
+- fix: open folder freeze issue
+- fix: fixed downloading notification alerting about new notification on every byte read
+- feat: added status bar for auth states
+- fix: added scrollbar gutter to the notifications overlay
+- fix: bundled package regression causing it to disable and not update
+- fix: nightly executable uploads
+- Fix/linux skia crashes
+- fix: fixed shield.io badges not rendering properly
+- fix: added better errors for mclogs
+- feat: added filter for loaders in browser view
+- Retroactive fix for 1ab294f2
+- fix bundle newer mods being overwritten by local mods
+- update disabled mods still
+
 # 2.7.0
 
 - Add custom game args to settings
