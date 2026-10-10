@@ -1,6 +1,6 @@
 id = "7P86n6Vg"
 enabled = true
-hidden = true
+hidden = false
 name = "WalksyLib"
 filename = "WalksyLib-2.0.1+1.21.11.jar"
 side = "client"
