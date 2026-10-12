@@ -1,0 +1,20 @@
+{
+    "improvements": [
+        {
+            "project-ids": {
+                "modrinth": "geGZinIB",
+                "curseforge": "1570586"
+            },
+            "name": "Combat Hitboxes",
+            "author": "sootysplash",
+            "explanation": "/oneclient/bad_mods_mds/combat-hitboxes.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "Mptc0jo6"
+                    }
+                }
+            ]
+        }
+    ]
+}

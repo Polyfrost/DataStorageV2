@@ -1,5 +1,13 @@
 {
     "bad-modpacks": [
-        
+        {
+            "project-ids": {
+                "modrinth": "51shyZVL",
+                "curseforge": "630104"
+            },
+            "name": "More Culling",
+            "author": "FX",
+            "explanation": "/oneclient/bad_mods_mds/moreculling.md"
+        }
     ]
 }
