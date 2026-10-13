@@ -26,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "3c57b5450274dc6d45be15a524d0edeaec59f675c951417a242e7afc3b00a294"
+hash = "04d746cd6e74ec79d4b6984165dacfc0e75f4156dde8b7b8fb6c9aca48b90547"
 metafile = true
 
 [[files]]
@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "9bcd4398360d8b6a94d425284f6b2c97ae041ba8134fb427b65b4c84e17c3d5a"
+hash = "61a24fd930fbee4e6e770848dc608c7e4b0cb3f0deebb33f813eaa392123ae97"
 metafile = true
 
 [[files]]
