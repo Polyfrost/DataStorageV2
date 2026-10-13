@@ -2,16 +2,16 @@ id = "e0M1UDsY"
 enabled = true
 hidden = true
 name = "Collective"
-filename = "collective-26.3.0-8.49.jar"
+filename = "collective-26.3.0-8.51.jar"
 side = "both"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/TEdSC2db/collective-26.3.0-8.49.jar"
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/KmPOvNF9/collective-26.3.0-8.51.jar"
 hash-format = "sha512"
-hash = "3fa6130f06b96268a75995b98c9613708970c8588d41906e760019c343d2f2d2536b75640c51899d2243f4d6bc957075d96f25a282c221a7bba1f17f082e07fc"
+hash = "99a3b3201e733b0b574561b9b874df1b66be3a6d0ba4cc27f75e0fe2085e9f9a42590c0e8d4cba9a68746277cfc94e472519b78dc475465b4a4a4b45d1f6ba95"
 
 [update]
 [update.modrinth]
 mod-id = "e0M1UDsY"
-version = "TEdSC2db"
+version = "KmPOvNF9"
