@@ -3,7 +3,9 @@
     "overrides": {
         "pylon": {
             "+breaks": {
-                "lenis": "*"
+                "lenis": "*",
+                "rawinput": "*",
+                "rawmouseinput": "*"
             }
         }
     }
