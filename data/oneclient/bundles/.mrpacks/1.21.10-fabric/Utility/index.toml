@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "20ea58ed6fc6ea664b1151ec89c6c1d35787f9d6e4559704011cf933aad1d4fe"
+hash = "be3376fe2bfe55df578fb8a7145217d03b6e10c31f127d9405e37680a8659c78"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "399e4253b12bcb4b5b9f005b3b423547973467562d4ca9ace46184f22f2e2521"
+hash = "88de2a199af25beb1aba7b004286b1334723c2d03c34165f8d3914dde65f164d"
 metafile = true
 
 [[files]]
