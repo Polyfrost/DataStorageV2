@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughcrashes.pw.toml"
-hash = "6c4773573b2dd0ee492054b16ffc6de7d2d6aab9a6e5d7a17f99d783b11ca56c"
+hash = "d2980c38fbb19129e292b83e775fb4ae3c0d9beaff01fd43fae3cda9a637edac"
 metafile = true
 
 [[files]]

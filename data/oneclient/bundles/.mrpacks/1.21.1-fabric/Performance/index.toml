@@ -6,7 +6,7 @@ hash = "571f0e45cbd8294a72a27b085247e4d43794dd81b8fe0197371b7cd39f5960c1"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
-hash = "78e408417db41c3644e9452183129e01dabb047cbc463f2f29d87cf570e3cd26"
+hash = "9d3710b5883cab410c53021dfe523a7ae160d1bc0f6240fce9f34bf0a1bb5a86"
 metafile = true
 
 [[files]]
@@ -26,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "0388de40f9715c8678df233c29a2e88ba1925590147ff98f851100e1da4f9b61"
+hash = "edef00b0c1e458c64b704c82fa732c618a4bd95007c0103be1735b5f3ab52294"
 metafile = true
 
 [[files]]

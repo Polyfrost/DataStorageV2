@@ -2,16 +2,16 @@ id = "zvNzKfGF"
 enabled = true
 hidden = false
 name = "Async Logger"
-filename = "asynclogger-2.2.2+1.8.9-ornithe.jar"
+filename = "asynclogger-2.2.3+1.8.9-ornithe.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/zvNzKfGF/versions/lwjZBYEm/asynclogger-2.2.2%2B1.8.9-ornithe.jar"
+url = "https://cdn.modrinth.com/data/zvNzKfGF/versions/LQj9vOzN/asynclogger-2.2.3%2B1.8.9-ornithe.jar"
 hash-format = "sha512"
-hash = "2ee41834156342128d19f6070aa0d8513b9ef240f08f652070e5024537bb90dc61c196266b1c66f88567b7b7493033eacc5281a3797b495621817adaa63c19e1"
+hash = "95a4cd70e945acced55aa2261640889594d5923720a888ca192fc4f2301f3626b1ab4f58c7a5014c6a0d83db653542209aea4086f7652049a70034b2678e4c6d"
 
 [update]
 [update.modrinth]
 mod-id = "zvNzKfGF"
-version = "lwjZBYEm"
+version = "LQj9vOzN"
