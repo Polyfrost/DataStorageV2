@@ -1,0 +1,16 @@
+id = "WkYmsTk1"
+enabled = true
+hidden = false
+name = "OBE x Hypixel Skyblock"
+filename = "OBExHypixelSkyblock.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WkYmsTk1/versions/1QBBH4VW/OBExHypixelSkyblock.zip"
+hash-format = "sha512"
+hash = "5d49ceb3d3796473c284dd05d8685c319bf6ae64d17669f1d27b37980f82d88d44b8f01ac76311bba65b503ed619bc5f266f5e39e34dd3be87c7366c4fe6d27d"
+
+[update]
+[update.modrinth]
+mod-id = "WkYmsTk1"
+version = "1QBBH4VW"

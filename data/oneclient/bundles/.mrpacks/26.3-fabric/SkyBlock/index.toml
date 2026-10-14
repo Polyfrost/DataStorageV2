@@ -65,6 +65,11 @@ hash = "48ddd99ab99484fc168ac3786fb4ac874f934fc3ff80cde65a552f5b5c35e62f"
 metafile = true
 
 [[files]]
+file = "resourcepacks/obe-x-hypixel-skyblock.pw.toml"
+hash = "bd600a6af78a7c3f31bf007e02fb42c634fe23b5e014f79676df8e077f9ce703"
+metafile = true
+
+[[files]]
 file = "resourcepacks/skyblock-dark-ui.pw.toml"
 hash = "1ca92d795948fff86ea845b08a8eefd5a0cb990fe4e2fab472ad85fad5e5ff0e"
 metafile = true
