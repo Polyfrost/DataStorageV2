@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "7c40200053f0205719f1ed8e5ea8ffb6617c89b5c4c97b729c8bfc86e656ede2"
+hash = "375ae7b8ee23922a53597de425c8723d07dfe1b84f931e7e2c94fab4153a6788"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8ece6e824617c1a8eee3c5cf962f45c9c0addff9e2088255bbe76ee0cbcd1fd5"
+hash = "836e30fccd6a08c8a083a2e2ad054d01297ea6744b8c176b4329b8055c7a4e28"
 metafile = true
 
 [[files]]

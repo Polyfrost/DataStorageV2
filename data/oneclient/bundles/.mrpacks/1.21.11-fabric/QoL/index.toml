@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/crosshair.pw.toml"
-hash = "552e8334c88b41944c8f01067be0cca588a6d614b5bc1d7c1801e1907a36f704"
+hash = "f7b3899309edcd391d5eb7faa39c24166a8eda813a1cd9407da6714f47ef229e"
 metafile = true
 
 [[files]]
@@ -261,7 +261,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "5e29bc32e84d20a070a2e85b32cf04ba4c0a6ab4c0e6025012df860bc759cd7c"
+hash = "9013a2f64cfe76e0a75754178dc3706bf90d0d044766594f14f57c743899fcc2"
 metafile = true
 
 [[files]]

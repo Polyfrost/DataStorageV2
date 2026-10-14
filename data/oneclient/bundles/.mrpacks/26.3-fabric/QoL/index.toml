@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/crosshair.pw.toml"
-hash = "de45228a321c628babc805c7619dde5f4c6232e47ee22261230a80950acb05e9"
+hash = "a6ba98e1f5f151e3155288fdcb6c7884a69c1083612489a7094478d1afb10935"
 metafile = true
 
 [[files]]
@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8ece6e824617c1a8eee3c5cf962f45c9c0addff9e2088255bbe76ee0cbcd1fd5"
+hash = "836e30fccd6a08c8a083a2e2ad054d01297ea6744b8c176b4329b8055c7a4e28"
 metafile = true
 
 [[files]]
@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "d2546f04e704618e9fc790457938dd21f3ae1d603b584bfb97271f2e52771806"
+hash = "6716f69213a0a28bd45ae93fb612d5caf08607bcc3378c1f86d104268cd2c071"
 metafile = true
 
 [[files]]

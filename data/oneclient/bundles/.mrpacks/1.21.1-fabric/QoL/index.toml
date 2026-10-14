@@ -71,7 +71,7 @@ metafile = true
 
 [[files]]
 file = "mods/crosshair.pw.toml"
-hash = "a03ddd85c0325420d145ad058da54dc736d8b4168b1d44e03ba84295740caff0"
+hash = "0c592473cacdb02b8dd09eb4de3ba703ebc975d707c6ce5731acc9371a3d560b"
 metafile = true
 
 [[files]]
@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "9878964f719db7070778c4e9e7077a55ec96c3b654ae7b78a6a0201fb5f1ec68"
+hash = "516e48dc03a9521dbd4dc86a87f7185bf6a7c23a66a23b6d4968c861614cb818"
 metafile = true
 
 [[files]]
@@ -276,7 +276,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "eb03d838fdcd2dbb2354cb038013eb0d440e9d36962937a343592c6190f520c3"
+hash = "20a8ec92b5fd37ee42b361139357e543db9c768399ab3ae714d0f3c6d1ce6be8"
 metafile = true
 
 [[files]]

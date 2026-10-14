@@ -26,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "04d746cd6e74ec79d4b6984165dacfc0e75f4156dde8b7b8fb6c9aca48b90547"
+hash = "0388de40f9715c8678df233c29a2e88ba1925590147ff98f851100e1da4f9b61"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "9878964f719db7070778c4e9e7077a55ec96c3b654ae7b78a6a0201fb5f1ec68"
+hash = "516e48dc03a9521dbd4dc86a87f7185bf6a7c23a66a23b6d4968c861614cb818"
 metafile = true
 
 [[files]]

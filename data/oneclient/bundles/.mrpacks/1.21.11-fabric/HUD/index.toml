@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "df85f3d02d640292e9e359d8ea0cf053946b1ba643dc1004a1fab4fb9a45e0ef"
+hash = "5cd04471ddbf8add5bee63a171bc0b6d645cb354df800e1e0c729878ba135917"
 metafile = true
 
 [[files]]

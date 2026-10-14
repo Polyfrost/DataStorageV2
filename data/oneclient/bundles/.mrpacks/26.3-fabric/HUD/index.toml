@@ -27,12 +27,12 @@ metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "a353013be21835186e07fbbf11ea870823e00abe0dc604126f09a1fd67cf01fd"
+hash = "02e1ed6811a7b2674b7f626163d20f1175d19a39e22e35bff77d8cf13e02f7cd"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8ece6e824617c1a8eee3c5cf962f45c9c0addff9e2088255bbe76ee0cbcd1fd5"
+hash = "836e30fccd6a08c8a083a2e2ad054d01297ea6744b8c176b4329b8055c7a4e28"
 metafile = true
 
 [[files]]

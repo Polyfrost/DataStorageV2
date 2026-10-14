@@ -2,15 +2,15 @@ id = "obfJASPU"
 enabled = true
 hidden = false
 name = "PolyCrosshair"
-filename = "polycrosshair-2.0.1+1.8.9.jar"
+filename = "polycrosshair-2.0.2+1.8.9.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/obfJASPU/versions/lgFct1j6/polycrosshair-2.0.1%2B1.8.9.jar"
+url = "https://cdn.modrinth.com/data/obfJASPU/versions/JDqxdKeM/polycrosshair-2.0.2%2B1.8.9.jar"
 hash-format = "sha512"
-hash = "0d56f122eca6e88b2e5fbb236339093d0b295a41109be6987aadcf6acf6a7d4130bcd5e1ea9b1916a04935d9e69a986ada65d497b489b1483386e232203c35e1"
+hash = "150e72028c9dbe727340ba90f6c6d729162656aaae9ee88227cd1dde9e8d5c27475ec03423aa9d38e15880f3e9dbbefdef4ba0266265ac6d36b936b59b4c4115"
 
 [update]
 [update.modrinth]
 mod-id = "obfJASPU"
-version = "lgFct1j6"
+version = "JDqxdKeM"
