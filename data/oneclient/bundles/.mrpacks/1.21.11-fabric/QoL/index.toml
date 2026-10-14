@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/freelook-oneconfig.pw.toml"
-hash = "b25f30a4c9c544427929c553e5de476ef77ea674a99615fe9fc4a311b6b8cee2"
+hash = "9f4c080ab7e2a0fed9f7989c587a3e4886ce01cdc29166737bc72b88c2a8a4eb"
 metafile = true
 
 [[files]]
@@ -181,7 +181,7 @@ metafile = true
 
 [[files]]
 file = "mods/midnightlib.pw.toml"
-hash = "dda43e255ae04747d3ebc00614469cafff1841194136615e4488dcba09c7aff5"
+hash = "7a1770a8f979a3f114df98ec1223a4ce47c0dcdf1bb6a4847da87a1726734e39"
 metafile = true
 
 [[files]]
