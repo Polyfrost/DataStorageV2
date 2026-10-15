@@ -39,6 +39,8 @@ jobs:
   build:
     name: Generate bundles and build site
     runs-on: ubuntu-latest
+    env:
+      R2_BUCKET: ${{ secrets.DATA_R2_BUCKET }}
     needs: RunMcLocally
     steps:
       - name: Git checkout
@@ -98,6 +100,18 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
+
+      - name: Generate Prism Launcher instance
+        if: env.R2_BUCKET != ''
+        run: node ./scripts/generate-multimc-instance.js _site/oneclient/bundles/generated/oneclient-1.8.9-ornithe-multimc.zip
+
+      - name: Deploy to R2
+        if: env.R2_BUCKET != ''
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.DATA_R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.DATA_R2_SECRET_ACCESS_KEY }}
+        run: ./scripts/deploy-r2.sh
 
   deploy:
     name: Deploy to GitHub Pages
