@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Assembles the GitHub Pages site into OUTPUT_DIR from the data/ folder only,
+# Assembles the site into OUTPUT_DIR from the data/ folder only,
 # excluding any file or folder whose name begins with a dot (e.g. .mrpacks).
 # Generated bundles must already exist under data/ before this runs. Finally the
 # JSON templates in the built site are resolved (see scripts/template.js).
