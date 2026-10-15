@@ -76,5 +76,5 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "5b10a7fdb22b4ee04092108a1ca11c8f33362f5407fc83ad3ee713e876fcca48"
+hash = "f7e7b9258147726dd58e45218762a835e7d8310d27c908550b864f0ede395566"
 metafile = true
