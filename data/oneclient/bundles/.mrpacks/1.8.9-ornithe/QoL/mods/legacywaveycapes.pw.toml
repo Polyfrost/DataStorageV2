@@ -1,0 +1,16 @@
+id = "Hmd9emlf"
+enabled = true
+hidden = false
+name = "Legacy WaveyCapes"
+filename = "LegacyWaveyCapes-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Hmd9emlf/versions/SGUMDDh1/LegacyWaveyCapes-1.0.1.jar"
+hash-format = "sha512"
+hash = "6a0461e2bb59ebdfa91a52f61cafcb4ba6054a93ae83915898a584824afcb68c034a21c7ae748772313f684c4c508a6af31f8debe101a34b5bb8f4822ccbb09b"
+
+[update]
+[update.modrinth]
+mod-id = "Hmd9emlf"
+version = "SGUMDDh1"
