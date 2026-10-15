@@ -53,7 +53,7 @@ jobs:
         run: ./scripts/gate-bundle-updates.sh
 
       # Only the packwiz source (.mrpacks) is committed. Pushing to main triggers
-      # the Deploy workflow, which regenerates the bundles and publishes to GitHub Pages.
+      # the Deploy workflow, which regenerates the bundles and publishes to R2.
       - name: Commit and push updated sources
         run: |
           git config --global user.name "Bundle Updater[bot]"

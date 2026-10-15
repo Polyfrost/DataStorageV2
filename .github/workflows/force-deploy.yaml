@@ -4,11 +4,9 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: deploy
   cancel-in-progress: true
 
 jobs:
@@ -71,31 +69,12 @@ jobs:
       - name: Build site
         run: ./scripts/build-site.sh
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-
       - name: Generate Prism Launcher instance
-        if: env.R2_BUCKET != ''
         run: node ./scripts/generate-multimc-instance.js _site/oneclient/bundles/generated/oneclient-1.8.9-ornithe-multimc.zip
 
       - name: Deploy to R2
-        if: env.R2_BUCKET != ''
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.DATA_R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.DATA_R2_SECRET_ACCESS_KEY }}
         run: ./scripts/deploy-r2.sh
-
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
