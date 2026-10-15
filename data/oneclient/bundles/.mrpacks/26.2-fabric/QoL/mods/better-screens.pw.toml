@@ -2,16 +2,16 @@ id = "PBbfPJZN"
 enabled = true
 hidden = false
 name = "Better Screens"
-filename = "betterscreens-3.0.1+26.2-fabric.jar"
+filename = "betterscreens-3.0.2+26.2-fabric.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/PBbfPJZN/versions/lWu2PMbX/betterscreens-3.0.1%2B26.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/PBbfPJZN/versions/m9829WF5/betterscreens-3.0.2%2B26.2-fabric.jar"
 hash-format = "sha512"
-hash = "a7b34e4a4f130faf0e63b567af8bc3c82ab97ae8cd37624bcca24e0af74e868f5774c872ba4903f8d9b901382e072c3b21f1aa219cd7aba240460f5afe860275"
+hash = "11a814bf362be9ba062d0dc5cfb36cda58b6490a18bb838e738587297bd7a19d62b2054319ececdc599d16f271de0b46fcd4105c10253b7e2f61528f0031773c"
 
 [update]
 [update.modrinth]
 mod-id = "PBbfPJZN"
-version = "lWu2PMbX"
+version = "m9829WF5"

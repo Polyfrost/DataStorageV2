@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-screens.pw.toml"
-hash = "bfb5877609866d2923cd704c749e410e6519b8952e88f69d912fbf10e7f320bf"
+hash = "219b5c4899c095319869a86177e406c39879aca87f8728d6df7616cfcf218e11"
 metafile = true
 
 [[files]]
@@ -231,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyblur.pw.toml"
-hash = "05a9c19a2908ce875d7ee0b0ad2585ec46c5d8089d97fbdbaa188ce7bb1c986f"
+hash = "1b54651cd155de913d45c939967b8b9692872c5520cbb119d93f367fc1f9663d"
 metafile = true
 
 [[files]]
