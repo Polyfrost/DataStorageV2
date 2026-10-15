@@ -106,12 +106,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "fa749c9ebf2e9d1623b94ababaffadee8b9ccf3f20232b8405088f00596888cc"
+hash = "14476e046ec1ce8eae7d5415ff5001d777958052c0bea3b24eaa01d9a97c351e"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "d596e91b0b09d35cc5a50cfd40f3eab76ef836ef01c7d698d33beb5afda9f7fe"
+hash = "184432a78c9945a3f35faf04d72beb7bf507061d19d83b4020fe3ec875531041"
 metafile = true
 
 [[files]]
@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "14f45cf53cb845b2f07fd9851c0d6f7d02b4f74f41a8210f830a6c0e6bf07282"
+hash = "7f618d506e7c950dfcf37feeb1e1c2a9bae7812464ebf529e9b3af2e8aea51bb"
 metafile = true
 
 [[files]]

@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/blur.pw.toml"
-hash = "253c11f6143045257762515e916ef139e06942ee94b9353edd6643e776749c48"
+hash = "9946d418eef0a3c26240797ab2b12341f357247414de786a002ad0f83bb36cf6"
 metafile = true
 
 [[files]]
@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "d98342626b8b71466502f8d77ced66e6ee8c395c7ace75dcc8bd1f33e6829977"
+hash = "06feaaa1aeb3ed01c58aea0fde2ffd483eadebcbf67a5c89de77cd199a44a5fc"
 metafile = true
 
 [[files]]
