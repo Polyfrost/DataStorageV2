@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "5f9e1e5bfac993725e6850c34218c0d62e370dbed14c65234d0046e0936bd35e"
+hash = "26ed807a7f143dd4afa4b5ee056de66b62277f5f89895f4867c7420d78de4af1"
 metafile = true
 
 [[files]]
