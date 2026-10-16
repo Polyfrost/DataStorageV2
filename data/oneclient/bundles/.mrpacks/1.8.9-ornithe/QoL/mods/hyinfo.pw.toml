@@ -2,24 +2,24 @@ id = "HyInfo"
 enabled = true
 hidden = false
 name = "HyInfo"
-filename = "HyInfo-0.1.0-1.8.9_ornithe.jar"
+filename = "HyInfo-0.2.0-1.8.9_ornithe.jar"
 side = "client"
 type = "normal"
 
 [overrides]
-name = "HyInfo"
-description = "Shows Hypixel network level, BedWars stars, SkyWars stars and Duels division in the tablist and above nametags."
-authors = ["Tomeko"]
 icon = "https://raw.githubusercontent.com/TomekoYT/HyInfo/main/src/main/resources/assets/hyinfo/icon.png"
+name = "HyInfo"
+authors = ["Tomeko"]
+description = "Shows Hypixel network level, BedWars stars, SkyWars stars and Duels division in the tablist and above nametags."
 
 [download]
-url = "https://github.com/TomekoYT/HyInfo/releases/download/v0.1.0/HyInfo-0.1.0-1.8.9_ornithe.jar"
+url = "https://github.com/TomekoYT/HyInfo/releases/download/v0.2.0/HyInfo-0.2.0-1.8.9_ornithe.jar"
 hash-format = "sha256"
-hash = "e89b3dfb01735890dc83966710f95ca718d4923aeb7ccd3f9a482feb48d84590"
+hash = "43bc87714ae23af0162fd4780d50f2fed1bc173744ff192d627404e2dcbf746c"
 
 [update]
 [update.github]
 branch = "main"
 regex = "1\\.8\\.9_ornithe\\.jar$"
 slug = "TomekoYT/HyInfo"
-tag = "v0.1.0"
+tag = "v0.2.0"

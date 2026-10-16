@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "1337482758feefbd9919768b9c8a01b3eb9e4262f50efb5b95608da5ea9f57d4"
+hash = "5f9e1e5bfac993725e6850c34218c0d62e370dbed14c65234d0046e0936bd35e"
 metafile = true
 
 [[files]]
@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "973a4cc1fca6f98823cec94472fead130f056785065be85e376ea204e5ed589c"
+hash = "188eb9b047fc912940fe10cb956873cd445bddc07ed3a05b5c58cea6ca7118d4"
 metafile = true
 
 [[files]]
