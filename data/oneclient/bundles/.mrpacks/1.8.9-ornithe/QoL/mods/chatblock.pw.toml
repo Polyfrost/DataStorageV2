@@ -1,0 +1,16 @@
+id = "aMcWnMHI"
+enabled = true
+hidden = false
+name = "Chat Block"
+filename = "ChatBlock-1.7.1-1.8.9_ornithe.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aMcWnMHI/versions/4Fdj9M4K/ChatBlock-1.7.1-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "b0c1a9becd24950f8f9ccdd0b7fae541c3c7cc884059e547675925616ca0498129bebb157da782e0777eadd0d77ee2977ae9803c32ebaafa2ebfd9bacbf2ccbe"
+
+[update]
+[update.modrinth]
+mod-id = "aMcWnMHI"
+version = "4Fdj9M4K"
