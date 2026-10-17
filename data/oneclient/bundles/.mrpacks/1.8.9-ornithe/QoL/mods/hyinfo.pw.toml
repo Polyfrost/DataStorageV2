@@ -2,7 +2,7 @@ id = "HyInfo"
 enabled = true
 hidden = false
 name = "HyInfo"
-filename = "HyInfo-0.2.1-1.8.9_ornithe.jar"
+filename = "HyInfo-0.3.0-1.8.9_ornithe.jar"
 side = "client"
 type = "normal"
 
@@ -13,13 +13,13 @@ authors = ["Tomeko"]
 description = "Shows Hypixel network level, BedWars stars, SkyWars stars and Duels division in the tablist and above nametags."
 
 [download]
-url = "https://github.com/TomekoYT/HyInfo/releases/download/v0.2.1/HyInfo-0.2.1-1.8.9_ornithe.jar"
+url = "https://github.com/TomekoYT/HyInfo/releases/download/v0.3.0/HyInfo-0.3.0-1.8.9_ornithe.jar"
 hash-format = "sha256"
-hash = "d490367d37b0e89eede903e945c74c46347979eab95209c788098b257e970cb9"
+hash = "9f5156968c476b4351e69cde74d7092b45416b72c339c8dbaf713585b04f8097"
 
 [update]
 [update.github]
 branch = "main"
 regex = "1\\.8\\.9_ornithe\\.jar$"
 slug = "TomekoYT/HyInfo"
-tag = "v0.2.1"
+tag = "v0.3.0"

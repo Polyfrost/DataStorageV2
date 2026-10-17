@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "02311be015b4e5108b53eddda758d57dc91e1f184b09bea775e55f9256dcb5d0"
+hash = "fb06a1436377c2996a784ef53a4ac3fe2076ed72e976e2ae82dba072fc992c3c"
 metafile = true
 
 [[files]]
@@ -261,7 +261,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "c0e27619f96dbc4d0ee66352b50a266d6adda92b96eb221ca5403e6bc09cb858"
+hash = "bf42cb7ea938a926d50dd1ed792d2124cf1a2d700acc5902b7af2686b04581bd"
 metafile = true
 
 [[files]]

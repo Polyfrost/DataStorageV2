@@ -101,12 +101,12 @@ metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "80d7133578902bc4ffeacb3394085b7deb5f3ca8e8b3de74bff96caf075db298"
+hash = "6fdc32bf6352a200c5b95906af3c023f91f7adff4a618dc31903075c12cf4bec"
 metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "26ed807a7f143dd4afa4b5ee056de66b62277f5f89895f4867c7420d78de4af1"
+hash = "70bd9b5d5d3433f62a5b57e979050f775f78e961f48afaa4dcba3c69647d90d7"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "244ba566f7deab5c7c269fb4f13c2820aac6bf8599ea2654e1c531120cfb28b5"
+hash = "f2d3b191f14d874ea8cc1ee63ca79c37a2659a0f53b8db51cb871604a4a72913"
 metafile = true
 
 [[files]]
@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "925acb1f308db164807ecbf13231b68f38952a937c8aa6f3092bd6e197171b41"
+hash = "313d18766091e37e544f36e91c606bae00a6def442d364913117d28cab8e321f"
 metafile = true
 
 [[files]]

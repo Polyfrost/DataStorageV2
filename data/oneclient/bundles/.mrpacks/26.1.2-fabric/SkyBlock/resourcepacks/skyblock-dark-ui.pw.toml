@@ -2,16 +2,16 @@ id = "Ed25eRJG"
 enabled = true
 hidden = false
 name = "Skyblock Dark UI"
-filename = "Skyblock Dark UI 1.18 for 26.1.2+.zip"
+filename = "Skyblock Dark UI 1.19 for 26.1.2+.zip"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/Ed25eRJG/versions/vDsMM5iE/Skyblock%20Dark%20UI%201.18%20for%2026.1.2%2B.zip"
+url = "https://cdn.modrinth.com/data/Ed25eRJG/versions/T0E3LmO5/Skyblock%20Dark%20UI%201.19%20for%2026.1.2%2B.zip"
 hash-format = "sha512"
-hash = "6f6b4582b50e35dbffdd890c05efb2a971418eaad25f93dee1c1349178b7d294244bf53116a67a0b71e8dbde7f77017e01b0e5b5bbb9dec28e6173d3f97cd117"
+hash = "2f9a08a418d8e15176daddd478a2e782c6cc6c36bbe07a25955dba1c507d4b1027b9a90fe5d0da7ba647c5d46fe42f2bccc16638882128aedb58cf8d292b9bba"
 
 [update]
 [update.modrinth]
 mod-id = "Ed25eRJG"
-version = "vDsMM5iE"
+version = "T0E3LmO5"
