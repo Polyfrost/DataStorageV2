@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/overlaytweaks.pw.toml"
-hash = "b8f7ff1b12c157fc9531b006bb9a3e03199b952b7da6b32c92e5d276e260575f"
+hash = "c08daba65dabdcf59c5960e97f01c144b1d612e10a3c7156e663fafc86131035"
 metafile = true
 
 [[files]]
@@ -346,7 +346,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "d410f564777c33cee0b713c36f74e0608883e543f43bb2743b765ac68a710047"
+hash = "2cfc77d37bd07cd47ec709c6a76e71f5626d0296c5d57be2cafce66d3a4397b6"
 metafile = true
 
 [[files]]
