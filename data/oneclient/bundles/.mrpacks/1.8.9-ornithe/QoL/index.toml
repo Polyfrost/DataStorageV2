@@ -25,6 +25,11 @@ hash = "9946d418eef0a3c26240797ab2b12341f357247414de786a002ad0f83bb36cf6"
 metafile = true
 
 [[files]]
+file = "mods/chatblock.pw.toml"
+hash = "e7bdd8e7862eca9275c98d0d266c8e59e47a6cc484de9d222133ca82c5f1583e"
+metafile = true
+
+[[files]]
 file = "mods/chatting.pw.toml"
 hash = "224875d5ebad4d6a28edaa83d943497ffa59ba4718da7a8d3b4d5e9a27471fa9"
 metafile = true
