@@ -11,7 +11,7 @@ update-url = "oneclient/generated/skyblock-26.1.2-fabric.mrpack"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8a0307d22509bfc95a8396efd9e1b79f95b50adeb857e2290deb6e56430876c4"
+hash = "28b832a49a88a63cb4ff1864e870c6ef5a121cc98400af7bb451fd0e80757b4f"
 
 [versions]
 fabric = "0.19.5"

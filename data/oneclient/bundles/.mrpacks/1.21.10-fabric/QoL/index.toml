@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "88de2a199af25beb1aba7b004286b1334723c2d03c34165f8d3914dde65f164d"
+hash = "2d600c93526063e0ea9ce081c51be942f299967c1deefd1caa723006ffb4238f"
 metafile = true
 
 [[files]]
@@ -366,7 +366,7 @@ metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "c96fb994c19ce2ded9debcef932309235782d2c175dcb424ea861b0a5456dc9b"
+hash = "a7497e47171e8146ebc12c326992e9ac0e0488e10fddc35c8deeab8928c5a01a"
 metafile = true
 
 [[files]]

@@ -2,16 +2,16 @@ id = "SIRG6coC"
 enabled = false
 hidden = false
 name = "Vignette Tweaks"
-filename = "vignettetweaks-2.1.1+1.8.9.jar"
+filename = "vignettetweaks-2.1.3+1.8.9.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/SIRG6coC/versions/FvxlsJ4k/vignettetweaks-2.1.1%2B1.8.9.jar"
+url = "https://cdn.modrinth.com/data/SIRG6coC/versions/8Qp8u1Jq/vignettetweaks-2.1.3%2B1.8.9.jar"
 hash-format = "sha512"
-hash = "26d7347871ec3973f839cf6519df22042e264f6850f7a3aaf6c221ea40826ee0c89b5e0402ec24372da4e67a8521828d631c1a7181116348f4cfc8420268e04e"
+hash = "a51b6d71dd66f492915bceb63880adb7dc934cbe638de9c5f37728f11d41395c8060a5e12c53a6876bb9b54f51dc3ef371b8fe4db7c7963b51026751d2c5b6a6"
 
 [update]
 [update.modrinth]
 mod-id = "SIRG6coC"
-version = "FvxlsJ4k"
+version = "8Qp8u1Jq"

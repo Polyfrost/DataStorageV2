@@ -2,7 +2,7 @@ id = "HyChatter"
 enabled = true
 hidden = false
 name = "HyChatter"
-filename = "HyChatter-0.1.2-1.8.9_ornithe.jar"
+filename = "HyChatter-0.1.3-1.8.9_ornithe.jar"
 side = "client"
 type = "normal"
 
@@ -13,13 +13,13 @@ authors = ["Tomeko"]
 description = "Adds chat features on Hypixel like AutoGG, chat coordinate waypoints and more."
 
 [download]
-url = "https://github.com/TomekoYT/HyChatter/releases/download/v0.1.2/HyChatter-0.1.2-1.8.9_ornithe.jar"
+url = "https://github.com/TomekoYT/HyChatter/releases/download/v0.1.3/HyChatter-0.1.3-1.8.9_ornithe.jar"
 hash-format = "sha256"
-hash = "e7cf2558fdb3b5b965d990a0c88e751f01e25e0bafe34ba3aa0de6216f7ed0c2"
+hash = "b87ae64fe81ef6e5c9e372ad43f949ad8d1515ec172b2ec55d9d026b7170a3fd"
 
 [update]
 [update.github]
 branch = "main"
 regex = "1\\.8\\.9_ornithe\\.jar$"
 slug = "TomekoYT/HyChatter"
-tag = "v0.1.2"
+tag = "v0.1.3"

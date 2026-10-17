@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "6fdc32bf6352a200c5b95906af3c023f91f7adff4a618dc31903075c12cf4bec"
+hash = "56aa330f5aa119c69e653b1086cb65a1ceaaf0f06ab40307af26005a31c64aee"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "c965ba67ad21cf9ecce3f48ae2702ff038fc5a477ac708fab57a5d0ebf15edf3"
+hash = "868a7e3961cec82e0282856073603ff1c2f8635dd72fcf60c074fe30d53bc6c7"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/vignette-tweaks.pw.toml"
-hash = "188eb9b047fc912940fe10cb956873cd445bddc07ed3a05b5c58cea6ca7118d4"
+hash = "5cd285e8cdc7e1af5fc26d3d5e688bd8c71393ad721eb07093a3e7c97d2225c6"
 metafile = true
 
 [[files]]
