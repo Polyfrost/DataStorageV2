@@ -1,0 +1,375 @@
+{
+  "default": [
+    "yellow",
+    "aqua",
+    "white",
+    "pink",
+    "gray",
+    "red",
+    "blue",
+    "green"
+  ],
+  "overrides": [
+    {
+      "locations": [
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "yellow",
+        "yellow",
+        "red",
+        "red"
+      ],
+      "maps": [
+        "Comet",
+        "Deposit",
+        "Dreamgrove",
+        "Egg Run",
+        "Entangle",
+        "Holmgang",
+        "Invasion",
+        "Jurassic",
+        "Lectus",
+        "Loft",
+        "Mortuus",
+        "Orchid",
+        "Paradox",
+        "Stilted",
+        "Tigris"
+      ]
+    },
+    {
+      "locations": [
+        "white",
+        "pink",
+        "gray",
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "aqua"
+      ],
+      "maps": [
+        "Arcade",
+        "Arid",
+        "Dragonlight",
+        "Pavilion",
+        "Vigilante",
+        "Yue"
+      ]
+    },
+    {
+      "locations": [
+        "pink",
+        "gray",
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "aqua",
+        "white"
+      ],
+      "maps": [
+        "Acropolis",
+        "Sanctum",
+        "Montipora"
+      ]
+    },
+    {
+      "locations": [
+        "green",
+        "yellow",
+        "aqua",
+        "white",
+        "pink",
+        "gray",
+        "red",
+        "blue"
+      ],
+      "maps": [
+        "Crypt",
+        "Ironclad"
+      ]
+    },
+    {
+      "locations": [
+        "blue",
+        "green",
+        "yellow",
+        "aqua",
+        "white",
+        "pink",
+        "gray",
+        "red"
+      ],
+      "maps": [
+        "Ambush",
+        "Bloom",
+        "Frosted",
+        "Hanging Gardens"
+      ]
+    },
+    {
+      "locations": [
+        "aqua",
+        "white",
+        "pink",
+        "gray",
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "maps": [
+        "Casita",
+        "Snowy Square",
+        "Sweet Wonderland",
+        "Duye"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "aqua",
+        "white",
+        "pink",
+        "gray"
+      ],
+      "maps": [
+        "Impere",
+        "Keep"
+      ]
+    },
+    {
+      "locations": [
+        "green",
+        "blue",
+        "red",
+        "gray",
+        "pink",
+        "white",
+        "aqua",
+        "yellow"
+      ],
+      "maps": [
+        "Urban Plaza"
+      ]
+    },
+    {
+      "locations": [
+        "pink",
+        "white",
+        "aqua",
+        "yellow",
+        "green",
+        "blue",
+        "red",
+        "gray"
+      ],
+      "maps": [
+        "Slumber"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "yellow",
+        "yellow",
+        "red"
+      ],
+      "maps": [
+        "Boletum",
+        "Graveship",
+        "Kubo",
+        "Zen Plaza"
+      ]
+    },
+    {
+      "locations": [
+        "yellow",
+        "yellow",
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "green"
+      ],
+      "maps": [
+        "Paladin",
+        "Terminal",
+        "Beeeee"
+      ]
+    },
+    {
+      "locations": [
+        "yellow",
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "yellow"
+      ],
+      "maps": [
+        "Boardwalk",
+        "Raze"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "yellow",
+        "yellow"
+      ],
+      "maps": [
+        "Shark Attack"
+      ]
+    },
+    {
+      "locations": [
+        "blue",
+        "blue",
+        "red",
+        "red",
+        "yellow",
+        "yellow",
+        "green",
+        "green"
+      ],
+      "maps": [
+        "Infinite"
+      ]
+    },
+    {
+      "locations": [
+        "green",
+        "green",
+        "yellow",
+        "yellow",
+        "red",
+        "red",
+        "blue",
+        "blue"
+      ],
+      "maps": [
+        "Lost Temple",
+        "Springtide",
+        "Usagi"
+      ]
+    },
+    {
+      "locations": [
+        "yellow",
+        "yellow",
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "green"
+      ],
+      "maps": [
+        "Nostalgia"
+      ]
+    },
+    {
+      "locations": [
+        "green",
+        "green",
+        "blue",
+        "blue",
+        "yellow",
+        "yellow",
+        "red",
+        "red"
+      ],
+      "maps": [
+        "Carapace"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "red",
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "maps": [
+        "Gardens",
+        "Lion\u0027s Temple",
+        "Ivory Castle"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "green",
+        "green",
+        "blue",
+        "blue",
+        "yellow",
+        "yellow",
+        "red"
+      ],
+      "maps": [
+        "Mosdalr"
+      ]
+    },
+    {
+      "locations": [
+        "blue",
+        "green",
+        "green",
+        "yellow",
+        "yellow",
+        "red",
+        "red",
+        "blue"
+      ],
+      "modes": [
+        "BEDWARS_FOUR_THREE",
+        "BEDWARS_FOUR_FOUR",
+        "BEDWARS_FOUR_FOUR_SWAP",
+        "BEDWARS_FOUR_FOUR_RUSH",
+        "BEDWARS_FOUR_FOUR_ULTIMATE",
+        "BEDWARS_FOUR_FOUR_ARMED",
+        "BEDWARS_FOUR_FOUR_LUCKY"
+      ]
+    },
+    {
+      "locations": [
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "red",
+        "red",
+        "red",
+        "red"
+      ],
+      "modes": [
+        "BEDWARS_TWO_FOUR",
+        "BEDWARS_CASTLE"
+      ]
+    }
+  ]
+}
