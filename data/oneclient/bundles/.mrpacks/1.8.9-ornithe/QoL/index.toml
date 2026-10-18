@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/osl.pw.toml"
-hash = "0452b265cec777fb880048ceec77178925cf4923f9ec8e7fbb642c2a02e2cedc"
+hash = "9c01549b68bf96e100f44d07022afe70f8a0e09ac67430d0695c188a0ac49ef9"
 metafile = true
 
 [[files]]
