@@ -1,0 +1,25 @@
+id = "soundfix"
+enabled = true
+hidden = false
+name = "SoundFix"
+filename = "soundfix-1.2.0+mc1.8.9.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "SoundFix"
+authors = ["moehreag"]
+description = "Backports the entire new Sound System"
+icon = "https://raw.githubusercontent.com/saadndm/soundfix/ornithe/1.8.9/src/main/resources/assets/soundfix/icon.png"
+
+[download]
+url = "https://github.com/saadndm/soundfix/releases/download/v1.2.0/soundfix-1.2.0%2Bmc1.8.9.jar"
+hash-format = "sha256"
+hash = "93b5bd340bc0dd150f375b9b6bdd2f35600a44d6593a1524cf0ed81d427d5054"
+
+[update]
+[update.github]
+branch = "ornithe/1.8.9"
+slug = "saadndm/soundfix"
+tag = "v1.2.0"
+regex = "^soundfix-.+\\+mc1\\.8\\.9\\.jar$"

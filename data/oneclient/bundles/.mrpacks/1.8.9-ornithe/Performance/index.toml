@@ -68,3 +68,8 @@ metafile = true
 file = "mods/sciophobia.pw.toml"
 hash = "a23310d23fc4dd6bc171c46d7d86431ed73104e96ddbcb0fdf82aed130764a1b"
 metafile = true
+
+[[files]]
+file = "mods/soundfix.pw.toml"
+hash = "79d55dce9bdb55738e514538ea666226b3f7c8456e539c2ddf35c6653d4c944d"
+metafile = true
