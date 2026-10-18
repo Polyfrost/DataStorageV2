@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-narrator-error.pw.toml"
-hash = "09da5ddcca8514a36df6ac661d985ba84be81ac292605191d3cb94d16ca35948"
+hash = "b5c22867044a5d220ff0bb1108eeeebcdefc5e30dde6425812ce9f00d45b34c0"
 metafile = true
 
 [[files]]

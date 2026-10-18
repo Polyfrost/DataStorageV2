@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/exploint.pw.toml"
-hash = "87f5336f0d8108f6e6699e13f38eb56bcfa6f62a8331ea308722c02de8bb1c24"
+hash = "4b081beeab5951a9995915b92cf705d22fb6cbc0c0675ef344a0490f8ecd68c8"
 metafile = true
 
 [[files]]
