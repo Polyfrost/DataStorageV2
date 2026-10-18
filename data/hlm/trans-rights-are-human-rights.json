@@ -2,6 +2,15 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Antenna",
+        "festival": "NONE",
+        "minBuild": 63,
+        "maxBuild": 89,
+        "buildRadius": 105
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
         "name": "Aquarium",
         "festival": "NONE",
         "minBuild": 65,
@@ -16,6 +25,25 @@
         "minBuild": 67,
         "maxBuild": 97,
         "buildRadius": 103
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Blizzard Bay",
+        "festival": "CHRISTMAS",
+        "minBuild": -1,
+        "maxBuild": 93,
+        "buildRadius": -1
+    },
+        {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Burrow",
+        "festival": "EASTER",
+        "reskinOf": "BEDWARS|bedwars_jurassic_4team",
+        "minBuild": 52,
+        "maxBuild": 101,
+        "buildRadius": 99
     },
     {
         "gameType": "BEDWARS",
@@ -38,6 +66,24 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Chalk Cliffs",
+        "festival": "NONE",
+        "minBuild": 70,
+        "maxBuild": 108,
+        "buildRadius": 94
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Crimson",
+        "festival": "NONE",
+        "minBuild": 63,
+        "maxBuild": 106,
+        "buildRadius": 120
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
         "name": "Deposit",
         "festival": "NONE",
         "minBuild": 56,
@@ -56,12 +102,20 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_4TEAMS_FAST",
-        "name": "Burrow",
+        "name": "Foxtrots",
         "festival": "EASTER",
-        "reskinOf": "BEDWARS|bedwars_jurassic_4team",
-        "minBuild": 52,
-        "maxBuild": 101,
-        "buildRadius": 99
+        "minBuild": 70,
+        "maxBuild": 95,
+        "buildRadius": 110
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Shipwreck",
+        "festival": "NONE",
+        "minBuild": 19,
+        "maxBuild": 59,
+        "buildRadius": -1
     },
     {
         "gameType": "BEDWARS",
@@ -124,6 +178,15 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Tengshe",
+        "festival": "LUNAR_NEW_YEAR",
+        "minBuild":65,
+        "maxBuild": 101,
+        "buildRadius": 114
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
         "name": "Harvesting",
         "festival": "NONE",
         "minBuild": 67,
@@ -160,6 +223,15 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Lasagne",
+        "festival": "NONE",
+        "minBuild": 62,
+        "maxBuild": 91,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
         "name": "Lectus",
         "festival": "NONE",
         "minBuild": 55,
@@ -188,6 +260,15 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Rigged",
+        "festival": "NONE",
+        "minBuild": 76,
+        "maxBuild": 95,
+        "buildRadius": 103
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
         "name": "Sky Festival",
         "festival": "NONE",
         "minBuild": 64,
@@ -197,11 +278,48 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Seraph",
+        "festival": "NONE",
+        "minBuild": -1,
+        "maxBuild": 95,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Shipment",
+        "festival": "NONE",
+        "minBuild": 68,
+        "maxBuild": 102,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Yandi",
+        "festival": "LUNAR_NEW_YEAR",
+        "minBuild": -1,
+        "maxBuild": 81,
+        "buildRadius": -1
+    },
+
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
         "name": "Mystery",
         "festival": "NONE",
         "minBuild": 62,
         "maxBuild": 93,
         "buildRadius": 110
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_4TEAMS_FAST",
+        "name": "Manor Royale",
+        "festival": "NONE",
+        "minBuild": 66,
+        "maxBuild": 94,
+        "buildRadius": -1
     },
     {
         "gameType": "BEDWARS",
@@ -637,7 +755,7 @@
         "name": "Temple",
         "festival": "NONE",
         "minBuild": -1,
-        "maxBuild": 0,
+        "maxBuild": 107,
         "buildRadius": -1
     },
     {
@@ -735,6 +853,33 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Atlas Prime",
+        "festival": "NONE",
+        "minBuild": 72,
+        "maxBuild": 96,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Babylon",
+        "festival": "NONE",
+        "minBuild": 55,
+        "maxBuild": 108,
+        "buildRadius": 137
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Bloom",
+        "festival": "EASTER",
+        "minBuild": -1,
+        "maxBuild": 100,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
         "name": "Casita",
         "festival": "NONE",
         "minBuild": 61,
@@ -762,11 +907,29 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Dragon Light",
+        "festival": "LUNAR_NEW_YEAR",
+        "minBuild": 55,
+        "maxBuild": 96,
+        "buildRadius": 124
+    },
+        {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
         "name": "Dragonstar",
         "festival": "NONE",
         "minBuild": 65,
         "maxBuild": 101,
         "buildRadius": 100
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Duye",
+        "festival": "LUNAR_NEW_YEAR",
+        "minBuild": 67,
+        "maxBuild": 95,
+        "buildRadius": 129
     },
     {
         "gameType": "BEDWARS",
@@ -789,11 +952,38 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Echo Ruins",
+        "festival": "NONE",
+        "minBuild": 68,
+        "maxBuild": 99,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Egg Factory",
+        "festival": "EASTER",
+        "minBuild": 64,
+        "maxBuild": 93,
+        "buildRadius": 112
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
         "name": "Egg Hunt",
         "festival": "EASTER",
         "minBuild": 52,
         "maxBuild": 101,
         "buildRadius": 111
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Highland Peaks",
+        "festival": "NONE",
+        "minBuild": 62,
+        "maxBuild": 89,
+        "buildRadius": 132
     },
     {
         "gameType": "BEDWARS",
@@ -807,11 +997,74 @@
     {
         "gameType": "BEDWARS",
         "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Meso",
+        "festival": "NONE",
+        "minBuild": 64,
+        "maxBuild": 96,
+        "buildRadius": 119
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Pantheon",
+        "festival": "NONE",
+        "minBuild": 61,
+        "maxBuild": 98,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Silver Birch",
+        "festival": "NONE",
+        "minBuild": 74,
+        "maxBuild": 115,
+        "buildRadius": 135
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Snails",
+        "festival": "NONE",
+        "minBuild": 65,
+        "maxBuild": 91,
+        "buildRadius": 106
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Station",
+        "festival": "NONE",
+        "minBuild": 64,
+        "maxBuild": 114,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
         "name": "Sunflower",
         "festival": "EASTER",
         "minBuild": 67,
         "maxBuild": 96,
         "buildRadius": 99
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Terraced",
+        "festival": "NONE",
+        "minBuild": -1,
+        "maxBuild": 90,
+        "buildRadius": -1
+    },
+    {
+        "gameType": "BEDWARS",
+        "pool": "BEDWARS_8TEAMS_FAST",
+        "name": "Tinselbury",
+        "festival": "CHRISTMAS",
+        "minBuild": -1,
+        "maxBuild": 101,
+        "buildRadius": -1
     },
     {
         "gameType": "BEDWARS",
