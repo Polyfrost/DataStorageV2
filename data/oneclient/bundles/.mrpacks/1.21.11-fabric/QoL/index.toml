@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/overlaytweaks.pw.toml"
-hash = "cc29c4f27e61cd6ad54c9b3e477a2f99bbd4653d23d69401e61c78e89e0052f4"
+hash = "bd7598fd18b09e72385307462a3ca0c5e315f3fb04879b7c8f23601c44aeffa2"
 metafile = true
 
 [[files]]
