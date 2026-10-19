@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "ba33340fe471dd1f1a5af14a7bcaf77e73f9a0792155fb624c926c1a6abbd5fe"
+hash = "64ff830f70e54ad3fa5a529c6e4df0ecf57b8bdf6619074455d78cbc4333c22f"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/skycubed.pw.toml"
-hash = "fc209895f1d583a5384e6b88e2545bccb0306913f07fd47a5cde6ae26d23997f"
+hash = "2de9003af59a98e93c67e70aa1c9c3bc010a6698b4cc6cc2932422baa4223805"
 metafile = true
 
 [[files]]

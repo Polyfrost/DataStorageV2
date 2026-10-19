@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "02791313d218ac3793fbd15c88dec14f008a6acc375ee85a2b23e1f6656449db"
+hash = "74f75dfb7ed1e0693da6d22d76751f0751210c4705a5fec537da08b7a1542974"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-overhaul.pw.toml"
-hash = "ffe556ad19eafdf9647c848e835a312090a3ce93d28f2248df007bbbd6b91779"
+hash = "41b24fdc2b4ab91d746f80fcaf653aa766db51c7632a12bfa76537696804317e"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/skycubed.pw.toml"
-hash = "316158fa7d954eaa1b8a45b10b4c60c68d87c1ce6008729c23c3da72fc5a633e"
+hash = "49c867c8e1ee5bbb4712f05a5518b7be42a79b28967cae8bf1f7394b07917000"
 metafile = true
 
 [[files]]
