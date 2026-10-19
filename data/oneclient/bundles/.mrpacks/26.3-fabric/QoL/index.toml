@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/shaketweaks.pw.toml"
-hash = "8e8d23b18fb979f2b0765b419c0750e4793d54e0322911786bfece5d5e383328"
+hash = "870a31d1bc45685ac6b85453620b1549017ae7abb798f4d4e3bde4c30851feba"
 metafile = true
 
 [[files]]
