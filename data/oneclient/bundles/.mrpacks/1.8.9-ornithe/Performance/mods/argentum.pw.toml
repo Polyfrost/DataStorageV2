@@ -2,16 +2,16 @@ id = "QRMV06RW"
 enabled = true
 hidden = false
 name = "Argentum"
-filename = "argentum-1.0.1.jar"
+filename = "argentum-1.0.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/QRMV06RW/versions/X6fQxSsK/argentum-1.0.1.jar"
+url = "https://cdn.modrinth.com/data/QRMV06RW/versions/RxzOYPTx/argentum-1.0.2.jar"
 hash-format = "sha512"
-hash = "22fa7b7ba6f0dabda864ef720107096043188e62af43f1f9b18af90c648b5add9c29761217c3acc03a2deb2d5dbb76683598b8266bc8891792694947ac8268f5"
+hash = "dd6b514b5777acf503976792c06ff56f974ad4a7b95545ad011fb8c7d6af828332a505ea5727648ea6a4eac5b718a5297b398e48c83613647c4c72b827c0000d"
 
 [update]
 [update.modrinth]
 mod-id = "QRMV06RW"
-version = "X6fQxSsK"
+version = "RxzOYPTx"

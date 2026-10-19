@@ -2,16 +2,16 @@ id = "z4ctq7MO"
 enabled = true
 hidden = false
 name = "Cera"
-filename = "cera-1.0.1.jar"
+filename = "cera-1.0.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/z4ctq7MO/versions/yAj5VKe1/cera-1.0.1.jar"
+url = "https://cdn.modrinth.com/data/z4ctq7MO/versions/aqSuvjyl/cera-1.0.2.jar"
 hash-format = "sha512"
-hash = "662ea45adecc56b2f3b14c61536800d7b8904a5056fcad563d0a0f4cb9872b7e3c3f1b0acdccc9686b2ab3e221256d0d58d9c1dd227c890b278e47df6f595e80"
+hash = "727936ab8a962821e83ce181e20946dac7d217f130033fecd78316f84537ebc1edb47b10f73a5cd32981d7fac3c3c82020ba90bab2d5de66b4abaac1dc93c0ae"
 
 [update]
 [update.modrinth]
 mod-id = "z4ctq7MO"
-version = "yAj5VKe1"
+version = "aqSuvjyl"

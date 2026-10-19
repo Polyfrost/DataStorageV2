@@ -2,16 +2,16 @@ id = "Tc8Lbsu7"
 enabled = true
 hidden = false
 name = "Argentum Extras"
-filename = "argentum-extras-1.0.1.jar"
+filename = "argentum-extras-1.0.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/Tc8Lbsu7/versions/6wzTdaZh/argentum-extras-1.0.1.jar"
+url = "https://cdn.modrinth.com/data/Tc8Lbsu7/versions/WXFecncJ/argentum-extras-1.0.2.jar"
 hash-format = "sha512"
-hash = "38597e2d0e0a3bb9b26b55b96ad15f5038f21ddecde9f608dd3e3cc08623b14fbea5c0614b09fe34d2696d46ea8d4fd437e46a1a315cf1834a7d075b9a3ba60f"
+hash = "f129c3acc4292936ab81b0e8578a72305df9db6539f7441a54b4625de8f175af86c7741d09820e8fa1e07bd028ac6ee244627005c73f3599880749f1aa087773"
 
 [update]
 [update.modrinth]
 mod-id = "Tc8Lbsu7"
-version = "6wzTdaZh"
+version = "WXFecncJ"
