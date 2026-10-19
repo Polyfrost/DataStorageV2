@@ -2,7 +2,7 @@ id = "sarcio"
 enabled = true
 hidden = false
 name = "Sarcio"
-filename = "Sarcio-1.1.0.jar"
+filename = "Sarcio-1.1.1.jar"
 side = "client"
 type = "normal"
 
@@ -12,12 +12,12 @@ authors = ["rdh", "Microcontrollers"]
 description = "Targeted memory optimizations and bugfixes for Minecraft 1.8.9"
 
 [download]
-url = "https://github.com/QuicksilverMC/Sarcio/releases/download/v1.1.0/Sarcio-1.1.0.jar"
+url = "https://github.com/QuicksilverMC/Sarcio/releases/download/v1.1.1/Sarcio-1.1.1.jar"
 hash-format = "sha256"
-hash = "bbccff506dcbe04b1b081b46cc5d98f93fcf1af316bd5fda333a499bc5bc378f"
+hash = "c6a94c0ed23a40e9471efe3391282370d005d45efff05b8e708c5ecfc3b77a7c"
 
 [update]
 [update.github]
 branch = "main"
 slug = "QuicksilverMC/Sarcio"
-tag = "v1.1.0"
+tag = "v1.1.1"
