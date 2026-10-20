@@ -2,16 +2,16 @@ id = "plzVz20Z"
 enabled = true
 hidden = false
 name = "Shake Tweaks"
-filename = "shaketweaks-1.3.0+26.2-fabric.jar"
+filename = "shaketweaks-1.3.1+26.2-fabric.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/plzVz20Z/versions/SYyipr8e/shaketweaks-1.3.0%2B26.2-fabric.jar"
+url = "https://cdn.modrinth.com/data/plzVz20Z/versions/xCK8ftIi/shaketweaks-1.3.1%2B26.2-fabric.jar"
 hash-format = "sha512"
-hash = "f424c38d5159c9b24e89f2111a4d4458ee1c46b48a3f05212519de121262942def67891018bf74e020fed7309c397033a3f399b68da71ca0b4551726d75b07ef"
+hash = "1948969b922d0d5dbc52948f0226c49f16b68f7863a66ce2457be886835c4c9fe884d77e37f1ba02e0c8715b981c450c400ea4a7b8e0b283e8473a306274973a"
 
 [update]
 [update.modrinth]
 mod-id = "plzVz20Z"
-version = "SYyipr8e"
+version = "xCK8ftIi"
