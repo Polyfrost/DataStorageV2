@@ -15,6 +15,11 @@
             "+breaks": {
                 "nbt_ac": "*"
             }
+        },
+        "packed_packs": {
+            "+breaks": {
+                "async-pack-scan": "<26.2.1"
+            }
         }
     }
 }
