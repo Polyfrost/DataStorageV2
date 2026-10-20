@@ -2,17 +2,16 @@ id = "wql2D9Gj"
 enabled = true
 hidden = false
 name = "Overlay Tweaks"
-filename = "overlaytweaks-1.12.13+1.21.11-fabric.jar"
+filename = "overlaytweaks-2.0.4-hotfix.1+1.21.11-fabric.jar"
 side = "client"
 type = "normal"
-pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/wql2D9Gj/versions/d8cyMHwH/overlaytweaks-1.12.13%2B1.21.11-fabric.jar"
+url = "https://cdn.modrinth.com/data/wql2D9Gj/versions/3byB04mf/overlaytweaks-2.0.4-hotfix.1%2B1.21.11-fabric.jar"
 hash-format = "sha512"
-hash = "f77366bd4f04a1193e05d742bb15001e77553f5f71513cc0258fa29c8f217080c112da687d43cb17aa3a77d5aab3df0073623e2cd505307b83082bcf00e0b24b"
+hash = "aa705ae4199c35b61bd653c3ed181c9fbb9635d8bc8539d15fc918437263fc9a6df9e37ffe071b8b5ce6642e5479c04f6d2ac9143846cec0c28b30ee7c0e38a0"
 
 [update]
 [update.modrinth]
 mod-id = "wql2D9Gj"
-version = "d8cyMHwH"
+version = "3byB04mf"
