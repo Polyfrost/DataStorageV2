@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-block-highlight.pw.toml"
-hash = "d109e50dff3ca3adf2a86c1c4d3c27a87290bd69a69ff77747d009a475c58e5c"
+hash = "c2284312e46934061ae1f9b519a718849ceb64853eeb8d8c256dd30efbbcf38b"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/walksylib.pw.toml"
-hash = "8aa6092da11880ff9a23d0e3623145bcbe851307f928a06d791ef004af263ea7"
+hash = "743d5fbe3aaad721c10b26dc75847494dd9a70f8c48d2eeeb1cf04a13a4d2d56"
 metafile = true
 
 [[files]]

@@ -2,16 +2,16 @@ id = "7P86n6Vg"
 enabled = true
 hidden = false
 name = "WalksyLib"
-filename = "WalksyLib-2.0.3+1.21.11.jar"
+filename = "WalksyLib-2.0.4+1.21.11.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/7P86n6Vg/versions/Iyje3T3q/WalksyLib-2.0.3%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/7P86n6Vg/versions/ugkB42uR/WalksyLib-2.0.4%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "32ecab85b82db2d22fd7fa5db9840c093e60504fd806c6a9a08702aed28566f7cd32d2619119cb4a1bc7117d97438ebc8ecae8c07576eaffed3e7d0c5c547a22"
+hash = "21e39df5b7042de1131c2b087451d48666bf2c4618741db44a9643a5bf1e8464977a1c9e80bb6a0ebf4ee304042684e0df87eecb94ca912a2a53cd0d85b22d98"
 
 [update]
 [update.modrinth]
 mod-id = "7P86n6Vg"
-version = "Iyje3T3q"
+version = "ugkB42uR"
