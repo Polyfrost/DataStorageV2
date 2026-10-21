@@ -6,7 +6,7 @@ hash = "0f805f773dfb827617e75421d22f77453e3560682635f53ba33eb99093eae53c"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "0a07be95f9800efa35e075d6cb40264fe9ec0ccbd745a2161ad6f7d8d295e787"
+hash = "24e1d2da90fe7b6b48a2fa106198d582b3567850ea0290c3e1b438d8e1e08ef2"
 metafile = true
 
 [[files]]
@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterhurtcam.pw.toml"
-hash = "72e3938e1977504fc1cf8c41c980ac818c696fd7fe8aa89d44832f2a307d412b"
+hash = "487547de36da94352e7b3786af8cc05db775f1f689301378b2314bacef4834a9"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "1fd4eed07f5b242f2c2a708472b127bc3247563634c34b2dbaf673b65e97d7ea"
+hash = "85ec0669b7ef234137e125fec016274f3b147cc85899fc21928b0ddd2dd5ce91"
 metafile = true
 
 [[files]]
