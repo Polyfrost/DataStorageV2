@@ -21,7 +21,6 @@ BETA_MODS=(
   catharsis
   gnetum
   nuit
-  rrls
   simple-voice-chat
   skyblock-item-list
   skyhanni

@@ -201,6 +201,15 @@
             "name": "Raw Input",
             "author": "zkqri0",
             "explanation": "/oneclient/bad_mods_mds/raw-input.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "ZP7xHXtw",
+                "curseforge": "833233"
+            },
+            "name": "Remove Reloading Screen (RRLS)",
+            "author": "dima_dencep",
+            "explanation": "/oneclient/bad_mods_mds/rrls.md"
         }
     ]
 }
