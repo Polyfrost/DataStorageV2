@@ -2,22 +2,22 @@ id = "8sg2XRWF"
 enabled = true
 hidden = false
 name = "Dropped Item Tweaks"
-filename = "droppeditemtweaks-2.0.1+1.8.9-fabric.jar"
+filename = "droppeditemtweaks-2.0.1-hotfix.1+1.8.9-fabric.jar"
 side = "client"
 type = "normal"
 
 [overrides]
-name = "Dropped Item Tweaks"
-description = "Small changes to the way dropped items render (includes UHC Overlay)"
-authors = ["Microcontrollers"]
 icon = "https://cdn.modrinth.com/data/8sg2XRWF/d10f121360c2c77387b8a1f1f50db86d23ddeba6_96.webp"
+name = "Dropped Item Tweaks"
+authors = ["Microcontrollers"]
+description = "Small changes to the way dropped items render (includes UHC Overlay)"
 
 [download]
-url = "https://cdn.modrinth.com/data/8sg2XRWF/versions/8GoRmVgm/droppeditemtweaks-2.0.1%2B1.8.9-fabric.jar"
+url = "https://cdn.modrinth.com/data/8sg2XRWF/versions/T5e0O3e5/droppeditemtweaks-2.0.1-hotfix.1%2B1.8.9-fabric.jar"
 hash-format = "sha512"
-hash = "051ea09b05abb00c4428c8973f7822345e13f3b13703ad360ff9ed0bb97092580ca9d8c35663434f7feb3815a1fbc600969b303ce1edc59b19770309f136a9d1"
+hash = "0b58a085f7e859e9bda20f6cbf2f80673679434f99e93be5e919916b21e4c6503f73bf3e7a05ef59c0d5e4902a3a6d8de2a60644103cc5e2e83a9412f919e303"
 
 [update]
 [update.modrinth]
 mod-id = "8sg2XRWF"
-version = "8GoRmVgm"
+version = "T5e0O3e5"
