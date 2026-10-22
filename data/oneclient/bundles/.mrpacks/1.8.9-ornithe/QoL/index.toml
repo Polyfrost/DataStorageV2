@@ -206,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/pylon.pw.toml"
-hash = "21dab8341e23a3932069d51d5937fc20342e6f746da3b85167e8f6101f7b0789"
+hash = "1e7693f663f571142e08f0dd97c22c243528188c4e7003ed1de62907cac52c78"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltip-scroll.pw.toml"
-hash = "7cccee9873981903d934a9767adb9f78e2712ee5e91298a47123c55777c590b0"
+hash = "8628a841c71c71353886d6dc87e68f22de522a8492c48aeadc8b5dc845d889be"
 metafile = true
 
 [[files]]

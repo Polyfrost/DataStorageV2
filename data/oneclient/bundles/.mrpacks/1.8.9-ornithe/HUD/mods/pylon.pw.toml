@@ -2,16 +2,16 @@ id = "wx17t6U9"
 enabled = true
 hidden = true
 name = "Pylon"
-filename = "pylon-0.2.4.jar"
+filename = "pylon-0.2.5.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/wx17t6U9/versions/w5J29n1F/pylon-0.2.4.jar"
+url = "https://cdn.modrinth.com/data/wx17t6U9/versions/RAeswk8z/pylon-0.2.5.jar"
 hash-format = "sha512"
-hash = "afa2a0fc77f4c677dd566a4c3176c1b76fe5feeea98945bc3b9ea41e07d985772f1916c25066e1c416e5dafab2494d327d65f4126bd8decfa3f4d2f80ca0216f"
+hash = "dc388a3253ff062bf2ed16a836c826f7ce2b72bcb7e84bb9ddb251c8fef7050391422e4badfcc24b2d04ab9837f26ac1f3c4f94f86ba5a09135a9bf823bf71e3"
 
 [update]
 [update.modrinth]
 mod-id = "wx17t6U9"
-version = "w5J29n1F"
+version = "RAeswk8z"

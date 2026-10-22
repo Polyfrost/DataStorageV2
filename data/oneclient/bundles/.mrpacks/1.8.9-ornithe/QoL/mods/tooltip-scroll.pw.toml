@@ -2,16 +2,16 @@ id = "krmfSula"
 enabled = true
 hidden = false
 name = "Legacy Tooltip Scroll"
-filename = "Tooltip-Scroll-Ornithe-1.0.0.jar"
+filename = "Tooltip-Scroll-Ornithe-1.1.0.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/krmfSula/versions/pyswoLxP/Tooltip-Scroll-Ornithe-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/krmfSula/versions/hBrad5vH/Tooltip-Scroll-Ornithe-1.1.0.jar"
 hash-format = "sha512"
-hash = "3d5f8c7b522c8b2ad1844a44ccdc006b9fea9a1cd7e3bba7c060f87730ab2fd27014f7b3b560e95372f927fe1d55b0edebf45c837146d591d592de1c4624f143"
+hash = "3cf0d35af8ebe71fd38d8653c67e914d3aacefd728862138eb6a72b3735cc7c643f9bb8881c9f93d0549aa37579146368c063f93f2ece177c54ce1156cf058dd"
 
 [update]
 [update.modrinth]
 mod-id = "krmfSula"
-version = "pyswoLxP"
+version = "hBrad5vH"

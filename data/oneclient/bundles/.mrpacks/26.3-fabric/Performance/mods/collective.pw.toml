@@ -2,16 +2,16 @@ id = "e0M1UDsY"
 enabled = true
 hidden = true
 name = "Collective"
-filename = "collective-26.3.0-8.63.jar"
+filename = "collective-26.3.0-8.64.jar"
 side = "both"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/XnK8yLcd/collective-26.3.0-8.63.jar"
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/SLDUG1Rg/collective-26.3.0-8.64.jar"
 hash-format = "sha512"
-hash = "f78ca0e27c30a43dcd2a3e0c9054c89a15731f93c59e40a344da38b41079360696c722e2c4e38d621c98c9afcd8554b42d45325c1fda3bfb07ece3b37267f597"
+hash = "e88ffa8c634ba35c61e34923e26c9906ba15a8f5544777a1c37e450f7bd990e70987b6fa0eb0fcb6415ddda2adc1933a6f023a9762f578fbb5332deb4fd0a64c"
 
 [update]
 [update.modrinth]
 mod-id = "e0M1UDsY"
-version = "XnK8yLcd"
+version = "SLDUG1Rg"

@@ -2,22 +2,22 @@ id = "fullbright"
 enabled = true
 hidden = false
 name = "FullBright"
-filename = "fullbright-1.1.0+1.8.9.jar"
+filename = "fullbright-1.1.1+1.8.9.jar"
 side = "client"
 type = "normal"
 
 [overrides]
 name = "FullBright"
-description = "Brightens the world without touching the gamma slider, with configurable light levels."
 authors = ["Polyfrost"]
+description = "Brightens the world without touching the gamma slider, with configurable light levels."
 
 [download]
-url = "https://github.com/Polyfrost/FullBright/releases/download/v1.1.0/fullbright-1.1.0%2B1.8.9.jar"
+url = "https://github.com/Polyfrost/PolyFullBright/releases/download/v1.1.1/fullbright-1.1.1%2B1.8.9.jar"
 hash-format = "sha256"
-hash = "2cd325e5bc45622b0afc2f9c373e4393edb137c50e88438d246bc40f0caf4f55"
+hash = "8730ce9cae68b5928b81320d82ced4876b75e9df5543cb7896f3a9ccd628e04f"
 
 [update]
 [update.github]
 branch = "master"
 slug = "Polyfrost/FullBright"
-tag = "v1.1.0"
+tag = "v1.1.1"
