@@ -121,6 +121,9 @@ async function main() {
       'ModDownloadLoaders=[\\"ornithe\\", \\"legacy-fabric\\", \\"babric\\"]',
       "OverrideEnv=true",
       'Env={\\"__GL_THREADED_OPTIMIZATIONS\\":\\"0\\"}',
+      // MultiMC ignores the +jvmArgs patch
+      "OverrideJavaArgs=true",
+      "JvmArgs=-Dfabric.fixPackageAccess=true",
       "",
     ].join("\n"),
   );
