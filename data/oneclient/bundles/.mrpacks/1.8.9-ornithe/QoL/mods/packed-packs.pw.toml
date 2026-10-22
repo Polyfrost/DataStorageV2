@@ -1,0 +1,25 @@
+id = "packed_packs"
+enabled = true
+hidden = false
+name = "Packed Packs"
+filename = "packed_packs-2.3.2+1.8.9.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Packed Packs"
+description = "Pack packs into profiles with multiple selection, drag and drop, and extended mouse and keyboard controls."
+authors = ["fishstiz"]
+icon = "https://raw.githubusercontent.com/awruff/packed_packs/mc/1.8.9/mod/common/src/main/resources/icon.png"
+
+[download]
+url = "https://github.com/awruff/packed_packs/releases/download/2.3.2%2B1.8.9/packed_packs-2.3.2%2B1.8.9.jar"
+hash-format = "sha256"
+hash = "442a925021a339cafbc69b06770f1b6cbba3f96184a590b6895462bfe98bab23"
+
+[update]
+[update.github]
+slug = "awruff/packed_packs"
+tag = "2.3.2+1.8.9"
+branch = "mc/1.8.9"
+regex = "^packed_packs-.+\\+1\\.8\\.9\\.jar$"

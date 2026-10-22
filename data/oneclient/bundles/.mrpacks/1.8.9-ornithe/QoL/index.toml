@@ -170,6 +170,11 @@ hash = "db23645c3a12427c4bd7671e7a0eaf10a3e02417a89b302cbd9b5954414fa563"
 metafile = true
 
 [[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "69b5df2b5119ba234aaabf6980336060ad7da4b9b0202050e0a49562468e7ae4"
+metafile = true
+
+[[files]]
 file = "mods/polyblur.pw.toml"
 hash = "6b9eb5ac31005f58a9d3929a7b0dc02453a2c393331e7022fac0abe457683025"
 metafile = true
