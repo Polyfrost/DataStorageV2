@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorsaturation.pw.toml"
-hash = "9366733869116cca47a1303b8d8e1e6a66ed888ffff1e751b9789c661af659fd"
+hash = "44a0f9dacbd1696cebac789100ef608968bdd0ef0ef812dba8e89a08845bfa01"
 metafile = true
 
 [[files]]
