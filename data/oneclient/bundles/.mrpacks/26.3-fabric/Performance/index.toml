@@ -141,6 +141,11 @@ hash = "0fa500232a0cef0837e9d9e17fe39ecce1c218c8efb7647b8ae50d8a06a7bd22"
 metafile = true
 
 [[files]]
+file = "mods/polyplus.pw.toml"
+hash = "c54ace9a6cd9ec6497a4ecbec58854112aa943e44a4ed2765ff2869136305cd8"
+metafile = true
+
+[[files]]
 file = "mods/quick-pack.pw.toml"
 hash = "97a728868d9f014a1d1f03d1e3954ce0a7bf722475a92b3b732c0de91d67634a"
 metafile = true

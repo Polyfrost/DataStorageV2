@@ -61,6 +61,11 @@ hash = "74f75dfb7ed1e0693da6d22d76751f0751210c4705a5fec537da08b7a1542974"
 metafile = true
 
 [[files]]
+file = "mods/polyplus.pw.toml"
+hash = "b21f9f93932389d04e4e1cbeacffa28d5379eb3d7953733372341596d15dbbad"
+metafile = true
+
+[[files]]
 file = "mods/ukulib.pw.toml"
 hash = "1ba52095c1fb9073b066333024a342e5d088b4de62ec61b0b4bff9cea4c62625"
 metafile = true

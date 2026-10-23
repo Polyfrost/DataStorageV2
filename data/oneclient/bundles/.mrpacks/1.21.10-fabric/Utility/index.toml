@@ -116,6 +116,11 @@ hash = "0307cdd05ca4a316228325c20e6fb157d7e31a637d59e28f90249fe19da34be7"
 metafile = true
 
 [[files]]
+file = "mods/polyplus.pw.toml"
+hash = "5498b246a834f34f51d81914014420c20abb029af7edac3f22553b83f74f37b7"
+metafile = true
+
+[[files]]
 file = "mods/polysprint.pw.toml"
 hash = "0c7eaeddbe3a004630491f0109e0da4cb58aeb678b7529f17a6ab0a7f1b3541c"
 metafile = true

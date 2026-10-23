@@ -46,6 +46,11 @@ hash = "64ff830f70e54ad3fa5a529c6e4df0ecf57b8bdf6619074455d78cbc4333c22f"
 metafile = true
 
 [[files]]
+file = "mods/polyplus.pw.toml"
+hash = "1ed11ef7c41bb9356dc47f206b12539fa70801f17a00b7b749d10fc7c4ae372f"
+metafile = true
+
+[[files]]
 file = "mods/skyblock-custom-scoreboard.pw.toml"
 hash = "8fd790ce3a41b83955b1774b9b55bde3ad29c74ebf061c1a5ee640f7fbc218bd"
 metafile = true
