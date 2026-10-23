@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "3e613cb598f2abc30b30e27019a61fb364f1864ed65502e8393f7d3d8a8670d8"
+hash = "e38a85b3ac7c516ae393c8c3201bae496f17523d2d31548d6e21594a0e889ed4"
 metafile = true
 
 [[files]]
