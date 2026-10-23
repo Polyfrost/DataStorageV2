@@ -2,16 +2,16 @@ id = "Eps2maQC"
 enabled = true
 hidden = false
 name = "Custom Block Highlight (Outline / Overlay)"
-filename = "blockhighlight-2.93+1.8.9.jar"
+filename = "blockhighlight-2.93.1+1.8.9.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/Eps2maQC/versions/uYUotyDS/blockhighlight-2.93%2B1.8.9.jar"
+url = "https://cdn.modrinth.com/data/Eps2maQC/versions/NrJfExvs/blockhighlight-2.93.1%2B1.8.9.jar"
 hash-format = "sha512"
-hash = "00d983ea2d840a0550705c40495b21dc6720db4996142638b40b511b2c0bc90591d7fd48c9402b521a050cbf731e81c89722b4af00ad9bff95149d4f642d5171"
+hash = "868788bdc7d6ec979b2d77860329b16407a305eed5edd3e86121b63a39fbb9ecf24392dd4a6240cb70b11dd70dd55b29f41d453555ec450dd0c8f565a4b7852b"
 
 [update]
 [update.modrinth]
 mod-id = "Eps2maQC"
-version = "uYUotyDS"
+version = "NrJfExvs"
