@@ -5,6 +5,11 @@
             "+breaks": {
                 "vulkanmod": "*"
             }
+        },
+        "zfastnoise": {
+            "+breaks": {
+                "noisium": "*"
+            }
         }
     }
 }
