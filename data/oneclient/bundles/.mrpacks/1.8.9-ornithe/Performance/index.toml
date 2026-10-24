@@ -78,3 +78,8 @@ metafile = true
 file = "mods/soundfix.pw.toml"
 hash = "79d55dce9bdb55738e514538ea666226b3f7c8456e539c2ddf35c6653d4c944d"
 metafile = true
+
+[[files]]
+file = "mods/windows-priority-boost.pw.toml"
+hash = "228322d53b6db044dd2ff1bb6604c7c525f942ddad6eebf520bc223a6adc0c73"
+metafile = true
