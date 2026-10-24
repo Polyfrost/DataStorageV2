@@ -11,10 +11,10 @@ update-url = "oneclient/generated/utility-26.3-fabric.mrpack"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1e33b1b57436f9e71dd773caf3680facd8c1d12d234023430deddfeed4811d76"
+hash = "af3ae8b44a5d2fde72c863dc4bb150112d8a8d974490733e64d4711f38ff8562"
 
 [versions]
-fabric = "0.19.5"
+fabric = "0.20.1"
 minecraft = "26.3"
 
 [options]

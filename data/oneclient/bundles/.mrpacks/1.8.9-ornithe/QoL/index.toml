@@ -26,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatblock.pw.toml"
-hash = "e7bdd8e7862eca9275c98d0d266c8e59e47a6cc484de9d222133ca82c5f1583e"
+hash = "1feabc947d09c8874e2a8d43da5324c29a0cdb6c7668fd38772c82c3641d0099"
 metafile = true
 
 [[files]]
@@ -96,22 +96,22 @@ metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "6f217089c92742c68f322967dea1a9954b0cd2846309ea430ef380b6249a3fd9"
+hash = "37566d57f1f0c20838d8516d5e8680be6ff46ddec626712e126ed72334ac316f"
 metafile = true
 
 [[files]]
 file = "mods/hybridge.pw.toml"
-hash = "03caa77ec4732c1cd7a0c91670e6841bebc1c868d1369110db17632d9183e4b1"
+hash = "d83582e1e37b7eb55eef2b7d860a4b5b930066538cb656f96a0834852cf0e33a"
 metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "85ec0669b7ef234137e125fec016274f3b147cc85899fc21928b0ddd2dd5ce91"
+hash = "380fb73c9b3ceec8be8c3fbd6d14d4238187d284f57bb625f2c35730fafc9d8f"
 metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "d7c1e25094053a3283cf99a34010e6f8901a0492f9956c76f2b8596cfb3700e4"
+hash = "71ecaa6a43e0dad541bb8f43a1ff22de66dcb225054a7992bf083dd1f41b6830"
 metafile = true
 
 [[files]]
@@ -221,7 +221,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
-hash = "7445a8241850588b6c29f6eca1ffd5b0fe58b59591d7f3466c49f54dec518168"
+hash = "53792532a5d2731c43354e64c25aeaf3fde62676675d7bb4394246ff545b3807"
 metafile = true
 
 [[files]]
