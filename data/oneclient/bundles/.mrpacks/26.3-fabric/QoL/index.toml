@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatblock.pw.toml"
-hash = "bab13709525d8676766efc1b15438494a27d38fd664697cd474d3b0756e38492"
+hash = "b7c16b8a62299e6df447ec4e94bda5526fd6a58d5644828b9fb12ea25e77d843"
 metafile = true
 
 [[files]]
@@ -201,7 +201,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "83721700a9d14a53e810ae5f274628532e60497e1aead6ebdb0d52fb498412cd"
+hash = "750e0990717a4021d263b8ccb3830488c387ec27b0cf602e3bac8b5b7de020a4"
 metafile = true
 
 [[files]]
@@ -266,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshotmessageenhancer.pw.toml"
-hash = "d7a4029530f3ee04fe1024e35ee2c2911ce63ceff4dfa0052a0477d91186152a"
+hash = "daea47ceaee2945699c9d86c07294df547506cd90d527d2244f756412a032891"
 metafile = true
 
 [[files]]
