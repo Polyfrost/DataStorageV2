@@ -3,7 +3,7 @@
 /**
  * Fabric mod compatibility checker for the OneClient bundles.
  *
- * For every bundle (data/oneclient/bundles/.mrpacks/<mcver>-fabric/<Category>/) this:
+ * For every bundle (data/oneclient/bundles/.mrpacks/<mcver>-<fabric|ornithe>/<Category>/) this:
  *   1. downloads each mod jar referenced by its .pw.toml and reads the real
  *      fabric.mod.json inside (plus nested jar-in-jar modules),
  *   2. applies the pack's config/fabric_loader_dependencies.json overrides,
@@ -51,12 +51,12 @@ function javaForMc(mcVersion) {
 }
 
 /** Built-in providers supplied by the game/loader for a given pack. */
-function builtinProviders(mcVersion, fabricVersion) {
+function builtinProviders({ mcVersion, fabricVersion, javaVersion }) {
   return [
     { id: "minecraft", version: mcVersion },
     { id: "fabricloader", version: fabricVersion },
     { id: "fabric-loader", version: fabricVersion },
-    { id: "java", version: javaForMc(mcVersion) },
+    { id: "java", version: javaVersion },
   ];
 }
 // Loader-bundled ids we accept at any version (avoids false negatives on internals).
@@ -94,7 +94,7 @@ function discoverBundles() {
     const dash = versionDir.lastIndexOf("-");
     const mcVersion = versionDir.slice(0, dash);
     const loader = versionDir.slice(dash + 1);
-    if (loader !== "fabric") continue;
+    if (loader !== "fabric" && loader !== "ornithe") continue;
 
     for (const category of listDirs(path.join(MRPACKS_DIR, versionDir))) {
       const bundleDir = path.join(MRPACKS_DIR, versionDir, category);
@@ -117,6 +117,7 @@ function discoverBundles() {
         versionDir,
         mcVersion: mcFromPack,
         fabricVersion,
+        javaVersion: String(pack["java-version-override"] ?? javaForMc(mcFromPack)),
         category,
         bundleDir,
         mods,
@@ -299,7 +300,7 @@ async function main() {
   }
 
   for (const [mcVersion, group] of byVersion) {
-    const unionProviders = builtinProviders(mcVersion, group[0].fabricVersion);
+    const unionProviders = builtinProviders(group[0]);
     const unionMods = new Map(); // id -> {version, category, file}
     const involvedInUnion = indexFiles(group);
 
@@ -307,7 +308,7 @@ async function main() {
       // Resolve each mod in this category, then build the category provider set.
       const involved = indexFiles([b]);
       const primaries = [];
-      const catProviders = builtinProviders(b.mcVersion, b.fabricVersion);
+      const catProviders = builtinProviders(b);
 
       for (const m of b.mods) {
         const res = loaded.get(cacheKeyFor(m));
