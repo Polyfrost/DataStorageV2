@@ -225,6 +225,11 @@ hash = "d423007b99e40e7fa7d7bed9e37f255b107a8351842de83bb137cdd68f8f5939"
 metafile = true
 
 [[files]]
+file = "mods/windows-priority-boost.pw.toml"
+hash = "228322d53b6db044dd2ff1bb6604c7c525f942ddad6eebf520bc223a6adc0c73"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "3eeaec5bf32e5ed0dd99035785a1e1c45c523a44f8d6a81c1ec46ca427333be5"
 metafile = true
