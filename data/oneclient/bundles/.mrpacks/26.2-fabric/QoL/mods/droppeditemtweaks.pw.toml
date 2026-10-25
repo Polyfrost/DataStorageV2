@@ -2,16 +2,16 @@ id = "8sg2XRWF"
 enabled = true
 hidden = false
 name = "Dropped Item Tweaks"
-filename = "droppeditemtweaks-2.0.1+26.3-fabric.jar"
+filename = "droppeditemtweaks-2.0.3+26.3-fabric.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/8sg2XRWF/versions/RFQnu1Qa/droppeditemtweaks-2.0.1%2B26.3-fabric.jar"
+url = "https://cdn.modrinth.com/data/8sg2XRWF/versions/Mu3aU4th/droppeditemtweaks-2.0.3%2B26.3-fabric.jar"
 hash-format = "sha512"
-hash = "262156bd0372a806b59857fc26a59dfca34dec401a206c8b7197f212dfd65246366ff2dc7da8d62573f29b3271e481a1fb58853aa3ed821b2441a7d03c2d45c0"
+hash = "9165d492c9b372086e529190e4fbb3ed6c03efd7279ff974097fe8da7fcc73a384663cddac5e2820814fb77b912cbf648ae635831f5cbc8cf7b8065a4918b518"
 
 [update]
 [update.modrinth]
 mod-id = "8sg2XRWF"
-version = "RFQnu1Qa"
+version = "Mu3aU4th"
