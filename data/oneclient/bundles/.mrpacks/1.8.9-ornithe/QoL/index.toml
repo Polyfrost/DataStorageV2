@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/crosshair.pw.toml"
-hash = "c44626492aed5749c63639a0a865a2e05a3ad48b881522d1c9ec4f40203820b8"
+hash = "532166a1f34ff9b694afdb9512271aa4259c7344820e5fc6b7161cd0a1e2601c"
 metafile = true
 
 [[files]]
@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "37566d57f1f0c20838d8516d5e8680be6ff46ddec626712e126ed72334ac316f"
+hash = "6159308e1de7d50d6bf7ce64c7b07373fea75ac1e4a596c0c638107512397301"
 metafile = true
 
 [[files]]
