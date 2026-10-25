@@ -8,6 +8,7 @@ const { execFileSync } = require("node:child_process");
 const toml = require("@iarna/toml");
 const { zipSync } = require("fflate");
 const { loadMod, cacheKeyFor, CACHE_DIR } = require("./lib/modmeta.js");
+const { mergeJsonFiles } = require("./lib/merge-json.js");
 
 const BUNDLES_DIR = path.join(__dirname, "..", "data", "oneclient", "bundles");
 const MRPACKS_DIR = path.join(BUNDLES_DIR, ".mrpacks");
@@ -20,6 +21,7 @@ const PACK_NAME = "OneClient";
 const PACK_AUTHOR = "Polyfrost";
 const LOADER = "fabric";
 const SKYBLOCK_CATEGORY = "skyblock";
+const LOADER_DEPS = "config/fabric_loader_dependencies.json";
 const IGNORED_VERSIONS = new Set(["1.8.9-ornithe"]);
 const BUILTIN_IDS = new Set([
   "minecraft",
@@ -59,6 +61,7 @@ function collect(versionDir) {
   const seen = new Set();
   const metas = [];
   const overrides = [];
+  const loaderDepsFiles = [];
   for (const category of categories) {
     const dir = path.join(root, category);
     if (!versions) {
@@ -68,8 +71,12 @@ function collect(versionDir) {
     }
     for (const rel of walk(dir)) {
       if (rel === "pack.toml" || rel === "index.toml") continue;
-      if (seen.has(rel)) continue;
       const file = path.join(dir, rel);
+      if (rel === LOADER_DEPS) {
+        loaderDepsFiles.push(file);
+        continue;
+      }
+      if (seen.has(rel)) continue;
       if (rel.endsWith(".pw.toml")) {
         const pw = toml.parse(fs.readFileSync(file, "utf-8"));
         if (pw.enabled === false) continue;
@@ -81,7 +88,15 @@ function collect(versionDir) {
       }
     }
   }
-  return { versions, metas, overrides };
+  const loaderDeps =
+    loaderDepsFiles.length > 0 ? mergeJsonFiles(loaderDepsFiles) : null;
+  if (loaderDeps) {
+    overrides.push({
+      rel: LOADER_DEPS,
+      data: Buffer.from(JSON.stringify(loaderDeps, null, 4) + "\n"),
+    });
+  }
+  return { versions, metas, overrides, loaderDeps };
 }
 
 async function mapLimit(items, limit, fn) {
@@ -198,18 +213,6 @@ function dependsOf(unit, overrides) {
   return Object.keys(depends);
 }
 
-function loadDependencyOverrides(overrides) {
-  const entry = overrides.find(
-    (o) => o.rel === "config/fabric_loader_dependencies.json"
-  );
-  if (!entry) return {};
-  try {
-    return JSON.parse(fs.readFileSync(entry.file, "utf-8")).overrides || {};
-  } catch {
-    return {};
-  }
-}
-
 function pruneMissingDependencies(included, loaded, dependencyOverrides) {
   const omitted = [];
   for (;;) {
@@ -237,7 +240,7 @@ function pruneMissingDependencies(included, loaded, dependencyOverrides) {
 }
 
 async function buildPack(versionDir, pins) {
-  const { versions, metas, overrides } = collect(versionDir);
+  const { versions, metas, overrides, loaderDeps } = collect(versionDir);
   if (!versions) {
     console.warn(
       `Warning: no non-SkyBlock categories for ${versionDir}, skipping`
@@ -291,11 +294,7 @@ async function buildPack(versionDir, pins) {
   }
 
   omitted.push(
-    ...pruneMissingDependencies(
-      included,
-      loaded,
-      loadDependencyOverrides(overrides)
-    )
+    ...pruneMissingDependencies(included, loaded, loaderDeps?.overrides || {})
   );
 
   const manifest = {
@@ -323,8 +322,11 @@ async function buildPack(versionDir, pins) {
   const sortedOverrides = [...overrides].sort((a, b) =>
     a.rel < b.rel ? -1 : a.rel > b.rel ? 1 : 0
   );
-  for (const { rel, file } of sortedOverrides) {
-    entries[`overrides/${rel}`] = [fs.readFileSync(file), { mtime: ZIP_MTIME }];
+  for (const { rel, file, data } of sortedOverrides) {
+    entries[`overrides/${rel}`] = [
+      data ?? fs.readFileSync(file),
+      { mtime: ZIP_MTIME },
+    ];
   }
 
   const report = omitted

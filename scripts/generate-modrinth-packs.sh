@@ -6,12 +6,13 @@ MRPACKS_DIR="$SCRIPT_DIR/../data/oneclient/bundles/.mrpacks"
 OUTPUT_DIR="${1:-$SCRIPT_DIR/../data/oneclient/bundles/generated}"
 
 SKYBLOCK_CATEGORY="skyblock"
+LOADER_DEPS="config/fabric_loader_dependencies.json"
 
 IGNORED_VERSIONS=(
   "1.8.9-ornithe"
 )
 
-for cmd in zip unzip; do
+for cmd in zip unzip node; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
     echo "Error: Required command '$cmd' is not installed or not in PATH." >&2
     exit 1
@@ -80,11 +81,13 @@ fabric = "$fabric"
 EOF
 
   local category file rel
+  local -a loader_deps=()
   for category in "${categories[@]}"; do
     while IFS= read -r -d '' file; do
       rel="${file#"$category"/}"
       case "$rel" in
         pack.toml | index.toml) continue ;;
+        "$LOADER_DEPS") loader_deps+=("$file"); continue ;;
       esac
       [ -e "$work/$rel" ] && continue
       case "$rel" in
@@ -94,6 +97,11 @@ EOF
       cp "$file" "$work/$rel"
     done < <(find "$category" -type f -print0)
   done
+
+  if [ "${#loader_deps[@]}" -gt 0 ]; then
+    mkdir -p "$work/$(dirname "$LOADER_DEPS")"
+    node "$SCRIPT_DIR/lib/merge-json.js" "$work/$LOADER_DEPS" "${loader_deps[@]}"
+  fi
 
   echo "Bundling $name ($mc) -> $output"
   ( cd "$work" && "$PACKWIZ_BIN" refresh >/dev/null && packwiz_export "$output" )
