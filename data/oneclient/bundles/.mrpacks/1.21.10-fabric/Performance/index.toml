@@ -186,6 +186,11 @@ hash = "fd3db22daa3f547552bb9b096770e850d1c8f1246888e2f9baeccde0496d7f1f"
 metafile = true
 
 [[files]]
+file = "mods/slipstream.pw.toml"
+hash = "9b5448e4c9d9bb93d9ff50d834f2eb4f66add429baaf99438c3d5e6105295830"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "94a6bdf3360a3ff074ad41ce49e2799bd61d69d94b8ac8d829073a2a41d994d6"
 metafile = true

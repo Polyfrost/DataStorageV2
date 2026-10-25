@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "571f0e45cbd8294a72a27b085247e4d43794dd81b8fe0197371b7cd39f5960c1"
+hash = "0e988d355dd6209443635446d8e081488724d18b7c5d48e6d48c31fd5fc7f27c"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
@@ -197,6 +197,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "39215810090bcf4cc6c1a6c0a3c61614537f19458d0914e066db558eb9bbd1b3"
+metafile = true
+
+[[files]]
+file = "mods/slipstream.pw.toml"
+hash = "9b5448e4c9d9bb93d9ff50d834f2eb4f66add429baaf99438c3d5e6105295830"
 metafile = true
 
 [[files]]

@@ -1,0 +1,25 @@
+id = "slipstream"
+enabled = true
+hidden = false
+name = "Slipstream"
+filename = "slipstream-26.3-fabric-0.1.0.jar"
+side = "client"
+type = "advanced"
+
+[overrides]
+name = "Slipstream"
+authors = ["rdh"]
+description = "Optimized frame presentation for macOS"
+icon = "https://raw.githubusercontent.com/rhysdh540/Slipstream/main/src/main/resources/slipstream.png"
+
+[download]
+url = "https://github.com/rhysdh540/Slipstream/releases/download/v0.1.0/slipstream-26.3-fabric-0.1.0.jar"
+hash-format = "sha256"
+hash = "d7fd6d893ceb6b035b9cd06c2476a60cc43d077b4f6d9700795d482f6171cf05"
+
+[update]
+[update.github]
+branch = "main"
+slug = "rhysdh540/Slipstream"
+tag = "v0.1.0"
+regex = "^slipstream-26\\.3-fabric-.+\\.jar$"
