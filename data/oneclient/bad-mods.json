@@ -210,6 +210,22 @@
             "name": "Remove Reloading Screen (RRLS)",
             "author": "dima_dencep",
             "explanation": "/oneclient/bad_mods_mds/rrls.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "JYQhtZtO",
+                "curseforge": "635429"
+            },
+            "name": "VulkanMod",
+            "author": "xCollateral",
+            "explanation": "/oneclient/bad_mods_mds/vulkanmod.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "Iw9mZi4a"
+                    }
+                }
+            ]
         }
     ]
 }
