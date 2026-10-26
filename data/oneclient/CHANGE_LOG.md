@@ -1,3 +1,81 @@
+# 2.9.0
+
+- Revert "chore: release 2.9.0"
+- Revert "chore: release 2.10.0"
+- fix: offer to bring shared worlds along when switching to a dedicated dir
+- fix: show the Java a version launches with in the create dialog
+- test: stop depending on JSON key order in the fabric depends test
+- perf: fetch the largest bundle files first
+- fix: ask the game to close before killing it
+- fix: release builds on macOS 27
+- feat: changing aura color works now
+- chore: make desktop cluster shortcut icon respect cluster icon
+- fix: broken tests and prepared sqlx query
+- fix: windows intel titlebar
+- chore: switch to polyrenderer
+- Chore/auto update fabric
+- feat: functional appearance settings (themes and accent color picker)
+- fix(auth): keep Microsoft accounts signed in across token renewals
+- fix: censor session ID in Minecraft startup log
+- feat: env overrides for java autoinstall and launcher exe
+- feat: replace the skins page with the wardrobe
+- fix: opening folders and links in external programs on linux
+- feat: dedicated-folder clusters keep their own resource packs and shaders
+- fix: kept resource packs and shaders edited by hand on launch
+- feat: flatpak bundle
+- Fixed launching with half-updated bundle mods
+- feat: added select button to the content list
+- Fix non-UTF8 logs
+- feat: warn when user is about to disable a dependency
+- feat: added binary search for bad mods (thanos mode)
+- feat: added ui for detecting hard crashes
+- feat: added copy to clipboard for textures, shaders and datapacks
+- feat: added copy to clipboard for mods
+- feat: added importing modpacks into already existing clusters
+- feat: full import/export with other launchers
+- feat: added warning on downloading an already bundled mod
+- feat: factory reset switch
+- feat: opengl/vulkan switch
+- feat: opengl/vulkan switch in cluster settings by --graphicBackend (Lynith)
+- fix: disabled ability to search curseforge for mods on orinthe clusters
+- feat: added syncing dedicated cluster with shared directory
+- feat: added syncing dedicated clusters with shared dir
+- chore: added organizations showing up in mod pages
+- feat: organizations showing up in mod pages
+- Fix
+- fix: hidden mods while searching error
+- feat: bundled mods deletion
+- merged 'main' into feat/bundled-mods-deletion; fixed first time launch bringing back deleted mods
+- fix: taken care of few possible issues
+- chore: show hidden packages when searching
+- com
+- feat: added option to choose from dedicated/shared dir
+- error handling
+- chore: changed the order of cluster settings
+- feat: added open link button for OneClient new version toast
+- refactor
+- feat: added button for opening logs
+- feat: added changelog buttons for every mod
+- feat: changed the curseforge outer link into one sharable component
+- fix: fixed the tags text wrapping up
+- fix: fixed declined bundled mods auto enabling
+- fix: made sort by apply to OneClient versions (#912)
+- fix: kept the browser header in place when switching cluster or type …
+- fix: fixed too long names overflowing in the drag and drop window
+- feat: added file sizes for mods
+- fix: fixed orinthe showing as fabric in browser
+- fix: made the add from file button replace the add content button
+- fix: filters resetting
+- feat: log views ctrl + f shortcut
+- fix very rare bug with faulty jvm deletion
+- feat: added changelog buttons for every mod that is offered in the update modal
+- fix changeset
+- changeset
+- feat: added option to choose from dedicated/shared dir for OneClient clusters
+- chore: made hidden packages show when user is using searchbar
+- fix enable display state
+- feat: added 'deleted' tab in mods list; added deleting bundled mods that just disable and go into that tab
+
 # 2.8.0
 
 - chore: pin freya to Polyfrost fork on 0.5.0-beta.10 without libxdo
