@@ -226,6 +226,32 @@
                     }
                 }
             ]
+        },
+        {
+            "hash": "0011dbc63720e3bb82559ee5125696bc7f33390c",
+            "name": "Alternate Current",
+            "author": "Space Walker",
+            "explanation": "/oneclient/bad_mods_mds/alternate-current.md"
+        },
+        {
+            "hash": "1214ed32b1e3705d9eee5ea6157ee72ae54d39f4",
+            "name": "Alternate Current",
+            "author": "Space Walker",
+            "explanation": "/oneclient/bad_mods_mds/alternate-current.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "hCyJxgEF"
+            },
+            "name": "netfix",
+            "author": "Lunasa",
+            "explanation": "/oneclient/bad_mods_mds/netfix-lomka.md"
+        },
+        {
+            "hash": "cff92a3512b31e2ec5928072426277d349b0e8d7",
+            "name": "Lomka",
+            "author": "Starlev",
+            "explanation": "/oneclient/bad_mods_mds/netfix-lomka.md"
         }
     ]
 }
