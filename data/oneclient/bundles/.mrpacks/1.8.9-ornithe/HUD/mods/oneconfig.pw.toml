@@ -2,16 +2,16 @@ id = "AibBIVmj"
 enabled = true
 hidden = true
 name = "OneConfig"
-filename = "OneConfig-1.8.9-ornithe-1.5.1.jar"
+filename = "OneConfig-1.8.9-ornithe-1.5.2.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/AibBIVmj/versions/fqzDd6k8/OneConfig-1.8.9-ornithe-1.5.1.jar"
+url = "https://cdn.modrinth.com/data/AibBIVmj/versions/VQJMGbQr/OneConfig-1.8.9-ornithe-1.5.2.jar"
 hash-format = "sha512"
-hash = "1fc456959ee231d1a5349ff5c4f8efb19c28a918b9abebb2b4f09c762ed7f50b5b7c56af8a3e5e06b9e5c7227d66f4f4b50ca701caa985fda7ce83c52742aab9"
+hash = "0810e2a3f7522d98585008a8c730d8fcdd8b0f65e5300598dd5689caf8eeed7066d4f2908d3f1a803b21ca513c16a02ef91b78e1f6a184366af15fc8de0347eb"
 
 [update]
 [update.modrinth]
 mod-id = "AibBIVmj"
-version = "fqzDd6k8"
+version = "VQJMGbQr"
