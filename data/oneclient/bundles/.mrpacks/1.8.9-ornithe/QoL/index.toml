@@ -6,7 +6,7 @@ hash = "0f805f773dfb827617e75421d22f77453e3560682635f53ba33eb99093eae53c"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "24e1d2da90fe7b6b48a2fa106198d582b3567850ea0290c3e1b438d8e1e08ef2"
+hash = "7e2ef0fbc85c79090ff6a627920da98cca4efe86a5b3a3e3f765d6e090e4381a"
 metafile = true
 
 [[files]]
@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/crosshair.pw.toml"
-hash = "532166a1f34ff9b694afdb9512271aa4259c7344820e5fc6b7161cd0a1e2601c"
+hash = "b59efe4ae4460c4faf3f3bd84def70d320eb19cca3741656ca72fc021bdff6c7"
 metafile = true
 
 [[files]]
