@@ -1,6 +1,11 @@
 {
     "version": 1,
     "overrides": {
+        "gnetum": {
+            "+breaks": {
+                "exordium": "*"
+            }
+        },
         "zfastnoise": {
             "+breaks": {
                 "noisium": "*"

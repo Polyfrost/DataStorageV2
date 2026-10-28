@@ -252,6 +252,15 @@
             "name": "Lomka",
             "author": "Starlev",
             "explanation": "/oneclient/bad_mods_mds/netfix-lomka.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "DynYZEae",
+                "curseforge": "681953"
+            },
+            "name": "Exordium",
+            "author": "tr7zw",
+            "explanation": "/oneclient/bad_mods_mds/exordium.md"
         }
     ]
 }

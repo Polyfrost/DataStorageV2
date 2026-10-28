@@ -3,6 +3,7 @@
     "overrides": {
         "gnetum": {
             "+breaks": {
+                "exordium": "*",
                 "vulkanmod": "*"
             }
         },
