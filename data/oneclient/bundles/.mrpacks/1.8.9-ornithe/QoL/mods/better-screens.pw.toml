@@ -2,15 +2,15 @@ id = "PBbfPJZN"
 enabled = true
 hidden = false
 name = "Better Screens"
-filename = "betterscreens-2.1.1-hotfix.1+1.8.9-fabric.jar"
+filename = "betterscreens-2.1.1-hotfix.2+1.8.9-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/PBbfPJZN/versions/N7nYoMDW/betterscreens-2.1.1-hotfix.1%2B1.8.9-fabric.jar"
+url = "https://cdn.modrinth.com/data/PBbfPJZN/versions/XML2ksVj/betterscreens-2.1.1-hotfix.2%2B1.8.9-fabric.jar"
 hash-format = "sha512"
-hash = "1238a8dce847c82563d90881f4e69f920a4487eccf87c2ad251359f1416b7415cf1d401a71381418fdb8d79e8d2de863be11c98a453e4035794090355de95474"
+hash = "522d875faa9b7ec1bb317a57b8d022c93a0280491973ff9a0e493a0ca3ea694ad2390c855f20940575c4570b4a63ca40cfee1be71ce09c7f0febf152023e99c0"
 
 [update]
 [update.modrinth]
 mod-id = "PBbfPJZN"
-version = "N7nYoMDW"
+version = "XML2ksVj"
