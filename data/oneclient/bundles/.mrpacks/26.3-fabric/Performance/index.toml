@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "0674cf147a81747a7e7607b1bfa459b7e74b2b2dd3f6d7c58bc50e8787b3ca3b"
+hash = "ca572e5ac619925a7d2f300cfe6ae8ac8ca4273050be47cefdca419f2c7725b8"
 metafile = true
 
 [[files]]
@@ -232,5 +232,5 @@ metafile = true
 
 [[files]]
 file = "mods/zmaterial-rule-compiler.pw.toml"
-hash = "ce381548f45164937810e86f50c9baeddc7d879c28351d2a8e09092b220d5ab2"
+hash = "7aeb6d0d9cf34489a20e4a31158bbc85d023833a3bff07b872f9657e41466483"
 metafile = true
