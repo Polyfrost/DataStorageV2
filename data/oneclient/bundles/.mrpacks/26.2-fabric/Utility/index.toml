@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/walksylib.pw.toml"
-hash = "e4f59e463bff95f964c1002f75619ee0dcaab17309e25c7db06761f5e273b26b"
+hash = "ea59aa24dfc8ac09fc8a8940707cc0a930bd525737e7a97b61a36a1363c9d924"
 metafile = true
 
 [[files]]
