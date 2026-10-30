@@ -2,16 +2,16 @@ id = "8LNT47ZH"
 enabled = true
 hidden = false
 name = "ChatTweaks"
-filename = "chattweaks-1.2.2+26.1.jar"
+filename = "chattweaks-1.2.3+26.1.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/8LNT47ZH/versions/ApDFi6o8/chattweaks-1.2.2%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/8LNT47ZH/versions/GGnZDNPN/chattweaks-1.2.3%2B26.1.jar"
 hash-format = "sha512"
-hash = "d12e15b38f7fea307eb9bed8ada72fd1b587aa11e13b1d7841cdcbf39472faae734fdbda0fafda470434aee8a4fdd5ce868f98d29953484fe24e98b73065fdf5"
+hash = "b105eaa456878d4a9d87368da13ccbf9efc50ea455114717bd507eec5e0e89e298a5ec23bda10b65b65a44ca2d55bb34d40a1cd6aba32e69260955f4a85131b7"
 
 [update]
 [update.modrinth]
 mod-id = "8LNT47ZH"
-version = "ApDFi6o8"
+version = "GGnZDNPN"

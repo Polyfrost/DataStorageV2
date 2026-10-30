@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "8fcd1327ffdf0eb651c95c2f28c6e283ab88e7e2b50a6be34090e5991b138c08"
+hash = "dd96675a88b3b94ce76a83495d0de6f7541d310192dd150fd2f39572ca013077"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "31ef0b7df5992e61c063176f1205635088993c0d4624f2bf00b2e33e9ea374b8"
+hash = "c05277e070957736ef762ab8c9c0860aba0c8cc0071f81b1a4204a8d7c3766ba"
 metafile = true
 
 [[files]]
@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "63693a8e62079a93d6f9f143aee15fe4b212991fb3e454aba260701608576366"
+hash = "b35ab90da3fdc214c098ec52c5cb0a8aa707204fd2e30dfb7f3e79a347d54f49"
 metafile = true
 
 [[files]]
@@ -117,12 +117,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "8d9a04d0b316ea650ce6fe3b40ba11a3dab97931b32f5f0f95c926928dd220c3"
+hash = "849894795ffbe42aeca61c0984c66b55ad9d0855215c13dd7db40b51be6f4e4c"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "85cc810420dfb375a31ca42a566d7540806606ca6cfd26299a44660cba90fc4d"
+hash = "85d019d2b58d7b817908db665c44bee6a82f6c7fdca23d003e1820aea37ae4b8"
 metafile = true
 
 [[files]]

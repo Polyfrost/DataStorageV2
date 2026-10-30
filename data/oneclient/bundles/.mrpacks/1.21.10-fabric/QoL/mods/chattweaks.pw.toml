@@ -2,16 +2,16 @@ id = "8LNT47ZH"
 enabled = true
 hidden = false
 name = "ChatTweaks"
-filename = "chattweaks-1.2.2+1.21.10.jar"
+filename = "chattweaks-1.2.3+1.21.10.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/8LNT47ZH/versions/DTlkw6Sa/chattweaks-1.2.2%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/8LNT47ZH/versions/plajqCcs/chattweaks-1.2.3%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "d1b10b43a6897890212a7476801d4efcb8b1dc47c4e3133bf0a2a3c09d853629cc98cd72a3bd0970782944980ab48e35c7b4570d5823d07ffa15852750a681a5"
+hash = "41b6e8a3de226d371c11d3215643d74b3e041a1d6ace614c6d39169e905fb836bdf43deaac99726835cab094261c832ee236a656ab6dd3f802b262594f42d798"
 
 [update]
 [update.modrinth]
 mod-id = "8LNT47ZH"
-version = "DTlkw6Sa"
+version = "plajqCcs"

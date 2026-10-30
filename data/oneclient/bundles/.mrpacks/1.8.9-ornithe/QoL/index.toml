@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "ca013191a36ac02333fd24e187471bbb06aec0f4dd000c81c469f2549ee5017f"
+hash = "d4779d92e40cdc075d4ee682e2b3e85cff4eff5088954aa3ecfa54fe9c7a872c"
 metafile = true
 
 [[files]]
@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "1dff415fb4310c82d01cca910992fdd430a4262589cadb2ccf2dc1cf3f54a477"
+hash = "7b4efadd23593761f4b4464dd7d15b894f8a7757c17c7b910f44b7c60f595581"
 metafile = true
 
 [[files]]
@@ -91,12 +91,12 @@ metafile = true
 
 [[files]]
 file = "mods/glintcolorizer.pw.toml"
-hash = "5d41370ecc3e037c3091da5f87ec5421c20860ee1777c255e810340821a60b83"
+hash = "1ad2ece0e2c50d336623ca3cee99ecd51d993bb3603bf22de3e1329adcf2be70"
 metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "3ea61eb0658dc3c09837f8072c23bce14bfbe0418b43ef33746dab07803ca06b"
+hash = "b0666095a1bde070c66869f74b4aed64a6609a7913e11cdd601eb615c0a10995"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "bbb489f5485632b0223a64e0ed65ffc5f14a74e4731a23e67d7d039c34e3c90e"
+hash = "16cc567ea6241538f2451cb99035b0e039570a9a071c41548863db51caabdc5e"
 metafile = true
 
 [[files]]
@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "f2d3b191f14d874ea8cc1ee63ca79c37a2659a0f53b8db51cb871604a4a72913"
+hash = "2cb84f03664110c224b710627118428a13df4223bbfdba3e152494f2da56e811"
 metafile = true
 
 [[files]]
@@ -181,12 +181,12 @@ metafile = true
 
 [[files]]
 file = "mods/polynametag.pw.toml"
-hash = "bd66aef731b5a087c89e5889553013b799084f5c9b755ea4f4c525cc95186647"
+hash = "66f9011da809d69765a3535ceccc312abe6f4526be73af3bf59754d4c01b59a0"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "0fb652d1fe3ca421f0089cf821095986848d38f80052c7d8a4ae3578282e00e0"
+hash = "2e10ecd5a7c375ef79fbeb67196fefbafa66e043bcb76e3a327c634cb9ebb567"
 metafile = true
 
 [[files]]

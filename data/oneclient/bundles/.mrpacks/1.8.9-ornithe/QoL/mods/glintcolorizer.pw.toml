@@ -2,15 +2,15 @@ id = "SevsTfWN"
 enabled = true
 hidden = false
 name = "GlintColorizer"
-filename = "glintcolorizer-3.0.1+1.8.9.jar"
+filename = "glintcolorizer-3.0.2+1.8.9.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/SevsTfWN/versions/HPOAvgJ5/glintcolorizer-3.0.1%2B1.8.9.jar"
+url = "https://cdn.modrinth.com/data/SevsTfWN/versions/xR6O9ZuX/glintcolorizer-3.0.2%2B1.8.9.jar"
 hash-format = "sha512"
-hash = "34d32d5a6d33a8339665508c8162f2302a75b4b32d4031aee481dc67c32cc1c05a994cab65fdb176a2d02d21c68bb57f4fc2affbc5072f0a87dfc1bad73940fd"
+hash = "2e14abdc7a1264a64cb002eecf3bf2f33dc6c4533547700dfb2d4674d302c20b12e2e31930bd4853673bd50d265c7843977dfdb2523fae6d92b67b266f812e2d"
 
 [update]
 [update.modrinth]
 mod-id = "SevsTfWN"
-version = "HPOAvgJ5"
+version = "xR6O9ZuX"

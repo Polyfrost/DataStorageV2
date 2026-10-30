@@ -51,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "27d8cc08a553eabc949eb05cd39048baa5188f058ca41b603b570d4d4350b3a2"
+hash = "c9137cb7f925218a474fb4bfb87723c9c1185b547735fa90d7d039334a1b3eaa"
 metafile = true
 
 [[files]]
@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "8fcd1327ffdf0eb651c95c2f28c6e283ab88e7e2b50a6be34090e5991b138c08"
+hash = "dd96675a88b3b94ce76a83495d0de6f7541d310192dd150fd2f39572ca013077"
 metafile = true
 
 [[files]]
@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "7804244f726ee8f9738c236018b6d3bf05af5fcd9fa92af56d87aebd3c0e6f64"
+hash = "57a68781ea808ad43cb64af86a151a268cab64dba0785ecd043b80899952baab"
 metafile = true
 
 [[files]]
@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "1eb9affe86b9cb635ac7d27964e8f1bdea7c25375165285241d3213530d0cfc1"
+hash = "52f0f3c6460554fea7e85e31c180d37992255397bebde067c96dc6fbe906233f"
 metafile = true
 
 [[files]]
@@ -256,12 +256,12 @@ metafile = true
 
 [[files]]
 file = "mods/polynametag.pw.toml"
-hash = "12d509add14f508b35870e0ca3b7b8177173fc5daa2c09416af000c1a06c376d"
+hash = "8e4a235916d0c888a2a752bfd69b3ec4dc579651a021d926afad70fa82781990"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "005470a3b4f679bc7e676d5bd1a872c0050369faeb80343496956fa99c6c8b41"
+hash = "2ecb9bdd2e2a8981fc8a2a170e47ea7ecc48c4e8bad3edbc42cd1cb80173b31a"
 metafile = true
 
 [[files]]

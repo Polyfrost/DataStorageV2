@@ -2,16 +2,16 @@ id = "61g97TVF"
 enabled = true
 hidden = false
 name = "OverflowParticles"
-filename = "overflowparticles-1.2.4+26.2.jar"
+filename = "overflowparticles-1.2.5+26.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/61g97TVF/versions/lwEvlOG7/overflowparticles-1.2.4%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/61g97TVF/versions/EgQCKK64/overflowparticles-1.2.5%2B26.2.jar"
 hash-format = "sha512"
-hash = "da1cbf1cde84c33dbff9ab3ec35ee55713819a8750378f6daf1904364347a4a73c558c5902e1294d6b4fa5f0f96fae20de75f49c23532f892e2359142f269945"
+hash = "a961073b624eef8ab934ace1bd13c7da31c092795ef814e3c5e660f722d51e2e09768a9d47debefe12c4f4c5f46b2a23645e932a42aba41596a61932588da4f8"
 
 [update]
 [update.modrinth]
 mod-id = "61g97TVF"
-version = "lwEvlOG7"
+version = "EgQCKK64"

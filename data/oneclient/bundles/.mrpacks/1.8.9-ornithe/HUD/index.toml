@@ -6,12 +6,12 @@ hash = "0f805f773dfb827617e75421d22f77453e3560682635f53ba33eb99093eae53c"
 
 [[files]]
 file = "mods/compose-multiplatform.pw.toml"
-hash = "1dff415fb4310c82d01cca910992fdd430a4262589cadb2ccf2dc1cf3f54a477"
+hash = "7b4efadd23593761f4b4464dd7d15b894f8a7757c17c7b910f44b7c60f595581"
 metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "14906a3348ab36c946fa3ccde795bb76d5137d1393e6643ddd8a89bea03d1645"
+hash = "0d6e14dcdf957fdf3483c70c51d4c258e9e16587ed86b0dab23216e53b7b5237"
 metafile = true
 
 [[files]]
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "bbb489f5485632b0223a64e0ed65ffc5f14a74e4731a23e67d7d039c34e3c90e"
+hash = "16cc567ea6241538f2451cb99035b0e039570a9a071c41548863db51caabdc5e"
 metafile = true
 
 [[files]]
@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "0fb652d1fe3ca421f0089cf821095986848d38f80052c7d8a4ae3578282e00e0"
+hash = "2e10ecd5a7c375ef79fbeb67196fefbafa66e043bcb76e3a327c634cb9ebb567"
 metafile = true
 
 [[files]]

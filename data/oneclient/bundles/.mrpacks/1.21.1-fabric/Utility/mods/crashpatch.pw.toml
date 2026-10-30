@@ -2,16 +2,16 @@ id = "nZ3E8WQz"
 enabled = true
 hidden = false
 name = "CrashPatch"
-filename = "CrashPatch-2.2.2+1.21.1.jar"
+filename = "CrashPatch-2.2.3+1.21.1.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/nZ3E8WQz/versions/3mUpgyS8/CrashPatch-2.2.2%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/nZ3E8WQz/versions/mscEtvRc/CrashPatch-2.2.3%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "8b75a5ffc03c03530b7c9a5150c973b4380309cad3a750fa79e2348890ea36b18f460c8be7d41c03c1fdda588a89a37d91ab20a0f3e0b973c2026c96172f5675"
+hash = "d3b73d92e3702f424d689bbc1344ef7c64db2c05305e5fe4c6a2abda125f8d5306ff1936bf5532eb61de7ee8ccc0c285eef2a50240f61bc30b19cae32b122cd8"
 
 [update]
 [update.modrinth]
 mod-id = "nZ3E8WQz"
-version = "3mUpgyS8"
+version = "mscEtvRc"
