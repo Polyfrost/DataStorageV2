@@ -6,20 +6,12 @@ filename = "slipstream-1.21.11-fabric-0.1.0.jar"
 side = "client"
 type = "advanced"
 
-[overrides]
-name = "Slipstream"
-authors = ["rdh"]
-description = "Optimized frame presentation for macOS"
-icon = "https://raw.githubusercontent.com/rhysdh540/Slipstream/main/src/main/resources/slipstream.png"
-
 [download]
-url = "https://github.com/rhysdh540/Slipstream/releases/download/v0.1.0/slipstream-1.21.11-fabric-0.1.0.jar"
-hash-format = "sha256"
-hash = "7bacdaa6cb8c8931da3649444df6c64404039df872baf4eb79977c0fe3a3b3e2"
+url = "https://cdn.modrinth.com/data/XDGYMuZ6/versions/JWf2R01O/slipstream-1.21.11-fabric-0.1.0.jar"
+hash-format = "sha512"
+hash = "30762a4c320e02f65d7fe3f4a8d338299d2df7f62f42e80c5e49da6dd53c23a2e34b9c3be223c575feecf3bfde6fecc7b16a7392f0d726150d4fb2078260cd64"
 
 [update]
-[update.github]
-branch = "main"
-slug = "rhysdh540/Slipstream"
-tag = "v0.1.0"
-regex = "^slipstream-1\\.21\\.11-fabric-.+\\.jar$"
+[update.modrinth]
+mod-id = "XDGYMuZ6"
+version = "JWf2R01O"

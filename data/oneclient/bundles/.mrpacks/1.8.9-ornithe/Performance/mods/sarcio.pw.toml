@@ -6,18 +6,12 @@ filename = "Sarcio-1.1.1.jar"
 side = "client"
 type = "normal"
 
-[overrides]
-name = "Sarcio"
-authors = ["rdh", "Microcontrollers"]
-description = "Targeted memory optimizations and bugfixes for Minecraft 1.8.9"
-
 [download]
-url = "https://github.com/QuicksilverMC/Sarcio/releases/download/v1.1.1/Sarcio-1.1.1.jar"
-hash-format = "sha256"
-hash = "c6a94c0ed23a40e9471efe3391282370d005d45efff05b8e708c5ecfc3b77a7c"
+url = "https://cdn.modrinth.com/data/VIiRf1ei/versions/E6WmarzS/Sarcio-1.1.1.jar"
+hash-format = "sha512"
+hash = "5a872f42aec45b211078026999f5712a5160fccaff5d310e3f8c478babbe392a205bc2bfa869ff3e91f44cfaf5235479625247f7a5bf0c24a7a0c4a239aba2eb"
 
 [update]
-[update.github]
-branch = "main"
-slug = "QuicksilverMC/Sarcio"
-tag = "v1.1.1"
+[update.modrinth]
+mod-id = "VIiRf1ei"
+version = "E6WmarzS"

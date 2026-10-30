@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/slipstream.pw.toml"
-hash = "0129a4536e99e40f6c60106fd7ea81c7adbb110901b8f50240cbab293f6be142"
+hash = "b9041942f6b6bc7a24225e3ffa159aefca8409d1e88cf4bf70d74827a30534a9"
 metafile = true
 
 [[files]]

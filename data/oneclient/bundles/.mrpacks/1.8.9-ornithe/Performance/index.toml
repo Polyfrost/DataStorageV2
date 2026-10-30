@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/sarcio.pw.toml"
-hash = "f9b050bfea66049ce948b295bdaf65eba0ba01c6c55d0a68cbf60e9f12d66c2e"
+hash = "0e42dda4f20c203d92269abf91eb7b0863a551ac0f82607c2be6649d4135b082"
 metafile = true
 
 [[files]]
@@ -76,7 +76,7 @@ metafile = true
 
 [[files]]
 file = "mods/slipstream.pw.toml"
-hash = "cf351affed561d74cfb33d29e795cda134fa079d330b056e6d4e741f78cf3c73"
+hash = "c1875ed64d6e5056f296dd0ceac8759c30d296773ae764dba1045c3a85f0be8b"
 metafile = true
 
 [[files]]

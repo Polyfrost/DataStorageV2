@@ -6,20 +6,12 @@ filename = "slipstream-1.8.9-0.1.0.jar"
 side = "client"
 type = "advanced"
 
-[overrides]
-name = "Slipstream"
-authors = ["rdh"]
-description = "Optimized frame presentation for macOS"
-icon = "https://raw.githubusercontent.com/rhysdh540/Slipstream/main/src/main/resources/slipstream.png"
-
 [download]
-url = "https://github.com/rhysdh540/Slipstream/releases/download/v0.1.0/slipstream-1.8.9-0.1.0.jar"
-hash-format = "sha256"
-hash = "fbf29ccca0f6bfca51ff6aa2cd2d0277c1e2039c09aeca3331782a977c2403c2"
+url = "https://cdn.modrinth.com/data/XDGYMuZ6/versions/7yvc7d4F/slipstream-1.8.9-0.1.0.jar"
+hash-format = "sha512"
+hash = "270d7c4cad3e05b63ec07cd766d17f9146981dc721b751d16e2b33bace22de240694a5247e4cc054b742d1d5bdab492459d7fe4855ff756edc028678d7b05200"
 
 [update]
-[update.github]
-branch = "main"
-slug = "rhysdh540/Slipstream"
-tag = "v0.1.0"
-regex = "^slipstream-1\\.8\\.9-.+\\.jar$"
+[update.modrinth]
+mod-id = "XDGYMuZ6"
+version = "7yvc7d4F"
