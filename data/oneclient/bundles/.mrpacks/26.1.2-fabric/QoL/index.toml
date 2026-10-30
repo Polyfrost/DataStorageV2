@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "f657c0ebf61dce46f4fd92278fef548d6aeebcb6cc4894b7500a360262c69d88"
+hash = "b405aaafdaeb947fc7adf16179aa27301b5fd8a475426add4248674ca7b69948"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -301,7 +301,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyboxify.pw.toml"
-hash = "252b1318cc46649fec14da6b3ca02f29b148f06fd2f85d543e2b782ffe487233"
+hash = "1d0b4227ba6c214747127d32562fbe27d6fdc37780abb5dc534753b90c2e402a"
 metafile = true
 
 [[files]]
