@@ -13,12 +13,11 @@ authors = ["uku", "thecount"]
 description = "Removes or reduces the screen shake when you take damage."
 
 [download]
-url = "https://github.com/Polyfrost/betterhurtcam/releases/download/1.15.3%2Bmc1.8.9-ornithe/BetterHurtCam-1.15.3%2Bmc1.8.9-ornithe.jar"
-hash-format = "sha256"
-hash = "5022315fa5efac99b3300553d671f7a6f10577bcda08e5fbe6b6a683d4443082"
+url = "https://cdn.modrinth.com/data/DQKdq5re/versions/LkOyvGps/BetterHurtCam-1.15.3%2Bmc1.8.9-ornithe.jar"
+hash-format = "sha512"
+hash = "9494b13347ac84f829e567154feb2dfef25dd2ab3adf404c47c73d39d3a92907b2d3cfc2b0804af2a10a4e91c0c988d41a32aa832aed20e0ca673976f4771f5d"
 
 [update]
-[update.github]
-branch = "ornithe-1.8.9"
-slug = "Polyfrost/betterhurtcam"
-tag = "1.15.3+mc1.8.9-ornithe"
+[update.modrinth]
+mod-id = "DQKdq5re"
+version = "LkOyvGps"

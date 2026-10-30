@@ -13,13 +13,11 @@ authors = ["Motschen", "amiralimollaei", "tterrag1098", "Pyrofab"]
 description = "Configurable blur, gradients, and fade animations behind Minecraft GUIs."
 
 [download]
-url = "https://github.com/Polyfrost/Blur/releases/download/v6.3.5/LegacyGuiBlur-6.3.5%2Bmc1.8.9-fabric.jar"
-hash-format = "sha256"
-hash = "0f5153afc04ec3b2c24fe7bee26329f0f5b8a08f6469be9efe7efcf3993f6c8d"
+url = "https://cdn.modrinth.com/data/DAQQfcTq/versions/bHRuBgnb/LegacyGuiBlur-6.3.5%2Bmc1.8.9-fabric.jar"
+hash-format = "sha512"
+hash = "3c43416a64710933dc23bf133f3e3fecaa35935a3a904dd20fda052e0e366775869bab98d862ec0f9be882f5decb255abbb89d1fbcc7970d290082ecd04ceb25"
 
 [update]
-[update.github]
-branch = "ornithe-1.8.9"
-regex = "mc1\\.8\\.9-fabric\\.jar$"
-slug = "Polyfrost/Blur"
-tag = "v6.3.5"
+[update.modrinth]
+mod-id = "DAQQfcTq"
+version = "bHRuBgnb"

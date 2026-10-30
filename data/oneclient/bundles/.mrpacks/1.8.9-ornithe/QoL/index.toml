@@ -16,12 +16,12 @@ metafile = true
 
 [[files]]
 file = "mods/betterhurtcam.pw.toml"
-hash = "487547de36da94352e7b3786af8cc05db775f1f689301378b2314bacef4834a9"
+hash = "01cc80b6cee5b128983588546cbe2c741dc1592f3a88a4f2e89af9c8d77cd98f"
 metafile = true
 
 [[files]]
 file = "mods/blur.pw.toml"
-hash = "9946d418eef0a3c26240797ab2b12341f357247414de786a002ad0f83bb36cf6"
+hash = "2771fda8844b1a4afa8bbd1490559833e30d7f8e18f650cc445439b155a09b44"
 metafile = true
 
 [[files]]
