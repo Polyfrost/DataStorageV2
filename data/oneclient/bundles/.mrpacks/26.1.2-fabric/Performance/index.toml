@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "43e8ab380a22d585f0923c11be3d102d5fc4f0ba6148e5971dcc93ba09a1be9f"
+hash = "dad70f95bda4d2e9e358bedd0a77facbb8dbc6de4e56f802aca6bff71e080154"
 metafile = true
 
 [[files]]
