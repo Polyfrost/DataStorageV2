@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "5584f0f4188ac246e58a799d099dbb6f34c46f6811630385988b615b54dc09d2"
+hash = "9f4fa00b6d65889ffdd24bb76a9c0f7febda7a7fe21689f2d0f9aa2a05a0bd83"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "9685b44dc26d87cba3d30740b6262e41cbad4d70a37fe2a30f65dae9d97bd2c3"
+hash = "9411d8bbf603d40d65ad074d3c73bec3a82a307f761b61b87246e7563a33b15c"
 metafile = true
 
 [[files]]
