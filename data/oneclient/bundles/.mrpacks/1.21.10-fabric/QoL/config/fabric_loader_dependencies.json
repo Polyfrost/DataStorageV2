@@ -6,7 +6,7 @@
                 "firstt": "*"
             }
         },
-        "cubes-without-borders": {
+        "cwb": {
             "+breaks": {
                 "chloride": "*"
             }
