@@ -8,7 +8,8 @@
         },
         "cwb": {
             "+breaks": {
-                "chloride": "*"
+                "chloride": "*",
+                "vulkanmod": "*"
             }
         },
         "idontwannascrollagain": {
