@@ -7,11 +7,11 @@ side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/SIRG6coC/versions/8uaWpQZo/vignettetweaks-2.1.3%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/SIRG6coC/versions/GED8MgjA/vignettetweaks-2.1.3%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "5373abd1208083f341f4343f7b585a5f39a31a4c493d9c5813c599e6aca3ce16b53ff281d491d79243b34ac91bd6a76e43024fe341b1df05efd544b68337e578"
+hash = "be1052a5b9ab012fec8ec5963aeed86780c4380f577c15a8524d1692592c23f24301a3ec73ce5b5895bf24ec43101da92a2c01cba175a329cd763f28d8fa2f38"
 
 [update]
 [update.modrinth]
 mod-id = "SIRG6coC"
-version = "8uaWpQZo"
+version = "GED8MgjA"

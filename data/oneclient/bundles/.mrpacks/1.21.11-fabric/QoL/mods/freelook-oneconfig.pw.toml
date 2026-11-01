@@ -2,16 +2,16 @@ id = "S1v2ASLQ"
 enabled = true
 hidden = false
 name = "Freelook"
-filename = "freelook-2.3.2+mc1.21.11.jar"
+filename = "freelook-2.3.3+mc1.21.11.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/S1v2ASLQ/versions/kB61RZq2/freelook-2.3.2%2Bmc1.21.11.jar"
+url = "https://cdn.modrinth.com/data/S1v2ASLQ/versions/ndq4X4XY/freelook-2.3.3%2Bmc1.21.11.jar"
 hash-format = "sha512"
-hash = "2f79f99d16803ab087f891a738761a249ddeb46a34df740999d310d22f11620e50b42ff5021cfc394ae2abb738bb926a7967a625e6f7a53d1bf2b6704d2124db"
+hash = "f52501afe6c111275104a98e42511a4c6cc9010e57fe5de322d3661076d4fb30f444b8a4801d6737d8006170795aec4d168fccec0d808c9cb4493315a9d4fdec"
 
 [update]
 [update.modrinth]
 mod-id = "S1v2ASLQ"
-version = "kB61RZq2"
+version = "ndq4X4XY"

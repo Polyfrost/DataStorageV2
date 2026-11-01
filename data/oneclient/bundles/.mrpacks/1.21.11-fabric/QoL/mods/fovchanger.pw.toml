@@ -2,16 +2,16 @@ id = "JyeqOA7R"
 enabled = true
 hidden = false
 name = "FOVChanger"
-filename = "fovchanger-1.0.3+1.21.11.jar"
+filename = "fovchanger-1.0.4+1.21.11.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/JyeqOA7R/versions/i91aTIcZ/fovchanger-1.0.3%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/JyeqOA7R/versions/h8pFClpe/fovchanger-1.0.4%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "36a4bf59036f38b222c260c233a5cf6131b5430976e9c1c3718157827ab7e5ea7527bcf8c3ff846fd6b14dcfc438f9439455b89936ba39e55f59a426bd6ab115"
+hash = "d1c280038da3e7a5866cc3fd886414ed46e54dcce3427789e84d0c8418b2b436773948fb2b2a8383c4ac5ea044bd86911964b614c29d1181d90aba74106ff3a1"
 
 [update]
 [update.modrinth]
 mod-id = "JyeqOA7R"
-version = "i91aTIcZ"
+version = "h8pFClpe"
