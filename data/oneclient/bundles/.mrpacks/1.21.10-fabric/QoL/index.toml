@@ -266,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "566d40d0ea20c686d9b1803c00bf4c38aa32b34daef3cef25966d6bcf5ddbc07"
+hash = "355ee702c070848a692404b109c945178424d3bb8704b338c645ae6c8cc0d675"
 metafile = true
 
 [[files]]
