@@ -2,16 +2,16 @@ id = "r8Cr8YRg"
 enabled = true
 hidden = false
 name = "PolyWeather"
-filename = "polyweather-1.3.0+26.2.jar"
+filename = "polyweather-1.3.1+26.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/r8Cr8YRg/versions/YrRzLhqR/polyweather-1.3.0%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/r8Cr8YRg/versions/TuVANCIA/polyweather-1.3.1%2B26.2.jar"
 hash-format = "sha512"
-hash = "42f6a814773036d311a559cac38d7e65a3a1b4c1648c57ec004397cba649385be31da569e906690c260c5df666b679e93221eed832b4bc2808dd29c4bfe17c44"
+hash = "d9f19e382f8000e2105240e8dc207ed85664f91d28bdc5429446f315381059588620682ed3032a31594d0b302075a959a13fcf58b477c90b8af251d47e14bbd6"
 
 [update]
 [update.modrinth]
 mod-id = "r8Cr8YRg"
-version = "YrRzLhqR"
+version = "TuVANCIA"

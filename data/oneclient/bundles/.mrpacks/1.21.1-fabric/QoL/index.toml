@@ -291,7 +291,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyweather.pw.toml"
-hash = "3e5560cce37d5142e65909a463384dee108fb208fed804244baf7db6e7eb0f29"
+hash = "fd91ec4e26e622aa7ae13db8e0e09733a4ceca7435779b7f56efaedcd489553d"
 metafile = true
 
 [[files]]
