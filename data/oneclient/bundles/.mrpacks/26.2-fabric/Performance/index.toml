@@ -65,11 +65,6 @@ hash = "82052f42f18ac6fba1504f3a1bf68be669c9220228229251383ebeb49be82a67"
 metafile = true
 
 [[files]]
-file = "mods/forcecloseworldloadingscreen.pw.toml"
-hash = "e2894fc2ac99d1d4327de045cd0d078a7c8a2d70a8cab99dcce15df52489a2ed"
-metafile = true
-
-[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "7e8a5b8be93ba90af8c4ef6c1f725c986e65f3fec054c8b86cee6ef056c339ba"
 metafile = true
