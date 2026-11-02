@@ -2,16 +2,16 @@ id = "KMtOZMrU"
 enabled = true
 hidden = false
 name = "Keyyyyyyyy"
-filename = "Keyyyyyyyy-3.0.1+fabric.jar"
+filename = "Keyyyyyyyy-3.2.0+fabric.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/KMtOZMrU/versions/tKelEDQC/Keyyyyyyyy-3.0.1%2Bfabric.jar"
+url = "https://cdn.modrinth.com/data/KMtOZMrU/versions/LrMQqTQI/Keyyyyyyyy-3.2.0%2Bfabric.jar"
 hash-format = "sha512"
-hash = "3d8dc6d68bcf987dcfd63b760dde6e8d7cfb298ca38414ed8690985cfb9a49c4e2d21c1acff601760c7badccd4e9b1bcea079ba0ab1d873c091ba1bc45dd15df"
+hash = "0559e5276a7cda8090704cadfdd1b41a5828779c2fd7249cf01e161ffc5d727f30de6595190dab11124090c45f8ded01282531f338bc575f2d9f11f3f994781a"
 
 [update]
 [update.modrinth]
 mod-id = "KMtOZMrU"
-version = "tKelEDQC"
+version = "LrMQqTQI"
