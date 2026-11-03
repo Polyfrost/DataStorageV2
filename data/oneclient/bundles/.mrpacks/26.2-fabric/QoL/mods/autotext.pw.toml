@@ -1,0 +1,25 @@
+id = "polyfrost-autotext"
+enabled = true
+hidden = false
+name = "AutoText"
+filename = "autotext-0.1.0+26.2.jar"
+side = "client"
+type = "normal"
+
+[overrides]
+name = "Auto Text"
+description = "Send a saved chat message or command with one key press."
+authors = ["Polyfrost", "anolithme"]
+icon = "https://raw.githubusercontent.com/Polyfrost/AutoText/main/src/main/resources/icon.png"
+
+[download]
+url = "https://github.com/Polyfrost/AutoText/releases/download/0.1.0/autotext-0.1.0%2B26.2.jar"
+hash-format = "sha256"
+hash = "a66118b6ee71eb4f246559add6e7635ce2cf1cc43924e6ee75b8bcd6ab560f49"
+
+[update]
+[update.github]
+slug = "Polyfrost/AutoText"
+tag = "0.1.0"
+branch = "main"
+regex = "^autotext-.+\\+26\\.2\\.jar$"

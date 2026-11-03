@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "3afb930a99daeb345a7a4b2d7d03ec1e3deaa019bb2c01d0f47849167c717927"
+hash = "13847a83c1b44581f92774d678338898140c0c3e23b6f2e85fc00b4dfdcdf177"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -12,6 +12,11 @@ metafile = true
 [[files]]
 file = "mods/animaticarefabricated.pw.toml"
 hash = "6406d818313579b1a13e42c609f408416ee7cd3b328ccff9a3dd9ec29e08df0f"
+metafile = true
+
+[[files]]
+file = "mods/autotext.pw.toml"
+hash = "0aaab2665b6aea9ba994dedd95b6cf9069c7507593293966d8891423814d72af"
 metafile = true
 
 [[files]]
