@@ -341,7 +341,7 @@ metafile = true
 
 [[files]]
 file = "mods/tiertagger.pw.toml"
-hash = "40980bd1fd1d0bf39bcf5f7d025e92777d31ccf96bb579cf05a110fba9592060"
+hash = "b924c76d19a183945fa4a98f741198e8adac82a0935d672ecf91151549692e84"
 metafile = true
 
 [[files]]

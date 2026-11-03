@@ -2,7 +2,7 @@ id = "HyBedWars"
 enabled = true
 hidden = false
 name = "HyBedWars"
-filename = "HyBedWars-0.4.2-1.8.9_ornithe.jar"
+filename = "HyBedWars-0.5.0-1.8.9_ornithe.jar"
 side = "client"
 type = "normal"
 
@@ -13,13 +13,13 @@ authors = ["Tomeko"]
 description = "Adds BedWars QoL features on Hypixel like resource display, height limit and more."
 
 [download]
-url = "https://github.com/TomekoYT/HyBedWars/releases/download/v0.4.2/HyBedWars-0.4.2-1.8.9_ornithe.jar"
+url = "https://github.com/TomekoYT/HyBedWars/releases/download/v0.5.0/HyBedWars-0.5.0-1.8.9_ornithe.jar"
 hash-format = "sha256"
-hash = "895c2dba35c75d904cab2f325b990bec1ef1cf4a1d6f91388102c19024a99d0c"
+hash = "cc03e808c153072a268a8831bee95df447f91df56609046345b7693fa6e31c5d"
 
 [update]
 [update.github]
 branch = "main"
 regex = "1\\.8\\.9_ornithe\\.jar$"
 slug = "TomekoYT/HyBedWars"
-tag = "v0.4.2"
+tag = "v0.5.0"

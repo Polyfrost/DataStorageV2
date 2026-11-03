@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "b0666095a1bde070c66869f74b4aed64a6609a7913e11cdd601eb615c0a10995"
+hash = "4a8946a95660cae6ce2f8458d76e253e32a033a3b5aa3c054aa254bf29fdf11f"
 metafile = true
 
 [[files]]
@@ -206,7 +206,7 @@ metafile = true
 
 [[files]]
 file = "mods/pylon.pw.toml"
-hash = "c42ad2392a91f2f12e7f98ffb294b3f048cb6aa1cfb2771a5b7094875d222d51"
+hash = "f6bc02acf430d87aa0c709309b2772b3d8455399f5925cbdd72b7a2ddf22e8fc"
 metafile = true
 
 [[files]]
