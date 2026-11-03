@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "f47caf698429264d733464aa763b6ae6f22b312f4a9b7369baeafbb4d4de04dd"
+hash = "48d93c0563bf3308c1ccd2a8834805d1398f19608e1c1f01bc1a7ad55d29c9fa"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "2adaf6ac49bc84001d19c6ec92bd9c978b5883cb34e13bf36d89902c56c60704"
+hash = "741d8b31ef0620f1ec44d789dcdca6c7f90c7490ae1e599de810530e2ebd833f"
 metafile = true
 
 [[files]]

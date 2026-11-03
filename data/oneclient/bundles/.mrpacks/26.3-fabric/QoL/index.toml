@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "59a79b4edf61be8aecd784a6e7b7ead0104984b45812d32c7128b37bb0d741b9"
+hash = "552960788af1eeadbe2d48683ed8d1963a68ed56862766b49f1cc33a89334917"
 metafile = true
 
 [[files]]
@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "d47fe080113baedad0784d09cbed7faaf63fb3e22ff0928f17744f20d14a9e3a"
+hash = "2ebd1830a2c830253957362067e7f0c707b07b720884b38a6eb3a42289038cc8"
 metafile = true
 
 [[files]]
