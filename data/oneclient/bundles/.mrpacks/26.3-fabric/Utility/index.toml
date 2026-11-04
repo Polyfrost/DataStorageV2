@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "dfe926d26802073fee9c997b6ed440e2bb30862595061b567780f92dbd90fce1"
+hash = "bd3bfef75f63534bd4b54efc82cf1d8c60055019440d4af4fe5f8c8b64897804"
 metafile = true
 
 [[files]]
