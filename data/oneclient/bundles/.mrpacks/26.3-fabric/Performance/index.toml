@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "866eff38e8c756f6612bfda6ada3ca45d87bc466a78236966bbf9f9a73bc4a63"
+hash = "6438d6bbee03634882570add27b4e83905c291a5167b36fb1b7ea849bc2ff096"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "612c5ac7a79b184bd255a35a4159d96a383905fadea26f32e5bbe84ddd0e6e44"
+hash = "92a565ea2fd7c916c934d82076cd9af7e2edfc48f51a5250be77ce8a8ef95a33"
 metafile = true
 
 [[files]]
