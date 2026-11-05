@@ -6,6 +6,11 @@
                 "exordium": "*"
             }
         },
+        "vmp": {
+            "+breaks": {
+                "voxyworldgenv3": "*"
+            }
+        },
         "zfastnoise": {
             "+breaks": {
                 "noisium": "*"
