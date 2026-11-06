@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "366c13aa0019d4452216c034a3209b66241846e50d3bdfb992bd66011f8d6bc4"
+hash = "07c13d411f7503e9ca65406f0f6683d4ed815906e22e6a875dcc40c05a0feafc"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "1c2602fdf6157ed0584818e5995028c85f4b3dc26cbcedf85b3f4cc217838dac"
+hash = "8ec8d7493c707b3cd047645bc5b844cd50725a8eb2f5de92dd58dad7d05d9ba9"
 metafile = true
 
 [[files]]
