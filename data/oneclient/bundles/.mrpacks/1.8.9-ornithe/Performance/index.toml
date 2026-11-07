@@ -6,12 +6,12 @@ hash = "0f805f773dfb827617e75421d22f77453e3560682635f53ba33eb99093eae53c"
 
 [[files]]
 file = "mods/argentum-extras.pw.toml"
-hash = "9b600edcf019eecd7068b3a4982c56c82cefa2d7bb24a8fb90f05c293cb4e74c"
+hash = "1cff2f77a0daee2b3b5bc1700bc34da5f0b0e28795e6ed0337d1f2b9501fffb3"
 metafile = true
 
 [[files]]
 file = "mods/argentum.pw.toml"
-hash = "51ccb965aabc76c58e5da2b0e9a6599ffbd971494ac46257b22b0cd333755b1a"
+hash = "dd74a25109bfbdaa70bbac8fb939f0b311680c240ed496e88502944c379df7de"
 metafile = true
 
 [[files]]
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/cera.pw.toml"
-hash = "4ca0105c6938bbcb2be5ab473f2d4d91274838ff6b8264083c9d218f9dd27579"
+hash = "d8851668485b4472266ffd308c2f2ce6b5d5b24cae2c9447dc4393fbe911d69e"
 metafile = true
 
 [[files]]
@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/sarcio.pw.toml"
-hash = "0e42dda4f20c203d92269abf91eb7b0863a551ac0f82607c2be6649d4135b082"
+hash = "ddf2a65633b031a0a842c8b6491342d63c1220e647e834547763077a82d79b9b"
 metafile = true
 
 [[files]]
