@@ -2,18 +2,16 @@ id = "Tc8Lbsu7"
 enabled = true
 hidden = false
 name = "Argentum Extras"
-filename = "argentum-extras-1.1.0.jar"
+filename = "argentum-extras-1.0.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://github.com/Polyfrost/Argentum/releases/download/v1.1.0/argentum-extras-1.1.0.jar"
-hash-format = "sha256"
-hash = "8251c461a7f832c2bec38a54aab1e365f9d70ebe66db2bfc3df4efc292aa34e9"
+url = "https://cdn.modrinth.com/data/Tc8Lbsu7/versions/WXFecncJ/argentum-extras-1.0.2.jar"
+hash-format = "sha512"
+hash = "f129c3acc4292936ab81b0e8578a72305df9db6539f7441a54b4625de8f175af86c7741d09820e8fa1e07bd028ac6ee244627005c73f3599880749f1aa087773"
 
 [update]
-[update.github]
-slug = "Polyfrost/Argentum"
-tag = "v1.1.0"
-branch = "main"
-regex = "^argentum-extras-.+\\.jar$"
+[update.modrinth]
+mod-id = "Tc8Lbsu7"
+version = "WXFecncJ"
