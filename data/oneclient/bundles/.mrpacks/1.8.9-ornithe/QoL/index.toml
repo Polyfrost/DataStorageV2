@@ -85,6 +85,11 @@ hash = "475aee3d954645ff83abc5dc3211da56e3cfda9d8c8bc32b069913d154e0d9bd"
 metafile = true
 
 [[files]]
+file = "mods/forgecompat.pw.toml"
+hash = "724885fb307b71b26a19a323a2d523b4a562d3105494b4477018a6fbb008593e"
+metafile = true
+
+[[files]]
 file = "mods/fovchanger.pw.toml"
 hash = "8bf513e2e67a20a7762feeba6277dd7ac02c2c0cf1f86eda5f01348e6b9af0f9"
 metafile = true
