@@ -2,16 +2,18 @@ id = "QRMV06RW"
 enabled = true
 hidden = false
 name = "Argentum"
-filename = "argentum-1.0.2.jar"
+filename = "argentum-1.0.3-beta.1.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/QRMV06RW/versions/RxzOYPTx/argentum-1.0.2.jar"
-hash-format = "sha512"
-hash = "dd6b514b5777acf503976792c06ff56f974ad4a7b95545ad011fb8c7d6af828332a505ea5727648ea6a4eac5b718a5297b398e48c83613647c4c72b827c0000d"
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.1/argentum-1.0.3-beta.1.jar"
+hash-format = "sha256"
+hash = "6843f8de7079c9e697c858e08007e42ce71446d5b3f48795acc287a3f5e7d2bf"
 
 [update]
-[update.modrinth]
-mod-id = "QRMV06RW"
-version = "RxzOYPTx"
+[update.github]
+slug = "Polyfrost/Argentum"
+tag = "v1.0.3-beta.1"
+branch = "main"
+regex = "^argentum-\\d.+\\.jar$"

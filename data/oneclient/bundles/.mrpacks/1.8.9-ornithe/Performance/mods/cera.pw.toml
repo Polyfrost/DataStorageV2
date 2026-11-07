@@ -2,16 +2,18 @@ id = "z4ctq7MO"
 enabled = true
 hidden = false
 name = "Cera"
-filename = "cera-1.0.2.jar"
+filename = "cera-1.0.3-beta.1.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/z4ctq7MO/versions/aqSuvjyl/cera-1.0.2.jar"
-hash-format = "sha512"
-hash = "727936ab8a962821e83ce181e20946dac7d217f130033fecd78316f84537ebc1edb47b10f73a5cd32981d7fac3c3c82020ba90bab2d5de66b4abaac1dc93c0ae"
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.1/cera-1.0.3-beta.1.jar"
+hash-format = "sha256"
+hash = "320cd1a68ebaf1274a41b31a53e31b04c35b3555c818313c307c8a3be9bc7a36"
 
 [update]
-[update.modrinth]
-mod-id = "z4ctq7MO"
-version = "aqSuvjyl"
+[update.github]
+slug = "Polyfrost/Argentum"
+tag = "v1.0.3-beta.1"
+branch = "main"
+regex = "^cera-.+\\.jar$"

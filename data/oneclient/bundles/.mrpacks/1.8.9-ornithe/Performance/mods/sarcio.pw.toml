@@ -2,16 +2,18 @@ id = "sarcio"
 enabled = true
 hidden = false
 name = "Sarcio"
-filename = "Sarcio-1.1.1.jar"
+filename = "Sarcio-1.2.0-beta.1.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/VIiRf1ei/versions/E6WmarzS/Sarcio-1.1.1.jar"
-hash-format = "sha512"
-hash = "5a872f42aec45b211078026999f5712a5160fccaff5d310e3f8c478babbe392a205bc2bfa869ff3e91f44cfaf5235479625247f7a5bf0c24a7a0c4a239aba2eb"
+url = "https://github.com/Polyfrost/Sarcio/releases/download/v1.2.0-beta.1/Sarcio-1.2.0-beta.1.jar"
+hash-format = "sha256"
+hash = "c03c4d3212b82a7251db3509e0b38df185feedc9254536ef6ab403bfb556c5f4"
 
 [update]
-[update.modrinth]
-mod-id = "VIiRf1ei"
-version = "E6WmarzS"
+[update.github]
+slug = "Polyfrost/Sarcio"
+tag = "v1.2.0-beta.1"
+branch = "main"
+regex = "^Sarcio-.+\\.jar$"
