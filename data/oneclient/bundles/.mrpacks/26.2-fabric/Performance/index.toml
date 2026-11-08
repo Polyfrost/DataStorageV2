@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "cdf1afdab7d841c3ec5c5e2b8ba7878102e928fcaeeb1c159d6dcb06258dd3b5"
+hash = "7e6f4e1e0376b849d33c08d8b522a4a498ead6984c62c20d1796d3a800415711"
 metafile = true
 
 [[files]]
@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "5fcd554c2561e5d80a04f6f0e0e52bbd145b2fb28a8c2d9643860f7208d7c4d7"
+hash = "40f14d72e21b00f92659a5b051faab7c853a3da0c7f31598683ff785ea05c57d"
 metafile = true
 
 [[files]]
