@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/hylobby.pw.toml"
-hash = "5b6a565e03c4b5dfe752a18e1c8e8cc2666d6d007e85d19ff211b0347dcae736"
+hash = "97c940e92bbc1baf8fa6e00e3c1d1f512516be9cdee5309300fb6893c8d01a70"
 metafile = true
 
 [[files]]
