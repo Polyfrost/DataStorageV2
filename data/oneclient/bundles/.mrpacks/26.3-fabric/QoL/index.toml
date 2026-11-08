@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/crosshair.pw.toml"
-hash = "c622aaa81100b426bdf23b0286a9cee26150026ec3ee99aadd7cd76b0227f744"
+hash = "16a1bed5a7b08c683b39c25b68fa07f79e00242431f1cf6c3e12a1ca9e84b56d"
 metafile = true
 
 [[files]]
