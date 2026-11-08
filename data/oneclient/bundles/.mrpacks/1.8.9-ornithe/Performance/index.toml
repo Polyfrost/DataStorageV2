@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/sarcio.pw.toml"
-hash = "b6b2319fd733e5381985bb45645aa71a94a427300983e397eef55ce90b7f2550"
+hash = "62dea86a5847615b0181cd13f3b41033d0e960b6753a933ae71b108cba0ff841"
 metafile = true
 
 [[files]]
