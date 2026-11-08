@@ -6,12 +6,12 @@ hash = "0f805f773dfb827617e75421d22f77453e3560682635f53ba33eb99093eae53c"
 
 [[files]]
 file = "mods/argentum-extras.pw.toml"
-hash = "29e09ef5b88bfc86d4b383699648e4b29afe0f23d91ef4555e940465dc7be9ee"
+hash = "34942bb52d9bddc21627175d71d99f331b80ac230ce671cbebf5880fca562cff"
 metafile = true
 
 [[files]]
 file = "mods/argentum.pw.toml"
-hash = "5a1e8b869ac37b7cf83c63f7f1d56ac95e686bfa79dc755b25e6d324863e8c1b"
+hash = "f1cacdbb77ae187310e7afeaf8408c42b158e67b86d39fb352ef0a507a480976"
 metafile = true
 
 [[files]]
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/cera.pw.toml"
-hash = "bd3d7e0ec8d2bd54f631b1647620088981ec28256f7bca437abd28dd740d6dca"
+hash = "36244c61600ab1d4d545826f9028dae369d6ee6d014add4d0ce786d4a8285a33"
 metafile = true
 
 [[files]]

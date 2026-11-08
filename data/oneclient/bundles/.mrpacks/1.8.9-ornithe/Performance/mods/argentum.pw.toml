@@ -2,18 +2,19 @@ id = "QRMV06RW"
 enabled = true
 hidden = false
 name = "Argentum"
-filename = "argentum-1.0.0+b45107a.jar"
+filename = "argentum-1.0.3-beta.1.jar"
 side = "client"
+pin = true
 type = "normal"
 
 [download]
-url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.0/argentum-1.0.0%2Bb45107a.jar"
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.1/argentum-1.0.3-beta.1.jar"
 hash-format = "sha256"
-hash = "0f5c2885bd57efcd50ab3a62f61de19c77b39be5270bc585cceefcad8cf3ba70"
+hash = "6843f8de7079c9e697c858e08007e42ce71446d5b3f48795acc287a3f5e7d2bf"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^argentum-\\d.+\\.jar$"
 slug = "Polyfrost/Argentum"
-tag = "v1.0.0"
+tag = "v1.0.3-beta.1"
