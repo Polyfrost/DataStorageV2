@@ -2,16 +2,16 @@ id = "1je3wJFn"
 enabled = true
 hidden = false
 name = "Render Tweaks"
-filename = "rendertweaks-2.1.0+26.3-fabric.jar"
+filename = "rendertweaks-2.2.0+26.3-fabric.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/1je3wJFn/versions/t7n8CT40/rendertweaks-2.1.0%2B26.3-fabric.jar"
+url = "https://cdn.modrinth.com/data/1je3wJFn/versions/5dVrOtRU/rendertweaks-2.2.0%2B26.3-fabric.jar"
 hash-format = "sha512"
-hash = "3be952887ae1e493ce573ae125361220b833bca77e1226b406fdcf6352fd0737a7d4d13a628cf08584cdb8383cac369211b5d39bd781c77e081588910efd4e33"
+hash = "9946c08d7df6b141c42710f1eccfc73c0622d0bc01d1201224a45a34547d99044dd0f2bdb9519c6413ce62bcba18a50e47ced659895ca27572c3163d87d93c22"
 
 [update]
 [update.modrinth]
 mod-id = "1je3wJFn"
-version = "t7n8CT40"
+version = "5dVrOtRU"

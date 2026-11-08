@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/rendertweaks.pw.toml"
-hash = "025b5edde7082b7ddb84e719088cdde6fd11fb271628359b3bfb06f03226948a"
+hash = "32ac99e813164c3d6a7758285c042f3d20b4382f53d5e9165ad8f5e92aef9807"
 metafile = true
 
 [[files]]
