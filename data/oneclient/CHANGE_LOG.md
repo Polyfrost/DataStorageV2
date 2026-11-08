@@ -1,3 +1,72 @@
+# 2.10.0
+
+- chore: censor username
+- chore: override older user-installed packages with new bundle packages
+- chore: fixed the world invite ui in launcher
+- feat: better theme grid
+- feat: social and lobby features
+- fix: sort prereleases below their release in dependency ranges
+- fix: publish bundle catalogs only when every archive is staged
+- feat: version and loader when exporting mods info
+- feat: added server and client side filter in browser for mods
+- fix: fixed PolyPlus+ to say Poly+
+- chore: improve duplicate package entries UX
+- chore: make small text when using the Minecraft theme slightly bigger
+- fix: switch content types with tabs instead of a dropdown
+- chore: update freya to 0.5 release
+- Fix/black screen igpu
+- chore: improve screenshot decoding and gallery screenshot preview fetching
+- feat: show hotspot runtime crashes under crash reports in logs page
+- chore: fix rerendering in virtualised scroll list
+- feat: share instances by code and sync them across computers
+- feat: key shortcut to open the logs folder
+- chore: freya bump (and linux fix)
+- feat: data driven themes, theme editor and minecraft theme
+- feat: sort content by date added or recently updated
+- feat: added warning when modpack/cluster mods are not published on mo…
+- fix: count a dependency the bundles already ship as installed
+- feat: recognise Minecraft's shutdown watchdog
+- feat: add a Help menu to the macOS menu bar
+- feat: added mojang as a jdk provider
+- fix: wardrobe grid crashing when switching sections
+- feat: language picker in onboarding and language settings
+- fix stupid label names
+- perf: keep the pre-launch file sweep off the runtime threads
+- fix: center cosmetic previews in wardrobe
+- fix: wardrobe card border hidden behind button (#1070)
+- fix: possibly fixed the loader cards rendering issue
+- fix: truncate long names in the log picker
+- chore: removed radio buttons from new instance creator
+- feat: added custom shared dirs
+- feat: added manual update button
+- feat: polyplus warning will only show once if user disables it
+- fix: fixed horizontal scrollbar in logs view
+- chore: changed the color of live log tab to blue
+- chore: added version plus loader on home page for OneClient clusters
+- fix: revamped the loader update modal
+- merged 'main' into fix/loader-update-modal
+- chore: added truncation of the middle when exporting to mclogs
+- feat: setup for i18n
+- merged 'main' into feat/i18n
+- Set R2 prefix for Crowdin publish
+- Feat/merge duplicate packages
+- fix: reset only unparseable settings instead of the whole file
+- ci: upload flatpak bundle from a separate job
+- fix: wardrobe skin changing
+- chore: added disable anyway button for dependencies
+- feat: added new cluster picker instead of t he dropdown
+- perf: show cached package metadata before the provider fetch
+- feat: smooth scrolling
+- feat: LC_ALL=C.UTF-8 added to all Minecraft processes on Linux
+- feat: wardrobe context menu
+- fix: missing semicolon caused by lazy merge conflict fixing
+- feat: wardrobe page now has a spinner
+- chore: make rendering backend switch respect only options.txt
+- fix: made the button have the same height as launch button in cluster view
+- chore: mark installed jdks as installed in the java downloader dialog
+- feat: added an option in settings to not show live log on launch
+- fix: stop self-updates from recreating the desktop shortcut
+
 # 2.9.0
 
 - Revert "chore: release 2.9.0"
