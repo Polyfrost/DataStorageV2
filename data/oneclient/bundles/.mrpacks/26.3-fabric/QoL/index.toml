@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/fovchanger.pw.toml"
-hash = "61d69a47ab970d15a7b40c905806fd17deeb3acc464ae5f79c9d5e5dd7ece18d"
+hash = "d6d18fb6c6839ca74b21e0ab87da9dd82682d12185cb80b5a41e11c58a5f4496"
 metafile = true
 
 [[files]]
