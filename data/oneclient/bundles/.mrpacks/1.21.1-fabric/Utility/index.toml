@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "092e288ce82f4a6de8893937384681022adcca2e5590a96b8b18c72424ad1710"
+hash = "4f7921adface3080dd6b11a0dc987eacfb813c17415efd0ed09976c9baa43239"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/remember-my-txt.pw.toml"
-hash = "114cb66c737ac99ed78bebfaa342ab90e1bf8cef7b0e4ec88b29ef1f01204630"
+hash = "eb2240771bbf148d5d016d8e200de9e5148743202ce37a090e1f85b880383706"
 metafile = true
 
 [[files]]

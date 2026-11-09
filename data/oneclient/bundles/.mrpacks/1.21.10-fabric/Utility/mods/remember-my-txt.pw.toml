@@ -2,16 +2,16 @@ id = "2GLXmVz9"
 enabled = true
 hidden = false
 name = "Remember My Txt"
-filename = "remember-my-txt-1.0.4+MC1.21.6.jar"
+filename = "remember-my-txt-1.0.6+MC1.21.6.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/2GLXmVz9/versions/U3BS5cDk/remember-my-txt-1.0.4%2BMC1.21.6.jar"
+url = "https://cdn.modrinth.com/data/2GLXmVz9/versions/NAVGIX2p/remember-my-txt-1.0.6%2BMC1.21.6.jar"
 hash-format = "sha512"
-hash = "dda8a9dd219d98b77b06cc570910cb8984072424dbc2cda51582186f46095afe55de9649ee42435165cb31c42f4166d84c75c2283bc57b00e77e068a58efb2d4"
+hash = "5a1035db8e0bee426276b88d295797ea71282608158df80db0a7f043f8f187178280c21d32c984a0dcad4dae6a67fb72e2318e34bdf4ea9cffa15a268aefea7c"
 
 [update]
 [update.modrinth]
 mod-id = "2GLXmVz9"
-version = "U3BS5cDk"
+version = "NAVGIX2p"
