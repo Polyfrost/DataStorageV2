@@ -290,8 +290,8 @@ hash = "32ac99e813164c3d6a7758285c042f3d20b4382f53d5e9165ad8f5e92aef9807"
 metafile = true
 
 [[files]]
-file = "mods/screenshotmessageenhancer.pw.toml"
-hash = "d950a897613fd09dc348312b755c1b6d5bcb96e4a91f109df81a820353d1b03b"
+file = "mods/screencapper.pw.toml"
+hash = "5ce2ec354e8f9b2f8a125c1e775520d310cc2e9f3557f1c9763ffcb1696402c3"
 metafile = true
 
 [[files]]

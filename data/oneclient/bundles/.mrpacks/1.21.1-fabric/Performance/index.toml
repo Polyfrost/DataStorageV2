@@ -190,11 +190,6 @@ hash = "9c38bae7b0962ad93a7105d5b40fee2003e2e28de0b755b580ce14b8d8dc08c8"
 metafile = true
 
 [[files]]
-file = "mods/screenshot-compression.pw.toml"
-hash = "3ed896508e5bf51453891c928b3dd63c2441bdd1d02e63fdd32064d9e0a0c5fb"
-metafile = true
-
-[[files]]
 file = "mods/servercore.pw.toml"
 hash = "43854e3c4a47eb08468dda5e7553826f85f334f5f889d79ba195a838b6c7ad2c"
 metafile = true
