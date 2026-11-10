@@ -1,0 +1,17 @@
+id = "yzNFLSqx"
+enabled = true
+hidden = false
+name = "Screencapper"
+filename = "screencapper-2.1.0+1.8.9.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://cdn.modrinth.com/data/yzNFLSqx/versions/rXMgPu5w/screencapper-2.1.0%2B1.8.9.jar"
+hash-format = "sha512"
+hash = "48b5c5da02b63109d2956afb2e1c1e096677f84f5711f97186bb30901cf0cb45cf898cf9681613c7ca0aa4ca58aad0cd7d5ab16db133fcb9b8b315163cd85dbc"
+
+[update]
+[update.modrinth]
+mod-id = "yzNFLSqx"
+version = "rXMgPu5w"
