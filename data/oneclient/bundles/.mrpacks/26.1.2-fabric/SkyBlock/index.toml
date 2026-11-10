@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "fed8e19b9afd10199b0e48a958ac015df5e6f678888239ed643b340c9030a848"
+hash = "6ce13b4ce9a18fbbfc68ba550385fccbe7b8460c62f4a22b9af2df687595a5c1"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyblock-item-list.pw.toml"
-hash = "9affbd2dfa1bfd6d50a1c6441f95c68819fcac3552eadf3ba1a55e6d24709463"
+hash = "55764873a21176f1b4d113b1079ffe16f832b6c92384b1c9c4ee2647e8dbfac9"
 metafile = true
 
 [[files]]

@@ -2,15 +2,15 @@ id = "OaKmV2nB"
 enabled = true
 hidden = false
 name = "SkyBlock Item List"
-filename = "skyblock-item-list-0.0.24+26.3.jar"
+filename = "skyblock-item-list-0.0.25+26.3.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/OaKmV2nB/versions/rZqP9GZR/skyblock-item-list-0.0.24%2B26.3.jar"
+url = "https://cdn.modrinth.com/data/OaKmV2nB/versions/kc3Lu0e7/skyblock-item-list-0.0.25%2B26.3.jar"
 hash-format = "sha512"
-hash = "6be554b2a153ac05ad4dfcf3ac3561b96a92115549ac4e9493af623b1cccef21547d161fa624b555c4da679845608e67f2b19a55363986a62ddf7e41cedfa472"
+hash = "cf6c6ed7e6b5dca8540b6154c0595e06854a5bc897140335399c7de382079f5b82362fa08a851f03965ca28980b47f940972bbaec6cf6a06abd33eb8d74a9bd6"
 
 [update]
 [update.modrinth]
 mod-id = "OaKmV2nB"
-version = "rZqP9GZR"
+version = "kc3Lu0e7"
