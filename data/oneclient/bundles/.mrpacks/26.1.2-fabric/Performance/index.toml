@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "ced535769f4a780ffaa29d38166651c6e9f4b5e4d5a6e694fff5b731845972b7"
+hash = "22002bdac8a9402bb69e28ab7ecb591256bf893478bef01731400eb6b5c52705"
 metafile = true
 
 [[files]]
@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/polydium.pw.toml"
-hash = "63acc18fc2bea1b5e3eea0204f9081088d6fb3017c9db04b1b03b9d4573c0676"
+hash = "4cfa0ee5e1c233358e06bf95d5938200ab3d918c76b4ee76d0775b44222b2716"
 metafile = true
 
 [[files]]

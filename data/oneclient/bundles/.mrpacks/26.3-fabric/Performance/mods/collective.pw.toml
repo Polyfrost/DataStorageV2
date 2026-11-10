@@ -2,16 +2,16 @@ id = "e0M1UDsY"
 enabled = true
 hidden = true
 name = "Collective"
-filename = "collective-26.3.0-8.85.jar"
+filename = "collective-26.3.0-8.86.jar"
 side = "both"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/Jl348nuI/collective-26.3.0-8.85.jar"
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/jfxbozAD/collective-26.3.0-8.86.jar"
 hash-format = "sha512"
-hash = "9ba05e4a4d78e8dde139c593727f10108615e2a83faa98329a4a8592ce03562a6643f79baab514ce0a87925fa92203e707826d913ec60d5d38c5bbd61bea4e3c"
+hash = "08d82111c0c4d4d53e4a686df23f7f579a8988caa0048c512d4fbea2f84c9556072e5b888d4bc785d323cafdeebdd3f3837b07109ed386be3b808a09a694b83a"
 
 [update]
 [update.modrinth]
 mod-id = "e0M1UDsY"
-version = "Jl348nuI"
+version = "jfxbozAD"
