@@ -7,6 +7,7 @@ enabled = true
 category = "HUD"
 id = "hud-26.1.2-fabric"
 update-url = "oneclient/generated/hud-26.1.2-fabric.mrpack"
+java-version-override = 25
 
 [index]
 file = "index.toml"

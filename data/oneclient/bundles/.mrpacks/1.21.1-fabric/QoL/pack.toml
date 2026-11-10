@@ -7,6 +7,7 @@ enabled = true
 category = "QoL"
 id = "qol-1.21.1-fabric"
 update-url = "oneclient/generated/qol-1.21.1-fabric.mrpack"
+java-version-override = 25
 
 [index]
 file = "index.toml"

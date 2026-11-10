@@ -7,6 +7,7 @@ enabled = true
 category = "Performance"
 id = "performance-26.1.2-fabric"
 update-url = "oneclient/generated/performance-26.1.2-fabric.mrpack"
+java-version-override = 25
 
 [index]
 file = "index.toml"

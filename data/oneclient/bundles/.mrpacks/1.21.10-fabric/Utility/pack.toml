@@ -7,6 +7,7 @@ enabled = true
 category = "Utility"
 id = "utility-1.21.10-fabric"
 update-url = "oneclient/generated/utility-1.21.10-fabric.mrpack"
+java-version-override = 25
 
 [index]
 file = "index.toml"
