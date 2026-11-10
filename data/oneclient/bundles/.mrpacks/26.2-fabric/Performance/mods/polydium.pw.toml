@@ -1,0 +1,16 @@
+id = "hbSfT032"
+enabled = true
+hidden = false
+name = "Polydium"
+filename = "polydium-1.4.1+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hbSfT032/versions/fsPX3zbf/polydium-1.4.1%2B26.2.jar"
+hash-format = "sha512"
+hash = "395e9212978bf4093d560502d777595b0718f4f6b56669d20b00320952e9c319243460bb1d345d650abed82a75a01d88a69d270a34303015926e288671e53752"
+
+[update]
+[update.modrinth]
+mod-id = "hbSfT032"
+version = "fsPX3zbf"
