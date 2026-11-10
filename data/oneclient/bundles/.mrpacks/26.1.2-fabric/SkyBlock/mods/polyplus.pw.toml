@@ -2,15 +2,15 @@ id = "Iw9mZi4a"
 enabled = true
 hidden = false
 name = "Poly+ (PolyPlus)"
-filename = "polyplus-1.4.6+26.1.jar"
+filename = "polyplus-1.4.7+26.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Iw9mZi4a/versions/C1u9mkVH/polyplus-1.4.6%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/Iw9mZi4a/versions/ZkfPhIK4/polyplus-1.4.7%2B26.1.jar"
 hash-format = "sha512"
-hash = "94fce3820669997f9c730e0b41298b6700b4e50bb27fa91f0b26cdf2e28052eaebf70a250872ee03c5a0296d68c5c809189259b9228672bea94041c347df5685"
+hash = "1a46b86e9bc53c273142c28e27212830c9e9f329470a736cee44f8c5a3e1e63e37ebb7aa97747e96be557b463606864f5831e654cc6fd00039cc109a9573b8eb"
 
 [update]
 [update.modrinth]
 mod-id = "Iw9mZi4a"
-version = "C1u9mkVH"
+version = "ZkfPhIK4"
