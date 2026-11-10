@@ -1,0 +1,84 @@
+name: "Check Changelog"
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - unlabeled
+    paths:
+      - data/oneclient/bundles/.mrpacks/**
+      - data/oneclient/MODPACK_CHANGELOG.md
+      - scripts/check-changelog.js
+      - scripts/release-changelog.js
+      - scripts/lib/modpack-changelog.js
+      - scripts/lib/mod-updates.js
+      - .github/workflows/check-changelog.yaml
+  push:
+    branches:
+      - main
+    paths:
+      - data/oneclient/bundles/.mrpacks/**
+      - data/oneclient/MODPACK_CHANGELOG.md
+      - scripts/check-changelog.js
+      - scripts/release-changelog.js
+      - scripts/lib/modpack-changelog.js
+      - scripts/lib/mod-updates.js
+      - .github/workflows/check-changelog.yaml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  CheckChangelog:
+    name: Check the modpack changelog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: "pnpm"
+
+      - name: Install node dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check changelog
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          NO_CHANGELOG_LABEL: ${{ contains(github.event.pull_request.labels.*.name, 'no-changelog') }}
+          PUSH_BEFORE: ${{ github.event.before }}
+          ACTOR: ${{ github.actor }}
+          HEAD_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          case "$EVENT_NAME" in
+            pull_request)
+              export CHANGELOG_BASE="$PR_BASE"
+              if [ "$NO_CHANGELOG_LABEL" = "true" ]; then
+                export CHANGELOG_SKIP=1
+              fi
+              ;;
+            push)
+              if [ -n "$PUSH_BEFORE" ] && [ "$PUSH_BEFORE" != "0000000000000000000000000000000000000000" ]; then
+                export CHANGELOG_BASE="$PUSH_BEFORE"
+              fi
+              case "$ACTOR" in
+                *"[bot]") export CHANGELOG_SKIP=1 ;;
+              esac
+              case "$HEAD_MESSAGE" in
+                "chore(update-bundles)"*) export CHANGELOG_SKIP=1 ;;
+              esac
+              ;;
+          esac
+          pnpm check:changelog
