@@ -13,11 +13,15 @@ jobs:
   build:
     name: Generate bundles and build site
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       R2_BUCKET: ${{ secrets.DATA_R2_BUCKET }}
     steps:
       - name: Git checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -60,11 +64,29 @@ jobs:
         run: node ./scripts/generate-mods-json.js
 
       - name: Publish to Modrinth
+        id: publish
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           MODRINTH_MODPACK_PROJECT_ID: ${{ secrets.MODRINTH_MODPACK_PROJECT_ID }}
           MODRINTH_SKYBLOCK_PROJECT_ID: ${{ secrets.MODRINTH_SKYBLOCK_PROJECT_ID }}
         run: node ./scripts/publish-modrinth.js
+
+      - name: Release modpack changelog
+        continue-on-error: true
+        if: steps.publish.outputs.version != '' && github.ref == 'refs/heads/main'
+        env:
+          VERSION: ${{ steps.publish.outputs.version }}
+        run: |
+          node ./scripts/release-changelog.js "$VERSION"
+          git config --global user.name "Changelog Updater[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/oneclient/MODPACK_CHANGELOG.md
+          git commit -m "chore(changelog): release $VERSION" || echo "No changes to commit"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash && git push && break
+            echo "Push failed (attempt $i), retrying..."
+            sleep 5
+          done
 
       - name: Build site
         run: ./scripts/build-site.sh

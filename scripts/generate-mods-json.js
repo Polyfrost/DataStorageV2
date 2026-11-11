@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const toml = require("@iarna/toml");
+const { readPriorities, priorityFor } = require("./lib/mod-priority.js");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const MRPACKS_DIR = path.join(
@@ -10,13 +11,6 @@ const MRPACKS_DIR = path.join(
   "oneclient",
   "bundles",
   ".mrpacks"
-);
-const PRIORITY_FILE = path.join(
-  REPO_ROOT,
-  "data",
-  "oneclient",
-  "bundles",
-  "mod-priority.json"
 );
 const DEFAULT_OUTPUT = path.join(REPO_ROOT, "data", "oneclient", "mods.json");
 
@@ -56,21 +50,6 @@ function parseVersionDir(dir) {
     minecraft: dir.slice(0, index),
     loader: dir.slice(index + 1).toLowerCase(),
   };
-}
-
-function readPriorities() {
-  if (!fs.existsSync(PRIORITY_FILE)) return {};
-  const parsed = JSON.parse(fs.readFileSync(PRIORITY_FILE, "utf-8"));
-  const out = {};
-  for (const [key, value] of Object.entries(parsed)) {
-    if (key.startsWith("$")) continue; // $schema / $comment style keys
-    if (!Number.isInteger(value)) {
-      warn(`mod-priority.json: "${key}" is not an integer, ignoring`);
-      continue;
-    }
-    out[key.toLowerCase()] = value;
-  }
-  return out;
 }
 
 function readBundle(bundleDir) {
@@ -236,15 +215,6 @@ async function fetchProjects(ids) {
   return byId;
 }
 
-function priorityFor(mod, priorities) {
-  for (const key of [mod.slug, mod.projectId, mod.slugHint]) {
-    if (!key) continue;
-    const value = priorities[String(key).toLowerCase()];
-    if (value !== undefined) return { value, matched: String(key).toLowerCase() };
-  }
-  return { value: 0, matched: null };
-}
-
 async function main() {
   const outputFile = process.argv[2]
     ? path.resolve(process.argv[2])
@@ -262,7 +232,7 @@ async function main() {
   const projects = await fetchProjects(
     mods.filter((mod) => !mod.githubSlug).map((mod) => mod.projectId)
   );
-  const priorities = readPriorities();
+  const priorities = readPriorities(warn);
 
   const allEntries = mods.map((mod) => {
     const project = mod.githubSlug ? null : projects.get(mod.projectId);
