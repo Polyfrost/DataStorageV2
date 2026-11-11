@@ -6,7 +6,7 @@ hash = "0f805f773dfb827617e75421d22f77453e3560682635f53ba33eb99093eae53c"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "17c9c0d66d732eb61efd5b8bb61b3a4af1dd27e9266ae93701398c7c85a64a98"
+hash = "95b16ad5676cca6391302150540f41d7648cd407a3927cf1c111bc7a0223822e"
 metafile = true
 
 [[files]]
@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/pylon.pw.toml"
-hash = "f6bc02acf430d87aa0c709309b2772b3d8455399f5925cbdd72b7a2ddf22e8fc"
+hash = "f20a4962f2421c9882dffd282d2e02650f41f5545db8ede2b77748601d8990c9"
 metafile = true
 
 [[files]]

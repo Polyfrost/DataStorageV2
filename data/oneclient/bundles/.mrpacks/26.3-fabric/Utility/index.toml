@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "2ed657be13b1e15af8143a4bdadbd18f7ea98dff69e4d5df84af0726141b4e41"
+hash = "bf4d9bfc59c1a6b3c61535a3e9b96c85b93cc1c653453097db2a6064ab23794b"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "1416366a50f4c0f6009166f8414ab9dab7329ce2bbf3d6b33a935c7cb7deba62"
+hash = "379c274e8c51661e601956c62f391cca9bdb33556a4b15a5f6118d8d6606d0d7"
 metafile = true
 
 [[files]]
