@@ -9,9 +9,9 @@ const { zipSync } = require("fflate");
 
 const VERSION_DIR = path.join(__dirname, "../data/oneclient/bundles/.mrpacks/1.8.9-ornithe");
 const OUTPUT = path.resolve(process.argv[2] || path.join(__dirname, ".cache/oneclient-1.8.9-ornithe-multimc.zip"));
-const META = "https://meta.ornithemc.net";
-const MAVEN = "https://maven.ornithemc.net/releases";
-const MANIFEST = "https://ornithemc.net/mc-versions/version_manifest.json";
+// Polyfrost's mirror of Ornithe meta and maven, so publishing survives Ornithe outages.
+const META = "https://meta.polyfrost.org/ornithe/v1";
+const MAVEN = "https://meta.polyfrost.org/maven/";
 
 async function get(url) {
   const res = await fetch(url);
@@ -52,16 +52,19 @@ async function main() {
   const loader = pack.versions.fabric;
   const javaMajors = pack["java-version-override"] ? [pack["java-version-override"]] : [25, 21, 17, 8];
 
-  const [manifest, [intermediary], profile, extraLibs] = await Promise.all([
-    getJson(MANIFEST),
-    getJson(`${META}/v3/versions/intermediary/${mc}`),
-    getJson(`${META}/v3/versions/fabric-loader/${mc}/${loader}/profile/json`),
-    getJson(`${META}/v3/versions/libraries/${mc}`),
+  const [profile, gameLibraries] = await Promise.all([
+    getJson(`${META}/versions/${mc}/${loader}.json`),
+    getJson(`${META}/game-libraries.json`),
   ]);
-  const entry = manifest.versions.find((version) => version.id === mc);
-  if (!entry) throw new Error(`Minecraft ${mc} is not in the Ornithe version manifest`);
+  const intermediary = profile.libraries.find((lib) => lib.name.startsWith("net.ornithemc:calamus-intermediary"));
   if (!intermediary) throw new Error(`no Calamus intermediary for Minecraft ${mc}`);
-  const vanilla = await getJson(entry.url);
+  // Ornithe's gen2 version json, vendored from ornithemc.net/mc-versions/gen2/version/manifest/<mc>.json
+  const vanilla = JSON.parse(fs.readFileSync(path.join(__dirname, `ornithe-${mc}.json`), "utf8"));
+  // LWJGL already comes from the vanilla json; the mirror adds its own copies here
+  const extraLibs = (gameLibraries[mc] || [])
+    .filter((lib) => !lib.name.startsWith("org.lwjgl"))
+    .map(({ name, url }) => ({ name, url }));
+  const jvmArgs = (profile.arguments?.jvm || []).filter((arg) => typeof arg === "string");
 
   const lwjgl = vanilla.libraries.find((lib) => lib.name.split(":")[1] === "lwjgl");
   const lwjglVersion = lwjgl.name.split(":")[2];
@@ -98,7 +101,7 @@ async function main() {
     {
       cachedName: "Intermediary Mappings",
       cachedRequires: [{ equals: mc, uid: "net.minecraft" }],
-      cachedVersion: intermediary.version,
+      cachedVersion: mc,
       dependencyOnly: true,
       uid: "net.fabricmc.intermediary",
       version: mc,
@@ -147,17 +150,17 @@ async function main() {
     uid: "net.minecraft",
     version: mc,
     ...(traits.length && { "+traits": traits }),
-    ...(profile.arguments?.jvm && { "+jvmArgs": profile.arguments.jvm }),
+    ...(jvmArgs.length && { "+jvmArgs": jvmArgs }),
   });
 
   files["patches/net.fabricmc.intermediary.json"] = json({
     formatVersion: 1,
-    libraries: [{ name: intermediary.maven, url: MAVEN }],
+    libraries: [{ name: intermediary.name, url: MAVEN }],
     name: "Intermediary Mappings",
     requires: [{ equals: mc, uid: "net.minecraft" }],
     type: "release",
     uid: "net.fabricmc.intermediary",
-    version: intermediary.version,
+    version: mc,
   });
 
   for (const lib of extraLibs) {
