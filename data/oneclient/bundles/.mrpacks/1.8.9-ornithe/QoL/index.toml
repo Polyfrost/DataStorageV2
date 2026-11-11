@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/pylon.pw.toml"
-hash = "f6bc02acf430d87aa0c709309b2772b3d8455399f5925cbdd72b7a2ddf22e8fc"
+hash = "f20a4962f2421c9882dffd282d2e02650f41f5545db8ede2b77748601d8990c9"
 metafile = true
 
 [[files]]
