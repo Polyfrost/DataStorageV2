@@ -150,23 +150,8 @@ hash = "325e3528cbaab5a56847d48d0ebfd1c02bd9515961d7e5930fe7a4cb12befb3b"
 metafile = true
 
 [[files]]
-file = "mods/hybedwars.pw.toml"
-hash = "e15a41e5f7f017ebacc59288df2fe88c1b268fd470503f26611b04d4840fee18"
-metafile = true
-
-[[files]]
-file = "mods/hybridge.pw.toml"
-hash = "ab27e55c12ba7117f5cb24aed706785d9e20ae0ee8cc0bc352f8f2def09bd72e"
-metafile = true
-
-[[files]]
 file = "mods/hychatter.pw.toml"
 hash = "a37791502411c96ee5bb1f98c57a88be821078f0988db7e1b0445023b0eec636"
-metafile = true
-
-[[files]]
-file = "mods/hyinfo.pw.toml"
-hash = "af968437a3a2ae357ab01a13b902ed64b7cc85d4c2d0df004534e25db9b4e495"
 metafile = true
 
 [[files]]
