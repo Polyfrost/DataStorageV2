@@ -1,0 +1,16 @@
+id = "TdlcEuAc"
+enabled = true
+hidden = false
+name = "HyBridge"
+filename = "HyBridge-1.0.0-26.2+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TdlcEuAc/versions/4MZ2AfcL/HyBridge-1.0.0-26.2%2B_fabric.jar"
+hash-format = "sha512"
+hash = "478aa7949eeb5986ebe8ba6e22e2a3669ad472e1fc87cfdbce14178534aa89e49f35a25b5cda748861a8e3b33ce0289ab7356fd28cf971637cc4ba91d015ffc3"
+
+[update]
+[update.modrinth]
+mod-id = "TdlcEuAc"
+version = "4MZ2AfcL"

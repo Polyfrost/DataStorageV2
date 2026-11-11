@@ -1,0 +1,16 @@
+id = "4dNGXeZO"
+enabled = true
+hidden = false
+name = "HyInfo"
+filename = "HyInfo-3.0.0-26.3+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/sFBvjo8n/HyInfo-3.0.0-26.3%2B_fabric.jar"
+hash-format = "sha512"
+hash = "c148deca965dd9f25ea70abcfa1d1a9e05e14752ea56d4dc8fd1c8d69ad702e3977dcead49fc39cfe45ae367f69e45c1a25cd482d674d7b601c871ec535ed1d3"
+
+[update]
+[update.modrinth]
+mod-id = "4dNGXeZO"
+version = "sFBvjo8n"

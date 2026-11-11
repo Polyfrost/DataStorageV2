@@ -1,0 +1,16 @@
+id = "TdlcEuAc"
+enabled = true
+hidden = false
+name = "HyBridge"
+filename = "HyBridge-1.0.0-26.1+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/TdlcEuAc/versions/KfMLAcUp/HyBridge-1.0.0-26.1%2B_fabric.jar"
+hash-format = "sha512"
+hash = "629209f2658f4e3be70058bfb8da66b8ed835576ba6c938a30488c17f6333724ae50d708dcd7250b0a6e3c9823a012a2e5588d9431067ff51cc07145ee12bf66"
+
+[update]
+[update.modrinth]
+mod-id = "TdlcEuAc"
+version = "KfMLAcUp"

@@ -1,25 +1,16 @@
-id = "HyBridge"
+id = "TdlcEuAc"
 enabled = true
 hidden = false
 name = "HyBridge"
-filename = "HyBridge-0.0.1-1.8.9_ornithe.jar"
+filename = "HyBridge-1.0.0-1.8.9_ornithe.jar"
 side = "client"
-type = "normal"
-
-[overrides]
-icon = "https://raw.githubusercontent.com/TomekoYT/HyBridge/main/src/main/resources/assets/hybridge/icon.png"
-name = "HyBridge"
-authors = ["Tomeko"]
-description = "Adds a height overlay for The Bridge on Hypixel."
 
 [download]
-url = "https://github.com/TomekoYT/HyBridge/releases/download/v0.0.1/HyBridge-0.0.1-1.8.9_ornithe.jar"
-hash-format = "sha256"
-hash = "c79aee674a3292ab8f5e77c10e8b86e62ff5edf464ceb87c7f8818401e4dbbec"
+url = "https://cdn.modrinth.com/data/TdlcEuAc/versions/Ns3zmauy/HyBridge-1.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "80ed84d8bd5bebccd66bf399e41d8900625ca53dad6efcca5711c92f33b516e282082d8e11d08ed597d53ed6c29335056668ae1b576a88bdfd1605e0614b6420"
 
 [update]
-[update.github]
-branch = "main"
-regex = "1\\.8\\.9_ornithe\\.jar$"
-slug = "TomekoYT/HyBridge"
-tag = "v0.0.1"
+[update.modrinth]
+mod-id = "TdlcEuAc"
+version = "Ns3zmauy"

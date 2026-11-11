@@ -1,25 +1,16 @@
-id = "HyLobby"
+id = "eyD1lgpB"
 enabled = true
 hidden = false
 name = "HyLobby"
-filename = "HyLobby-0.2.0-1.8.9_ornithe.jar"
+filename = "HyLobby-1.0.0-1.8.9_ornithe.jar"
 side = "client"
-type = "normal"
-
-[overrides]
-icon = "https://raw.githubusercontent.com/TomekoYT/HyLobby/main/src/main/resources/assets/hylobby/icon.png"
-name = "HyLobby"
-authors = ["Tomeko"]
-description = "Adds Hypixel lobby features like middle-click GUI items and a sound silencer."
 
 [download]
-url = "https://github.com/TomekoYT/HyLobby/releases/download/v0.2.0/HyLobby-0.2.0-1.8.9_ornithe.jar"
-hash-format = "sha256"
-hash = "d74d419a9960b1c984305df83a9790b794e404d83f82ad4cf875f472eb9feacd"
+url = "https://cdn.modrinth.com/data/eyD1lgpB/versions/aIx3Ou0e/HyLobby-1.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "8986a443b428f6fb691d7294af7ee6e816176e0cdc757dccd2b01ccc705b76ef77f6d237cfc81e6ff156c2d2310e9ecef27883e0f1c1d8cd5a7da18c6ffae2bc"
 
 [update]
-[update.github]
-branch = "main"
-regex = "1\\.8\\.9_ornithe\\.jar$"
-slug = "TomekoYT/HyLobby"
-tag = "v0.2.0"
+[update.modrinth]
+mod-id = "eyD1lgpB"
+version = "aIx3Ou0e"

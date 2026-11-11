@@ -1,0 +1,16 @@
+id = "PpCuCnXh"
+enabled = true
+hidden = false
+name = "HyBedWars"
+filename = "HyBedWars-1.0.0-26.1+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PpCuCnXh/versions/1mPk5Y1i/HyBedWars-1.0.0-26.1%2B_fabric.jar"
+hash-format = "sha512"
+hash = "8d32fd884cfa1100ed8d9b11a292a43639ea523bb5479011948e7608307625c99e19625e4fcff2595282984eead3437bc4d29cf85e88263020293d4793a8fe9b"
+
+[update]
+[update.modrinth]
+mod-id = "PpCuCnXh"
+version = "1mPk5Y1i"
