@@ -1,3 +1,3 @@
-# Remove Reloading Screen (RRLLS)
+# Remove Reloading Screen (RRLS)
 
-OneClient already ships safer mods that remove the reloading screen. RRLS IS KNOWN TO CAUSE CRASHES!
+OneClient already includes Polydium, which does the same thing but safer. INSTALLING THIS MOD WILL CAUSE CRASHES!

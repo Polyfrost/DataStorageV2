@@ -209,7 +209,20 @@
             },
             "name": "Remove Reloading Screen (RRLS)",
             "author": "dima_dencep",
-            "explanation": "/oneclient/bad_mods_mds/rrls.md"
+            "explanation": "/oneclient/bad_mods_mds/rrls.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "hbSfT032",
+                        "curseforge": "1740837"
+                    }
+                },
+                {
+                    "project-ids": {
+                        "modrinth": "blWBX5n1"
+                    }
+                }
+            ]
         },
         {
             "project-ids": {
