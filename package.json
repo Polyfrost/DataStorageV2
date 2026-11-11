@@ -7,6 +7,7 @@
     "check": "node scripts/check.js && node scripts/check-featured-servers.js",
     "check:servers": "node scripts/check-featured-servers.js",
     "check:compat": "node scripts/compat-check.js",
+    "check:changelog": "node scripts/check-changelog.js",
     "generate:modrinth": "bash scripts/generate-modrinth-packs.sh",
     "generate:curseforge": "bash scripts/generate-curseforge-packs.sh",
     "generate:multimc": "node scripts/generate-multimc-instance.js",
@@ -14,6 +15,7 @@
     "publish:modrinth": "node scripts/publish-modrinth.js",
     "publish:curseforge": "node scripts/publish-curseforge.js",
     "update:changelog": "node scripts/update-changelog.js",
+    "release:changelog": "node scripts/release-changelog.js",
     "test": "node --test scripts/lib/*.test.js"
   },
   "keywords": [],

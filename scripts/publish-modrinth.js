@@ -46,6 +46,7 @@ const PROJECTS = [
     prefix: "oneclient-",
     projectId: process.env.MODRINTH_MODPACK_PROJECT_ID,
     displayName: "OneClient",
+    releasesChangelog: true,
   },
 ];
 
@@ -184,6 +185,8 @@ async function main() {
     return;
   }
 
+  let releasedVersion = null;
+
   for (const [project, entries] of byProject) {
     console.log(`Project ${project.displayName} (${project.projectId}):`);
     const { contentHashes, nextPatch } = await projectState(project.projectId);
@@ -204,7 +207,12 @@ async function main() {
         versionNumber,
         contentSha1,
       });
+      if (project.releasesChangelog) releasedVersion = versionNumber;
     }
+  }
+
+  if (releasedVersion && process.env.GITHUB_OUTPUT) {
+    fs.appendFileSync(process.env.GITHUB_OUTPUT, `version=${releasedVersion}\n`);
   }
 }
 
