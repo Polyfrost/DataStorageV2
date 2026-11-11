@@ -269,7 +269,7 @@
             },
             "name": "Noisium",
             "author": "Steveplayers",
-            "explanation": "/oneclient_bad_mods_mds/noisium.md"
+            "explanation": "/oneclient/bad_mods_mds/noisium.md"
         },
         {
             "project-ids": {
@@ -278,7 +278,7 @@
             },
             "name": "NoisiumForked",
             "author": "Coredex",
-            "explanation": "/oneclient_bad_mods_mds/noisium.md"
+            "explanation": "/oneclient/bad_mods_mds/noisium.md"
         }
     ]
 }
