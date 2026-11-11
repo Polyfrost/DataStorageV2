@@ -261,6 +261,24 @@
             "name": "Exordium",
             "author": "tr7zw",
             "explanation": "/oneclient/bad_mods_mds/exordium.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "KuNKN7d2",
+                "curseforge": "930207"
+            },
+            "name": "Noisium",
+            "author": "Steveplayers",
+            "explanation": "/oneclient_bad_mods_mds/noisium.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "hasdd01q",
+                "curseforge": "1357563"
+            },
+            "name": "NoisiumForked",
+            "author": "Coredex",
+            "explanation": "/oneclient_bad_mods_mds/noisium.md"
         }
     ]
 }
