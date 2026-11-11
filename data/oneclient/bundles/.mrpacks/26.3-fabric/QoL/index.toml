@@ -266,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/screencapper.pw.toml"
-hash = "c58131c1227eec84e61c4b006c4923ff325315c8da509c74f217cc3770f3b522"
+hash = "8cb8b9ce7337aea916c554bdde47141b9c530944bba9f52c3dd35727039fe244"
 metafile = true
 
 [[files]]
