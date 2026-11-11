@@ -2,7 +2,7 @@ id = "1je3wJFn"
 enabled = true
 hidden = false
 name = "Render Tweaks"
-filename = "rendertweaks-2.2.0+1.8.9-fabric.jar"
+filename = "rendertweaks-2.2.0-hotfix.1+1.8.9-fabric.jar"
 side = "client"
 type = "normal"
 
@@ -13,11 +13,11 @@ authors = ["Microcontrollers"]
 description = "Allows modifying the rendering of some in world things"
 
 [download]
-url = "https://cdn.modrinth.com/data/1je3wJFn/versions/tbkbS9BD/rendertweaks-2.2.0%2B1.8.9-fabric.jar"
+url = "https://cdn.modrinth.com/data/1je3wJFn/versions/sd1v92qR/rendertweaks-2.2.0-hotfix.1%2B1.8.9-fabric.jar"
 hash-format = "sha512"
-hash = "2521f8b2a60d3cf7fea4394f51b1a83f6329a9589f36b1586754e10548076b0f0882bafece15f4c657f3a0b8b53fa46c8ef560f955d1da6b911e270e8f532865"
+hash = "6f6834bdfa850cc6b20b1d8d5079d5e5f4a3b04a7a70c69cf98df52d213d76b09a7234e4d6f817193995efd58eee54c8b18c52bb8b9e99eb603ed9731b841c5d"
 
 [update]
 [update.modrinth]
 mod-id = "1je3wJFn"
-version = "tbkbS9BD"
+version = "sd1v92qR"

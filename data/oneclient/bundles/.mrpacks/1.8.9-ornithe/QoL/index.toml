@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-screens.pw.toml"
-hash = "adb57b8879129f0330c215a8dfe329cf026589708c763c6ca6f00123074d9484"
+hash = "211ea8a787dc933baf5f681c3e5f10f4c3f8646e774b3c2abff9a2475e4e1fbf"
 metafile = true
 
 [[files]]
@@ -226,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/rendertweaks.pw.toml"
-hash = "4d2dfc1c251faababce5c02d0ce7110a1265949d1ddf68d2a5fdc419b31de298"
+hash = "5902e97e62b8e9213fc89bc7f1193aff7f8be67dcbcf2f8285ef87b60c39c4a5"
 metafile = true
 
 [[files]]
