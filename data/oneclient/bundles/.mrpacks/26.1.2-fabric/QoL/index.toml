@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "a7132b425a7390bb76426e3e8e042a5a1672e89a0f08007905633c5ec7c14792"
+hash = "a8c791fe6dcd2daa805c4683ae2f41f8c67e19b617687a7095e19243d1f6b1db"
 metafile = true
 
 [[files]]
