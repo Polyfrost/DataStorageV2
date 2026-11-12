@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- Updated Pylon from 0.2.7 to 0.2.8.
+
 ## [2.0.512] - 2026-11-10
 
 ### Added
