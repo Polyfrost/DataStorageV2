@@ -209,7 +209,20 @@
             },
             "name": "Remove Reloading Screen (RRLS)",
             "author": "dima_dencep",
-            "explanation": "/oneclient/bad_mods_mds/rrls.md"
+            "explanation": "/oneclient/bad_mods_mds/rrls.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "hbSfT032",
+                        "curseforge": "1740837"
+                    }
+                },
+                {
+                    "project-ids": {
+                        "modrinth": "blWBX5n1"
+                    }
+                }
+            ]
         },
         {
             "project-ids": {
@@ -222,7 +235,8 @@
             "alternatives": [
                 {
                     "project-ids": {
-                        "modrinth": "Iw9mZi4a"
+                        "modrinth": "hbSfT032",
+                        "curseforge": "1740837"
                     }
                 }
             ]
@@ -261,6 +275,24 @@
             "name": "Exordium",
             "author": "tr7zw",
             "explanation": "/oneclient/bad_mods_mds/exordium.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "KuNKN7d2",
+                "curseforge": "930207"
+            },
+            "name": "Noisium",
+            "author": "Steveplayers",
+            "explanation": "/oneclient/bad_mods_mds/noisium.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "hasdd01q",
+                "curseforge": "1357563"
+            },
+            "name": "NoisiumForked",
+            "author": "Coredex",
+            "explanation": "/oneclient/bad_mods_mds/noisium.md"
         }
     ]
 }

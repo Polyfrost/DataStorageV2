@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "7e6f4e1e0376b849d33c08d8b522a4a498ead6984c62c20d1796d3a800415711"
+hash = "dc793da1dc7eb3a4404187410549e32c633bf303356647013ed58ad9d54d5741"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "ed3247c82d8473b4e398ff32692bb8778558f567507c6c06ade8e6688be67b5d"
+hash = "75a1c7a89cce56d047830252c4277ebbc781c2cf242623e2e8d8ff11be4aa31c"
 metafile = true
 
 [[files]]
@@ -141,12 +141,12 @@ metafile = true
 
 [[files]]
 file = "mods/polydium.pw.toml"
-hash = "91371b71c978b466cf3398201f9003420b6dd81f7c1f95b8c2d7285536d68348"
+hash = "902e1b5f0128c8c5c75e40de694bf7af51efface1697e119c7907470d6a4947c"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "b9449e02319b33000e1209b7344fc76bdbc60ecd56ce58f95c1f5a83060ddc2d"
+hash = "23375e1ba3817e318cd0ada78f04dcda0c72ca4ed02187c1561becc76cf6f783"
 metafile = true
 
 [[files]]

@@ -117,6 +117,7 @@ jobs:
         run: ./scripts/build-site.sh
 
       - name: Generate Prism Launcher instance
+        continue-on-error: true
         run: node ./scripts/generate-multimc-instance.js _site/oneclient/bundles/generated/oneclient-1.8.9-ornithe-multimc.zip
 
       - name: Deploy to R2

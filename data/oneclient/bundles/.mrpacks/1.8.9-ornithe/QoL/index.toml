@@ -6,7 +6,7 @@ hash = "0f805f773dfb827617e75421d22f77453e3560682635f53ba33eb99093eae53c"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "17c9c0d66d732eb61efd5b8bb61b3a4af1dd27e9266ae93701398c7c85a64a98"
+hash = "95b16ad5676cca6391302150540f41d7648cd407a3927cf1c111bc7a0223822e"
 metafile = true
 
 [[files]]
@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "504eb740ec2194e3bd1a7b14a8a064c9236f9d752c11bde95e7bee9c7d8bf82b"
+hash = "d978a1fa10ddc13d4a1eb955015d5d44c9a683821fb13087d2128ae52a0fbf6e"
 metafile = true
 
 [[files]]
@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "3c47ad8aa8bcbd164733e54d5b3a93d287b560f0390b817d5be92b47ab206721"
+hash = "56406539bacb9f46e35f6bec08bfa1a9608e07c8d6af43473f0cda536108263e"
 metafile = true
 
 [[files]]

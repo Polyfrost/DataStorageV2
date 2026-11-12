@@ -23,13 +23,18 @@ export AWS_DEFAULT_REGION="auto"
 export AWS_REQUEST_CHECKSUM_CALCULATION="when_required"
 export AWS_RESPONSE_CHECKSUM_VALIDATION="when_required"
 
+# Keep the last uploaded Prism instance when Ornithe is down and it could not be generated.
+PRISM_ZIP="oneclient/bundles/generated/oneclient-1.8.9-ornithe-multimc.zip"
+KEEP=()
+[ -f "$SITE_DIR/$PRISM_ZIP" ] || KEEP=(--exclude "$PRISM_ZIP")
+
 sync_site() {
   aws s3 sync "$SITE_DIR" "s3://$R2_BUCKET" \
     --endpoint-url "https://$R2_ACCOUNT_ID.r2.cloudflarestorage.com" \
     --delete \
     --no-progress \
     --cache-control "max-age=600" \
-    "$@"
+    "$@" ${KEEP[@]+"${KEEP[@]}"}
 }
 
 sync_site --exclude "*.json" --exclude "*.md" --exclude "*.txt"
