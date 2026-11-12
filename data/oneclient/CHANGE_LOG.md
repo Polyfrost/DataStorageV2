@@ -1,3 +1,15 @@
+# 2.10.1
+
+- chore: allowed special characters for clusters names
+- chore: added mclogs button in crash ui
+- fix: fixed OneClient throwing os error (permissions denied) when trying to sync a dedicated folder again with skyblocker
+- chore: changed the topbar design in social window
+- fix: fixed contrast on some components
+- feat: added folders as resource packs
+- feat: move sharing and content up in cluster settings (#1213)
+- Fix typo in COPR installation instruction
+- Fix dedicated GPU default on Windows
+
 # 2.10.0
 
 - chore: censor username
