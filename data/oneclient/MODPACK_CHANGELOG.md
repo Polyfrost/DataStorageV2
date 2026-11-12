@@ -6,9 +6,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [2.0.523] - 2026-11-12
+
 ### Changed
 
 - Updated Pylon from 0.2.7 to 0.2.8.
+- Updated OneConfig from 1.6.2 to 1.7.0. ([Changelog](https://modrinth.com/project/AibBIVmj/version/uXzmmgO2))
+- Updated EvergreenHUD from 3.9.17 to 3.9.18. ([Changelog](https://modrinth.com/project/1yIQcc2b/version/rif8eRQs))
+- Updated Poly+ (PolyPlus) from 1.4.7 to 2.0.4. ([Changelog](https://modrinth.com/project/Iw9mZi4a/version/KUil34vA))
+- Updated Argentum from 1.0.3-beta.2 to 1.0.3-beta.5.
+- Updated Argentum Extras from 1.0.3-beta.2 to 1.0.3-beta.3.
+- Updated Better Screens from 2.1.1-hotfix.2 to 2.1.1-hotfix.3. ([Changelog](https://modrinth.com/project/PBbfPJZN/version/FmsDiYZ1))
+- Updated Cera from 1.0.3-beta.2 to 1.0.3-beta.3.
+- Updated Collective from 8.85 to 8.86. ([Changelog](https://modrinth.com/project/e0M1UDsY/version/jfxbozAD))
+- Updated Concurrent Chunk Management Engine (Fabric) from 0.4.0-alpha.0.70 to 0.4.0-alpha.0.71 on 26.1.2. ([Changelog](https://modrinth.com/project/VSNURh3q/version/Hzge5Rlo))
+- Updated Concurrent Chunk Management Engine (Fabric) from 0.4.2-alpha.0.66 to 0.4.2-alpha.0.67 on 26.2. ([Changelog](https://modrinth.com/project/VSNURh3q/version/uR0wg5ss))
+- Updated Fabric API from 0.166.0 to 0.166.2. ([Changelog](https://modrinth.com/project/P7dR8mSH/version/Zns5SSRA))
+- Updated Forge Compat from 1.0.1 to 1.0.2.
+- Updated OverflowAnimations from 5.1.5 to 5.1.6. ([Changelog](https://modrinth.com/project/4Hfmgaef/version/IztZkgxI))
+- Updated Polydium from 1.4.1 to 1.4.5. ([Changelog](https://modrinth.com/project/hbSfT032/version/vluGI1YH))
+- Updated Render Tweaks from 2.2.0 to 2.2.0-hotfix.1. ([Changelog](https://modrinth.com/project/1je3wJFn/version/sd1v92qR))
+- Updated SkyBlock Item List from 0.0.24 to 0.0.25. ([Changelog](https://modrinth.com/project/OaKmV2nB/version/kc3Lu0e7))
 
 ## [2.0.512] - 2026-11-10
 
@@ -1528,7 +1546,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Includes Simple Voice Chat, Controlify, Zoomify and Jade.
 - Includes SkyHanni, Skyblocker and Catharsis in the SkyBlock bundle.
 
-[unreleased]: https://github.com/Polyfrost/DataStorageV2/compare/9b94c7b7dd18f727912083ebbb9f0b776fec0f2a...HEAD
+[unreleased]: https://github.com/Polyfrost/DataStorageV2/compare/33cccc8010f739efc198a5c7a24d4271b8acd1ee...HEAD
+[2.0.523]: https://github.com/Polyfrost/DataStorageV2/compare/9b94c7b7dd18f727912083ebbb9f0b776fec0f2a...33cccc8010f739efc198a5c7a24d4271b8acd1ee
 [2.0.512]: https://github.com/Polyfrost/DataStorageV2/compare/d8bb668889029ca025c0e6849458f8aa9d7f5413...9b94c7b7dd18f727912083ebbb9f0b776fec0f2a
 [2.0.501]: https://github.com/Polyfrost/DataStorageV2/compare/5691953ec108c309ca56dc86dab56a1f97e36716...d8bb668889029ca025c0e6849458f8aa9d7f5413
 [2.0.491]: https://github.com/Polyfrost/DataStorageV2/compare/3d38eb103e8d02054edd5af4b6032cc581986148...5691953ec108c309ca56dc86dab56a1f97e36716
