@@ -1,3 +1,15 @@
+# 2.10.2
+
+- feat: added inventory crate implementation to the searchbar in settings
+- fix: keep grid card badges above the selection outline
+- feat: added migrating to a new instance
+- feat: added overrides in browser
+- feat: polished social menu and added group renaming
+- fix: dismissing a context menu propagating other click events
+- fix: fixed overlapping popups in the social panel
+- fix: fixed wardrobe view not scaling up
+- fix: use deprecated zip reader that works properly with zip64 headers
+
 # 2.10.1
 
 - chore: allowed special characters for clusters names
