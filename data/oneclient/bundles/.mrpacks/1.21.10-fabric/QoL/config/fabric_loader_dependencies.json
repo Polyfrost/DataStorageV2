@@ -12,6 +12,11 @@
                 "vulkanmod": "*"
             }
         },
+        "hold_that_chunk_2": {
+            "+breaks": {
+                "holdthatchunk": "*"
+            }
+        },
         "idontwannascrollagain": {
             "-depends": {
                 "minecraft": "IGNORED"

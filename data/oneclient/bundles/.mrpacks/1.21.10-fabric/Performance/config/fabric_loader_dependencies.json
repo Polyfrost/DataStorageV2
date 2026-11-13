@@ -1,6 +1,11 @@
 {
     "version": 1,
     "overrides": {
+        "hold_that_chunk_2": {
+            "+breaks": {
+                "holdthatchunk": "*"
+            }
+        },
         "vmp": {
             "+breaks": {
                 "voxyworldgenv3": "*"

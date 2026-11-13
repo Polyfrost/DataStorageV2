@@ -293,6 +293,23 @@
             "name": "NoisiumForked",
             "author": "Coredex",
             "explanation": "/oneclient/bad_mods_mds/noisium.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "LXJlc5WJ",
+                "curseforge": "657481"
+            },
+            "name": "Hold That Chunk",
+            "author": "dlee13 / The_TermiGator",
+            "explanation": "/oneclient/bad_mods_mds/hold-that-chunk.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "L4u8Yt14",
+                        "curseforge": "1340139"
+                    }
+                }
+            ]
         }
     ]
 }

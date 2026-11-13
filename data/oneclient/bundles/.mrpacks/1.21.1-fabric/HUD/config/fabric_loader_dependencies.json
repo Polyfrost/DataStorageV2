@@ -5,6 +5,11 @@
             "+breaks": {
                 "detailabreconst": "*"
             }
+        },
+        "hold_that_chunk_2": {
+            "+breaks": {
+                "holdthatchunk": "*"
+            }
         }
     }
 }
