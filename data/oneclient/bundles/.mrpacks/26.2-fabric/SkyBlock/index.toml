@@ -37,17 +37,17 @@ metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "7b5ad4d0039673effcbecedf6ad9d9abe4706a87f72c0bf061fee2370d9fbdc2"
+hash = "f438ab03bfd9d2d919252c12cef4f6fce290f2f816b885a16f5536f050616821"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "75a1c7a89cce56d047830252c4277ebbc781c2cf242623e2e8d8ff11be4aa31c"
+hash = "df0c63043ae6f706e7d7acf9a7a96a52e9574481896fba8a8373934953963ae4"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "657cae770180fa5096da35070b7ca75d4dad5decddba2eb0ae5633b348c89320"
+hash = "a23d2cacd3d1f15850f8dde355fec95abd4ddca103759d018c2421c925c993a3"
 metafile = true
 
 [[files]]

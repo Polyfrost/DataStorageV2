@@ -2,16 +2,16 @@ id = "61aTg1r5"
 enabled = true
 hidden = false
 name = "Legacy Skyblock"
-filename = "LegacySkyblock-2.8.0-26.1+_fabric.jar"
+filename = "LegacySkyblock-2.9.0-26.1+_fabric.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/61aTg1r5/versions/jwPy9mnU/LegacySkyblock-2.8.0-26.1%2B_fabric.jar"
+url = "https://cdn.modrinth.com/data/61aTg1r5/versions/utkwzWek/LegacySkyblock-2.9.0-26.1%2B_fabric.jar"
 hash-format = "sha512"
-hash = "ca092c5d7176eb2117e8920995d0b087d53f3deb8644fe56faa6cc2c0c4bb945864c911a8863866ec1b3e3923407cc2c4c9cf99530d6df4e1c16951e819f6f18"
+hash = "73de69fe5e3c1466ff3c5778e1a394621be99dbbe9e9eb9d76b2543227217aa6fddf617333807e83c0a982a2bdc8a0733f54a52815ef1e03e1534ead25362a61"
 
 [update]
 [update.modrinth]
 mod-id = "61aTg1r5"
-version = "jwPy9mnU"
+version = "utkwzWek"
