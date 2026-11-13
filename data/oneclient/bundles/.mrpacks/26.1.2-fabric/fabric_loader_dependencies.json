@@ -1,0 +1,47 @@
+{
+  "overrides": {
+    "centered-crosshair": {
+      "+breaks": {
+        "firstt": "*"
+      }
+    },
+    "cwb": {
+      "+breaks": {
+        "chloride": "*",
+        "vulkanmod": "*"
+      }
+    },
+    "gnetum": {
+      "+breaks": {
+        "exordium": "*",
+        "vulkanmod": "*"
+      }
+    },
+    "idontwannascrollagain": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "nbtac": {
+      "+breaks": {
+        "nbt_ac": "*"
+      }
+    },
+    "packed_packs": {
+      "+breaks": {
+        "async-pack-scan": "*"
+      }
+    },
+    "vmp": {
+      "+breaks": {
+        "voxyworldgenv3": "*"
+      }
+    },
+    "zfastnoise": {
+      "+breaks": {
+        "noisium": "*"
+      }
+    }
+  },
+  "version": 1
+}

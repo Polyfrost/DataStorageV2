@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "b97e8b6fcd822cd8e75e5e4d5947e819f99acf9dfd60891c28ede560e882d7af"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "1cec55ba258d2e2e5284d1aa29ce637dd271411038b58a63afdddc8003e0ba43"
 metafile = true

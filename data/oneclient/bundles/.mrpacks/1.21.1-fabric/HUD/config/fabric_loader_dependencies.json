@@ -1,15 +1,1 @@
-{
-    "version": 1,
-    "overrides": {
-        "detailab": {
-            "+breaks": {
-                "detailabreconst": "*"
-            }
-        },
-        "hold_that_chunk_2": {
-            "+breaks": {
-                "holdthatchunk": "*"
-            }
-        }
-    }
-}
+../../fabric_loader_dependencies.json

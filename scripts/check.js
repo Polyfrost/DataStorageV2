@@ -62,6 +62,7 @@ function checkMod(file) {
 }
 
 function checkBundle(bundlePath, bundle) {
+  if (!fs.statSync(bundlePath).isDirectory()) return;
   const mods = fs.readdirSync(`${bundlePath}/mods`);
   const modIds = [];
   for (const mod of mods) {

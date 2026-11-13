@@ -1,12 +1,1 @@
-{
-    "version": 1,
-    "overrides": {
-        "pylon": {
-            "+breaks": {
-                "lenis": "*",
-                "rawinput": "*",
-                "rawmouseinput": "*"
-            }
-        }
-    }
-}
+../../fabric_loader_dependencies.json

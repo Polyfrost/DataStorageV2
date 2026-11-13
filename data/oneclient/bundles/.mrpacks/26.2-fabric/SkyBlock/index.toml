@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fabric_loader_dependencies.json"
+hash = "71420bb5ef40563dd7105a75035f1a062ae76491faae5303caa97c8060c37434"
+
+[[files]]
 file = "mods/catharsis.pw.toml"
 hash = "e9f3092631b8db935eb80ae533cc1902122e74f3e7e2b77b30471dacbef2724a"
 metafile = true

@@ -1,11 +1,1 @@
-
-{
-    "version": 1,
-    "overrides": {
-        "flashback": {
-            "+breaks": {
-                "skyblock-item-list": "<0.0.23"
-            }
-        }
-    }
-}
+../../fabric_loader_dependencies.json

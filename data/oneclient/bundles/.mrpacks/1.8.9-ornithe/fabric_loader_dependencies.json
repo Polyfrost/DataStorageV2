@@ -1,0 +1,12 @@
+{
+  "overrides": {
+    "pylon": {
+      "+breaks": {
+        "lenis": "*",
+        "rawinput": "*",
+        "rawmouseinput": "*"
+      }
+    }
+  },
+  "version": 1
+}
