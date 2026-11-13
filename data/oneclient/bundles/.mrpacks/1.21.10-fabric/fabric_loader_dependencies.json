@@ -12,6 +12,11 @@
         "vulkanmod": "*"
       }
     },
+    "entityculling": {
+      "+breaks": {
+        "fwa": "<=1.3.6"
+      }
+    },
     "hold_that_chunk_2": {
       "+breaks": {
         "holdthatchunk": "*"

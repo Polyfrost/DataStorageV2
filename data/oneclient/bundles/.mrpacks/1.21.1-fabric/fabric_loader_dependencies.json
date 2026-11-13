@@ -17,6 +17,11 @@
         "detailabreconst": "*"
       }
     },
+    "entityculling": {
+      "+breaks": {
+        "fwa": "<=1.3.6"
+      }
+    },
     "gnetum": {
       "+breaks": {
         "exordium": "*",
