@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-screens.pw.toml"
-hash = "1a0fa6d56d1ebd22b5362fc5ae4081f83a8780f47bdf2baebdce922f50bcbd26"
+hash = "30a771366ca6735f178c8d689052823bea67b4d8d6527bd19b8ae2859fa008dd"
 metafile = true
 
 [[files]]
