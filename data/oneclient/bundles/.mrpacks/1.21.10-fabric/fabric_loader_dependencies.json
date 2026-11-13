@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "overrides": {
     "centered-crosshair": {
       "+breaks": {
@@ -41,6 +42,5 @@
         "noisium": "*"
       }
     }
-  },
-  "version": 1
+  }
 }
