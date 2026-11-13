@@ -25,6 +25,11 @@
       "+breaks": {
         "nbt_ac": "*"
       }
+    },
+    "vmp": {
+      "+breaks": {
+        "voxyworldgenv3": "*"
+      }
     }
   }
 }
