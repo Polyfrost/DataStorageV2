@@ -1,25 +1,16 @@
-id = "HyInfo"
+id = "4dNGXeZO"
 enabled = true
 hidden = false
 name = "HyInfo"
-filename = "HyInfo-0.3.2-1.8.9_ornithe.jar"
+filename = "HyInfo-3.0.0-1.8.9_ornithe.jar"
 side = "client"
-type = "normal"
-
-[overrides]
-icon = "https://raw.githubusercontent.com/TomekoYT/HyInfo/main/src/main/resources/assets/hyinfo/icon.png"
-name = "HyInfo"
-authors = ["Tomeko"]
-description = "Shows Hypixel network level, BedWars stars, SkyWars stars and Duels division in the tablist and above nametags."
 
 [download]
-url = "https://github.com/TomekoYT/HyInfo/releases/download/v0.3.2/HyInfo-0.3.2-1.8.9_ornithe.jar"
-hash-format = "sha256"
-hash = "67874494197cd6040fc8afbe8f9d6a76a6a07beea9b496ac42fe02ac5668a2c4"
+url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/PSSuhW4H/HyInfo-3.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "a7aa19ee2b7ee8bf8998e5ad4dfa9be1593092bc5572f06df10d02d7fef0e4bd646b8749b3c58e2c31d4ea46a3ebd1261b5349993f406e79f46733380a5b429d"
 
 [update]
-[update.github]
-branch = "main"
-regex = "1\\.8\\.9_ornithe\\.jar$"
-slug = "TomekoYT/HyInfo"
-tag = "v0.3.2"
+[update.modrinth]
+mod-id = "4dNGXeZO"
+version = "PSSuhW4H"

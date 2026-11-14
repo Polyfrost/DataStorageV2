@@ -150,6 +150,21 @@ hash = "325e3528cbaab5a56847d48d0ebfd1c02bd9515961d7e5930fe7a4cb12befb3b"
 metafile = true
 
 [[files]]
+file = "mods/hychatter.pw.toml"
+hash = "a37791502411c96ee5bb1f98c57a88be821078f0988db7e1b0445023b0eec636"
+metafile = true
+
+[[files]]
+file = "mods/hylobby.pw.toml"
+hash = "dd2157a938eb58bd30bd03a04c7827b618eb9edbef17009215308c68fe004ed4"
+metafile = true
+
+[[files]]
+file = "mods/hypixel-mod-api.pw.toml"
+hash = "2807dcd5529b12aa3b422651810801442c39cba10834c4f00f4980e2a91eae0a"
+metafile = true
+
+[[files]]
 file = "mods/itemphysic-lite.pw.toml"
 hash = "3ff83ef8f13a89648a1f1b268c25de72d0649e86e534600f248c073abb6f8b0e"
 metafile = true

@@ -1,25 +1,16 @@
-id = "HyChatter"
+id = "Kgbfmh7g"
 enabled = true
 hidden = false
 name = "HyChatter"
-filename = "HyChatter-0.3.0-1.8.9_ornithe.jar"
+filename = "HyChatter-1.0.0-1.8.9_ornithe.jar"
 side = "client"
-type = "normal"
-
-[overrides]
-icon = "https://raw.githubusercontent.com/TomekoYT/HyChatter/main/src/main/resources/assets/hychatter/icon.png"
-name = "HyChatter"
-authors = ["Tomeko"]
-description = "Adds chat features on Hypixel like AutoGG, chat coordinate waypoints and more."
 
 [download]
-url = "https://github.com/TomekoYT/HyChatter/releases/download/v0.3.0/HyChatter-0.3.0-1.8.9_ornithe.jar"
-hash-format = "sha256"
-hash = "682a58a22a3103df539bc03a0daaf9d17c5fa0cd19eb9f09a368a3023f938f57"
+url = "https://cdn.modrinth.com/data/Kgbfmh7g/versions/wYS8BCoS/HyChatter-1.0.0-1.8.9_ornithe.jar"
+hash-format = "sha512"
+hash = "94c6d195276139c0fcbedbd4b18aeac4ff45f04044cd97832f7de2f927f2a52794dd6b45b7d1935c51774e59387b1074a913da38f25d8da603122fe3258154d6"
 
 [update]
-[update.github]
-branch = "main"
-regex = "1\\.8\\.9_ornithe\\.jar$"
-slug = "TomekoYT/HyChatter"
-tag = "v0.3.0"
+[update.modrinth]
+mod-id = "Kgbfmh7g"
+version = "wYS8BCoS"
