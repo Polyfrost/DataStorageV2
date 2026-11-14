@@ -2,7 +2,7 @@ id = "polyfrost-forgecompat"
 enabled = true
 hidden = false
 name = "Forge Compat"
-filename = "forgecompat-1.1.0+1.8.9.jar"
+filename = "forgecompat-1.1.1+1.8.9.jar"
 side = "client"
 type = "normal"
 
@@ -12,13 +12,13 @@ authors = ["Polyfrost"]
 description = "Run Forge 1.8.9 mods on Fabric."
 
 [download]
-url = "https://github.com/Polyfrost/ForgeCompat/releases/download/v1.1.0/forgecompat-1.1.0%2B1.8.9.jar"
+url = "https://github.com/Polyfrost/ForgeCompat/releases/download/v1.1.1/forgecompat-1.1.1%2B1.8.9.jar"
 hash-format = "sha256"
-hash = "499c9dec0fdef772931a37ba74adcbbfacc464c623105ef9a4d2be5eb3da28e8"
+hash = "1721b475ba7021542278857d56e553e1d3d5e7229182ef3b063733fc585b742c"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^forgecompat-.+\\+1\\.8\\.9\\.jar$"
 slug = "Polyfrost/ForgeCompat"
-tag = "v1.1.0"
+tag = "v1.1.1"

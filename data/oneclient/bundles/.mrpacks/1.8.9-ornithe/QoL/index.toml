@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgecompat.pw.toml"
-hash = "105af6f90b431455e652c2dbba41951d8775b44ad6bd30ed672d00e41af3107c"
+hash = "f687e865f530c25bc8c3377d82bf6209d1315c6d6e2b32678a975bf3e46042e9"
 metafile = true
 
 [[files]]
