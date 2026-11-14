@@ -27,14 +27,6 @@ jobs:
       - name: Install node dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Cache mod jars
-        uses: actions/cache@v4
-        with:
-          path: scripts/.cache/jars
-          key: mod-jars-${{ hashFiles('data/oneclient/bundles/.mrpacks/**/*.pw.toml') }}
-          restore-keys: |
-            mod-jars-
-
       - name: Update bundles
         id: update
         env:

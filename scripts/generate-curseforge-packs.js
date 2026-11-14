@@ -7,7 +7,7 @@ const crypto = require("node:crypto");
 const { execFileSync } = require("node:child_process");
 const toml = require("@iarna/toml");
 const { zipSync } = require("fflate");
-const { loadMod, cacheKeyFor, CACHE_DIR } = require("./lib/modmeta.js");
+const { loadMod, ensureCached, cacheKeyFor, CACHE_DIR } = require("./lib/modmeta.js");
 
 const BUNDLES_DIR = path.join(__dirname, "..", "data", "oneclient", "bundles");
 const MRPACKS_DIR = path.join(BUNDLES_DIR, ".mrpacks");
@@ -250,7 +250,13 @@ async function buildPack(versionDir, pins) {
 
   const mods = metas.filter(isMod);
   const loaded = new Map();
-  const results = await mapLimit(mods, CONCURRENCY, (meta) => loadMod(meta.pw));
+  // packwiz detection below needs the full jars on disk
+  const results = await mapLimit(mods, CONCURRENCY, (meta) =>
+    ensureCached(meta.pw).then(
+      () => loadMod(meta.pw),
+      (e) => ({ primary: null, providers: [], warnings: [e.message] })
+    )
+  );
   mods.forEach((meta, i) => loaded.set(meta, results[i]));
 
   const failed = mods.filter(

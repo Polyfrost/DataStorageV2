@@ -1,17 +1,21 @@
 "use strict";
 
 /**
- * Fetch a mod jar (via its packwiz `.pw.toml` download url), cache it, and extract
- * the `fabric.mod.json` metadata — including nested "jar-in-jar" (JiJ) mods, which is
- * how e.g. Fabric API provides all its `fabric-*` modules.
+ * Extract the `fabric.mod.json` metadata of a mod jar (via its packwiz `.pw.toml`
+ * download url) — including nested "jar-in-jar" (JiJ) mods, which is how e.g. Fabric
+ * API provides all its `fabric-*` modules. Jars already in the local cache are read
+ * from disk; otherwise only the needed zip entries are fetched with HTTP range requests.
  */
 
 const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
-const { unzipSync, strFromU8 } = require("fflate");
+const { PassThrough } = require("node:stream");
+const unzipper = require("unzipper");
 
 const CACHE_DIR = path.join(__dirname, "..", ".cache", "jars");
+// Covers the central directory (and often fabric.mod.json itself) of most mod jars.
+const TAIL_BYTES = 64 * 1024;
 
 /** Derive a stable, immutable cache key from a packwiz mod entry. */
 function cacheKeyFor(pwMod) {
@@ -84,6 +88,73 @@ function parseLenientJson(text) {
   return JSON.parse(s);
 }
 
+/** Fetch `url` (retrying 429/5xx/network errors) and read the whole body. */
+async function fetchBytes(url, init) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const res = await fetch(url, { redirect: "follow", ...init });
+      if (res.ok) return { res, body: Buffer.from(await res.arrayBuffer()) };
+      const err = new Error(`download failed (${res.status}) for ${url}`);
+      err.permanent = res.status !== 429 && res.status < 500;
+      throw err;
+    } catch (e) {
+      if (e.permanent || attempt === 4) {
+        throw "permanent" in e ? e : new Error(`download failed (${e.message}) for ${url}`);
+      }
+      await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
+    }
+  }
+}
+
+/**
+ * An `unzipper.Open.custom` source reading a remote zip through range requests.
+ * unzipper drops errors of source streams, so a failed fetch ends its stream early
+ * and is recorded in `error` instead.
+ */
+function remoteSource(url) {
+  let total, tail, tailStart;
+  // bytes [start, end) of the file
+  const range = async (start, end) => {
+    const { body } = await fetchBytes(url, { headers: { range: `bytes=${start}-${end - 1}` } });
+    if (body.length !== end - start) throw new Error(`download failed (range not honored) for ${url}`);
+    return body;
+  };
+  const source = {
+    error: null,
+    // Modrinth's CDN rejects suffix ranges (`bytes=-N`), hence the separate HEAD
+    async size() {
+      try {
+        const { res } = await fetchBytes(url, { method: "HEAD" });
+        total = Number(res.headers.get("content-length"));
+        if (!total) throw new Error(`download failed (no content-length) for ${url}`);
+        tailStart = Math.max(0, total - TAIL_BYTES);
+        tail = await range(tailStart, total);
+        return total;
+      } catch (e) {
+        throw (source.error ??= e);
+      }
+    },
+    stream(offset, length) {
+      const out = new PassThrough();
+      const end = length ? Math.min(offset + length, total) : total;
+      if (offset >= tailStart) {
+        out.end(tail.subarray(offset - tailStart, end - tailStart));
+      } else {
+        range(offset, end).then(
+          (body) => out.end(body),
+          (e) => {
+            source.error ??= e;
+            out.end();
+          }
+        );
+      }
+      return out;
+    },
+  };
+  return source;
+}
+
+/** Download the whole jar into the cache, verified against the `.pw.toml` hash. */
 async function ensureCached(pwMod) {
   fs.mkdirSync(CACHE_DIR, { recursive: true });
   const key = cacheKeyFor(pwMod);
@@ -95,22 +166,7 @@ async function ensureCached(pwMod) {
   const url = pwMod?.download?.url;
   if (!url) throw new Error(`no download url for ${pwMod?.filename || key}`);
 
-  let buf;
-  for (let attempt = 1; ; attempt++) {
-    try {
-      const res = await fetch(url, { redirect: "follow" });
-      if (res.ok) {
-        buf = Buffer.from(await res.arrayBuffer());
-        break;
-      }
-      const err = new Error(`download failed (${res.status}) for ${url}`);
-      err.permanent = res.status !== 429 && res.status < 500;
-      throw err;
-    } catch (e) {
-      if (e.permanent || attempt === 4) throw e;
-      await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
-    }
-  }
+  const buf = (await fetchBytes(url)).body;
 
   // Verify integrity against the hash pinned in the .pw.toml (sha512/sha256/sha1).
   const fmt = (pwMod.download["hash-format"] || "sha512").replace(/-/g, "");
@@ -147,21 +203,21 @@ function normalizeUnit(fmj) {
 }
 
 /**
- * Recursively read fabric.mod.json out of a jar buffer, collecting the top-level unit
- * and every nested JiJ unit. Returns { units, warnings }.
+ * Recursively read fabric.mod.json out of an opened jar (`unzipper.Open.*`),
+ * collecting the top-level unit and every nested JiJ unit.
  */
-function readUnitsFromJar(buf, label, warnings, depth = 0) {
+async function readUnitsFromJar(open, label, warnings, depth = 0) {
   const units = [];
   let entries;
   try {
-    entries = unzipSync(new Uint8Array(buf));
+    entries = new Map((await open).files.map((f) => [f.path, f]));
   } catch (e) {
     warnings.push(`${label}: could not unzip (${e.message})`);
     return units;
   }
 
-  const fmjRaw = entries["fabric.mod.json"];
-  if (!fmjRaw) {
+  const fmj = entries.get("fabric.mod.json");
+  if (!fmj) {
     // Not a Fabric mod (e.g. a plain library jar or Quilt-only). Only warn at top level.
     if (depth === 0) warnings.push(`${label}: no fabric.mod.json (skipped)`);
     return units;
@@ -169,7 +225,7 @@ function readUnitsFromJar(buf, label, warnings, depth = 0) {
 
   let unit;
   try {
-    unit = normalizeUnit(parseLenientJson(strFromU8(fmjRaw)));
+    unit = normalizeUnit(parseLenientJson((await fmj.buffer()).toString("utf-8")));
   } catch (e) {
     warnings.push(`${label}: invalid fabric.mod.json (${e.message})`);
     return units;
@@ -178,10 +234,17 @@ function readUnitsFromJar(buf, label, warnings, depth = 0) {
 
   // Recurse nested jars (jar-in-jar).
   for (const j of unit.jars) {
-    const nestedRaw = j && j.file ? entries[j.file] : null;
-    if (!nestedRaw) continue;
-    const nested = readUnitsFromJar(
-      Buffer.from(nestedRaw),
+    const nestedEntry = j && j.file ? entries.get(j.file) : null;
+    if (!nestedEntry) continue;
+    let nestedBuf;
+    try {
+      nestedBuf = await nestedEntry.buffer();
+    } catch (e) {
+      warnings.push(`${label}!${j.file}: could not unzip (${e.message})`);
+      continue;
+    }
+    const nested = await readUnitsFromJar(
+      unzipper.Open.buffer(nestedBuf),
       `${label}!${j.file}`,
       warnings,
       depth + 1
@@ -192,20 +255,28 @@ function readUnitsFromJar(buf, label, warnings, depth = 0) {
 }
 
 /**
- * Load a single packwiz mod: download+cache the jar, extract all Fabric units.
+ * Load a single packwiz mod and extract all Fabric units, from the jar cache when
+ * present (see `ensureCached`), otherwise remotely.
  * @returns {Promise<{primary: object|null, providers: {id:string,version:string}[], warnings: string[]}>}
  */
 async function loadMod(pwMod) {
   const warnings = [];
   const label = pwMod.filename || pwMod.id || "<unknown>";
-  let buf;
-  try {
-    buf = await ensureCached(pwMod);
-  } catch (e) {
-    return { primary: null, providers: [], warnings: [`${label}: ${e.message}`] };
+  const cached = path.join(CACHE_DIR, `${cacheKeyFor(pwMod)}.jar`);
+  const url = pwMod.download?.url;
+  let remote = null;
+  if (!fs.existsSync(cached)) {
+    if (!url) return { primary: null, providers: [], warnings: [`${label}: no download url`] };
+    remote = remoteSource(url);
   }
 
-  const units = readUnitsFromJar(buf, label, warnings);
+  const units = await readUnitsFromJar(
+    remote ? unzipper.Open.custom(remote) : unzipper.Open.file(cached),
+    label,
+    warnings
+  );
+  // whatever unzipper made of a truncated read, the cause is the failed download
+  if (remote?.error) return { primary: null, providers: [], warnings: [`${label}: ${remote.error.message}`] };
   if (units.length === 0) return { primary: null, providers: [], warnings };
 
   // The top-level unit is the actual installed mod; its relations are enforced.
@@ -225,4 +296,4 @@ async function loadMod(pwMod) {
   return { primary, providers, warnings };
 }
 
-module.exports = { loadMod, cacheKeyFor, parseLenientJson, CACHE_DIR };
+module.exports = { loadMod, ensureCached, cacheKeyFor, parseLenientJson, CACHE_DIR };

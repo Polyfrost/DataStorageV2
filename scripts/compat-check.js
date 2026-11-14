@@ -4,8 +4,8 @@
  * Fabric mod compatibility checker for the OneClient bundles.
  *
  * For every bundle (data/oneclient/bundles/.mrpacks/<mcver>-<fabric|ornithe>/<Category>/) this:
- *   1. downloads each mod jar referenced by its .pw.toml and reads the real
- *      fabric.mod.json inside (plus nested jar-in-jar modules),
+ *   1. reads the real fabric.mod.json (plus nested jar-in-jar modules) of each
+ *      mod jar referenced by its .pw.toml, fetching only those zip entries,
  *   2. applies the pack's config/fabric_loader_dependencies.json overrides,
  *   3. checks — the way Fabric Loader would — that:
  *        - every required `depends` (incl. `minecraft`, i.e. MC-version compat)
@@ -41,7 +41,7 @@ const MRPACKS_DIR = path.join(
   "bundles",
   ".mrpacks"
 );
-const CONCURRENCY = 8;
+const CONCURRENCY = 16;
 
 /** Java version bundled with the game for a given MC version. */
 function javaForMc(mcVersion) {
@@ -284,7 +284,7 @@ async function main() {
   // unzipped, or parsed is a broken bundle entry — treat it as a FAIL, not a note.
   // Only genuinely-benign cases ("no fabric.mod.json", i.e. a plain library jar)
   // stay as notes.
-  const CRITICAL_LOAD = /(download failed|could not unzip|invalid fabric\.mod\.json|hash mismatch)/;
+  const CRITICAL_LOAD = /(download failed|could not unzip|invalid fabric\.mod\.json)/;
   for (const [key, res] of loaded) {
     for (const w of res.warnings) {
       if (CRITICAL_LOAD.test(w)) add("FAIL", "jars", "load", w, sourcesByKey.get(key));

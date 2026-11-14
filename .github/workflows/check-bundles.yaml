@@ -54,15 +54,6 @@ jobs:
       - name: Install node dependencies
         run: pnpm install --frozen-lockfile
 
-      # Jars are keyed by immutable Modrinth version id, so cache them between runs.
-      - name: Cache mod jars
-        uses: actions/cache@v4
-        with:
-          path: scripts/.cache/jars
-          key: mod-jars-${{ hashFiles('data/oneclient/bundles/.mrpacks/**/*.pw.toml') }}
-          restore-keys: |
-            mod-jars-
-
       - name: Unit test version matcher
         run: pnpm test
 
