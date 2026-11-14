@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastserverpings.pw.toml"
-hash = "8b09239755d2aa17fa920b7dfa8965e59afdc6847ac48bf54564403233675892"
+hash = "8ff2cc0e503f1a13c41b34d87eddb3f60f490471932cb051052d79d69fa1d6cc"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "741d8b31ef0620f1ec44d789dcdca6c7f90c7490ae1e599de810530e2ebd833f"
+hash = "42d53fdefb22181b9bee3ddfec04944a98efea8f4b6ae6423c85ac87759bc0be"
 metafile = true
 
 [[files]]
