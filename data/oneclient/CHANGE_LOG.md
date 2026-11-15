@@ -1,3 +1,32 @@
+# 2.11.0
+
+- fix: keep tooltips hidden after their button is pressed
+- fix: bundle cards show the mods actually picked
+- fix: share dialog settings list squashed on HiDPI displays
+- fix: chat resync crash and missing save_file_ellipsis key
+- fix: social menu pagination
+- fix: z layer issues #1227
+- fix: ea java build version parsing
+- fix: censor the OS username in game logs
+- feat: parallel ranged downloads and shared bundle prefetch
+- feat: added ability to pick bundled mods in new instance creator
+- feat: add an option to copy mods instead of linking them
+- feat: added options while exporting cluster
+- chore: colors on mod cards
+- feat: added improve by oneclient option for modpacks imported from a …
+- fix: verify download checksum before replacing the existing file
+- chore: share cluster revamp
+- feat: added checking single/selected mods for updates
+- fix: keep shared resource packs when deleting an instance
+- feat: added ability to edit options.txt in launcher
+- fix: windows empty files
+- feat: added thread dump button
+- feat: added button for nav to runtime page
+- fix: newer bundle mods being overridden by older local mods on Ornithe
+- Fix macOS menu bar tray icon sizing
+- feat: log the launcher version
+- fix: show bundle mods in the All tab after migration (#931)
+
 # 2.10.2
 
 - feat: added inventory crate implementation to the searchbar in settings
