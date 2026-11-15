@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/argentum.pw.toml"
-hash = "022b82bfa4be3231a8322a6aedd32a6de6a5fd67f1d42c15c7b32103989120b5"
+hash = "7a5f2f74d7ed54096dce3291818cc004309cdb2fa6924e498a871f3caf34a8e4"
 metafile = true
 
 [[files]]
