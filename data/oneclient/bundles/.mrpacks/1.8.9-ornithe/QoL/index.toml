@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "75160b8eb668775a1531af6ff698ea28c48bad67d38d3011604b922d9536d953"
+hash = "7047f12f02072dc8ce3958ee35fc73f00049d4e42797a6f62a6ddc3c92d7b78d"
 metafile = true
 
 [[files]]
@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "960ababcb0695de52c5b4407e0a5a57baa11e5a37e7d1b843150e6d8b2bc7aba"
+hash = "042b76fbeaea1e18ff8018aa27659f2ac9466b102016a2e78c85c7782405afc1"
 metafile = true
 
 [[files]]

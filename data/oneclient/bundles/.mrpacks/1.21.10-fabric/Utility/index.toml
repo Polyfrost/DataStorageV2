@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "6cf697fd8021b9f53567e414b18570580ae5643f0686ae9f31a12f06ff8154c7"
+hash = "32346988da7492bea5e164618e0c6c645212ce992cb1e04b89fbf438505b710f"
 metafile = true
 
 [[files]]

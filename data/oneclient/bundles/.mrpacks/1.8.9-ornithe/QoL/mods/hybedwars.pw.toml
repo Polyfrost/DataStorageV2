@@ -2,15 +2,15 @@ id = "PpCuCnXh"
 enabled = true
 hidden = false
 name = "HyBedWars"
-filename = "HyBedWars-1.0.0-1.8.9_ornithe.jar"
+filename = "HyBedWars-1.1.1-1.8.9_ornithe.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/PpCuCnXh/versions/jM4n7sBL/HyBedWars-1.0.0-1.8.9_ornithe.jar"
+url = "https://cdn.modrinth.com/data/PpCuCnXh/versions/3N4jxcQS/HyBedWars-1.1.1-1.8.9_ornithe.jar"
 hash-format = "sha512"
-hash = "43a60b1254e88e55842a7b91eb0fb04b7eb81b9564db2313ee273bf69b52af1a70a158458a8a14ec5c41ade3e1c84ac59d8663f668ccca856e7694f2ab747b36"
+hash = "29f7fea06ce3212f72c6db217f16d3aa0909a6a1908fc701483a8236e3ac04b4a93af7ffefefd6583a7f21627862b6edcc68033801136bc0480fc0049bd682e9"
 
 [update]
 [update.modrinth]
 mod-id = "PpCuCnXh"
-version = "jM4n7sBL"
+version = "3N4jxcQS"
