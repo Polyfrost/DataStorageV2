@@ -1,0 +1,16 @@
+id = "Kgbfmh7g"
+enabled = true
+hidden = false
+name = "HyChatter"
+filename = "HyChatter-1.0.0-26.1+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Kgbfmh7g/versions/y0qsMxAf/HyChatter-1.0.0-26.1%2B_fabric.jar"
+hash-format = "sha512"
+hash = "656788fe016e8906dc7a902cbb594008da4ddac3111d5f8140397121069be3ae7fe094f4bda2823aa698363ed9dd57536dbc70ea15d1819ecc240d5f52131678"
+
+[update]
+[update.modrinth]
+mod-id = "Kgbfmh7g"
+version = "y0qsMxAf"

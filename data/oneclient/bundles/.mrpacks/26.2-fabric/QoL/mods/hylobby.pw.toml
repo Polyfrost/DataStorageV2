@@ -1,0 +1,16 @@
+id = "eyD1lgpB"
+enabled = true
+hidden = false
+name = "HyLobby"
+filename = "HyLobby-1.0.0-26.2+_fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/eyD1lgpB/versions/4DSJ64tC/HyLobby-1.0.0-26.2%2B_fabric.jar"
+hash-format = "sha512"
+hash = "0b8081643ae92f13712effee3b4b632267ef7258a7813cae86c6741d7a093efd8c808f51698f1f5df0e0bb50de860697f731d8b737b5ecc7285cf5a5c12d2a5b"
+
+[update]
+[update.modrinth]
+mod-id = "eyD1lgpB"
+version = "4DSJ64tC"
