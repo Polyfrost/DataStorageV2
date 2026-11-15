@@ -141,12 +141,12 @@ metafile = true
 
 [[files]]
 file = "mods/polydium.pw.toml"
-hash = "d352761721773c7f40a915ba423b7bc58057d471e773c63f040caa15b0dd02c9"
+hash = "08f93f99a7bca058e6564f6c3d16e415d51f127c4b2c1cc187a0ac13c3311f59"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "bd07c13c167784cf790044fedff67a6684188c76bc70ec2bb806ab16c7c89033"
+hash = "30dc0eb008bae0147e5b47e23c7937b44df8d5a6160b7a2d6d802f0e0647ffff"
 metafile = true
 
 [[files]]
@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "36433a3377cf492c0ce3e630cadde2de5199fac50e45b09342a2bc0252f0eff7"
+hash = "06cf450036470469d7f45b09456d127124b00ac2b8338599bf58994d252c5058"
 metafile = true
 
 [[files]]

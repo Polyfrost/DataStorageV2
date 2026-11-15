@@ -6,7 +6,7 @@ hash = "a8bac57ec2ca5de453e03ec44a5c662b3a9e692a0a86b793612aee379618d284"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "1f3e4af401045f9d010bcfa659e93895c40b8a990374a01f3b729fad33938672"
+hash = "3fa70fbfa9fa90810a5f17854d7b509a01325f32fedd4bf7e6981d2f009ad617"
 metafile = true
 
 [[files]]
@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "51d54f1c0f39df5e590ab92424c23aa1166919baf6067d39389daea66466bd43"
+hash = "234f969b8b01650e26697bf8508a74c60f1b1a489ec3fbe35b7a0f418dcbf9e3"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "a23d2cacd3d1f15850f8dde355fec95abd4ddca103759d018c2421c925c993a3"
+hash = "717dc044e99790e1a8e08245ce0c7daff19a40272a96e9dd6d57815f207d716d"
 metafile = true
 
 [[files]]

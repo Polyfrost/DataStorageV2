@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "a56ff8e56ece68f1dbe690737772a28bb87fa6536c2b6a1b7ada455c518da7fd"
+hash = "6cf697fd8021b9f53567e414b18570580ae5643f0686ae9f31a12f06ff8154c7"
 metafile = true
 
 [[files]]
@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "8f928090a9b33e7549d2d4d111ce6fd066980c5a4073b6e3a788c0c05db1f94e"
+hash = "362c5f2de3f65f2d631745ef9f893c0d2af5cf826ea9ab2aa949a8bc3de8fe80"
 metafile = true
 
 [[files]]
