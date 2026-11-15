@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- Updated HyBedWars from 0.5.1 to 1.1.2-beta.1.
+- Updated HyBridge from 0.0.1 to 1.0.1-beta.1.
+- Updated HyChatter from 0.3.0 to 1.0.1-beta.1.
+- Updated HyInfo from 0.3.2 to 3.0.2-beta.1.
+- Updated HyLobby from 0.2.0 to 1.0.1-beta.1.
+
 ## [2.0.523] - 2026-11-12
 
 ### Changed

@@ -106,27 +106,27 @@ metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "f3d4fbc5c95b5867ae1f678634de7034bec595e9ab96d55c6eb955b1dd0b350e"
+hash = "73935b3afd623cb0a52c160db1f718b1bd490500dc627d5c3d1c2fb086ee0b9a"
 metafile = true
 
 [[files]]
 file = "mods/hybridge.pw.toml"
-hash = "d83582e1e37b7eb55eef2b7d860a4b5b930066538cb656f96a0834852cf0e33a"
+hash = "b708955b39ec930ddd17ca810295ab94d079d790d343f53bf1446d9c7762038b"
 metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "e53afaa8ee9768dadbfa750b0a4b013c332f411058670648a1f9e9c4755ba62a"
+hash = "a3fda7701130e80f51d869002cadd772602ba87b1ec6c612d4b481dcfb206dc3"
 metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "71ecaa6a43e0dad541bb8f43a1ff22de66dcb225054a7992bf083dd1f41b6830"
+hash = "bb9ab8fd9879715e1fee726620ac0c6e8a8f01e29dc70db8d9ee58718108e01c"
 metafile = true
 
 [[files]]
 file = "mods/hylobby.pw.toml"
-hash = "97c940e92bbc1baf8fa6e00e3c1d1f512516be9cdee5309300fb6893c8d01a70"
+hash = "3303ce2f045d7c77bb4cbce4e8e697f0a67680108cd3209ffe23f0be246cb8ef"
 metafile = true
 
 [[files]]
