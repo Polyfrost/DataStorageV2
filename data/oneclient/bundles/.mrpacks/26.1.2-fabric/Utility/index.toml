@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ce3bb605e29fa10d92a07cb4541a9b3ff5c2c7911f8270fb6c30e8cbac0cabcc"
+hash = "3b3177c4c240c5dde5c9b4dd14ef305b7f702e5eaa365e0b2b10845e1add6581"
 metafile = true
 
 [[files]]
