@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "957db2c95aee85260b887a69eb88f8a02434aec5ba6b3c847a58e376c0740789"
+hash = "293feed6ef92f51f3f72e63c282727bc201cf65bfbcfead5d92deee720003e82"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"

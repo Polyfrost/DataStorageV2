@@ -33,6 +33,11 @@
         "holdthatchunk": "*"
       }
     },
+    "naturalmotionblur": {
+      "-depends": {
+        "java": "IGNORED"
+      }
+    },
     "nbtac": {
       "+breaks": {
         "nbt_ac": "*"
