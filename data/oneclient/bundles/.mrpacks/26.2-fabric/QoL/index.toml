@@ -326,7 +326,7 @@ metafile = true
 
 [[files]]
 file = "mods/tntcountdown.pw.toml"
-hash = "82db9d8ad3cbb323d52bdae458490e5cf5a8f52834785b5e1879143968b85578"
+hash = "1ecce94a4ed48c017e9e4da2c8786f39f7c298165797067a224680ef65673fef"
 metafile = true
 
 [[files]]

@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "9f4fa00b6d65889ffdd24bb76a9c0f7febda7a7fe21689f2d0f9aa2a05a0bd83"
+hash = "596dabbb786f48dbceced8cc4074b4ccc6a2a280084bf0f2bebe43d5ebb9f980"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/kerria-opt.pw.toml"
-hash = "8e91b7d062c5748b58f0f188f2c8337934bb898f9f50306dcd473434432ac3be"
+hash = "516336b7da525d6d5d35c7572c1aa10860778b3c0fae540b034d48b066d09d74"
 metafile = true
 
 [[files]]
