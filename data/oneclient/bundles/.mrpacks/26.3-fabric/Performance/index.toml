@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/polydium.pw.toml"
-hash = "76a039c2707984d9946dccb368472dd862e413d48f27a55d29fec9dac4fbe78d"
+hash = "c71f71dbe86e917d9043d8439bf5efa6d8ace75e5b2fd8f1e643fca3cfc7cf9e"
 metafile = true
 
 [[files]]
