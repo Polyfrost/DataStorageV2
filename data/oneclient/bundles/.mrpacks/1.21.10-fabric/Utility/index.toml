@@ -95,11 +95,6 @@ hash = "889c748d492277fcbd616e85eba1f275b3407a16e1845750e7579a2ad0edd150"
 metafile = true
 
 [[files]]
-file = "mods/libjf.pw.toml"
-hash = "1887358d972fa40b8dae9b17111276a5adeee14b60da0555e9690c5799d1f84b"
-metafile = true
-
-[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "b60ec1a3bfbb9df9cc746e7869f1115851e551326471cff5eeea1a87fed4ccc6"
 metafile = true
@@ -137,11 +132,6 @@ metafile = true
 [[files]]
 file = "mods/resourcify.pw.toml"
 hash = "d1f9e39922bcae38b9045a44907c7ee7ea5e1cdbfdc5859910feb550efba58bc"
-metafile = true
-
-[[files]]
-file = "mods/respackopts.pw.toml"
-hash = "0b51b70e924d47774ed3438c84cee359e253e8908e38454f7db8d45bdd3b1343"
 metafile = true
 
 [[files]]
