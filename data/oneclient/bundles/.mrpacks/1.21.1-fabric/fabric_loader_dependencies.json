@@ -8,8 +8,7 @@
     },
     "cwb": {
       "+breaks": {
-        "chloride": "*",
-        "vulkanmod": "*"
+        "chloride": "*"
       }
     },
     "detailab": {
@@ -24,8 +23,7 @@
     },
     "gnetum": {
       "+breaks": {
-        "exordium": "*",
-        "vulkanmod": "*"
+        "exordium": "*"
       }
     },
     "hold_that_chunk_2": {
@@ -51,6 +49,14 @@
     "vmp": {
       "+breaks": {
         "voxyworldgenv3": "*"
+      }
+    },
+    "vulkanmod": {
+      "+breaks": {
+        "cwb": "*",
+        "flashback": "*",
+        "gnetum": "*",
+        "kerria": "*"
       }
     },
     "zfastnoise": {

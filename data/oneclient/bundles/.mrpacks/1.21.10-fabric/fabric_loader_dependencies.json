@@ -8,8 +8,7 @@
     },
     "cwb": {
       "+breaks": {
-        "chloride": "*",
-        "vulkanmod": "*"
+        "chloride": "*"
       }
     },
     "entityculling": {
@@ -45,6 +44,12 @@
     "vmp": {
       "+breaks": {
         "voxyworldgenv3": "*"
+      }
+    },
+    "vulkanmod": {
+      "+breaks": {
+        "cwb":" *",
+        "flashback": "*"
       }
     },
     "zfastnoise": {

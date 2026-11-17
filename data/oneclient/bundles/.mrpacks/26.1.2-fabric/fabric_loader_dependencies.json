@@ -6,12 +6,6 @@
         "firstt": "*"
       }
     },
-    "cwb": {
-      "+breaks": {
-        "chloride": "*",
-        "vulkanmod": "*"
-      }
-    },
     "entityculling": {
       "+breaks": {
         "fwa": "<=1.3.6"
@@ -19,8 +13,7 @@
     },
     "gnetum": {
       "+breaks": {
-        "exordium": "*",
-        "vulkanmod": "*"
+        "exordium": "*"
       }
     },
     "idontwannascrollagain": {
@@ -41,6 +34,16 @@
     "vmp": {
       "+breaks": {
         "voxyworldgenv3": "*"
+      }
+    },
+    "vulkanmod": {
+      "+breaks": {
+        "customscoreboard": "*",
+        "cwb": "*",
+        "gnetum": "*",
+        "notenoughcrashes": "*",
+        "odin": "*",
+        "skyblocker": "*"
       }
     },
     "zfastnoise": {
