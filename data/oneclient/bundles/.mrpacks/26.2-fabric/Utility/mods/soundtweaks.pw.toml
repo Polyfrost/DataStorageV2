@@ -2,16 +2,16 @@ id = "7hJZhArg"
 enabled = true
 hidden = false
 name = "SoundTweaks"
-filename = "soundtweaks-1.0.1+26.2.jar"
+filename = "soundtweaks-1.0.2+26.2.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/7hJZhArg/versions/GFiLGgsF/soundtweaks-1.0.1%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/7hJZhArg/versions/OvtL7Kpa/soundtweaks-1.0.2%2B26.2.jar"
 hash-format = "sha512"
-hash = "03163ee036d4fd303b39e9898051a596b6b98fe7332a9fedf598a1f1ae431075529d8c5e169ef4e532a0d85d5318c409a8cfc8bf3dbcf2710c1b3a94b25f5c3f"
+hash = "d1f41169a95de052306bccbc188d334238716fd60ce82f09f4c619f8589755104f8f4b9177038a5c58fdf21eb33c3f83cb68816afffe46b1f8d80b46d31b5866"
 
 [update]
 [update.modrinth]
 mod-id = "7hJZhArg"
-version = "GFiLGgsF"
+version = "OvtL7Kpa"

@@ -2,16 +2,16 @@ id = "yzNFLSqx"
 enabled = true
 hidden = false
 name = "Screencapper"
-filename = "screencapper-2.1.1+1.21.10.jar"
+filename = "screencapper-2.1.2+1.21.10.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/yzNFLSqx/versions/CQEQVey4/screencapper-2.1.1%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/yzNFLSqx/versions/YDEwNqrW/screencapper-2.1.2%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "73469c2d4a51ee2c6efe02c799327662df1b3bb3f9a950a92876b36d043fa8bab013ed59aafb1062d50cd95581de588ceeb6dfd5eaff32cb68d1944000738219"
+hash = "143695d53a2c57265b3f4bc91d120a5bc9b146da2cc0f0c2d7909c3bbe74de1b87cdda8904ade1fd34763c2467a7c1a06e7f6932f1c18b7bec1e33c9a21a2c3a"
 
 [update]
 [update.modrinth]
 mod-id = "yzNFLSqx"
-version = "CQEQVey4"
+version = "YDEwNqrW"

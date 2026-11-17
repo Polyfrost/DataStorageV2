@@ -6,7 +6,7 @@ hash = "b3a2081ef9eea433c31d1634228e252565d14433a8cacbb4821ecde30b600714"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "dd0d743c97a48c6e22cfa9cb16e9990cb9ca18fcdf977c220c897a384905cd9d"
+hash = "d9e0d819570a9aac567fb916d67611e98069f925651ccb529206d42b7c8f061a"
 metafile = true
 
 [[files]]
@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "d2fa0208bd6eadf57df8961d19577b97eb66c63d2d76f50fac5964e5a99172e1"
+hash = "4ccb6d824a5086b56adb43d136e87fe93352cb4a98107bfe4eb9eab92f2e77d0"
 metafile = true
 
 [[files]]
@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "7b6552725a5fabb5a7081d7f1def4d537c22a8e698bbef11445c67a6744674aa"
+hash = "e6a271caf731a5c833a21f7678f339917504a8e39e7da33eeeb8ec16f44a2573"
 metafile = true
 
 [[files]]
@@ -126,12 +126,12 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "6ea81f2c3dae7fefb7f2864fef3fff7b3734b9a53e5ea5078f56745f0bc50c50"
+hash = "c0f895647ebe57a882c01cee94c6150b30da264308109de7c3c50a28d5eac044"
 metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "24a469ec7b25b664967ecd949bd93a84cd7094a1e9a7582925eac5e0de66577f"
+hash = "623def444cd1666f471532f602a35e676db265225312ea3f58b8f74b0ea6490a"
 metafile = true
 
 [[files]]
@@ -166,12 +166,12 @@ metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "6aec7d0c37c03090f0bef14f38358ee854361651b3228be4c11e81c2784401c7"
+hash = "85b4fae74d6fead2a6e2ce88d67e11b2ed003be19393313704f4a8d18b30839b"
 metafile = true
 
 [[files]]
 file = "mods/soundtweaks.pw.toml"
-hash = "706b859adef9a24652f1a50499f74206baf192db8209a9748e24ae861f2bcb24"
+hash = "067d0bf4f2083bba4f0590999469b08e6f6f4f45abd727b2455c65e1df8ff804"
 metafile = true
 
 [[files]]

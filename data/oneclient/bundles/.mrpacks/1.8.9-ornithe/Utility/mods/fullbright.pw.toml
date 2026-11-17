@@ -2,7 +2,7 @@ id = "p6m1u5Bu"
 enabled = true
 hidden = false
 name = "FullBright"
-filename = "fullbright-1.1.1+1.8.9.jar"
+filename = "fullbright-1.1.2+1.8.9.jar"
 side = "client"
 type = "normal"
 
@@ -12,11 +12,11 @@ authors = ["Polyfrost"]
 description = "Brightens the world without touching the gamma slider, with configurable light levels."
 
 [download]
-url = "https://cdn.modrinth.com/data/p6m1u5Bu/versions/vPAWC5W4/fullbright-1.1.1%2B1.8.9.jar"
+url = "https://cdn.modrinth.com/data/p6m1u5Bu/versions/sJppla7e/fullbright-1.1.2%2B1.8.9.jar"
 hash-format = "sha512"
-hash = "0dbd4d82e2808c68c59d67e251c2a8b114c758d6c4e63042ceed306d5cd7d23c1d14cd7488e3a07e60a299692a5b720bd3c84074fa3bf9e2d4ff56d397bfca9e"
+hash = "cd6a9b3aef93eb1d2246e8ac5a1cb011f8cdab30013e919c03af9f742e144068643020f06730d21601086ba441082c62fba01fdf7e7ed7de4f97c0ee0e28b892"
 
 [update]
 [update.modrinth]
 mod-id = "p6m1u5Bu"
-version = "vPAWC5W4"
+version = "sJppla7e"

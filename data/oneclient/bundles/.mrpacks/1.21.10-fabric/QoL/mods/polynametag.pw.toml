@@ -2,16 +2,16 @@ id = "HK3p7LMj"
 enabled = true
 hidden = false
 name = "PolyNametag"
-filename = "polynametag-1.2.5+1.21.10.jar"
+filename = "polynametag-1.2.6+1.21.10.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/HK3p7LMj/versions/m1uWlsa7/polynametag-1.2.5%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/HK3p7LMj/versions/JdWnmDG9/polynametag-1.2.6%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "0d8ccdb24231b835a7e511bcbbad52e33e6e1e4b7be64ef77adfb7161a712d17dc133948e3e0693d5d5840324cebab0c283039250dd0a0262e7106a82b227664"
+hash = "105b9049ba864fba099cfe227112956ef54e96a565f5de8626f6d3ec171c32072d189746bacfdc7eacdf830e24f91b8058933d0d432d5dfa3acd31c2956b8ac4"
 
 [update]
 [update.modrinth]
 mod-id = "HK3p7LMj"
-version = "m1uWlsa7"
+version = "JdWnmDG9"

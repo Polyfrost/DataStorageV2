@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "67503da8e135939bb8d4bc6a02f4b6f8be917a9fd29e0eda74f81e2e89ea7bbd"
+hash = "305c688fb1505343462dee6e6dd0a23785c5520ac3be4b6c7127d7a526759b75"
 metafile = true
 
 [[files]]
@@ -36,12 +36,12 @@ metafile = true
 
 [[files]]
 file = "mods/fullbright.pw.toml"
-hash = "d1352b65903827534b6d6f78ba07b16021aa11bad03227777be6f399b83a1bda"
+hash = "f34db7a30dbcb9f44a29dfdc230b8d55bf25562c06fd7af9030b8393b1b16eb3"
 metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "009c99f99dac87409dc0f549ba55ee3cff798a1dba0fa8e88076595e1c1f70a2"
+hash = "1875e92dcaba1a4f3693032872d3f84c6ad4dac7056258aa3aa0692a15cbab4b"
 metafile = true
 
 [[files]]
@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/polysprint.pw.toml"
-hash = "f7bb9591c068363f542d4754847b47f1265649e966239ecdd2c74f31f1069c79"
+hash = "0a62ca082b0d8c93b0cd17df696d97cfa581f1644eb5714931df8ce241d3f333"
 metafile = true
 
 [[files]]
@@ -71,12 +71,12 @@ metafile = true
 
 [[files]]
 file = "mods/smartsearch.pw.toml"
-hash = "f70cc8d3e918d1c677bca7ec3a8ea1419daa2d473187e2d1cba21a22b4d463d0"
+hash = "b5d2e41ed66738422ec3e5b81155b53530114dbcd768685130c59469dc73305b"
 metafile = true
 
 [[files]]
 file = "mods/soundtweaks.pw.toml"
-hash = "c1d05649ac8f46321f1d8fe4da53715eb2b4a2289d5e299a67fcb1c77216d93c"
+hash = "61c5470b5ec9054f0f23ef03396cedff181f0e035e916d2e807d8835238eb445"
 metafile = true
 
 [[files]]

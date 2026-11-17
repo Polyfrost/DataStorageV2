@@ -2,16 +2,16 @@ id = "Mptc0jo6"
 enabled = true
 hidden = false
 name = "PolyHitbox"
-filename = "polyhitbox-1.4.2+1.21.10.jar"
+filename = "polyhitbox-1.4.3+1.21.10.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/Mptc0jo6/versions/1folp3dv/polyhitbox-1.4.2%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/Mptc0jo6/versions/rgE4A4F5/polyhitbox-1.4.3%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "aef1c90e8d9d24fc10714cfb05c007db8ebeb8d450db6738bf96cea76bf5b2b5a31cfd4d6ed611e2eb99cafbaf025694dff1ec61fbbb88f5fc35fa092b0aad04"
+hash = "3dc1ec75560a05a0a9290b7aa9b7d72f9aea04ced198925effc3a94eb3332e64acaad317070bd64f6f11a676f14d33a9bca671ee445d0f8c26cef5b214323b88"
 
 [update]
 [update.modrinth]
 mod-id = "Mptc0jo6"
-version = "1folp3dv"
+version = "rgE4A4F5"

@@ -2,16 +2,16 @@ id = "N5EQhK31"
 enabled = true
 hidden = false
 name = "SmartSearch"
-filename = "smartsearch-1.2.1.jar"
+filename = "smartsearch-1.2.2.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/N5EQhK31/versions/qN30fhQd/smartsearch-1.2.1.jar"
+url = "https://cdn.modrinth.com/data/N5EQhK31/versions/qbiIlKSt/smartsearch-1.2.2.jar"
 hash-format = "sha512"
-hash = "8f362df051527206995e247ba6a36f3dcf0d77b1c61cfc8848fb6fe0057bd714cc99f13c925403a8cbed42c02da792cfbcef63a31bcfee6e6755b0a6e7d2652c"
+hash = "eba25d569541848cf6fd29d99906834d65168811bfbf5e6a35cca955b3364ed4e5b9ed5b549e5b9d8ffd62d5c7d28b7d411c06b77d3809b070ae5a9db29e8f1a"
 
 [update]
 [update.modrinth]
 mod-id = "N5EQhK31"
-version = "qN30fhQd"
+version = "qbiIlKSt"

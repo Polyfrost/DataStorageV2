@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatting.pw.toml"
-hash = "4cbd528621c3754caf14c47c8236445d1e0da7af26425024e6f2df1846e36277"
+hash = "818654808a28097f4b898ff8f4348ffa6cd36e9f9e58c0a56e7531be01dd5760"
 metafile = true
 
 [[files]]
@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorsaturation.pw.toml"
-hash = "48903e89638e1cfb1c342cedc549d7f73fab98e4145f2f156d7da5e29c4dbc9b"
+hash = "748034c1decfa8ba8802f69199cf5724fec58a9c93dbf843d47e67b5ff802512"
 metafile = true
 
 [[files]]
@@ -86,7 +86,7 @@ metafile = true
 
 [[files]]
 file = "mods/crosshair.pw.toml"
-hash = "f5813307688e101f47503e200cf5e7709dd9f37b860f829a7cb736b3cb6340f0"
+hash = "77d753c7ed9ba76c40f716288eab6852c6dcd2ecb72e32c3d8aef6bca7c6a157"
 metafile = true
 
 [[files]]
@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/damagetint.pw.toml"
-hash = "59d6ed523b3c54c163d13950250c439628573e441466aafc5fdd458474e87893"
+hash = "bdd03d1be179c8f53f424b0fb46ea3f63fa5dc0b47e9513519c12e72adcae19f"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/overflowparticles.pw.toml"
-hash = "f62fe47a1cfce699e906aa2d765e154afd0813b72be417520bf9ed6e3e786a3f"
+hash = "df7ffc12b47a58bfc4947d9aa7c9651000d02921685d4b777a43a82514682bee"
 metafile = true
 
 [[files]]
@@ -226,22 +226,22 @@ metafile = true
 
 [[files]]
 file = "mods/polyblur.pw.toml"
-hash = "5846c666ea3f3accff8c6b3215a1dd93b9ac050643ba8d82c47f45b1ee4e9024"
+hash = "c35d36cb493ce641eb473da56e3814f385d4c5c2a82f1dea2362302f6437a396"
 metafile = true
 
 [[files]]
 file = "mods/polynametag.pw.toml"
-hash = "19297a90dd6c692a852c7321009190bbb3408edb7c5ead043ebb381854e01bd8"
+hash = "f430b899e05a0d9eeef8fdd436a6b7745f91dc13e28fb8ab935cd124d9f0476d"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "ab32afd10a97e53239bb60a022e6b4a3e2da016f8f6bdc81c14fbdba0a1a6023"
+hash = "720336ab5f44bf02568089dc101821a0f7b63b73447a1c7728b7450f7f137806"
 metafile = true
 
 [[files]]
 file = "mods/polytime.pw.toml"
-hash = "647cea8843d8ac28d033b7311a6ed41bfa4d14e2a2029661562f9aa0d454c36c"
+hash = "3fa2ba282fab22269b0cc83588bb23b0173cec0da5fb317f4c99a64df7c5ad8c"
 metafile = true
 
 [[files]]
@@ -251,12 +251,12 @@ metafile = true
 
 [[files]]
 file = "mods/polyweather.pw.toml"
-hash = "ad4377f0abc50f2a7a4d28e8663a11d9201bbaf9b7fbc8cfca6338f716e14bd0"
+hash = "a213dad46015e93ff628f3e911850e474b650c4c2bd42e88d87e61af57794bf7"
 metafile = true
 
 [[files]]
 file = "mods/redaction.pw.toml"
-hash = "33d00a9375be2189e8c8fee3d89d940594e8419c25c337d61593d68f48351df1"
+hash = "679d7fd5ed9ffab657d9eb9049203b37e679aed690daabc508afe6634260ea4f"
 metafile = true
 
 [[files]]
@@ -266,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/screencapper.pw.toml"
-hash = "f930e32c026b7b2549f7352b4fb4f270848b09571b752e584f0ceb40205524ff"
+hash = "3d672f86f7227a17b6fbe34f3cf439ab0683b94fbc0fb696e48670bcc5fa6947"
 metafile = true
 
 [[files]]

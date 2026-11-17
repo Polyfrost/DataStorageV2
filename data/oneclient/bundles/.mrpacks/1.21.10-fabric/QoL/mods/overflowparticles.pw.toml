@@ -2,16 +2,16 @@ id = "61g97TVF"
 enabled = true
 hidden = false
 name = "OverflowParticles"
-filename = "overflowparticles-1.2.5+1.21.10.jar"
+filename = "overflowparticles-1.2.6+1.21.10.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/61g97TVF/versions/hYLLBEjk/overflowparticles-1.2.5%2B1.21.10.jar"
+url = "https://cdn.modrinth.com/data/61g97TVF/versions/vtJTG1XR/overflowparticles-1.2.6%2B1.21.10.jar"
 hash-format = "sha512"
-hash = "c4dd900eb6bb7934588653d7dac4ad0c6b18e318f4b6c9326d39d75cb21caadef9830f4fff1f675ed54248f6a31d95e699b691de3f5cf8b38efd8a1423fa16f0"
+hash = "3b5fb360f5ba1e4540d893ae108db76cf54180dc873b2cfe85362e5af5682af3249df4795c31797dc466ac1d1d932fe8ac6c1fc797c9131bf9e883f3c1c7ea18"
 
 [update]
 [update.modrinth]
 mod-id = "61g97TVF"
-version = "hYLLBEjk"
+version = "vtJTG1XR"
