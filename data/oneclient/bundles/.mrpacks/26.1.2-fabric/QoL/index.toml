@@ -195,11 +195,6 @@ hash = "80e17ec4b23bf8e14e9329c9c37850c5535b9c809a549c535f925a9029f68fda"
 metafile = true
 
 [[files]]
-file = "mods/notsoessential.pw.toml"
-hash = "96e663c37c3e848b917ca2a5156780f3e6571f02ce62d1149fe31cea9a08fa74"
-metafile = true
-
-[[files]]
 file = "mods/numerical-enchantments.pw.toml"
 hash = "14df383e2335fd44fd8646f1c5330ecd4b119aa47dd72934186115dcf004c696"
 metafile = true
