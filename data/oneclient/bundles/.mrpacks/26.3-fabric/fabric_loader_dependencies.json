@@ -26,6 +26,11 @@
         "nbt_ac": "*"
       }
     },
+    "quick-pack": {
+      "+breaks": {
+        "caxton": "*"
+      }
+    },
     "vmp": {
       "+breaks": {
         "voxyworldgenv3": "*"

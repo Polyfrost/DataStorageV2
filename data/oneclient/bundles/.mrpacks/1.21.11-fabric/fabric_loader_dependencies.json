@@ -47,6 +47,11 @@
         "async-pack-scan": "*"
       }
     },
+    "quick-pack": {
+      "+breaks": {
+        "caxton": "*"
+      }
+    },
     "vmp": {
       "+breaks": {
         "voxyworldgenv3": "*"

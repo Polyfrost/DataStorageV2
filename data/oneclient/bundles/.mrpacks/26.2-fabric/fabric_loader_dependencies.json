@@ -36,6 +36,11 @@
         "async-pack-scan": "<26.2.1"
       }
     },
+    "quick-pack": {
+      "+breaks": {
+        "caxton": "*"
+      }
+    },
     "vmp": {
       "+breaks": {
         "voxyworldgenv3": "*"
