@@ -51,12 +51,12 @@ metafile = true
 
 [[files]]
 file = "mods/chatting.pw.toml"
-hash = "02790094c2cce3a7b3bf4b4d5edfd35934c0cc8ae21620b02028dc01a58beafc"
+hash = "fbb78e8ba39d4973e772f7c125899f3750ffa70d9c234431094db9762a40de27"
 metafile = true
 
 [[files]]
 file = "mods/chattweaks.pw.toml"
-hash = "c9137cb7f925218a474fb4bfb87723c9c1185b547735fa90d7d039334a1b3eaa"
+hash = "02ca558247fc899e7e9044e593c5044a568953735f33fc12285c8bf51f300088"
 metafile = true
 
 [[files]]
@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorsaturation.pw.toml"
-hash = "96cfba69ecd4398a373fd8d2ef77464b080b3ce537062e3e2c84a8daf8a1a0dd"
+hash = "fd8c5080e9d8ed79b59398d2799ac242a49ad8787d27d916ef7ca6b8aabfdddd"
 metafile = true
 
 [[files]]
@@ -221,7 +221,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "2189974e6410ff00d9598c7f483eccfd0fc077fa0a4169492c375b1e7121dbfe"
+hash = "e3a3ffc46cf3725073109816f151c624a4f6e1b58ff5cbde48da04b18848f3dd"
 metafile = true
 
 [[files]]

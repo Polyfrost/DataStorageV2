@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/behindyou.pw.toml"
-hash = "6366c0c1e0346eb82f58184951712f6fd97b945d93b0c9dcd6670f2c5d467485"
+hash = "814f46e3727a53cc58cc3209ba797776a92d15a91995faacf75d3d7dba96af8a"
 metafile = true
 
 [[files]]
@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "df0c63043ae6f706e7d7acf9a7a96a52e9574481896fba8a8373934953963ae4"
+hash = "735b757e22c4a15e880eb6f28855b4a2393635ccd2d24c68ef6264ef4bd4a7b5"
 metafile = true
 
 [[files]]

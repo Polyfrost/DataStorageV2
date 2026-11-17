@@ -2,16 +2,16 @@ id = "sAFPANmp"
 enabled = true
 hidden = false
 name = "BehindYouV3"
-filename = "behindyouv3-3.5.1+26.2.jar"
+filename = "behindyouv3-3.5.2+26.2.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/sAFPANmp/versions/jkZpnKCO/behindyouv3-3.5.1%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/sAFPANmp/versions/VupzwUF6/behindyouv3-3.5.2%2B26.2.jar"
 hash-format = "sha512"
-hash = "2cd7d11cdfc5a65b37b376de605e8e243775e6991fbb5b05f283779efe6835795d2a6e012d5171dc685d395acf8a6b61b3fb746d924439343a5b6300cd241ebe"
+hash = "5d5e9f56be7ee1c137cde4525fb6a8a7a033773bcbdfe85316aadfcf07503091e7b23d5ab6ceb7e7c352f805e686404e6f38d00d6328b99f4b4733ddc5b27a7e"
 
 [update]
 [update.modrinth]
 mod-id = "sAFPANmp"
-version = "jkZpnKCO"
+version = "VupzwUF6"

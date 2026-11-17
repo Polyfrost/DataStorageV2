@@ -2,16 +2,16 @@ id = "8pJYUDNi"
 enabled = true
 hidden = false
 name = "Chatting"
-filename = "chatting-3.2.5+26.1.jar"
+filename = "chatting-3.2.6+26.1.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/8pJYUDNi/versions/UHZSHuNP/chatting-3.2.5%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/8pJYUDNi/versions/Zqqdr1Y5/chatting-3.2.6%2B26.1.jar"
 hash-format = "sha512"
-hash = "dbc8dbc86860681e0600524f4c66409d58c7c7193fc35f12a95448ae9f00db332c3d99a817af68ab3fa7553623120bca0579d03cad416760371268b2ded6f9eb"
+hash = "876642029b4f9aef94ddea313993dd3b390fd4ff425d0586eda52e7387d56fbe5899407fb8541beb6dd945147c5f42e791a0725c54b2bbefd5f86cdf67565ecc"
 
 [update]
 [update.modrinth]
 mod-id = "8pJYUDNi"
-version = "UHZSHuNP"
+version = "Zqqdr1Y5"
