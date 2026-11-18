@@ -310,6 +310,12 @@
                     }
                 }
             ]
+        },
+        {
+            "hash": "de4f5f6e5444a90f9b762a02d3233c227262be8a",
+            "name": "Simple Voice Chat Group Player Names",
+            "author": "hennyc",
+            "explanation": "/oneclient/bad_mods_mds/voicechat-names.md"
         }
     ]
 }
