@@ -312,6 +312,12 @@
             ]
         },
         {
+            "hash": "1840cb6fd0ddb8f23133d1067860ff02ca3f0ba0",
+            "name": "Cpvp Hud",
+            "author": "MeqxsDev",
+            "explanation": "/oneclient/bad_mods_mds/cpvp-hud.md"
+        },
+        {
             "hash": "de4f5f6e5444a90f9b762a02d3233c227262be8a",
             "name": "Simple Voice Chat Group Player Names",
             "author": "hennyc",

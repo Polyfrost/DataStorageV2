@@ -1,0 +1,3 @@
+# Cpvp Hud
+
+The 1.0.0+mc26.1.2 build of Cpvp Hud is listed for 26.2 but was made for 26.1.2. IF YOU TRY INSTALLING THIS VERSION IT WILL INSTANTLY CRASH YOUR GAME. TELL THE DEVELOPER TO FIX THIS!
