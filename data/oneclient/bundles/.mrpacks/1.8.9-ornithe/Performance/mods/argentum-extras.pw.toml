@@ -2,14 +2,14 @@ id = "Tc8Lbsu7"
 enabled = true
 hidden = false
 name = "Argentum Extras"
-filename = "cera-1.0.3-beta.13.jar"
+filename = "argentum-extras-1.0.3-beta.13.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.13/cera-1.0.3-beta.13.jar"
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.13/argentum-extras-1.0.3-beta.13.jar"
 hash-format = "sha256"
-hash = "6af5b12a7ef3f11cdd26b7f53e8212ad15b7e99a488649ec6047ced559de677d"
+hash = "5d076e1c43f61deb6bb30025ab49358a157737bd1e6935dbed29eb8ef4fb33e3"
 
 [update]
 [update.github]
