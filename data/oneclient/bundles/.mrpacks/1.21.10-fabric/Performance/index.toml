@@ -151,12 +151,12 @@ metafile = true
 
 [[files]]
 file = "mods/polydium.pw.toml"
-hash = "23cf8781767a369bba2847b32b4a26696168a50c9c07ab8ec07c874c038c852e"
+hash = "60dd50a7d2ec053a53c9d0a41b16309752cbd84dcd50b752228f1c2dc45a0019"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "365fab48568108e6c3f24550357f5d5b259b4c74ec43d9f9d2dda312cce0f6a4"
+hash = "1af6636c416eded7145ff2c23ceb4c0d8a692db3f74f8b668590b487ee66b9c5"
 metafile = true
 
 [[files]]
