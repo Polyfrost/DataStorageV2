@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "a154ce030531fcf016d5b0910717de3047b0cee9fc628b41b8908a1f26728e8b"
+hash = "0f4ab02134fb6569dece21bd313a6dfb0e782d44f55393db0b8bd0677efccece"
 metafile = true
 
 [[files]]
@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "8e99e55fa1b2531621b04609b26a1d4a43fa185cc889669fc43dd23eebe8eef1"
+hash = "9b265c9e69e0018cd1e1cf8d612b70998a27e877736c6963523c7f799e562c96"
 metafile = true
 
 [[files]]

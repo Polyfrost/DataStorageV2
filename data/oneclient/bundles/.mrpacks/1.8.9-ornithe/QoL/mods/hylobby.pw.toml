@@ -2,15 +2,15 @@ id = "eyD1lgpB"
 enabled = true
 hidden = false
 name = "HyLobby"
-filename = "HyLobby-1.0.1-1.8.9_ornithe.jar"
+filename = "HyLobby-1.0.2-1.8.9_ornithe.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/eyD1lgpB/versions/n4t60bY3/HyLobby-1.0.1-1.8.9_ornithe.jar"
+url = "https://cdn.modrinth.com/data/eyD1lgpB/versions/ohApd2dK/HyLobby-1.0.2-1.8.9_ornithe.jar"
 hash-format = "sha512"
-hash = "af22372be5dbb5654c933b8d53617bc1f97917c06a451eb3d45d9207aab547f744cc0cb6765017858cb7fb0528101ca646b05515852dfaf2889bd147827cb281"
+hash = "02c150c6fd21e8da5569ba70c35e513109de592ab37c75a9cf71c4f909b9515739e4ee116be008c3d831f8528086d000f6df4c1f73eef910a7c2728016116b84"
 
 [update]
 [update.modrinth]
 mod-id = "eyD1lgpB"
-version = "n4t60bY3"
+version = "ohApd2dK"

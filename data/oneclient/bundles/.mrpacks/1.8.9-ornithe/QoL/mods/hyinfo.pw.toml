@@ -2,15 +2,15 @@ id = "4dNGXeZO"
 enabled = true
 hidden = false
 name = "HyInfo"
-filename = "HyInfo-3.0.2-1.8.9_ornithe.jar"
+filename = "HyInfo-3.1.0-1.8.9_ornithe.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/1QiiDPAf/HyInfo-3.0.2-1.8.9_ornithe.jar"
+url = "https://cdn.modrinth.com/data/4dNGXeZO/versions/XEDatAre/HyInfo-3.1.0-1.8.9_ornithe.jar"
 hash-format = "sha512"
-hash = "a540063b0fd1c7309fb11e64c477260da1b450b488178eb09e5f5eee89f8571f4cc2ba4c4cfbd1d6ef65e901518400ab92a1e7040eb4095b66eb2b582a8b14e5"
+hash = "b7a172669f2a03e46107040c5d2e6078bb23b3aeb10cea4cf0a68d7a61c26086c3399bf7bcd1164707e123f18fdf85d29a791991f4f1b310fad97109d1c3f83c"
 
 [update]
 [update.modrinth]
 mod-id = "4dNGXeZO"
-version = "1QiiDPAf"
+version = "XEDatAre"

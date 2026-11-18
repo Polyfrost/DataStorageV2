@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "d25f219d07d0784b09faea32cc87e6ff619a769d2720936b0bb97a62a8bbaa7a"
+hash = "9733be0780114fd9de11b82294ba5912d7103986bb59cbfc0baccece03b1072a"
 metafile = true
 
 [[files]]
@@ -386,10 +386,10 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "60b6de98adb91254ca7e314fbbc442fed8eef55e9966a3478f0579ec291ca4ab"
+hash = "105b2ddf794ab6164f2c68ebd1ae054a45b2f6a33b768acbf60b5b9f0c801581"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "feb771e1a2a890e29cf68d969e94399500e632ea5bd558e97fc97cc2546fa7c4"
+hash = "e6b18d0a956116d53f153810380b73b55f585fbe0e5d9b5e34e9ec1e1133af99"
 metafile = true

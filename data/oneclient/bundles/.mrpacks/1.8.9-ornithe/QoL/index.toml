@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatblock.pw.toml"
-hash = "1feabc947d09c8874e2a8d43da5324c29a0cdb6c7668fd38772c82c3641d0099"
+hash = "82594f02cc9c39e68e32755cddc2fe05110af9afbb384588306f0b8f4afa9ca6"
 metafile = true
 
 [[files]]
@@ -121,12 +121,12 @@ metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "b601691b2681fd9728fa5791dfd5dfcbd842da946ca1fafaea3f30e8117822a4"
+hash = "303c9cb7034f51a7fd413d55ee297447bed85f8caa7fbff5df5b04d18175a942"
 metafile = true
 
 [[files]]
 file = "mods/hylobby.pw.toml"
-hash = "c9b4df3568b4bb257f7c2beb2db812b65ede082b79022a6625fdc4fa6c8efd9d"
+hash = "19ab5ffa5321189caec73ee367706e3c5239a184fb803bb7e146db050401ba4b"
 metafile = true
 
 [[files]]
@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "0ec613c870e4136c360a7836dcecf736685f7d7454c01f2cfda04122ec3e6b4b"
+hash = "1517cb679824a6d6e12dadb1bbe393d637f59ae49aa8f6586c7490e4db00d0e7"
 metafile = true
 
 [[files]]

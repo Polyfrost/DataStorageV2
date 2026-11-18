@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatblock.pw.toml"
-hash = "c90ed81cf1b7911f38f4e7402a3903b3f8c5b5a30492bebfe0b9168331439560"
+hash = "ec4af0186bf0c80a66bb9caed2e589e4dac379b83b226531471157403b830a37"
 metafile = true
 
 [[files]]
@@ -236,7 +236,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "4dcc6ec7b24e981bcd54a3bb59e2e92e4fe1a4de73bf2b43e0f2b68b0e01de87"
+hash = "a0557c39d4fb92921c46e3484db963c5773cca0dc9639d92e4e6e590471628cc"
 metafile = true
 
 [[files]]
@@ -366,10 +366,10 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "60b6de98adb91254ca7e314fbbc442fed8eef55e9966a3478f0579ec291ca4ab"
+hash = "105b2ddf794ab6164f2c68ebd1ae054a45b2f6a33b768acbf60b5b9f0c801581"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "feb771e1a2a890e29cf68d969e94399500e632ea5bd558e97fc97cc2546fa7c4"
+hash = "e6b18d0a956116d53f153810380b73b55f585fbe0e5d9b5e34e9ec1e1133af99"
 metafile = true
