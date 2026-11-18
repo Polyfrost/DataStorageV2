@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "c0f895647ebe57a882c01cee94c6150b30da264308109de7c3c50a28d5eac044"
+hash = "3768bef7d40f073c4132a73b8f127bde5cf8eda65fa9b13c5b62ef92ebc06479"
 metafile = true
 
 [[files]]
@@ -326,7 +326,7 @@ metafile = true
 
 [[files]]
 file = "mods/tooltip-scroll.pw.toml"
-hash = "ae45a783f45f8bd6a8170fdcfed0878ffbef1f6a4bbfbcca8cbee2594c7b1b61"
+hash = "ad17113ae686662b513c6ce61d7df26d5f4e9a10b658621e574f978afd05cde7"
 metafile = true
 
 [[files]]

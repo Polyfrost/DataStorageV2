@@ -2,16 +2,16 @@ id = "wySVd6d8"
 enabled = true
 hidden = false
 name = "Tooltip Scroll"
-filename = "tooltip-scroll-1.5.2+26.3.jar"
+filename = "tooltip-scroll-1.5.3+26.3.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/wySVd6d8/versions/m9jJPsQ6/tooltip-scroll-1.5.2%2B26.3.jar"
+url = "https://cdn.modrinth.com/data/wySVd6d8/versions/rm6CQ5U2/tooltip-scroll-1.5.3%2B26.3.jar"
 hash-format = "sha512"
-hash = "b9ab669f683b9abbfabdb15c7ea98c7b25fa09cd4b79a85107874d39044b5513b537d268371309ec6c3af7fd05516eb3e69ebb5582d68138eccc7def496b73b4"
+hash = "4585c19d1b4ee67edb37629f560006470fa17a2fa274466cdfee3d04f6343dc3c0eae625ac4a4ffa2a55d3013ba42e41bfa89c462a881178616e74f212ea5003"
 
 [update]
 [update.modrinth]
 mod-id = "wySVd6d8"
-version = "m9jJPsQ6"
+version = "rm6CQ5U2"

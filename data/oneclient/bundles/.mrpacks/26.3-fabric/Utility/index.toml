@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/betternightvision.pw.toml"
-hash = "640023e8bf00309747bf104e05a0b6c57de67cb133ecde6c8365f667c92a31dd"
+hash = "4600a9760cdc93981ea338fcbb4b49cd9c6130d6e0d1d96ccfd4d8e087805622"
 metafile = true
 
 [[files]]
@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "c0f895647ebe57a882c01cee94c6150b30da264308109de7c3c50a28d5eac044"
+hash = "3768bef7d40f073c4132a73b8f127bde5cf8eda65fa9b13c5b62ef92ebc06479"
 metafile = true
 
 [[files]]
