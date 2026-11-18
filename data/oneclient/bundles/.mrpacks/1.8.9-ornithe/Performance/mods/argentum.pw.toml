@@ -2,14 +2,14 @@ id = "QRMV06RW"
 enabled = true
 hidden = false
 name = "Argentum"
-filename = "cera-1.0.3-beta.13.jar"
+filename = "argentum-1.0.3-beta.13.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.13/cera-1.0.3-beta.13.jar"
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.13/argentum-1.0.3-beta.13.jar"
 hash-format = "sha256"
-hash = "6af5b12a7ef3f11cdd26b7f53e8212ad15b7e99a488649ec6047ced559de677d"
+hash = "ffe6adbea3ccb4fa9bb90da8d85ef34b530ec6c88d20d1d74b1ba9441ece8ba5"
 
 [update]
 [update.github]
