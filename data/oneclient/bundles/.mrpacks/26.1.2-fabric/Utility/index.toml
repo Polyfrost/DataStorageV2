@@ -6,7 +6,7 @@ hash = "c59ca6cb41fce4be4b896a954f6d94535e3a321d84eb881458c2a006673c93e0"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "84967d61ac212a5e8693582d0e2193becf5f4dede25e716b7d9912dc905d3703"
+hash = "811e4dc4679c72710fdf1f3a4f28985907c244ba8f37bf7db7eca069bfb18c6b"
 metafile = true
 
 [[files]]
@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "a4667cdd1189ca82c4c39f2f87be7ab79f3f6c369287169b0e1f0580f14d11c7"
+hash = "f5a2329e4f75aafcc3ff6f097fea56b8d31730cbe334e8d4b60f732f028e5b32"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "914548d7457283c001103b6f763f9d764e3fabccfe7858c2c0cc6cfd8e759996"
+hash = "3a3019e7ecc820caccb600f71aa4b826999a3060e8feb4d8f8e7a818a15c9119"
 metafile = true
 
 [[files]]

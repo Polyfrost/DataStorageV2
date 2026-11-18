@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/crashpatch.pw.toml"
-hash = "305c688fb1505343462dee6e6dd0a23785c5520ac3be4b6c7127d7a526759b75"
+hash = "9ae8af6ecdebdc71818da5e77ff7eb7c56e329620583330575f2d0d3352f45fe"
 metafile = true
 
 [[files]]
@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "77053209b6c3e075738d6ee778e4e8f76f74bc47907bc53a8fcec87179ace0e7"
+hash = "9a52fc75b0aeb73b70987b7709c49c4af4ecf5f4f271fbb7130ee4b716d8cbc7"
 metafile = true
 
 [[files]]

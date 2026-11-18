@@ -241,7 +241,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "edfbbae7b4596cc4a5a533526f182e15ce7e9bbe217db103ce27805d1088097b"
+hash = "0e848a01d1d5ed838a9ecdf03307c4b854b84c6146ce7e0aa55977b39153cb70"
 metafile = true
 
 [[files]]
@@ -351,7 +351,7 @@ metafile = true
 
 [[files]]
 file = "mods/wwaypoints.pw.toml"
-hash = "4fc037df766a3c8279680452c6cc15c9610a3128f236395418793b0ee247ac2f"
+hash = "7343ed64f0635845f55ae9f8f5906dfe5d74140593e15016aa665d72d94cdbf5"
 metafile = true
 
 [[files]]
