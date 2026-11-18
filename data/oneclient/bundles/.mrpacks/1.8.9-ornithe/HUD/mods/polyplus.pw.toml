@@ -6,11 +6,11 @@ filename = "polyplus-2.1.1+1.8.9.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Iw9mZi4a/versions/h64rwIMo/polyplus-2.1.1%2B1.8.9.jar"
+url = "https://cdn.modrinth.com/data/Iw9mZi4a/versions/7BozFOpb/polyplus-2.1.1%2B1.8.9.jar"
 hash-format = "sha512"
 hash = "504c3d968af9f950ac107383beb8491e214325e634e98ba222b907f5e4484096c332b31890722e1d0971fd1c30e1f34f962d672551b57675b5e757be36a47642"
 
 [update]
 [update.modrinth]
 mod-id = "Iw9mZi4a"
-version = "h64rwIMo"
+version = "7BozFOpb"
