@@ -5,11 +5,6 @@ file = "config/fabric_loader_dependencies.json"
 hash = "c59ca6cb41fce4be4b896a954f6d94535e3a321d84eb881458c2a006673c93e0"
 
 [[files]]
-file = "mods/aim-utils.pw.toml"
-hash = "cbfa0a8667100cda43b909252d818c6802caa94969c7b3735bd7e61d6bbb9baa"
-metafile = true
-
-[[files]]
 file = "mods/animations.pw.toml"
 hash = "811e4dc4679c72710fdf1f3a4f28985907c244ba8f37bf7db7eca069bfb18c6b"
 metafile = true
