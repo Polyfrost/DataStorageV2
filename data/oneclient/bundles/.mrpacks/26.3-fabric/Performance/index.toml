@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "93f6080c38c93ae80ab9748784242bb45cf96bee1b75317ded217dfa1bb6f6d0"
+hash = "7d24e1a7c69bc47fe40a78df2a340e66713b8e79701758c795d78a9b234606d8"
 metafile = true
 
 [[files]]
@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/polydium.pw.toml"
-hash = "31eb1bb894f135958f7d670f918ca055bc1ee49d281cd3335c8c1efca507bec0"
+hash = "0efb914bf4b13446e69a06aacb8e4e02647a2c1ee8079df58c06abbb5d764400"
 metafile = true
 
 [[files]]
