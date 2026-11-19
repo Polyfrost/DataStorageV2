@@ -71,7 +71,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "a0557c39d4fb92921c46e3484db963c5773cca0dc9639d92e4e6e590471628cc"
+hash = "df6808f34066a83f32fe300b6951c964647f828c4b2d92d8463d5a2d5f1fd058"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "bd77e994f0b0c24e352455e0cf7cfbb16a83ddfee57502b3b0e544b0e290f5b7"
+hash = "eb445d66b3c1a4c830ff4d533003365cad4f78bf40c5d14ef03668f362a4b0c1"
 metafile = true
 
 [[files]]

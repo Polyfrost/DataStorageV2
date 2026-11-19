@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "9bbb078a88b925b7a72d0c5a18785e4362fa6b204cca1980b3a93927e7b6fd35"
+hash = "21accfe794e575bd4cfb52924a606d79986f6e0c073ee70f4dd1c0fc0fcfe8eb"
 metafile = true
 
 [[files]]
@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "9b265c9e69e0018cd1e1cf8d612b70998a27e877736c6963523c7f799e562c96"
+hash = "811bbc27828e5bba2e0cf58fb073873e5116a57b0c03e0746083bbae170bba00"
 metafile = true
 
 [[files]]
@@ -171,7 +171,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "d661dddea8165c9321df4a3fb6b46eafb18b9b81e72215d9a1ebd379a4a49cc2"
+hash = "d5d618f50abdf647c41aa2481b324ce406486d68ea93b914163e94398e12a635"
 metafile = true
 
 [[files]]
