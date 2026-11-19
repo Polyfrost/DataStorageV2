@@ -6,9 +6,78 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [2.0.557] - 2026-11-19
+
 ### Added
 
 - Added Aim Utils to the Utility bundle.
+
+### Changed
+
+- Updated OneConfig from 1.7.1 to 1.8.0. ([Changelog](https://modrinth.com/project/AibBIVmj/version/BWieDkB8))
+- Updated Chatting from 3.2.5 to 3.2.7. ([Changelog](https://modrinth.com/project/8pJYUDNi/version/S8Gybkhm))
+- Updated CrashPatch from 2.2.3 to 2.2.5. ([Changelog](https://modrinth.com/project/nZ3E8WQz/version/QT1ZXvxC))
+- Updated EvergreenHUD from 3.9.18 to 3.9.19. ([Changelog](https://modrinth.com/project/1yIQcc2b/version/Sdtj9aOl))
+- Updated OverflowParticles from 1.2.5 to 1.2.6. ([Changelog](https://modrinth.com/project/61g97TVF/version/4r6JDBcJ))
+- Updated Poly+ (PolyPlus) from 2.0.11 to 2.2.0. ([Changelog](https://modrinth.com/project/Iw9mZi4a/version/lLjjkpUw))
+- Updated PolyBlur from 2.2.10 to 2.2.11. ([Changelog](https://modrinth.com/project/xT45UG5o/version/Aq7Xu6bo))
+- Updated PolyNametag from 1.2.5 to 1.2.6. ([Changelog](https://modrinth.com/project/HK3p7LMj/version/YjbeW9Bk))
+- Updated PolySprint from 1.3.4 to 1.3.5. ([Changelog](https://modrinth.com/project/i9xRThb3/version/DpBF3rvC))
+- Updated PolyTime from 1.3.3 to 1.3.4. ([Changelog](https://modrinth.com/project/m3kNp1iP/version/kOX85Kyz))
+- Updated PolyWeather from 1.3.1 to 1.3.2. ([Changelog](https://modrinth.com/project/r8Cr8YRg/version/cfdEEODP))
+- Updated Redaction from 2.1.1 to 2.1.2. ([Changelog](https://modrinth.com/project/Gapz72zt/version/zPQAPZHo))
+- Updated Lithium from 0.26.3 to 0.26.4. ([Changelog](https://modrinth.com/project/gvQqBUqZ/version/Lal8mJGR))
+- Updated Architectury API from 20.1.17 to 20.1.18 on 26.1.2. ([Changelog](https://modrinth.com/project/lhGA9TYQ/version/ZARvDhhO))
+- Updated Architectury API from 21.1.12 to 21.1.13 on 26.2. ([Changelog](https://modrinth.com/project/lhGA9TYQ/version/Qnq8I4rX))
+- Updated Architectury API from 22.0.5 to 22.0.6 on 26.3. ([Changelog](https://modrinth.com/project/lhGA9TYQ/version/Njpa4lhR))
+- Updated Argentum from 1.0.3-beta.11 to 1.0.3-beta.13.
+- Updated Argentum Extras from 1.0.3-beta.9 to 1.0.3-beta.13.
+- Updated BehindYouV3 from 3.5.1 to 3.5.2. ([Changelog](https://modrinth.com/project/sAFPANmp/version/icIIKT3l))
+- Updated Better Night Vision from 1.0.5 to 1.0.7. ([Changelog](https://modrinth.com/project/CaQ3SZNi/version/yRezyV2P))
+- Updated Cera from 1.0.3-beta.9 to 1.0.3-beta.13.
+- Updated Chat Block from 1.7.2 to 1.8.0. ([Changelog](https://modrinth.com/project/aMcWnMHI/version/fdRcBetO))
+- Updated ChatTweaks from 1.2.3 to 1.2.4. ([Changelog](https://modrinth.com/project/8LNT47ZH/version/T88iZvE2))
+- Updated ColorSaturation from 1.3.1 to 1.3.3. ([Changelog](https://modrinth.com/project/fLNnSWgM/version/qJGTyR85))
+- Updated Complementary Shaders - Reimagined from r5.9.3 to r5.10. ([Changelog](https://modrinth.com/project/HVnmMxH1/version/RKfUB9VC))
+- Updated Complementary Shaders - Unbound from r5.9.3 to r5.10. ([Changelog](https://modrinth.com/project/R6NEzAwj/version/QJiYQisE))
+- Updated Concurrent Chunk Management Engine (Fabric) from 0.4.0-alpha.0.71 to 0.4.0-alpha.0.75 on 26.1.2. ([Changelog](https://modrinth.com/project/VSNURh3q/version/SXLCkqLg))
+- Updated Concurrent Chunk Management Engine (Fabric) from 0.4.2-alpha.0.67 to 0.4.2-alpha.0.71 on 26.2. ([Changelog](https://modrinth.com/project/VSNURh3q/version/qwS7dYKj))
+- Updated Concurrent Chunk Management Engine (Fabric) from 0.4.2-alpha.0.119 to 0.4.2-alpha.0.121 on 26.3. ([Changelog](https://modrinth.com/project/VSNURh3q/version/Qfm2hhas))
+- Updated DamageTint from 3.7.3 to 3.7.4. ([Changelog](https://modrinth.com/project/6zatK8W5/version/yGAmqHSA))
+- Updated Forge Compat from 1.1.4 to 1.1.5.
+- Updated FullBright from 1.1.1 to 1.1.2. ([Changelog](https://modrinth.com/project/p6m1u5Bu/version/sJppla7e))
+- Updated GlintColorizer from 3.0.2 to 3.0.3. ([Changelog](https://modrinth.com/project/SevsTfWN/version/YRSGH5FH))
+- Updated Gnetum from 4.6.4 to 4.6.5. ([Changelog](https://modrinth.com/project/7MoE34WK/version/UfGYBDhB))
+- Changed HyBedWars from 1.1.2-beta.1 to 1.1.2. ([Changelog](https://modrinth.com/project/PpCuCnXh/version/cQnyWSbv))
+- Changed HyBridge from 1.0.1-beta.1 to 1.0.1. ([Changelog](https://modrinth.com/project/TdlcEuAc/version/6ymUW9wR))
+- Changed HyChatter from 1.0.1-beta.1 to 1.0.1. ([Changelog](https://modrinth.com/project/Kgbfmh7g/version/97cP0kqT))
+- Updated HyInfo from 3.0.2-beta.1 to 3.1.0. ([Changelog](https://modrinth.com/project/4dNGXeZO/version/XEDatAre))
+- Updated HyLobby from 1.0.1-beta.1 to 1.0.2. ([Changelog](https://modrinth.com/project/eyD1lgpB/version/ohApd2dK))
+- Updated Kerria from 1.3.2 to 1.4.0. ([Changelog](https://modrinth.com/project/f0ruQTF7/version/Ei11EbRi))
+- Updated Legacy Skyblock from 2.9.0 to 2.10.0. ([Changelog](https://modrinth.com/project/61aTg1r5/version/VtNUEDZT))
+- Changed Material Rule Compiler from 1.1.5 to 1.1.4. ([Changelog](https://modrinth.com/project/vnpqfrJN/version/leHh7bGQ))
+- Updated No Chat Restrictions from 1.0.3 to 1.1.0 on 1.21.1, 1.21.10 and 1.21.11. ([Changelog](https://modrinth.com/project/z440MEwJ/version/A0HrukxP))
+- Updated No Chat Restrictions from 1.1.3 to 1.2.0 on 26.1.2. ([Changelog](https://modrinth.com/project/z440MEwJ/version/zqxfiYIS))
+- Updated No Chat Restrictions from 1.2.3 to 1.3.0 on 26.2. ([Changelog](https://modrinth.com/project/z440MEwJ/version/Fd3Azi8B))
+- Updated No Chat Restrictions from 1.3.0 to 1.4.0 on 26.3. ([Changelog](https://modrinth.com/project/z440MEwJ/version/hVSRCMnN))
+- Updated Optimized Block Entities from 1.2.6 to 1.2.9 on 1.21.1. ([Changelog](https://modrinth.com/project/AtOSAunf/version/223eXQ4z))
+- Updated Optimized Block Entities from 1.2.6 to 1.2.12 on 1.21.10, 1.21.11 and 26.1.2. ([Changelog](https://modrinth.com/project/AtOSAunf/version/TWTFBuLI))
+- Updated Optimized Block Entities from 1.2.5 to 1.2.12 on 26.2 and 26.3. ([Changelog](https://modrinth.com/project/AtOSAunf/version/2OlPg9X4))
+- Updated OverflowAnimations from 5.1.8 to 5.1.11. ([Changelog](https://modrinth.com/project/4Hfmgaef/version/osGt6EvM))
+- Updated PolyCrosshair from 2.0.9 to 2.0.10. ([Changelog](https://modrinth.com/project/obfJASPU/version/CjMzJqS5))
+- Updated Polydium from 1.4.13 to 1.4.19. ([Changelog](https://modrinth.com/project/hbSfT032/version/Z2ZGX3h7))
+- Updated PolyHitbox from 1.4.2 to 1.4.3. ([Changelog](https://modrinth.com/project/Mptc0jo6/version/N7RWPM9r))
+- Updated Raise Sound Limit Simplified from 1.2.2 to 1.2.3 on 26.1.2. ([Changelog](https://modrinth.com/project/SKW62Pht/version/oq8kN3xN))
+- Updated Raise Sound Limit Simplified from 1.3.0 to 1.3.1 on 26.2. ([Changelog](https://modrinth.com/project/SKW62Pht/version/e0gAp54t))
+- Updated Raise Sound Limit Simplified from 1.4.0 to 1.4.1 on 26.3. ([Changelog](https://modrinth.com/project/SKW62Pht/version/J12JO5WB))
+- Updated Screencapper from 2.1.1 to 2.1.2. ([Changelog](https://modrinth.com/project/yzNFLSqx/version/GJFm7i0N))
+- Updated ServerCore from 1.5.20 to 1.5.21. ([Changelog](https://modrinth.com/project/4WWQxlQP/version/YNdFPSov))
+- Updated SkyHanni for Hypixel SkyBlock from 9.3.0 to 9.5.0. ([Changelog](https://modrinth.com/project/byNkmv5G/version/N4SneavR))
+- Updated SmartSearch from 1.2.1 to 1.2.2. ([Changelog](https://modrinth.com/project/N5EQhK31/version/qbiIlKSt))
+- Updated SoundTweaks from 1.0.1 to 1.0.2. ([Changelog](https://modrinth.com/project/7hJZhArg/version/Qa0NHUap))
+- Updated TNT Countdown from 2.1.4 to 2.1.5. ([Changelog](https://modrinth.com/project/pQFm0mAJ/version/qzeMCLs0))
+- Updated Tooltip Scroll from 1.5.2 to 1.5.3. ([Changelog](https://modrinth.com/project/wySVd6d8/version/rm6CQ5U2))
+- Updated wWaypoints from 0.8.1 to 0.9.0. ([Changelog](https://modrinth.com/project/eQke7g17/version/DJ8LLYwy))
 
 ## [2.0.542] - 2026-11-16
 
@@ -1592,7 +1661,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Includes Simple Voice Chat, Controlify, Zoomify and Jade.
 - Includes SkyHanni, Skyblocker and Catharsis in the SkyBlock bundle.
 
-[unreleased]: https://github.com/Polyfrost/DataStorageV2/compare/5db7fb6e8373fcdd50a7d1bbc64f7dc8ff168f4e...HEAD
+[unreleased]: https://github.com/Polyfrost/DataStorageV2/compare/7a50fc665da2d1d2acaccef7ab3b9bb09d7a7371...HEAD
+[2.0.557]: https://github.com/Polyfrost/DataStorageV2/compare/5db7fb6e8373fcdd50a7d1bbc64f7dc8ff168f4e...7a50fc665da2d1d2acaccef7ab3b9bb09d7a7371
 [2.0.542]: https://github.com/Polyfrost/DataStorageV2/compare/33cccc8010f739efc198a5c7a24d4271b8acd1ee...5db7fb6e8373fcdd50a7d1bbc64f7dc8ff168f4e
 [2.0.523]: https://github.com/Polyfrost/DataStorageV2/compare/9b94c7b7dd18f727912083ebbb9f0b776fec0f2a...33cccc8010f739efc198a5c7a24d4271b8acd1ee
 [2.0.512]: https://github.com/Polyfrost/DataStorageV2/compare/d8bb668889029ca025c0e6849458f8aa9d7f5413...9b94c7b7dd18f727912083ebbb9f0b776fec0f2a
