@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "1e013d89c23fb64d61f54d7f65688eff3120b05c97e2d40c51afb64c1ba704b0"
+hash = "8765dd7ba02ebb5321793bed2d0bf9a7453f057ba6a256f583ce0ff5e9bc1677"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "9ac0a79e91e01379936055ba804f230cdce004a5ea46bc802b94d304ceb18eca"
+hash = "109e7a3c8329807ad111a51b011782913743c86ee12b99b74f709999e1475f94"
 metafile = true
 
 [[files]]
