@@ -1,0 +1,17 @@
+id = "Y4rHsKBo"
+enabled = true
+hidden = false
+name = "Aim Utils"
+filename = "aimutils-1.5+1.21.11.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y4rHsKBo/versions/bem15070/aimutils-1.5%2B1.21.11.jar"
+hash-format = "sha512"
+hash = "7a525ff456b0d32d0ae1a5cae561ce4288b178ff277d0b927c3b3fe8a84f61ffd84e8abf3b5bd118305461ec8a37a7edc0d05646c385e0401a8cd8178bb94171"
+
+[update]
+[update.modrinth]
+mod-id = "Y4rHsKBo"
+version = "bem15070"
