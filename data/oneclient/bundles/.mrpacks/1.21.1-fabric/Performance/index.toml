@@ -10,11 +10,6 @@ hash = "9d3710b5883cab410c53021dfe523a7ae160d1bc0f6240fce9f34bf0a1bb5a86"
 metafile = true
 
 [[files]]
-file = "mods/better-mipmaps.pw.toml"
-hash = "a48ece669b8fd6d5ffcfc62ea162b7ef4d2ebde411f55f83867dcc0aafd9b8e3"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "5ce81ccd8bba390b9c02023b1d168c0de8e343088ca0116ea9f439f78a1396f4"
 metafile = true
