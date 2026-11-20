@@ -2,16 +2,16 @@ id = "eQke7g17"
 enabled = true
 hidden = false
 name = "wWaypoints"
-filename = "wWaypoints 0.9.0 Fabric 26.3.jar"
+filename = "wWaypoints 0.9.1 Fabric 26.3.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/eQke7g17/versions/DJ8LLYwy/wWaypoints%200.9.0%20Fabric%2026.3.jar"
+url = "https://cdn.modrinth.com/data/eQke7g17/versions/pBrcJcG2/wWaypoints%200.9.1%20Fabric%2026.3.jar"
 hash-format = "sha512"
-hash = "e8ee40f75c9effc2fd65aa53ffbf0cdcd8146fea3a48cf35e2acdd182d03d18963bdb1a1e7a2914c3467592a357ed70facaa94ef55637a736ebda743f739a7e4"
+hash = "2f3901a00997e6cf0d07f104883e3a68f2c8762533d7303a5ee8dab30a2b47b6dcc0ca53e7bc3488d2c8ccdacf5adaf58c96ab52ebacd860436e813d858c6d59"
 
 [update]
 [update.modrinth]
 mod-id = "eQke7g17"
-version = "DJ8LLYwy"
+version = "pBrcJcG2"

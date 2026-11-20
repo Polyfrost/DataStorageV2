@@ -351,7 +351,7 @@ metafile = true
 
 [[files]]
 file = "mods/wwaypoints.pw.toml"
-hash = "7343ed64f0635845f55ae9f8f5906dfe5d74140593e15016aa665d72d94cdbf5"
+hash = "c5c67ff77f11913b42061e614caf3af6b064b5876b2b80a8f9dc9ad9247c776e"
 metafile = true
 
 [[files]]
