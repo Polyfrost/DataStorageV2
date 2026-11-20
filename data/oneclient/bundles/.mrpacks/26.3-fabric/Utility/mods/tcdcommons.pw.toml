@@ -2,16 +2,16 @@ id = "Eldc1g37"
 enabled = true
 hidden = true
 name = "TCDCommons API"
-filename = "tcdcommons-5.8.0+fn-26.3.jar"
+filename = "tcdcommons-5.9.0+fn-26.3.jar"
 side = "both"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/Eldc1g37/versions/GVSkIJY4/tcdcommons-5.8.0%2Bfn-26.3.jar"
+url = "https://cdn.modrinth.com/data/Eldc1g37/versions/E1clGRzb/tcdcommons-5.9.0%2Bfn-26.3.jar"
 hash-format = "sha512"
-hash = "adc5b07d91700fe27d2b3c7a482e2fed968705ccf1af69bfecb37895265872740f0766d340549e4f92ff6a75143ec9a621cba64d4a81a31e0e041a73fe37fd81"
+hash = "d81416abf58c956f5c917848b9fa995367a409e95c8781d14ba1852d5d711134bc7458f70ddcef73699ac579036fdc8b956741394c2ce8757e914e28303c11dc"
 
 [update]
 [update.modrinth]
 mod-id = "Eldc1g37"
-version = "GVSkIJY4"
+version = "E1clGRzb"
