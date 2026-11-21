@@ -26,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-block-highlight.pw.toml"
-hash = "36e9ca2928df8fcc106c1a785501761c61b47801846ce0591b1432a9bc14212b"
+hash = "7a929b478512b07b0f363fd9ba40c7a72798ad3c9cc70de3a7d8ef5f3f561665"
 metafile = true
 
 [[files]]
