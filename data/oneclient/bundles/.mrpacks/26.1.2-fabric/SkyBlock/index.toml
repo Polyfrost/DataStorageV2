@@ -90,6 +90,11 @@ hash = "41b24fdc2b4ab91d746f80fcaf653aa766db51c7632a12bfa76537696804317e"
 metafile = true
 
 [[files]]
+file = "mods/skyblock-profile-viewer.pw.toml"
+hash = "58ecf980f2c853aff5c329d1f0779082df62c2580c15e45f5144cb27199e7b66"
+metafile = true
+
+[[files]]
 file = "mods/skyblocker-liap.pw.toml"
 hash = "1ffccd9e339313994e3839be5138aa8d3819639872e0814ce8ccc92606fa8321"
 metafile = true
