@@ -15,6 +15,11 @@ hash = "6406d818313579b1a13e42c609f408416ee7cd3b328ccff9a3dd9ec29e08df0f"
 metafile = true
 
 [[files]]
+file = "mods/autotext.pw.toml"
+hash = "bbebd3b4ff36a5b3ff89146106f0c983b13c69dce1a7aada459af0d1b9353391"
+metafile = true
+
+[[files]]
 file = "mods/better-elytra-render.pw.toml"
 hash = "effa6905b0b3c01aa6efb3088390616641192938554436863e4482eb7d18ab66"
 metafile = true

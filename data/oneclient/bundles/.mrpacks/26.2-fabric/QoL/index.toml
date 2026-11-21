@@ -15,6 +15,11 @@ hash = "a210346cef1daf5fe46cf6ae170f94e7336524896ccc0a0b5304f689f3685859"
 metafile = true
 
 [[files]]
+file = "mods/autotext.pw.toml"
+hash = "cf68576fa2204323c8e3f966edf349e646bdec5af29a31707493c8b284bd09c7"
+metafile = true
+
+[[files]]
 file = "mods/better-screens.pw.toml"
 hash = "e38647f5af49b50c947cce168ae21257b52169dff9319f0aa38ed6878112ec9d"
 metafile = true
