@@ -322,6 +322,26 @@
             "name": "Simple Voice Chat Group Player Names",
             "author": "hennyc",
             "explanation": "/oneclient/bad_mods_mds/voicechat-names.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "aT8BzaOj"
+            },
+            "name": "ItemPhysic",
+            "author": "CreativeMD",
+            "explanation": "/oneclient/bad_mods_mds/itemphysic.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "OuyCgP8t"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Better X-Ray",
+            "author": "realrbn",
+            "explanation": "/oneclient/bad_mods_mds/betterxray.md"
         }
     ]
 }
