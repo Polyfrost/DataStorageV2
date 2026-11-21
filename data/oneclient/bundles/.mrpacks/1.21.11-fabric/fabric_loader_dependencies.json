@@ -32,6 +32,11 @@
         "minecraft": "IGNORED"
       }
     },
+    "itemphysiclite": {
+      "+breaks": {
+        "itemphysic": "*"
+      }
+    },
     "naturalmotionblur": {
       "-depends": {
         "java": "IGNORED"

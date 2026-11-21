@@ -21,6 +21,11 @@
         "minecraft": "IGNORED"
       }
     },
+    "itemphysiclite": {
+      "+breaks": {
+        "itemphysic": "*"
+      }
+    },
     "nbtac": {
       "+breaks": {
         "nbt_ac": "*"
