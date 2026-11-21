@@ -2,18 +2,18 @@ id = "z4ctq7MO"
 enabled = true
 hidden = false
 name = "Cera"
-filename = "cera-1.0.3-beta.13.jar"
+filename = "cera-1.0.3-beta.14.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.13/cera-1.0.3-beta.13.jar"
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.14/cera-1.0.3-beta.14.jar"
 hash-format = "sha256"
-hash = "6af5b12a7ef3f11cdd26b7f53e8212ad15b7e99a488649ec6047ced559de677d"
+hash = "805e215a510d24eb832f742403844bdcbbe5842202d851dcbc7154734ceae0ee"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^cera-.+\\.jar$"
 slug = "Polyfrost/Argentum"
-tag = "v1.0.3-beta.13"
+tag = "v1.0.3-beta.14"

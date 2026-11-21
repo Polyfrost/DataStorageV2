@@ -6,7 +6,7 @@ hash = "28d3b9f56718f7e7e8f4e79304a848acdc32943612fd314e98ec55b9ddd1728f"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "1b316b4eafc8e273c7eafbd542dd0cfa17d7ad56857af36184aecd810b6ec0ef"
+hash = "ac1b03faa8d069c7f2325c62aa647e9d9353338b1641c5b2db3a95c5d740fb2a"
 metafile = true
 
 [[files]]
@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/hitbox.pw.toml"
-hash = "2171383fb3ce86109e5de733852af1dc2de09d3e949e4bd3b8ccf64736b31347"
+hash = "5aa60e2fc9540cd5eb5ded206ef2b175d08b2204a81394ebf07b6f6b106ee704"
 metafile = true
 
 [[files]]

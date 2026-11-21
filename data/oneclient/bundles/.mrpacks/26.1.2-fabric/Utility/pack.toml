@@ -12,7 +12,7 @@ java-version-override = 25
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "14fa62be50cb1e170bb9121f48f9e091cc21f29c704cf6d8bafbf06af3545b66"
+hash = "fef7eb73026eb2fd69598cc87a8ac54feaa54ae2128bb146b7748af7d9481840"
 
 [versions]
 fabric = "0.20.1"
