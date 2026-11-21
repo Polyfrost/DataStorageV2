@@ -2,16 +2,16 @@ id = "nZ3E8WQz"
 enabled = true
 hidden = false
 name = "CrashPatch"
-filename = "CrashPatch-2.2.5+26.1.2.jar"
+filename = "CrashPatch-2.3.0+26.1.2.jar"
 side = "client"
 type = "advanced"
 
 [download]
-url = "https://cdn.modrinth.com/data/nZ3E8WQz/versions/sasZqTi4/CrashPatch-2.2.5%2B26.1.2.jar"
+url = "https://cdn.modrinth.com/data/nZ3E8WQz/versions/xSWU5wKt/CrashPatch-2.3.0%2B26.1.2.jar"
 hash-format = "sha512"
-hash = "d02a5843c523c45ad4e1a138576e722c088d09d4e1bf32fbae9ae37cd3370402955f4815a6a8b93225e08869c2ef4abaf7a6cb3a18b57b94b5c5a229dbda86b7"
+hash = "fd6aeedd3eb01cdc614f78b2c934d618e64068042e4827ae6406fcbc9bbc510257c2a48701484478af25192f1641425dcea88ac2b661b3d13f54a4cd0aff6a52"
 
 [update]
 [update.modrinth]
 mod-id = "nZ3E8WQz"
-version = "sasZqTi4"
+version = "xSWU5wKt"

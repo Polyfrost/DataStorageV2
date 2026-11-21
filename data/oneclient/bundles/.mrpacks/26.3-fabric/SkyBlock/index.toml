@@ -15,11 +15,6 @@ hash = "34a9e128eb16a02e00fcb224bef8e32ddebc4dfb450ee95b6712868165518861"
 metafile = true
 
 [[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "dd96675a88b3b94ce76a83495d0de6f7541d310192dd150fd2f39572ca013077"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "379c274e8c51661e601956c62f391cca9bdb33556a4b15a5f6118d8d6606d0d7"
 metafile = true
@@ -36,17 +31,22 @@ metafile = true
 
 [[files]]
 file = "mods/legacyskyblock.pw.toml"
-hash = "0f4ab02134fb6569dece21bd313a6dfb0e782d44f55393db0b8bd0677efccece"
+hash = "a83f722ced725e36f30a5eaaa8ee3cf446638f21e42e746ce727c98da7e2b86f"
 metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "c2412c7c28cd4a3857e381419b1f2ed961d3bb6870b4022b4d3768a67756d69f"
+hash = "e7953a442ad0f935c86932ae22b70216b02a4523d9bc81b80ddc23885bf3900d"
+metafile = true
+
+[[files]]
+file = "mods/polycompose.pw.toml"
+hash = "328a5dae3e38782a26decc72645ad3b0c241388f573da4df84bc622f07b5bd00"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "811bbc27828e5bba2e0cf58fb073873e5116a57b0c03e0746083bbae170bba00"
+hash = "592c490aab9aef64f56a5da3c9afa4faf39989a42b50a4bf5983294520c86600"
 metafile = true
 
 [[files]]

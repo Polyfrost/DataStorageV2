@@ -25,11 +25,6 @@ hash = "e18c004d89340acd27e2cace0bf4113c33585fa75f47df3e075e1a266d11c35e"
 metafile = true
 
 [[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "dd96675a88b3b94ce76a83495d0de6f7541d310192dd150fd2f39572ca013077"
-metafile = true
-
-[[files]]
 file = "mods/cull-fewer-leaves.pw.toml"
 hash = "ad4c7b12ef51370c174c6e6c487064e5b4fe965b9baf2dee3b9660cd7ef1cbdc"
 metafile = true
@@ -141,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "bd7c54b4402a4faef29f576c22c040e7374ff6ae2931d52b73cf66348c460366"
+hash = "dd5cf1071c2348585e989ba67f08f3798e0dff537453a660f8e08a164ec52403"
 metafile = true
 
 [[files]]
@@ -155,13 +150,18 @@ hash = "e4b1d369d5a95909aa1b04c80b55944973cd0772e8d058b48c779fc2f79777fb"
 metafile = true
 
 [[files]]
+file = "mods/polycompose.pw.toml"
+hash = "40542afdfc21b3e20a6143286bd90cb6c8c9de472c78f7453fee481c5d586cfc"
+metafile = true
+
+[[files]]
 file = "mods/polydium.pw.toml"
 hash = "8d652fc4dc2ec1dfcadd230334044387318977d5734ad6acac91ef03db801d81"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "af3e7d2bf4e05dead8f15112ab06cc40f98b4436571b3627bbde93646ecbee28"
+hash = "aa65adcaae03fd1111c29d23fac2298cda658b67e9ac96a4b2161b4fe233e7b2"
 metafile = true
 
 [[files]]

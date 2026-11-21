@@ -10,11 +10,6 @@ hash = "562b56463478d11c2299d434a902d12389aefdafe8565d2740a8ecc78850757b"
 metafile = true
 
 [[files]]
-file = "mods/autotext.pw.toml"
-hash = "7eb01b2fea95776f81f6794a5590d090443910c0d2aa330adda110901b04a91e"
-metafile = true
-
-[[files]]
 file = "mods/better-screens.pw.toml"
 hash = "211ea8a787dc933baf5f681c3e5f10f4c3f8646e774b3c2abff9a2475e4e1fbf"
 metafile = true
@@ -47,11 +42,6 @@ metafile = true
 [[files]]
 file = "mods/colorsaturation.pw.toml"
 hash = "21af3d7e6c3f7a8fd444b484bbeddb3d3bd9dbeb5bf84a794ca548644e51776c"
-metafile = true
-
-[[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "7b4efadd23593761f4b4464dd7d15b894f8a7757c17c7b910f44b7c60f595581"
 metafile = true
 
 [[files]]
@@ -106,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/hybedwars.pw.toml"
-hash = "6b361f6913b516604a96ceee1d549253685709b52b18bcce674426271c5577bf"
+hash = "dca23ee016e257ce77377936a0e951a910d59487d9c026be8d338d5161fe3d85"
 metafile = true
 
 [[files]]
@@ -161,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "eb2c699622c535ed8b137d3a2211accf64b89ca2824816e24c4f0a3b19d732b9"
+hash = "4df9840b04f4ce63ea2f4292c3051b4ffb029657a63d82946db8da2fe0529318"
 metafile = true
 
 [[files]]
@@ -190,13 +180,18 @@ hash = "7b6ddda5ce9a0026ea00724ee1d32696b9390080586b34381f24e59bef871b59"
 metafile = true
 
 [[files]]
+file = "mods/polycompose.pw.toml"
+hash = "ec4a931f8c91308fa56282e10f9ba880f829457f1a638eb20b3acba7197f476d"
+metafile = true
+
+[[files]]
 file = "mods/polynametag.pw.toml"
 hash = "b7a603eddf857e65e45b93bdc1d047f7adaf43e6daf80c9dfd8c5cad11a02802"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "b015eb23b2806752f337e12df31bc3a7460165881d67416c91e37432a29e6994"
+hash = "7e08d25cd714344433f7966f16c7e8b8d5a2bd859fb00a5ae24a426aea8aed3f"
 metafile = true
 
 [[files]]
@@ -231,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/screencapper.pw.toml"
-hash = "108cdd685b01cd042d1959d47bec71b4d3915eafbc4a0a660c2c32cc6642d6d6"
+hash = "b3e333875a05169308a4a0aec2b0f980acd0e5d37f7436d3320cc63b9dee8303"
 metafile = true
 
 [[files]]

@@ -1,0 +1,17 @@
+id = "eHe8QhtD"
+enabled = true
+hidden = true
+name = "PolyCompose"
+filename = "polycompose-26.2-fabric-3.0.0.jar"
+side = "client"
+type = "advanced"
+
+[download]
+url = "https://cdn.modrinth.com/data/eHe8QhtD/versions/3wfedgfz/polycompose-26.2-fabric-3.0.0.jar"
+hash-format = "sha512"
+hash = "f6d7cd370a3446d387978685c9eccfe34276102e5ccb912d627fcc16c6ee4433dd465f292fe39668a75672d033fe1b599ff08a453a7f378262f31eaddaca5691"
+
+[update]
+[update.modrinth]
+mod-id = "eHe8QhtD"
+version = "3wfedgfz"

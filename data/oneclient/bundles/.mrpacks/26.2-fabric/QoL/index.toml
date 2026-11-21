@@ -15,11 +15,6 @@ hash = "a210346cef1daf5fe46cf6ae170f94e7336524896ccc0a0b5304f689f3685859"
 metafile = true
 
 [[files]]
-file = "mods/autotext.pw.toml"
-hash = "5e6fe9959fa77b4e1ac33d34052f3c859015b7a97877eba196d3c35896c18618"
-metafile = true
-
-[[files]]
 file = "mods/better-screens.pw.toml"
 hash = "e38647f5af49b50c947cce168ae21257b52169dff9319f0aa38ed6878112ec9d"
 metafile = true
@@ -62,11 +57,6 @@ metafile = true
 [[files]]
 file = "mods/colorsaturation.pw.toml"
 hash = "8c0f726d4f8260a1d3b4149fa9a850f86bd214cfa025db60cb9d0b524b0c53e0"
-metafile = true
-
-[[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "dd96675a88b3b94ce76a83495d0de6f7541d310192dd150fd2f39572ca013077"
 metafile = true
 
 [[files]]
@@ -206,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "735b757e22c4a15e880eb6f28855b4a2393635ccd2d24c68ef6264ef4bd4a7b5"
+hash = "614d6491c138d54618e99816100f10465882c7fadd55ead2a0115646eb3d2bbf"
 metafile = true
 
 [[files]]
@@ -235,13 +225,18 @@ hash = "c74c6d8d3b10e71cd643383fd422d6c557fb3a1185add5b0d7d484ff816b5ae4"
 metafile = true
 
 [[files]]
+file = "mods/polycompose.pw.toml"
+hash = "aea17b1f06c6904acb68126089aac2683ef65f756d64d7e60487808ef457b75f"
+metafile = true
+
+[[files]]
 file = "mods/polynametag.pw.toml"
 hash = "86419ca8771591b9c4ce000fcb82f034e3e142e32957542f9d99181bc3430bea"
 metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "65c74e5436887a64bc00323a03cd4cd29a4649db8fc270aa369cd39c9edb281f"
+hash = "87872c59a02311e584b2d2001d5815e7eb7f189964542872d1150f27842e14ac"
 metafile = true
 
 [[files]]
@@ -271,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/screencapper.pw.toml"
-hash = "8ee23fa50ba45b41e6c7479397b8191837f566ef627a1f9cd5ac19e127c526be"
+hash = "62c425d6703d00c5811c50d73cece3de454e75a77d03ab45eaebd2c71167d029"
 metafile = true
 
 [[files]]

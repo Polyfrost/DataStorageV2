@@ -5,13 +5,8 @@ file = "config/fabric_loader_dependencies.json"
 hash = "d56521aa8208ba78118f5123038c64803d69f421518d23936d1ddb1d31a5ea9b"
 
 [[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "7b4efadd23593761f4b4464dd7d15b894f8a7757c17c7b910f44b7c60f595581"
-metafile = true
-
-[[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "d8828a89032cb50892a8743b474f397bc093c7f67dc6f6bd570fb3e7f20dcbcc"
+hash = "e6710cdc411ae8aaa6b1ef505a7da95b271bcff83a433775690b6107c5478118"
 metafile = true
 
 [[files]]
@@ -21,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "eb2c699622c535ed8b137d3a2211accf64b89ca2824816e24c4f0a3b19d732b9"
+hash = "4df9840b04f4ce63ea2f4292c3051b4ffb029657a63d82946db8da2fe0529318"
 metafile = true
 
 [[files]]
@@ -30,8 +25,13 @@ hash = "9c01549b68bf96e100f44d07022afe70f8a0e09ac67430d0695c188a0ac49ef9"
 metafile = true
 
 [[files]]
+file = "mods/polycompose.pw.toml"
+hash = "ec4a931f8c91308fa56282e10f9ba880f829457f1a638eb20b3acba7197f476d"
+metafile = true
+
+[[files]]
 file = "mods/polyplus.pw.toml"
-hash = "b015eb23b2806752f337e12df31bc3a7460165881d67416c91e37432a29e6994"
+hash = "7e08d25cd714344433f7966f16c7e8b8d5a2bd859fb00a5ae24a426aea8aed3f"
 metafile = true
 
 [[files]]
@@ -41,5 +41,5 @@ metafile = true
 
 [[files]]
 file = "mods/vanillahud.pw.toml"
-hash = "0cddefbaee9a90326257858f0efd68aa6e05e5707cc275850fe0d7200deee343"
+hash = "2b13e535adf7d80ffc97857ba9e914d7731f6667230637a144b6a2d7466c7bc0"
 metafile = true

@@ -15,11 +15,6 @@ hash = "34a9e128eb16a02e00fcb224bef8e32ddebc4dfb450ee95b6712868165518861"
 metafile = true
 
 [[files]]
-file = "mods/compose-multiplatform.pw.toml"
-hash = "dd96675a88b3b94ce76a83495d0de6f7541d310192dd150fd2f39572ca013077"
-metafile = true
-
-[[files]]
 file = "mods/detail-armor-bar-reconstructed.pw.toml"
 hash = "d0edd13cc8e0560dbffa745658070cc8662e7e5b3dd91e6e615270980e209d7a"
 metafile = true
@@ -31,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/evergreenhud.pw.toml"
-hash = "3749aced7cd88172b24e484213de95cd4814e7c12da4363b6761fbb4be556a74"
+hash = "c8f754b7c59bedba02690db8986aedc7cf8b3a0bae39b1a39056da8efc5de42f"
 metafile = true
 
 [[files]]
@@ -56,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "c2412c7c28cd4a3857e381419b1f2ed961d3bb6870b4022b4d3768a67756d69f"
+hash = "e7953a442ad0f935c86932ae22b70216b02a4523d9bc81b80ddc23885bf3900d"
 metafile = true
 
 [[files]]
@@ -65,8 +60,13 @@ hash = "0fa500232a0cef0837e9d9e17fe39ecce1c218c8efb7647b8ae50d8a06a7bd22"
 metafile = true
 
 [[files]]
+file = "mods/polycompose.pw.toml"
+hash = "328a5dae3e38782a26decc72645ad3b0c241388f573da4df84bc622f07b5bd00"
+metafile = true
+
+[[files]]
 file = "mods/polyplus.pw.toml"
-hash = "811bbc27828e5bba2e0cf58fb073873e5116a57b0c03e0746083bbae170bba00"
+hash = "592c490aab9aef64f56a5da3c9afa4faf39989a42b50a4bf5983294520c86600"
 metafile = true
 
 [[files]]
@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillahud.pw.toml"
-hash = "5992d85591ea7d3b23ac82f94ef5f1f8139a0b1a3e5b711efb49c2a09b9ad477"
+hash = "d1a0b4b5aa7346fd26a7b14d1a08fb7f7cf5e5b9957c7bfd71a1190c807b466a"
 metafile = true
 
 [[files]]
