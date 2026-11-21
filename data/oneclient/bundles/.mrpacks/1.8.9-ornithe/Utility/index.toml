@@ -31,7 +31,7 @@ metafile = true
 
 [[files]]
 file = "mods/fullbright.pw.toml"
-hash = "f34db7a30dbcb9f44a29dfdc230b8d55bf25562c06fd7af9030b8393b1b16eb3"
+hash = "125864fbde4ebcfb88ac036bc947491022783f2f68fac10cd25b17c1d8003611"
 metafile = true
 
 [[files]]

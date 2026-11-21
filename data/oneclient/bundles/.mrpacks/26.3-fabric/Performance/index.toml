@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "28d3b9f56718f7e7e8f4e79304a848acdc32943612fd314e98ec55b9ddd1728f"
+hash = "1f4b29350c218f56a79ef42e169507cc12439197f034eec9f3ee89fe307630ff"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "f6a58d774434544c6f5466c65985c3b7995d941585eb47be1fa9a83c41762583"
+hash = "e34e6fc355807684e3ab69d89da28a8b5e2796d4b31040da1643715d61d8b20a"
 metafile = true
 
 [[files]]
