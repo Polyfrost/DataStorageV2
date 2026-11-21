@@ -111,12 +111,12 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "9b38fec2658973d2c85fec61a72c389de67258f7ef10104638ba2976040f38d8"
+hash = "d39b267599d78578554461dded614e385252e5a33c4ec8785331ce4406a182eb"
 metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "11af286d5a2b8fd708c6bbb5799886299dc94fd4aa4f9371c6dcdb4112ef9521"
+hash = "edc7bb755adfa5dff2b1d52d9265249fe2e42578fff0def3cb38a91873eb36df"
 metafile = true
 
 [[files]]
