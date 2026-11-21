@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "85d5edd96030ad61308bd9bdc36916ee64e2df875337a23553400eec891bf9df"
+hash = "83a3216990f98778c765cbc10f633826e456c7535528652ade55b4407d0ad647"
 metafile = true
 
 [[files]]
@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/hylobby.pw.toml"
-hash = "81608119083cc587ea2584e91ca226b65a5227046e286974df0050e960667450"
+hash = "346f9470cf51c973b922d0682010a16d151d39d773d11b14b612ef16c43ffa28"
 metafile = true
 
 [[files]]

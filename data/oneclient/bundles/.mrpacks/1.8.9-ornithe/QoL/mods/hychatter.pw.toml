@@ -2,15 +2,15 @@ id = "Kgbfmh7g"
 enabled = true
 hidden = false
 name = "HyChatter"
-filename = "HyChatter-1.0.1-1.8.9_ornithe.jar"
+filename = "HyChatter-1.1.0-1.8.9_ornithe.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/Kgbfmh7g/versions/97cP0kqT/HyChatter-1.0.1-1.8.9_ornithe.jar"
+url = "https://cdn.modrinth.com/data/Kgbfmh7g/versions/GZj0Yjd5/HyChatter-1.1.0-1.8.9_ornithe.jar"
 hash-format = "sha512"
-hash = "aa6e532f3d4ac91f939181be32fb122ca4bfd7f0451966953f0459359de01b5d8eaacf9e77d94d207f8ac56338626418ace44283d7789755f19db0e2d7cedb1e"
+hash = "f0c3db68e8a8544e1d1791ce7c07844c0e8264b6add3c3a27da504b84d12ef8e02f9931222f186e85b2f88a5669e0a199783e53be5920f158ff51c6bf46bdace"
 
 [update]
 [update.modrinth]
 mod-id = "Kgbfmh7g"
-version = "97cP0kqT"
+version = "GZj0Yjd5"
