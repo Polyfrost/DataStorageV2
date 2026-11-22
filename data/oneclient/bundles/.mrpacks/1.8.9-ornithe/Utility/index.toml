@@ -51,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "73fa6abd4e5f2ebbbe2e36de24ed15ee5f13a82f235e0fdefb80b63e1e8328b8"
+hash = "5ff1265d60e20a1598f01bf5be4fb6ae9eb8489c3132b53109d7c2ad3da2ec60"
 metafile = true
 
 [[files]]

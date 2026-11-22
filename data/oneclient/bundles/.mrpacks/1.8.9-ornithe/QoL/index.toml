@@ -116,12 +116,12 @@ metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "303c9cb7034f51a7fd413d55ee297447bed85f8caa7fbff5df5b04d18175a942"
+hash = "12f1e5c98dc0451b6aaefd3577696a5ecc44f945e3e586024f9a3f284947195e"
 metafile = true
 
 [[files]]
 file = "mods/hylobby.pw.toml"
-hash = "346f9470cf51c973b922d0682010a16d151d39d773d11b14b612ef16c43ffa28"
+hash = "1bc4cb611616e49950f2d10694545d5b1d57b8a82798ccb70283eab67defc1d6"
 metafile = true
 
 [[files]]
@@ -186,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "73fa6abd4e5f2ebbbe2e36de24ed15ee5f13a82f235e0fdefb80b63e1e8328b8"
+hash = "5ff1265d60e20a1598f01bf5be4fb6ae9eb8489c3132b53109d7c2ad3da2ec60"
 metafile = true
 
 [[files]]
