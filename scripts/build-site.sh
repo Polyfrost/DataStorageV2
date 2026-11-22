@@ -24,6 +24,9 @@ mkdir -p "$OUTPUT_DIR"
 # Copy the data folder contents, dropping every dotfile/dotfolder at any depth.
 rsync -a --exclude='.*' "$DATA_DIR"/ "$OUTPUT_DIR"/
 
+# bundles/metadata.json stays for older launchers; stable/ gets its own copy.
+cp "$OUTPUT_DIR/oneclient/bundles/metadata.json" "$OUTPUT_DIR/oneclient/bundles/stable/metadata.json"
+
 # Resolve ${...} templates in the built JSON files.
 node "$SCRIPT_DIR/template.js" "$OUTPUT_DIR"
 

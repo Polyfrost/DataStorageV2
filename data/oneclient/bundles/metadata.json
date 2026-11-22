@@ -3,19 +3,19 @@
         "1.21.1": {
             "fabric": [
                 {
-                    "path": "/oneclient/bundles/generated/hud-1.21.1-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/hud-1.21.1-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/performance-1.21.1-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/performance-1.21.1-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/qol-1.21.1-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/qol-1.21.1-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/utility-1.21.1-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/utility-1.21.1-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
             ]
@@ -23,19 +23,19 @@
         "1.21.10": {
             "fabric": [
                 {
-                    "path": "/oneclient/bundles/generated/hud-1.21.10-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/hud-1.21.10-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/performance-1.21.10-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/performance-1.21.10-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/qol-1.21.10-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/qol-1.21.10-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/utility-1.21.10-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/utility-1.21.10-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
             ]
@@ -43,19 +43,19 @@
         "1.21.11": {
             "fabric": [
                 {
-                    "path": "/oneclient/bundles/generated/hud-1.21.11-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/hud-1.21.11-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/performance-1.21.11-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/performance-1.21.11-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/qol-1.21.11-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/qol-1.21.11-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/utility-1.21.11-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/utility-1.21.11-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
             ]
@@ -63,19 +63,19 @@
         "1.8.9": {
             "ornithe": [
                 {
-                    "path": "/oneclient/bundles/generated/hud-1.8.9-ornithe.mrpack",
+                    "path": "/oneclient/bundles/stable/hud-1.8.9-ornithe.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/performance-1.8.9-ornithe.mrpack",
+                    "path": "/oneclient/bundles/stable/performance-1.8.9-ornithe.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/qol-1.8.9-ornithe.mrpack",
+                    "path": "/oneclient/bundles/stable/qol-1.8.9-ornithe.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/utility-1.8.9-ornithe.mrpack",
+                    "path": "/oneclient/bundles/stable/utility-1.8.9-ornithe.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
             ]
@@ -83,23 +83,23 @@
         "26.1.2": {
             "fabric": [
                 {
-                    "path": "/oneclient/bundles/generated/hud-26.1.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/hud-26.1.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/performance-26.1.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/performance-26.1.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/qol-26.1.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/qol-26.1.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/skyblock-26.1.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/skyblock-26.1.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/utility-26.1.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/utility-26.1.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
             ]
@@ -107,23 +107,23 @@
         "26.2": {
             "fabric": [
                 {
-                    "path": "/oneclient/bundles/generated/hud-26.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/hud-26.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/performance-26.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/performance-26.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/qol-26.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/qol-26.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/skyblock-26.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/skyblock-26.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/utility-26.2-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/utility-26.2-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
             ]
@@ -131,23 +131,23 @@
         "26.3": {
             "fabric": [
                 {
-                    "path": "/oneclient/bundles/generated/hud-26.3-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/hud-26.3-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/performance-26.3-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/performance-26.3-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/qol-26.3-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/qol-26.3-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/skyblock-26.3-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/skyblock-26.3-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 },
                 {
-                    "path": "/oneclient/bundles/generated/utility-26.3-fabric.mrpack",
+                    "path": "/oneclient/bundles/stable/utility-26.3-fabric.mrpack",
                     "sha1": "${sha1(this.path)}"
                 }
             ]

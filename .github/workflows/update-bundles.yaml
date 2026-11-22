@@ -1,7 +1,8 @@
 name: "Update Bundles"
 on:
   schedule:
-    - cron: "0 * * * *"
+    # Stable channel: weekly. Nightly is rebuilt hourly by Deploy.
+    - cron: "0 5 * * 4"
   workflow_dispatch:
 
 permissions:

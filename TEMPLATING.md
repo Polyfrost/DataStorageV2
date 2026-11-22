@@ -6,7 +6,7 @@ Files under `data/` are published to GitHub Pages. Any `.json` file may use
 untouched, so templating is opt-in per value.
 
 Any path beginning with `/` refers to the root of the `data/` folder (the built
-site root), e.g. `/oneclient/bundles/generated/foo.mrpack`.
+site root), e.g. `/oneclient/bundles/stable/foo.mrpack`.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ resolves to `<data>/oneclient/foo.mrpack`.
 
 ```json
 {
-  "path": "/oneclient/bundles/generated/hud-1.21.1-fabric.mrpack",
+  "path": "/oneclient/bundles/stable/hud-1.21.1-fabric.mrpack",
   "sha1": "${sha1(this.path)}"
 }
 ```
@@ -42,7 +42,7 @@ renders to:
 
 ```json
 {
-  "path": "/oneclient/bundles/generated/hud-1.21.1-fabric.mrpack",
+  "path": "/oneclient/bundles/stable/hud-1.21.1-fabric.mrpack",
   "sha1": "5073040981898d4cef294e4f4d6c1bbe6179c6df"
 }
 ```

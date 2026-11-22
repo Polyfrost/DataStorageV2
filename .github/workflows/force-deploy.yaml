@@ -60,6 +60,12 @@ jobs:
           ./scripts/generate-bundles.sh
           ./scripts/generate-modrinth-packs.sh
 
+      - name: Generate nightly bundles
+        env:
+          PACKWIZ_TOKEN: ${{ secrets.PACKWIZ_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/generate-nightly.sh
+
       - name: Generate mod index
         run: node ./scripts/generate-mods-json.js
 
