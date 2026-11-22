@@ -76,7 +76,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillahud.pw.toml"
-hash = "5d7062bc9050beaffb5952ea63abe805a079d633cc2e1136bf7c49005e65e416"
+hash = "34b1cac2e6c35190e181da083b49a5c86a6e25f2db4c3a0fc9165140825fc4e9"
 metafile = true
 
 [[files]]
