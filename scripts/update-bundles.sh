@@ -2,10 +2,12 @@
 # Runs `packwiz update` on every pack under bundles/.mrpacks/<version>/<Bundle>,
 # bumping mods to their latest stable versions (updates the source .pw.toml files).
 # Mods in BETA_MODS get a second pass without --stable so they track pre-releases.
+# CHANNEL=nightly drops --stable for every mod.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-MRPACKS_DIR="$SCRIPT_DIR/../data/oneclient/bundles/.mrpacks"
+MRPACKS_DIR="${MRPACKS_DIR:-$SCRIPT_DIR/../data/oneclient/bundles/.mrpacks}"
+CHANNEL="${CHANNEL:-stable}"
 
 # shellcheck source=setup-packwiz.sh
 source "$SCRIPT_DIR/setup-packwiz.sh"
@@ -31,13 +33,15 @@ BETA_MODS=(
 update_bundle() {
   local bundle="$1"
   local attempt=1 out wait beta_out mod transient
+  local -a flags=(--stable) beta=("${BETA_MODS[@]}")
+  [ "$CHANNEL" = nightly ] && flags=() beta=()
   while (( attempt <= MAX_ATTEMPTS )); do
     # Stable pass: bump every mod to its latest stable version.
-    out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update -a -y --stable ) 2>&1 )" || true
+    out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update -a -y "${flags[@]}" ) 2>&1 )" || true
     printf '%s\n' "$out"
     # Beta pass: re-update opted-in mods without --stable so packwiz accepts the
     # newest version regardless of release channel (beta/alpha).
-    for mod in "${BETA_MODS[@]}"; do
+    for mod in "${beta[@]}"; do
       [ -f "$bundle/mods/$mod.pw.toml" ] || continue
       beta_out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update "$mod" -y ) 2>&1 )" || true
       printf '%s\n' "$beta_out"
@@ -53,6 +57,10 @@ update_bundle() {
     sleep "$wait"
     (( attempt++ ))
   done
+  if [ "$CHANNEL" = nightly ]; then
+    echo "::warning::Update checks still failing for $bundle; nightly keeps its partial update" >&2
+    return 0
+  fi
   # Revert just this bundle so its partial update is not committed; the others proceed.
   echo "::error::Update checks still failing for $bundle after ${MAX_ATTEMPTS} attempts; reverting its partial update" >&2
   git checkout -- "$bundle"
