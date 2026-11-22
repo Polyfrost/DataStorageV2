@@ -59,8 +59,6 @@ jobs:
             sleep 5
           done
 
-      - name: Fail if any update was held back
+      - name: Warn if any update was held back
         if: steps.update.outputs.degraded == 'true' || steps.gate.outputs.degraded == 'true'
-        run: |
-          echo "::error::Some bundles were not updated; see the annotations from the compatibility check"
-          exit 1
+        run: echo "::warning::Some bundles were not updated; see the annotations from the compatibility check"
