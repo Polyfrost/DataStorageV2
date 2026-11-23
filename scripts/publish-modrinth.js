@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const { setTimeout: sleep } = require("timers/promises");
 const { unzipSync, zipSync } = require("fflate");
 
 const API = "https://api.modrinth.com/v2";
@@ -67,22 +68,34 @@ function withVersionId(buffer, versionId) {
   return Buffer.from(zipSync(entries));
 }
 
+const MAX_ATTEMPTS = 5;
+
 async function api(pathname, options = {}) {
-  const res = await fetch(`${API}${pathname}`, {
-    ...options,
-    headers: {
-      Authorization: TOKEN,
-      "User-Agent": USER_AGENT,
-      ...(options.headers || {}),
-    },
-  });
-  if (!res.ok) {
+  const method = options.method || "GET";
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(`${API}${pathname}`, {
+      ...options,
+      headers: {
+        Authorization: TOKEN,
+        "User-Agent": USER_AGENT,
+        ...(options.headers || {}),
+      },
+    });
+    if (res.ok) return res;
     const body = await res.text().catch(() => "");
+    // Modrinth's database intermittently deadlocks while inserting versions.
+    // The transaction is rolled back, so the request is safe to repeat.
+    if (attempt < MAX_ATTEMPTS && body.includes("deadlock detected")) {
+      console.log(
+        `  ${method} ${pathname} hit a Modrinth database deadlock; retrying (${attempt}/${MAX_ATTEMPTS - 1})`
+      );
+      await sleep(attempt * 2000);
+      continue;
+    }
     throw new Error(
-      `Modrinth API ${options.method || "GET"} ${pathname} -> ${res.status} ${res.statusText}\n${body}`
+      `Modrinth API ${method} ${pathname} -> ${res.status} ${res.statusText}\n${body}`
     );
   }
-  return res;
 }
 
 async function projectState(projectId) {
