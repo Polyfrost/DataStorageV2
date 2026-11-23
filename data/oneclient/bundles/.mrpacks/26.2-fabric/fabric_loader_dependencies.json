@@ -31,6 +31,11 @@
         "itemphysic": "*"
       }
     },
+    "macos_input_fixes": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
     "nbtac": {
       "+breaks": {
         "nbt_ac": "*"

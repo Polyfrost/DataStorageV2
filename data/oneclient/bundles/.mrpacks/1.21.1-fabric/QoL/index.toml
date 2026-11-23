@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "673653b6dbba21b4ec1479947fd2b9957fdd984771bbb388a58073726c0f161b"
+hash = "a84e12e1aef86cc3c3c51da143c2751d326e3258a2e11453136106c5c3607646"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "28d3b9f56718f7e7e8f4e79304a848acdc32943612fd314e98ec55b9ddd1728f"
+hash = "2ca413558d03c779038171bca7d5983a7183d5daef1bd76eadf66f75b007d8d3"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
