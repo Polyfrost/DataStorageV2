@@ -2,18 +2,18 @@ id = "Tc8Lbsu7"
 enabled = true
 hidden = false
 name = "Argentum Extras"
-filename = "argentum-extras-1.0.3-beta.14.jar"
+filename = "argentum-extras-1.0.3-beta.15.jar"
 side = "client"
 type = "normal"
 
 [download]
-url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.14/argentum-extras-1.0.3-beta.14.jar"
+url = "https://github.com/Polyfrost/Argentum/releases/download/v1.0.3-beta.15/argentum-extras-1.0.3-beta.15.jar"
 hash-format = "sha256"
-hash = "ffc30ece0bfa732d13adec7f9a1ca55b8c34e69b365b715ead9b59cd40867973"
+hash = "60bd2065aee9903956d15c1e89fe2b77c25e3f43a7d25fd4ed911a92ffa1901e"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^argentum-extras-.+\\.jar$"
 slug = "Polyfrost/Argentum"
-tag = "v1.0.3-beta.14"
+tag = "v1.0.3-beta.15"

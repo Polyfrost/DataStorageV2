@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "c46647f155a878ea70ed5f5f057f54c56a2a87d366a3454578291433b437db36"
+hash = "25216985a56da3132a697006f5f25323751c4b0412a9e5ea7c023678525ebbca"
 metafile = true
 
 [[files]]
@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillahud.pw.toml"
-hash = "93f9e3a23629a25a69021e457ad3370e407dd03eb9ea8c85a2ae4af4c897f90a"
+hash = "a7bf5ba8dc6106bbfaeaaa833af3c646a32e93413dcdfb581628efbd194f3c16"
 metafile = true
 
 [[files]]

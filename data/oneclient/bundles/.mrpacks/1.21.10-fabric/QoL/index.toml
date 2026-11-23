@@ -66,7 +66,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorsaturation.pw.toml"
-hash = "d85421c0242a5875515762ea812470281ef0353cfd78ccc3c8a7153ced3ac238"
+hash = "8523c38396406e5ccc318415bc636d1a4553246bfb133c1f9b88ec00f556c86e"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "9b7051e0b50c0eb375bef362c9c1197af12c45df3547c888405b9900faf75bb8"
+hash = "a0d9e3815e73b6fecbe482ba294db57978e3c217c09a2ff08f3e843de14d5aba"
 metafile = true
 
 [[files]]
