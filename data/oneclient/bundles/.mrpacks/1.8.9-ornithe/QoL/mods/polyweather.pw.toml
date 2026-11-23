@@ -2,15 +2,15 @@ id = "r8Cr8YRg"
 enabled = true
 hidden = false
 name = "PolyWeather"
-filename = "polyweather-1.3.2+1.8.9.jar"
+filename = "polyweather-1.3.3+1.8.9.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/r8Cr8YRg/versions/I2XTVZ46/polyweather-1.3.2%2B1.8.9.jar"
+url = "https://cdn.modrinth.com/data/r8Cr8YRg/versions/TxT0Q1dk/polyweather-1.3.3%2B1.8.9.jar"
 hash-format = "sha512"
-hash = "702d0b673cd38816acb44b1601640b8211a5c4c4814dfcbc1f8e51b85b7fa30ae9894d631d1c5f1bf9aac27812f4eca5a1ad0aed08a4001b25586a416aeea363"
+hash = "0b27cb2f5770152b2ba3bff3f48ab3cfc82026d632a8f9e43729ef3db3a8dabf2d95ac504b4bf76de7c56d12470e7770a2964dbc81c79d5039417abd721bca59"
 
 [update]
 [update.modrinth]
 mod-id = "r8Cr8YRg"
-version = "I2XTVZ46"
+version = "TxT0Q1dk"

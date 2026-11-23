@@ -2,15 +2,15 @@ id = "hbSfT032"
 enabled = true
 hidden = false
 name = "Polydium"
-filename = "polydium-1.4.20+1.21.1.jar"
+filename = "polydium-1.4.21+1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/hbSfT032/versions/Q4OGE5es/polydium-1.4.20%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/hbSfT032/versions/kzsvUafT/polydium-1.4.21%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "354b4b906153683519edd005927203790625ffbe723afda1a1435a3b4a81ca792a9685d6a314562bf973212827318941efc9ab79f74afe4e5603601a480c3a1d"
+hash = "3d64d1a3e56067a52863c9902e9c8b2d54bf140e919fb919b9b8962d71fabb248468ba63b6a3afb36239df90e9d4366846539df88722bc6a2e4f08e47d592e5f"
 
 [update]
 [update.modrinth]
 mod-id = "hbSfT032"
-version = "Q4OGE5es"
+version = "kzsvUafT"
