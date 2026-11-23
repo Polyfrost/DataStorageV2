@@ -1,11 +1,6 @@
 {
   "version": 1,
   "overrides": {
-    "c2me-opts-natives-math": {
-      "-depends": {
-        "java": "IGNORED"
-      }
-    },
     "centered-crosshair": {
       "+breaks": {
         "firstt": "*"
@@ -40,11 +35,6 @@
     "itemphysiclite": {
       "+breaks": {
         "itemphysic": "*"
-      }
-    },
-    "macos_input_fixes": {
-      "-depends": {
-        "minecraft": "IGNORED"
       }
     },
     "naturalmotionblur": {
@@ -82,11 +72,6 @@
     "zfastnoise": {
       "+breaks": {
         "noisium": "*"
-      }
-    },
-    "zfastnoise-ocl": {
-      "-depends": {
-        "java": "IGNORED"
       }
     }
   }

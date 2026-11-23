@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
-hash = "ed611a3c3f8ce2a5c12848bebcaa752ba3326b712fa8284f86112de9e9bfd1d6"
+hash = "d56521aa8208ba78118f5123038c64803d69f421518d23936d1ddb1d31a5ea9b"
 
 [[files]]
 file = "mods/animations.pw.toml"
