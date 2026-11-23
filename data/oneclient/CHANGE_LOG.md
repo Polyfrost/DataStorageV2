@@ -1,3 +1,46 @@
+# 2.12.0
+
+- feat: nightly and stable channels
+- feat(markdown): show video previews in mod descriptions
+- Only filter new lines in the live game log
+- Support safely undoing new package installs
+- Avoid unnecessary copies during log redaction
+- Batch live game log notifications
+- Pause background motion updates when settled
+- Redesign the Appearance picker in onboarding and settings
+- chore: add warning when using Java 25 on macOS 10.x
+- chore: added bundle picker to the onboarding
+- fix: fixed mod copies modal colliding with other modals; added 'x' bu…
+- fix: restore main build and i18n test
+- feat: warn user if using OneDrive folder
+- chore: make iGPU window decorations toggleable
+- feat: scroll from home straight into versions
+- chore: update toast link has no confirmation now
+- fix: emojis in launcher
+- chore: redesigned the mods bisect tool
+- chore: added outside click detection for screenshot viewer
+- chore: migration redesign
+- chore: bundled jars now delete the file when deleted in launcher
+- chore: better launcher info in game output log
+- fix: fixed view in folder showing cached version of a mod
+- feat: reordered some wardrobe elements and added zoom
+- feat: redesigned the auto scroll button in live log viewers
+- feat: configure settings with environment variables
+- fix deleting bundle mods that were never installed
+- fix: special chat cooldown
+- Fix Windows ARM not downloading ARM JDK
+- fix: wait for launcher to exit before installing update
+- Add Oracle GraalVM
+- Add Nix flake packaging OneClient for NixOS
+- fix: make copied files writable
+- fix: use G1 when there is not enough RAM for a ZGC heap
+- fix: keep the on-disk name of every adopted file
+- fix: keep a cluster's clashing packs when moving them to the shared folder
+- feat: run the game through gamemoderun on Linux when installed
+- fix: drop the remapped game jar when the intermediary changes
+- fix: refresh vanilla version info too
+- fix: skip CurseForge files that have no download URL
+
 # 2.11.0
 
 - fix: keep tooltips hidden after their button is pressed
