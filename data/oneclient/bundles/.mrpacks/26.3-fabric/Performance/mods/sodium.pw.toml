@@ -2,16 +2,17 @@ id = "AANobbMI"
 enabled = true
 hidden = false
 name = "Sodium"
-filename = "sodium-fabric-0.9.3+mc26.3.jar"
+filename = "sodium-fabric-0.9.2+mc26.3.jar"
 side = "client"
+pin = true
 type = "normal"
 
 [download]
-url = "https://cdn.modrinth.com/data/AANobbMI/versions/tFcTKXDx/sodium-fabric-0.9.3%2Bmc26.3.jar"
+url = "https://cdn.modrinth.com/data/AANobbMI/versions/bAZQdGpg/sodium-fabric-0.9.2%2Bmc26.3.jar"
 hash-format = "sha512"
-hash = "fa087631e4677b571336974452ba2d21360c4f844325c1fe1695ee3907c3679212aea9081405c6793d55930b88661d62b615342453719a27cf11184946603dc4"
+hash = "f3f260f204b8ce5e8777c2c73f537956755ec61f3817b0b78b5e5568e8aa40f14891f146475075109747665c7c88a45ca0ca9a8df3c68d79c58ecdaa8d8c4b93"
 
 [update]
 [update.modrinth]
 mod-id = "AANobbMI"
-version = "tFcTKXDx"
+version = "bAZQdGpg"

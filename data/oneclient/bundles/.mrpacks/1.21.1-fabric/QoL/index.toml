@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/autotext.pw.toml"
-hash = "a89fff41c63bd373385a14da9ffa1c401b911d9b13539f9fc9f55cf494492c51"
+hash = "ce38dfe735edf4bf239c02930ea24f0f5fc3d7b07d6f1bfc6740fae1e7420986"
 metafile = true
 
 [[files]]
