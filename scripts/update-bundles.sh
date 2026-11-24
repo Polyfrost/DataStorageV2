@@ -12,7 +12,7 @@ CHANNEL="${CHANNEL:-stable}"
 # shellcheck source=setup-packwiz.sh
 source "$SCRIPT_DIR/setup-packwiz.sh"
 
-MAX_ATTEMPTS="${PACKWIZ_UPDATE_MAX_ATTEMPTS:-6}"
+MAX_ATTEMPTS="${PACKWIZ_UPDATE_MAX_ATTEMPTS:-2}"
 INTER_BUNDLE_SLEEP="${PACKWIZ_UPDATE_SLEEP:-3}"
 
 # Mods that should track pre-release (beta/alpha) versions instead of stable.
@@ -51,8 +51,8 @@ update_bundle() {
     if [ -z "$transient" ]; then
       return 0
     fi
-    wait=$(( 20 * 2 ** (attempt - 1) ))
-    (( wait > 300 )) && wait=300
+    (( attempt == MAX_ATTEMPTS )) && break
+    wait=20
     echo "::warning::Update check failed for some mods in $bundle; retry ${attempt}/${MAX_ATTEMPTS} after ${wait}s" >&2
     sleep "$wait"
     (( attempt++ ))
