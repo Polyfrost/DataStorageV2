@@ -25,6 +25,11 @@ hash = "f27bd253ae498ae21ded7ce72dd195e363751363d775d025c67cf55501efd2f9"
 metafile = true
 
 [[files]]
+file = "mods/hintfix.pw.toml"
+hash = "9f0558af654abb57d7a23f26d387f5f50f47325317345d1bb1a73e23fa4e0df6"
+metafile = true
+
+[[files]]
 file = "mods/hypixel-mod-api.pw.toml"
 hash = "47d946d80b3cf3c66d7b971ac4bdbc84a212a4c67f95745d159f4e57dc10ecfe"
 metafile = true

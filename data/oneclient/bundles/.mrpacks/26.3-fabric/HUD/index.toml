@@ -40,6 +40,11 @@ hash = "f27bd253ae498ae21ded7ce72dd195e363751363d775d025c67cf55501efd2f9"
 metafile = true
 
 [[files]]
+file = "mods/hintfix.pw.toml"
+hash = "9f0558af654abb57d7a23f26d387f5f50f47325317345d1bb1a73e23fa4e0df6"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "56f8835a40443bf88ddfa5ad2b197134373277b1355458533a228b3ad4959016"
 metafile = true

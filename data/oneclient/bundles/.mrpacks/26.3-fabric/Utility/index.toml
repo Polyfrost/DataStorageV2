@@ -75,6 +75,11 @@ hash = "0aa75b22b398bd3e3c73bf0e7b26ea80792d6bf96f20d517a1f8060e824df78f"
 metafile = true
 
 [[files]]
+file = "mods/hintfix.pw.toml"
+hash = "9f0558af654abb57d7a23f26d387f5f50f47325317345d1bb1a73e23fa4e0df6"
+metafile = true
+
+[[files]]
 file = "mods/hitbox.pw.toml"
 hash = "5aa60e2fc9540cd5eb5ded206ef2b175d08b2204a81394ebf07b6f6b106ee704"
 metafile = true
