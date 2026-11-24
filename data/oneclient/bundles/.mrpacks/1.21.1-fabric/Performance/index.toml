@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "34fab98a3fae25a71240a0f9cbe7e8b780658c6c85e646c7f7dea75348a550bc"
+hash = "def082703bd6146f7cc14e07092c6dfdc09d2fabfdb13a29b24a8ff38d8efdc0"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "9c0095e329b393d37141c8f31efd2eb1cdf282d36b4a6dbf490cb0f2d4b1dabc"
+hash = "cd17608421aa967286f8be13d732cd8af13d0e49a36188600824564aaf24c4d8"
 metafile = true
 
 [[files]]

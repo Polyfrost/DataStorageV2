@@ -6,7 +6,7 @@ hash = "bfb95a5614a5fe47aa5a0ed490607e68d45b758d302c9d0d48ef3a94b9a77c56"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "f595ce306018a05b4974d583f2057bae2cfbc7be7790616cff20b24179d6b6e3"
+hash = "b74847ec95bf5e05512b282e64e92cfefd8f85de4dc09bfd7b72ab14ffbe26ad"
 metafile = true
 
 [[files]]
@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "5eed50c7bea17db7a482e66bbc33516472c34c161c451ac396e4a22a6d838aec"
+hash = "c7b4beba118e4139ce75e0c818ef3c6741b95379a65ff9120d37c2996c9fecc3"
 metafile = true
 
 [[files]]

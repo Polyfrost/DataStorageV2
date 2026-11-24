@@ -2,15 +2,15 @@ id = "eHe8QhtD"
 enabled = true
 hidden = true
 name = "PolyCompose"
-filename = "polycompose-1.8.9-ornithe-3.0.6.jar"
+filename = "polycompose-1.8.9-ornithe-3.0.8.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/eHe8QhtD/versions/XHtdIAnZ/polycompose-1.8.9-ornithe-3.0.6.jar"
+url = "https://cdn.modrinth.com/data/eHe8QhtD/versions/UINKS1jV/polycompose-1.8.9-ornithe-3.0.8.jar"
 hash-format = "sha512"
-hash = "8056d48b8ea18924dc73b5682c1edb491fddf5ac9cd6d6a5bf0a2233ae88c173641331a08ebb27e6a5ab1074e77eb3f65786662107c8b0c77c60f75b3fa741f1"
+hash = "0b1b9ae9f44ba8a53d5f3d97b0db89d958fdd16e4d26c38e0679e39e9487f6a9425ce395ceb5a5bce9ac835e8b5b81c189a45aa8ca79187a717c66fe9e65db4f"
 
 [update]
 [update.modrinth]
 mod-id = "eHe8QhtD"
-version = "XHtdIAnZ"
+version = "UINKS1jV"

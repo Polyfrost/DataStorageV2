@@ -6,12 +6,12 @@ hash = "352ba47f9168dcae80cc1e4b1706d44cff34a5a07bdc833235f4bb089a4c6bc9"
 
 [[files]]
 file = "mods/animations.pw.toml"
-hash = "faa953a82449a458e865dd41b85e684538da78adf45bf344a1c21ec77e4e8f4e"
+hash = "69ffa6bd1bb618b1b1aecf0ee13c9dcb63f87dea88f2cc7f18b3ff29b0866530"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6b4c3e58b580eb2e57e77caeeaf88bf8de20f3710c73417837200538d542b240"
+hash = "73ec1684242aa7a039b0b799f1ded293792a665d586dc103cd69c15434d003b3"
 metafile = true
 
 [[files]]
@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "b7314a695c058612add1be977e8fc3cb4779c1352d12d93f71f175573b7cd1cd"
+hash = "a5be1a4447b5a0e1b746e9286fe3820ee2839ffa23910f9732b453404f8e8e7a"
 metafile = true
 
 [[files]]
