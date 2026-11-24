@@ -1,3 +1,14 @@
+# 2.12.1
+
+- fix: make text on art, media and accent follow the active theme
+- feat: fixed auto hide and more native macOS window behaviour
+- fix: glove handling in wardrobe
+- chore: update freya to 0.5.4
+- fix: brought back versions button; fixed themes onboarding step; rede…
+- fix: macos touchpad scroll bug
+- fix: keep streaks for unrecovered sessions, filter CurseForge by category, cap ZGC soft heap
+- chore: move release signing into separate jobs
+
 # 2.12.0
 
 - feat: nightly and stable channels
