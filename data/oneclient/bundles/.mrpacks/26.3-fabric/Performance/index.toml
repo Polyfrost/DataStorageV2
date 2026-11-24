@@ -141,12 +141,12 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "ab497e12ad69039f6f2bb857497098082a41a544143ee9b912014642ab5c12fa"
+hash = "f610df6fadbd05047000b5bca73b14d26e1bcb766e2afc4cd3e4e30a7516ac47"
 metafile = true
 
 [[files]]
 file = "mods/polydium.pw.toml"
-hash = "62fcad3271b3db5218ed51011fb240482d93d30059787033df94e303a507a612"
+hash = "3d8fdc41c2cf07b37da42dfbd487b388d89e77f8d3e32593298fa30b851632d8"
 metafile = true
 
 [[files]]
@@ -186,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "a1611b946e3c0d0b64db6cf23d3c28e64656aa11dbb5a9568977fb999f210b5b"
+hash = "5afcfaf990eb1bfc2d0b6688e60e0775051cbfdc9cbcedd9ba7780c03201a0c9"
 metafile = true
 
 [[files]]
@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "ebb80ff728e6654b79deb0fc05966772e4069f1d1ddf14d06003e96a772f33e8"
+hash = "ba5aa5f550de4c7172af1743b2c9086f39b8b3744a5f025ef7d319e36a81e8bd"
 metafile = true
 
 [[files]]

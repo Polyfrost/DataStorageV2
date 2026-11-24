@@ -16,7 +16,7 @@ metafile = true
 
 [[files]]
 file = "mods/autotext.pw.toml"
-hash = "cf68576fa2204323c8e3f966edf349e646bdec5af29a31707493c8b284bd09c7"
+hash = "64f568adf2753855c8125f8fc4dd711ad64711a3d9e729487800e1cbe4afa010"
 metafile = true
 
 [[files]]
@@ -231,12 +231,12 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "a5be1a4447b5a0e1b746e9286fe3820ee2839ffa23910f9732b453404f8e8e7a"
+hash = "c16f5c414c0f9b5393bcd9897bb25045a096246ba01c1dbe9ce52d6c46ed42ba"
 metafile = true
 
 [[files]]
 file = "mods/polynametag.pw.toml"
-hash = "86419ca8771591b9c4ce000fcb82f034e3e142e32957542f9d99181bc3430bea"
+hash = "4e604527f11775dd929d34c5afc8830dd8e343d7dbeb064926517f5548fcf408"
 metafile = true
 
 [[files]]

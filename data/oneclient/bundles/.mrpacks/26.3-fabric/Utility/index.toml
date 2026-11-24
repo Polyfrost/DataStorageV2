@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "c892ff070a2206f7cb1c46c95cb4ac121442c06b1f811b41c9cd07d0a88ae28f"
+hash = "026eae447bbe40b18f18e98d41d41aa452cad083f4a1c1acf8698a23da5af94f"
 metafile = true
 
 [[files]]
@@ -56,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-block-highlight.pw.toml"
-hash = "2ea06e7934aab4c5b73d212d08995d7e3075297aeeed7d31487438fc2ea8f54d"
+hash = "a99e3cbb3fe2432c99181c4ea4d2ac48ba0fe0de2c96a944263463f377ddf1ad"
 metafile = true
 
 [[files]]
@@ -126,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "ab497e12ad69039f6f2bb857497098082a41a544143ee9b912014642ab5c12fa"
+hash = "f610df6fadbd05047000b5bca73b14d26e1bcb766e2afc4cd3e4e30a7516ac47"
 metafile = true
 
 [[files]]

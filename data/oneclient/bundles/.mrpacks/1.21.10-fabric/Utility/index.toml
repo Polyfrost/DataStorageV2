@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-block-highlight.pw.toml"
-hash = "66803eacbb425224764a0a9682aed55e7ca1bec668cb32a4baa1d20a75783e9d"
+hash = "56b383a1cbd4265c948b8632005fb18b4fbb23d2ca026e4f04d08d8549daf046"
 metafile = true
 
 [[files]]
@@ -111,7 +111,7 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "eb053a4058f02747fa3dd5ca08d0b8692f2846207e387903e74cff3ad13e70f2"
+hash = "8287b82d6efca11f16cc1d443da081ecccbc8e7030f93ea24d0939ba88f2b43b"
 metafile = true
 
 [[files]]

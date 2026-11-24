@@ -11,7 +11,7 @@ metafile = true
 
 [[files]]
 file = "mods/autotext.pw.toml"
-hash = "a5a0942f963cdf2597ea4122eb6240476596e189ef906459e9967582397fff5a"
+hash = "2c74caa88d9809e69c747677b614f343d2f246978667993bce7398dfd6658a8c"
 metafile = true
 
 [[files]]
@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/glintcolorizer.pw.toml"
-hash = "a01c9316045eca3f45ab7446abf0dd923fffb2fcc3cb8eb4ab9eddcfa4dfb83c"
+hash = "ba1c49232e6de947b85ab08d8a036667295216f6fd3f5c6cfd88c72b59116451"
 metafile = true
 
 [[files]]
@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/legacywaveycapes.pw.toml"
-hash = "baf7d9263ab0cd1347a42c39e72e2da383a024f5fdb7d544341aff187dad68ae"
+hash = "bb6df6aac012de6c070cb65a1c100dcbdb02a9b2dbf1894de1c69c33ce81b8a1"
 metafile = true
 
 [[files]]
@@ -186,12 +186,12 @@ metafile = true
 
 [[files]]
 file = "mods/polycompose.pw.toml"
-hash = "42cde07cd49ae7d1a61d4c473f6c144e8168eaf1aa9e75ad4b22b67622c57bbc"
+hash = "02d429534c40a83ce08d114f5897d3b51c7a1793f02e42766182b2380647adee"
 metafile = true
 
 [[files]]
 file = "mods/polynametag.pw.toml"
-hash = "b7a603eddf857e65e45b93bdc1d047f7adaf43e6daf80c9dfd8c5cad11a02802"
+hash = "be54b750f8122a7d305faffa6f3d8ae5c7eea10a74f85b6f16fa083188126902"
 metafile = true
 
 [[files]]
