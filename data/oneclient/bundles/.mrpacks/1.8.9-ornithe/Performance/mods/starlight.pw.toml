@@ -1,0 +1,19 @@
+id = "starlight"
+enabled = true
+hidden = false
+name = "Starlight"
+filename = "starlight-1.0.0+1.8.9.jar"
+side = "client"
+type = "normal"
+
+[download]
+url = "https://github.com/Polyfrost/Legacy-Starlight/releases/download/v1.0.0/starlight-1.0.0%2B1.8.9.jar"
+hash-format = "sha256"
+hash = "a6da1f56f945d6b774f4799c1e6aadb1bbe8cfcca71fda7c41bf62acadd6e6ba"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^starlight-.+(?<!-sources)\\.jar$"
+slug = "Polyfrost/Legacy-Starlight"
+tag = "v1.0.0"
