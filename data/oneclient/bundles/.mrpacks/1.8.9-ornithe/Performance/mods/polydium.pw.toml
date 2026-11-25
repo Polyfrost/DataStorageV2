@@ -1,0 +1,16 @@
+id = "hbSfT032"
+enabled = true
+hidden = false
+name = "Polydium"
+filename = "Polydium-1.4.23.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hbSfT032/versions/L699SZnJ/Polydium-1.4.23.jar"
+hash-format = "sha512"
+hash = "aefc0064edc794857446d6c0b02bfd2979006f36d319288c10d8f5c38e1aa015e6f22c99d3d967d59c70481dab243764e0648b41624fa94d8e05be59525945b9"
+
+[update]
+[update.modrinth]
+mod-id = "hbSfT032"
+version = "L699SZnJ"
