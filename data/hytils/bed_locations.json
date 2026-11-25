@@ -12,31 +12,54 @@
   "overrides": [
     {
       "locations": [
-        "blue",
-        "blue",
-        "green",
-        "green",
-        "yellow",
-        "yellow",
+        "pink",
+        "gray",
         "red",
+        "blue",
+        "green",
+        "yellow",
+        "aqua",
+        "white"
+      ],
+      "maps": [
+        "Acropolis",
+        "Montipora",
+        "Pantheon",
+        "Sanctum"
+      ]
+    },
+    {
+      "locations": [
+        "blue",
+        "green",
+        "yellow",
+        "aqua",
+        "white",
+        "pink",
+        "gray",
         "red"
       ],
       "maps": [
-        "Comet",
-        "Deposit",
-        "Dreamgrove",
-        "Egg Run",
-        "Entangle",
-        "Holmgang",
-        "Invasion",
-        "Jurassic",
-        "Lectus",
-        "Loft",
-        "Mortuus",
-        "Orchid",
-        "Paradox",
-        "Stilted",
-        "Tigris"
+        "Ambush",
+        "Bloom",
+        "Frosted",
+        "Hanging Gardens",
+        "Station"
+      ]
+    },
+    {
+      "locations": [
+        "blue",
+        "red",
+        "red",
+        "yellow",
+        "yellow",
+        "green",
+        "green",
+        "blue"
+      ],
+      "maps": [
+        "Antenna"
       ]
     },
     {
@@ -61,135 +84,42 @@
     },
     {
       "locations": [
-        "pink",
-        "gray",
-        "red",
         "blue",
         "green",
-        "yellow",
-        "aqua",
-        "white"
-      ],
-      "maps": [
-        "Acropolis",
-        "Sanctum",
-        "Montipora"
-      ]
-    },
-    {
-      "locations": [
         "green",
         "yellow",
-        "aqua",
-        "white",
-        "pink",
-        "gray",
+        "yellow",
+        "red",
         "red",
         "blue"
       ],
       "maps": [
-        "Crypt",
-        "Ironclad"
+        "Ashore",
+        "Chalk Cliffs",
+        "Crimson",
+        "Eastwood",
+        "Extinction",
+        "Jurassic",
+        "Mystery",
+        "Obelisk",
+        "Pharaoh",
+        "Pool Party",
+        "Yandi"
       ]
     },
     {
       "locations": [
-        "blue",
-        "green",
+        "aqua",
         "yellow",
-        "aqua",
-        "white",
-        "pink",
-        "gray",
-        "red"
-      ],
-      "maps": [
-        "Ambush",
-        "Bloom",
-        "Frosted",
-        "Hanging Gardens"
-      ]
-    },
-    {
-      "locations": [
-        "aqua",
-        "white",
-        "pink",
-        "gray",
-        "red",
-        "blue",
-        "green",
-        "yellow"
-      ],
-      "maps": [
-        "Casita",
-        "Snowy Square",
-        "Sweet Wonderland",
-        "Duye"
-      ]
-    },
-    {
-      "locations": [
-        "red",
-        "blue",
-        "green",
-        "yellow",
-        "aqua",
-        "white",
-        "pink",
-        "gray"
-      ],
-      "maps": [
-        "Impere",
-        "Keep"
-      ]
-    },
-    {
-      "locations": [
         "green",
         "blue",
         "red",
         "gray",
         "pink",
-        "white",
-        "aqua",
-        "yellow"
+        "white"
       ],
       "maps": [
-        "Urban Plaza"
-      ]
-    },
-    {
-      "locations": [
-        "pink",
-        "white",
-        "aqua",
-        "yellow",
-        "green",
-        "blue",
-        "red",
-        "gray"
-      ],
-      "maps": [
-        "Slumber"
-      ]
-    },
-    {
-      "locations": [
-        "red",
-        "blue",
-        "blue",
-        "green",
-        "green",
-        "yellow",
-        "yellow",
-        "red"
-      ],
-      "maps": [
-        "Boletum",
-        "Graveship",
-        "Kubo",
-        "Zen Plaza"
+        "Atlas Prime"
       ]
     },
     {
@@ -204,9 +134,11 @@
         "green"
       ],
       "maps": [
+        "Beeeee",
+        "Deposit",
+        "Nostalgia",
         "Paladin",
-        "Terminal",
-        "Beeeee"
+        "Terminal"
       ]
     },
     {
@@ -227,17 +159,194 @@
     },
     {
       "locations": [
+        "green",
+        "yellow",
+        "yellow",
         "red",
+        "red",
+        "blue",
+        "blue",
+        "green"
+      ],
+      "maps": [
+        "Boletum",
+        "Planet 98",
+        "Usagi"
+      ]
+    },
+    {
+      "locations": [
+        "green",
+        "green",
+        "blue",
+        "blue",
+        "yellow",
+        "yellow",
+        "red",
+        "red"
+      ],
+      "maps": [
+        "Carapace"
+      ]
+    },
+    {
+      "locations": [
+        "aqua",
+        "white",
+        "pink",
+        "gray",
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "maps": [
+        "Casita",
+        "Duye",
+        "Snowy Square",
+        "Sweet Wonderland"
+      ]
+    },
+    {
+      "locations": [
+        "green",
+        "blue",
+        "red",
+        "gray",
+        "pink",
+        "white",
+        "aqua",
+        "yellow"
+      ],
+      "maps": [
+        "Cliffside",
+        "Urban Plaza"
+      ]
+    },
+    {
+      "locations": [
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "yellow",
+        "yellow",
+        "red",
+        "red"
+      ],
+      "maps": [
+        "Comet",
+        "Egg Run",
+        "Entangle",
+        "Holmgang",
+        "Invasion",
+        "Lectus",
+        "Loft",
+        "Mortuus",
+        "Orchid",
+        "Paradox",
+        "Stilted",
+        "Tigris"
+      ]
+    },
+    {
+      "locations": [
+        "green",
+        "green",
+        "yellow",
+        "yellow",
+        "red",
+        "red",
+        "blue",
+        "blue"
+      ],
+      "maps": [
+        "Dreamgrove",
+        "Lost Temple",
+        "Springtide"
+      ]
+    },
+    {
+      "locations": [
+        "pink",
+        "gray",
+        "yellow",
+        "green",
+        "red",
+        "red",
+        "aqua",
+        "aqua"
+      ],
+      "maps": [
+        "Echo Ruins"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "red",
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "maps": [
+        "Gardens",
+        "Ivory Castle",
+        "Lion's Temple"
+      ]
+    },
+    {
+      "locations": [
         "red",
         "blue",
         "blue",
         "green",
         "green",
         "yellow",
-        "yellow"
+        "yellow",
+        "red"
       ],
       "maps": [
-        "Shark Attack"
+        "Graveship",
+        "Kubo",
+        "Rigged",
+        "Seraph",
+        "Shipwreck",
+        "Zen Plaza"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "gray",
+        "pink",
+        "white",
+        "aqua",
+        "yellow",
+        "green",
+        "blue"
+      ],
+      "maps": [
+        "Highland Peaks"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "aqua",
+        "white",
+        "pink",
+        "gray"
+      ],
+      "maps": [
+        "Impere",
+        "Keep"
       ]
     },
     {
@@ -258,65 +367,31 @@
     {
       "locations": [
         "green",
-        "green",
         "yellow",
-        "yellow",
+        "aqua",
+        "white",
+        "pink",
+        "gray",
         "red",
-        "red",
-        "blue",
         "blue"
       ],
       "maps": [
-        "Lost Temple",
-        "Springtide",
-        "Usagi"
+        "Ironclad"
       ]
     },
     {
       "locations": [
-        "yellow",
-        "yellow",
-        "red",
         "red",
         "blue",
         "blue",
-        "green",
-        "green"
-      ],
-      "maps": [
-        "Nostalgia"
-      ]
-    },
-    {
-      "locations": [
-        "green",
-        "green",
-        "blue",
-        "blue",
         "yellow",
         "yellow",
-        "red",
+        "green",
+        "green",
         "red"
       ],
       "maps": [
-        "Carapace"
-      ]
-    },
-    {
-      "locations": [
-        "red",
-        "red",
-        "red",
-        "red",
-        "blue",
-        "blue",
-        "blue",
-        "blue"
-      ],
-      "maps": [
-        "Gardens",
-        "Lion\u0027s Temple",
-        "Ivory Castle"
+        "Manor Royale"
       ]
     },
     {
@@ -332,6 +407,51 @@
       ],
       "maps": [
         "Mosdalr"
+      ]
+    },
+    {
+      "locations": [
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "yellow",
+        "yellow"
+      ],
+      "maps": [
+        "Shark Attack"
+      ]
+    },
+    {
+      "locations": [
+        "gray",
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "aqua",
+        "white",
+        "pink"
+      ],
+      "maps": [
+        "Silver Birch"
+      ]
+    },
+    {
+      "locations": [
+        "pink",
+        "white",
+        "aqua",
+        "yellow",
+        "green",
+        "blue",
+        "red",
+        "gray"
+      ],
+      "maps": [
+        "Slumber"
       ]
     },
     {
