@@ -342,6 +342,21 @@
             "name": "Better X-Ray",
             "author": "realrbn",
             "explanation": "/oneclient/bad_mods_mds/betterxray.md"
+        },
+        {
+            "project-ids": {
+                "modrinth": "A6iVd0QT"
+            },
+            "name": "HitColor X",
+            "author": "Contt",
+            "explanation": "/oneclient/bad_mods_mds/hitcolorx.md",
+            "alternatives": [
+                {
+                    "project-ids": {
+                        "modrinth": "6zatK8W5"
+                    }
+                }
+            ]
         }
     ]
 }
