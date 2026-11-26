@@ -121,7 +121,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "7fe7745f604749f351ae09ae03c400752a2bbdedfc6cb7692b76e55daae7e684"
+hash = "7f03c73b8d4f63b8fcc7d0de8bb1e173a116de45a2cd37f8fedf9f221988f654"
 metafile = true
 
 [[files]]
