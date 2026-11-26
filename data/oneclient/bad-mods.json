@@ -345,7 +345,8 @@
         },
         {
             "project-ids": {
-                "modrinth": "A6iVd0QT"
+                "modrinth": "A6iVd0QT",
+                "curseforge": "1512037"
             },
             "name": "HitColor X",
             "author": "Contt",
