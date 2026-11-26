@@ -2,7 +2,7 @@
 # Runs `packwiz update` on every pack under bundles/.mrpacks/<version>/<Bundle>,
 # bumping mods to their latest stable versions (updates the source .pw.toml files).
 # Mods in BETA_MODS get a second pass without --stable so they track pre-releases.
-# CHANNEL=nightly drops --stable for every mod.
+# CHANNEL=nightly skips the stable pass and only bumps NIGHTLY_MODS to pre-releases.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
@@ -30,15 +30,23 @@ BETA_MODS=(
   walksylib
 )
 
+# Mods that get pre-release versions in the nightly channel only.
+NIGHTLY_MODS=(
+)
+
 update_bundle() {
   local bundle="$1"
   local attempt=1 out wait beta_out mod transient
-  local -a flags=(--stable) beta=("${BETA_MODS[@]}")
-  [ "$CHANNEL" = nightly ] && flags=() beta=()
+  local -a beta=("${BETA_MODS[@]}")
+  [ "$CHANNEL" = nightly ] && beta=("${NIGHTLY_MODS[@]}")
   while (( attempt <= MAX_ATTEMPTS )); do
-    # Stable pass: bump every mod to its latest stable version.
-    out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update -a -y "${flags[@]}" ) 2>&1 )" || true
-    printf '%s\n' "$out"
+    out=""
+    # Stable pass: bump every mod to its latest stable version. Nightly starts
+    # from the stable sources, so it skips this.
+    if [ "$CHANNEL" != nightly ]; then
+      out="$( ( cd "$bundle" && "$PACKWIZ_BIN" update -a -y --stable ) 2>&1 )" || true
+      printf '%s\n' "$out"
+    fi
     # Beta pass: re-update opted-in mods without --stable so packwiz accepts the
     # newest version regardless of release channel (beta/alpha).
     for mod in "${beta[@]}"; do

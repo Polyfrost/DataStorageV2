@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Builds the nightly channel into data/oneclient/bundles/nightly/ from a scratch
-# copy of the sources, with every mod on its newest version of any release type.
+# copy of the stable sources, with NIGHTLY_MODS (see update-bundles.sh) bumped to
+# their newest version of any release type.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
