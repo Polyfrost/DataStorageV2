@@ -216,7 +216,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "335e88c73e1c8bd69f6fc3de2aa8e409bcb4a296f83b8e9386e6865cb2ee2082"
+hash = "7bcf03a47ab6c9443eaba3f90adf82789ff5b05786e9c5ee586c8a061b7a4e4c"
 metafile = true
 
 [[files]]
@@ -256,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "2b4db80cea1c7d1440618b3573fef563152b3f861bee7a4e839f23555d18f09e"
+hash = "983dae8a11ce933c342d774a119a372bf58f960bf40bbfd4b6b3c3da548fc850"
 metafile = true
 
 [[files]]

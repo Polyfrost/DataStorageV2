@@ -6,7 +6,7 @@ hash = "352ba47f9168dcae80cc1e4b1706d44cff34a5a07bdc833235f4bb089a4c6bc9"
 
 [[files]]
 file = "mods/catharsis.pw.toml"
-hash = "e9f3092631b8db935eb80ae533cc1902122e74f3e7e2b77b30471dacbef2724a"
+hash = "da4465f53c928495ad46dbe1fb57862090353a48a701d94b7ecfdea62e0569a6"
 metafile = true
 
 [[files]]
@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "a2166ec381d925a11602c5a1cbd2e9443fb9bf17edb95f5fdbb29a7ae98cd643"
+hash = "17243ce7b640e3407af7376876002b8239e30385ebae9a3896130a0e031879af"
 metafile = true
 
 [[files]]
@@ -51,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "387492527389d05c591e973fe6ddbcae6473b73117ff13e6dced986f0b41ca9c"
+hash = "657ffc7b4a6ed27f632a231e13e1cd95bf1b3858443dc439f2e8eb06c69bd364"
 metafile = true
 
 [[files]]

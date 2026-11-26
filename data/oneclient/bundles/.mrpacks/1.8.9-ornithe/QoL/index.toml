@@ -81,7 +81,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgecompat.pw.toml"
-hash = "066496761c90b9de8a28bb574c993ffdc491be675c338da0e398a13b161f0a4e"
+hash = "43dcbfa9e10d541e24758eaea3f0699a741c363aa1250cbf3f6b23324c08397c"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "dfbcbe9002441b686a5dd122d1d4e3651deebef858da40feba72344087ab77fb"
+hash = "d56c3df79f8413a07ae66c3a1e0cf1dff04217f78a678e51a425d900268c65f3"
 metafile = true
 
 [[files]]
@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "dac600375bcbb8e9eaf8feed0cb0ef3ac90a39f83af98063aae179dedd04fe7b"
+hash = "cf5724c8c0b1435a74d5252a00a46eecf2aaac64c56242dee1cedc551d94566d"
 metafile = true
 
 [[files]]

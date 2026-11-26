@@ -6,12 +6,12 @@ hash = "d56521aa8208ba78118f5123038c64803d69f421518d23936d1ddb1d31a5ea9b"
 
 [[files]]
 file = "mods/argentum-extras.pw.toml"
-hash = "11bd56e6ee02ef7377af09d8c27cb29ecc120ce6b1edf88dbc756d431bcb3864"
+hash = "4379974fb5d8ec4c69f0c30555ef2f073e2b8c5312295c9f7d40303be16cda85"
 metafile = true
 
 [[files]]
 file = "mods/argentum.pw.toml"
-hash = "3f7e2a61f99e86c2e90a2977a3ccf20b49335955a244f644340739b33bab4884"
+hash = "be3614657a56334428119bd25225500d3a580c0fd1f131e33ef0adf3cfb04225"
 metafile = true
 
 [[files]]
@@ -21,7 +21,7 @@ metafile = true
 
 [[files]]
 file = "mods/cera.pw.toml"
-hash = "f1e206d1897ad9ac9530149f4ee610922ac3b0b40679c795d113dc1809342996"
+hash = "43650c870b6d50fa78ab5d6bb4f5f1c4278d33c0deb220bb2540cf0ae5998389"
 metafile = true
 
 [[files]]
@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "dfbcbe9002441b686a5dd122d1d4e3651deebef858da40feba72344087ab77fb"
+hash = "d56c3df79f8413a07ae66c3a1e0cf1dff04217f78a678e51a425d900268c65f3"
 metafile = true
 
 [[files]]
@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "dac600375bcbb8e9eaf8feed0cb0ef3ac90a39f83af98063aae179dedd04fe7b"
+hash = "cf5724c8c0b1435a74d5252a00a46eecf2aaac64c56242dee1cedc551d94566d"
 metafile = true
 
 [[files]]

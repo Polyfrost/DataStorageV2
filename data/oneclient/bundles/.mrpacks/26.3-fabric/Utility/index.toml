@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "34a9e128eb16a02e00fcb224bef8e32ddebc4dfb450ee95b6712868165518861"
+hash = "948da655f964a4eb0a71c8cda6e1c3c06ea6bc72b31f7d2f0e48f238f3552d3e"
 metafile = true
 
 [[files]]
@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
-hash = "f86a70b544cfd88091c2fa0981a3c7fff58fb89226137d0d8a12c6e2d274f6a1"
+hash = "525fe882e6ef9fae978c2f2b8400cc415be6d6197ee068474079edfaac79372d"
 metafile = true
 
 [[files]]
@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/oneconfig.pw.toml"
-hash = "074035117323710ccc5b15829bce4a99b4d31f2c6c11f1f044f9af36945aa588"
+hash = "c6929860de05f99c287f9140b26987f4c8021935ca29553274a1ab80dbaaabd6"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/polyplus.pw.toml"
-hash = "aeba7fe9b81b087259e1f6f62adef2e2444ecf35486d6b00925310bf76ea7d03"
+hash = "86ee8b09854fb94bd853af872f129c3c724ff32b6140bbbb066965bff16b9ce2"
 metafile = true
 
 [[files]]
