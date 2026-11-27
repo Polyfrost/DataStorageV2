@@ -111,12 +111,12 @@ metafile = true
 
 [[files]]
 file = "mods/hychatter.pw.toml"
-hash = "83a3216990f98778c765cbc10f633826e456c7535528652ade55b4407d0ad647"
+hash = "e23528f45a7c77f437b391069b7c7088d266fbdd2326200c0a8dcff0736d6313"
 metafile = true
 
 [[files]]
 file = "mods/hyinfo.pw.toml"
-hash = "47e24d3b7b4662822d4ef8594d9987b05080ccb2c94c20e0019f4357a60b3563"
+hash = "ff3a17683ab021d99869a8899176aff0e21cb3b6572595dbf79039c17a583b11"
 metafile = true
 
 [[files]]
