@@ -60,6 +60,11 @@ hash = "1c00923ee553420d107b1b0a31bc737eee53e8a2fedd4f66f19cb0cae3a16274"
 metafile = true
 
 [[files]]
+file = "mods/skycubed.pw.toml"
+hash = "ee9ab60b3c9f00d23658f2deddb6b0a08d68d060963e359836aaf5a8a3524817"
+metafile = true
+
+[[files]]
 file = "mods/skyocean.pw.toml"
 hash = "fa6a8d7b44c23c09c5c768f2485becfed6069110c08e0cf5c94c56b7d2b84ec8"
 metafile = true

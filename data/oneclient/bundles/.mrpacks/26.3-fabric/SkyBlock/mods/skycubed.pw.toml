@@ -1,0 +1,16 @@
+id = "znwUKvZc"
+enabled = false
+hidden = false
+name = "SkyCubed"
+filename = "SkyCubed-1.10.1-26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/znwUKvZc/versions/we7l08QJ/SkyCubed-1.10.1-26.3.jar"
+hash-format = "sha512"
+hash = "4669ee8946b8492bcaa76c57124819028d6609c9b013418540484356591c850d42d9edfbd52a150f29bab3ef480556c87e5607a5fd05f672e8b154f6a2b0e131"
+
+[update]
+[update.modrinth]
+mod-id = "znwUKvZc"
+version = "we7l08QJ"
