@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/freelook-oneconfig.pw.toml"
-hash = "315817a15092ee8a5d586de1773978376144e04cff04badf5cfa15f147ed179a"
+hash = "7c5ee0ea172a289c890b5bf46506d2461350ef8bcb5a68d5ca20a0c62d3c7d94"
 metafile = true
 
 [[files]]
