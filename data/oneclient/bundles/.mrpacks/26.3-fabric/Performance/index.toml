@@ -70,11 +70,6 @@ hash = "7913e951be45c0f8d21da4eb8922f980c16cf6ea202ddf14bf476f322d3bf2af"
 metafile = true
 
 [[files]]
-file = "mods/hintfix.pw.toml"
-hash = "9f0558af654abb57d7a23f26d387f5f50f47325317345d1bb1a73e23fa4e0df6"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "3f1b0fb4fe5d02a27994ca42cb90bbb136fe7fa8156bfdb666ecfae86f751fdb"
 metafile = true

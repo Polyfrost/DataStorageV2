@@ -145,11 +145,6 @@ hash = "c95a3a4a757fbb3e1b2452792d172679004bbdb8d6aac4d473cc623868098da4"
 metafile = true
 
 [[files]]
-file = "mods/hintfix.pw.toml"
-hash = "9f0558af654abb57d7a23f26d387f5f50f47325317345d1bb1a73e23fa4e0df6"
-metafile = true
-
-[[files]]
 file = "mods/itemphysic-lite.pw.toml"
 hash = "3ff83ef8f13a89648a1f1b268c25de72d0649e86e534600f248c073abb6f8b0e"
 metafile = true
