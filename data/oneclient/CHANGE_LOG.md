@@ -1,3 +1,27 @@
+# 2.13.0
+
+- fix: upload changelog to the published release instead of latest
+- Wait for bundle files on first launch
+- fix: followups
+- fix: follow-ups for merged log jump and copy rows
+- chore: clear clippy warnings and dedupe helpers
+- chore: selected version doesnt show in the version dropdown
+- Enable a disabled mod when it is reinstalled
+- Keep hand-dropped packs whose link is switched off
+- Let imported instances turn on OneClient bundles
+- Cap memory presets at half of RAM
+- Write panics to the launcher log file
+- Launch legacy Intel GPUs without the Windows 10 manifest GUID
+- Show modpack mods as managed in update check
+- feat: jump to line in logs
+- fix: stop cutting long tooltips off at two lines
+- fix: stop the mod copy prompt from crashing the launcher
+- feat: show each copy's version in the mod copies prompt
+- chore: added 10s timer to mod warnings
+- Pass resolution to legacy versions
+- change variants -> bundled
+- Keep compact object headers when custom args pick a GC
+
 # 2.12.1
 
 - fix: make text on art, media and accent follow the active theme
