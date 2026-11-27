@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/mountopacity.pw.toml"
-hash = "39509d9dacd56301c1b0b99024f55a1016ddd7f44c668c67632f64f1940752c0"
+hash = "89f2ad6bcccae323ebb7aedf4fcf7fe445e4fcbcf8876cc75ccfb6b68462ebf5"
 metafile = true
 
 [[files]]
