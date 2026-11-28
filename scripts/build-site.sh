@@ -27,6 +27,24 @@ rsync -a --exclude='.*' "$DATA_DIR"/ "$OUTPUT_DIR"/
 # bundles/metadata.json stays for older launchers; stable/ gets its own copy.
 cp "$OUTPUT_DIR/oneclient/bundles/metadata.json" "$OUTPUT_DIR/oneclient/bundles/stable/metadata.json"
 
+VERSION_IDS="$DATA_DIR/oneclient/bundles/modrinth-versions.json"
+if [ -f "$VERSION_IDS" ]; then
+  node -e '
+    const fs = require("fs");
+    const [idsFile, ...files] = process.argv.slice(1);
+    const ids = JSON.parse(fs.readFileSync(idsFile, "utf8"));
+    for (const file of files) {
+      if (!fs.existsSync(file)) continue;
+      const metadata = JSON.parse(fs.readFileSync(file, "utf8"));
+      metadata.modrinthVersions = ids;
+      fs.writeFileSync(file, JSON.stringify(metadata, null, 4) + "\n");
+    }
+  ' "$VERSION_IDS" \
+    "$OUTPUT_DIR/oneclient/bundles/metadata.json" \
+    "$OUTPUT_DIR/oneclient/bundles/stable/metadata.json" \
+    "$OUTPUT_DIR/oneclient/bundles/nightly/metadata.json"
+fi
+
 # Resolve ${...} templates in the built JSON files.
 node "$SCRIPT_DIR/template.js" "$OUTPUT_DIR"
 
