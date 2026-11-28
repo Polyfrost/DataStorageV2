@@ -30,6 +30,8 @@ const COMMIT = process.env.GITHUB_SHA;
 
 const INDEX_NAME = "modrinth.index.json";
 
+const VERSION_IDS_FILE = path.join(GENERATED_DIR, "..", "modrinth-versions.json");
+
 const CONTENT_MARKER = (digest) => `Content SHA-1: \`${digest}\``;
 const CONTENT_MARKER_RE = /Content SHA-1: `([0-9a-f]{40})`/g;
 
@@ -101,11 +103,11 @@ async function api(pathname, options = {}) {
 async function projectState(projectId) {
   const res = await api(`/project/${projectId}/version`);
   const versions = await res.json();
-  const contentHashes = new Set();
+  const contentHashes = new Map();
   let maxPatch = -1;
   for (const version of versions) {
     for (const match of (version.changelog || "").matchAll(CONTENT_MARKER_RE)) {
-      contentHashes.add(match[1]);
+      if (!contentHashes.has(match[1])) contentHashes.set(match[1], version.id);
     }
     const match = version.version_number?.match(PATCH_RE);
     if (match) maxPatch = Math.max(maxPatch, Number(match[1]));
@@ -146,8 +148,9 @@ async function createVersion({
     file.name
   );
 
-  await api("/version", { method: "POST", body: form });
+  const res = await api("/version", { method: "POST", body: form });
   console.log(`  published ${displayName} ${mc} (${versionNumber})`);
+  return (await res.json()).id;
 }
 
 function classify(filename) {
@@ -199,6 +202,7 @@ async function main() {
   }
 
   let releasedVersion = null;
+  const versionIds = {};
 
   for (const [project, entries] of byProject) {
     console.log(`Project ${project.displayName} (${project.projectId}):`);
@@ -210,9 +214,10 @@ async function main() {
       const contentSha1 = sha1(buffer);
       if (contentHashes.has(contentSha1)) {
         console.log(`  up to date: ${mc} (${filename})`);
+        if (project.releasesChangelog) versionIds[mc] = contentHashes.get(contentSha1);
         continue;
       }
-      await createVersion({
+      const versionId = await createVersion({
         projectId: project.projectId,
         displayName: project.displayName,
         mc,
@@ -220,9 +225,14 @@ async function main() {
         versionNumber,
         contentSha1,
       });
-      if (project.releasesChangelog) releasedVersion = versionNumber;
+      if (project.releasesChangelog) {
+        releasedVersion = versionNumber;
+        versionIds[mc] = versionId;
+      }
     }
   }
+
+  fs.writeFileSync(VERSION_IDS_FILE, JSON.stringify(versionIds, null, 2) + "\n");
 
   if (releasedVersion && process.env.GITHUB_OUTPUT) {
     fs.appendFileSync(process.env.GITHUB_OUTPUT, `version=${releasedVersion}\n`);
