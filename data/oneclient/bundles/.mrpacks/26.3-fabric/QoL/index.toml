@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/flashback.pw.toml"
-hash = "8e7947711d8e2734344a51c2ce0c2165473c11b4a3cde4437c76d72c1c08be5d"
+hash = "e4e7e2425d8d0019cb2189776bbe12dcc3a6cf361e19f453a5b432e711cd1906"
 metafile = true
 
 [[files]]
